@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain test coverage</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain test coverage</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -51,7 +51,7 @@
                       <li><strong>Condition coverage</strong> : based on the boolean sub-expressions, each evaluated to both true and false with different test cases. Condition coverage is not the same as the decision coverage.</li>
                     </ul>
                     <tip-box>
-                      <p><code>if(x &gt; 2 &amp;&amp; x &lt; 44)</code> is considered one decision point but two conditions.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>if(x &gt; 2 &amp;&amp; x &lt; 44)</code> is considered one decision point but two conditions.</p>
                       <p>For 100% branch or decision coverage, two test cases are required:</p>
                       <ul>
                         <li><code>(x &gt; 2 &amp;&amp; x &lt; 44) == true</code> : [e.g. <code>x == 4</code>]</li>
@@ -71,9 +71,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
-                          <panel header=" highest intensity coverage">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: highest intensity coverage">
                             <question>
                               <p>Which of these gives us the highest intensity of testing?</p>
                               <ul radio-group="3db75" class="radio-list">

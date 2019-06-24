@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: make the happy path prominent </span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: make the happy path prominent </span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -46,7 +46,7 @@
                     <tip-box>
                       <p>Example:</p>
                       <p>
-                        <font color="red"><span>** Bad**</span></font>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                       </p>
                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (!isUnusualCase) {  <span class="hljs-comment">//detecting an unusual condition</span>
     <span class="hljs-keyword">if</span> (!isErrorCase) {
@@ -67,7 +67,7 @@
                         <li>Main path is nested deeply.</li>
                       </ul>
                       <p>
-                        <font color="green"><span>** Good**</span></font>
+                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                       </p>
                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isUnusualCase) { <span class="hljs-comment">//Guard Clause</span>
     handleUnusualCase();

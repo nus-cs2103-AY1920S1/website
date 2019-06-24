@@ -43,7 +43,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain use cases</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain use cases</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -51,7 +51,7 @@
                         <tip-box type="definition">
                           <div>
                             <p><strong>Use Case</strong>: A description of a set of sequences of actions, including variants, that a system performs to yield an observable result of value to an <trigger for="pop:actor">actor</trigger>.[ 📖 : <popover effect="fade" placement="top">uml-user-guide<span slot="content"><span><em><strong>The Unified Modeling Language User Guide</strong></em>, 2e, G Booch, J Rumbaugh, and I Jacobson </span></span></popover>]</p>
-                            <popover id="pop:actor" title placement="top">
+                            <popover id="pop:actor" title="<md>:glyphicon-eye-open:</md>" placement="top">
                               <div slot="content">
                                 <div>
                                   <p><strong>Actor</strong>: An actor (in a use case) is a role played by a user. An actor can be a human or another system. Actors are not part of the system; they reside outside the system.</p>
@@ -62,7 +62,7 @@
                         </tip-box>
                         <p><strong>A use case describes an <em>interaction between the user and the system</em> for a <em>specific functionality</em> of the system.</strong></p>
                         <tip-box>
-                          <panel header=" Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
+                          <panel header="<md>:fas-cube:</md> Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
                             <ul>
                               <li>System: <popover effect="fade" placement="right" content="Automated Teller Machine">
                                   ATM </popover>
@@ -81,7 +81,7 @@
                               </li>
                             </ul>
                           </panel>
-                          <panel header="%% Example 2: 'upload file' use case of an LMS%%" type="seamless">
+                          <panel header="%%<md>:fas-cube:</md> Example 2: 'upload file' use case of an LMS%%" type="seamless">
                             <ul>
                               <li>System: A Learning Management System (LMS)</li>
                               <li>Actor: Student</li>
@@ -122,7 +122,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use use cases to list functional requirements of a simple system</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use use cases to list functional requirements of a simple system</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -135,7 +135,7 @@
                           </div>
                         </tip-box>
                         <tip-box>
-                          <p>Some example actors for a Learning Management System</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example actors for a Learning Management System</p>
                           <ul>
                             <li>Actors: Guest, Student, Staff, Admin, <tooltip content="an exam management system">ExamSys</tooltip>, <tooltip content="a library management system">LibSys</tooltip>.</li>
                           </ul>
@@ -175,7 +175,7 @@
 
                         <p><strong>Use cases can be specified at <em>various levels of detail</em>.</strong></p>
                         <tip-box>
-                          <p>Consider the three use cases given below. Clearly, (a) is at a higher level than (b) and (b) is at a higher level than (c).</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the three use cases given below. Clearly, (a) is at a higher level than (b) and (b) is at a higher level than (c).</p>
                           <ul>
                             <li>System: LearnSys</li>
                             <li>Use cases:<br>
@@ -192,7 +192,7 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <panel header="Q: Use case diagram for a ticket vending machine">
                                 <question has-input="false">
@@ -240,7 +240,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can specify details of a use case in a structured format</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can specify details of a use case in a structured format</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -250,7 +250,7 @@
                           <link rel="stylesheet" href="/website/book/css/common.css">
                           <p><strong>The main body of the use case is the sequence of steps that describes the interaction between the system and the actors.</strong> Each step is given as a simple statement describing <em>who does what</em>.</p>
                           <tip-box>
-                            <p>An example of the main body of a use case.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of the main body of a use case.</p>
                             <ol>
                               <li>Student requests to upload file</li>
                               <li>LMS requests for the file location</li>
@@ -260,26 +260,26 @@
                           </tip-box>
                           <p><strong>A use case describes only the externally visible behavior, not internal details, of a system</strong> i.e. should not mention give details that are not part of the interaction between the user and the system.</p>
                           <tip-box>
-                            <p>This example use case step refers to behaviors not externally visible .</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example use case step refers to behaviors not externally visible .</p>
                             <ol>
                               <li>LMS <mark>saves the file into the cache</mark> and indicates success.</li>
                             </ol>
                           </tip-box>
                           <p><strong>A step gives the intention of the actor (not the mechanics).</strong> That means UI details are usually omitted. The idea is to leave as much flexibility to the UI designer as possible. That is, the use case specification should be as general as possible (less specific) about the UI.</p>
                           <box>
-                            <p>The first example below is not a good use case step because contains UI-specific details. The second one is better because it omits UI-specific details.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The first example below is not a good use case step because contains UI-specific details. The second one is better because it omits UI-specific details.</p>
                             <div class="indented">
                               <p>
-                                <font color="red"><span>** Bad**</span></font> : User right-clicks the text box and chooses ‘clear’
+                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> : User right-clicks the text box and chooses ‘clear’
                               </p>
                               <p>
-                                <font color="green"><span>** Good**</span></font> : User clears the input
+                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> : User clears the input
                               </p>
                             </div>
                           </box>
                           <p>A use case description can show loops too.</p>
                           <tip-box>
-                            <p>An example of how you can show a loop:</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of how you can show a loop:</p>
                             <p>Software System: Square game
                               Use case: <popover content="Each use case can be given a unique identification for easier cross reference."> UC02 </popover> - Play a Game
                               Actors: Player (multiple players)</p>
@@ -324,7 +324,7 @@
                         <div>
                           <p><strong><mark><em>Extensions</em></mark> are &quot;add-on&quot;s to the MSS that describe <em>exceptional/alternative flow of events</em>.</strong> They describe variations of the scenario that can happen if certain things are not as expected by the MSS. Extensions appear below the MSS.</p>
                           <tip-box>
-                            <p>This example adds some extensions to the use case in the previous example.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example adds some extensions to the use case in the previous example.</p>
                             <ul>
                               <li>System: Online Banking System (OBS)</li>
                               <li>Use case: UC23 - Transfer Money</li>
@@ -389,7 +389,7 @@
                           <link rel="stylesheet" href="/website/book/css/common.css">
                           <p><strong>A use case can <mark>include</mark> another use case.</strong> <ins>Underlined text</ins> is commonly used to show an inclusion of a use case.</p>
                           <box>
-                            <p>This use case includes two other use cases, one in step 1 and one in step 2.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This use case includes two other use cases, one in step 1 and one in step 2.</p>
                             <div class="text-monospace">
                               <ul>
                                 <li><strong>Software System</strong>: LearnSys</li>
@@ -468,10 +468,10 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <link rel="stylesheet" href="/website/book/css/common.css">
-                              <panel header=" EZ-Link top-up use case">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: EZ-Link top-up use case">
                                 <question has-input="true">
                                   <p>Complete the following use case (MSS, extensions, etc.). Note that you should not blindly follow how the existing <tooltip content="A type of a cash card topup machine">EZ-Link machine</tooltip> operates because it will prevent you from designing a better system. You should consider all possible extensions without complicating the use case too much.</p>
                                   <tip-box>
@@ -576,7 +576,7 @@
                             </div>
                             <div>
                               <link rel="stylesheet" href="/website/book/css/common.css">
-                              <panel header=" LearnSys – reply to post use case">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LearnSys – reply to post use case">
                                 <question has-input="true">
                                   <p>Complete the following use case (MSS, extensions, etc.).</p>
                                   <tip-box>
@@ -659,7 +659,7 @@
                               </panel>
                             </div>
                             <div>
-                              <panel header=" Parts of a use case descriptions">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Parts of a use case descriptions">
                                 <question>
                                   <p>Which of these cannot appear as part of a use case description?</p>
                                   <ul class="task-list">
@@ -681,7 +681,7 @@
                             </div>
                             <div>
                               <link rel="stylesheet" href="/website/book/css/common.css">
-                              <panel header=" What’s wrong with this use case?">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What’s wrong with this use case?">
                                 <question>
                                   <p>Identify problems with this use case description.</p>
                                   <div>
@@ -746,20 +746,20 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can optimize the use of use cases</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can optimize the use of use cases</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>You can use actor generalization in use case diagrams</strong> using a symbol similar to that of UML notation for inheritance.</p>
                         <tip-box>
-                          <p>In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
                           <img src="/website/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png" height="250">
                         </tip-box>
                         <p>💡 Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
                         <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
                         <tip-box>
-                          <p>The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
                           <img src="/website/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200">
                         </tip-box>
                         <p>However, others argue that only use cases providing value to an external user/system should be shown in the use case diagram. For example, they argue that ‘view daily report’ should be the use case and <code>generate daily report</code> is not to be shown in the use case diagram because it is simply something the system has to do to support the <code>view daily report</code> use case.</p>
@@ -777,9 +777,9 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
-                              <panel header=" Advantages of use cases">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Advantages of use cases">
                                 <question>
                                   <p>What are the advantages of using use cases (the textual form) for requirements modelling?</p>
                                   <ul class="task-list">
@@ -795,7 +795,7 @@
                               </panel>
                             </div>
                             <div>
-                              <panel header=" Statements about use cases">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about use cases">
                                 <question>
                                   <p>Which of these are correct?</p>
                                   <ul class="task-list">

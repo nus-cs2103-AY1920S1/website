@@ -43,7 +43,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid long methods </span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid long methods </span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -62,7 +62,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid deep nesting </span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid deep nesting </span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -74,14 +74,14 @@
                         <img src="/website/book/codeQuality/maximiseReadability/basic/avoidDeepNesting/images/arrowheadStyle.png" width="500">
                         <p></p>
                         <box>
-                          <p>A real code example:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A real code example:</p>
                           <div class="alt-java">
                             <div>
                               <table>
                                 <tr>
                                     <td>
                                     <p>
-                                      <font color="red"><span>** Bad**</span></font>
+                                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                     </p>
                                     <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">subsidy</span><span class="hljs-params">()</span> </span>{
     <span class="hljs-keyword">int</span> subsidy;
@@ -106,7 +106,7 @@
                                     <td>  <br><br></td>
                                     <td valign="top">
                                     <p>
-                                      <font color="green"><span>** Good**</span></font>
+                                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                     </p>
                                     <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">calculateSubsidy</span><span class="hljs-params">()</span> </span>{
     <span class="hljs-keyword">int</span> subsidy;
@@ -134,7 +134,7 @@
                                 <tr>
                                     <td>
                                     <p>
-                                      <font color="red"><span>** Bad**</span></font>
+                                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                     </p>
                                     <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">calculate_subs</span><span class="hljs-params">()</span>:</span>
     <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> age:
@@ -154,7 +154,7 @@
                                     <td>  <br><br></td>
                                     <td valign="top">
                                     <p>
-                                      <font color="green"><span>** Good**</span></font>
+                                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                     </p>
                                     <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">calculate_subsidy</span><span class="hljs-params">()</span>:</span>
     <span class="hljs-keyword">if</span> is_senior:
@@ -186,7 +186,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid complicated expressions </span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid complicated expressions </span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -195,14 +195,14 @@
                         <div class="alt-java">
                           <div>
                             <tip-box>
-                              <p>Example:</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                               <p>
-                                <font color="red"><span>** Bad**</span></font>
+                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
                               <pre><code class="hljs java"><span class="hljs-keyword">return</span> ((length &lt; MAX_LENGTH) || (previousSize != length)) &amp;&amp; (typeCode == URGENT);
 </code></pre>
                               <p>
-                                <font color="green"><span>** Good**</span></font>
+                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
                               <pre><code class="hljs java">
 <span class="hljs-keyword">boolean</span> isWithinSizeLimit = length &lt; MAX_LENGTH;
@@ -219,14 +219,14 @@
                         <div class="alt-python">
                           <div>
                             <tip-box>
-                              <p>Example:</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                               <p>
-                                <font color="red"><span>** Bad**</span></font>
+                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                               </p>
                               <pre><code class="hljs python"><span class="hljs-keyword">return</span> ((length &lt; MAX_LENGTH) <span class="hljs-keyword">or</span> (previous_size != length)) <span class="hljs-keyword">and</span> (type_code == URGENT)
 </code></pre>
                               <p>
-                                <font color="green"><span>** Good**</span></font>
+                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                               </p>
                               <pre><code class="hljs python">is_within_size_limit = length &lt; MAX_LENGTH
 is_same_size = previous_size != length
@@ -255,21 +255,21 @@ is_urgent = type_code == URGENT
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid magic numbers </span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid magic numbers </span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
                         <tip-box>
-                          <p>Example:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                           <div class="alt-java">
                             <div>
                               <table>
                                 <tr>
                                     <td valign="top">
                                     <p>
-                                      <font color="red"><span>** Bad**</span></font>
+                                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                     </p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">return</span> <span class="hljs-number">3.14236</span>;
 ...
@@ -280,7 +280,7 @@ is_urgent = type_code == URGENT
                                     <td>  <br><br></td>
                                     <td valign="top">
                                     <p>
-                                      <font color="green"><span>** Good**</span></font>
+                                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                     </p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">double</span> PI = <span class="hljs-number">3.14236</span>;
 <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> MAX_SIZE = <span class="hljs-number">10</span>;
@@ -302,7 +302,7 @@ is_urgent = type_code == URGENT
                                 <tr>
                                     <td valign="top">
                                     <p>
-                                      <font color="red"><span>** Bad**</span></font>
+                                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                     </p>
                                     <pre><code class="hljs python"><span class="hljs-keyword">return</span> <span class="hljs-number">3.14236</span>
 ...
@@ -313,7 +313,7 @@ is_urgent = type_code == URGENT
                                     <td>  <br><br></td>
                                     <td valign="top">
                                     <p>
-                                      <font color="green"><span>** Good**</span></font>
+                                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                     </p>
                                     <pre><code class="hljs python">PI = <span class="hljs-number">3.14236</span>
 MAX_SIZE = <span class="hljs-number">10</span>
@@ -332,7 +332,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                         <p>Similarly, we can have ‘magic’ values of other data types.</p>
                         <tip-box>
                           <p>
-                            <font color="red"><span>** Bad**</span></font>
+                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                           </p>
                           <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
@@ -350,7 +350,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: make the code obvious </span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: make the code obvious </span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>

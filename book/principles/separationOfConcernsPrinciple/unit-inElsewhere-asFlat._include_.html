@@ -20,7 +20,7 @@
         </tip-box>
         <p>A <em>concern</em> in this context is a set of information that affects the code of a computer program.</p>
         <tip-box>
-          <p>Examples for <em>concerns</em>:</p>
+          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples for <em>concerns</em>:</p>
           <ul>
             <li>A specific feature, such as the code related to <code>add employee</code> feature</li>
             <li>A specific aspect, such as the code related to <code>persistence</code> or <code>security</code></li>
@@ -29,13 +29,13 @@
         </tip-box>
         <p><strong>Applying <tooltip content="Separation of Concerns">SoC</tooltip> reduces functional overlaps among code sections and also limits the ripple effect when changes are introduced to a specific part of the system.</strong></p>
         <tip-box>
-          <p>If the code related to <em>persistence</em> is separated from the code related to <em>security</em>, a change to how the data are persisted will not need changes to how the security is implemented.</p>
+          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the code related to <em>persistence</em> is separated from the code related to <em>security</em>, a change to how the data are persisted will not need changes to how the security is implemented.</p>
         </tip-box>
         <p><strong>This principle can be applied at the class level, as well as on higher levels.</strong></p>
         <tip-box>
-          <p>The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
+          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with each other.</p>
         </tip-box>
-        <modal title="TextBook " id="modal:soc-nTier">
+        <modal title="TextBook <md>:glyphicon-log-in:</md>" id="modal:soc-nTier">
             <div>
             <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\unit-inElsewhere-asFlat.md">
               <div>
@@ -54,7 +54,7 @@
                       <p><strong>In the <em>n-tier</em> style, higher layers make use of services provided by lower layers.</strong> Lower layers are independent of higher layers. Other names: <em>multi-layered</em>, <em>layered</em>.</p>
                       <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTier.png" height="150">
                       <tip-box>
-                        <p>Operating systems and network communication software often use n-tier style.
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Operating systems and network communication software often use n-tier style.
                           <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTierExamples.png" height="150"></p>
                       </tip-box>
                       <p></p>
@@ -69,7 +69,7 @@
           </div>
         </modal>
         <p><strong>This principle should lead to higher <trigger trigger="click" for="soc-cohesion">cohesion</trigger> and lower <trigger trigger="click" for="soc-coupling">coupling</trigger>.</strong></p>
-        <modal title="TextBook " id="soc-coupling">
+        <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-coupling">
             <div>
             <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\coupling\what\unit-inElsewhere-asFlat.md">
               <div>
@@ -92,7 +92,7 @@
                         <li><strong>Testing and reuse of the module is harder</strong> due to its dependence on other modules.</li>
                       </ul>
                       <tip-box>
-                        <p>In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
                         <img src="/website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
                         <p></p>
                       </tip-box>
@@ -102,10 +102,10 @@
                     <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\coupling\what\text.md">
                       <div>
                         <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\coupling\what\exercises.md">
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\coupling\what\q-essay-coupling-levels.md">
-                                <panel header=" Coupling levels of alternative designs">
+                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling levels of alternative designs">
                                   <question has-input="true">
                                     <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
                                     <tip-box>
@@ -121,7 +121,7 @@
                             </div>
                             <div>
                               <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\coupling\what\q-essay-regression-coupling.md">
-                                <panel header=" regressions and coupling.">
+                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: regressions and coupling.">
                                   <question has-input="true">
                                     <p>Explain the link (if any) between regressions and coupling.</p>
                                     <div slot="answer">
@@ -133,7 +133,7 @@
                             </div>
                             <div>
                               <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\coupling\what\q-essay-coupling-testability.md">
-                                <panel header=" Coupling and testability">
+                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling and testability">
                                   <question has-input="true">
                                     <p>Discuss the relationship between coupling and <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
                                     <div slot="answer">
@@ -145,7 +145,7 @@
                             </div>
                             <div>
                               <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\coupling\what\q-tick-statementsAboutCoupling.md">
-                                <panel header=" Statements about coupling">
+                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about coupling">
                                   <question>
                                     <p>Choose the correct statements.</p>
                                     <ul class="task-list">
@@ -173,7 +173,7 @@
             </div>
           </div>
         </modal>
-        <modal title="TextBook " id="soc-cohesion">
+        <modal title="TextBook <md>:glyphicon-log-in:</md>" id="soc-cohesion">
             <div>
             <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\cohesion\what\unit-inElsewhere-asFlat.md">
               <div>
@@ -212,10 +212,10 @@
       <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\separationOfConcernsPrinciple\text.md">
         <div>
           <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\separationOfConcernsPrinciple\exercises.md">
-            <panel header=" Exercises" expandable>
+            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
               <div>
                 <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\separationOfConcernsPrinciple\q-tick-correctStatement.md">
-                  <panel header=" correct statement about SoC">
+                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: correct statement about SoC">
                     <question>
                       <p>“Only the GUI class should interact with the user. The GUI class should only concern itself with user interactions”. This statement follows from,</p>
                       <ul class="task-list">

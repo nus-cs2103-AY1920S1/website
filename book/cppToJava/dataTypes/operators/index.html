@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use operators</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use operators</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -56,27 +56,27 @@
                           <tr>
                             <td><code>+</code></td>
                             <td>Additive operator</td>
-                            <td><code>2 + 3</code> %%%% <code>5</code></td>
+                            <td><code>2 + 3</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>5</code></td>
                           </tr>
                           <tr>
                             <td><code>-</code></td>
                             <td>Subtraction operator</td>
-                            <td><code>4 - 1</code> %%%% <code>3</code></td>
+                            <td><code>4 - 1</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>3</code></td>
                           </tr>
                           <tr>
                             <td><code>*</code></td>
                             <td>Multiplication operator</td>
-                            <td><code>2 * 3</code> %%%% <code>6</code></td>
+                            <td><code>2 * 3</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>6</code></td>
                           </tr>
                           <tr>
                             <td><code>/</code></td>
                             <td>Division operator</td>
-                            <td>==<code>5 / 2</code> %%%% <code>2</code>== but ==<code>5.0 / 2</code> %%%% <code>2.5</code>==</td>
+                            <td><mark><code>5 / 2</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>2</code></mark> but <mark><code>5.0 / 2</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>2.5</code></mark></td>
                           </tr>
                           <tr>
                             <td><code>%</code></td>
                             <td>Remainder operator</td>
-                            <td><code>5 % 2</code> %%%% <code>1</code></td>
+                            <td><code>5 % 2</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>1</code></td>
                           </tr>
                         </tbody>
                       </table>
@@ -87,19 +87,20 @@
 System.out.print(<span class="hljs-string">"Number of minutes since midnight: "</span>);
 System.out.println(hour * <span class="hljs-number">60</span> + minute);
 </code></pre>
+                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                     <pre><code class="hljs">Number of minutes since midnight: 719
 </code></pre>
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>When an expression has multiple operators, normal <em>operator precedence</em> rules apply</strong>. Furthermore, you can use parentheses to specify a precise precedence.</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>When an expression has multiple operators, normal <em>operator precedence</em> rules apply</strong>. Furthermore, you can use parentheses to specify a precise precedence.</p>
                     <box>
                       <p>Examples:</p>
                       <ul>
-                        <li><code>4 * 5 - 1</code> <code>19</code> (<code>*</code> has higher precedence than <code>-</code>)</li>
-                        <li><code>4 * (5 - 1)</code> <code>16</code> (parentheses <code>(</code> <code>)</code> have higher precedence than <code>*</code>)
+                        <li><code>4 * 5 - 1</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>19</code> (<code>*</code> has higher precedence than <code>-</code>)</li>
+                        <li><code>4 * (5 - 1)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>16</code> (parentheses <code>(</code> <code>)</code> have higher precedence than <code>*</code>)
                         </li>
                       </ul>
                     </box>
 
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"></span></span> Java does not allow <em>operator overloading</em>.</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> Java does not allow <em>operator overloading</em>.</p>
                     <blockquote>
                       <p>The <strong>unary operators</strong> require only one operand; they perform various operations such as incrementing/decrementing a value by one, negating an expression, or inverting the value of a boolean.<small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small></p>
                     </blockquote>
@@ -116,27 +117,27 @@ System.out.println(hour * <span class="hljs-number">60</span> + minute);
                           <tr>
                             <td><code>+</code></td>
                             <td>Unary plus operator; indicates positive value<br>(numbers are positive without this, however)</td>
-                            <td><code>x = 5; y = +x</code> %%%% <code>y</code> is <code>5</code></td>
+                            <td><code>x = 5; y = +x</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>y</code> is <code>5</code></td>
                           </tr>
                           <tr>
                             <td><code>-</code></td>
                             <td>Unary minus operator; negates an expression</td>
-                            <td><code>x = 5; y = -x</code> %%%% <code>y</code> is <code>-5</code></td>
+                            <td><code>x = 5; y = -x</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>y</code> is <code>-5</code></td>
                           </tr>
                           <tr>
                             <td><code>++</code></td>
                             <td>Increment operator; increments a value by 1</td>
-                            <td><code>i = 5; i++</code> %%%% <code>i</code> is <code>6</code></td>
+                            <td><code>i = 5; i++</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>i</code> is <code>6</code></td>
                           </tr>
                           <tr>
                             <td><code>--</code></td>
                             <td>Decrement operator; decrements a value by 1</td>
-                            <td><code>i = 5; i--</code> %%%% <code>i</code> is <code>4</code></td>
+                            <td><code>i = 5; i--</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>i</code> is <code>4</code></td>
                           </tr>
                           <tr>
                             <td><code>!</code></td>
                             <td>Logical complement operator; inverts the value of a boolean</td>
-                            <td><code>foo = true; bar = !foo</code> %%%% <code>bar</code> is <code>false</code></td>
+                            <td><code>foo = true; bar = !foo</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>bar</code> is <code>false</code></td>
                           </tr>
                         </tbody>
                       </table>
@@ -148,8 +149,8 @@ System.out.println(hour * <span class="hljs-number">60</span> + minute);
                           <tr>
                             <th>Operator</th>
                             <th>Description</th>
-                            <th>example %%%% <code>true</code></th>
-                            <th>example %%%% <code>false</code></th>
+                            <th>example <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>true</code></th>
+                            <th>example <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>false</code></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -200,22 +201,22 @@ System.out.println(hour * <span class="hljs-number">60</span> + minute);
                           <tr>
                             <th>Operator</th>
                             <th>Description</th>
-                            <th>example %%%% <code>true</code></th>
-                            <th>example %%%% <code>false</code></th>
+                            <th>example <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>true</code></th>
+                            <th>example <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>false</code></th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td><code>&amp;&amp;</code></td>
                             <td>and</td>
-                            <td><code>true &amp;&amp; true</code> %%%% <code>true</code></td>
-                            <td><code>true &amp;&amp; false</code> %%%% <code>false</code></td>
+                            <td><code>true &amp;&amp; true</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>true</code></td>
+                            <td><code>true &amp;&amp; false</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>false</code></td>
                           </tr>
                           <tr>
                             <td><code>||</code></td>
                             <td>or</td>
-                            <td><code>true || false</code> %%%% <code>true</code></td>
-                            <td><code>false || false</code> %%%% <code>false</code></td>
+                            <td><code>true || false</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>true</code></td>
+                            <td><code>false || false</code> <span class="dimmed"><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span></span> <code>false</code></td>
                           </tr>
                           <tr>
                             <td><code>!</code></td>
@@ -229,7 +230,7 @@ System.out.println(hour * <span class="hljs-number">60</span> + minute);
                   </div>
                   <div>
                     <div>
-                      <panel header=" Resources" expanded>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                         <div>
                           <ul>
                             <li>Oracle's tutorial on operators: <a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html">part 1</a>, <a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html">part 2</a></li>

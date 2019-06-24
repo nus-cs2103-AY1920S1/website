@@ -43,7 +43,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the Collections framework</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Collections framework</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -51,24 +51,24 @@
                         <p>This section uses extracts from the <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small>, with some adaptations.</p>
                         <p><strong>A <em>collection</em> — sometimes called a <em>container</em> — is simply an object that groups multiple elements into a single unit.</strong> Collections are used to store, retrieve, manipulate, and communicate aggregate data.</p>
                         <box>
-                          <p>Typically, collections represent data items that form a natural group, such as a poker hand (a collection of cards), a mail folder (a collection of letters), or a telephone directory (a mapping of names to phone numbers).</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Typically, collections represent data items that form a natural group, such as a poker hand (a collection of cards), a mail folder (a collection of letters), or a telephone directory (a mapping of names to phone numbers).</p>
                         </box>
                         <p><strong>The collections framework is a unified architecture for representing and manipulating collections.</strong> It contains the following:</p>
                         <ul>
                           <li>
                             <p><strong>Interfaces</strong>: These are abstract data types that represent collections. Interfaces allow collections to be manipulated independently of the details of their representation.<br>
-                              %% Example: the <code>List&lt;E&gt;</code> interface can be used to manipulate list-like collections which may be implemented in different ways such as <code>ArrayList&lt;E&gt;</code> or <code>LinkedList&lt;E&gt;</code>.%%<br></p>
+                              <span class="dimmed"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: the <code>List&lt;E&gt;</code> interface can be used to manipulate list-like collections which may be implemented in different ways such as <code>ArrayList&lt;E&gt;</code> or <code>LinkedList&lt;E&gt;</code>.</span><br></p>
                           </li>
                           <li>
                             <p><strong>Implementations</strong>: These are the concrete implementations of the collection interfaces. In essence, they are reusable data structures.<br>
-                              %% Example: the <code>ArrayList&lt;E&gt;</code> class implements the <code>List&lt;E&gt;</code> interface while the <code>HashMap&lt;K, V&gt;</code> class implements the <code>Map&lt;K, V&gt;</code> interface.%%<br></p>
+                              <span class="dimmed"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: the <code>ArrayList&lt;E&gt;</code> class implements the <code>List&lt;E&gt;</code> interface while the <code>HashMap&lt;K, V&gt;</code> class implements the <code>Map&lt;K, V&gt;</code> interface.</span><br></p>
                           </li>
                           <li>
                             <p><strong>Algorithms</strong>: These are the methods that perform useful computations, such as <em>searching</em> and <em>sorting</em>, on objects that implement collection interfaces. The algorithms are said to be polymorphic: that is, the same method can be used on many different implementations of the appropriate collection interface.<br>
-                              %% Example: the <code>sort(List&lt;E&gt;)</code> method can sort a collection that implements the <code>List&lt;E&gt;</code> interface.%%</p>
+                              <span class="dimmed"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: the <code>sort(List&lt;E&gt;)</code> method can sort a collection that implements the <code>List&lt;E&gt;</code> interface.</span></p>
                           </li>
                         </ul>
-                        <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>A well-known example of collections frameworks is the C++ <em>Standard Template Library (STL)</em></strong>. <span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"></span></span> Although both are collections frameworks and the syntax look similar, note that there are important philosophical and implementation differences between the two.</p>
+                        <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A well-known example of collections frameworks is the C++ <em>Standard Template Library (STL)</em></strong>. <span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> Although both are collections frameworks and the syntax look similar, note that there are important philosophical and implementation differences between the two.</p>
                         <p>The following list describes the core collection interfaces:</p>
                         <ul>
                           <li>
@@ -103,7 +103,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use the ArrayList class</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the ArrayList class</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -153,6 +153,7 @@
     }
 }
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs">Before adding any items:[]
 After adding four items: [Apple, Box, Cup, Dart]
 After removing Box: [Apple, Cup, Dart]
@@ -170,7 +171,7 @@ After clearing: []
                       </div>
                       <div>
                         <div>
-                          <panel header=" Resources" expanded>
+                          <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                             <div>
                               <ul>
                                 <li><a href="https://docs.oracle.com/javase/9/docs/api/java/util/ArrayList.html"><code>ArrayList</code> API</a></li>
@@ -180,10 +181,10 @@ After clearing: []
                           </panel>
                         </div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" Numbers list">
+                                <panel header="<md>:glyphicon-question-sign:</md> Numbers list">
                                   <question>
                                     <p>Add the missing methods to the class given below so that it produces the output given.</p>
                                     <p>💡 Use an <code>ArrayList</code> to store the numbers.</p>
@@ -205,6 +206,7 @@ After clearing: []
 
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">Adding numbers to the list
 [3]
 [3, 8]
@@ -236,12 +238,12 @@ The total is: 27
                                 </panel>
                               </div>
                               <div>
-                                <panel header=" TaskManager Level 4 - **Use `Collections`**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 4 - **Use `Collections`**">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header=" TM-L1" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header=" TM-L2" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header=" TM-L3" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-3</code> exercises quoted above.</span></p>
                                     <div id="main">
@@ -250,7 +252,7 @@ The total is: 27
                                         <li>Use a suitable Collection class to store tasks, instead of using an array.</li>
                                         <li>Introduce a <code>done n</code> command to mark the task at index <code>n</code> as done.</li>
                                       </ol>
-                                      <p>Here is an example output:</p>
+                                      <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                       <box>
                                         <div class="text-monospace">
                                           <p>Welcome to TaskManager-Level4!
@@ -345,7 +347,7 @@ The total is: 27
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use the HashMap class</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the HashMap class</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -397,6 +399,7 @@ The total is: 27
     }
 }
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs">Coordinates of x1: [0,0]
 Key x1 exists? true
 Key x1 exists? false
@@ -413,10 +416,10 @@ Number of keys after clearing: 0
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" Weekly roster">
+                                <panel header="<md>:glyphicon-question-sign:</md> Weekly roster">
                                   <question>
                                     <p>The class given below keeps track of how many people signup to attend an event on each day of the week. Add the missing methods so that it produces the output given.</p>
                                     <p>💡 Use an <code>HashMap</code> to store the number of entries for each day.</p>
@@ -436,6 +439,7 @@ Number of keys after clearing: 0
 
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">Monday =&gt; 2
 Friday =&gt; 1
 Wednesday =&gt; 2
@@ -468,7 +472,7 @@ Wednesday =&gt; 2
                           </panel>
                         </div>
                         <div>
-                          <panel header=" Resources" expanded>
+                          <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                             <div>
                               <ul>
                                 <li><a href="https://docs.oracle.com/javase/9/docs/api/java/util/HashMap.html"><code>HashMap</code> API</a></li>

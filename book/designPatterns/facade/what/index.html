@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the Facade design pattern</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Facade design pattern</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -45,7 +45,7 @@
                     <p><strong>Context</strong></p>
                     <p>Components need to access functionality deep inside other components.</p>
                     <tip-box>
-                      <p>The <code>UI</code> component of a <code>Library</code> system might want to access functionality of the <code>Book</code> class contained inside the <code>Logic</code> component.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>UI</code> component of a <code>Library</code> system might want to access functionality of the <code>Book</code> class contained inside the <code>Logic</code> component.</p>
                       <img src="/website/book/designPatterns/facade/what/images/textBook.png" height="120">
                       <p></p>
                     </tip-box>
@@ -54,16 +54,16 @@
                     <p><strong>Solution</strong></p>
                     <p>Include a <tooltip content="a French word that means 'front of a building'">Façade</tooltip> class that sits between the component internals and users of the component such that all access to the component happens through the Facade class.</p>
                     <tip-box>
-                      <p>The following class diagram applies the Façade pattern to the <code>Library System</code> example. The <code>LibraryLogic</code> class is the Facade class.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following class diagram applies the Façade pattern to the <code>Library System</code> example. The <code>LibraryLogic</code> class is the Facade class.</p>
                       <img src="/website/book/designPatterns/facade/what/images/textLibraryBook.png" height="120">
                       <p></p>
                     </tip-box>
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
-                          <panel header=" Is this Facade?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is this Facade?">
                             <question>
                               <p>Does the design below likely to use the Facade pattern?</p>
                               <img src="/website/book/designPatterns/facade/what/images/textStorage.png" height="150">

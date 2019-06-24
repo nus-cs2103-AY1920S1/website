@@ -34,16 +34,16 @@
             </div>
           </div>
           <div>
-            <p><small>%% This is a <strong>printer-friendly</strong> version. It omits exercises, optional topics (i.e., four-star topics), and other extra content such as learning outcomes.%%</small></p>
+            <p><small><span class="dimmed"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span> This is a <strong>printer-friendly</strong> version. It omits exercises, optional topics (i.e., four-star topics), and other extra content such as learning outcomes.</span></small></p>
           </div>
           <div class="indented-less">
             <div class="indented-less">
               <h4 id="init">Init <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#init"></a></h4>
               <div class="indented-less">
                 <div>
-                  <panel header="%% Git Overview%%" class="non-printable">
+                  <panel header="%%<md>:fas-paperclip:</md> Git Overview%%" class="non-printable">
                     <p>Soon you are going to take your first step in using Git. If you would like to see a quick overview of the full Git landscape before jumping in, watch the video below.</p>
                     <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/v40b3ExbM0c" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                     <p></p>
@@ -82,6 +82,7 @@ Initialized empty Git repository in c:/repos/things/.git/
                         <p>You can also use the <code>git status</code> command to check the status of the newly-created repo. It should respond with something like the bellow</p>
                         <pre><code class="hljs">git status
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs"># On branch master
 #
 # Initial commit
@@ -97,7 +98,7 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
             </div>
             <div class="indented-less">
               <h4 id="commit">Commit <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#commit"></a></h4>
               <div class="indented-less">
                 <div>
@@ -123,6 +124,7 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
                         <p>You can use the <code>git status</code> command to check the status of the working directory.</p>
                         <pre><code class="hljs sh">git status
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs sh"><span class="hljs-comment"># On branch master</span>
 <span class="hljs-comment">#</span>
 <span class="hljs-comment"># Initial commit</span>
@@ -166,6 +168,7 @@ nothing added to commit but untracked files present (use <span class="hljs-strin
                         <pre><code class="hljs sh">git add fruits.txt
 git status
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs sh"><span class="hljs-comment"># On branch master</span>
 <span class="hljs-comment">#</span>
 <span class="hljs-comment"># Initial commit</span>
@@ -198,6 +201,7 @@ git status
                         <p>You can use the <code>log</code> command to see the commit history</p>
                         <pre><code class="hljs sh">git <span class="hljs-built_in">log</span>
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs">commit 8fd30a6910efb28bb258cd01be93e481caeab846
 Author: … &lt; … @... &gt;
 Date:   Wed Jul 5 16:06:28 2017 +0800
@@ -220,7 +224,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
             </div>
             <div class="indented-less">
               <h4 id="ignore">Ignore <span class="badge badge-light"><small><small>
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#ignore"></a></h4>
               <div class="indented-less">
                 <div>
@@ -254,7 +258,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
             </div>
             <div class="indented-less">
               <h4 id="tag">Tag <span class="badge badge-light"><small><small>
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#tag"></a></h4>
               <div class="indented-less">
                 <div>
@@ -288,7 +292,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
             </div>
             <div class="indented-less">
               <h4 id="checkout">Checkout <span class="badge badge-light"><small><small>
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#checkout"></a></h4>
               <div class="indented-less">
                 <div>
@@ -309,6 +313,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                         <p>Example:</p>
                         <pre><code class="hljs">git show 251b4cf
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs diff">commit 5bc0e30635a754908dbdd3d2d833756cc4b52ef3
 Author: … &lt; … &gt;
 Date:   Sat Jul 8 16:50:27 2017 +0800
@@ -350,7 +355,7 @@ index 15b57f7..17f4528 100644
                           <li><code>git diff 0023cdd..fcd6199</code>: shows the changes between the points indicated by by commit hashes</li>
                           <li><code>git diff v1.0..HEAD</code>: shows changes that happened from the commit tagged as <code>v1.0</code> to the most recent commit.</li>
                         </ul>
-                        <panel header=" Resources" expanded>
+                        <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                           <ul>
                             <li><a href="https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/diffs">Git-Tower Tutorial: Inspecting Changes with Diffs</a></li>
                             <li><a href="https://stackoverflow.com/questions/8640838/how-do-i-navigate-in-the-results-of-diff">How to view the next page of a <code>git</code> command result</a></li>
@@ -433,7 +438,7 @@ index 15b57f7..17f4528 100644
             </div>
             <div class="indented-less">
               <h4 id="clone">Clone <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#clone"></a></h4>
               <div class="indented-less">
                 <div>
@@ -464,11 +469,11 @@ index 15b57f7..17f4528 100644
             </div>
             <div class="indented-less">
               <h4 id="pull">Pull <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#pull"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>Clone the sample repo as explained in <trigger for="modal:clone-repository" trigger="click">[Textbook Tools → Git &amp; GitHub → Clone]</trigger>.</p>
+                  <p>Clone the sample repo as explained in <trigger for="modal:clone-repository" trigger="click">[Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tools → Git &amp; GitHub → Clone]</trigger>.</p>
                   <p>Delete the last two commits to simulate cloning the repo 2 commits ago.</p>
                   <modal title="**Clone Repository**" id="modal:clone-repository">
                     <div>
@@ -478,7 +483,7 @@ index 15b57f7..17f4528 100644
                             <p>Clone</p>
                           </div>
                         </span>
-                        <p><span class="badge badge-light"><span><span class="dimmed"><span> Can clone a remote repo</span></span></span></span></p>
+                        <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can clone a remote repo</span></span></span></span></p>
                         <p></p>
                         <p></p>
                         <p></p>
@@ -562,7 +567,7 @@ index 15b57f7..17f4528 100644
             </div>
             <div class="indented-less">
               <h4 id="push">Push <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#push"></a></h4>
               <div class="indented-less">
                 <div>
@@ -656,7 +661,7 @@ index 15b57f7..17f4528 100644
             </div>
             <div class="indented-less">
               <h4 id="branch">Branch <span class="badge badge-light"><small><small>
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#branch"></a></h4>
               <div class="indented-less">
                 <div>
@@ -673,6 +678,7 @@ index 15b57f7..17f4528 100644
                       <div>
                         <pre><code class="hljs">git status
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs">on branch master
 </code></pre>
                       </div>
@@ -797,7 +803,7 @@ git checkout feature1
             </div>
             <div class="indented-less">
               <h4 id="merge-conflicts">Merge Conflicts <span class="badge badge-light"><small><small>
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#merge-conflicts"></a></h4>
               <div class="indented-less">
                 <div>
@@ -847,7 +853,7 @@ white
             </div>
             <div class="indented-less">
               <h4 id="create-prs">Create PRs <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#create-prs"></a></h4>
               <div class="indented-less">
                 <div>
@@ -905,7 +911,7 @@ This repo can be used to practice creating PRs.
                   <img src="/website/book/gitAndGithub/createPRs/images/addSummaryBranch.png" width="400">
                   <p></p>
                   <p><strong>7. Push the <code>add-summary</code> to your fork and create a new PR</strong> similar to before.</p>
-                  <panel header=" Resources" expanded>
+                  <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                     <ul>
                       <li><a href="https://help.github.com/articles/creating-a-pull-request/">GitHub's own documentation on creating a PR</a></li>
                     </ul>
@@ -915,7 +921,7 @@ This repo can be used to practice creating PRs.
             </div>
             <div class="indented-less">
               <h4 id="manage-prs">Manage PRs <span class="badge badge-light"><small><small>
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#manage-prs"></a></h4>
               <div class="indented-less">
                 <div>
@@ -977,7 +983,7 @@ This repo can be used to practice creating PRs.
                         <img src="/website/book/gitAndGithub/createPRs/images/addSummaryBranch.png" width="400">
                         <p></p>
                         <p><strong>7. Push the <code>add-summary</code> to your fork and create a new PR</strong> similar to before.</p>
-                        <panel header=" Resources" expanded>
+                        <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                           <ul>
                             <li><a href="https://help.github.com/articles/creating-a-pull-request/">GitHub's own documentation on creating a PR</a></li>
                           </ul>
@@ -986,7 +992,7 @@ This repo can be used to practice creating PRs.
                       <div></div>
                     </div>
                   </modal>
-                  <p>1a. Go to the respective PR page and click on the <code>Files changed</code> tab. Hover over the line you want to comment on and click on the <span style="color:#0066ff"></span> icon that appears on the left margin. That should create a text box for you to enter your comment.</p>
+                  <p>1a. Go to the respective PR page and click on the <code>Files changed</code> tab. Hover over the line you want to comment on and click on the <span style="color:#0066ff"><span aria-hidden="true" class="fas fa-plus-square"></span></span> icon that appears on the left margin. That should create a text box for you to enter your comment.</p>
                   <img src="/website/book/gitAndGithub/managePRs/images/startReview.png" width="800">
                   <p></p>
                   <p>1b. Enter some dummy comment and click on <code>Start a review</code> button.</p>
@@ -1011,17 +1017,17 @@ git pull origin master
                   <p>5a. Switch to the <code>add-summary</code> branch. To make that branch up-to-date with the <code>master</code> branch, merge the <code>master</code> branch to it, which will surface the merge conflict. Resolve it and complete the merge.</p>
                   <p>5b. Push the updated <code>add-summary</code> branch to the fork. That will remove the 'merge conflicts' warning in the GitHub page of the PR.</p>
                   <p><strong>6. Merge the <code>add-summary</code> PR</strong> using the GitHub interface, similar to how you merged the previous PR.</p>
-                  <p>Note that you could have merged the <code>add-summary</code> branch to the <code>master</code> branch locally before pushing it to GitHub. In that case, the PR will be merged on GitHub automatically to reflect that the branch has been merged already.</p>
+                  <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Note that you could have merged the <code>add-summary</code> branch to the <code>master</code> branch locally before pushing it to GitHub. In that case, the PR will be merged on GitHub automatically to reflect that the branch has been merged already.</p>
                 </div>
               </div>
             </div>
             <div class="indented-less">
               <h4 id="forking-workflow">Forking Workflow <span class="badge badge-light"><small><small>
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#forking-workflow"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>This activity is best done as a team. If you are learning this alone, you can simulate a team by using two different browsers to log into GitHub using two different accounts.</p>
+                  <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> This activity is best done as a team. If you are learning this alone, you can simulate a team by using two different browsers to log into GitHub using two different accounts.</p>
                   <ol>
                     <li>
                       <p><strong>One member: set up the team org and the team repo.</strong></p>
@@ -1074,7 +1080,7 @@ git pull origin master
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Sun, 23 Jun 2019 11:41:44 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Mon, 24 Jun 2019 07:13:05 GMT</small></div>
     </footer>
   </div>
 </body>

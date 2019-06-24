@@ -43,14 +43,14 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for strategies to combine test inputs</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for strategies to combine test inputs</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>An SUT can take multiple inputs.</strong> You can select values for each input (using equivalence partitioning, boundary value analysis, or some other technique).</p>
                         <tip-box>
-                          <p>an SUT that takes multiple inputs and some values chosen as values for each input:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an SUT that takes multiple inputs and some values chosen as values for each input:</p>
                           <ul>
                             <li>Method to test: <code>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
                             <li>Values to test:<div class="table-responsive">
@@ -103,14 +103,14 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain some basic test input combination strategies</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain some basic test input combination strategies</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p>Given below are some basic strategies for generating a set of test cases by combining multiple test input combination strategies.</p>
                         <tip-box>
-                          <p>Let's assume the SUT has the following three inputs and you have selected the given values for testing:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Let's assume the SUT has the following three inputs and you have selected the given values for testing:</p>
                           <p>SUT: <code>foo(p1 char, p2 int, p3 boolean)</code></p>
                           <p>Values to test:</p>
                           <div class="table-responsive">
@@ -140,7 +140,7 @@
                         </tip-box>
                         <p><strong>The <em>all combinations</em> strategy generates test cases for each unique combination of test inputs.</strong></p>
                         <tip-box>
-                          <p>the strategy generates 3x3x2=18 test cases</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> the strategy generates 3x3x2=18 test cases</p>
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
@@ -188,7 +188,7 @@
                         </tip-box>
                         <p><strong>The <em>at least once</em> strategy includes each test input at least once.</strong></p>
                         <tip-box>
-                          <p>this strategy generates 3 test cases.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 3 test cases.</p>
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
@@ -225,7 +225,7 @@
                         </tip-box>
                         <p><strong>The <em>all pairs</em> strategy creates test cases so that for any given pair of inputs, all combinations between them are tested.</strong> It is based on the observations that a bug is rarely the result of more than two interacting factors. The resulting number of test cases is lower than the <em>all combinations</em> strategy, but higher than the <em>at least once</em> approach.</p>
                         <tip-box>
-                          <p>this strategy generates 9 test cases:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 9 test cases:</p>
                           <panel type="seamless" header="see steps">
                             <p>Let's first consider inputs p1 and p2:</p>
                             <div class="table-responsive">
@@ -345,7 +345,7 @@
                         </tip-box>
                         <p>A variation of this strategy is to test all pairs of inputs but only for inputs that could influence each other.</p>
                         <tip-box>
-                          <p>Testing all pairs between p1 and p3 only while ensuring all p3 values are tested at least once</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Testing all pairs between p1 and p3 only while ensuring all p3 values are tested at least once</p>
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
@@ -412,7 +412,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can apply heuristic ‘each valid input at least once in a positive test case’</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply heuristic ‘each valid input at least once in a positive test case’</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -588,7 +588,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can apply heuristic ‘no more than one invalid input in a test case’</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply heuristic ‘no more than one invalid input in a test case’</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -705,9 +705,9 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
-                              <panel header=" Can define test cases precisely">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Can define test cases precisely">
                                 <question>
                                   <p>Applying the heuristics covered so far, we can determine the precise number of test cases required to test any given SUT effectively.</p>
                                   <ul radio-group="a7d7f" class="radio-list">
@@ -735,7 +735,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can apply multiple test input combination techniques together</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply multiple test input combination techniques together</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -1095,10 +1095,10 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" statements about test input combinations">
+                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about test input combinations">
                                   <question>
                                     <p>Which of these contradict the heuristics recommended when creating test cases with multiple inputs?</p>
                                     <ul radio-group="1da4e" class="radio-list">
@@ -1115,7 +1115,7 @@
                                 </panel>
                               </div>
                               <div>
-                                <panel header=" test cases for `consume` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> test cases for `consume` method">
                                   <question>
                                     <p>Apply heuristics for combining multiple test inputs to improve the E&amp;E of the following test cases, assuming all 6 values in the table need to be tested. <ins>underlines</ins> indicate invalid values. Point out where the heuristics are contradicted and how to improve the test cases.</p>
                                     <box>

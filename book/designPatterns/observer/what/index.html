@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the Observer design pattern</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Observer design pattern</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -45,7 +45,7 @@
                     <p><strong>Context</strong></p>
                     <p>An object (possibly, more than one) is interested to get notified when a change happens to another object. That is, some objects want to ‘observe’ another object.</p>
                     <tip-box>
-                      <p>Consider this scenario from the a student management system where the user is adding a new student to the system.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider this scenario from the a student management system where the user is adding a new student to the system.</p>
                       <img src="/website/book/designPatterns/observer/what/images/sequenceDiagram.png" height="330">
                       <p></p>
                       <p>Now, assume the system has two additional views used in parallel by different users:</p>
@@ -65,7 +65,7 @@
                     <img src="/website/book/designPatterns/observer/what/images/studentListObserver.png" height="160">
                     <p></p>
                     <tip-box>
-                      <p>Here is the Observer pattern applied to the student management system.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the Observer pattern applied to the student management system.</p>
                       <p><strong>During the initialization of the system,</strong></p>
                       <ol>
                         <li>
@@ -123,14 +123,14 @@ studentList.addUi(statusUi);
                       <li>Whenever there is a change in the <code>&lt;&lt;Observable&gt;&gt;</code>, the <code>notifyObservers()</code> operation is called that will call the <code>update()</code> operation of all <code>&lt;&lt;Observer&gt;&gt;s</code> in the list.</li>
                     </ul>
                     <box>
-                      <p>In a GUI application, how is the Controller notified when the “save” button is clicked? UI frameworks such as JavaFX has inbuilt support for the Observer pattern.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In a GUI application, how is the Controller notified when the “save” button is clicked? UI frameworks such as JavaFX has inbuilt support for the Observer pattern.</p>
                     </box>
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
-                          <panel header=" polymorphism and Observer pattern.">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: polymorphism and Observer pattern.">
                             <question has-input="true">
                               <p>Explain how polymorphism is used in the Observer pattern.</p>
                               <div slot="answer">
@@ -145,7 +145,7 @@ studentList.addUi(statusUi);
                           </panel>
                         </div>
                         <div>
-                          <panel header=" Observer patter usage">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Observer patter usage">
                             <question>
                               <p>The Observer pattern can be used when we want one object to initiate an activity in another object without having a direct dependency from the first object to the second object.</p>
                               <ul radio-group="caf40" class="radio-list">

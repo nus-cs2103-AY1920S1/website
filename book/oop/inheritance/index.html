@@ -43,14 +43,14 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the meaning of inheritance</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the meaning of inheritance</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>The OOP concept <em>Inheritance</em> allows you to define a new class based on an existing class.</strong></p>
                         <tip-box>
-                          <p>For example, you can use inheritance to define an <code>EvaluationReport</code> class based on an existing <code>Report</code> class so that the <code>EvaluationReport</code> class does not have to duplicate code that is already implemented in the <code>Report</code> class. The <code>EvaluationReport</code> can inherit the <code>wordCount</code> attribute and the <code>print()</code> method from the <em>base class</em> <code>Report</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, you can use inheritance to define an <code>EvaluationReport</code> class based on an existing <code>Report</code> class so that the <code>EvaluationReport</code> class does not have to duplicate code that is already implemented in the <code>Report</code> class. The <code>EvaluationReport</code> can inherit the <code>wordCount</code> attribute and the <code>print()</code> method from the <em>base class</em> <code>Report</code>.</p>
                         </tip-box>
                         <ul>
                           <li>Other names for Base class: <em>Parent</em> class, <em>Super</em> class</li>
@@ -59,12 +59,12 @@
                         <p><strong>A superclass is said to be <em>more general</em> than the subclass.</strong> Conversely, a subclass is said to be more <em>specialized</em> than the superclass.</p>
                         <p><strong>Applying inheritance on a group of similar classes can result in the common parts among classes being extracted into more general classes.</strong></p>
                         <tip-box>
-                          <p><code>Man</code> and <code>Woman</code> behaves the same way for certain things. However, the two classes cannot be simply replaced with a more general class <code>Person</code> because of the need to distinguish between <code>Man</code> and <code>Woman</code> for certain other things. A solution is to add the <code>Person</code> class as a superclass (to contain the code common to men and woment) and let <code>Man</code> and <code>Woman</code> inherit from <code>Person</code> class.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Man</code> and <code>Woman</code> behaves the same way for certain things. However, the two classes cannot be simply replaced with a more general class <code>Person</code> because of the need to distinguish between <code>Man</code> and <code>Woman</code> for certain other things. A solution is to add the <code>Person</code> class as a superclass (to contain the code common to men and woment) and let <code>Man</code> and <code>Woman</code> inherit from <code>Person</code> class.</p>
                         </tip-box>
                         <p><strong>Inheritance implies the derived class can be considered as a <em>sub-type</em> of the base class (and the base class is a <em>super-type</em> of the derived class), resulting in an <em>is a</em> relationship.</strong></p>
-                        <p>%% Inheritance does not necessarily mean a sub-type relationship exists. However, the two often go hand-in-hand. For simplicity, at this point let us assume inheritance implies a sub-type relationship.%%</p>
+                        <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Inheritance does not necessarily mean a sub-type relationship exists. However, the two often go hand-in-hand. For simplicity, at this point let us assume inheritance implies a sub-type relationship.</span></p>
                         <tip-box>
-                          <p>To continue the previous example,</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> To continue the previous example,</p>
                           <ul>
                             <li><code>Woman</code> <em>is a</em> <code>Person</code></li>
                             <li><code>Man</code> <em>is a</em> <code>Person</code></li>
@@ -72,21 +72,21 @@
                         </tip-box>
                         <p><strong>Inheritance relationships through a chain of classes can result in inheritance <em>hierarchies</em> (aka inheritance <em>trees</em>).</strong></p>
                         <tip-box>
-                          <p>Two inheritance hierarchies/trees are given below. <span class="dimmed">Note that the triangle points to the parent class.</span> Observe how the <code>Parrot</code> <em>is a</em> <code>Bird</code> as well as it <em>is an</em> <code>Animal</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Two inheritance hierarchies/trees are given below. <span class="dimmed">Note that the triangle points to the parent class.</span> Observe how the <code>Parrot</code> <em>is a</em> <code>Bird</code> as well as it <em>is an</em> <code>Animal</code>.</p>
                           <img src="/website/book/oop/inheritance/what/images/inheritanceTreesExamples.png" width="500">
                           <p></p>
                         </tip-box>
                         <p><strong><em>Multiple Inheritance</em> is when a class inherits <em>directly</em> from multiple classes.</strong> Multiple inheritance among classes is allowed in some languages (e.g., Python, C++) but not in other languages (e.g., Java, C#).</p>
                         <tip-box>
-                          <p>The <code>Honey</code> class inherits from the <code>Food</code> class <em>and</em> the <code>Medicine</code> class <span class="dimmed">because honey can be consumed as a food as well as a medicine (in some oriental medicine practices)</span>. Similarly, a <code>Car</code> is an <code>Vehicle</code>, an <code>Asset</code> and a <code>Liability</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Honey</code> class inherits from the <code>Food</code> class <em>and</em> the <code>Medicine</code> class <span class="dimmed">because honey can be consumed as a food as well as a medicine (in some oriental medicine practices)</span>. Similarly, a <code>Car</code> is an <code>Vehicle</code>, an <code>Asset</code> and a <code>Liability</code>.</p>
                           <img src="/website/book/oop/inheritance/what/images/multipleInheritanceExamples.png" width="440">
                         </tip-box>
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
-                              <panel header=" Which statements are correct">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which statements are correct">
                                 <question>
                                   <p>Which of these are correct?</p>
                                   <ul class="task-list">
@@ -117,14 +117,14 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain method overriding</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain method overriding</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>Method <em>overriding</em> is when a sub-class changes the behavior inherited from the parent class</strong> by re-implementing the method. Overridden methods have the same name, same type signature, and same return type.</p>
                         <tip-box>
-                          <p>Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
@@ -202,7 +202,7 @@
                                       </div>
                                     </tip-box>
                                     <tip-box>
-                                      <p>In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                                       <ul>
                                         <li><code>calculate(String): void</code></li>
                                         <li><code>calculate(int): void</code></li>
@@ -218,9 +218,9 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
-                              <panel header=" Which methods override?">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which methods override?">
                                 <question>
                                   <p>Which of these methods override another method? <span class="dimmed"><code>A</code> is the parent class. <code>B</code> inherits <code>A</code>.</span></p>
                                   <img src="/website/book/oop/inheritance/overriding/images/overriding.png" height="220">
@@ -253,7 +253,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain method overloading</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain method overloading</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -295,7 +295,7 @@
                           </div>
                         </tip-box>
                         <tip-box>
-                          <p>In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                           <ul>
                             <li><code>calculate(String): void</code></li>
                             <li><code>calculate(int): void</code></li>
@@ -314,7 +314,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain interfaces</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain interfaces</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -324,11 +324,11 @@
                           <p>There are a number of situations in software engineering when it is important for disparate groups of programmers to agree to a &quot;contract&quot; that spells out how their software interacts. Each group should be able to write their code without any knowledge of how the other group's code is written. Generally speaking, interfaces are such contracts. <sub>--<a href="https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html">Oracle Docs on Java</a><sub></sub></sub></p>
                         </blockquote>
                         <tip-box>
-                          <p>Suppose <code>SalariedStaff</code> is an interface that contains two methods <code>setSalary(int)</code> and <code>getSalary()</code>. <code>AcademicStaff</code> can declare itself as <em>implementing</em> the <code>SalariedStaff</code> interface, which means the <code>AcademicStaff</code> class must implement all the methods specified by the <code>SalariedStaff</code> interface i.e., <code>setSalary(int)</code> and <code>getSalary()</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose <code>SalariedStaff</code> is an interface that contains two methods <code>setSalary(int)</code> and <code>getSalary()</code>. <code>AcademicStaff</code> can declare itself as <em>implementing</em> the <code>SalariedStaff</code> interface, which means the <code>AcademicStaff</code> class must implement all the methods specified by the <code>SalariedStaff</code> interface i.e., <code>setSalary(int)</code> and <code>getSalary()</code>.</p>
                         </tip-box>
                         <p><strong>A class implementing an interface results in an <em>is-a</em> relationship</strong>, just like in class inheritance.</p>
                         <tip-box>
-                          <p>In the example above, <code>AcademicStaff</code> <em>is a</em> <code>SalariedStaff</code>. An <code>AcademicStaff</code> object can be used anywhere a <code>SalariedStaff</code> object is expected e.g. <code>SalariedStaff ss = new AcademicStaff()</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example above, <code>AcademicStaff</code> <em>is a</em> <code>SalariedStaff</code>. An <code>AcademicStaff</code> object can be used anywhere a <code>SalariedStaff</code> object is expected e.g. <code>SalariedStaff ss = new AcademicStaff()</code>.</p>
                         </tip-box>
                         <p></p>
                       </div>
@@ -344,7 +344,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can implement abstract classes</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can implement abstract classes</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -356,7 +356,7 @@
                         </box>
                         <p><strong>You can use declare a class as abstract when a class is merely a representation of commonalities among its subclasses</strong> in which case it does not make sense to instantiate objects of that class.</p>
                         <box>
-                          <p>The <code>Animal</code> class that exist as a generalization of its subclasses <code>Cat</code>, <code>Dog</code>, <code>Horse</code>, <code>Tiger</code> etc. can be declared as abstract because it does not make sense to instantiate an <code>Animal</code> object.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Animal</code> class that exist as a generalization of its subclasses <code>Cat</code>, <code>Dog</code>, <code>Horse</code>, <code>Tiger</code> etc. can be declared as abstract because it does not make sense to instantiate an <code>Animal</code> object.</p>
                         </box>
                         <box type="definition">
                           <div>
@@ -364,7 +364,7 @@
                           </div>
                         </box>
                         <box>
-                          <p>The <code>move</code> method of the <code>Animal</code> class is likely to be an abstract method as it is not possible to implement a <code>move</code> method at the <code>Animal</code> class level to fit all subclasses <span class="dimmed">because each animal type can move in a different way</span>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>move</code> method of the <code>Animal</code> class is likely to be an abstract method as it is not possible to implement a <code>move</code> method at the <code>Animal</code> class level to fit all subclasses <span class="dimmed">because each animal type can move in a different way</span>.</p>
                         </box>
                         <p><strong>A class that has an abstract method becomes an abstract class</strong> because the class definition is incomplete (due to the missing method body) and it is not possible to create objects using an incomplete class definition.</p>
                         <p>Even <strong>a class that does not have any abstract methods <em>can</em> be declared as an abstract class.</strong></p>
@@ -381,7 +381,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain substitutability</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain substitutability</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -390,7 +390,7 @@
                         <tip-box>
                           <img src="/website/book/oop/inheritance/substitutability/images/staff.png" height="80">
                           <p></p>
-                          <p>an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object of any of its subclasses.</p>
                           <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
                           <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
@@ -413,7 +413,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain dynamic and static binding</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain dynamic and static binding</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -426,11 +426,11 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                         <p><strong>
                             <trigger trigger="click" for="modal:dynamicAndStatic-overriding">Overridden methods</trigger> are resolved using dynamic binding, and therefore resolves to the implementation in the actual type of the object.
                           </strong></p>
-                        <modal large title="Textbook " id="modal:dynamicAndStatic-overriding">
+                        <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overriding">
                             <div>
                             <div>
                               <p>
-                                <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%% OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
+                                <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
                               </p>
                             </div>
                             <p></p>
@@ -444,7 +444,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                 <div>
                                   <p><strong>Method <em>overriding</em> is when a sub-class changes the behavior inherited from the parent class</strong> by re-implementing the method. Overridden methods have the same name, same type signature, and same return type.</p>
                                   <tip-box>
-                                    <p>Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
+                                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the following case of <code>EvaluationReport</code> class inheriting the <code>Report</code> class:</p>
                                     <div class="table-responsive">
                                       <table class="markbind-table table table-bordered table-striped">
                                         <thead>
@@ -522,7 +522,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                                 </div>
                                               </tip-box>
                                               <tip-box>
-                                                <p>In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                                                 <ul>
                                                   <li><code>calculate(String): void</code></li>
                                                   <li><code>calculate(int): void</code></li>
@@ -538,9 +538,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                 </div>
                                 <div>
                                   <div>
-                                    <panel header=" Exercises" expandable>
+                                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                       <div>
-                                        <panel header=" Which methods override?">
+                                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which methods override?">
                                           <question>
                                             <p>Which of these methods override another method? <span class="dimmed"><code>A</code> is the parent class. <code>B</code> inherits <code>A</code>.</span></p>
                                             <img src="/website/book/oop/inheritance/overriding/images/overriding.png" height="220">
@@ -567,7 +567,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                           </div>
                         </modal>
                         <tip-box>
-                          <p>Consider the code below. The declared type of <code>s</code> is <code>Staff</code> and it appears as if the <code>adjustSalary(int)</code> operation of the <code>Staff</code> class is invoked.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below. The declared type of <code>s</code> is <code>Staff</code> and it appears as if the <code>adjustSalary(int)</code> operation of the <code>Staff</code> class is invoked.</p>
                           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> byPercent)</span> </span>{
     <span class="hljs-keyword">for</span> (Staff s: staff) {
         s.adjustSalary(byPercent);
@@ -582,7 +582,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                           </div>
                         </tip-box>
                         <p><strong>In contrast, <trigger trigger="click" for="modal:dynamicAndStatic-overloading">overloaded</trigger> methods are resolved using static binding.</strong></p>
-                        <modal large title="Textbook " id="modal:dynamicAndStatic-overloading">
+                        <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overloading">
                             <div>
                             <div></div>
                             <p></p>
@@ -631,7 +631,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                     </div>
                                   </tip-box>
                                   <tip-box>
-                                    <p>In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
+                                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the case below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int)</code></p>
                                     <ul>
                                       <li><code>calculate(String): void</code></li>
                                       <li><code>calculate(int): void</code></li>
@@ -644,7 +644,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                           </div>
                         </modal>
                         <tip-box>
-                          <p>Note how the constructor is overloaded in the class below. The method call <code>new Account()</code> is bound to the first constructor at compile time.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Note how the constructor is overloaded in the class below. The method call <code>new Account()</code> is bound to the first constructor at compile time.</p>
                           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
 
     Account () {
@@ -658,7 +658,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     }
 }
 </code></pre>
-                          <p>Similarly, the <code>calcuateGrade</code> method is overloaded in the code below and a method call <code>calculateGrade(&quot;A1213232&quot;)</code> is bound to the second implementation, at compile time.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Similarly, the <code>calcuateGrade</code> method is overloaded in the code below and a method call <code>calculateGrade(&quot;A1213232&quot;)</code> is bound to the second implementation, at compile time.</p>
                           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">calculateGrade</span> <span class="hljs-params">(<span class="hljs-keyword">int</span>[] averages)</span> </span>{ ... }
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">calculateGrade</span> <span class="hljs-params">(String matric)</span> </span>{ ... }
 </code></pre>

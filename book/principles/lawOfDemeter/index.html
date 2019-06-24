@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the Law of Demeter</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Law of Demeter</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -64,7 +64,7 @@
                       <li>Objects from the <tooltip content="objects that are held by instance variables of">direct association of</tooltip> <code>O</code></li>
                     </ul>
                     <tip-box>
-                      <p>The following code fragment violates LoD due to the reason: while <code>b</code> is a ‘friend’ of <code>foo</code> (because it receives it as a parameter), <code>g</code> is a ‘friend of a friend’ (which should be considered a ‘stranger’), and <code>g.doSomething()</code> is analogous to ‘talking to a stranger’.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following code fragment violates LoD due to the reason: while <code>b</code> is a ‘friend’ of <code>foo</code> (because it receives it as a parameter), <code>g</code> is a ‘friend of a friend’ (which should be considered a ‘stranger’), and <code>g.doSomething()</code> is analogous to ‘talking to a stranger’.</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
     Goo g = b.getGoo();
     g.doSomething();
@@ -73,14 +73,14 @@
                     </tip-box>
                     <p><strong>LoD aims to prevent objects navigating internal structures of other objects.</strong></p>
                     <tip-box>
-                      <p>An analogy for LoD can be drawn from Facebook. If Facebook followed LoD, you would not be allowed to see posts of friends of friends, unless they are your friends as well. If Jake is your friend and Adam is Jake’s friend, you should not be allowed to see Adam’s posts unless Adam is a friend of yours as well.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An analogy for LoD can be drawn from Facebook. If Facebook followed LoD, you would not be allowed to see posts of friends of friends, unless they are your friends as well. If Jake is your friend and Adam is Jake’s friend, you should not be allowed to see Adam’s posts unless Adam is a friend of yours as well.</p>
                     </tip-box>
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
-                          <panel header=" Examples for LoD">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Examples for LoD">
                             <question has-input="true">
                               <p>Explain the Law of Demeter using code examples. You are to make up your own code examples. Take Minesweeper as the basis for your code examples.</p>
                               <div slot="answer">
@@ -98,7 +98,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header=" LoD violation?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LoD violation?">
                             <question>
                               <p>This violates Law of Demeter.</p>
                               <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
@@ -118,7 +118,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header=" Odd one out">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Odd one out">
                             <question>
                               <p>Pick the odd one out.</p>
                               <ul class="task-list">

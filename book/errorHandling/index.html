@@ -50,7 +50,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain error handling</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain error handling</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -82,7 +82,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain exceptions</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain exceptions</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -97,7 +97,7 @@
                                 </div>
                               </tip-box>
                               <tip-box>
-                                <p>Examples:</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                                 <ul>
                                   <li>A network connection encounters a timeout due to a slow server.</li>
                                   <li>The code tries to read a file from the hard disk but the file is corrupted and cannot be read.</li>
@@ -116,7 +116,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain how exception handling is done typically</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain how exception handling is done typically</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -136,9 +136,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Benefit of exceptions">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Benefit of exceptions">
                                       <question>
                                         <p>Which are benefits of exceptions?</p>
                                         <ul class="task-list">
@@ -167,7 +167,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can avoid using exceptions to control normal workflow</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can avoid using exceptions to control normal workflow</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -197,18 +197,18 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain assertions</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain assertions</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
                             <div>
                               <p><strong><em>Assertions</em> are used to define assumptions about the program state so that the runtime can verify them.</strong> An assertion failure indicates a possible bug in the code <span class="dimmed">because the code has resulted in a program state that violates an assumption about how the code <em>should</em> behave</span>.</p>
                               <tip-box>
-                                <p>An assertion can be used to express something like <em>when the execution comes to this point, the variable <code>v</code> cannot be null</em>.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An assertion can be used to express something like <em>when the execution comes to this point, the variable <code>v</code> cannot be null</em>.</p>
                               </tip-box>
                               <p><strong>If the runtime detects an <em>assertion failure</em>, it typically take some drastic action</strong> such as terminating the execution with an error message. This is because an assertion failure indicates a possible bug and the sooner the execution stops, the safer it is.</p>
                               <tip-box>
-                                <p>In the Java code below, suppose we set an assertion that <code>timeout</code> returned by <code>Config.getTimeout()</code> is greater than <code>0</code>. Now, if the <code>Config.getTimeout()</code> returned <code>-1</code> in a specific execution of this line, the runtime can detect it as a <em>assertion failure</em> -- i.e. an assumption about the expected behavior of the code turned out to be wrong which could potentially be the result of a bug -- and take some drastic action such as terminating the execution.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the Java code below, suppose we set an assertion that <code>timeout</code> returned by <code>Config.getTimeout()</code> is greater than <code>0</code>. Now, if the <code>Config.getTimeout()</code> returned <code>-1</code> in a specific execution of this line, the runtime can detect it as a <em>assertion failure</em> -- i.e. an assumption about the expected behavior of the code turned out to be wrong which could potentially be the result of a bug -- and take some drastic action such as terminating the execution.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">int</span> timeout = Config.getTimeout(); 
 </code></pre>
                               </tip-box>
@@ -225,14 +225,14 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use assertions</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use assertions</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
                             <div>
                               <p>Use the <code>assert</code> keyword to define assertions.</p>
                               <tip-box>
-                                <p>This assertion will fail with the message <code>x should be 0</code> if <code>x</code> is not 0 at this point.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This assertion will fail with the message <code>x should be 0</code> if <code>x</code> is not 0 at this point.</p>
                                 <pre><code class="hljs java">x = getX();
 <span class="hljs-keyword">assert</span> x == <span class="hljs-number">0</span> : <span class="hljs-string">"x should be 0"</span>;
 ...
@@ -240,17 +240,17 @@
                               </tip-box>
                               <p><strong>Assertions can be disabled without modifying the code.</strong></p>
                               <tip-box>
-                                <p><code>java -enableassertions HelloWorld</code> (or <code>java -ea HelloWorld</code>) will run <code>HelloWorld</code> with assertions enabled while <code>java -disableassertions HelloWorld</code> will run it without verifying assertions.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -enableassertions HelloWorld</code> (or <code>java -ea HelloWorld</code>) will run <code>HelloWorld</code> with assertions enabled while <code>java -disableassertions HelloWorld</code> will run it without verifying assertions.</p>
                               </tip-box>
                               <tip-box type="important">
                                 <p><strong>Java disables assertions by default.</strong> This could create a situation where you think all assertions are being verified as <code>true</code> while in fact they are not being verified at all. Therefore, remember to enable assertions when you run the program if you want them to be in effect.</p>
                               </tip-box>
                               <p>💡 Enable assertions in Intellij (<a href="https://stackoverflow.com/questions/18168257/where-to-add-compiler-options-like-ea-in-intellij-idea">how?</a>) and get an assertion to fail temporarily (e.g. insert an <code>assert false</code> into the code temporarily) to confirm assertions are being verified.</p>
-                              <p><strong>Java <code>assert</code> vs JUnit assertions: They are similar in purpose but JUnit assertions are more powerful and customized for testing.</strong> In addition, JUnit assertions are not disabled by default. We recommend you use JUnit assertions in test code and Java <code>assert</code> in functional code.</p>
+                              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <strong>Java <code>assert</code> vs JUnit assertions: They are similar in purpose but JUnit assertions are more powerful and customized for testing.</strong> In addition, JUnit assertions are not disabled by default. We recommend you use JUnit assertions in test code and Java <code>assert</code> in functional code.</p>
                             </div>
                             <div>
                               <div>
-                                <panel header=" Resources" expanded>
+                                <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                                   <p><strong>Tutorials</strong>:</p>
                                   <ul>
                                     <li><a href="https://www.javatpoint.com/assertion-in-java"><strong>Java Assertions</strong></a> -- a simple tutorial from <em><a href="http://javatpoint.com">javatpoint.com</a></em></li>
@@ -274,7 +274,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use assertions optimally</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use assertions optimally</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -282,7 +282,7 @@
                               <p><strong>It is recommended that assertions be used liberally in the code.</strong> Their impact on performance is considered low and worth the additional safety they provide.</p>
                               <p><strong>Do not use assertions to do <em>work</em></strong> because assertions can be disabled. If not, your program will stop working when assertions are not enabled.</p>
                               <tip-box>
-                                <p>The code below will not invoke the <code>writeFile()</code> method when assertions are disabled. <span class="dimmed"> If that method is performing some work that is necessary for your program, your program will not work correctly when assertions are disabled.</span></p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below will not invoke the <code>writeFile()</code> method when assertions are disabled. <span class="dimmed"> If that method is performing some work that is necessary for your program, your program will not work correctly when assertions are disabled.</span></p>
                                 <pre><code class="hljs java">...
 <span class="hljs-function"><span class="hljs-keyword">assert</span> <span class="hljs-title">writeFile</span><span class="hljs-params">()</span> : "File writing is supposed to return <span class="hljs-keyword">true</span>"</span>;
 </code></pre>
@@ -297,9 +297,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Assertions failure in Calculator">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Assertions failure in Calculator">
                                       <question>
                                         <p>A Calculator program crashes with an ‘assertion failure’ message when you try to find the square root of a negative number.</p>
                                         <ul radio-group="f7dad" class="radio-list">
@@ -316,7 +316,7 @@
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Statement about exceptions and assertions">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about exceptions and assertions">
                                       <question>
                                         <p>Which statements are correct?</p>
                                         <ul class="task-list">
@@ -354,7 +354,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain logging</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain logging</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -373,9 +373,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Logging vs blackbox">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Logging vs blackbox">
                                       <question>
                                         <p>Why is logging like having the 'black box' in an airplane?</p>
                                         <ul radio-group="6f5b0" class="radio-list">
@@ -404,14 +404,14 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use logging</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use logging</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
                             <div>
                               <p><strong>Most programming environments come with logging systems that allow sophisticated forms of logging.</strong> They have features such as the ability to enable and disable logging easily or to change the logging <tooltip content="how much information to record">intensity</tooltip>.</p>
                               <tip-box>
-                                <p>This sample Java code uses Java’s default logging mechanism.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This sample Java code uses Java’s default logging mechanism.</p>
                                 <p>First, import the relevant Java package:</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.logging.*;
 </code></pre>
@@ -434,7 +434,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                             </div>
                             <div>
                               <div>
-                                <panel header=" Resources" expanded>
+                                <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                                   <p><strong>Tutorials</strong>:</p>
                                   <ul>
                                     <li><a href="http://www.vogella.com/tutorials/Logging/article.html"><strong>Java Logging API - Tutorial</strong></a> -- A tutorial by <em>Lars Vogella</em></li>
@@ -476,14 +476,14 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain defensive programming</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain defensive programming</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
                             <div>
                               <p><strong>A defensive programmer codes under the assumption &quot;if we leave room for things to go wrong, they <em>will</em> go wrong&quot;.</strong> Therefore, a defensive programmer proactively tries to eliminate any room for things to go wrong.</p>
                               <tip-box>
-                                <p>Consider a <code>MainApp#getConfig()</code> a method that returns a <code>Config</code> object containing configuration data. A typical implementation is given below:</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider a <code>MainApp#getConfig()</code> a method that returns a <code>Config</code> object containing configuration data. A typical implementation is given below:</p>
                                 <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MainApp</span></span>{
     Config config;
     
@@ -513,7 +513,7 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use defensive coding to enforce compulsory associations</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use defensive coding to enforce compulsory associations</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -559,9 +559,9 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Write a `Manager#addAccount()`">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Write a `Manager#addAccount()`">
                                       <question has-input="true">
                                         <p>For the <code>Manager</code> class shown below, write an <code>addAccount()</code> method that</p>
                                         <ul>
@@ -596,7 +596,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Implement `Marriage`">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Implement `Marriage`">
                                       <question has-input="true">
                                         <p>Implement the classes defensively with appropriate references and operations to establish the association among the classes. Follow the defensive coding approach. Let the <code>Marriage</code> class handle setting/removal of reference.</p>
                                         <img src="/website/book/errorHandling/defensiveProgramming/compulsoryAssociations/images/manMarriageWoman.jpg" height="55">
@@ -654,7 +654,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Immutable `Account` class">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Immutable `Account` class">
                                       <question has-input="true">
                                         <p>Give a suitable defensive implementation to the <code>Account</code> class in the following class diagram. Note that “{immutable}” means once the association is formed, it cannot be changed.</p>
                                         <img src="/website/book/errorHandling/defensiveProgramming/compulsoryAssociations/images/accountGuarantorImmutable.png" height="80">
@@ -677,7 +677,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Is this defensive?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is this defensive?">
                                       <question>
                                         <img src="/website/book/errorHandling/defensiveProgramming/compulsoryAssociations/images/countryCity.png" height="45">
                                         <p></p>
@@ -715,7 +715,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use defensive coding to enforce 1-to-1 associations</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use defensive coding to enforce 1-to-1 associations</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -761,7 +761,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use defensive coding to enforce referential integrity of bi-directional associations</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use defensive coding to enforce referential integrity of bi-directional associations</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -846,9 +846,9 @@ jean.setBoyfriend(yong);
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Implement `Player` and `Region`">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Implement `Player` and `Region`">
                                       <question has-input="true">
                                         <p>Imagine that we now support the following feature in our Minesweeper game.</p>
                                         <tip-box>
@@ -960,7 +960,7 @@ r1.setPlayer(p2);
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Bidirectional association between `Bank` and `Account`">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Bidirectional association between `Bank` and `Account`">
                                       <question has-input="true">
                                         <p>Implement this bidirectional association. Note that the <code>Bank</code> uses <code>accNumber</code> attribute to uniquely identify an <code>Account</code> object. Assume the <code>Bank</code> class is responsible for maintaining the links between objects.</p>
                                         <img src="/website/book/errorHandling/defensiveProgramming/referentialIntegrity/images/bankAccount.jpg" height="60">
@@ -1008,7 +1008,7 @@ r1.setPlayer(p2);
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Is the code defensive? `Teacher` and `Student`">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is the code defensive? `Teacher` and `Student`">
                                       <question has-input="true">
                                         <p>(a) Is the code given below a defensive translation of the associations shown in the class diagram? Explain your answer.</p>
                                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Teacher</span></span>{
@@ -1059,7 +1059,7 @@ r1.setPlayer(p2);
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" True or False?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: True or False?">
                                       <question>
                                         <p>Bidirectional associations, if not implemented properly, can result in referential integrity violations.</p>
                                         <ul radio-group="719bb" class="radio-list">
@@ -1087,7 +1087,7 @@ r1.setPlayer(p2);
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain when to use defensive programming</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain when to use defensive programming</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -1103,9 +1103,9 @@ r1.setPlayer(p2);
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Defensive programming">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Defensive programming">
                                       <question>
                                         <p>Defensive programming,</p>
                                         <ul class="task-list">
@@ -1147,7 +1147,7 @@ r1.setPlayer(p2);
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the Design-by-Contract approach</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Design-by-Contract approach</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -1160,9 +1160,9 @@ r1.setPlayer(p2);
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Statements about the Design-by-contract approach?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about the Design-by-contract approach?">
                                       <question>
                                         <p>Which statements are correct?</p>
                                         <ul class="task-list">

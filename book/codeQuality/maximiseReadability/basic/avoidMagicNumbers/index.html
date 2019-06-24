@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid magic numbers </span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid magic numbers </span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,14 +44,14 @@
                   <div>
                     <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
                     <tip-box>
-                      <p>Example:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <div class="alt-java">
                         <div>
                           <table>
                             <tr>
                                 <td valign="top">
                                 <p>
-                                  <font color="red"><span>** Bad**</span></font>
+                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                 </p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">return</span> <span class="hljs-number">3.14236</span>;
 ...
@@ -62,7 +62,7 @@
                                 <td>  <br><br></td>
                                 <td valign="top">
                                 <p>
-                                  <font color="green"><span>** Good**</span></font>
+                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                 </p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">double</span> PI = <span class="hljs-number">3.14236</span>;
 <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> MAX_SIZE = <span class="hljs-number">10</span>;
@@ -84,7 +84,7 @@
                             <tr>
                                 <td valign="top">
                                 <p>
-                                  <font color="red"><span>** Bad**</span></font>
+                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                 </p>
                                 <pre><code class="hljs python"><span class="hljs-keyword">return</span> <span class="hljs-number">3.14236</span>
 ...
@@ -95,7 +95,7 @@
                                 <td>  <br><br></td>
                                 <td valign="top">
                                 <p>
-                                  <font color="green"><span>** Good**</span></font>
+                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                 </p>
                                 <pre><code class="hljs python">PI = <span class="hljs-number">3.14236</span>
 MAX_SIZE = <span class="hljs-number">10</span>
@@ -114,7 +114,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                     <p>Similarly, we can have ‘magic’ values of other data types.</p>
                     <tip-box>
                       <p>
-                        <font color="red"><span>** Bad**</span></font>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                       </p>
                       <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>

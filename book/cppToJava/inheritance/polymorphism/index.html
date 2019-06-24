@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use polymorphism in Java</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use polymorphism in Java</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,7 +44,7 @@
                   <div>
                     <p><strong>Java is a <em>strongly-typed</em> language which means the code works with only the object types that it targets.</strong></p>
                     <box>
-                      <p>The following code <code>PetShelter</code> keeps a list of <code>Cat</code> objects and make them <code>speak</code>. The code will not work with any other type, for example, <code>Dog</code> objects.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following code <code>PetShelter</code> keeps a list of <code>Cat</code> objects and make them <code>speak</code>. The code will not work with any other type, for example, <code>Dog</code> objects.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PetShelter</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Cat[] cats = <span class="hljs-keyword">new</span> Cat[]{
             <span class="hljs-keyword">new</span> Cat(<span class="hljs-string">"Mittens"</span>),
@@ -57,6 +57,7 @@
     }
 }
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">Mittens: Meow
 Snowball: Meow
 </code></pre>
@@ -75,7 +76,7 @@ Snowball: Meow
                     </box>
                     <p>This <strong>strong-typing can lead to unnecessary verbosity</strong> caused by repetitive similar code that do similar things with different object types.</p>
                     <box>
-                      <p>If the <code>PetShelter</code> is to keep both cats and dogs, you'll need two arrays and two loops:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the <code>PetShelter</code> is to keep both cats and dogs, you'll need two arrays and two loops:</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PetShelter</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Cat[] cats = <span class="hljs-keyword">new</span> Cat[]{
             <span class="hljs-keyword">new</span> Cat(<span class="hljs-string">"Mittens"</span>),
@@ -93,6 +94,7 @@ Snowball: Meow
     }
 }
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">Mittens: Meow
 Snowball: Meow
 Spot: Woof
@@ -112,7 +114,7 @@ Spot: Woof
                     </box>
                     <p>A better way is to <strong>take advantage of polymorphism to write code that targets a superclass but works with any subclass objects.</strong></p>
                     <box>
-                      <p>The <code>PetShelter2</code> use one data structure to keep both types of animals and one loop to make them speak. The code targets the <code>Animal</code> superclass (assuming <code>Cat</code> and <code>Dog</code> inherits from the <code>Animal</code> class) instead of repeating the code for each animal type.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>PetShelter2</code> use one data structure to keep both types of animals and one loop to make them speak. The code targets the <code>Animal</code> superclass (assuming <code>Cat</code> and <code>Dog</code> inherits from the <code>Animal</code> class) instead of repeating the code for each animal type.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PetShelter2</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Animal[] animals = <span class="hljs-keyword">new</span> Animal[]{
             <span class="hljs-keyword">new</span> Cat(<span class="hljs-string">"Mittens"</span>),
@@ -126,6 +128,7 @@ Spot: Woof
     }
 }
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">Mittens: Meow
 Snowball: Meow
 Spot: Woof
@@ -179,10 +182,10 @@ Spot: Woof
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" print shape area">
+                            <panel header="<md>:glyphicon-question-sign:</md> print shape area">
                               <question>
                                 <p>The <code>Main</code> class below keeps a list of <code>Circle</code> and <code>Rectangle</code> objects and prints the area (as an <code>int</code> value) of each shape when requested.</p>
                                 <p>Add the missing variables/methods to the code below so that it produces the output given.</p>
@@ -199,6 +202,7 @@ Spot: Woof
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">78
 12
 314
@@ -255,10 +259,10 @@ Spot: Woof
                             </panel>
                           </div>
                           <div>
-                            <panel header=" TaskManager Level 2 - **Use Inheritance**">
+                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 2 - **Use Inheritance**">
                               <div id="body">
                                 <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header=" TM-L1" minimized fragment="main"></panel>
+                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
                                 </p>
                                 <p><span class="dimmed">This exercise continues from the <code>TaskManager Level1</code> exercise quoted above.</span></p>
                                 <div id="main">
@@ -269,7 +273,7 @@ Spot: Woof
                                     <li>Deadline: a task to be done by a specific deadline</li>
                                   </ul>
                                   <p>Both types keeps an internal flag to indicate if the task is done. The flag is initially set to <code>false</code>.</p>
-                                  <p>Here is an example output:</p>
+                                  <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                   <box>
                                     <div class="text-monospace">
                                       <p>Welcome to TaskManager-Level2!
@@ -330,7 +334,7 @@ Spot: Woof
                                             <ol>
                                               <li>
                                                 <p>Store the test input in the text file <code>input.txt</code>.</p>
-                                                <panel header="%% Example `input.txt`%%" type="seamless">
+                                                <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless">
                                                   <pre><code class="hljs">add Valid Name p/12345 valid@email.butNoPrefix
 add Valid Name 12345 e/valid@email.butPhonePrefixMissing
 </code></pre>
@@ -338,7 +342,7 @@ add Valid Name 12345 e/valid@email.butPhonePrefixMissing
                                               </li>
                                               <li>
                                                 <p>Store the output we expect from the SUT in another text file <code>expected.txt</code>.</p>
-                                                <panel header="%% Example `expected.txt`%%" type="seamless">
+                                                <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless">
                                                   <pre><code class="hljs">Command: || [add Valid Name p/12345 valid@email.butNoPrefix]
 Invalid command format: add 
 
@@ -368,7 +372,7 @@ Invalid command format: add
 </code></pre>
                                                   <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
                                                   <tip-box>
-                                                    <p>Resources:</p>
+                                                    <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
                                                     <ul>
                                                       <li><a href="http://technet.microsoft.com/en-us/library/bb490982.aspx">Using command redirection operators in Windows</a></li>
                                                     </ul>

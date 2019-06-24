@@ -43,7 +43,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use Java API documentation about classes</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java API documentation about classes</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -66,7 +66,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use the String class</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the String class</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -91,12 +91,13 @@
                         <div class="indented">
                           <p>Strings provide methods, <code>toUpperCase</code> and <code>toLowerCase</code>, that convert from uppercase to lowercase and back.</p>
                           <box>
-                            <p>After these statements run, <code>upperName</code> refers to the string <code>&quot;ALAN TURING&quot;</code> but <code>name</code> still refers to <code>&quot;Alan Turing&quot;</code>.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> After these statements run, <code>upperName</code> refers to the string <code>&quot;ALAN TURING&quot;</code> but <code>name</code> still refers to <code>&quot;Alan Turing&quot;</code>.</p>
                             <pre><code class="hljs java">String name = <span class="hljs-string">"Alan Turing"</span>;
 String upperName = name.toUpperCase();
 System.out.println(name);
 System.out.println(upperName);
 </code></pre>
+                            <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs">Alan Turing
 ALAN TURING
 </code></pre>
@@ -111,11 +112,12 @@ s = s.toUpperCase(); <span class="hljs-comment">// the correct way</span>
                         <div class="indented">
                           <p>Another useful method is <code>replace</code>, which finds and replaces instances of one string within another.</p>
                           <box>
-                            <p>This example replaces <code>&quot;Computer Science&quot;</code> with <code>&quot;CS&quot;</code>.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example replaces <code>&quot;Computer Science&quot;</code> with <code>&quot;CS&quot;</code>.</p>
                             <pre><code class="hljs java">String text = <span class="hljs-string">"Computer Science is fun!"</span>;
 text = text.replace(<span class="hljs-string">"Computer Science"</span>, <span class="hljs-string">"CS"</span>);
 System.out.println(text);
 </code></pre>
+                            <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs">CS is fun!
 </code></pre>
                           </box>
@@ -124,25 +126,25 @@ System.out.println(text);
                         <div class="indented">
                           <p>The <code>substring</code> method returns a new string that copies letters from an existing string, starting at the given index.</p>
                           <ul>
-                            <li><code>&quot;banana&quot;.substring(0)</code> <code>&quot;banana&quot;</code></li>
-                            <li><code>&quot;banana&quot;.substring(2)</code> <code>&quot;nana&quot;</code></li>
-                            <li><code>&quot;banana&quot;.substring(6)</code> <code>&quot;&quot;</code></li>
+                            <li><code>&quot;banana&quot;.substring(0)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;banana&quot;</code></li>
+                            <li><code>&quot;banana&quot;.substring(2)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;nana&quot;</code></li>
+                            <li><code>&quot;banana&quot;.substring(6)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;&quot;</code></li>
                           </ul>
                           <p>If it’s invoked with two arguments, they are treated as a start and end index:</p>
                           <ul>
-                            <li><code>&quot;banana&quot;.substring(0, 3)</code> <code>&quot;ban&quot;</code></li>
-                            <li><code>&quot;banana&quot;.substring(2, 5)</code> <code>&quot;nan&quot;</code></li>
-                            <li><code>&quot;banana&quot;.substring(6, 6)</code> <code>&quot;&quot;</code></li>
+                            <li><code>&quot;banana&quot;.substring(0, 3)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;ban&quot;</code></li>
+                            <li><code>&quot;banana&quot;.substring(2, 5)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;nan&quot;</code></li>
+                            <li><code>&quot;banana&quot;.substring(6, 6)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;&quot;</code></li>
                           </ul>
                         </div>
                         <h5 id="searching-within-strings">Searching within strings<a class="fa fa-anchor" href="#searching-within-strings"></a></h5>
                         <div class="indented">
                           <p>The <code>indexOf</code> method searches for a single character (or a substring) in a string and returns the index of the first occurrence. The method returns <code>-1</code> if there are no occurrences.</p>
                           <ul>
-                            <li><code>&quot;banana&quot;.indexOf('a')</code> <code>1</code></li>
-                            <li><code>&quot;banana&quot;.indexOf('a', 2)</code> <code>3</code> <span class="dimmed">searches for <code>'a'</code>, starting from position 2</span></li>
-                            <li><code>&quot;banana&quot;.indexOf('x')</code> <code>-1</code></li>
-                            <li><code>&quot;banana&quot;.indexOf(&quot;nan&quot;)</code> <code>2</code> <span class="dimmed">searches for the substring <code>&quot;nan&quot;</code></span></li>
+                            <li><code>&quot;banana&quot;.indexOf('a')</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1</code></li>
+                            <li><code>&quot;banana&quot;.indexOf('a', 2)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>3</code> <span class="dimmed">searches for <code>'a'</code>, starting from position 2</span></li>
+                            <li><code>&quot;banana&quot;.indexOf('x')</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>-1</code></li>
+                            <li><code>&quot;banana&quot;.indexOf(&quot;nan&quot;)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>2</code> <span class="dimmed">searches for the substring <code>&quot;nan&quot;</code></span></li>
                           </ul>
                         </div>
                         <h5 id="comparing-strings">Comparing Strings<a class="fa fa-anchor" href="#comparing-strings"></a></h5>
@@ -157,7 +159,7 @@ String name2 = <span class="hljs-string">"Ada Lovelace"</span>;
                           <p>This code compiles and runs, and most of the time it gets the answer right. But it is not correct, and sometimes it gets the answer wrong. The problem is that the <code>==</code> operator checks whether the two variables refer to the same object (by comparing the references). If you give it two different strings that contain the same letters, it yields false.
                             The right way to compare strings is with the <code>equals</code> method.</p>
                           <box>
-                            <p>This example invokes <code>equals</code> on <code>name1</code> and passes <code>name2</code> as an argument. The <code>equals</code> method returns <code>true</code> if the strings contain the same characters; otherwise it returns <code>false</code>.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example invokes <code>equals</code> on <code>name1</code> and passes <code>name2</code> as an argument. The <code>equals</code> method returns <code>true</code> if the strings contain the same characters; otherwise it returns <code>false</code>.</p>
                             <pre><code class="hljs java"><span class="hljs-keyword">if</span> (name1.equals(name2)) {
     System.out.println(<span class="hljs-string">"The names are the same."</span>);
 }
@@ -165,7 +167,7 @@ String name2 = <span class="hljs-string">"Ada Lovelace"</span>;
                           </box>
                           <p>If the strings differ, we can use <code>compareTo</code> to see which comes first in alphabetical order. The return value from <code>compareTo</code> is the difference between the first characters in the strings that differ. If the strings are equal, their difference is zero. If the first string (the one on which the method is invoked) comes first in the alphabet, the difference is negative. Otherwise, the difference is positive.</p>
                           <box>
-                            <p>In this example, <code>compareTo</code> returns positive 8, because the second letter of &quot;Ada&quot; comes before the second letter of &quot;Alan&quot; by 8 letters.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, <code>compareTo</code> returns positive 8, because the second letter of &quot;Ada&quot; comes before the second letter of &quot;Alan&quot; by 8 letters.</p>
                             <pre><code class="hljs java"><span class="hljs-keyword">int</span> diff = name1.compareTo(name2);
 <span class="hljs-keyword">if</span> (diff == <span class="hljs-number">0</span>) {
     System.out.println(<span class="hljs-string">"The names are the same."</span>);
@@ -241,18 +243,20 @@ System.out.println(s1.equalsIgnoreCase(s2)); <span class="hljs-comment">//true</
                             </table>
                           </div>
                           <box>
-                            <p>An example of using escape sequences to printing some special characters.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of using escape sequences to printing some special characters.</p>
                             <pre><code class="hljs java">System.out.println(<span class="hljs-string">"First line\nSecond \"line\""</span>);
 </code></pre>
+                            <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs">First line
 Second &quot;line&quot;
 </code></pre>
                           </box>
                           <p>💡 As the behavior of the <code>\n</code> depends on the platform, the recommended way to print a line break is using the <code>System.lineSeparator()</code> as it works the same in all platforms.</p>
                           <box>
-                            <p>Using <code>System.lineSeparator()</code> to print a line break.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Using <code>System.lineSeparator()</code> to print a line break.</p>
                             <pre><code class="hljs java">System.out.println(<span class="hljs-string">"First line"</span> + System.lineSeparator() + <span class="hljs-string">"Second line"</span>);
 </code></pre>
+                            <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                             <pre><code class="hljs">First line
 Second line
 </code></pre>
@@ -262,7 +266,7 @@ Second line
                         <div class="indented">
                           <p>Sometimes programs need to create strings that are formatted a certain way. <code>String.format</code> takes a format specifier followed by a sequence of values and returns a new string formatted as specified.</p>
                           <box>
-                            <p>The following method returns a time string in 12-hour format. The format specifier <code>\%02d</code> means “two digit integer padded with zeros”, so <code>timeString(19, 5)</code> returns the string <code>&quot;07:05 PM&quot;</code>.</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The following method returns a time string in 12-hour format. The format specifier <code>\%02d</code> means “two digit integer padded with zeros”, so <code>timeString(19, 5)</code> returns the string <code>&quot;07:05 PM&quot;</code>.</p>
                             <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String <span class="hljs-title">timeString</span><span class="hljs-params">(<span class="hljs-keyword">int</span> hour, <span class="hljs-keyword">int</span> minute)</span> </span>{
     String ampm;
     <span class="hljs-keyword">if</span> (hour &lt; <span class="hljs-number">12</span>) {
@@ -282,7 +286,7 @@ Second line
                       </div>
                       <div>
                         <div>
-                          <panel header=" Resources" expanded>
+                          <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                             <div>
                               <ul>
                                 <li><a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html"><code>String</code> API</a></li>
@@ -292,18 +296,18 @@ Second line
                           </panel>
                         </div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" `printPrice` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method">
                                   <question>
                                     <p>Implement the <code>printPrice</code> method in the code below to produce the given output. Its behavior:</p>
                                     <ul>
                                       <li>The parameter <code>item</code> is a string in the format <code>name--$price</code> i.e., a name and a price of an item separated using a <code>--</code> e.g., <code>banana--$3/50</code></li>
                                       <li>It prints the <code>NAME: price</code> where the name is in upper case. The price does not have a <code>$</code> sign and has <code>.</code> in place of the <code>/</code><br>
-                                        e.g., <code>banana--$3/50</code> <code>BANANA: 3.50</code></li>
+                                        e.g., <code>banana--$3/50</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>BANANA: 3.50</code></li>
                                       <li>The <code>name</code> part of the input can have trailing/leading spaces which should be omitted from the output.<br>
-                                        e.g., <code>banana --$3/50</code> <code>BANANA: 3.50</code></li>
+                                        e.g., <code>banana --$3/50</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>BANANA: 3.50</code></li>
                                     </ul>
                                     <p>💡 Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code>java string remove leading trailing spaces</code></p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -321,6 +325,7 @@ Second line
     }
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">SANDWICH: 4.50
 SODA: 10.00
 FRIES: 0.50
@@ -354,53 +359,55 @@ FRIES: 0.50
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use wrapper classes for primitive</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use wrapper classes for primitive</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p>Primitive values (like <code>int</code>, <code>double</code>, and <code>char</code>) do not provide methods.</p>
                         <box>
-                          <p>For example, you can’t call <code>equals</code> on an <code>int</code>:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, you can’t call <code>equals</code> on an <code>int</code>:</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">int</span> i = <span class="hljs-number">5</span>;
 System.out.println(i.equals(<span class="hljs-number">5</span>));  <span class="hljs-comment">// compiler error</span>
 </code></pre>
                         </box>
                         <p>But <strong>for each primitive type, there is a corresponding class in the Java library, called a <em>wrapper class</em></strong>. The wrapper class for <code>char</code> is called <code>Character</code>; for <code>int</code> it’s called <code>Integer</code>. Other wrapper classes include <code>Boolean</code>, <code>Long</code>, and <code>Double</code>. They are in the <code>java.lang</code> package, so you can use them without importing them.</p>
                         <box>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span></p>
                           <pre><code class="hljs java">Double d = <span class="hljs-keyword">new</span> Double(<span class="hljs-number">2.5</span>);
 <span class="hljs-keyword">int</span> i = d.intValue();
 System.out.println(d);
 System.out.println(i);
 </code></pre>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs">2.5
 2
 </code></pre>
                         </box>
                         <p>Each wrapper class defines constants <code>MIN_VALUE</code> and <code>MAX_VALUE</code>. Because these constants are available in wrapper classes, you don’t have to remember them, and you don’t have to include them in your programs.</p>
                         <box>
-                          <p>Accessing max and min values for integers:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Accessing max and min values for integers:</p>
                           <pre><code class="hljs java">System.out.println(Integer.MIN_VALUE + <span class="hljs-string">" : "</span> + Integer.MAX_VALUE);
 </code></pre>
-                          <p><code>-2147483648 : 2147483647</code></p>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>-2147483648 : 2147483647</code></p>
                         </box>
                         <p><strong>Wrapper classes provide methods for converting strings to other types.</strong> In this context, parse means something like “read and translate”. <code>Integer.parseInt</code> converts a string to (you guessed it) an integer. The other wrapper classes provide similar methods, like <code>Double.parseDouble</code> and <code>Boolean.parseBoolean</code>.</p>
-                        <p><code>Integer.parseInt(&quot;12345&quot;)</code> <code>1234</code></p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Integer.parseInt(&quot;12345&quot;)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1234</code></p>
                         <p>Wrapper classes also provide <code>toString</code>, which returns a string representation of a value.</p>
-                        <p><code>Integer.toString(12345)</code> <code>&quot;1234&quot;</code></p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Integer.toString(12345)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>&quot;1234&quot;</code></p>
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" `printTotalScore` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> `printTotalScore` method">
                                   <question>
                                     <p>Implement the <code>printTotalScore</code> method in the code below to produce the given output. Its behavior:</p>
                                     <ul>
                                       <li><code>values</code> is an array of strings, each string representing an integer e.g., <code>[&quot;5&quot;, &quot;-1&quot;]</code></li>
                                       <li>The method prints the total of the numbers represented by the strings in the array<br>
-                                        <code>[&quot;5&quot;, &quot;-1&quot;]</code> <code>4</code></li>
+                                        <code>[&quot;5&quot;, &quot;-1&quot;]</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>4</code></li>
                                     </ul>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
@@ -414,6 +421,7 @@ System.out.println(i);
     }
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">0
 109
 </code></pre>
@@ -447,14 +455,14 @@ System.out.println(i);
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use the Arrays class</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the Arrays class</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong><a href="https://docs.oracle.com/javase/9/docs/api/java/util/Arrays.html"><code>java.util.Arrays</code></a> provides methods for working with arrays.</strong> One of them, <code>toString</code>, returns a string representation of an array. It also provides a <code>copyOf</code> that copies an array.</p>
                         <box>
-                          <p>Using <code>Arrays.copyOf</code> and <code>Arrays.toString</code>:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Using <code>Arrays.copyOf</code> and <code>Arrays.toString</code>:</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[]{<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>};
 
 <span class="hljs-keyword">int</span>[] b = Arrays.copyOf(a, <span class="hljs-number">3</span>); <span class="hljs-comment">// copy first three elements</span>
@@ -463,6 +471,7 @@ System.out.println(Arrays.toString(b));
 <span class="hljs-keyword">int</span>[] c = Arrays.copyOf(a, a.length); <span class="hljs-comment">// copy all elements</span>
 System.out.println(Arrays.toString(c));
 </code></pre>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs">[1, 2, 3]
 [1, 2, 3, 4]
 </code></pre>
@@ -470,10 +479,10 @@ System.out.println(Arrays.toString(c));
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" `filterEmails` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> `filterEmails` method">
                                   <question>
                                     <p>Implement the following two methods in the code below to produce the given output.</p>
                                     <ul>
@@ -481,12 +490,12 @@ System.out.println(Arrays.toString(c));
                                         <ul>
                                           <li><code>items</code> is an array of strings each of which may be an email address or some other random string</li>
                                           <li>Returns a <code>String[]</code> containing email addresses that were in <code>items</code>. Any string containing <code>@</code> is considered as an email.<br>
-                                            <code>[&quot;aaa@bbb&quot;, &quot;xyz&quot;]</code> <code>[&quot;aaa@bbb&quot;]</code></li>
+                                            <code>[&quot;aaa@bbb&quot;, &quot;xyz&quot;]</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[&quot;aaa@bbb&quot;]</code></li>
                                         </ul>
                                       </li>
                                       <li><strong><code>printItems(String[] items)</code></strong>
                                         <ul>
-                                          <li>Prints <code>items</code> in the standard array format. e.g., <code>[&quot;aaa&quot;, &quot;bbb&quot;]</code> <code>[aaa, bbb]</code></li>
+                                          <li>Prints <code>items</code> in the standard array format. e.g., <code>[&quot;aaa&quot;, &quot;bbb&quot;]</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[aaa, bbb]</code></li>
                                         </ul>
                                       </li>
                                     </ul>
@@ -509,6 +518,7 @@ System.out.println(Arrays.toString(c));
     }
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">[]
 []
 [adam@example.com, john@example.com, some@]
@@ -566,7 +576,7 @@ System.out.println(Arrays.toString(c));
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use the Scanner class</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the Scanner class</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -592,7 +602,7 @@ System.out.println(Arrays.toString(c));
 </code></pre>
                         <p><code>Scanner</code> class normally reads inputs as strings but it can read in a specific type of input too.</p>
                         <box>
-                          <p>The code below uses the <code>nextInt</code> method of the <code>Scanner</code> class to read an input as an integer.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below uses the <code>nextInt</code> method of the <code>Scanner</code> class to read an input as an integer.</p>
                           <pre><code class="hljs java">
 Scanner in = <span class="hljs-keyword">new</span> Scanner(System.in);
 
@@ -608,27 +618,27 @@ System.out.printf(<span class="hljs-string">"Hello %s, age %d\n"</span>, name, a
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" find total expenditure">
+                                <panel header="<md>:glyphicon-question-sign:</md> find total expenditure">
                                   <question>
                                     <p>Write a program to ask the user for a description of overseas expenses (presumably, the user has just returned from an overseas trip) and calculate the total in local currency.</p>
                                     <ul>
                                       <li>The conversion rate from overseas currency to local currency : overseas <code>$1.0</code> = local <code>$1.70</code></li>
                                       <li>The user can describe expenses is in free form text, as one line. The program takes all amounts mentioned in the format <code>$amount</code> e.g., <code>$1.50</code></li>
                                     </ul>
-                                    <p>Here is one example output:</p>
+                                    <p>Here is one example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">Your expenses while overseas?beer $4.50 books $3.00 $5.00 for food, that's all
 Expenses in overseas currency:[$4.50, $3.00, $5.00]
 Total in local currency: $21.25
 </code></pre>
-                                    <p>Here is another:</p>
+                                    <p>Here is another: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">Your expenses while overseas?nothing. I lived off my friends all the time.
 Expenses in overseas currency:[]
 Total in local currency: $0.00
 </code></pre>
-                                    <p>One more:</p>
+                                    <p>One more: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">Your expenses while overseas? Just $10
 Expenses in overseas currency:[$10]
 Total in local currency: $17.00
@@ -652,10 +662,10 @@ Total in local currency: $17.00
 String[] words = sentence.split(<span class="hljs-string">" "</span>); <span class="hljs-comment">// split using the space as the delimiter</span>
 System.out.println(Arrays.toString(words));
 </code></pre>
-                                    <p><code>[hello, my, dear]</code></p>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[hello, my, dear]</code></p>
                                     <div slot="hint">
                                       <p>💡 You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
-                                        e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <code>1.33</code></p>
+                                        e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1.33</code></p>
                                       <panel type="seamless" header="Partial solution">
                                         <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Arrays;
 <span class="hljs-keyword">import</span> java.util.Scanner;
@@ -699,11 +709,11 @@ System.out.println(Arrays.toString(words));
                                 </panel>
                               </div>
                               <div>
-                                <panel header=" TaskManager Level 1 - **Create a CLI**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 1 - **Create a CLI**">
                                   <div id="body">
                                     <div id="main">
                                       <p>In this first version of the TaskManager, the task list is not saved to the disk <span class="dimmed">i.e., the task list does not persist between multiple runs of the program</span></p>
-                                      <p>Here is an example output:</p>
+                                      <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                       <pre><code class="hljs">Welcome to TaskManager-Level1!
 Your task? add submit report
 Tasks in the list: 1

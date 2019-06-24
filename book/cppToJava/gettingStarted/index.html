@@ -43,7 +43,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can install Java</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can install Java</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -63,7 +63,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the Java HelloWorld program</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Java HelloWorld program</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -89,7 +89,7 @@
 </code></pre>
                         <p>This HelloWorld Java program defines one method named main: <code>public static void main(String[] args)</code></p>
                         <p><code>System.out.println</code> displays results on the screen.</p>
-                        <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> Some similarities:</p>
+                        <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> Some similarities:</p>
                         <ul>
                           <li>Java programs are made up of class and method definitions, and <tooltip content="A _method_ is a named sequence of statements">methods</tooltip> are made up of <trigger for="pop:helloWorld-statement">statements</trigger>.</li>
                           <li>Java is “case-sensitive”, which means <code>SYSTEM</code> is different from <code>System</code>.</li>
@@ -107,7 +107,7 @@
                             <p><code>System.out.println(&quot;Hello, World!&quot;);</code></p>
                           </div>
                         </popover>
-                        <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"></span></span> Some differences:</p>
+                        <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> Some differences:</p>
                         <ul>
                           <li>Java use the term <em>method</em> instead of <em>function</em>. In particular, Java doesn’t have stand-alone functions. Every method should belong to a class. The <code>main</code> method will not work unless it is inside the <code>HelloWorld</code> class.</li>
                           <li>A Java class definition does not end with a semicolon, but most Java statements do.</li>
@@ -128,7 +128,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can compile a simple Java program</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can compile a simple Java program</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -148,7 +148,7 @@
                         <p>Notes:</p>
                         <ul>
                           <li><code>javac</code> is the java compiler that you get when you install the JDK.</li>
-                          <li>For the above command to work, your console program should be able to find the javac executable (e.g., the location of the <code>javac.exe</code> should be in the <code>PATH</code> system variable).</li>
+                          <li>For the above command to work, your console program should be able to find the javac executable (e.g., <span><span aria-hidden="true" class="fab fa-windows"></span></span> the location of the <code>javac.exe</code> should be in the <code>PATH</code> system variable).</li>
                         </ul>
                       </div>
                       <div></div>
@@ -163,7 +163,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can run a simple Java program</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can run a simple Java program</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -179,7 +179,7 @@
                         </ul>
                         <p>When you run a Java program, you can encounter a <tooltip content="so-called because it does not appear until after the program has started running">run-time error</tooltip>. These errors are also called &quot;exceptions&quot; because they usually indicate that something exceptional (and bad) has happened. When a run-time error occurs, the interpreter displays an error message that explains what happened and where.</p>
                         <tip-box>
-                          <p>For example, modify the HelloWorld code to include the following line, compile it again, and run it.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, modify the HelloWorld code to include the following line, compile it again, and run it.</p>
                           <pre><code class="hljs java">System.out.println(<span class="hljs-number">5</span>/<span class="hljs-number">0</span>);
 </code></pre>
                           <p>You should get a message like this:</p>
@@ -187,7 +187,7 @@
     at Hello.main(Hello.java:5)
 </code></pre>
                         </tip-box>
-                        <p><strong>Integrated Development Environments (IDEs)</strong> can automate the intermediate step of compiling. They usually have a <span style="color:green"></span> <em>Run</em> button which compiles the code first and then runs it.</p>
+                        <p><strong>Integrated Development Environments (IDEs)</strong> can automate the intermediate step of compiling. They usually have a <span style="color:green"><span aria-hidden="true" class="fas fa-play-circle"></span></span> <em>Run</em> button which compiles the code first and then runs it.</p>
                         <p>Example IDEs:</p>
                         <ul>
                           <li>Intellij IDEA</li>
@@ -197,10 +197,10 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" Run HelloWorld">
+                                <panel header="<md>:glyphicon-question-sign:</md> Run HelloWorld">
                                   <question>
                                     <ul>
                                       <li>Install Java in your Computer, if you haven't done so already.</li>

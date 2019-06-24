@@ -34,71 +34,118 @@
 
 <body>
   <div id="app">
+    <header>
+      <navbar placement="top" type="dark">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
+        <dropdown text="Schedule" class="nav-link">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <dropdown text="Links" class="nav-link">
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</span></a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team IDs</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</span></a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span> Projects List</span></a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
     <div id="flex-body">
       <nav id="site-nav" class="navbar navbar-light bg-transparent">
         <div class="border-right-grey nav-inner position-sticky slim-scroll">
           <ul class="px-0 site-nav-list">
-            <li class="mt-2"><a href="/website/admin/moduleOverview.html" class="site-nav__a">CS2103/T Software Engineering</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4</span></span></li>
-            <li class="mt-2"><a href="/website/admin/usingThisWebsite.html" class="site-nav__a"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1</span></span></li>
-            <li class="mt-2"><a href="/website/admin/moduleExpectations.html" class="site-nav__a">Module Expectations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></li>
+            <li class="mt-2"><a href="/website/admin/moduleOverview.html" class="site-nav__a">CS2103/T Software Engineering</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/usingThisWebsite.html" class="site-nav__a"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/moduleExpectations.html" class="site-nav__a">Module Expectations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
             <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Module Structure
                 <i class="dropdown-btn-icon rotate-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container dropdown-container-open">
                 <ul class="pl-3 site-nav-list">
-                  <li class="mt-2"><small><a href="/website/admin/weeklySchedule.html" class="site-nav__a">Weekly Schedule</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/lectures.html" class="site-nav__a">Lectures</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/tutorials.html" class="site-nav__a">Tutorials</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/weeklySchedule.html" class="site-nav__a">Weekly Schedule</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/lectures.html" class="site-nav__a">Lectures</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/tutorials.html" class="site-nav__a">Tutorials</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4</span></span></li>
-            <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></li>
-            <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></li>
+            <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
             <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Project
                 <i class="dropdown-btn-icon rotate-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container dropdown-container-open">
                 <ul class="pl-3 site-nav-list">
-                  <li class="mt-2"><small><a href="/website/admin/project-overview.html" class="site-nav__a">Project: Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-product.html" class="site-nav__a">Project: The product</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-scope.html" class="site-nav__a">Project: Scope</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-constraints.html" class="site-nav__a">Project: Constraints</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-teams.html" class="site-nav__a">Forming Teams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-timeline.html" class="site-nav__a">Project: Timeline</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w03-inception.html" class="site-nav__a">Project: inception [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w04-mid-v10.html" class="site-nav__a">Project: mid-v1.0 [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w05-v10.html" class="site-nav__a">Project: v1.0 [week 5]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w06-mid-v11.html" class="site-nav__a">Project: mid-v1.1 [week 6]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w07-v11.html" class="site-nav__a">Project: v1.1 [week 7]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w08-mid-v12.html" class="site-nav__a">Project: mid-v1.2 [week 8]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w09-v12.html" class="site-nav__a">Project: v1.2 [week 9]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w10-mid-v13.html" class="site-nav__a">Project: mid-v1.3 [week 10]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w11-v13.html" class="site-nav__a">Project: v1.3 [week 11]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w12-mid-v14.html" class="site-nav__a">Project: mid-v1.4 [week 12]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w13-v14.html" class="site-nav__a">Project: v1.4 [week 13]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-deliverables.html" class="site-nav__a">Project: Deliverables</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-assessment.html" class="site-nav__a">Project: Assessment</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-supervision.html" class="site-nav__a">Project: Supervision</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-overview.html" class="site-nav__a">Project: Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-product.html" class="site-nav__a">Project: The product</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-scope.html" class="site-nav__a">Project: Scope</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-constraints.html" class="site-nav__a">Project: Constraints</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-teams.html" class="site-nav__a">Forming Teams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-timeline.html" class="site-nav__a">Project: Timeline</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w03-inception.html" class="site-nav__a">Project: inception [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w04-mid-v10.html" class="site-nav__a">Project: mid-v1.0 [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w05-v10.html" class="site-nav__a">Project: v1.0 [week 5]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w06-mid-v11.html" class="site-nav__a">Project: mid-v1.1 [week 6]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w07-v11.html" class="site-nav__a">Project: v1.1 [week 7]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w08-mid-v12.html" class="site-nav__a">Project: mid-v1.2 [week 8]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w09-v12.html" class="site-nav__a">Project: v1.2 [week 9]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w10-mid-v13.html" class="site-nav__a">Project: mid-v1.3 [week 10]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w11-v13.html" class="site-nav__a">Project: v1.3 [week 11]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w12-mid-v14.html" class="site-nav__a">Project: mid-v1.4 [week 12]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w13-v14.html" class="site-nav__a">Project: v1.4 [week 13]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-deliverables.html" class="site-nav__a">Project: Deliverables</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-assessment.html" class="site-nav__a">Project: Assessment</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-supervision.html" class="site-nav__a">Project: Supervision</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><a href="/website/admin/peerEvaluations.html" class="site-nav__a">Peer Evaluations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></li>
-            <li class="mt-2"><a href="/website/admin/tools.html" class="site-nav__a">Tools</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3</span></span></li>
-            <li class="mt-2"><a href="/website/admin/gradeBreakdown.html" class="site-nav__a">Grade Breakdown</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></li>
-            <li class="mt-2"><a href="/website/admin/exams.html" class="site-nav__a">Exams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></li>
-            <li class="mt-2"><a href="/website/admin/participation.html" class="site-nav__a">Participation Marks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></li>
+            <li class="mt-2"><a href="/website/admin/peerEvaluations.html" class="site-nav__a">Peer Evaluations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/tools.html" class="site-nav__a">Tools</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/gradeBreakdown.html" class="site-nav__a">Grade Breakdown</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/exams.html" class="site-nav__a">Exams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/participation.html" class="site-nav__a">Participation Marks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
             <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Appendices
                 <i class="dropdown-btn-icon rotate-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container dropdown-container-open">
                 <ul class="pl-3 site-nav-list">
-                  <li class="mt-2"><small><a href="/website/admin/appendixA-principles.html" class="site-nav__a">A: Module Principles</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/appendixB-policies.html" class="site-nav__a">B: Module Policies</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/appendixC-faq.html" class="site-nav__a">C: Frequently Asked Questions</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/appendixD-help.html" class="site-nav__a">D: Getting help in this module</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/appendixE-gitHub.html" class="site-nav__a">E: Using GitHub</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1</span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/appendixF-teamworkIssues.html" class="site-nav__a">F: Handling teamwork issues</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4</span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/appendixA-principles.html" class="site-nav__a">A: Module Principles</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/appendixB-policies.html" class="site-nav__a">B: Module Policies</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/appendixC-faq.html" class="site-nav__a">C: Frequently Asked Questions</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/appendixD-help.html" class="site-nav__a">D: Getting help in this module</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/appendixE-gitHub.html" class="site-nav__a">E: Using GitHub</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/appendixF-teamworkIssues.html" class="site-nav__a">F: Handling teamwork issues</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
             </li>
@@ -106,57 +153,8 @@
         </div>
       </nav>
       <div id="content-wrapper">
-        <div>
-          <navbar placement="top" type="inverse" class="temp-navbar">
-            <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
-            <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-            <dropdown text="Schedule" class="nav-link temp-dropdown">
-              <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
-              <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
-              <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
-              <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
-              <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
-              <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
-              <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
-              <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
-              <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
-              <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
-              <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
-              <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
-              <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
-            </dropdown>
-            <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-            <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-            <div class="nav-link temp-dropdown-placeholder">Links</div>
-            <dropdown text="Links" class="nav-link temp-dropdown">
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Report Bugs</a></li>
-              <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"> Slack</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Forum</a></li>
-              <li><a href="/website/admin/project-overview.html" class="dropdown-item"> Project Info</a></li>
-              <li><a href="/website/admin/instructors.html" class="dropdown-item"> Instructors</a></li>
-              <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"> Announcements</a></li>
-              <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"> File Submissions</a></li>
-              <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"> Tutorial Schedule</a></li>
-              <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"> Team IDs</a></li>
-              <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"> Java Coding Standard</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"> samplerepo-things</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"> Addressbook-level1</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"> Addressbook-level2</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"> Addressbook-level3</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"> Addressbook-level4</a></li>
-              <li><a href="/website/admin/projectList.html" class="dropdown-item"> Projects List</a></li>
-              <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"> config.json templates for Reposense</a></li>
-              <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"> Project Code Dashboard (BETA)</a></li>
-            </dropdown>
-            <li slot="right" class="nav-link">
-              <form class="navbar-form">
-                <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
-              </form>
-            </li>
-          </navbar>
-        </div>
         <div class="website-content">
-          <p><span style="float:left"><span> <a href="/website/admin/project-w12-mid-v14.html">Project: mid-v1.4 [week 12]</a></span></span><span style="float:right"><span><a href="/website/admin/project-deliverables.html">Project: Deliverables </a></span></span></p>
+          <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/project-w12-mid-v14.html">Project: mid-v1.4 [week 12]</a></span></span><span style="float:right"><span><a href="/website/admin/project-deliverables.html">Project: Deliverables <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
           <br>
           <p>
             <div>
@@ -166,7 +164,7 @@
           <div id="main">
             <div id="title"></div>
             <div id="body">
-              <p class="lead" style="color: purple"><span> <span>Final tweaks to docs/product, release product, demo product, evaluate peer projects.</span></span></p>
+              <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Final tweaks to docs/product, release product, demo product, evaluate peer projects.</span></span></p>
               <p><strong>Summary of submissions</strong>:</p>
               <div class="table-responsive">
                 <table class="markbind-table table table-bordered table-striped">
@@ -179,32 +177,32 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Source code</td>
+                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Source code</td>
                       <td>tag as <code>v1.4</code></td>
                       <td>GitHub</td>
                     </tr>
                     <tr>
-                      <td>Jar file</td>
+                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Jar file</td>
                       <td><code>[team][product name].jar</code><br><span class="dimmed">e.g. [W09-1][ContactsPlus].jar</span></td>
                       <td>IVLE</td>
                     </tr>
                     <tr>
-                      <td>User Guide</td>
+                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> User Guide</td>
                       <td><code>[TEAM_ID][product Name]UserGuide.pdf</code><br> <span class="dimmed">e.g.[W09-1][Contacts Plus]UserGuide.pdf</span></td>
                       <td>IVLE</td>
                     </tr>
                     <tr>
-                      <td>Developer Guide</td>
+                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Developer Guide</td>
                       <td><code>[TEAM_ID][product Name]DeveloperGuide.pdf</code><br> <span class="dimmed">e.g. [W09-1][Contacts Plus]DeveloperGuide.pdf</span></td>
                       <td>IVLE</td>
                     </tr>
                     <tr>
-                      <td>Product Website</td>
+                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Product Website</td>
                       <td><code>README</code> page, <code>Ui.png</code>, <code>AboutUs</code> page</td>
                       <td><a href="http://github.io">github.io</a></td>
                     </tr>
                     <tr>
-                      <td>Project Portfolio Page</td>
+                      <td><span><span aria-hidden="true" class="fas fa-user"></span></span> Project Portfolio Page</td>
                       <td><code>[TEAM_ID][Your Name]Portfolio.pdf</code><br> <span class="dimmed">e.g.[W09-1][John Doe]Portfolio.pdf</span><br>html version of PPP page on the product website</td>
                       <td>IVLE<br><br><a href="http://github.io">github.io</a></td>
                     </tr>
@@ -216,7 +214,7 @@
                 <li>Submit to IVLE folder we have set up, not to your project space.<br>
                   cs2103T students: documents should be submitted to both modules. It's not enough to submit to CS2101 side only.</li>
                 <li>
-                  <font color="red"><big></big></font> <strong>Penalty for late submission:</strong><br>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Penalty for late submission:</strong><br>
                   <mark>-1 mark for missing the deadline (up to 2 hour of delay).</mark><br>
                   -2 for an <em>extended delay</em> (up to 24 hours late).<br>
                   Penalty for delays beyond 24 hours is determined on a case by case basis.
@@ -228,7 +226,7 @@
                 </li>
                 <li>The whole team is penalized for problems in team submissions. Only the respective student is penalized for problems in individual submissions.</li>
                 <li>
-                  <font color="red"><big></big></font> Please <strong>follow submission instructions closely</strong>. <mark>Any non-compliance will be penalized</mark>. e.g. wrong file name, team member photos not suitable, etc.
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please <strong>follow submission instructions closely</strong>. <mark>Any non-compliance will be penalized</mark>. e.g. wrong file name, team member photos not suitable, etc.
                 </li>
                 <li>For pdf submissions, ensure the file is usable and hyperlinks in the file are correct. Problems in documents are considered bugs too <span class="dimmed"> e.g. broken links, outdated diagrams/instructions etc.</span>.</li>
                 <li><strong>Do not update the repo during the 14 days after the deadline.</strong> Get our permission first if you need to update the repo during that <em>freeze</em> period. You can continue to evolve your repo after that.</li>
@@ -236,15 +234,15 @@
               <p><strong>Grading</strong>:</p>
               <p><span class="flat">Described in [<a href="#admin-project-assessment-anchor">Admin: Project: Assessment</a>]</span></p>
               <p>
-                <panel src="/website/admin/project-assessment._include_.html#main" header="%%Admin  Project: Assessment%%" class="embedding" fragment="main"></panel>
+                <panel src="/website/admin/project-assessment._include_.html#main" header="%%Admin <md>:glyphicon-log-in:</md> Project: Assessment%%" class="embedding" fragment="main"></panel>
               </p>
               <h3 id="v1-4-product">v1.4 Product<a class="fa fa-anchor" href="#v1-4-product"></a></h3>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-executable">Admin Project → Deliverables → Executable</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-executable">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → Executable</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → Executable  " id="modal:v14-executable">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Executable  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-executable">
                   <div>
                   <ul>
                     <li>The product should be delivered as an executable jar file.</li>
@@ -253,17 +251,17 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-executable" header="Admin  Project → Deliverables → Executable  " class="embedding" minimized fragment="project-deliverables-executable"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-executable" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Executable  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-executable"></panel>
               </p>
               <p></p>
               <p><strong>Submission</strong>: See summary of submissions above</p>
               <h3 id="v1-4-source-code">v1.4 Source Code<a class="fa fa-anchor" href="#v1-4-source-code"></a></h3>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-sourcecode">Admin Project → Deliverables → Source Code</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-sourcecode">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → Source Code</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → Source Code  " id="modal:v14-sourcecode">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Source Code  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-sourcecode">
                   <div>
                   <ul>
                     <li>The source code should match the executable, and should include the revision history of the source code, as a Git repo.</li>
@@ -271,17 +269,17 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-sourcecode" header="Admin  Project → Deliverables → Source Code  " class="embedding" minimized fragment="project-deliverables-sourcecode"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-sourcecode" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Source Code  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-sourcecode"></panel>
               </p>
               <p></p>
               <p><strong>Submission</strong>: Push the code to GitHub and tag with the version number. Source code (<mark>please ensure the code reported by RepoSense as yours is correct;</mark> any updates to RepoSense config files or <code>@@author</code> annotations after the deadline will be considered a later submission). Note that the quality of the code attributed to you accounts for a significant component of your final score, graded individually.</p>
               <h3 id="v1-4-user-guide">v1.4 User Guide<a class="fa fa-anchor" href="#v1-4-user-guide"></a></h3>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableUg">Admin Project → Deliverables → User Guide</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableUg">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → User Guide</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → User Guide  " id="modal:v14-deliverableUg">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → User Guide  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-deliverableUg">
                   <div>
                   <ul>
                     <li>The User Guide (UG) of the product should match the proposed v2.0 of the product and in sync with the current version of the product.</li>
@@ -291,22 +289,22 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-ug" header="Admin  Project → Deliverables → User Guide  " class="embedding" minimized fragment="project-deliverables-ug"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-ug" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → User Guide  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-ug"></panel>
               </p>
               <p></p>
               <p><strong>Submission</strong>: Convert the pdf (AB4 dev guide has some instructions on converting project docs to pdf) and upload to IVLE. See <em>summary of submissions</em> above for the file name format.</p>
               <h3 id="v1-4-developer-guide">v1.4 Developer Guide<a class="fa fa-anchor" href="#v1-4-developer-guide"></a></h3>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableDg">Admin Project → Deliverables → Developer Guide</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableDg">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → Developer Guide</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → Developer Guide  " id="modal:v14-deliverableDg">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Developer Guide  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-deliverableDg">
                   <div>
                   <ul>
                     <li>The Developer Guide (DG) of the product should match the proposed v2.0 of the product and should be in sync with the current version of the product.</li>
                     <li>
-                      <font color="red"><big></big></font> <strong>The appendix named <em>Instructions for Manual Testing</em></strong> of the Developer Guide should include testing instructions to <strong>cover the features of each team member</strong>. There is no need to add testing instructions for existing features if you did not touch them.<br>
+                      <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>The appendix named <em>Instructions for Manual Testing</em></strong> of the Developer Guide should include testing instructions to <strong>cover the features of each team member</strong>. There is no need to add testing instructions for existing features if you did not touch them.<br>
                       💡 What to include in the appendix <em>Instructions for Manual Testing</em>? This appendix is meant to give some guidance to the tester to chart a path through the features, and provide some important test inputs the tester can copy-paste into the app. There is no need to give a long list of test cases including all possible variations. It is upto the tester to come up with those variations. However, if the instructions are inaccurate or deliberately misses/mis-states information to make testing harder <span class="dimmed"> i.e. annoys the tester</span>, the tester can report it as a bug <span class="dimmed"> (because flaws in developer docs are considered as bugs)</span>.
                     </li>
                     <li>Ensure the parted DG parts included in PPPs match the product precisely, as PPPs will be used by peer evaluators (and <mark>any inaccuracy in the content will be considered bugs</mark>).</li>
@@ -314,17 +312,17 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-dg" header="Admin  Project → Deliverables → Developer Guide  " class="embedding" minimized fragment="project-deliverables-dg"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-dg" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Developer Guide  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-dg"></panel>
               </p>
               <p></p>
               <p><strong>Submission</strong>: Similar to UG</p>
               <h3 id="v1-4-project-portfolio-page-ppp">v1.4 Project Portfolio Page (PPP)<a class="fa fa-anchor" href="#v1-4-project-portfolio-page-ppp"></a></h3>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverablePpp">Admin Project → Deliverables → Project Portfolio Page</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverablePpp">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → Project Portfolio Page</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → Project Portfolio Page  " id="modal:v14-deliverablePpp">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Project Portfolio Page  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-deliverablePpp">
                   <div>
                   <p>At the end of the project each student is required to submit a <em>Project Portfolio Page</em>.</p>
                   <ul>
@@ -349,7 +347,7 @@
                         <li>
                           <p><strong>Summary of Contributions</strong>:</p>
                           <ul>
-                            <li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard">Project Code Dashboard</a>, which should be <code>https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard/#=undefined&amp;search=githbub_username_in_lower_case</code> (<mark>replace <code>githbub_username_in_lower_case</code> with your actual username</mark> in lower case e.g., <code>johndoe</code>). This link is also available in the <a href="/website/admin/projectList.html">Project List Page</a> -- linked to the icon under your photo.</li>
+                            <li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard">Project Code Dashboard</a>, which should be <code>https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard/#=undefined&amp;search=githbub_username_in_lower_case</code> (<mark>replace <code>githbub_username_in_lower_case</code> with your actual username</mark> in lower case e.g., <code>johndoe</code>). This link is also available in the <a href="/website/admin/projectList.html">Project List Page</a> -- linked to the <span aria-hidden="true" class="fas fa-code"></span> icon under your photo.</li>
                             <li><strong>Features implemented:</strong> A summary of the features you implemented. If you implemented multiple features, you are recommended to indicate which one is the biggest feature.</li>
                             <li><strong>Other contributions:</strong>
                               <ul>
@@ -379,14 +377,14 @@
                           <p>File name: <code>docs/team/githbub_username_in_lower_case.adoc</code> e.g., <code>docs/team/johndoe.adoc</code></p>
                         </li>
                         <li>
-                          <p>Follow the <a href="https://nus-cs2103-ay1819s2.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a></p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Follow the <a href="https://nus-cs2103-ay1819s2.github.io/addressbook-level4/team/johndoe.html">example in the AddressBook-Level4</a></p>
                         </li>
                         <li>
                           <p>💡 You can use the <a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-files">Asciidoc's <code>include</code> feature</a> to include sections from the developer guide or the user guide in your PPP. Follow the example in the <a href="https://nus-cs2103-ay1819s2.github.io/addressbook-level4/team/johndoe.html">sample</a>.</p>
                         </li>
                         <li>
                           <p><mark>
-                              <font color="red"><big></big></font> It is assumed that all contents in the PPP were written primarily by you.
+                              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> It is assumed that all contents in the PPP were written primarily by you.
                             </mark> If any section is written by someone else <span class="dimmed"> e.g. someone else wrote described the feature in the User Guide but you implemented the feature</span>, clearly state that the section was written by someone else <span class="dimmed"> (e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed"> Reason: Your writing skills will be evaluated based on the PPP</span></p>
                         </li>
                       </ul>
@@ -432,17 +430,17 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-ppp" header="Admin  Project → Deliverables → Project Portfolio Page  " class="embedding" minimized fragment="project-deliverables-ppp"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-ppp" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Project Portfolio Page  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-ppp"></panel>
               </p>
               <p></p>
               <p><strong>Submission</strong>: Similar to UG</p>
               <h3 id="v1-4-product-website">v1.4 Product Website<a class="fa fa-anchor" href="#v1-4-product-website"></a></h3>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableWebsite">Admin Project → Deliverables → Product Website</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableWebsite">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → Product Website</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → Product Website  " id="modal:v14-deliverableWebsite">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Product Website  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-deliverableWebsite">
                   <div>
                   <ul>
                     <li>Include an updated version of the online UG and DG that match v1.4 executable</li>
@@ -501,7 +499,7 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-website" header="Admin  Project → Deliverables → Product Website  " class="embedding" minimized fragment="project-deliverables-website"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-website" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Product Website  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-website"></panel>
               </p>
               <p></p>
               <p><strong>Submission</strong>: Push the code to GitHub. Ensure the website is auto-published.</p>
@@ -511,10 +509,10 @@
               <p></p>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableDemo">Admin Project → Deliverables → Demo</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverableDemo">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → Demo</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → Demo  " id="modal:v14-deliverableDemo">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Demo  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-deliverableDemo">
                   <div>
                   <ul>
                     <li>
@@ -568,7 +566,7 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-demo" header="Admin  Project → Deliverables → Demo  " class="embedding" minimized fragment="project-deliverables-demo"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-demo" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Demo  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-demo"></panel>
               </p>
               <p></p>
               <ul>
@@ -584,10 +582,10 @@
               <h3 id="v1-4-practical-exam">v1.4 Practical Exam<a class="fa fa-anchor" href="#v1-4-practical-exam"></a></h3>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverablePe">Admin Project → Deliverables → Practical Exam</trigger> ]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v14-deliverablePe">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Deliverables → Practical Exam</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin  Project → Deliverables → Practical Exam  " id="modal:v14-deliverablePe">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Practical Exam  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v14-deliverablePe">
                   <div>
                   <p><strong>Objectives:</strong></p>
                   <ul>
@@ -598,7 +596,7 @@
                   </ul>
                   <p><strong>When, where</strong>: Week 13 lecture</p>
                   <p>
-                    <font color="red"><big></big></font> <strong>Grading</strong>:
+                    <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Grading</strong>:
                   </p>
                   <ul>
                     <li>Your performance in the practical exam will affect your final grade and your peers, as explained in <a href="/website/admin/project-assessment.html"><em>Admin: Project Assessment</em></a> section.</li>
@@ -679,7 +677,7 @@
                             <p><strong>Bug report format</strong>:</p>
                             <ul>
                               <li>
-                                <font color="red"><big></big></font> Post bugs as you find them <span class="dimmed">(i.e., do not wait to post all bugs at the end)</span> because the issue tracker will close exactly at the end of the allocated time.
+                                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Post bugs as you find them <span class="dimmed">(i.e., do not wait to post all bugs at the end)</span> because the issue tracker will close exactly at the end of the allocated time.
                               </li>
                               <li><mark>Do not use team ID in bug reports</mark>. <span class="dimmed">Reason: to prevent others copying your bug reports</span></li>
                               <li>Each bug should be a separate issue.</li>
@@ -720,7 +718,7 @@
                   <ol>
                     <li><strong>[Remainder of the session] Evaluate the following aspects.</strong> Note down your evaluation in a hard copy (as a backup). Submit via TEAMMATES. You are recommended to complete this during the PE session but <mark>you have until the end of the day to submit (or revise) your submissions</mark>.
                       <ul>
-                        <li><strong>A. Product Design</strong> []:</li>
+                        <li><strong>A. Product Design</strong> [<span><span aria-hidden="true" class="fas fa-users"></span></span>]:</li>
                       </ul>
                     </li>
                   </ol>
@@ -761,7 +759,7 @@
                     </div>
                   </div>
                   <ul>
-                    <li><strong>B. Quality of user docs</strong> []:</li>
+                    <li><strong>B. Quality of user docs</strong> [<span><span aria-hidden="true" class="fas fa-user"></span></span>]:</li>
                   </ul>
                   <div class="indented-level2">
                     <div>
@@ -777,7 +775,7 @@
                     </div>
                   </div>
                   <ul>
-                    <li><strong>C. Quality of developer docs</strong> []:</li>
+                    <li><strong>C. Quality of developer docs</strong> [<span><span aria-hidden="true" class="fas fa-user"></span></span>]:</li>
                   </ul>
                   <div class="indented-level2">
                     <div>
@@ -804,7 +802,7 @@
                     </div>
                   </div>
                   <ul>
-                    <li><strong>D. Feature Quality</strong> []:</li>
+                    <li><strong>D. Feature Quality</strong> [<span><span aria-hidden="true" class="fas fa-user"></span></span>]:</li>
                   </ul>
                   <div class="indented-level2">
                     <div>
@@ -836,7 +834,7 @@
                     </div>
                   </div>
                   <ul>
-                    <li><strong>E. Amount of work</strong> []:</li>
+                    <li><strong>E. Amount of work</strong> [<span><span aria-hidden="true" class="fas fa-user"></span></span>]:</li>
                   </ul>
                   <div class="indented-level2">
                     <div>
@@ -845,7 +843,7 @@
                         <li>Consider <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">this PR (<code>history</code> command)</a> as 5 units of effort which means <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">this PR (<code>undo/redo</code> command)</a> is about 15 points of effort. Given that 30 points matches an effort twice as that needed for the <code>undo/redo</code> feature (which was given as an example of an <code>A</code> grade project), we expect most students to be have efforts lower than 20.</li>
                         <li>Count all implementation/testing/documentation work as mentioned in that person's PPP. Also look at the actual code written by the person.</li>
                         <li>
-                          <font color="red"><big></big></font> Do not give a high value just <em>to be nice</em>. You will be asked to provide a brief justification for your effort estimates.
+                          <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Do not give a high value just <em>to be nice</em>. You will be asked to provide a brief justification for your effort estimates.
                         </li>
                       </ul>
                     </div>
@@ -906,7 +904,7 @@
                       <li><strong>If you disagree with the original severity assigned to the bug</strong>, you may change it to the correct level.</li>
                     </ul>
                     <p>
-                      <font color="red"><big></big></font> For all cases of downgrading severity or non-acceptance of a bug, <mark>you must add a comment justifying your stance</mark>. All such cases will be double-checked by the teaching team and indiscriminate downgrading/non-acceptance of bugs without a good justification, if deemed as a case of trying to <em>game the system</em>, may be penalized as it is unfair to the tester.
+                      <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> For all cases of downgrading severity or non-acceptance of a bug, <mark>you must add a comment justifying your stance</mark>. All such cases will be double-checked by the teaching team and indiscriminate downgrading/non-acceptance of bugs without a good justification, if deemed as a case of trying to <em>game the system</em>, may be penalized as it is unfair to the tester.
                     </p>
                     <div class="indented">
                       <div>
@@ -938,20 +936,20 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-practicalexam" header="Admin  Project → Deliverables → Practical Exam  " class="embedding" minimized fragment="project-deliverables-practicalexam"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-practicalexam" header="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Practical Exam  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-practicalexam"></panel>
               </p>
               <p></p>
               <p><strong>Time/venue:</strong> week 13 lecture slot</p>
             </div>
           </div>
           <br>
-          <p><span style="float:left"><span> <a href="/website/admin/project-w12-mid-v14.html">Project: mid-v1.4 [week 12]</a></span></span><span style="float:right"><span><a href="/website/admin/project-deliverables.html">Project: Deliverables </a></span></span></p>
+          <p><span style="float:left"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <a href="/website/admin/project-w12-mid-v14.html">Project: mid-v1.4 [week 12]</a></span></span><span style="float:right"><span><a href="/website/admin/project-deliverables.html">Project: Deliverables <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span></p>
         </div>
       </div>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Sun, 23 Jun 2019 11:41:44 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Mon, 24 Jun 2019 07:13:05 GMT</small></div>
     </footer>
   </div>
 </body>

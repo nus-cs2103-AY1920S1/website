@@ -43,14 +43,14 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use Java enumerations</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java enumerations</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>You can define an enum type by using the <code>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code>FLAG_SUCCESS</code>.</p>
                         <box>
-                          <p>Defining an enumeration to represent days of a week (code to be put in the <code>Day.java</code> file):</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Defining an enumeration to represent days of a week (code to be put in the <code>Day.java</code> file):</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Day {
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
     THURSDAY, FRIDAY, SATURDAY
@@ -74,10 +74,10 @@ Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.S
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" show priority color">
+                                <panel header="<md>:glyphicon-question-sign:</md> show priority color">
                                   <question>
                                     <p>Define an enumeration named <code>Priority</code>. Add the missing <code>describe</code> method to the code below so that it produces the output given.</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -92,6 +92,7 @@ Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.S
     }
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">Red indicates high priority
 Orange indicates medium priority
 Blue indicates medium priority
@@ -132,7 +133,7 @@ Green indicates low priority
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use Java packages</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java packages</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -140,7 +141,7 @@ Green indicates low priority
                         <p><strong>You can organize your <em>types</em> (i.e., classes, interfaces, enumerations, etc.) into <em>packages</em></strong> for easier management (among <a href="https://www.tutorialspoint.com/Advantages-of-using-packages-in-Java">other benefits</a>).</p>
                         <p><strong>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file.</p>
                         <box>
-                          <p>The <code>Formatter</code> class below (in <code>Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Formatter</code> class below (in <code>Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>:</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.tojava.util;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Formatter</span> </span>{
@@ -154,7 +155,7 @@ Green indicates low priority
                         </box>
                         <p><strong>Package names are written in all lower case</strong> (not camelCase), using the dot as a separate. Companies use their reversed Internet domain name to begin their package names. Packages in the Java language itself begin with <code>java</code>. or <code>javax</code>.</p>
                         <box>
-                          <p>For example, <code>com.foobar.doohickey.util</code> can be the name of a package created by a company with a domain name <code>foobar.com</code></p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, <code>com.foobar.doohickey.util</code> can be the name of a package created by a company with a domain name <code>foobar.com</code></p>
                         </box>
                         <p><strong>To use a public <tooltip content="types contained in the package">package member</tooltip> from outside its package, you must do one of the following:</strong></p>
                         <ol>
@@ -162,7 +163,7 @@ Green indicates low priority
                           <li><strong>Import</strong> the package or the specific package member</li>
                         </ol>
                         <box>
-                          <p>The <code>Main</code> class below has two import statements:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Main</code> class below has two import statements:</p>
                           <ul>
                             <li><code>import seedu.tojava.util.StringParser</code>: imports the class <code>StringParser</code> in the <code>seedu.tojava.util</code> package</li>
                             <li><code>import seedu.tojava.frontend.*</code>: imports all the classes in the <code>seedu.tojava.frontend</code> package</li>
@@ -193,12 +194,12 @@ Green indicates low priority
                         </box>
                         <p><strong>Importing a package does not import its sub-packages</strong>, as packages do not behave as hierarchies despite appearances.</p>
                         <box>
-                          <p><code>import seedu.tojava.frontend.*</code> does not import the classes in the sub-package <code>seedu.tojava.frontend.widget</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>import seedu.tojava.frontend.*</code> does not import the classes in the sub-package <code>seedu.tojava.frontend.widget</code>.</p>
                         </box>
                         <p><strong>If you do not use a package statement, your type doesn't have a package</strong> -- a practice not recommended (except for small code examples) as it is not possible for a type in a package to import a type that is not in a package.</p>
                         <p><strong>Optionally, a <em>static import</em> can be used to import static members of a type</strong> so that the imported members can be used without specifying the type name.</p>
                         <box>
-                          <p>The class below uses static imports to import the constant <code>PREFIX</code> and the method <code>format()</code> from the <code>seedu.tojava.util.Formatter</code> class.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The class below uses static imports to import the constant <code>PREFIX</code> and the method <code>format()</code> from the <code>seedu.tojava.util.Formatter</code> class.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> seedu.tojava.util.Formatter.PREFIX;
 <span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> seedu.tojava.util.Formatter.format;
 
@@ -228,7 +229,7 @@ Green indicates low priority
                         </box>
                         <p><strong>The package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code>.class</code> files in a folder structure that matches the package names.</p>
                         <box>
-                          <p>If the <code>seedu.tojava.Main</code> class in defined in the file <code>Main.java</code>,</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the <code>seedu.tojava.Main</code> class in defined in the file <code>Main.java</code>,</p>
                           <ul>
                             <li>the file should be in the location <code>&lt;source folder&gt;/seedu/tojava/</code></li>
                             <li>when it is compiled, the <code>Main.class</code> file will be in the location <code>&lt;compiler output folder&gt;/seedu/tojava/</code></li>
@@ -236,7 +237,7 @@ Green indicates low priority
                         </box>
                         <p><strong>When using the commandline to compile/run Java, you should take the package into account.</strong></p>
                         <box>
-                          <p>If the <code>seedu.tojava.Main</code> class in defined in the file <code>Main.java</code>,</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the <code>seedu.tojava.Main</code> class in defined in the file <code>Main.java</code>,</p>
                           <ul>
                             <li>when compiling from the <code>&lt;source folder&gt;</code>, the command is:<br>
                               <code>javac seedu/tojava/Main.java</code></li>
@@ -247,7 +248,7 @@ Green indicates low priority
                       </div>
                       <div>
                         <div>
-                          <panel header=" Resources" expanded>
+                          <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                             <div>
                               <ul>
                                 <li>Oracle's tutorial on packages: [<a href="https://docs.oracle.com/javase/tutorial/java/concepts/package.html">What is a Package?</a>] [<a href="https://docs.oracle.com/javase/tutorial/java/package/index.html">Creating and Using Packages</a>]</li>
@@ -256,19 +257,19 @@ Green indicates low priority
                           </panel>
                         </div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" TaskManager Level 8 - **Use packages**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 8 - **Use packages**">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header=" TM-L1" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header=" TM-L2" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header=" TM-L3" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header=" TM-L4" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel5._include_.html#main" header=" TM-L5" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel6._include_.html#main" header=" TM-L6" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel7._include_.html#main" header=" TM-L7" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header="<md>:glyphicon-education:</md> TM-L4" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel5._include_.html#main" header="<md>:glyphicon-education:</md> TM-L5" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel6._include_.html#main" header="<md>:glyphicon-education:</md> TM-L6" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel7._include_.html#main" header="<md>:glyphicon-education:</md> TM-L7" minimized fragment="main"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-7</code> exercises quoted above.</span></p>
                                     <div id="main">
@@ -292,7 +293,7 @@ Green indicates low priority
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain access modifiers</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain access modifiers</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -340,31 +341,31 @@ Green indicates low priority
                               <tbody>
                                 <tr>
                                   <td><code>public</code></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:green"></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
                                 </tr>
                                 <tr>
                                   <td><code>protected</code></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:red"></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span></td>
                                 </tr>
                                 <tr>
                                   <td>no modifier</td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:red"></span></td>
-                                  <td><span style="color:red"></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span></td>
+                                  <td><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span></td>
                                 </tr>
                                 <tr>
                                   <td><code>private</code></td>
-                                  <td><span style="color:green"></span></td>
-                                  <td><span style="color:red"></span></td>
-                                  <td><span style="color:red"></span></td>
-                                  <td><span style="color:red"></span></td>
+                                  <td><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span></td>
+                                  <td><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span></td>
+                                  <td><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span></td>
+                                  <td><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -388,21 +389,21 @@ Green indicates low priority
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use Java constants</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java constants</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p>Java does not directly support constants. The convention is to use a <code>static</code> <code>final</code> variable where a constant is needed. The <code>static</code> modifier causes the variable to be available without instantiating an object. The <code>final</code> modifier causes the variable to be unchangeable. Java constants are normally declared in ALL CAPS separated by underscores.</p>
                         <box>
-                          <p>Here is an example of a constant named <code>MAX_BALANCE</code> which can be accessed as <code>Account.MAX_BALANCE</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example of a constant named <code>MAX_BALANCE</code> which can be accessed as <code>Account.MAX_BALANCE</code>.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span></span>{
 
   <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">double</span> MAX_BALANCE = <span class="hljs-number">1000000.0</span>;
 
 }
 </code></pre>
-                          <p><a href="https://docs.oracle.com/javase/9/docs/api/java/lang/Math.html#PI"><code>Math.PI</code></a> is an example constant that comes with Java.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/Math.html#PI"><code>Math.PI</code></a> is an example constant that comes with Java.</p>
                         </box>
                       </div>
                       <div></div>
@@ -417,7 +418,7 @@ Green indicates low priority
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use Java casting</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java casting</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -425,7 +426,7 @@ Green indicates low priority
                         <p><strong><mark><em>Casting</em></mark> is the action of converting from one type to another</strong>. You can use the <code>(newType)</code> syntax to cast a value to a new type.</p>
                         <p><strong>When you cast a primitive value to another type, there may be a loss of precision.</strong></p>
                         <box>
-                          <p>The code below cast a <code>double</code> value to an <code>int</code> value and cast it back to a <code>double</code>. Note the loss of precision.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below cast a <code>double</code> value to an <code>int</code> value and cast it back to a <code>double</code>. Note the loss of precision.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">double</span> d = <span class="hljs-number">5.3</span>;
 System.out.println(<span class="hljs-string">"Before casting to an int: "</span> + d);
 <span class="hljs-keyword">int</span> i = (<span class="hljs-keyword">int</span>)d; <span class="hljs-comment">// cast d to an int</span>
@@ -433,6 +434,7 @@ System.out.println(<span class="hljs-string">"After casting to an int: "</span> 
 d = (<span class="hljs-keyword">double</span>)i; <span class="hljs-comment">// cast i back to a double</span>
 System.out.println(<span class="hljs-string">"After casting back a double: "</span> + d);
 </code></pre>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs">Before casting to an int: 5.3
 After casting to an int: 5
 After casting back a double: 5.0
@@ -440,7 +442,7 @@ After casting back a double: 5.0
                         </box>
                         <p><strong><mark><em>Downcasting</em></mark> is when you cast an object reference from a superclass to a subclass.</strong></p>
                         <box>
-                          <p>Assume the following class hierarchy:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Assume the following class hierarchy:</p>
                           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span></span>{
     <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">speak</span><span class="hljs-params">()</span></span>{
         System.out.println(<span class="hljs-string">"I'm an animal"</span>);
@@ -473,7 +475,7 @@ After casting back a double: 5.0
                         </box>
                         <p><strong><mark><em>Upcasting</em></mark> is when you cast an object reference from a subclass to a superclass.</strong> However, upcasting is done automatically by the compiler even if you do not specify it explicitly.</p>
                         <box>
-                          <p>This example upcasts a <code>Cat</code> object to its superclass <code>Animal</code>:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example upcasts a <code>Cat</code> object to its superclass <code>Animal</code>:</p>
                           <pre><code class="hljs java">Cat c = <span class="hljs-keyword">new</span> Cat();
 Animal a1 = (Animal)c; <span class="hljs-comment">//upcasting c to the Animal class</span>
 Animal a2 = c; <span class="hljs-comment">//upcasting is implicit</span>
@@ -482,7 +484,7 @@ Animal a2 = c; <span class="hljs-comment">//upcasting is implicit</span>
                         </box>
                         <p>Note that due to polymorphism, the behavior of the object will reflect the actual type of the object irrespective of the type of the variable holding a reference to it.</p>
                         <box>
-                          <p>The call to the <code>speak()</code> method in the code below always executes the <code>speak()</code> method of the <code>DomesticCat</code> class because the actual type of the object remains <code>DomesticCat</code> although the reference to it is being downcast/upcast to various other types.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The call to the <code>speak()</code> method in the code below always executes the <code>speak()</code> method of the <code>DomesticCat</code> class because the actual type of the object remains <code>DomesticCat</code> although the reference to it is being downcast/upcast to various other types.</p>
                           <pre><code class="hljs java">Animal a = <span class="hljs-keyword">new</span> DomesticCat(); <span class="hljs-comment">//implicit upcast</span>
 a.speak();
 Cat c = (Cat)a; <span class="hljs-comment">//downcast</span>
@@ -490,6 +492,7 @@ c.speak();
 DomesticCat dc = (DomesticCat)a; <span class="hljs-comment">//downcast</span>
 dc.speak();
 </code></pre>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs">I'm a DomesticCat
 I'm a DomesticCat
 I'm a DomesticCat
@@ -497,17 +500,18 @@ I'm a DomesticCat
                         </box>
                         <p><strong>Casting to an incompatible type can result in a <code>ClassCastException</code> at runtime.</strong></p>
                         <box>
-                          <p>This code will cause a <code>ClassCastException</code>:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code will cause a <code>ClassCastException</code>:</p>
                           <pre><code class="hljs java">Object o = <span class="hljs-keyword">new</span> Animal();
 Integer x = (Integer)o;
 </code></pre>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs">Exception in thread &quot;main&quot; java.lang.ClassCastException: misc.casting.Animal cannot be cast to java.lang.Integer
 	at misc.casting.CastingExamples.main(CastingExamples.java:14)
 </code></pre>
                         </box>
                         <p>You can use the <code>instanceof</code> operator to check if a cast is safe to perform.</p>
                         <box>
-                          <p>This code checks if the object <code>a</code> is an instance of the <code>Cat</code> class before casting it to a <code>Cat</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code checks if the object <code>a</code> is an instance of the <code>Cat</code> class before casting it to a <code>Cat</code>.</p>
                           <pre><code class="hljs java">Cat c;
 <span class="hljs-keyword">if</span> (a <span class="hljs-keyword">instanceof</span> Cat){
     c = (Cat)a;
@@ -527,14 +531,14 @@ Integer x = (Integer)o;
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can read/write text files using Java</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can read/write text files using Java</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>You can use the <a href="https://docs.oracle.com/javase/9/docs/api/java/io/File.html"><code>java.io.File</code></a> class to represent a file object</strong>. It can be used to access properties of the file object.</p>
                         <box>
-                          <p>This code creates a <code>File</code> object to represent a file <code>fruits.txt</code> that exists in the <code>data</code> directory <mark>relative to the current working directory</mark> and uses that object to print some properties of the file.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code creates a <code>File</code> object to represent a file <code>fruits.txt</code> that exists in the <code>data</code> directory <mark>relative to the current working directory</mark> and uses that object to print some properties of the file.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.File;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">FileClassDemo</span> </span>{
@@ -548,15 +552,16 @@ Integer x = (Integer)o;
 
 }
 </code></pre>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                           <pre><code class="hljs">full path: C:\sample-code\data\fruits.txt
 file exists?: true
 is Directory?: false
 </code></pre>
                         </box>
-                        <p>If you use backslash to specify the file path in a Windows Computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green"></span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"></span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"></span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
+                        <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you use backslash to specify the file path in a Windows Computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
                         <p><strong>You can read from a file using a <code>Scanner</code> object that uses a <code>File</code> object as the <em>source</em> of data.</strong></p>
                         <box>
-                          <p>This code uses a <code>Scanner</code> object to read (and print) contents of a text file line-by-line:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code uses a <code>Scanner</code> object to read (and print) contents of a text file line-by-line:</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.File;
 <span class="hljs-keyword">import</span> java.io.FileNotFoundException;
 <span class="hljs-keyword">import</span> java.util.Scanner;
@@ -581,7 +586,7 @@ is Directory?: false
 
 }
 </code></pre>
-                          <p>i.e., contents of the <code>data/fruits.txt</code></p>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span> i.e., contents of the <code>data/fruits.txt</code></p>
                           <pre><code class="hljs">5 Apples
 3 Bananas
 6 Cherries
@@ -589,7 +594,7 @@ is Directory?: false
                         </box>
                         <p><strong>You can use a <a href="https://docs.oracle.com/javase/9/docs/api/java/io/FileWriter.html"><code>java.io.FileWriter</code></a> object to write to a file.</strong></p>
                         <box>
-                          <p>The <code>writeToFile</code> method below uses a <code>FileWrite</code> object to write to a file. The method is being used to write two lines to the file <code>temp/lines.txt</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>writeToFile</code> method below uses a <code>FileWrite</code> object to write to a file. The method is being used to write two lines to the file <code>temp/lines.txt</code>.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.FileWriter;
 <span class="hljs-keyword">import</span> java.io.IOException;
 
@@ -612,7 +617,7 @@ is Directory?: false
 
 }
 </code></pre>
-                          <p>Contents of the <code>temp/lines.txt</code>:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span> Contents of the <code>temp/lines.txt</code>:</p>
                           <pre><code class="hljs">first line
 second line
 </code></pre>
@@ -620,7 +625,7 @@ second line
                         <p>Note that you <mark>need to call the <code>close()</code> method</mark> of the <code>FileWriter</code> object for the writing operation to be completed.</p>
                         <p><strong>You can create a <code>FileWriter</code> object that appends to the file</strong> (instead of overwriting the current content) by specifying an additional boolean parameter to the constructor.</p>
                         <box>
-                          <p>The method below appends to the file rather than overwrites.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The method below appends to the file rather than overwrites.</p>
                           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">appendToFile</span><span class="hljs-params">(String filePath, String textToAppend)</span> <span class="hljs-keyword">throws</span> IOException </span>{
     FileWriter fw = <span class="hljs-keyword">new</span> FileWriter(filePath, <span class="hljs-keyword">true</span>); <span class="hljs-comment">// create a FileWriter in append mode</span>
     fw.write(textToAppend);
@@ -630,7 +635,7 @@ second line
                         </box>
                         <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
                         <box>
-                          <p>This example uses the <code>Files</code> class to copy a file and delete a file.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example uses the <code>Files</code> class to copy a file and delete a file.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.IOException;
 <span class="hljs-keyword">import</span> java.nio.file.Files;
 <span class="hljs-keyword">import</span> java.nio.file.Paths;
@@ -649,16 +654,16 @@ second line
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" TaskManager Level 5 - **Store data in a file**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 5 - **Store data in a file**">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header=" TM-L1" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header=" TM-L2" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header=" TM-L3" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header=" TM-L4" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header="<md>:glyphicon-education:</md> TM-L4" minimized fragment="main"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-4</code> exercises quoted above.</span></p>
                                     <div id="main">
@@ -715,7 +720,7 @@ T | 1 | join sports club
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use JAR files</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use JAR files</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -723,41 +728,41 @@ T | 1 | join sports club
                         <p><strong>Java applications are typically delivered as JAR (short for <em>Java Archive</em>) files.</strong> A JAR contains Java classes and other resources (icons, media files, etc.).</p>
                         <p>An executable JAR file can be launched using the <code>java -jar</code> command.</p>
                         <box>
-                          <p><code>java -jar foo.jar</code> launches the <code>foo.jar</code> file.</p>
-                          <p>You can delete the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -jar foo.jar</code> launches the <code>foo.jar</code> file.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can delete the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
                         </box>
                         <p>The IDE can help you to package your application as a JAR file.</p>
                       </div>
                       <div>
                         <div>
-                          <panel header=" Resources" expanded>
+                          <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                             <div>
                               <ul>
                                 <li><a href="https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html">Oracle's tutorial on JAR files</a></li>
                               </ul>
-                              <p>** Creating a JAR file in Intellij** - A video by Artur Spirin:</p>
+                              <p><strong><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Creating a JAR file in Intellij</strong> - A video by Artur Spirin:</p>
                               <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/3Xo6zSBgdgk" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                             </div>
                           </panel>
                         </div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" TaskManager Level 12 - **Package as a JAR file**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 12 - **Package as a JAR file**">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header=" TM-L1" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header=" TM-L2" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header=" TM-L3" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header=" TM-L4" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel5._include_.html#main" header=" TM-L5" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel6._include_.html#main" header=" TM-L6" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel7._include_.html#main" header=" TM-L7" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel8._include_.html#main" header=" TM-L8" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel9._include_.html#main" header=" TM-L9" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel10._include_.html#main" header=" TM-L10" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel11._include_.html#main" header=" TM-L11" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel4._include_.html#main" header="<md>:glyphicon-education:</md> TM-L4" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel5._include_.html#main" header="<md>:glyphicon-education:</md> TM-L5" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel6._include_.html#main" header="<md>:glyphicon-education:</md> TM-L6" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel7._include_.html#main" header="<md>:glyphicon-education:</md> TM-L7" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel8._include_.html#main" header="<md>:glyphicon-education:</md> TM-L8" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel9._include_.html#main" header="<md>:glyphicon-education:</md> TM-L9" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel10._include_.html#main" header="<md>:glyphicon-education:</md> TM-L10" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel11._include_.html#main" header="<md>:glyphicon-education:</md> TM-L11" minimized fragment="main"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-11</code> exercises quoted above.</span></p>
                                     <div id="main">

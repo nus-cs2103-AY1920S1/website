@@ -43,7 +43,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain debugging</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain debugging</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -52,7 +52,7 @@
                         <ul>
                           <li>
                             <p>
-                              <font color="red"><span>** Bad**</span></font> -- <strong>By inserting temporary print statements</strong>: This is an ad-hoc approach in which print statements are inserted in the program to print information relevant to debugging, such as variable values. e.g. <code>Exiting process() method, x is 5.347</code>. This approach is not recommended due to these reasons.
+                              <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> -- <strong>By inserting temporary print statements</strong>: This is an ad-hoc approach in which print statements are inserted in the program to print information relevant to debugging, such as variable values. e.g. <code>Exiting process() method, x is 5.347</code>. This approach is not recommended due to these reasons.
                             </p>
                             <ul>
                               <li>Incurs extra effort when inserting and removing the print statements.</li>
@@ -62,7 +62,7 @@
                           </li>
                           <li>
                             <p>
-                              <font color="red"><span>** Bad**</span></font> -- <strong>By manually tracing through the code</strong>: Otherwise known as ‘eye-balling’, this approach doesn't have the cons of the previous approach, but it too is not recommended (other than as a 'quick try') due to these reasons:
+                              <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> -- <strong>By manually tracing through the code</strong>: Otherwise known as ‘eye-balling’, this approach doesn't have the cons of the previous approach, but it too is not recommended (other than as a 'quick try') due to these reasons:
                             </p>
                             <ul>
                               <li>It is difficult, time consuming, and error-prone technique.</li>
@@ -71,7 +71,7 @@
                           </li>
                           <li>
                             <p>
-                              <font color="green"><span>** Good**</span></font> -- <strong>Using a debugger</strong>: A debugger tool allows you to pause the execution, then step through one statement at a time while examining the internal state if necessary. Most IDEs come with an inbuilt debugger. <strong>This is the recommended approach for debugging</strong>.
+                              <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> -- <strong>Using a debugger</strong>: A debugger tool allows you to pause the execution, then step through one statement at a time while examining the internal state if necessary. Most IDEs come with an inbuilt debugger. <strong>This is the recommended approach for debugging</strong>.
                             </p>
                           </li>
                         </ul>

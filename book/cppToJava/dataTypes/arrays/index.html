@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use arrays</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use arrays</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -64,7 +64,7 @@ values = <span class="hljs-keyword">new</span> <span class="hljs-keyword">double
 </code></pre>
                       <p><small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small></p>
                     </blockquote>
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> The <code>[]</code> operator selects elements from an array. Array elements <tooltip content="i.e., the index of the first element is 0, not 1">indices start from 0</tooltip>.</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> The <code>[]</code> operator selects elements from an array. Array elements <tooltip content="i.e., the index of the first element is 0, not 1">indices start from 0</tooltip>.</p>
                     <pre><code class="hljs java"><span class="hljs-keyword">int</span>[] counts = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">4</span>];
 
 System.out.println(<span class="hljs-string">"The first element is "</span> + counts[<span class="hljs-number">0</span>]);
@@ -73,16 +73,17 @@ counts[<span class="hljs-number">0</span>] = <span class="hljs-number">7</span>;
 counts[<span class="hljs-number">1</span>] = counts[<span class="hljs-number">0</span>] * <span class="hljs-number">2</span>;
 counts[<span class="hljs-number">2</span>]++; <span class="hljs-comment">// increment value at index 2</span>
 </code></pre>
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"></span></span> A Java array is aware of its size. A Java array prevents a programmer from indexing the array out of bounds. If the index is negative or not present in the array, the result is an error named <code>ArrayIndexOutOfBoundsException</code>.</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> A Java array is aware of its size. A Java array prevents a programmer from indexing the array out of bounds. If the index is negative or not present in the array, the result is an error named <code>ArrayIndexOutOfBoundsException</code>.</p>
                     <pre><code class="hljs java"><span class="hljs-keyword">int</span>[] scores = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">4</span>];
 System.out.println(scores.length) <span class="hljs-comment">// prints 4</span>
 scores[<span class="hljs-number">5</span>] = <span class="hljs-number">0</span>; <span class="hljs-comment">// causes an exception</span>
 </code></pre>
+                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                     <pre><code class="hljs">4
 Exception in thread &quot;main&quot; java.lang.ArrayIndexOutOfBoundsException: 5
 	at Main.main(Main.java:6)
 </code></pre>
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> It is also possible to create arrays of more than one dimension:</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> It is also possible to create arrays of more than one dimension:</p>
                     <blockquote>
                       <pre><code class="hljs java">String[][] names = {
     {<span class="hljs-string">"Mr. "</span>, <span class="hljs-string">"Mrs. "</span>, <span class="hljs-string">"Ms. "</span>},
@@ -95,7 +96,7 @@ System.out.println(names[<span class="hljs-number">0</span>][<span class="hljs-n
                       <p><small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small></p>
                     </blockquote>
                     <h5 id="passing-arguments-to-a-program">Passing arguments to a program<a class="fa fa-anchor" href="#passing-arguments-to-a-program"></a></h5>
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> The <code>args</code> parameter of the <code>main</code> method is an array of Strings containing command line arguments supplied (if any) when running the program.</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> The <code>args</code> parameter of the <code>main</code> method is an array of Strings containing command line arguments supplied (if any) when running the program.</p>
                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
         System.out.println(args[<span class="hljs-number">0</span>]);
@@ -106,25 +107,26 @@ System.out.println(names[<span class="hljs-number">0</span>][<span class="hljs-n
                     <p>
                       <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java Foo abc</code>
                     </p>
+                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                     <p><code>abc</code></p>
                   </div>
                   <div>
                     <div>
-                      <panel header=" Resources" expanded>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                         <div>
                           <ul>
                             <li><a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html">Oracle's tutorial on Arrays</a></li>
                             <li><a href="https://www.tutorialspoint.com/java/java_arrays.htm">A tutorial on Arrays</a> <span class="dimmed">by <a href="http://tutorialspoint.com">tutorialspoint.com</a></span></li>
-                            <li><a href="https://www.youtube.com/watch?v=L06uGnF4IpY"> A video tutorial on Arrays</a> <span class="dimmed">by thenewboston</span></li>
+                            <li><a href="https://www.youtube.com/watch?v=L06uGnF4IpY"><span aria-hidden="true" class="fab fa-youtube"></span> A video tutorial on Arrays</a> <span class="dimmed">by thenewboston</span></li>
                           </ul>
                         </div>
                       </panel>
                     </div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" Compare names">
+                            <panel header="<md>:glyphicon-question-sign:</md> Compare names">
                               <question>
                                 <p>Write a Java program that takes two command line arguments and prints <code>true</code> or <code>false</code> to indicate if the two arguments have the same value. Follow the sample output given below.</p>
                                 <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">WordComparator</span> </span>{
@@ -134,13 +136,13 @@ System.out.println(names[<span class="hljs-number">0</span>][<span class="hljs-n
 }
 </code></pre>
                                 <p>
-                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java WordComparator adam eve</code>
+                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java WordComparator adam eve</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
                                 </p>
                                 <pre><code class="hljs">Words given: adam, eve
 They are the same: false
 </code></pre>
                                 <p>
-                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java WordComparator eve eve</code>
+                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java WordComparator eve eve</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
                                 </p>
                                 <pre><code class="hljs">Words given: eve, eve
 They are the same: true

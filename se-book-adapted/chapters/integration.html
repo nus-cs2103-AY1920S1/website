@@ -33,11 +33,58 @@
 
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
+    <header>
+      <navbar placement="top" type="dark">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
+        <dropdown text="Schedule" class="nav-link">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <dropdown text="Links" class="nav-link">
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</span></a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team IDs</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</span></a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span> Projects List</span></a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
     <div id="flex-body">
       <nav id="site-nav" class="navbar navbar-light bg-transparent">
         <div class="border-right-grey nav-inner position-sticky slim-scroll">
           <ul class="px-0 site-nav-list">
-            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a">Home , printable versions </a></li>
+            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a">Home <span aria-hidden="true" class="glyphicon glyphicon-home"></span>, printable versions <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a></li>
             <li class="mt-2"><button class="dropdown-btn"><strong>Software Engineering</strong>
                 <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
@@ -158,55 +205,6 @@
       <div id="content-wrapper">
         <link rel="stylesheet" href="/website/book/css/textbook.css">
         <div class="website-content">
-          <div>
-            <navbar placement="top" type="inverse" class="temp-navbar">
-              <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
-              <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-              <dropdown text="Schedule" class="nav-link temp-dropdown">
-                <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
-                <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
-                <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
-                <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
-                <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
-                <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
-                <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
-                <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
-                <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
-                <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
-                <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
-                <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
-                <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
-              </dropdown>
-              <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-              <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-              <div class="nav-link temp-dropdown-placeholder">Links</div>
-              <dropdown text="Links" class="nav-link temp-dropdown">
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Report Bugs</a></li>
-                <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"> Slack</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Forum</a></li>
-                <li><a href="/website/admin/project-overview.html" class="dropdown-item"> Project Info</a></li>
-                <li><a href="/website/admin/instructors.html" class="dropdown-item"> Instructors</a></li>
-                <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"> Announcements</a></li>
-                <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"> File Submissions</a></li>
-                <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"> Tutorial Schedule</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"> Team IDs</a></li>
-                <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"> Java Coding Standard</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"> samplerepo-things</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"> Addressbook-level1</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"> Addressbook-level2</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"> Addressbook-level3</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"> Addressbook-level4</a></li>
-                <li><a href="/website/admin/projectList.html" class="dropdown-item"> Projects List</a></li>
-                <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"> config.json templates for Reposense</a></li>
-                <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"> Project Code Dashboard (BETA)</a></li>
-              </dropdown>
-              <li slot="right" class="nav-link">
-                <form class="navbar-form">
-                  <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
-                </form>
-              </li>
-            </navbar>
-          </div>
           <p><span class="dimmed"><strong><span></span></strong></span></p>
           <div id="title">
             <div>
@@ -223,9 +221,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain integration</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain integration</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Combining parts of a software product to form a whole is called <em>integration</em></strong>. It is also one of the most troublesome tasks and it rarely goes smoothly.</p>
@@ -244,9 +242,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain how integration approaches vary based on timing and frequency</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain how integration approaches vary based on timing and frequency</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>In terms of timing and frequency, there are two general approaches to integration: <em>late and one-time</em>, <em>early and frequent</em>.</strong></p>
@@ -256,7 +254,7 @@
                   </tip-box>
                   <p><strong><em>Early and frequent</em>: integrate early and evolve each part in parallel, in small steps, re-integrating frequently.</strong></p>
                   <tip-box>
-                    <p>A <em>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <em>
                         <tooltip content="it compiles and runs but does not produce any useful output">walking skeleton</tooltip>
                       </em> can be written first. This can be done by one developer, possibly the one in charge of integration. After that, all developers can flesh out the skeleton in parallel, adding one feature at a time. After each feature is done, simply integrate the new code to the main system.</p>
                   </tip-box>
@@ -272,9 +270,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain how integration approaches vary based on amount merged at a time</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain how integration approaches vary based on amount merged at a time</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong><em>Big-bang integration</em>: integrate all components at the same time.</strong></p>
@@ -289,7 +287,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
                         <panel header="Q: Big-bang integration in school projects">
                           <question has-input="true">
@@ -321,16 +319,16 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font>
+                      <font color="ForestGreen"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain how integration approaches vary based on the order of integration</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain how integration approaches vary based on the order of integration</span></span></span></span>
                 <p></p>
                 <div>
                   <img src="/website/book/integration/approaches/topDownVsBottomUp/images/approaches.png" height="100">
                   <p></p>
                   <p><strong>Based on the order in which components are integrated, incremental integration can be done in three ways.</strong></p>
                   <p><strong><em>Top-down</em> integration: higher-level components are integrated before bringing in the lower-level components.</strong> One advantage of this approach is that higher-level problems can be discovered early. One disadvantage is that this requires the use of <trigger for="pop:topdown-stub">stubs</trigger> in place of lower level components until the real lower-level components are integrated to the system. Otherwise, higher-level components cannot function as they depend on lower level ones.</p>
-                  <popover id="pop:topdown-stub" title placement="top">
+                  <popover id="pop:topdown-stub" title="<md>:glyphicon-eye-open:</md>" placement="top">
                       <div slot="content">
                       <div>
                         <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
@@ -346,9 +344,9 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" Suggest an integration strategy">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Suggest an integration strategy">
                           <question has-input="true">
                             <p>Suggest an integration strategy for the system represented by following diagram. You need not follow a strict top-down, bottom-up, sandwich, or big bang approach. Dashed arrows represent dependencies between classes.</p>
                             <p>Also take into account the following facts in your test strategy.</p>
@@ -377,7 +375,7 @@
                         </panel>
                       </div>
                       <div>
-                        <panel header=" Integration order">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Integration order">
                           <question has-input="false">
                             <p>Consider the architecture given below. Describe the order in which components will be integrated with one another if the following integration strategies were adopted.</p>
                             <p>a) top-down
@@ -416,9 +414,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain build automation tools</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain build automation tools</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Build automation tools automate the steps of the build process, usually by means of build scripts.</strong></p>
@@ -426,36 +424,36 @@
                   <p>Some of these build steps such as to compile, link and package are already automated in most modern IDEs. <span class="dimmed"> For example, several steps happen automatically when the ‘build’ button of the IDE is clicked. Some IDEs even allow customization to this build process to some extent.</span></p>
                   <p>However, most big projects use specialized build tools to automate complex build processes.</p>
                   <tip-box>
-                    <p>Some popular build tools relevant to Java developers:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some popular build tools relevant to Java developers:</p>
                     <ul>
                       <li><a href="https://gradle.org/">Gradle</a></li>
                       <li><a href="http://maven.apache.org/">Maven</a></li>
                       <li><a href="http://ant.apache.org/">Apache Ant</a></li>
                       <li><a href="http://www.gnu.org/software/make/">GNU Make</a></li>
                     </ul>
-                    <p><span class="dimmed">Some other build tools : Grunt (JavaScript), Rake (Ruby)</span></p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <span class="dimmed">Some other build tools : Grunt (JavaScript), Rake (Ruby)</span></p>
                   </tip-box>
                   <p><strong>Some build tools also serve as <em>dependency management tools</em></strong>. Modern software projects often depend on third party libraries that evolve constantly. That means developers need to download the correct version of the required libraries and update them regularly. Therefore, dependency management is an important part of build automation. Dependency Management tools can automate that aspect of a project.</p>
                   <tip-box>
-                    <p>Maven and Gradle, in addition to managing the build process, can play the role of dependency management tools too.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Maven and Gradle, in addition to managing the build process, can play the role of dependency management tools too.</p>
                   </tip-box>
                 </div>
                 <div>
                   <div>
-                    <panel header=" Resources" expanded>
+                    <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                       <ul>
                         <li><a href="https://gradle.org/docs/#getting-started"><strong>Getting Started with Gradle</strong></a> -- Documentation from Gradle</li>
                         <li><a href="http://www.tutorialspoint.com/gradle/"><strong>Gradle Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a></li>
                       </ul>
-                      <panel type="seamless" header=" Working With Gradle in Intellij IDEA (6 minutes)">
+                      <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> Working With Gradle in Intellij IDEA (6 minutes)">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/JwPYjnhah3g" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                       </panel>
                     </panel>
                   </div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" _Gradle_ is a tool for ...">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: _Gradle_ is a tool for ...">
                           <question>
                             <p>Gradle_is used used for,</p>
                             <ul class="task-list">
@@ -479,15 +477,15 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain continuous integration and continuous deployment</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain continuous integration and continuous deployment</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>An extreme application of build automation is called <em>continuous integration (CI)</em> in which integration, building, and testing happens automatically after each code change.</strong></p>
                   <p><strong>A natural extension of CI is <em>Continuous Deployment (CD)</em> where the changes are not only integrated continuously, but also deployed to end-users at the same time.</strong></p>
                   <tip-box>
-                    <p>Some examples of CI/CD tools:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of CI/CD tools:</p>
                     <ul>
                       <li><a href="https://travis-ci.org/">Travis</a></li>
                       <li><a href="http://jenkins-ci.org">Jenkins</a></li>
@@ -498,7 +496,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Resources" expanded>
+                    <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                       <ul>
                         <li><a href="https://docs.travis-ci.com/user/for-beginners"><strong>Travis CI for Beginners</strong></a> -- Documentation from Travis</li>
                       </ul>
@@ -538,7 +536,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Sun, 23 Jun 2019 11:41:44 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Mon, 24 Jun 2019 07:13:05 GMT</small></div>
     </footer>
   </div>
 </body>

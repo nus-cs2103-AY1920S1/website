@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use abstract classes and methods</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use abstract classes and methods</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,7 +44,7 @@
                   <div>
                     <p>In Java, <strong>an <em>abstract method</em> is declared with the keyword <code>abstract</code> and given without an implementation</strong>. If a class includes abstract methods, then the class itself must be declared abstract.</p>
                     <box>
-                      <p>The <code>speak</code> method in this <code>Animal</code> class is <code>abstract</code>. Note how the method signature ends with a semicolon and there is no method body. This makes sense as the implementation of the <code>speak</code> method depends on the type of the animal and it is meaningless to provide a common implementation for all animal types.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>speak</code> method in this <code>Animal</code> class is <code>abstract</code>. Note how the method signature ends with a semicolon and there is no method body. This makes sense as the implementation of the <code>speak</code> method depends on the type of the animal and it is meaningless to provide a common implementation for all animal types.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span> </span>{
 
     <span class="hljs-keyword">protected</span> String name;
@@ -59,7 +59,7 @@
                     </box>
                     <p><strong>An <em>abstract class</em> is declared with the keyword <code>abstract</code>. Abstract classes can be used as reference type but cannot be instantiated.</strong></p>
                     <box>
-                      <p>This <code>Account</code> class has been declared as abstract although it does not have any abstract methods. Attempting to instantiate <code>Account</code> objects will result in a compile error.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This <code>Account</code> class has been declared as abstract although it does not have any abstract methods. Attempting to instantiate <code>Account</code> objects will result in a compile error.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
 
     <span class="hljs-keyword">int</span> number;
@@ -69,12 +69,12 @@
     }
 }
 </code></pre>
-                      <p><code>Account a;</code> <span style="color:green"></span> OK to use as a type <br>
-                        <code>a = new Account();</code> <span style="color:red"></span> Compile error!</p>
+                      <p><code>Account a;</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK to use as a type <br>
+                        <code>a = new Account();</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error!</p>
                     </box>
                     <p><strong>When an abstract class is subclassed, the subclass should provides implementations for all of the abstract methods in its superclass or else the subclass must also be declared abstract.</strong></p>
                     <box>
-                      <p>The <code>Feline</code> class below inherits from the abstract class <code>Animal</code> but it does not provide an implementation for the abstract method <code>speak</code>. As a result, the <code>Feline</code> class needs to be abstract too.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Feline</code> class below inherits from the abstract class <code>Animal</code> but it does not provide an implementation for the abstract method <code>speak</code>. As a result, the <code>Feline</code> class needs to be abstract too.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Feline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Animal</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Feline</span><span class="hljs-params">(String name)</span> </span>{
         <span class="hljs-keyword">super</span>(name);
@@ -94,13 +94,13 @@
     }
 }
 </code></pre>
-                      <p><code>Animal a = new Feline(&quot;Mittens&quot;);</code> <span style="color:red"></span> Compile error! <code>Feline</code> is abstract.</p>
-                      <p><code>Animal a = new DomesticCat(&quot;Mittens&quot;);</code> <span style="color:green"></span> OK. <code>DomesticCat</code> can be instantiated and assigned to a variable of <code>Animal</code> type <span class="dimmed">(the assignment is allowed by polymorphism)</span>.</p>
+                      <p><code>Animal a = new Feline(&quot;Mittens&quot;);</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Compile error! <code>Feline</code> is abstract.</p>
+                      <p><code>Animal a = new DomesticCat(&quot;Mittens&quot;);</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> OK. <code>DomesticCat</code> can be instantiated and assigned to a variable of <code>Animal</code> type <span class="dimmed">(the assignment is allowed by polymorphism)</span>.</p>
                     </box>
                   </div>
                   <div>
                     <div>
-                      <panel header=" Resources" expanded>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                         <div>
                           <ul>
                             <li><a href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html">Oracle’s Java Tutorials: Abstract Methods and Classes</a></li>
@@ -109,10 +109,10 @@
                       </panel>
                     </div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" print area with abstract `Shape`">
+                            <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`">
                               <question>
                                 <p>The <code>Main</code> class below keeps a list of <code>Circle</code> and <code>Rectangle</code> objects and prints the area (as an <code>int</code> value) of each shape when requested.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -139,6 +139,7 @@
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">Circle of area 78
 Rectangle of area 12
 Circle of area 314
@@ -197,7 +198,7 @@ Rectangle of area 16
                             </panel>
                           </div>
                           <div>
-                            <panel header=" Statements about abstract classes">
+                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about abstract classes">
                               <question>
                                 <p>Choose the correct statements about Java abstract classes and <tooltip content="classes that are not abstract">concrete classes</tooltip>.</p>
                                 <ul class="task-list">

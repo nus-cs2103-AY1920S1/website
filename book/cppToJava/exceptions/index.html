@@ -43,7 +43,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain Java Exceptions</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain Java Exceptions</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -56,7 +56,7 @@
                           </ul>
                           <div class="indented-level2">
                             <box>
-                              <p>Suppose an application prompts a user for an input file name, then opens the file by passing the name to the constructor for java.io.FileReader. Normally, the user provides the name of an existing, readable file, so the construction of the <code>FileReader</code> object succeeds, and the execution of the application proceeds normally. But sometimes the user supplies the name of a nonexistent file, and the constructor throws <code>java.io.FileNotFoundException</code>. A well-written program will catch this exception and notify the user of the mistake, possibly prompting for a corrected file name.</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose an application prompts a user for an input file name, then opens the file by passing the name to the constructor for java.io.FileReader. Normally, the user provides the name of an existing, readable file, so the construction of the <code>FileReader</code> object succeeds, and the execution of the application proceeds normally. But sometimes the user supplies the name of a nonexistent file, and the constructor throws <code>java.io.FileNotFoundException</code>. A well-written program will catch this exception and notify the user of the mistake, possibly prompting for a corrected file name.</p>
                             </box>
                           </div>
                           <p></p>
@@ -65,7 +65,7 @@
                           </ul>
                           <div class="indented-level2">
                             <box>
-                              <p>Suppose that an application successfully opens a file for input, but is unable to read the file because of a hardware or system malfunction. The unsuccessful read will throw <code>java.io.IOError</code>. An application might choose to catch this exception, in order to notify the user of the problem — but it also might make sense for the program to print a stack trace and exit.</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose that an application successfully opens a file for input, but is unable to read the file because of a hardware or system malfunction. The unsuccessful read will throw <code>java.io.IOError</code>. An application might choose to catch this exception, in order to notify the user of the problem — but it also might make sense for the program to print a stack trace and exit.</p>
                             </box>
                           </div>
                           <p></p>
@@ -74,7 +74,7 @@
                           </ul>
                           <div class="indented-level2">
                             <box>
-                              <p>Consider the application described previously that passes a file name to the constructor for FileReader. If a logic error causes a null to be passed to the constructor, the constructor will throw <code>NullPointerException</code>. The application can catch this exception, but it probably makes more sense to eliminate the bug that caused the exception to occur.</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the application described previously that passes a file name to the constructor for FileReader. If a logic error causes a null to be passed to the constructor, the constructor will throw <code>NullPointerException</code>. The application can catch this exception, but it probably makes more sense to eliminate the bug that caused the exception to occur.</p>
                             </box>
                           </div>
                           <p></p>
@@ -93,7 +93,7 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use Java Exceptions</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java Exceptions</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -105,7 +105,7 @@
                           <li>The <code>catch</code> block identifies a block of code, known as an exception handler, that can handle a particular type of exception.</li>
                         </ul>
                         <box>
-                          <p>The <code>writeList()</code> method below calls a method <code>process()</code> that can cause two type of exceptions. It uses a try-catch construct to deal with each exception.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>writeList()</code> method below calls a method <code>process()</code> that can cause two type of exceptions. It uses a try-catch construct to deal with each exception.</p>
                           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">writeList</span><span class="hljs-params">()</span> </span>{
     print(<span class="hljs-string">"starting method"</span>);
     <span class="hljs-keyword">try</span> {
@@ -128,9 +128,9 @@
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
                                 <tr>
-                                  <th>No exceptions</th>
-                                  <th><code>IOException</code></th>
-                                  <th><code>IndexOutOfBoundsException</code></th>
+                                  <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                                  <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                                  <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
                                 </tr>
                               </thead>
                               <tbody>
@@ -144,7 +144,7 @@
                           </div>
                         </box>
                         <p>You can <strong>use a <code>finally</code> block to specify code that is guaranteed to execute with or without the exception.</strong> This is the right place to close files, recover resources, and otherwise clean up after the code enclosed in the <code>try</code> block.</p>
-                        <p>The <code>writeList()</code> method below has a <code>finally</code> block:</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>writeList()</code> method below has a <code>finally</code> block:</p>
                         <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">writeList</span><span class="hljs-params">()</span> </span>{
     print(<span class="hljs-string">"starting method"</span>);
     <span class="hljs-keyword">try</span> {
@@ -170,9 +170,9 @@
                           <table class="markbind-table table table-bordered table-striped">
                             <thead>
                               <tr>
-                                <th>No exceptions</th>
-                                <th><code>IOException</code></th>
-                                <th><code>IndexOutOfBoundsException</code></th>
+                                <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                                <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                                <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
                               </tr>
                             </thead>
                             <tbody>
@@ -194,7 +194,7 @@
                         </ul>
                         <p><strong>You can use the <code>throw</code> statement to throw an exception.</strong> The throw statement requires a <tooltip content="Throwable objects are instances of any subclass of the `Throwable` class.">throwable</tooltip> object as the argument.</p>
                         <box>
-                          <p>Here's an example of a <code>throw</code> statement.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's an example of a <code>throw</code> statement.</p>
                           <pre><code class="hljs java"><span class="hljs-keyword">if</span> (size == <span class="hljs-number">0</span>) {
     <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> EmptyStackException();
 }
@@ -207,7 +207,7 @@
                         </ul>
                         <p>Unchecked exceptions are not required to follow to the <em>Catch or Specify Requirement</em> but you can apply the requirement to them too.</p>
                         <box>
-                          <p>Here's an example of a method specifying that it throws certain checked exceptions:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's an example of a method specifying that it throws certain checked exceptions:</p>
                           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">writeList</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> IOException, IndexOutOfBoundsException </span>{
     print(<span class="hljs-string">"starting method"</span>);
     process();
@@ -220,9 +220,9 @@
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
                                 <tr>
-                                  <th>No exceptions</th>
-                                  <th><code>IOException</code></th>
-                                  <th><code>IndexOutOfBoundsException</code></th>
+                                  <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                                  <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                                  <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
                                 </tr>
                               </thead>
                               <tbody>
@@ -239,10 +239,10 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
                               <div>
-                                <panel header=" parse rectangle descriptor">
+                                <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor">
                                   <question>
                                     <p>The <code>Main</code> class below parses a string descriptor of a rectangle of the format <code>&quot;WIDTHxHEIGHT&quot;</code> <span class="dimmed">e.g., <code>&quot;3x4&quot;</code></span> and prints the area of the rectangle.</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -264,6 +264,7 @@
     }
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">3x4=12
 5x5=25
 </code></pre>
@@ -300,6 +301,7 @@
     }
 }
 </code></pre>
+                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                     <pre><code class="hljs">3x4=12
 WIDTH or HEIGHT is not a number: 3xy
 WIDTH or HEIGHT is missing: 3x
@@ -333,16 +335,16 @@ Too many dimensions: 3x4x5
                                 </panel>
                               </div>
                               <div>
-                                <panel header=" TaskManager Level 3 - **Use exceptions**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 3 - **Use exceptions**">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header=" TM-L1" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header=" TM-L2" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-2</code> exercises quoted above.</span></p>
                                     <div id="main">
                                       <p>Enhance the TaskManager to print an error message if a command is missing parts. Use exceptions so that error detection and printing of error message happen at different places of code and the error information is passed between the two places using an Exception object.</p>
-                                      <p>Here is an example output:</p>
+                                      <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                       <box>
                                         <div class="text-monospace">
                                           <p>Welcome to TaskManager-Level3!

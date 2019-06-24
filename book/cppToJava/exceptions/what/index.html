@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain Java Exceptions</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain Java Exceptions</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -50,7 +50,7 @@
                       </ul>
                       <div class="indented-level2">
                         <box>
-                          <p>Suppose an application prompts a user for an input file name, then opens the file by passing the name to the constructor for java.io.FileReader. Normally, the user provides the name of an existing, readable file, so the construction of the <code>FileReader</code> object succeeds, and the execution of the application proceeds normally. But sometimes the user supplies the name of a nonexistent file, and the constructor throws <code>java.io.FileNotFoundException</code>. A well-written program will catch this exception and notify the user of the mistake, possibly prompting for a corrected file name.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose an application prompts a user for an input file name, then opens the file by passing the name to the constructor for java.io.FileReader. Normally, the user provides the name of an existing, readable file, so the construction of the <code>FileReader</code> object succeeds, and the execution of the application proceeds normally. But sometimes the user supplies the name of a nonexistent file, and the constructor throws <code>java.io.FileNotFoundException</code>. A well-written program will catch this exception and notify the user of the mistake, possibly prompting for a corrected file name.</p>
                         </box>
                       </div>
                       <p></p>
@@ -59,7 +59,7 @@
                       </ul>
                       <div class="indented-level2">
                         <box>
-                          <p>Suppose that an application successfully opens a file for input, but is unable to read the file because of a hardware or system malfunction. The unsuccessful read will throw <code>java.io.IOError</code>. An application might choose to catch this exception, in order to notify the user of the problem — but it also might make sense for the program to print a stack trace and exit.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose that an application successfully opens a file for input, but is unable to read the file because of a hardware or system malfunction. The unsuccessful read will throw <code>java.io.IOError</code>. An application might choose to catch this exception, in order to notify the user of the problem — but it also might make sense for the program to print a stack trace and exit.</p>
                         </box>
                       </div>
                       <p></p>
@@ -68,7 +68,7 @@
                       </ul>
                       <div class="indented-level2">
                         <box>
-                          <p>Consider the application described previously that passes a file name to the constructor for FileReader. If a logic error causes a null to be passed to the constructor, the constructor will throw <code>NullPointerException</code>. The application can catch this exception, but it probably makes more sense to eliminate the bug that caused the exception to occur.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the application described previously that passes a file name to the constructor for FileReader. If a logic error causes a null to be passed to the constructor, the constructor will throw <code>NullPointerException</code>. The application can catch this exception, but it probably makes more sense to eliminate the bug that caused the exception to occur.</p>
                         </box>
                       </div>
                       <p></p>

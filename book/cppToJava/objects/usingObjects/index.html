@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use in-built Java objects</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use in-built Java objects</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -64,7 +64,7 @@
                       </div>
                       <p><strong>Before using a class in your code, you need to <code>import</code> the class.</strong> <code>import</code> statements appear at the top of the code.</p>
                       <box>
-                        <p>This example imports the <code>java.awt.Point</code> (i.e., the <code>Point</code> class in the <code>java.awt</code> package) class -- which can be used to represent <trigger for="pop:usingObjects-coordinates">the coordinates of a location in a Cartesian plane</trigger> -- and use it in the <code>main</code> method.</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example imports the <code>java.awt.Point</code> (i.e., the <code>Point</code> class in the <code>java.awt</code> package) class -- which can be used to represent <trigger for="pop:usingObjects-coordinates">the coordinates of a location in a Cartesian plane</trigger> -- and use it in the <code>main</code> method.</p>
                         <popover id="pop:usingObjects-coordinates" title="Coordinates of a location in a Cartesian plane" placement="top">
                             <div slot="content">
                             <p>In mathematical notation, points are often written in parentheses with a comma separating the coordinates. For example, <code>(0,0)</code> indicates the origin, and <code>(x,y)</code> indicates the point <code>x</code> units to the right and <code>y</code> units up from the origin.
@@ -88,7 +88,7 @@
                     <div class="indented">
                       <p><strong>To create a new object, you have to use the <code>new</code> operator</strong></p>
                       <box>
-                        <p>This line shows how to create a new <code>Point</code> object using the <code>new</code> operator:</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This line shows how to create a new <code>Point</code> object using the <code>new</code> operator:</p>
                         <pre><code class="hljs java">Point spot = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>);
 </code></pre>
                       </box>
@@ -96,10 +96,10 @@
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" create `Rectangle` objects">
+                            <panel header="<md>:glyphicon-question-sign:</md> create `Rectangle` objects">
                               <question>
                                 <p>Update the code below to create a new <code>Rectangle</code> object as described in the code comments, to produce the given output.</p>
                                 <ul>
@@ -117,6 +117,7 @@
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">java.awt.Rectangle[x=0,y=0,width=5,height=10]
 </code></pre>
                                 <div slot="hint">

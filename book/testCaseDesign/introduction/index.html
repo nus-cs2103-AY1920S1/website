@@ -43,14 +43,14 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for deliberate test case design</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for deliberate test case design</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>Except for trivial <tooltip content="Software Under Test">SUTs</tooltip>, <tooltip content="testing all possible cases">exhaustive testing</tooltip> is not practical</strong> because such testing often requires a massive/infinite number of test cases.</p>
                         <tip-box>
-                          <p>Consider the test cases for adding a string object to a <tooltip content="Java: `ArrayList`,<br>Python: `list`">collection</tooltip>:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the test cases for adding a string object to a <tooltip content="Java: `ArrayList`,<br>Python: `list`">collection</tooltip>:</p>
                           <ul>
                             <li>Add an item to an empty collection.</li>
                             <li>Add an item when there is one item in the collection.</li>
@@ -82,9 +82,9 @@
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
-                              <panel header=" Test cases for `TriangleDetector`">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Test cases for `TriangleDetector`">
                                 <question has-input="true">
                                   <p>Given below is the sample output from a text-based program <code>TriangleDetector</code> ithat determines whether the three input numbers make up the three sides of a valid triangle. List test cases you would use to test this software. Two sample test cases are given below.</p>
                                   <pre><code class="hljs">C:\&gt; java TriangleDetector
@@ -119,7 +119,7 @@ Enter side 1:
                               </panel>
                             </div>
                             <div>
-                              <panel header=" Exhaustive testing in Minesweeper">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Exhaustive testing in Minesweeper">
                                 <question has-input="true">
                                   <p>Explain the why exhaustive testing is not practical using the example of testing <code>newGame()</code> operation in the <code>Logic</code> class of a Minesweeper game.</p>
                                   <div slot="answer">
@@ -137,7 +137,7 @@ Enter side 1:
                               </panel>
                             </div>
                             <div>
-                              <panel header=" Statements about E&E of testing">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about E&E of testing">
                                 <question>
                                   <p>Improving efficiency and effectiveness of test case design can,</p>
                                   <ul class="task-list">
@@ -168,14 +168,14 @@ Enter side 1:
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain positive and negative test cases</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain positive and negative test cases</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>A <em>positive test case</em> is when the test is designed to produce an expected/valid behavior. A negative test case is designed to produce a behavior that indicates an invalid/unexpected situation, such as an error message.</strong></p>
                         <tip-box>
-                          <p>Consider testing of the method <code>print(Integer i)</code> which prints the value of <code>i</code>.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider testing of the method <code>print(Integer i)</code> which prints the value of <code>i</code>.</p>
                           <ul>
                             <li>A positive test case: <code>i == new Integer(50)</code></li>
                             <li>A negative test case: <code>i == null;</code></li>
@@ -194,7 +194,7 @@ Enter side 1:
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain black box and glass box test case design</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain black box and glass box test case design</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
@@ -211,22 +211,22 @@ Enter side 1:
                             <p><strong><em>Gray-box</em> approach</strong>: test case design uses <em>some</em> important information about the implementation. For example, if the implementation of a sort operation uses different algorithms to sort lists shorter than 1000 items and lists longer than 1000 items, more meaningful test cases can then be added to verify the correctness of both algorithms.</p>
                           </li>
                         </ul>
-                        <panel type="seamless" header=" %%Black-box and white-box testing%%">
+                        <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> %%Black-box and white-box testing%%">
                           <p><sub>Note: these videos are from the <a href="https://www.udacity.com/course/software-development-process--ud805">Udacity course <em>Software Development Process</em> by Georgia Tech</a></sub></p>
                           <tabs>
-                              <tab header=" Black-box vs White-box testing">
+                              <tab header="<md>:glyphicon-facetime-video:</md> Black-box vs White-box testing">
                               <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/jRwwb7iaRsU" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                               <p>
                                 <hr>
                               </p>
                             </tab>
-                              <tab header=" Black-box testing example">
+                              <tab header="<md>:glyphicon-facetime-video:</md> Black-box testing example">
                               <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/6pbB37nFUZw" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                               <p>
                                 <hr>
                               </p>
                             </tab>
-                              <tab header=" White-box testing example">
+                              <tab header="<md>:glyphicon-facetime-video:</md> White-box testing example">
                               <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/KIAkoae6_jE" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                               <p>
                                 <hr>

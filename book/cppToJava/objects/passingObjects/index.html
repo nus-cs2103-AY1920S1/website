@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can pass objects between methods</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can pass objects between methods</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,7 +44,7 @@
                   <div>
                     <p><strong>You can pass objects as parameters to a method in the usual way</strong>.</p>
                     <box>
-                      <p>The <code>printPoint</code> method below takes a <code>Point</code> object as an argument and displays its attributes in <code>(x,y)</code> format.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>printPoint</code> method below takes a <code>Point</code> object as an argument and displays its attributes in <code>(x,y)</code> format.</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printPoint</span><span class="hljs-params">(Point p)</span> </span>{
     System.out.println(<span class="hljs-string">"("</span> + p.x + <span class="hljs-string">", "</span> + p.y + <span class="hljs-string">")"</span>);
 }
@@ -54,12 +54,13 @@
     printPoint(spot);
 }
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">3, 4
 </code></pre>
                     </box>
                     <p><strong>You can return an object from a method too.</strong></p>
                     <box>
-                      <p>The <code>java.awt</code> package also provides a class called <code>Rectangle</code>. <code>Rectangle</code> objects are similar to points, but they have four attributes: <code>x</code>, <code>y</code>, <code>width</code>, and <code>height</code>. The <code>findCenter</code> method below takes a <code>Rectangle</code> as an argument and returns a <code>Point</code> that corresponds to the center of the rectangle:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>java.awt</code> package also provides a class called <code>Rectangle</code>. <code>Rectangle</code> objects are similar to points, but they have four attributes: <code>x</code>, <code>y</code>, <code>width</code>, and <code>height</code>. The <code>findCenter</code> method below takes a <code>Rectangle</code> as an argument and returns a <code>Point</code> that corresponds to the center of the rectangle:</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Point <span class="hljs-title">findCenter</span><span class="hljs-params">(Rectangle box)</span> </span>{
     <span class="hljs-keyword">int</span> x = box.x + box.width / <span class="hljs-number">2</span>;
     <span class="hljs-keyword">int</span> y = box.y + box.height / <span class="hljs-number">2</span>;
@@ -73,7 +74,7 @@
                     <div class="indented">
                       <p><strong><code>null</code> is a special value that means &quot;no object&quot;</strong>. You can assign null to a variable to indicate that the variable is 'empty' at the moment. However, if you try to use a null value, either by accessing an attribute or invoking a method, Java throws a <code>NullPointerException</code>.</p>
                       <box>
-                        <p>In this example, the variable <code>spot</code> is assigned a <code>null</code> value. As a result, trying to access <code>spot.x</code> attribute or invoke <code>spot.translate</code> method results in a <code>NullPointerException</code>.</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, the variable <code>spot</code> is assigned a <code>null</code> value. As a result, trying to access <code>spot.x</code> attribute or invoke <code>spot.translate</code> method results in a <code>NullPointerException</code>.</p>
                         <pre><code class="hljs java">Point spot = <span class="hljs-keyword">null</span>;
 <span class="hljs-keyword">int</span> x = spot.x;          <span class="hljs-comment">// NullPointerException</span>
 spot.translate(<span class="hljs-number">50</span>, <span class="hljs-number">50</span>);  <span class="hljs-comment">// NullPointerException</span>
@@ -81,7 +82,7 @@ spot.translate(<span class="hljs-number">50</span>, <span class="hljs-number">50
                       </box>
                       <p>On the other hand, it is legal return null from a method or to pass a <code>null</code> reference as an argument to a method.</p>
                       <box>
-                        <p>Returning <code>null</code> from a method.</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Returning <code>null</code> from a method.</p>
                         <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Point <span class="hljs-title">createCopy</span><span class="hljs-params">(Point p)</span> </span>{
     <span class="hljs-keyword">if</span> (p == <span class="hljs-keyword">null</span>) {
         <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>; <span class="hljs-comment">// return null if p is null</span>
@@ -91,17 +92,18 @@ spot.translate(<span class="hljs-number">50</span>, <span class="hljs-number">50
     <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Point(p.x, p.y);
 }
 </code></pre>
-                        <p>Passing <code>null</code> as the argument.</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Passing <code>null</code> as the argument.</p>
                         <pre><code class="hljs java">Point result = createCopy(<span class="hljs-keyword">null</span>);
 System.out.println(result);
 </code></pre>
+                        <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                         <pre><code class="hljs">null
 </code></pre>
                       </box>
                     </div>
                     <p><strong>It is possible to have multiple variables that refer to the same object.</strong></p>
                     <box>
-                      <p>Notice how <code>p1</code> and <code>p2</code> are aliases for the same object. When the object is changed using the variable <code>p1</code>, the changes are visible via <code>p2</code> as well (and vice versa), because they both point to the same <code>Point</code> object.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Notice how <code>p1</code> and <code>p2</code> are aliases for the same object. When the object is changed using the variable <code>p1</code>, the changes are visible via <code>p2</code> as well (and vice versa), because they both point to the same <code>Point</code> object.</p>
                       <pre><code class="hljs java">Point p1 = <span class="hljs-keyword">new</span> Point(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>);
 Point p2 = p1;
 System.out.println(<span class="hljs-string">"p1: "</span> + p1.x + <span class="hljs-string">", "</span> + p1.y);
@@ -111,15 +113,16 @@ p2.y = <span class="hljs-number">2</span>;
 System.out.println(<span class="hljs-string">"p1: "</span> + p1.x + <span class="hljs-string">", "</span> + p1.y);
 System.out.println(<span class="hljs-string">"p2: "</span> + p2.x + <span class="hljs-string">", "</span> + p2.y);
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">p1: 0, 0
 p2: 0, 0
 p1: 1, 2
 p2: 1, 2
 </code></pre>
                     </box>
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"></span></span> <strong>Java does not have explicit pointers</strong> (and other related things such as pointer de-referencing, pointer arithmetic). <strong>When an object is passed into a method as an argument, the method gains access to the original object.</strong> If the method changes the object it received, the changes are retained in the object even after the method is completed.</p>
+                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> <strong>Java does not have explicit pointers</strong> (and other related things such as pointer de-referencing, pointer arithmetic). <strong>When an object is passed into a method as an argument, the method gains access to the original object.</strong> If the method changes the object it received, the changes are retained in the object even after the method is completed.</p>
                     <box>
-                      <p>Note how <code>p3</code> retains changes done to it by the method <code>swapCoordinates</code> even after the method call.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Note how <code>p3</code> retains changes done to it by the method <code>swapCoordinates</code> even after the method call.</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">swapCoordinates</span><span class="hljs-params">(Point p)</span></span>{
     <span class="hljs-keyword">int</span> temp = p.x;
     p.x = p.y;
@@ -140,10 +143,10 @@ p3: 3, 2
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" pass objects to `move` method">
+                            <panel header="<md>:glyphicon-question-sign:</md> pass objects to `move` method">
                               <question>
                                 <p>Add a method <code>move(Point p, Rectangle r)</code> to the code below, to produce the given output. The behavior of the method is as follows:</p>
                                 <ul>
@@ -173,6 +176,7 @@ p3: 3, 2
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">arguments: java.awt.Point[x=0,y=0], java.awt.Rectangle[x=2,y=3,width=5,height=6]
 argument point after method call: java.awt.Point[x=0,y=0]
 argument rectangle after method call: java.awt.Rectangle[x=0,y=0,width=5,height=6]

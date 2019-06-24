@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use branching</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use branching</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,7 +44,7 @@
                   <div>
                     <h5 id="if-else-statements"><code>if-else</code> statements<a class="fa fa-anchor" href="#if-else-statements"></a></h5>
                     <div class="indented">
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> Java supports the usual forms of <code>if</code> statements:</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> Java supports the usual forms of <code>if</code> statements:</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (x &gt; <span class="hljs-number">0</span>) {
     System.out.println(<span class="hljs-string">"x is positive"</span>);
 }
@@ -74,7 +74,7 @@
 }
 </code></pre>
                       <p>The braces are optional (but recommended) for branches that have only one statement.
-                        So we <em>could have</em> written the previous example this way (<font color="red"><span>** Bad**</span></font>):</p>
+                        So we <em>could have</em> written the previous example this way (<font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>):</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (x % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>)
     System.out.println(<span class="hljs-string">"x is even"</span>);
 <span class="hljs-keyword">else</span>
@@ -122,15 +122,15 @@
     }
 }
 </code></pre>
-                      <p><code>August</code></p>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>August</code></p>
                     </div>
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" Greeter">
+                            <panel header="<md>:glyphicon-question-sign:</md> Greeter">
                               <question>
                                 <p>Write a Java program that takes several command line arguments that describe a person or a family | and prints out a greeting. The parameters can be one of two formats.</p>
                                 <div class="table-responsive">
@@ -146,25 +146,25 @@
                                       <tr>
                                         <td><code>NAME GENDER</code></td>
                                         <td>Indicates a single person. <code>GENDER</code> can be <code>M</code> or <code>F</code></td>
-                                        <td><code>Smith M</code> <code>Dear Mr. Smith</code><br> <code>Lee F</code> <code>Dear Mdm. Lee</code></td>
+                                        <td><code>Smith M</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>Dear Mr. Smith</code><br> <code>Lee F</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>Dear Mdm. Lee</code></td>
                                       </tr>
                                       <tr>
                                         <td><code>NAME MULTIPLE_GENDERS</code></td>
                                         <td>Indicates a family.</td>
-                                        <td><code>Tan M M F</code> <code>Dear Tan family</code></td>
+                                        <td><code>Tan M M F</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>Dear Tan family</code></td>
                                       </tr>
                                     </tbody>
                                   </table>
                                 </div>
                                 <p>Follow the sample output given below.</p>
                                 <p>
-                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java Greeter Smith M</code> <code>Dear Mr. Smith</code>
+                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java Greeter Smith M</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>Dear Mr. Smith</code>
                                 </p>
                                 <p>
-                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java Greeter Lee F</code> <code>Dear Mdm. Lee</code>
+                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java Greeter Lee F</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>Dear Mdm. Lee</code>
                                 </p>
                                 <p>
-                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java Greeter Tan M M F</code> <code>Dear Tan family</code>
+                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java Greeter Tan M M F</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>Dear Tan family</code>
                                 </p>
                                 <p>You can assume that the input is always in the correct format <span class="dimmed">i.e., no need to handle invalid input cases</span>.</p>
                                 <div slot="hint">
@@ -188,7 +188,7 @@
                             </panel>
                           </div>
                           <div>
-                            <panel header=" Grade Helper">
+                            <panel header="<md>:glyphicon-question-sign:</md> Grade Helper">
                               <question>
                                 <p>Write a Java program that takes a letter grade e.g., <code>A+</code> as a command line argument and prints the CAP value for that grade.</p>
                                 <p>💡 Use a <code>switch</code> statement in your code.</p>
@@ -224,7 +224,7 @@
                                 </div>
                                 <p>Follow the sample output given below.</p>
                                 <p>
-                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java GradeHelper B</code> <code>CAP for grade B is 3.5</code>
+                                  <smal><span class="badge badge-secondary">&gt;_</span></smal> <code>java GradeHelper B</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>CAP for grade B is 3.5</code>
                                 </p>
                                 <p>You can assume that the input is always in the correct format <span class="dimmed">i.e., no need to handle invalid input cases</span>.</p>
                                 <div slot="hint">
@@ -249,7 +249,7 @@
                       </panel>
                     </div>
                     <div>
-                      <panel header=" Resources" expanded>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                         <div>
                           <ul>
                             <li>Oracle's tutorials on [<a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html"><code>if</code>-<code>else</code></a>][<a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html"><code>switch</code></a>]</li>

@@ -33,11 +33,58 @@
 
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
+    <header>
+      <navbar placement="top" type="dark">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
+        <dropdown text="Schedule" class="nav-link">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <dropdown text="Links" class="nav-link">
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</span></a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team IDs</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</span></a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span> Projects List</span></a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
     <div id="flex-body">
       <nav id="site-nav" class="navbar navbar-light bg-transparent">
         <div class="border-right-grey nav-inner position-sticky slim-scroll">
           <ul class="px-0 site-nav-list">
-            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a">Home , printable versions </a></li>
+            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a">Home <span aria-hidden="true" class="glyphicon glyphicon-home"></span>, printable versions <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a></li>
             <li class="mt-2"><button class="dropdown-btn"><strong>Software Engineering</strong>
                 <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
@@ -158,55 +205,6 @@
       <div id="content-wrapper">
         <link rel="stylesheet" href="/website/book/css/textbook.css">
         <div class="website-content">
-          <div>
-            <navbar placement="top" type="inverse" class="temp-navbar">
-              <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
-              <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-              <dropdown text="Schedule" class="nav-link temp-dropdown">
-                <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
-                <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
-                <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
-                <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
-                <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
-                <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
-                <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
-                <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
-                <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
-                <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
-                <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
-                <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
-                <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
-              </dropdown>
-              <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-              <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-              <div class="nav-link temp-dropdown-placeholder">Links</div>
-              <dropdown text="Links" class="nav-link temp-dropdown">
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Report Bugs</a></li>
-                <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"> Slack</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Forum</a></li>
-                <li><a href="/website/admin/project-overview.html" class="dropdown-item"> Project Info</a></li>
-                <li><a href="/website/admin/instructors.html" class="dropdown-item"> Instructors</a></li>
-                <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"> Announcements</a></li>
-                <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"> File Submissions</a></li>
-                <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"> Tutorial Schedule</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"> Team IDs</a></li>
-                <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"> Java Coding Standard</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"> samplerepo-things</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"> Addressbook-level1</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"> Addressbook-level2</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"> Addressbook-level3</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"> Addressbook-level4</a></li>
-                <li><a href="/website/admin/projectList.html" class="dropdown-item"> Projects List</a></li>
-                <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"> config.json templates for Reposense</a></li>
-                <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"> Project Code Dashboard (BETA)</a></li>
-              </dropdown>
-              <li slot="right" class="nav-link">
-                <form class="navbar-form">
-                  <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
-                </form>
-              </li>
-            </navbar>
-          </div>
           <p><span class="dimmed"><strong><span></span></strong></span></p>
           <div id="title">
             <div>
@@ -223,14 +221,14 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for deliberate test case design</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for deliberate test case design</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Except for trivial <tooltip content="Software Under Test">SUTs</tooltip>, <tooltip content="testing all possible cases">exhaustive testing</tooltip> is not practical</strong> because such testing often requires a massive/infinite number of test cases.</p>
                   <tip-box>
-                    <p>Consider the test cases for adding a string object to a <tooltip content="Java: `ArrayList`,<br>Python: `list`">collection</tooltip>:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the test cases for adding a string object to a <tooltip content="Java: `ArrayList`,<br>Python: `list`">collection</tooltip>:</p>
                     <ul>
                       <li>Add an item to an empty collection.</li>
                       <li>Add an item when there is one item in the collection.</li>
@@ -262,9 +260,9 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" Test cases for `TriangleDetector`">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Test cases for `TriangleDetector`">
                           <question has-input="true">
                             <p>Given below is the sample output from a text-based program <code>TriangleDetector</code> ithat determines whether the three input numbers make up the three sides of a valid triangle. List test cases you would use to test this software. Two sample test cases are given below.</p>
                             <pre><code class="hljs">C:\&gt; java TriangleDetector
@@ -299,7 +297,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" Exhaustive testing in Minesweeper">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Exhaustive testing in Minesweeper">
                           <question has-input="true">
                             <p>Explain the why exhaustive testing is not practical using the example of testing <code>newGame()</code> operation in the <code>Logic</code> class of a Minesweeper game.</p>
                             <div slot="answer">
@@ -317,7 +315,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" Statements about E&E of testing">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about E&E of testing">
                           <question>
                             <p>Improving efficiency and effectiveness of test case design can,</p>
                             <ul class="task-list">
@@ -343,14 +341,14 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain positive and negative test cases</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain positive and negative test cases</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>A <em>positive test case</em> is when the test is designed to produce an expected/valid behavior. A negative test case is designed to produce a behavior that indicates an invalid/unexpected situation, such as an error message.</strong></p>
                   <tip-box>
-                    <p>Consider testing of the method <code>print(Integer i)</code> which prints the value of <code>i</code>.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider testing of the method <code>print(Integer i)</code> which prints the value of <code>i</code>.</p>
                     <ul>
                       <li>A positive test case: <code>i == new Integer(50)</code></li>
                       <li>A negative test case: <code>i == null;</code></li>
@@ -364,9 +362,9 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain black box and glass box test case design</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain black box and glass box test case design</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Test case design can be of three types, based on how much of SUT internal details are considered when designing test cases:</strong></p>
@@ -381,22 +379,22 @@ Enter side 1:
                       <p><strong><em>Gray-box</em> approach</strong>: test case design uses <em>some</em> important information about the implementation. For example, if the implementation of a sort operation uses different algorithms to sort lists shorter than 1000 items and lists longer than 1000 items, more meaningful test cases can then be added to verify the correctness of both algorithms.</p>
                     </li>
                   </ul>
-                  <panel type="seamless" header=" %%Black-box and white-box testing%%">
+                  <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> %%Black-box and white-box testing%%">
                     <p><sub>Note: these videos are from the <a href="https://www.udacity.com/course/software-development-process--ud805">Udacity course <em>Software Development Process</em> by Georgia Tech</a></sub></p>
                     <tabs>
-                        <tab header=" Black-box vs White-box testing">
+                        <tab header="<md>:glyphicon-facetime-video:</md> Black-box vs White-box testing">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/jRwwb7iaRsU" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                         <p>
                           <hr>
                         </p>
                       </tab>
-                        <tab header=" Black-box testing example">
+                        <tab header="<md>:glyphicon-facetime-video:</md> Black-box testing example">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/6pbB37nFUZw" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                         <p>
                           <hr>
                         </p>
                       </tab>
-                        <tab header=" White-box testing example">
+                        <tab header="<md>:glyphicon-facetime-video:</md> White-box testing example">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/KIAkoae6_jE" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                         <p>
                           <hr>
@@ -419,9 +417,9 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain equivalence partitions</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain equivalence partitions</span></span></span></span>
                 <p></p>
                 <div>
                   <p>Consider the testing of the following operation.</p>
@@ -451,14 +449,14 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can apply EP for pure functions</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply EP for pure functions</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Equivalence partitions (EPs) are usually derived from the specifications of the SUT.</strong></p>
                   <tip-box>
-                    <p>These could be EPs for the <trigger for="pop:epBasic-isValidMonth">isValidMonth</trigger> example:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> These could be EPs for the <trigger for="pop:epBasic-isValidMonth">isValidMonth</trigger> example:</p>
                     <ul>
                       <li>[MIN_INT ... 0] : <strong>below</strong> the range that produces <code>true</code> (produces <code>false</code>)</li>
                       <li>[1 … 12] : the range that produces <code>true</code></li>
@@ -474,7 +472,7 @@ Enter side 1:
                   </popover>
                   <p>When the SUT has multiple inputs, you should identify EPs for each input.</p>
                   <tip-box>
-                    <p>Consider the method <code>duplicate(String s, int n): String</code> which returns a <code>String</code> that contains <code>s</code> repeated <code>n</code> times.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method <code>duplicate(String s, int n): String</code> which returns a <code>String</code> that contains <code>s</code> repeated <code>n</code> times.</p>
                     <p>Example EPs for <code>s</code>:</p>
                     <ul>
                       <li>zero-length strings</li>
@@ -490,7 +488,7 @@ Enter side 1:
                   </tip-box>
                   <p>An EP may not have adjacent values.</p>
                   <tip-box>
-                    <p>Consider the method <code>isPrime(int i): boolean</code> that returns true if <code>i</code> is a prime number.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method <code>isPrime(int i): boolean</code> that returns true if <code>i</code> is a prime number.</p>
                     <p>EPs for <code>i</code>:</p>
                     <ul>
                       <li>prime numbers</li>
@@ -499,18 +497,18 @@ Enter side 1:
                   </tip-box>
                   <p>Some inputs have only a small number of possible values and a potentially unique behavior for each value. In those cases we have to consider each value as a partition by itself.</p>
                   <tip-box>
-                    <p>Consider the method <code>showStatusMessage(GameStatus s): String</code> that returns a unique <code>String</code> for each of the possible value of s (<code>GameStatus</code> is an <code>enum</code>). In this case, each possible value for <code>s</code> will have to be considered as a partition.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method <code>showStatusMessage(GameStatus s): String</code> that returns a unique <code>String</code> for each of the possible value of s (<code>GameStatus</code> is an <code>enum</code>). In this case, each possible value for <code>s</code> will have to be considered as a partition.</p>
                   </tip-box>
                   <p>Note that the EP technique is merely a heuristic and not an exact science, especially when applied manually (as opposed to using an automated program analysis tool to derive EPs). The partitions derived depend on how one ‘speculates’ the SUT to behave internally. Applying EP under a glass-box or gray-box approach can yield more precise partitions.</p>
                   <tip-box>
-                    <p>Consider the method EPs given above for the <code>isValidMonth</code>. A different tester might use these EPs instead:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the method EPs given above for the <code>isValidMonth</code>. A different tester might use these EPs instead:</p>
                     <ul>
                       <li>[1 … 12] : the range that produces <code>true</code></li>
                       <li>[all other integers] : the range that produces <code>false</code></li>
                     </ul>
                   </tip-box>
                   <tip-box>
-                    <p>Some more examples:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more examples:</p>
                     <table class="table">
                       <tr>
                         <th>Specification</th>
@@ -540,9 +538,9 @@ Enter side 1:
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" EPs for `isValidName` method">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: EPs for `isValidName` method">
                           <question>
                             <p>Consider this SUT:</p>
                             <tip-box>
@@ -581,9 +579,9 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can apply EP for OOP methods</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply EP for OOP methods</span></span></span></span>
                 <p></p>
                 <div>
                   <p>When deciding EPs of OOP methods, we need to identify EPs of all data participants that can potentially influence the behaviour of the method, such as,</p>
@@ -593,7 +591,7 @@ Enter side 1:
                     <li>other data/objects accessed by the method such as global variables. This category may not be applicable if using the black box approach (because the test case designer using the black box approach will not know how the method is implemented)</li>
                   </ul>
                   <tip-box>
-                    <p>Consider this method in the <code>DataStack</code> class:
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider this method in the <code>DataStack</code> class:
                       <code>push(Object o): boolean</code></p>
                     <ul>
                       <li>Adds o to the top of the stack if the stack is not full.</li>
@@ -613,7 +611,7 @@ Enter side 1:
                     </ul>
                   </tip-box>
                   <tip-box>
-                    <p>Consider a simple Minesweeper app. What are the EPs for the <code>newGame()</code> method of the <code>Logic</code> component?</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider a simple Minesweeper app. What are the EPs for the <code>newGame()</code> method of the <code>Logic</code> component?</p>
                     <p>As <code>newGame()</code> does not have any parameters, the only obvious participant is the <code>Logic</code> object itself.</p>
                     <p>Note that if the glass-box or the grey-box approach is used, other associated objects that are involved in the method might also be included as participants. For example, <code>Minefield</code> object can be considered as another participant of the <code>newGame()</code> method. Here, the black-box approach is assumed.</p>
                     <p>Next, let us identify equivalence partitions for each participant. Will the <code>newGame()</code> method behave differently for different <code>Logic</code> objects? If yes, how will it differ? In this case, yes, it might behave differently based on the game state. Therefore, the equivalence partitions are:</p>
@@ -625,7 +623,7 @@ Enter side 1:
                     </ul>
                   </tip-box>
                   <tip-box>
-                    <p>Consider the <code>Logic</code> component of the Minesweeper application. What are the EPs for the <code>markCellAt(int x, int y)</code> method?. The partitions in <strong>bold</strong> represent valid inputs.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the <code>Logic</code> component of the Minesweeper application. What are the EPs for the <code>markCellAt(int x, int y)</code> method?. The partitions in <strong>bold</strong> represent valid inputs.</p>
                     <ul>
                       <li><code>Logic</code>: PRE_GAME, <strong>READY</strong>, <strong>IN_PLAY</strong>, WON, LOST</li>
                       <li><code>x</code>: [MIN_INT..-1] <strong>[0..(W-1)]</strong> [W..MAX_INT] <span class="dimmed">(we assume a minefield size of WxH)</span></li>
@@ -648,23 +646,23 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain boundary value analysis</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain boundary value analysis</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong><em>Boundary Value Analysis (BVA)</em> is test case design heuristic that is based on the observation that bugs often result from incorrect handling of boundaries of equivalence partitions.</strong> This is not surprising, as the end points of the boundary are often used in branching instructions etc. where the programmer can make mistakes.</p>
                   <tip-box>
-                    <p><code>markCellAt(int x, int y)</code> operation could contain code such as if <code>(x &gt; 0 &amp;&amp; x &lt;= (W-1))</code> which involves boundaries of x’s equivalence partitions.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>markCellAt(int x, int y)</code> operation could contain code such as if <code>(x &gt; 0 &amp;&amp; x &lt;= (W-1))</code> which involves boundaries of x’s equivalence partitions.</p>
                   </tip-box>
                   <p><strong>BVA suggests that when picking test inputs from an equivalence partition, values near boundaries (i.e. boundary values) are more likely to find bugs.</strong></p>
                   <p>Boundary values are sometimes called <em>corner cases</em>.</p>
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" What BVA recommends">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What BVA recommends">
                           <question>
                             <p>Boundary value analysis recommends testing <em>only</em> values that reside on the equivalence class boundary.</p>
                             <ul radio-group="f8ff4" class="radio-list">
@@ -687,14 +685,14 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can apply boundary value analysis</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply boundary value analysis</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Typically, we choose three values around the boundary to test: one value from the boundary, one value just below the boundary, and one value just above the boundary.</strong> The number of values to pick depends on other factors, such as the cost of each test case.</p>
                   <tip-box>
-                    <p>Some examples:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples:</p>
                     <table class="table">
                       <tr>
                         <th>Equivalence partition</th>
@@ -763,14 +761,14 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for strategies to combine test inputs</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for strategies to combine test inputs</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>An SUT can take multiple inputs.</strong> You can select values for each input (using equivalence partitioning, boundary value analysis, or some other technique).</p>
                   <tip-box>
-                    <p>an SUT that takes multiple inputs and some values chosen as values for each input:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an SUT that takes multiple inputs and some values chosen as values for each input:</p>
                     <ul>
                       <li>Method to test: <code>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
                       <li>Values to test:<div class="table-responsive">
@@ -818,14 +816,14 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain some basic test input combination strategies</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain some basic test input combination strategies</span></span></span></span>
                 <p></p>
                 <div>
                   <p>Given below are some basic strategies for generating a set of test cases by combining multiple test input combination strategies.</p>
                   <tip-box>
-                    <p>Let's assume the SUT has the following three inputs and you have selected the given values for testing:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Let's assume the SUT has the following three inputs and you have selected the given values for testing:</p>
                     <p>SUT: <code>foo(p1 char, p2 int, p3 boolean)</code></p>
                     <p>Values to test:</p>
                     <div class="table-responsive">
@@ -855,7 +853,7 @@ Enter side 1:
                   </tip-box>
                   <p><strong>The <em>all combinations</em> strategy generates test cases for each unique combination of test inputs.</strong></p>
                   <tip-box>
-                    <p>the strategy generates 3x3x2=18 test cases</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> the strategy generates 3x3x2=18 test cases</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
                         <thead>
@@ -903,7 +901,7 @@ Enter side 1:
                   </tip-box>
                   <p><strong>The <em>at least once</em> strategy includes each test input at least once.</strong></p>
                   <tip-box>
-                    <p>this strategy generates 3 test cases.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 3 test cases.</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
                         <thead>
@@ -940,7 +938,7 @@ Enter side 1:
                   </tip-box>
                   <p><strong>The <em>all pairs</em> strategy creates test cases so that for any given pair of inputs, all combinations between them are tested.</strong> It is based on the observations that a bug is rarely the result of more than two interacting factors. The resulting number of test cases is lower than the <em>all combinations</em> strategy, but higher than the <em>at least once</em> approach.</p>
                   <tip-box>
-                    <p>this strategy generates 9 test cases:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 9 test cases:</p>
                     <panel type="seamless" header="see steps">
                       <p>Let's first consider inputs p1 and p2:</p>
                       <div class="table-responsive">
@@ -1060,7 +1058,7 @@ Enter side 1:
                   </tip-box>
                   <p>A variation of this strategy is to test all pairs of inputs but only for inputs that could influence each other.</p>
                   <tip-box>
-                    <p>Testing all pairs between p1 and p3 only while ensuring all p3 values are tested at least once</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Testing all pairs between p1 and p3 only while ensuring all p3 values are tested at least once</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
                         <thead>
@@ -1122,9 +1120,9 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can apply heuristic ‘each valid input at least once in a positive test case’</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply heuristic ‘each valid input at least once in a positive test case’</span></span></span></span>
                 <p></p>
                 <div>
                   <p>Consider the following scenario.</p>
@@ -1293,9 +1291,9 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can apply heuristic ‘no more than one invalid input in a test case’</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply heuristic ‘no more than one invalid input in a test case’</span></span></span></span>
                 <p></p>
                 <div>
                   <p>Consider the <trigger for="modal:heuristic-valid-test-case" trigger="click">test cases designed in [Heuristic: each valid input at least once in a positive test case]</trigger>.</p>
@@ -1410,9 +1408,9 @@ Enter side 1:
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" Can define test cases precisely">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Can define test cases precisely">
                           <question>
                             <p>Applying the heuristics covered so far, we can determine the precise number of test cases required to test any given SUT effectively.</p>
                             <ul radio-group="a7d7f" class="radio-list">
@@ -1435,9 +1433,9 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can apply multiple test input combination techniques together</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply multiple test input combination techniques together</span></span></span></span>
                 <p></p>
                 <div>
                   <p>Consider the calculateGrade scenario given below:</p>
@@ -1795,10 +1793,10 @@ Enter side 1:
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
                         <div>
-                          <panel header=" statements about test input combinations">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about test input combinations">
                             <question>
                               <p>Which of these contradict the heuristics recommended when creating test cases with multiple inputs?</p>
                               <ul radio-group="1da4e" class="radio-list">
@@ -1815,7 +1813,7 @@ Enter side 1:
                           </panel>
                         </div>
                         <div>
-                          <panel header=" test cases for `consume` method">
+                          <panel header="<md>:glyphicon-question-sign:</md> test cases for `consume` method">
                             <question>
                               <p>Apply heuristics for combining multiple test inputs to improve the E&amp;E of the following test cases, assuming all 6 values in the table need to be tested. <ins>underlines</ins> indicate invalid values. Point out where the heuristics are contradicted and how to improve the test cases.</p>
                               <box>
@@ -1869,9 +1867,9 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain test case design for use case based testing</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain test case design for use case based testing</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Use cases can be used for system testing and acceptance testing</strong>. For example, the main success scenario can be one test case while each variation (due to extensions) can form another test case. However, note that use cases do not specify the exact data entered into the system. Instead, it might say something like <code>user enters his personal data into the system</code>. Therefore, the tester has to choose data by considering equivalence partitions and boundary values. The combinations of these could result in one use case producing many test cases.</p>
@@ -1890,7 +1888,7 @@ Enter side 1:
                       <p><strong>For testing to be <tooltip content="Efficient and Effective">E&amp;E</tooltip>, each new test we add should be targeting a potential fault that is not already targeted by existing test cases.</strong> There are test case design techniques that can help us improve E&amp;E of testing.</p>
                     </div>
                   </modal>
-                  <modal large title="Textbook " id="modal:usecaseBased-scripted">
+                  <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:usecaseBased-scripted">
                       <div>
                       <div></div>
                       <p></p>
@@ -1913,7 +1911,7 @@ Enter side 1:
                             </ol>
                             <p>Exploratory testing is ‘the simultaneous learning, test design, and test execution’ <trigger trigger="click" for="modal:exploratoryWhat-bach-et-explained">[source: bach-et-explained]</trigger> whereby the nature of the follow-up test case is decided based on the behavior of the previous test cases. In other words, running the system and trying out various operations. It is called <em>exploratory testing</em> because testing is driven by observations during testing. Exploratory testing usually starts with areas identified as error-prone, based on the tester’s past experience with similar systems. One tends to conduct more tests for those operations where more faults are found.</p>
                             <tip-box>
-                              <p>Here is an example thought process behind a segment of an exploratory testing session:</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example thought process behind a segment of an exploratory testing session:</p>
                               <blockquote>
                                 <p>“Hmm... looks like feature x is broken. This usually means feature n and k could be broken too; we need to look at them soon.
                                   But before that, let us give a good test run to feature y because users can still use the product if feature y works, even if x doesn’t work. Now, if feature y doesn’t work 100%, we have a major problem and this has to be made known to the development team sooner rather than later...”</p>
@@ -1922,7 +1920,7 @@ Enter side 1:
                             <tip-box>
                               <p>💡 <strong>Exploratory testing is also known as <em>reactive testing, error guessing technique, attack-based testing,</em> and <em>bug hunting</em>.</strong></p>
                             </tip-box>
-                            <modal id="modal:exploratoryWhat-bach-et-explained" title="bach-et-explained ">
+                            <modal id="modal:exploratoryWhat-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>">
                               <div>
                                 <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
                               </div>
@@ -1930,9 +1928,9 @@ Enter side 1:
                           </div>
                           <div>
                             <div>
-                              <panel header=" Exercises" expandable>
+                              <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                 <div>
-                                  <panel header=" statements about exploratory and scripted testing">
+                                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about exploratory and scripted testing">
                                     <question>
                                       <p>Scripted testing requires tests to be written in a scripting language; Manual testing is called exploratory testing.</p>
                                       <ul radio-group="db31a" class="radio-list">
@@ -1947,7 +1945,7 @@ Enter side 1:
                                   </panel>
                                 </div>
                                 <div>
-                                  <panel header=" Which testing technique is better?">
+                                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which testing technique is better?">
                                     <question>
                                       <p>Which testing technique is better?</p>
                                       <ul radio-group="9fd35" class="radio-list">
@@ -1964,7 +1962,7 @@ Enter side 1:
                                   </panel>
                                 </div>
                                 <div>
-                                  <panel header=" Explain the concept of exploratory testing using Minesweeper as an example.">
+                                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Explain the concept of exploratory testing using Minesweeper as an example.">
                                     <question has-input="true">
                                       <p>Explain the concept of exploratory testing using Minesweeper as an example.</p>
                                       <div slot="answer">
@@ -1995,16 +1993,16 @@ Enter side 1:
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can combine test case design techniques</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can combine test case design techniques</span></span></span></span>
                 <p></p>
                 <div></div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" Matric numbers">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Matric numbers">
                           <question has-input="true">
                             <p>Assume students are given matriculation number according to the following format:</p>
                             <p>[Faculty Alphabet] [Gender Alphabet] [Serial Number] [Check Alphabet]</p>
@@ -2045,7 +2043,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" isValidDate">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: isValidDate">
                           <question has-input="true">
                             <p>Identify a set of equivalence partitions for testing isValidDate(String date) method. The method checks if the parameter date is a day that falls in the period 1880/01/01 to 2030/12/31 (both inclusive). The date is given in the format yyyy/mm/dd.</p>
                             <div slot="answer">
@@ -2064,7 +2062,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" Dispatch resources">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Dispatch resources">
                           <question has-input="true">
                             <p>Given below is the overview of the method dispatch(Resource, Task), from an emergency management system (e.g. a system used by those who handle emergency calls from the public about incidents such as fires, possible burglaries, domestic disturbances, etc.). A task might need multiple resources of multiple types. For example, the task ‘fire at Clementi MRT’ might need two fire engines and one ambulance.</p>
                             <ul>
@@ -2107,7 +2105,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" transferTable">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: transferTable">
                           <question has-input="true">
                             <p>Given below is an operation description taken from a restaurant booking system. Use equivalence partitions and boundary value analysis technique to design a set of test cases for it.</p>
                             <ul>
@@ -2206,7 +2204,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" add(Item)">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: add(Item)">
                           <question has-input="true">
                             <p>Assume you are testing the add(Item) method specified below.</p>
                             <img src="/website/book/testCaseDesign/summary/exercises/images/itemList.png" height="100">
@@ -2245,7 +2243,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" setWife">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: setWife">
                           <question has-input="true">
                             <p>Use equivalence partitions and boundary values to choose test inputs for testing the setWife operation in the Man class.</p>
                             <img src="/website/book/testCaseDesign/summary/exercises/images/manWoman.png" height="90">
@@ -2263,7 +2261,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" Pre-Release Game">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Pre-Release Game">
                           <question>
                             <p>If you download a pre-release version of a new game (executable file) to do a test drive and submit bug reports, you would be doing</p>
                             <ul class="task-list">
@@ -2285,7 +2283,7 @@ Enter side 1:
                         </panel>
                       </div>
                       <div>
-                        <panel header=" True or False?">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: True or False?">
                           <question>
                             <p>We can apply equivalence partitioning technique in white-box fashion.</p>
                             <ul class="task-list">
@@ -2355,7 +2353,7 @@ Enter side 1:
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Sun, 23 Jun 2019 11:41:44 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Mon, 24 Jun 2019 07:13:05 GMT</small></div>
     </footer>
   </div>
 </body>

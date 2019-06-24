@@ -43,23 +43,23 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain boundary value analysis</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain boundary value analysis</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong><em>Boundary Value Analysis (BVA)</em> is test case design heuristic that is based on the observation that bugs often result from incorrect handling of boundaries of equivalence partitions.</strong> This is not surprising, as the end points of the boundary are often used in branching instructions etc. where the programmer can make mistakes.</p>
                         <tip-box>
-                          <p><code>markCellAt(int x, int y)</code> operation could contain code such as if <code>(x &gt; 0 &amp;&amp; x &lt;= (W-1))</code> which involves boundaries of x’s equivalence partitions.</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>markCellAt(int x, int y)</code> operation could contain code such as if <code>(x &gt; 0 &amp;&amp; x &lt;= (W-1))</code> which involves boundaries of x’s equivalence partitions.</p>
                         </tip-box>
                         <p><strong>BVA suggests that when picking test inputs from an equivalence partition, values near boundaries (i.e. boundary values) are more likely to find bugs.</strong></p>
                         <p>Boundary values are sometimes called <em>corner cases</em>.</p>
                       </div>
                       <div>
                         <div>
-                          <panel header=" Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                             <div>
-                              <panel header=" What BVA recommends">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What BVA recommends">
                                 <question>
                                   <p>Boundary value analysis recommends testing <em>only</em> values that reside on the equivalence class boundary.</p>
                                   <ul radio-group="f8ff4" class="radio-list">
@@ -87,14 +87,14 @@
                       </div>
                     </span>
                     <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span> Can apply boundary value analysis</span></span></span></span></p>
+                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply boundary value analysis</span></span></span></span></p>
                       <p></p>
                       <p></p>
                       <p></p>
                       <div>
                         <p><strong>Typically, we choose three values around the boundary to test: one value from the boundary, one value just below the boundary, and one value just above the boundary.</strong> The number of values to pick depends on other factors, such as the cost of each test case.</p>
                         <tip-box>
-                          <p>Some examples:</p>
+                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples:</p>
                           <table class="table">
                             <tr>
                               <th>Equivalence partition</th>

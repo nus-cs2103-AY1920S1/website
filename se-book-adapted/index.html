@@ -23,11 +23,58 @@
 
 <body>
   <div id="app">
+    <header>
+      <navbar placement="top" type="dark">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
+        <dropdown text="Schedule" class="nav-link">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <dropdown text="Links" class="nav-link">
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</span></a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team IDs</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</span></a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span> Projects List</span></a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
     <div id="flex-body">
       <nav id="site-nav" class="navbar navbar-light bg-transparent">
         <div class="border-right-grey nav-inner position-sticky slim-scroll">
           <ul class="px-0 site-nav-list">
-            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a current">Home , printable versions </a></li>
+            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a current">Home <span aria-hidden="true" class="glyphicon glyphicon-home"></span>, printable versions <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a></li>
             <li class="mt-2"><button class="dropdown-btn"><strong>Software Engineering</strong>
                 <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
@@ -147,67 +194,18 @@
       </nav>
       <div id="content-wrapper">
         <link rel="stylesheet" href="/website/book/css/textbook.css">
-        <div>
-          <navbar placement="top" type="inverse" class="temp-navbar">
-            <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
-            <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-            <dropdown text="Schedule" class="nav-link temp-dropdown">
-              <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
-              <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
-              <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
-              <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
-              <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
-              <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
-              <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
-              <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
-              <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
-              <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
-              <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
-              <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
-              <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
-            </dropdown>
-            <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-            <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-            <div class="nav-link temp-dropdown-placeholder">Links</div>
-            <dropdown text="Links" class="nav-link temp-dropdown">
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Report Bugs</a></li>
-              <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"> Slack</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Forum</a></li>
-              <li><a href="/website/admin/project-overview.html" class="dropdown-item"> Project Info</a></li>
-              <li><a href="/website/admin/instructors.html" class="dropdown-item"> Instructors</a></li>
-              <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"> Announcements</a></li>
-              <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"> File Submissions</a></li>
-              <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"> Tutorial Schedule</a></li>
-              <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"> Team IDs</a></li>
-              <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"> Java Coding Standard</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"> samplerepo-things</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"> Addressbook-level1</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"> Addressbook-level2</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"> Addressbook-level3</a></li>
-              <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"> Addressbook-level4</a></li>
-              <li><a href="/website/admin/projectList.html" class="dropdown-item"> Projects List</a></li>
-              <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"> config.json templates for Reposense</a></li>
-              <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"> Project Code Dashboard (BETA)</a></li>
-            </dropdown>
-            <li slot="right" class="nav-link">
-              <form class="navbar-form">
-                <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
-              </form>
-            </li>
-          </navbar>
-        </div>
         <div class="website-content" id="main">
           <h2 id="software-engineering-for-self-directed-learners-cs2103-t-edition-2018">Software Engineering for Self-Directed Learners <small><small><small><span class="badge badge-pill badge-success">CS2103/T edition - 2018</span></small></small></small><a class="fa fa-anchor" href="#software-engineering-for-self-directed-learners-cs2103-t-edition-2018"></a></h2>
-          <p><a href="/website/book/about/acknowledgements.html" target="_blank">Acknowledgements</a> | <a href="/website/se-book-adapted/print.html" target="_blank"><span>All chapters as one <strong>printer-friendly page</strong> (huge file!) </span></a></p>
+          <p><a href="/website/book/about/acknowledgements.html" target="_blank">Acknowledgements</a> | <a href="/website/se-book-adapted/print.html" target="_blank"><span>All chapters as one <strong>printer-friendly page</strong> (huge file!) <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></span></a></p>
           <big>
             <p><strong>Software Engineering</strong></p>
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/softwareEngineering.html">Software Engineering</a>
-              <trigger for="pop:softwareEngineering-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/softwareEngineering-printable.html"></a>
+              <trigger for="pop:softwareEngineering-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/softwareEngineering-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:softwareEngineering-preview" title="Software Engineering " placement="right">
+          <popover id="pop:softwareEngineering-preview" title="Software Engineering <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about software engineering</p>
@@ -219,10 +217,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/oop.html">Object-Oriented Programming</a>
-              <trigger for="pop:oop-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/oop-printable.html"></a>
+              <trigger for="pop:oop-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/oop-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:oop-preview" title="Object-Oriented Programming " placement="right">
+          <popover id="pop:oop-preview" title="Object-Oriented Programming <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about object oriented programming</p>
@@ -234,10 +232,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/requirements.html">Requirements</a>
-              <trigger for="pop:requirements-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/requirements-printable.html"></a>
+              <trigger for="pop:requirements-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/requirements-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:requirements-preview" title="Requirements " placement="right">
+          <popover id="pop:requirements-preview" title="Requirements <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about requirements</p>
@@ -246,10 +244,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/gatheringRequirements.html">Gathering Requirements</a>
-              <trigger for="pop:gatheringRequirements-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/gatheringRequirements-printable.html"></a>
+              <trigger for="pop:gatheringRequirements-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/gatheringRequirements-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:gatheringRequirements-preview" title="Gathering Requirements " placement="right">
+          <popover id="pop:gatheringRequirements-preview" title="Gathering Requirements <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about gathering requirements</p>
@@ -258,10 +256,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/specifyingRequirements.html">Specifying Requirements</a>
-              <trigger for="pop:specifyingRequirements-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/specifyingRequirements-printable.html"></a>
+              <trigger for="pop:specifyingRequirements-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/specifyingRequirements-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:specifyingRequirements-preview" title="Specifying Requirements " placement="right">
+          <popover id="pop:specifyingRequirements-preview" title="Specifying Requirements <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about specifying requirements</p>
@@ -273,10 +271,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/design.html">Software Design</a>
-              <trigger for="pop:design-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/design-printable.html"></a>
+              <trigger for="pop:design-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/design-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:design-preview" title="Software Design " placement="right">
+          <popover id="pop:design-preview" title="Software Design <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about software design</p>
@@ -285,10 +283,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/designFundamentals.html">Design Fundamentals</a>
-              <trigger for="pop:designFundamentals-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/designFundamentals-printable.html"></a>
+              <trigger for="pop:designFundamentals-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/designFundamentals-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:designFundamentals-preview" title="Design Fundamentals " placement="right">
+          <popover id="pop:designFundamentals-preview" title="Design Fundamentals <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about software design principles</p>
@@ -297,10 +295,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/modeling.html">Modeling</a>
-              <trigger for="pop:modeling-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/modeling-printable.html"></a>
+              <trigger for="pop:modeling-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/modeling-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:modeling-preview" title="Modeling " placement="right">
+          <popover id="pop:modeling-preview" title="Modeling <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about modeling</p>
@@ -309,10 +307,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/architecture.html">Software Architecture</a>
-              <trigger for="pop:architecture-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/architecture-printable.html"></a>
+              <trigger for="pop:architecture-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/architecture-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:architecture-preview" title="Software Architecture " placement="right">
+          <popover id="pop:architecture-preview" title="Software Architecture <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about software architecture</p>
@@ -321,10 +319,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/designPatterns.html">Software Design Patterns</a>
-              <trigger for="pop:designPatterns-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/designPatterns-printable.html"></a>
+              <trigger for="pop:designPatterns-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/designPatterns-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:designPatterns-preview" title="Software Design Patterns " placement="right">
+          <popover id="pop:designPatterns-preview" title="Software Design Patterns <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about software design patterns</p>
@@ -333,10 +331,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/designApproaches.html">Design Approaches</a>
-              <trigger for="pop:designApproaches-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/designApproaches-printable.html"></a>
+              <trigger for="pop:designApproaches-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/designApproaches-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:designApproaches-preview" title="Design Approaches " placement="right">
+          <popover id="pop:designApproaches-preview" title="Design Approaches <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about software design approaches</p>
@@ -348,10 +346,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/ides.html">IDEs</a>
-              <trigger for="pop:ides-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/ides-printable.html"></a>
+              <trigger for="pop:ides-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/ides-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:ides-preview" title="IDEs " placement="right">
+          <popover id="pop:ides-preview" title="IDEs <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about IDEs</p>
@@ -360,10 +358,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/codeQuality.html">Code Quality</a>
-              <trigger for="pop:codeQuality-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/codeQuality-printable.html"></a>
+              <trigger for="pop:codeQuality-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/codeQuality-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:codeQuality-preview" title="Code Quality " placement="right">
+          <popover id="pop:codeQuality-preview" title="Code Quality <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about writing better quality code</p>
@@ -372,10 +370,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/refactoring.html">Refactoring</a>
-              <trigger for="pop:refactoring-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/refactoring-printable.html"></a>
+              <trigger for="pop:refactoring-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/refactoring-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:refactoring-preview" title="Refactoring " placement="right">
+          <popover id="pop:refactoring-preview" title="Refactoring <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about refactoring</p>
@@ -384,10 +382,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/documentation.html">Documentation</a>
-              <trigger for="pop:documentation-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/documentation-printable.html"></a>
+              <trigger for="pop:documentation-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/documentation-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:documentation-preview" title="Documentation " placement="right">
+          <popover id="pop:documentation-preview" title="Documentation <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about documentation</p>
@@ -396,10 +394,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/errorHandling.html">Error Handling</a>
-              <trigger for="pop:errorHandling-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/errorHandling-printable.html"></a>
+              <trigger for="pop:errorHandling-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/errorHandling-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:errorHandling-preview" title="Error Handling " placement="right">
+          <popover id="pop:errorHandling-preview" title="Error Handling <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about error handling</p>
@@ -408,10 +406,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/integration.html">Integration</a>
-              <trigger for="pop:integration-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/integration-printable.html"></a>
+              <trigger for="pop:integration-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/integration-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:integration-preview" title="Integration " placement="right">
+          <popover id="pop:integration-preview" title="Integration <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about integration</p>
@@ -420,10 +418,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/reuse.html">Reuse</a>
-              <trigger for="pop:reuse-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/reuse-printable.html"></a>
+              <trigger for="pop:reuse-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/reuse-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:reuse-preview" title="Reuse " placement="right">
+          <popover id="pop:reuse-preview" title="Reuse <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about reuse</p>
@@ -435,10 +433,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/qualityAssurance.html">Quality Assurance</a>
-              <trigger for="pop:qualityAssurance-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/qualityAssurance-printable.html"></a>
+              <trigger for="pop:qualityAssurance-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/qualityAssurance-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:qualityAssurance-preview" title="Quality Assurance " placement="right">
+          <popover id="pop:qualityAssurance-preview" title="Quality Assurance <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about quality assurance</p>
@@ -447,10 +445,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/testing.html">Testing</a>
-              <trigger for="pop:testing-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/testing-printable.html"></a>
+              <trigger for="pop:testing-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/testing-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:testing-preview" title="Testing " placement="right">
+          <popover id="pop:testing-preview" title="Testing <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about testing</p>
@@ -459,10 +457,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/testCaseDesign.html">Test Case Design</a>
-              <trigger for="pop:testCaseDesign-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/testCaseDesign-printable.html"></a>
+              <trigger for="pop:testCaseDesign-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/testCaseDesign-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:testCaseDesign-preview" title="Test Case Design " placement="right">
+          <popover id="pop:testCaseDesign-preview" title="Test Case Design <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about test case design</p>
@@ -474,10 +472,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/revisionControl.html">Revision Control</a>
-              <trigger for="pop:revisionControl-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/revisionControl-printable.html"></a>
+              <trigger for="pop:revisionControl-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/revisionControl-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:revisionControl-preview" title="Revision Control " placement="right">
+          <popover id="pop:revisionControl-preview" title="Revision Control <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about revision control</p>
@@ -486,10 +484,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/projectPlanning.html">Project Planning</a>
-              <trigger for="pop:projectPlanning-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/projectPlanning-printable.html"></a>
+              <trigger for="pop:projectPlanning-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/projectPlanning-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:projectPlanning-preview" title="Project Planning " placement="right">
+          <popover id="pop:projectPlanning-preview" title="Project Planning <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about project planning</p>
@@ -498,10 +496,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/teamwork.html">Teamwork</a>
-              <trigger for="pop:teamwork-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/teamwork-printable.html"></a>
+              <trigger for="pop:teamwork-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/teamwork-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:teamwork-preview" title="Teamwork " placement="right">
+          <popover id="pop:teamwork-preview" title="Teamwork <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about teamwork</p>
@@ -510,10 +508,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/processModels.html">SDLC Process Models</a>
-              <trigger for="pop:processModels-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/processModels-printable.html"></a>
+              <trigger for="pop:processModels-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/processModels-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:processModels-preview" title="SDLC Process Models " placement="right">
+          <popover id="pop:processModels-preview" title="SDLC Process Models <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about SDLC process models</p>
@@ -525,10 +523,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/principles.html">Principles</a>
-              <trigger for="pop:principles-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/principles-printable.html"></a>
+              <trigger for="pop:principles-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/principles-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:principles-preview" title="Principles " placement="right">
+          <popover id="pop:principles-preview" title="Principles <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about principles</p>
@@ -540,10 +538,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/uml.html">UML</a>
-              <trigger for="pop:uml-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/uml-printable.html"></a>
+              <trigger for="pop:uml-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/uml-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:uml-preview" title="UML " placement="right">
+          <popover id="pop:uml-preview" title="UML <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about UML</p>
@@ -552,10 +550,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/intellij.html">Intellij IDEA</a>
-              <trigger for="pop:intellij-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/intellij-printable.html"></a>
+              <trigger for="pop:intellij-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/intellij-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:intellij-preview" title="Intellij IDEA " placement="right">
+          <popover id="pop:intellij-preview" title="Intellij IDEA <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about Intellij IDEA</p>
@@ -564,10 +562,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/gitAndGithub.html">Git and Github</a>
-              <trigger for="pop:gitAndGithub-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/gitAndGithub-printable.html"></a>
+              <trigger for="pop:gitAndGithub-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/gitAndGithub-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:gitAndGithub-preview" title="Git and Github " placement="right">
+          <popover id="pop:gitAndGithub-preview" title="Git and Github <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about Git and Github</p>
@@ -576,10 +574,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/javaTools.html">Java</a>
-              <trigger for="pop:javaTools-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/javaTools-printable.html"></a>
+              <trigger for="pop:javaTools-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/javaTools-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:javaTools-preview" title="Java " placement="right">
+          <popover id="pop:javaTools-preview" title="Java <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about Java</p>
@@ -588,10 +586,10 @@
           </popover>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/junit.html">JUnit</a>
-              <trigger for="pop:junit-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/junit-printable.html"></a>
+              <trigger for="pop:junit-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/junit-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:junit-preview" title="JUnit " placement="right">
+          <popover id="pop:junit-preview" title="JUnit <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>All about JUnit</p>
@@ -603,10 +601,10 @@
           </big>
           <ul>
             <li><a href="/website/se-book-adapted/chapters/cppToJava.html">C++ to Java</a>
-              <trigger for="pop:cppToJava-preview"></trigger> <a href="/website/se-book-adapted/chapters-printable/cppToJava-printable.html"></a>
+              <trigger for="pop:cppToJava-preview"><span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></trigger> <a href="/website/se-book-adapted/chapters-printable/cppToJava-printable.html"><span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a>
             </li>
           </ul>
-          <popover id="pop:cppToJava-preview" title="C++ to Java " placement="right">
+          <popover id="pop:cppToJava-preview" title="C++ to Java <md>:glyphicon-eye-open:</md>" placement="right">
             <div slot="content">
               <div>
                 <p>A crash course for C++ programmers to transition to Java</p>
@@ -622,7 +620,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Sun, 23 Jun 2019 11:41:44 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Mon, 24 Jun 2019 07:13:05 GMT</small></div>
     </footer>
   </div>
 </body>

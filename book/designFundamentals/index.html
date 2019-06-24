@@ -50,7 +50,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain abstraction</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain abstraction</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -63,20 +63,20 @@
                               <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
                               <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
                               <tip-box>
-                                <p>Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
                               </tip-box>
                               <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
                               <tip-box>
-                                <p><code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
                               </tip-box>
                               <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
                               <tip-box>
-                                <p>An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
-                                <p>An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
                               </tip-box>
                               <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                               <box>
-                                <p>Some more general examples of abstraction:</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
                                 <ul>
                                   <li>An OOP <em>class</em> is an abstraction over related data and behaviors.</li>
                                   <li>An <em>architecture</em> is a higher-level abstraction of the design of a software.</li>
@@ -107,7 +107,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain coupling</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain coupling</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -119,16 +119,16 @@
                                 <li><strong>Testing and reuse of the module is harder</strong> due to its dependence on other modules.</li>
                               </ul>
                               <tip-box>
-                                <p>In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, design <code>A</code> appears to have a more coupling between the components than design <code>B</code>.</p>
                                 <img src="/website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220">
                                 <p></p>
                               </tip-box>
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Coupling levels of alternative designs">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling levels of alternative designs">
                                       <question has-input="true">
                                         <p>Discuss the coupling levels of alternative designs <em>x</em> and <em>y</em>.</p>
                                         <tip-box>
@@ -142,7 +142,7 @@
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" regressions and coupling.">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: regressions and coupling.">
                                       <question has-input="true">
                                         <p>Explain the link (if any) between regressions and coupling.</p>
                                         <div slot="answer">
@@ -152,7 +152,7 @@
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Coupling and testability">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Coupling and testability">
                                       <question has-input="true">
                                         <p>Discuss the relationship between coupling and <tooltip content="a measure of how easily a given component can be tested">testability</tooltip>.</p>
                                         <div slot="answer">
@@ -162,7 +162,7 @@
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" Statements about coupling">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about coupling">
                                       <question>
                                         <p>Choose the correct statements.</p>
                                         <ul class="task-list">
@@ -193,14 +193,14 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can reduce coupling</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can reduce coupling</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
                             <div>
                               <p><strong>X is <em>coupled</em> to Y if a change to Y can <mark>potentially</mark> require a change in X</strong>.</p>
                               <tip-box>
-                                <p>If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed"> e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed"> e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
                                 <panel type="seamless" header="%%code for the above example%%">
                                   <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     ...
@@ -221,7 +221,7 @@
                                 </panel>
                               </tip-box>
                               <tip-box>
-                                <p>Some examples of coupling: <code>A</code> is coupled to <code>B</code> if,</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of coupling: <code>A</code> is coupled to <code>B</code> if,</p>
                                 <ul>
                                   <li><code>A</code> has access to the internal structure of <code>B</code> (this results in a very high level of coupling)</li>
                                   <li><code>A</code> and <code>B</code> depend on the same global variable</li>
@@ -234,9 +234,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Which indicate coupling?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which indicate coupling?">
                                       <question>
                                         <p>Which of these indicate a coupling between components A and B?</p>
                                         <ul class="task-list">
@@ -268,7 +268,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can identify types of coupling</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can identify types of coupling</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -307,7 +307,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain cohesion</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain cohesion</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -332,7 +332,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can increase cohesion</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can increase cohesion</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -344,14 +344,14 @@
                                 <li>Code that manipulates the same data structure is kept together, e.g. the <code>GameArchive</code> component handles everything related to the storage and retrieval of game sessions.</li>
                               </ul>
                               <tip-box>
-                                <p>Suppose a Payroll application contains a class that deals with writing data to the database. If the class include some code to show an error dialog to the user if the database is unreachable, that class is not cohesive because it seems to be interacting with the user as well as the database.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a Payroll application contains a class that deals with writing data to the database. If the class include some code to show an error dialog to the user if the database is unreachable, that class is not cohesive because it seems to be interacting with the user as well as the database.</p>
                               </tip-box>
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" Which class is more cohesive?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which class is more cohesive?">
                                       <question has-input="true">
                                         <p>Compare the cohesion of the following two versions of the <code>EmailMessage</code> class. Which one is more cohesive and why?</p>
                                         <pre><code class="hljs java"><span class="hljs-comment">// version-1</span>

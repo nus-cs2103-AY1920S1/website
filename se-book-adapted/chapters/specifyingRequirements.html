@@ -33,11 +33,58 @@
 
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
+    <header>
+      <navbar placement="top" type="dark">
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
+        <dropdown text="Schedule" class="nav-link">
+          <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
+          <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
+          <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
+          <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
+          <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
+          <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
+          <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
+          <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
+          <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
+        </dropdown>
+        <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
+        <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
+        <dropdown text="Links" class="nav-link">
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
+          <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project Info</span></a></li>
+          <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+          <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> File Submissions</span></a></li>
+          <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
+          <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team IDs</span></a></li>
+          <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> samplerepo-things</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level1</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level2</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
+          <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level4</span></a></li>
+          <li><a href="/website/admin/projectList.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span> Projects List</span></a></li>
+          <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-th-list"></span></span> config.json templates for Reposense</a></li>
+          <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> Project Code Dashboard (BETA)</span></a></li>
+        </dropdown>
+        <li slot="right" class="nav-link">
+          <form class="navbar-form">
+            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+          </form>
+        </li>
+      </navbar>
+    </header>
     <div id="flex-body">
       <nav id="site-nav" class="navbar navbar-light bg-transparent">
         <div class="border-right-grey nav-inner position-sticky slim-scroll">
           <ul class="px-0 site-nav-list">
-            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a">Home , printable versions </a></li>
+            <li class="mt-2"><a href="/website/se-book-adapted/index.html" class="site-nav__a">Home <span aria-hidden="true" class="glyphicon glyphicon-home"></span>, printable versions <span><span aria-hidden="true" class="glyphicon glyphicon-print"></span></span></a></li>
             <li class="mt-2"><button class="dropdown-btn"><strong>Software Engineering</strong>
                 <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
@@ -158,55 +205,6 @@
       <div id="content-wrapper">
         <link rel="stylesheet" href="/website/book/css/textbook.css">
         <div class="website-content">
-          <div>
-            <navbar placement="top" type="inverse" class="temp-navbar">
-              <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Jan '19</small></a>
-              <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-              <dropdown text="Schedule" class="nav-link temp-dropdown">
-                <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
-                <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] </span></a></li>
-                <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
-                <li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Feb 4] </span></a></li>
-                <li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Feb 11] </span></a></li>
-                <li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Feb 18] </span></a></li>
-                <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Mar 4] </span></a></li>
-                <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Mar 11] </span></a></li>
-                <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Mar 18] </span></a></li>
-                <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Mar 25] </span></a></li>
-                <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Apr 1] </span></a></li>
-                <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Apr 8] </span></a></li>
-                <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Apr 12] </span></a></li>
-              </dropdown>
-              <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-              <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-              <div class="nav-link temp-dropdown-placeholder">Links</div>
-              <dropdown text="Links" class="nav-link temp-dropdown">
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Report Bugs</a></li>
-                <li><a href="https://nus-cs2103-ay1819s2.slack.com" target="_blank" class="dropdown-item"> Slack</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/forum/issues" target="_blank" class="dropdown-item"> Forum</a></li>
-                <li><a href="/website/admin/project-overview.html" class="dropdown-item"> Project Info</a></li>
-                <li><a href="/website/admin/instructors.html" class="dropdown-item"> Instructors</a></li>
-                <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19" target="_blank" class="dropdown-item"> Announcements</a></li>
-                <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=5937af8e-eedf-4bb1-9f28-d6e021b98a19&WorkbinID=21c0ae7f-fb5e-4661-9848-95f6895614cf&FolderID=64931a8a-a309-40c6-a9eb-1182275847db" target="_blank" class="dropdown-item"> File Submissions</a></li>
-                <li><a href="/website/admin/tutorials.html" target="_blank" class="dropdown-item"> Tutorial Schedule</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRdSGHg7CbuEJBQOAzjgqLtDVyYBuvuNtrWBfZxqlO_r9YFjAdgf46ogN20xYTonsVHvH83yj5Nyy5/pubhtml?gid=0&single=true" target="_blank" class="dropdown-item"> Team IDs</a></li>
-                <li><a href="/website/coding-standards/java/intermediate.html" target="_blank" class="dropdown-item"> Java Coding Standard</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/samplerepo-things" target="_blank" class="dropdown-item"> samplerepo-things</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level1" target="_blank" class="dropdown-item"> Addressbook-level1</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level2" target="_blank" class="dropdown-item"> Addressbook-level2</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level3" target="_blank" class="dropdown-item"> Addressbook-level3</a></li>
-                <li><a href="https://github.com/nus-cs2103-AY1819S2/addressbook-level4" target="_blank" class="dropdown-item"> Addressbook-level4</a></li>
-                <li><a href="/website/admin/projectList.html" class="dropdown-item"> Projects List</a></li>
-                <li><a href="/website/admin/reposenseConfigTemplates.html" class="dropdown-item"> config.json templates for Reposense</a></li>
-                <li><a href="https://nus-cs2103-ay1819s2.github.io/cs2103-dashboard" target="_blank" class="dropdown-item"> Project Code Dashboard (BETA)</a></li>
-              </dropdown>
-              <li slot="right" class="nav-link">
-                <form class="navbar-form">
-                  <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
-                </form>
-              </li>
-            </navbar>
-          </div>
           <p><span class="dimmed"><strong><span></span></strong></span></p>
           <div id="title">
             <div>
@@ -223,20 +221,20 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain prose</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain prose</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>A textual description (i.e. <em>prose</em>) can be used to describe requirements.</strong> Prose is especially useful when describing abstract ideas such as the vision of a product.</p>
                   <tip-box>
-                    <p>The product vision of the <a href="https://github.com/TEAMMATES/teammates">TEAMMATES Project</a> given below is described using prose.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The product vision of the <a href="https://github.com/TEAMMATES/teammates">TEAMMATES Project</a> given below is described using prose.</p>
                     <blockquote>
                       <p>TEAMMATES aims to become <strong>the biggest student project in the world</strong> (<em>biggest</em> here refers to 'many contributors, many users, large code base, evolving over a long period'). Furthermore, it aims to serve as a training tool for Software Engineering students who want to learn SE skills in the context of <strong>a non-trivial real software product</strong>.</p>
                     </blockquote>
                   </tip-box>
                   <p>
-                    <font color="red"><big></big></font> Avoid using lengthy prose to describe requirements; they can be hard to follow.
+                    <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Avoid using lengthy prose to describe requirements; they can be hard to follow.
                   </p>
                 </div>
                 <div></div>
@@ -253,9 +251,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain feature list</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain feature list</span></span></span></span>
                 <p></p>
                 <div>
                   <tip-box type="definition">
@@ -264,7 +262,7 @@
                     </div>
                   </tip-box>
                   <tip-box>
-                    <p>A sample feature list from a simple Minesweeper game <span class="dimmed"> (only a brief description has been provided to save space)</span>:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A sample feature list from a simple Minesweeper game <span class="dimmed"> (only a brief description has been provided to save space)</span>:</p>
                     <ol>
                       <li>Basic play – Single player play.</li>
                       <li>Difficulty levels
@@ -293,9 +291,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can write simple user stories</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can write simple user stories</span></span></span></span>
                 <p></p>
                 <div>
                   <tip-box type="definition">
@@ -310,7 +308,7 @@
                     </div>
                   </tip-box>
                   <tip-box>
-                    <p>Examples (from a <em>Learning Management System</em>):</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples (from a <em>Learning Management System</em>):</p>
                     <ol>
                       <li><span class="dimmed">As a</span> student, <span class="dimmed">I can</span> download files uploaded by lecturers, <span class="dimmed">so that</span> I can get my own copy of the files</li>
                       <li><span class="dimmed">As a</span> lecturer, <span class="dimmed">I can</span> create discussion forums, <span class="dimmed">so that</span> students can discuss things online</li>
@@ -336,7 +334,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
                         <panel header="Q: Which of these are true about user stories?">
                           <question>
@@ -398,9 +396,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can write more detailed user stories</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can write more detailed user stories</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>The <code>{benefit}</code> can be omitted</strong> if it is obvious.</p>
@@ -447,7 +445,7 @@
                   </ul>
                   <span class="non-printable">
                     <panel minimized>
-                      <span slot="header" class="card-title"> More examples <span class="badge badge-pill badge-secondary">tangential</span></span>
+                      <span slot="header" class="card-title"><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples <span class="badge badge-pill badge-secondary">tangential</span></span>
                       <p>User stories for a travel website (credit: Mike Cohen)</p>
                       <tip-box>
                         <ul>
@@ -475,9 +473,9 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" Correct statements about user stories">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Correct statements about user stories">
                           <question>
                             <p>Choose the correct statements</p>
                             <ul class="task-list">
@@ -507,9 +505,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can use user stories to manage requirements of project</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use user stories to manage requirements of project</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>User stories capture user requirements in a way that is convenient for <popover content="i.e. which features to include in the product">scoping</popover>, <popover content="i.e. how much effort each feature will take">estimation</popover> and <popover content="i.e. when to deliver each feature">scheduling</popover>.</strong></p>
@@ -518,7 +516,7 @@
                   </blockquote>
                   <p><strong>User stories differ from <popover content="e.g. a description of the requirements written in prose">traditional requirements specifications</popover> mainly in the level of detail.</strong> User stories should only provide enough details to make a reasonably low risk estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. <span class="dimmed">[<trigger for="modal:xp-user-stories" trigger="click">more...</trigger>]</span></p>
                   <p><strong>User stories can capture <trigger trigger="click" for="modal:userStoriesUsage-nfr">non-functional requirements</trigger> too</strong> because even NFRs must benefit some stakeholder.</p>
-                  <modal large title="Textbook " id="modal:userStoriesUsage-nfr">
+                  <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:userStoriesUsage-nfr">
                       <div>
                       <div></div>
                       <p></p>
@@ -536,13 +534,13 @@
                               <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
                             </ol>
                             <tip-box>
-                              <p>Some examples of non-functional requirement categories:</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of non-functional requirement categories:</p>
                               <ul>
                                 <li>Data requirements e.g. size, <tooltip content="how often do data change">volatility</tooltip>, <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
                                 <li>Environment requirements e.g. technical environment in which system would operate or need to be compatible with.</li>
                                 <li>Accessibility, Capacity, Compliance with regulations, Documentation, Disaster recovery, Efficiency, Extensibility, Fault tolerance, Interoperability, Maintainability, Privacy, Portability, Quality, Reliability, Response time, Robustness, Scalability, Security, Stability, Testability, and more ...</li>
                               </ul>
-                              <panel type="seamless" header=" Some concrete examples of NFRs" expanded>
+                              <panel type="seamless" header="<md>:fas-cube:</md> Some concrete examples of NFRs" expanded>
                                 <ul>
                                   <li>Business/domain rules: e.g. the size of the minefield cannot be smaller than five.</li>
                                   <li>Constraints: e.g. the system should be backward compatible with data produced by earlier versions of the system; system testers are available only during the last month of the project; the total project cost should not exceed $1.5 million.</li>
@@ -564,9 +562,9 @@
                           </div>
                           <div>
                             <div>
-                              <panel header=" Exercises" expandable>
+                              <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                 <div>
-                                  <panel header=" TEAMMATES NFRs">
+                                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: TEAMMATES NFRs">
                                     <question>
                                       <p>Given below are some requirements of TEAMMATES (an online peer evaluation system for education). Which one of these are non-functional requirements?</p>
                                       <ul class="task-list">
@@ -593,7 +591,7 @@
                     </div>
                   </modal>
                   <tip-box>
-                    <p>An example of a NFR captured as a user story:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of a NFR captured as a user story:</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
                         <thead>
@@ -641,11 +639,11 @@
                         <tabs>
                             <tab header="GitHub Project Boards">
                             <p>You can create issues for each of the user stories and use a GitHub <em>Project Board</em> to sort them into categories.</p>
-                            <p>Example Project Board:</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example Project Board:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInGitHubProjectBoards.png" width="800"></p>
                             <p></p>
                             <p></p>
-                            <p>Example Issue to represent a user story:</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example Issue to represent a user story:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoryAsGitHubIssue.png" width="800"></p>
                             <p></p>
                             <p></p>
@@ -656,7 +654,7 @@
                             </p>
                           </tab>
                             <tab header="Google Sheets">
-                            <p>Example Google Sheet for recording user stories:</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example Google Sheet for recording user stories:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInGoogleSheets.png" width="800"></p>
                             <p></p>
                             <p></p>
@@ -665,7 +663,7 @@
                             </p>
                           </tab> 
                           <tab header="Trello">
-                            <p>Example <a href="https://trello.com">Trello</a> Board for recording user stories:</p>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example <a href="https://trello.com">Trello</a> Board for recording user stories:</p>
                             <p><img src="/website/book/specifyingRequirements/userStories/usage/images/userStoriesInTrello.png" width="800"></p>
                             <p></p>
                             <p></p>
@@ -694,7 +692,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Resources" expanded>
+                    <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                       <ul>
                         <li><a href="https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories">This article by Mike Cohn</a> from MountainGoatSoftware explains how to use user stories to capture NFRs.</li>
                       </ul>
@@ -714,15 +712,15 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain use cases</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain use cases</span></span></span></span>
                 <p></p>
                 <div>
                   <tip-box type="definition">
                     <div>
                       <p><strong>Use Case</strong>: A description of a set of sequences of actions, including variants, that a system performs to yield an observable result of value to an <trigger for="pop:actor">actor</trigger>.[ 📖 : <popover effect="fade" placement="top">uml-user-guide<span slot="content"><span><em><strong>The Unified Modeling Language User Guide</strong></em>, 2e, G Booch, J Rumbaugh, and I Jacobson </span></span></popover>]</p>
-                      <popover id="pop:actor" title placement="top">
+                      <popover id="pop:actor" title="<md>:glyphicon-eye-open:</md>" placement="top">
                         <div slot="content">
                           <div>
                             <p><strong>Actor</strong>: An actor (in a use case) is a role played by a user. An actor can be a human or another system. Actors are not part of the system; they reside outside the system.</p>
@@ -733,7 +731,7 @@
                   </tip-box>
                   <p><strong>A use case describes an <em>interaction between the user and the system</em> for a <em>specific functionality</em> of the system.</strong></p>
                   <tip-box>
-                    <panel header=" Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
+                    <panel header="<md>:fas-cube:</md> Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
                       <ul>
                         <li>System: <popover effect="fade" placement="right" content="Automated Teller Machine">
                             ATM </popover>
@@ -752,7 +750,7 @@
                         </li>
                       </ul>
                     </panel>
-                    <panel header="%% Example 2: 'upload file' use case of an LMS%%" type="seamless">
+                    <panel header="%%<md>:fas-cube:</md> Example 2: 'upload file' use case of an LMS%%" type="seamless">
                       <ul>
                         <li>System: A Learning Management System (LMS)</li>
                         <li>Actor: Student</li>
@@ -788,9 +786,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can use use cases to list functional requirements of a simple system</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use use cases to list functional requirements of a simple system</span></span></span></span>
                 <p></p>
                 <div>
                   <p>A use case is an interaction between a system and its <em>actors</em>.</p>
@@ -801,7 +799,7 @@
                     </div>
                   </tip-box>
                   <tip-box>
-                    <p>Some example actors for a Learning Management System</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example actors for a Learning Management System</p>
                     <ul>
                       <li>Actors: Guest, Student, Staff, Admin, <tooltip content="an exam management system">ExamSys</tooltip>, <tooltip content="a library management system">LibSys</tooltip>.</li>
                     </ul>
@@ -841,7 +839,7 @@
 
                   <p><strong>Use cases can be specified at <em>various levels of detail</em>.</strong></p>
                   <tip-box>
-                    <p>Consider the three use cases given below. Clearly, (a) is at a higher level than (b) and (b) is at a higher level than (c).</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the three use cases given below. Clearly, (a) is at a higher level than (b) and (b) is at a higher level than (c).</p>
                     <ul>
                       <li>System: LearnSys</li>
                       <li>Use cases:<br>
@@ -858,7 +856,7 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
                         <panel header="Q: Use case diagram for a ticket vending machine">
                           <question has-input="false">
@@ -901,9 +899,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can specify details of a use case in a structured format</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can specify details of a use case in a structured format</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>Writing use case steps</strong></p>
@@ -911,7 +909,7 @@
                     <link rel="stylesheet" href="/website/book/css/common.css">
                     <p><strong>The main body of the use case is the sequence of steps that describes the interaction between the system and the actors.</strong> Each step is given as a simple statement describing <em>who does what</em>.</p>
                     <tip-box>
-                      <p>An example of the main body of a use case.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of the main body of a use case.</p>
                       <ol>
                         <li>Student requests to upload file</li>
                         <li>LMS requests for the file location</li>
@@ -921,26 +919,26 @@
                     </tip-box>
                     <p><strong>A use case describes only the externally visible behavior, not internal details, of a system</strong> i.e. should not mention give details that are not part of the interaction between the user and the system.</p>
                     <tip-box>
-                      <p>This example use case step refers to behaviors not externally visible .</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example use case step refers to behaviors not externally visible .</p>
                       <ol>
                         <li>LMS <mark>saves the file into the cache</mark> and indicates success.</li>
                       </ol>
                     </tip-box>
                     <p><strong>A step gives the intention of the actor (not the mechanics).</strong> That means UI details are usually omitted. The idea is to leave as much flexibility to the UI designer as possible. That is, the use case specification should be as general as possible (less specific) about the UI.</p>
                     <box>
-                      <p>The first example below is not a good use case step because contains UI-specific details. The second one is better because it omits UI-specific details.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The first example below is not a good use case step because contains UI-specific details. The second one is better because it omits UI-specific details.</p>
                       <div class="indented">
                         <p>
-                          <font color="red"><span>** Bad**</span></font> : User right-clicks the text box and chooses ‘clear’
+                          <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> : User right-clicks the text box and chooses ‘clear’
                         </p>
                         <p>
-                          <font color="green"><span>** Good**</span></font> : User clears the input
+                          <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> : User clears the input
                         </p>
                       </div>
                     </box>
                     <p>A use case description can show loops too.</p>
                     <tip-box>
-                      <p>An example of how you can show a loop:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of how you can show a loop:</p>
                       <p>Software System: Square game
                         Use case: <popover content="Each use case can be given a unique identification for easier cross reference."> UC02 </popover> - Play a Game
                         Actors: Player (multiple players)</p>
@@ -985,7 +983,7 @@
                   <div>
                     <p><strong><mark><em>Extensions</em></mark> are &quot;add-on&quot;s to the MSS that describe <em>exceptional/alternative flow of events</em>.</strong> They describe variations of the scenario that can happen if certain things are not as expected by the MSS. Extensions appear below the MSS.</p>
                     <tip-box>
-                      <p>This example adds some extensions to the use case in the previous example.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example adds some extensions to the use case in the previous example.</p>
                       <ul>
                         <li>System: Online Banking System (OBS)</li>
                         <li>Use case: UC23 - Transfer Money</li>
@@ -1050,7 +1048,7 @@
                     <link rel="stylesheet" href="/website/book/css/common.css">
                     <p><strong>A use case can <mark>include</mark> another use case.</strong> <ins>Underlined text</ins> is commonly used to show an inclusion of a use case.</p>
                     <box>
-                      <p>This use case includes two other use cases, one in step 1 and one in step 2.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This use case includes two other use cases, one in step 1 and one in step 2.</p>
                       <div class="text-monospace">
                         <ul>
                           <li><strong>Software System</strong>: LearnSys</li>
@@ -1129,10 +1127,10 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
                         <link rel="stylesheet" href="/website/book/css/common.css">
-                        <panel header=" EZ-Link top-up use case">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: EZ-Link top-up use case">
                           <question has-input="true">
                             <p>Complete the following use case (MSS, extensions, etc.). Note that you should not blindly follow how the existing <tooltip content="A type of a cash card topup machine">EZ-Link machine</tooltip> operates because it will prevent you from designing a better system. You should consider all possible extensions without complicating the use case too much.</p>
                             <tip-box>
@@ -1237,7 +1235,7 @@
                       </div>
                       <div>
                         <link rel="stylesheet" href="/website/book/css/common.css">
-                        <panel header=" LearnSys – reply to post use case">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LearnSys – reply to post use case">
                           <question has-input="true">
                             <p>Complete the following use case (MSS, extensions, etc.).</p>
                             <tip-box>
@@ -1320,7 +1318,7 @@
                         </panel>
                       </div>
                       <div>
-                        <panel header=" Parts of a use case descriptions">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Parts of a use case descriptions">
                           <question>
                             <p>Which of these cannot appear as part of a use case description?</p>
                             <ul class="task-list">
@@ -1342,7 +1340,7 @@
                       </div>
                       <div>
                         <link rel="stylesheet" href="/website/book/css/common.css">
-                        <panel header=" What’s wrong with this use case?">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What’s wrong with this use case?">
                           <question>
                             <p>Identify problems with this use case description.</p>
                             <div>
@@ -1402,20 +1400,20 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can optimize the use of use cases</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can optimize the use of use cases</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>You can use actor generalization in use case diagrams</strong> using a symbol similar to that of UML notation for inheritance.</p>
                   <tip-box>
-                    <p>In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
                     <img src="/website/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png" height="250">
                   </tip-box>
                   <p>💡 Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
                   <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
                   <tip-box>
-                    <p>The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
                     <img src="/website/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200">
                   </tip-box>
                   <p>However, others argue that only use cases providing value to an external user/system should be shown in the use case diagram. For example, they argue that ‘view daily report’ should be the use case and <code>generate daily report</code> is not to be shown in the use case diagram because it is simply something the system has to do to support the <code>view daily report</code> use case.</p>
@@ -1433,9 +1431,9 @@
                 </div>
                 <div>
                   <div>
-                    <panel header=" Exercises" expandable>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                       <div>
-                        <panel header=" Advantages of use cases">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Advantages of use cases">
                           <question>
                             <p>What are the advantages of using use cases (the textual form) for requirements modelling?</p>
                             <ul class="task-list">
@@ -1451,7 +1449,7 @@
                         </panel>
                       </div>
                       <div>
-                        <panel header=" Statements about use cases">
+                        <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about use cases">
                           <question>
                             <p>Which of these are correct?</p>
                             <ul class="task-list">
@@ -1483,9 +1481,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain glossary</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain glossary</span></span></span></span>
                 <p></p>
                 <div>
                   <tip-box type="definition">
@@ -1494,7 +1492,7 @@
                     </div>
                   </tip-box>
                   <tip-box>
-                    <p>Here is a partial glossary from a variant of the <em>Snakes and Ladders</em> game:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is a partial glossary from a variant of the <em>Snakes and Ladders</em> game:</p>
                     <ul>
                       <li>Conditional square: A square that specifies a specific face value which a player has to throw before his/her piece can leave the square.</li>
                       <li>Normal square: a normal square does not have any conditions, snakes, or ladders in it.</li>
@@ -1515,9 +1513,9 @@
               <div class="indented">
                 <span class="badge badge-light">
                   <span><span class="dimmed">
-                      <font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </span></span></span>
-                <span class="badge badge-light"><span><span class="dimmed"><span> Can explain supplementary requirements</span></span></span></span>
+                <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain supplementary requirements</span></span></span></span>
                 <p></p>
                 <div>
                   <p><strong>A <em>supplementary requirements</em> section can be used to capture <em>requirements that do not fit elsewhere</em></strong>. Typically, this is where most <trigger trigger="click" for="modal:supplementary-nfr">Non Functional Requirements</trigger> will be listed.</p>
@@ -1539,13 +1537,13 @@
                               <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
                             </ol>
                             <tip-box>
-                              <p>Some examples of non-functional requirement categories:</p>
+                              <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of non-functional requirement categories:</p>
                               <ul>
                                 <li>Data requirements e.g. size, <tooltip content="how often do data change">volatility</tooltip>, <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
                                 <li>Environment requirements e.g. technical environment in which system would operate or need to be compatible with.</li>
                                 <li>Accessibility, Capacity, Compliance with regulations, Documentation, Disaster recovery, Efficiency, Extensibility, Fault tolerance, Interoperability, Maintainability, Privacy, Portability, Quality, Reliability, Response time, Robustness, Scalability, Security, Stability, Testability, and more ...</li>
                               </ul>
-                              <panel type="seamless" header=" Some concrete examples of NFRs" expanded>
+                              <panel type="seamless" header="<md>:fas-cube:</md> Some concrete examples of NFRs" expanded>
                                 <ul>
                                   <li>Business/domain rules: e.g. the size of the minefield cannot be smaller than five.</li>
                                   <li>Constraints: e.g. the system should be backward compatible with data produced by earlier versions of the system; system testers are available only during the last month of the project; the total project cost should not exceed $1.5 million.</li>
@@ -1567,9 +1565,9 @@
                           </div>
                           <div>
                             <div>
-                              <panel header=" Exercises" expandable>
+                              <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                 <div>
-                                  <panel header=" TEAMMATES NFRs">
+                                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: TEAMMATES NFRs">
                                     <question>
                                       <p>Given below are some requirements of TEAMMATES (an online peer evaluation system for education). Which one of these are non-functional requirements?</p>
                                       <ul class="task-list">
@@ -1633,7 +1631,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Sun, 23 Jun 2019 11:41:44 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Mon, 24 Jun 2019 07:13:05 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -50,7 +50,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the importance of code quality</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the importance of code quality</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -61,7 +61,7 @@
                               <p><strong>
                                   <trigger for="pop:production-code">Production code</trigger> needs to be of high quality
                                 </strong>. Given how the world is becoming increasingly dependent of software, poor quality code is something we cannot afford to tolerate.</p>
-                              <popover id="pop:production-code" title=" Production Code" placement="top">
+                              <popover id="pop:production-code" title="<md>:glyphicon-eye-open:</md> Production Code" placement="top">
                                 <div slot="content">
                                   Code being used in an actual product with actual users
                                 </div>
@@ -90,7 +90,7 @@
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the importance of readability</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the importance of readability</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -100,14 +100,14 @@
                               </blockquote>
                               <p><strong>Among various dimensions of code quality, such as run-time efficiency, security, and robustness, one of the most important is understandability.</strong> This is because in any non-trivial software project, code needs to be read, understood, and modified by other developers later on. Even if we do not intend to pass the code to someone else, code quality is still important because we all become 'strangers' to our own code someday.</p>
                               <tip-box>
-                                <p>The two code samples given below achieve the same functionality, but one is easier to read.</p>
+                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The two code samples given below achieve the same functionality, but one is easier to read.</p>
                                 <div class="alt-java">
                                   <div>
                                     <table>
                                       <tr>
                                           <td>
                                           <p>
-                                            <font color="red"><span>** Bad**</span></font>
+                                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                           </p>
                                           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">subsidy</span><span class="hljs-params">()</span> </span>{
     <span class="hljs-keyword">int</span> subsidy;
@@ -132,7 +132,7 @@
                                           <td>  <br><br></td>
                                           <td valign="top">
                                           <p>
-                                            <font color="green"><span>** Good**</span></font>
+                                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                           </p>
                                           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">calculateSubsidy</span><span class="hljs-params">()</span> </span>{
     <span class="hljs-keyword">int</span> subsidy;
@@ -160,7 +160,7 @@
                                       <tr>
                                           <td>
                                           <p>
-                                            <font color="red"><span>** Bad**</span></font>
+                                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                           </p>
                                           <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">calculate_subs</span><span class="hljs-params">()</span>:</span>
     <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> age:
@@ -180,7 +180,7 @@
                                           <td>  <br><br></td>
                                           <td valign="top">
                                           <p>
-                                            <font color="green"><span>** Good**</span></font>
+                                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                           </p>
                                           <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">calculate_subsidy</span><span class="hljs-params">()</span>:</span>
     <span class="hljs-keyword">if</span> is_senior:
@@ -220,7 +220,7 @@
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid long methods </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid long methods </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -239,7 +239,7 @@
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid deep nesting </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid deep nesting </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -251,14 +251,14 @@
                                     <img src="/website/book/codeQuality/maximiseReadability/basic/avoidDeepNesting/images/arrowheadStyle.png" width="500">
                                     <p></p>
                                     <box>
-                                      <p>A real code example:</p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A real code example:</p>
                                       <div class="alt-java">
                                         <div>
                                           <table>
                                             <tr>
                                                 <td>
                                                 <p>
-                                                  <font color="red"><span>** Bad**</span></font>
+                                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">subsidy</span><span class="hljs-params">()</span> </span>{
     <span class="hljs-keyword">int</span> subsidy;
@@ -283,7 +283,7 @@
                                                 <td>  <br><br></td>
                                                 <td valign="top">
                                                 <p>
-                                                  <font color="green"><span>** Good**</span></font>
+                                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">calculateSubsidy</span><span class="hljs-params">()</span> </span>{
     <span class="hljs-keyword">int</span> subsidy;
@@ -311,7 +311,7 @@
                                             <tr>
                                                 <td>
                                                 <p>
-                                                  <font color="red"><span>** Bad**</span></font>
+                                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">calculate_subs</span><span class="hljs-params">()</span>:</span>
     <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> age:
@@ -331,7 +331,7 @@
                                                 <td>  <br><br></td>
                                                 <td valign="top">
                                                 <p>
-                                                  <font color="green"><span>** Good**</span></font>
+                                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">calculate_subsidy</span><span class="hljs-params">()</span>:</span>
     <span class="hljs-keyword">if</span> is_senior:
@@ -363,7 +363,7 @@
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid complicated expressions </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid complicated expressions </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -372,14 +372,14 @@
                                     <div class="alt-java">
                                       <div>
                                         <tip-box>
-                                          <p>Example:</p>
+                                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                           <p>
-                                            <font color="red"><span>** Bad**</span></font>
+                                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                           </p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">return</span> ((length &lt; MAX_LENGTH) || (previousSize != length)) &amp;&amp; (typeCode == URGENT);
 </code></pre>
                                           <p>
-                                            <font color="green"><span>** Good**</span></font>
+                                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                           </p>
                                           <pre><code class="hljs java">
 <span class="hljs-keyword">boolean</span> isWithinSizeLimit = length &lt; MAX_LENGTH;
@@ -396,14 +396,14 @@
                                     <div class="alt-python">
                                       <div>
                                         <tip-box>
-                                          <p>Example:</p>
+                                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                           <p>
-                                            <font color="red"><span>** Bad**</span></font>
+                                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                           </p>
                                           <pre><code class="hljs python"><span class="hljs-keyword">return</span> ((length &lt; MAX_LENGTH) <span class="hljs-keyword">or</span> (previous_size != length)) <span class="hljs-keyword">and</span> (type_code == URGENT)
 </code></pre>
                                           <p>
-                                            <font color="green"><span>** Good**</span></font>
+                                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                           </p>
                                           <pre><code class="hljs python">is_within_size_limit = length &lt; MAX_LENGTH
 is_same_size = previous_size != length
@@ -432,21 +432,21 @@ is_urgent = type_code == URGENT
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid magic numbers </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid magic numbers </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
                                   <div>
                                     <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
                                     <tip-box>
-                                      <p>Example:</p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                       <div class="alt-java">
                                         <div>
                                           <table>
                                             <tr>
                                                 <td valign="top">
                                                 <p>
-                                                  <font color="red"><span>** Bad**</span></font>
+                                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs java"><span class="hljs-keyword">return</span> <span class="hljs-number">3.14236</span>;
 ...
@@ -457,7 +457,7 @@ is_urgent = type_code == URGENT
                                                 <td>  <br><br></td>
                                                 <td valign="top">
                                                 <p>
-                                                  <font color="green"><span>** Good**</span></font>
+                                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs java"><span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">double</span> PI = <span class="hljs-number">3.14236</span>;
 <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> MAX_SIZE = <span class="hljs-number">10</span>;
@@ -479,7 +479,7 @@ is_urgent = type_code == URGENT
                                             <tr>
                                                 <td valign="top">
                                                 <p>
-                                                  <font color="red"><span>** Bad**</span></font>
+                                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs python"><span class="hljs-keyword">return</span> <span class="hljs-number">3.14236</span>
 ...
@@ -490,7 +490,7 @@ is_urgent = type_code == URGENT
                                                 <td>  <br><br></td>
                                                 <td valign="top">
                                                 <p>
-                                                  <font color="green"><span>** Good**</span></font>
+                                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                                 </p>
                                                 <pre><code class="hljs python">PI = <span class="hljs-number">3.14236</span>
 MAX_SIZE = <span class="hljs-number">10</span>
@@ -509,7 +509,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                     <p>Similarly, we can have ‘magic’ values of other data types.</p>
                                     <tip-box>
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
@@ -527,7 +527,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: make the code obvious </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: make the code obvious </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -568,7 +568,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: structure code logically </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: structure code logically </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -588,7 +588,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: do not 'trip up' reader </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: do not 'trip up' reader </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -614,7 +614,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: practice kissing </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: practice kissing </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -639,7 +639,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid premature optimizations </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid premature optimizations </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -668,7 +668,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: SLAP hard </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: SLAP hard </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -678,7 +678,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                     <tip-box>
                                       <p>Example:</p>
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java">readData();
 salary = basic*rise+<span class="hljs-number">1000</span>;
@@ -686,7 +686,7 @@ tax = (taxable?salary*<span class="hljs-number">0.07</span>:<span class="hljs-nu
 displayResult();
 </code></pre>
                                       <p>
-                                        <font color="green"><span>** Good**</span></font>
+                                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java">readData();
 processData();
@@ -713,20 +713,20 @@ displayResult();
                                               <p><strong>The guiding principle of abstraction is that only details that are relevant to the current perspective or the task at hand needs to be considered.</strong> As most programs are written to solve complex problems involving large amounts of intricate details, it is impossible to deal with all these details at the same time. That is where abstraction can help.</p>
                                               <p><strong>Ignoring lower level data items and thinking in terms of bigger entities is called <mark><em>data abstraction</em></mark>.</strong></p>
                                               <tip-box>
-                                                <p>Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Within a certain software component, we might deal with a <em>user</em> data type, while ignoring the details contained in the user data item such as <em>name</em>, and <em>date of birth</em>. These details have been ‘abstracted away’ as they do not affect the task of that software component.</p>
                                               </tip-box>
                                               <p><strong><mark><em>Control abstraction</em></mark> abstracts away details of the actual control flow to focus on tasks at a simplified level.</strong></p>
                                               <tip-box>
-                                                <p><code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>print(“Hello”)</code> is an abstraction of the actual output mechanism within the computer.</p>
                                               </tip-box>
                                               <p><strong>Abstraction can be applied repeatedly to obtain progressively <em>higher levels of abstractions</em>.</strong></p>
                                               <tip-box>
-                                                <p>An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
-                                                <p>An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of data abstraction: a <code>File</code> is a data item that is at a higher level than an array and an array is at a higher level than a bit.</p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of different levels of control abstraction: <code>execute(Game)</code> is at a higher level than <code>print(Char)</code> which is at a higher than an Assembly language instruction <code>MOV</code>.</p>
                                               </tip-box>
                                               <p><strong>Abstraction is a general concept that is not limited to just data or control abstractions.</strong></p>
                                               <box>
-                                                <p>Some more general examples of abstraction:</p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some more general examples of abstraction:</p>
                                                 <ul>
                                                   <li>An OOP <em>class</em> is an abstraction over related data and behaviors.</li>
                                                   <li>An <em>architecture</em> is a higher-level abstraction of the design of a software.</li>
@@ -763,7 +763,7 @@ displayResult();
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: make the happy path prominent </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: make the happy path prominent </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -772,7 +772,7 @@ displayResult();
                                     <tip-box>
                                       <p>Example:</p>
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (!isUnusualCase) {  <span class="hljs-comment">//detecting an unusual condition</span>
     <span class="hljs-keyword">if</span> (!isErrorCase) {
@@ -793,7 +793,7 @@ displayResult();
                                         <li>Main path is nested deeply.</li>
                                       </ul>
                                       <p>
-                                        <font color="green"><span>** Good**</span></font>
+                                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isUnusualCase) { <span class="hljs-comment">//Guard Clause</span>
     handleUnusualCase();
@@ -843,7 +843,7 @@ exit();
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for following a standard</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for following a standard</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -854,9 +854,9 @@ exit();
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
-                                    <panel header=" What is the recommended approach regarding coding standards?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What is the recommended approach regarding coding standards?">
                                       <question>
                                         <p>What is the recommended approach regarding coding standards?</p>
                                         <ul radio-group="5c5a1" class="radio-list">
@@ -872,7 +872,7 @@ exit();
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header=" What is the aim? What is the value?">
+                                    <panel header="<md>:glyphicon-question-sign:</md> What is the aim? What is the value?">
                                       <question has-input>
                                         <p>What is the aim of using a coding standard? How does it help?</p>
                                       </question>
@@ -892,7 +892,7 @@ exit();
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can follow simple mechanical style rules</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can follow simple mechanical style rules</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -906,10 +906,10 @@ exit();
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
                                     <div>
-                                      <panel header=" Find basic coding standard violations">
+                                      <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
                                         <question>
                                           <p>Consider the code given below:</p>
                                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
@@ -965,7 +965,7 @@ exit();
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can follow intermediate style rules</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can follow intermediate style rules</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -974,10 +974,10 @@ exit();
                             </div>
                             <div>
                               <div>
-                                <panel header=" Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                                   <div>
                                     <div>
-                                      <panel header=" Unsuitable variable name">
+                                      <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Unsuitable variable name">
                                         <question>
                                           <p>According to the given Java coding standard, which one of these is not a good name?</p>
                                           <ul radio-group="d008b" class="radio-list">
@@ -995,11 +995,11 @@ exit();
                                       </panel>
                                     </div>
                                     <div>
-                                      <panel header=" Find intermediate coding standard violations">
+                                      <panel header="<md>:glyphicon-question-sign:</md> Find intermediate coding standard violations">
                                         <question>
                                           <p>Repeat the exercise in the panel below but also find violations of <em>intermediate</em> level guidelines.</p>
                                           <div>
-                                            <panel header=" Find basic coding standard violations">
+                                            <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
                                               <question>
                                                 <p>Consider the code given below:</p>
                                                 <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
@@ -1076,7 +1076,7 @@ exit();
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for good names in code</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for good names in code</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -1106,13 +1106,13 @@ exit();
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: use nouns for things and verbs for actions </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use nouns for things and verbs for actions </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
                                   <div>
                                     <blockquote>
-                                      <p>Every system is built from a domain-specific language designed by the programmers to describe that system. Functions are the verbs of that language, and classes are the nouns. <sub>― Robert C. Martin, <em>Clean Code: A Handbook of Agile Software Craftsmanship</em></sub></p>
+                                      <p><span aria-hidden="true" class="fas fa-quote-left"></span> Every system is built from a domain-specific language designed by the programmers to describe that system. Functions are the verbs of that language, and classes are the nouns. <sub>― Robert C. Martin, <em>Clean Code: A Handbook of Agile Software Craftsmanship</em></sub></p>
                                     </blockquote>
                                     <p><strong>Use nouns for classes/variables and verbs for methods/functions.</strong></p>
                                     <tip-box>
@@ -1123,10 +1123,10 @@ exit();
                                             <tr>
                                               <th>Name for a</th>
                                               <th>
-                                                <font color="red"><span>** Bad**</span></font>
+                                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                               </th>
                                               <th>
-                                                <font color="green"><span>** Good**</span></font>
+                                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                               </th>
                                             </tr>
                                           </thead>
@@ -1147,10 +1147,10 @@ exit();
                                     </tip-box>
                                     <p><strong>Distinguish clearly between single-valued and multivalued variables.</strong></p>
                                     <tip-box>
-                                      <p>Examples:</p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                                       <div class="alt-java">
                                         <p>
-                                          <font color="green"><span>** Good**</span></font>
+                                          <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                         </p>
                                         <pre><code class="hljs java">Person student;
 ArrayList&lt;Person&gt; students;
@@ -1158,7 +1158,7 @@ ArrayList&lt;Person&gt; students;
                                       </div>
                                       <div class="alt-python">
                                         <p>
-                                          <font color="green"><span>** Good**</span></font>
+                                          <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                         </p>
                                         <pre><code class="hljs python">name = <span class="hljs-string">'Jim'</span>
 names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alice'</span>]
@@ -1178,7 +1178,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: use standard words </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use standard words </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1208,7 +1208,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: use name to explain </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use name to explain </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1221,10 +1221,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                           <thead>
                                             <tr>
                                               <th>
-                                                <font color="red"><span>** Bad**</span></font>
+                                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                               </th>
                                               <th>
-                                                <font color="green"><span>** Good**</span></font>
+                                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                               </th>
                                             </tr>
                                           </thead>
@@ -1253,10 +1253,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                           <thead>
                                             <tr>
                                               <th>
-                                                <font color="red"><span>** Bad**</span></font>
+                                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                               </th>
                                               <th>
-                                                <font color="green"><span>** Good**</span></font>
+                                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                               </th>
                                             </tr>
                                           </thead>
@@ -1277,13 +1277,13 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                           <thead>
                                             <tr>
                                               <th>
-                                                <font color="red"><span>** Bad**</span></font>
+                                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                               </th>
                                               <th>
-                                                <font color="red"><span>** Bad**</span></font>
+                                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                               </th>
                                               <th>
-                                                <font color="green"><span>** Good**</span></font>
+                                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                               </th>
                                             </tr>
                                           </thead>
@@ -1310,7 +1310,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: not too long, not too short </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: not too long, not too short </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1329,7 +1329,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid misleading names </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid misleading names </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1357,10 +1357,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                           <thead>
                                             <tr>
                                               <th>
-                                                <font color="red"><span>** Bad**</span></font>
+                                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                               </th>
                                               <th>
-                                                <font color="green"><span>** Good**</span></font>
+                                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                               </th>
                                               <th>Reason</th>
                                             </tr>
@@ -1422,7 +1422,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for avoiding error-prone shortcuts</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for avoiding error-prone shortcuts</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -1449,7 +1449,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: use the default branch </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use the default branch </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1458,13 +1458,13 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                     <p>Furthermore, use it for the intended default action and not just to execute the last option. If there is no default action, you can use the 'default' branch to detect errors (i.e. if execution reached the <code>default</code> branch, throw an exception). This also applies to the final <code>else</code> of an <code>if-else</code> construct. That is, the final <code>else</code> should mean 'everything else', and not the final option. Do not use <code>else</code> when an <code>if</code> condition can be explicitly specified, unless there is absolutely no other possibility.</p>
                                     <tip-box>
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (red) print <span class="hljs-string">"red"</span>;
 <span class="hljs-keyword">else</span> print <span class="hljs-string">"blue"</span>;
 </code></pre>
                                       <p>
-                                        <font color="green"><span>** Good**</span></font>
+                                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (red) print <span class="hljs-string">"red"</span>;
 <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (blue) print <span class="hljs-string">"blue"</span>;
@@ -1484,7 +1484,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: don't recycle variables or parameters </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: don't recycle variables or parameters </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1495,7 +1495,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                     </ul>
                                     <tip-box>
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">double</span> <span class="hljs-title">computeRectangleArea</span><span class="hljs-params">(<span class="hljs-keyword">double</span> length, <span class="hljs-keyword">double</span> width)</span> </span>{
     length = length * width;
@@ -1504,7 +1504,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
 
 </code></pre>
                                       <p>
-                                        <font color="green"><span>** Good**</span></font>
+                                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">double</span> <span class="hljs-title">computeRectangleArea</span><span class="hljs-params">(<span class="hljs-keyword">double</span> length, <span class="hljs-keyword">double</span> width)</span> </span>{
     <span class="hljs-keyword">double</span> area;
@@ -1526,7 +1526,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: avoid empty catch blocks </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid empty catch blocks </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1545,7 +1545,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: delete dead code </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: delete dead code </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1575,7 +1575,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: minimise scope of variables </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimise scope of variables </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1585,7 +1585,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                     <blockquote>
                                       <p><strong>The most powerful technique for minimizing the scope of a local variable is to declare it where it is first used.</strong> <sub>-- <em>Effective Java</em>, by Joshua Bloch</sub></p>
                                     </blockquote>
-                                    <p>Resources:</p>
+                                    <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
                                     <ul>
                                       <li><a href="https://refactoring.com/catalog/reduceScopeOfVariable.html">Refactoring: Reduce Scope of Variable</a></li>
                                     </ul>
@@ -1602,7 +1602,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: minimise code duplication </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimise code duplication </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1611,7 +1611,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                     <p>This guideline is closely related to the <trigger for="modal:duplication-dry" trigger="click">DRY Principle<trigger>.</trigger>
                                       </trigger>
                                     </p>
-                                    <modal title="** DRY Principle**" id="modal:duplication-dry">
+                                    <modal title="**<md>:glyphicon-eye-open:</md> DRY Principle**" id="modal:duplication-dry">
                                       <div>
                                         <div></div>
                                         <p></p>
@@ -1630,8 +1630,8 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                               </tip-box>
                                               <p>This principle guards against duplication of information.</p>
                                               <tip-box>
-                                                <p>The functionality implemented twice is a violation of the DRY principle even if the two implementations are different.</p>
-                                                <p>The value a system-wide timeout being defined in multiple places is a violation of DRY.</p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The functionality implemented twice is a violation of the DRY principle even if the two implementations are different.</p>
+                                                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The value a system-wide timeout being defined in multiple places is a violation of DRY.</p>
                                               </tip-box>
                                             </div>
                                             <div></div>
@@ -1667,7 +1667,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                             </div>
                           </span>
                           <div class="indented">
-                            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can explain the need for commenting minimally but sufficiently</span></span></span></span></p>
+                            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for commenting minimally but sufficiently</span></span></span></span></p>
                             <p></p>
                             <p></p>
                             <p></p>
@@ -1697,7 +1697,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: do not repeat the obvious </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: do not repeat the obvious </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
@@ -1705,7 +1705,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                     <p>If the code is self-explanatory, refrain from repeating the description in a comment just for the sake of 'good documentation'.</p>
                                     <div class="alt-java">
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-comment">// increment x</span>
 x++;
@@ -1716,7 +1716,7 @@ trimInput();
                                     </div>
                                     <div class="alt-python">
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
                                       </p>
                                       <pre><code class="hljs python">// increment x
 x = x + <span class="hljs-number">1</span>
@@ -1738,18 +1738,18 @@ trim_input()
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: write to the reader </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: write to the reader </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
                                   <div>
                                     <p>Do not write comments as if they are private notes to self. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
                                     <tip-box>
-                                      <p>Examples:</p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                                       <div class="alt-java">
                                         <div>
                                           <p>
-                                            <font color="red"><span>** Bad**</span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
+                                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
                                           </p>
                                           <pre><code class="hljs java"><span class="hljs-comment">// a quick trim function used to fix bug I detected overnight</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
@@ -1757,7 +1757,7 @@ trim_input()
 }
 </code></pre>
                                           <p>
-                                            <font color="green"><span>** Good**</span></font>
+                                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                           </p>
                                           <pre><code class="hljs java"><span class="hljs-comment">/** Trims the input of leading and trailing spaces */</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
@@ -1769,14 +1769,14 @@ trim_input()
                                       <div class="alt-python">
                                         <div>
                                           <p>
-                                            <font color="red"><span>** Bad**</span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
+                                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
                                           </p>
                                           <pre><code class="hljs python"><span class="hljs-comment"># a quick trim function used to fix bug I detected overnight</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trim_input</span><span class="hljs-params">()</span>:</span>
     ...
 </code></pre>
                                           <p>
-                                            <font color="green"><span>** Good**</span></font>
+                                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                                           </p>
                                           <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trim_input</span><span class="hljs-params">()</span>:</span>
 <span class="hljs-string">"""Trim the input of leading and trailing spaces"""</span>
@@ -1809,39 +1809,39 @@ trim_input()
                                   </div>
                                 </span>
                                 <div class="indented">
-                                  <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: explain what and why, not how </span></span></span></span></p>
+                                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: explain what and why, not how </span></span></span></span></p>
                                   <p></p>
                                   <p></p>
                                   <p></p>
                                   <div>
                                     <p>Comments should explain <em>what</em> and <em>why</em> aspect of the code, rather than the <em>how</em> aspect.</p>
-                                    <p><span style="color:green"></span> <strong>What</strong> : The specification of what the code <em>supposed</em> to do. The reader can compare such comments to the implementation to verify if the implementation is correct</p>
+                                    <p><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <strong>What</strong> : The specification of what the code <em>supposed</em> to do. The reader can compare such comments to the implementation to verify if the implementation is correct</p>
                                     <tip-box>
-                                      <p>Example: This method is possibly buggy because the implementation does not seem to match the comment. In this case the comment could help the reader to detect the bug.</p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: This method is possibly buggy because the implementation does not seem to match the comment. In this case the comment could help the reader to detect the bug.</p>
                                       <pre><code class="hljs java"><span class="hljs-comment">/** Removes all spaces from the {<span class="hljs-doctag">@code</span> input} */</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">compact</span><span class="hljs-params">(String input)</span></span>{
     input.trim();
 }
 </code></pre>
                                     </tip-box>
-                                    <p><span style="color:green"></span> <strong>Why</strong> : The rationale for the current implementation.</p>
+                                    <p><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <strong>Why</strong> : The rationale for the current implementation.</p>
                                     <tip-box>
-                                      <p>Example: Without this comment, the reader will not know the reason for calling this method.</p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: Without this comment, the reader will not know the reason for calling this method.</p>
                                       <pre><code class="hljs java"><span class="hljs-comment">// Remove spaces to comply with IE23.5 formatting rules</span>
 compact(input);
 </code></pre>
                                     </tip-box>
-                                    <p><span style="color:red"></span> <strong>How</strong> : The explanation for how the code works. This should already be apparent from the code, if the code is self-explanatory. Adding comments to explain the same thing is redundant.</p>
+                                    <p><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <strong>How</strong> : The explanation for how the code works. This should already be apparent from the code, if the code is self-explanatory. Adding comments to explain the same thing is redundant.</p>
                                     <tip-box>
-                                      <p>Example:</p>
+                                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                       <p>
-                                        <font color="red"><span>** Bad**</span></font> <span class="dimmed">Reason: Comment explains how the code works.</span>
+                                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: Comment explains how the code works.</span>
                                       </p>
                                       <pre><code class="hljs java"><span class="hljs-comment">// return true if both left end and right end are correct or the size has not incremented</span>
 <span class="hljs-keyword">return</span> (left &amp;&amp; right) || (input.size() == size);
 </code></pre>
                                       <p>
-                                        <font color="green"><span>** Good**</span></font> <span class="dimmed">Reason: Code refactored to be self-explanatory. Comment no longer needed.</span>
+                                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> <span class="dimmed">Reason: Code refactored to be self-explanatory. Comment no longer needed.</span>
                                       </p>
                                       <pre><code class="hljs java">
 <span class="hljs-keyword">boolean</span> isSameSize = (input.size() == size) ;

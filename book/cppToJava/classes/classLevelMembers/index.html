@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use class-level members</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use class-level members</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -47,7 +47,7 @@
                       <p>When a number of objects are created from the same class blueprint, they each have their own distinct copies of instance variables. In the case of a <code>Bicycle</code> class, the instance variables are gear, and speed. Each Bicycle object has its own values for these variables, stored in different memory locations.</p>
                       <p><strong>Sometimes, you want to have variables that are common to all objects. This is accomplished with the <code>static</code> modifier.</strong> Fields that have the <code>static</code> modifier in their declaration are called <em>static fields</em> or <em>class variables</em>. They are associated with the class, rather than with any object. Every instance of the class shares a class variable, which is in one fixed location in memory. Any object can change the value of a class variable, but class variables can also be manipulated without creating an instance of the class.</p>
                       <box>
-                        <p>Suppose you want to create a number of Bicycle objects and assign each a serial number, beginning with 1 for the first object. This ID number is unique to each object and is therefore an instance variable. At the same time, you need a field to keep track of how many <code>Bicycle</code> objects have been created so that you know what ID to assign to the next one. Such a field is not related to any individual object, but to the class as a whole. For this you need a class variable, numberOfBicycles, as follows:</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose you want to create a number of Bicycle objects and assign each a serial number, beginning with 1 for the first object. This ID number is unique to each object and is therefore an instance variable. At the same time, you need a field to keep track of how many <code>Bicycle</code> objects have been created so that you know what ID to assign to the next one. Such a field is not related to any individual object, but to the class as a whole. For this you need a class variable, numberOfBicycles, as follows:</p>
                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bicycle</span> </span>{
 
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> gear;
@@ -67,7 +67,7 @@
                       <p><strong>The <code>static</code> modifier, in combination with the <code>final</code> modifier, is also used to define constants.</strong> The final modifier indicates that the value of this field cannot change.For example, the following variable declaration defines a constant named PI, whose value is an approximation of pi (the ratio of the circumference of a circle to its diameter):
                         <code>static final double PI = 3.141592653589793;</code></p>
                       <box>
-                        <p>Here is an example with class-level variables and class-level methods:</p>
+                        <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example with class-level variables and class-level methods:</p>
                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bicycle</span> </span>{
 
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> gear;
@@ -122,10 +122,10 @@
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" add getMaxRadius to the `Circle` class">
+                            <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class">
                               <question>
                                 <p>Consider the <code>Circle</code> class below:</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -190,6 +190,7 @@
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">max radius used so far : 0.0
 max radius used so far : 10.0
 max radius used so far : 10.0

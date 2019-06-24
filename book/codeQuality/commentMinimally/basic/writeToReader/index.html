@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can improve code quality using technique: write to the reader </span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: write to the reader </span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,11 +44,11 @@
                   <div>
                     <p>Do not write comments as if they are private notes to self. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
                     <tip-box>
-                      <p>Examples:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                       <div class="alt-java">
                         <div>
                           <p>
-                            <font color="red"><span>** Bad**</span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
+                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
                           </p>
                           <pre><code class="hljs java"><span class="hljs-comment">// a quick trim function used to fix bug I detected overnight</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
@@ -56,7 +56,7 @@
 }
 </code></pre>
                           <p>
-                            <font color="green"><span>** Good**</span></font>
+                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                           </p>
                           <pre><code class="hljs java"><span class="hljs-comment">/** Trims the input of leading and trailing spaces */</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
@@ -68,14 +68,14 @@
                       <div class="alt-python">
                         <div>
                           <p>
-                            <font color="red"><span>** Bad**</span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
+                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
                           </p>
                           <pre><code class="hljs python"><span class="hljs-comment"># a quick trim function used to fix bug I detected overnight</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trim_input</span><span class="hljs-params">()</span>:</span>
     ...
 </code></pre>
                           <p>
-                            <font color="green"><span>** Good**</span></font>
+                            <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
                           </p>
                           <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trim_input</span><span class="hljs-params">()</span>:</span>
 <span class="hljs-string">"""Trim the input of leading and trailing spaces"""</span>

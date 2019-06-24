@@ -28,13 +28,13 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can increase cohesion</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can increase cohesion</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
               <div>
                 <p>
-                  <panel src="/website/book/designFundamentals/cohesion/what/unit-inElsewhere-asFlat._include_.html" header="%% Design → Design Fundamentals → Cohesion →
+                  <panel src="/website/book/designFundamentals/cohesion/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Design → Design Fundamentals → Cohesion →
 What%%"></panel>
                 </p>
               </div>
@@ -54,14 +54,14 @@ What%%"></panel>
                       <li>Code that manipulates the same data structure is kept together, e.g. the <code>GameArchive</code> component handles everything related to the storage and retrieval of game sessions.</li>
                     </ul>
                     <tip-box>
-                      <p>Suppose a Payroll application contains a class that deals with writing data to the database. If the class include some code to show an error dialog to the user if the database is unreachable, that class is not cohesive because it seems to be interacting with the user as well as the database.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a Payroll application contains a class that deals with writing data to the database. If the class include some code to show an error dialog to the user if the database is unreachable, that class is not cohesive because it seems to be interacting with the user as well as the database.</p>
                     </tip-box>
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
-                          <panel header=" Which class is more cohesive?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which class is more cohesive?">
                             <question has-input="true">
                               <p>Compare the cohesion of the following two versions of the <code>EmailMessage</code> class. Which one is more cohesive and why?</p>
                               <pre><code class="hljs java"><span class="hljs-comment">// version-1</span>

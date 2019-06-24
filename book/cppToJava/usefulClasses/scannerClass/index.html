@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use the Scanner class</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the Scanner class</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -63,7 +63,7 @@
 </code></pre>
                     <p><code>Scanner</code> class normally reads inputs as strings but it can read in a specific type of input too.</p>
                     <box>
-                      <p>The code below uses the <code>nextInt</code> method of the <code>Scanner</code> class to read an input as an integer.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The code below uses the <code>nextInt</code> method of the <code>Scanner</code> class to read an input as an integer.</p>
                       <pre><code class="hljs java">
 Scanner in = <span class="hljs-keyword">new</span> Scanner(System.in);
 
@@ -79,27 +79,27 @@ System.out.printf(<span class="hljs-string">"Hello %s, age %d\n"</span>, name, a
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" find total expenditure">
+                            <panel header="<md>:glyphicon-question-sign:</md> find total expenditure">
                               <question>
                                 <p>Write a program to ask the user for a description of overseas expenses (presumably, the user has just returned from an overseas trip) and calculate the total in local currency.</p>
                                 <ul>
                                   <li>The conversion rate from overseas currency to local currency : overseas <code>$1.0</code> = local <code>$1.70</code></li>
                                   <li>The user can describe expenses is in free form text, as one line. The program takes all amounts mentioned in the format <code>$amount</code> e.g., <code>$1.50</code></li>
                                 </ul>
-                                <p>Here is one example output:</p>
+                                <p>Here is one example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">Your expenses while overseas?beer $4.50 books $3.00 $5.00 for food, that's all
 Expenses in overseas currency:[$4.50, $3.00, $5.00]
 Total in local currency: $21.25
 </code></pre>
-                                <p>Here is another:</p>
+                                <p>Here is another: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">Your expenses while overseas?nothing. I lived off my friends all the time.
 Expenses in overseas currency:[]
 Total in local currency: $0.00
 </code></pre>
-                                <p>One more:</p>
+                                <p>One more: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">Your expenses while overseas? Just $10
 Expenses in overseas currency:[$10]
 Total in local currency: $17.00
@@ -123,10 +123,10 @@ Total in local currency: $17.00
 String[] words = sentence.split(<span class="hljs-string">" "</span>); <span class="hljs-comment">// split using the space as the delimiter</span>
 System.out.println(Arrays.toString(words));
 </code></pre>
-                                <p><code>[hello, my, dear]</code></p>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[hello, my, dear]</code></p>
                                 <div slot="hint">
                                   <p>💡 You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
-                                    e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <code>1.33</code></p>
+                                    e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1.33</code></p>
                                   <panel type="seamless" header="Partial solution">
                                     <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Arrays;
 <span class="hljs-keyword">import</span> java.util.Scanner;
@@ -170,11 +170,11 @@ System.out.println(Arrays.toString(words));
                             </panel>
                           </div>
                           <div>
-                            <panel header=" TaskManager Level 1 - **Create a CLI**">
+                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 1 - **Create a CLI**">
                               <div id="body">
                                 <div id="main">
                                   <p>In this first version of the TaskManager, the task list is not saved to the disk <span class="dimmed">i.e., the task list does not persist between multiple runs of the program</span></p>
-                                  <p>Here is an example output:</p>
+                                  <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                   <pre><code class="hljs">Welcome to TaskManager-Level1!
 Your task? add submit report
 Tasks in the list: 1

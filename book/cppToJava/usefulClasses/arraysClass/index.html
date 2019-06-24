@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use the Arrays class</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the Arrays class</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,7 +44,7 @@
                   <div>
                     <p><strong><a href="https://docs.oracle.com/javase/9/docs/api/java/util/Arrays.html"><code>java.util.Arrays</code></a> provides methods for working with arrays.</strong> One of them, <code>toString</code>, returns a string representation of an array. It also provides a <code>copyOf</code> that copies an array.</p>
                     <box>
-                      <p>Using <code>Arrays.copyOf</code> and <code>Arrays.toString</code>:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Using <code>Arrays.copyOf</code> and <code>Arrays.toString</code>:</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[]{<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>};
 
 <span class="hljs-keyword">int</span>[] b = Arrays.copyOf(a, <span class="hljs-number">3</span>); <span class="hljs-comment">// copy first three elements</span>
@@ -53,6 +53,7 @@ System.out.println(Arrays.toString(b));
 <span class="hljs-keyword">int</span>[] c = Arrays.copyOf(a, a.length); <span class="hljs-comment">// copy all elements</span>
 System.out.println(Arrays.toString(c));
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">[1, 2, 3]
 [1, 2, 3, 4]
 </code></pre>
@@ -60,10 +61,10 @@ System.out.println(Arrays.toString(c));
                   </div>
                   <div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" `filterEmails` method">
+                            <panel header="<md>:glyphicon-question-sign:</md> `filterEmails` method">
                               <question>
                                 <p>Implement the following two methods in the code below to produce the given output.</p>
                                 <ul>
@@ -71,12 +72,12 @@ System.out.println(Arrays.toString(c));
                                     <ul>
                                       <li><code>items</code> is an array of strings each of which may be an email address or some other random string</li>
                                       <li>Returns a <code>String[]</code> containing email addresses that were in <code>items</code>. Any string containing <code>@</code> is considered as an email.<br>
-                                        <code>[&quot;aaa@bbb&quot;, &quot;xyz&quot;]</code> <code>[&quot;aaa@bbb&quot;]</code></li>
+                                        <code>[&quot;aaa@bbb&quot;, &quot;xyz&quot;]</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[&quot;aaa@bbb&quot;]</code></li>
                                     </ul>
                                   </li>
                                   <li><strong><code>printItems(String[] items)</code></strong>
                                     <ul>
-                                      <li>Prints <code>items</code> in the standard array format. e.g., <code>[&quot;aaa&quot;, &quot;bbb&quot;]</code> <code>[aaa, bbb]</code></li>
+                                      <li>Prints <code>items</code> in the standard array format. e.g., <code>[&quot;aaa&quot;, &quot;bbb&quot;]</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[aaa, bbb]</code></li>
                                     </ul>
                                   </li>
                                 </ul>
@@ -99,6 +100,7 @@ System.out.println(Arrays.toString(c));
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">[]
 []
 [adam@example.com, john@example.com, some@]

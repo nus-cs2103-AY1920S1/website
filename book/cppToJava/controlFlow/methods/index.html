@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use methods</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use methods</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -60,6 +60,7 @@
 }
 
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">Polly likes crackers
 Polly likes crackers
 </code></pre>
@@ -76,13 +77,13 @@ Polly likes crackers
                       </modal>
                       <p>Similar to the <code>main</code> method, the <code>printTwice</code> method is <code>public</code> <span class="dimmed">(i.e., it can be invoked from other classes)</span> <code>static</code> and <code>void</code>.</p>
                       <h5 id="parameters">Parameters<a class="fa fa-anchor" href="#parameters"></a></h5>
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>A method can specify <em>parameters</em>.</strong> The <code>printTwice</code> method above specifies a parameter of <code>String</code> type. The <code>main</code> method passes the <em>argument</em> <code>&quot;Polly likes crackers&quot;</code> to that parameter.</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A method can specify <em>parameters</em>.</strong> The <code>printTwice</code> method above specifies a parameter of <code>String</code> type. The <code>main</code> method passes the <em>argument</em> <code>&quot;Polly likes crackers&quot;</code> to that parameter.</p>
                       <p><strong>The value provided as an argument must have the same type as the parameter.</strong> Sometimes Java can convert an argument from one type to another automatically. For example, if the method requires a <code>double</code>, you can invoke it with an <code>int</code> argument <code>5</code> and Java will automatically convert the argument to the equivalent value of type double <code>5.0</code>.</p>
                       <p><strong>Because variables only exist inside the methods where they are defined, they are often called <em>local</em> variables.</strong> Parameters and other variables declared inside a method only exist inside their own methods. Inside <code>main</code>, there is no such thing as <code>s</code>. If you try to use it there, you’ll get a compiler error. Similarly, inside <code>printTwice</code> there is no such thing as <code>sentence</code>. That variable belongs to <code>main</code>.</p>
                     </div>
                     <h5 id="return-statements"><code>return</code> statements<a class="fa fa-anchor" href="#return-statements"></a></h5>
                     <div class="indented">
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>The <code>return</code> statement allows you to terminate a method before you reach the end of it</strong>:</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>The <code>return</code> statement allows you to terminate a method before you reach the end of it</strong>:</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printLogarithm</span><span class="hljs-params">(<span class="hljs-keyword">double</span> x)</span> </span>{
     <span class="hljs-keyword">if</span> (x &lt;= <span class="hljs-number">0.0</span>) {
         System.out.println(<span class="hljs-string">"Error: x must be positive."</span>);
@@ -92,7 +93,7 @@ Polly likes crackers
     System.out.println(<span class="hljs-string">"The log of x is "</span> + result);
 }
 </code></pre>
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>It can be used to return a value from a method too</strong>:</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>It can be used to return a value from a method too</strong>:</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AreaCalculator</span></span>{
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">double</span> <span class="hljs-title">calculateArea</span><span class="hljs-params">(<span class="hljs-keyword">double</span> radius)</span> </span>{
@@ -109,7 +110,7 @@ Polly likes crackers
                     </div>
                     <h5 id="overloading">Overloading<a class="fa fa-anchor" href="#overloading"></a></h5>
                     <div class="indented">
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>Java methods can be <em>overloaded</em>.</strong> If two methods do the same thing, it is natural to give them the same name. Having more than one method with the same name is called overloading, and it is legal in Java as long as each version takes different parameters.</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>Java methods can be <em>overloaded</em>.</strong> If two methods do the same thing, it is natural to give them the same name. Having more than one method with the same name is called overloading, and it is legal in Java as long as each version takes different parameters.</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">double</span> <span class="hljs-title">calculateArea</span><span class="hljs-params">(<span class="hljs-keyword">double</span> radius)</span> </span>{
     <span class="hljs-comment">//...</span>
 }
@@ -121,7 +122,7 @@ Polly likes crackers
                     </div>
                     <h5 id="recursion">Recursion<a class="fa fa-anchor" href="#recursion"></a></h5>
                     <div class="indented">
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>Methods can be <em>recursive</em>.</strong> Here is an example in which the <code>nLines</code> method calls itself recursively:</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>Methods can be <em>recursive</em>.</strong> Here is an example in which the <code>nLines</code> method calls itself recursively:</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">nLines</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span> </span>{
     <span class="hljs-keyword">if</span> (n &gt; <span class="hljs-number">0</span>) {
         System.out.println();
@@ -133,7 +134,7 @@ Polly likes crackers
                   </div>
                   <div>
                     <div>
-                      <panel header=" Resources" expanded>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                         <div>
                           <ul>
                             <li>Oracle's tutorials on [<a href="https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html">methods</a>][<a href="https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html">parameters</a>]</li>
@@ -143,10 +144,10 @@ Polly likes crackers
                       </panel>
                     </div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" `getGradeCap` Method">
+                            <panel header="<md>:glyphicon-question-sign:</md> `getGradeCap` Method">
                               <question>
                                 <p>Add the following method to the class given below.</p>
                                 <ul>
@@ -194,6 +195,7 @@ Polly likes crackers
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">A+: 5.0
 B : 3.5
 </code></pre>

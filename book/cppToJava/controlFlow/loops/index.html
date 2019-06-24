@@ -28,7 +28,7 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span> Can use loops</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use loops</span></span></span></span></p>
             <p></p>
             <p></p>
             <div>
@@ -44,7 +44,7 @@
                   <div>
                     <h5 id="while-loops"><code>while</code> loops<a class="fa fa-anchor" href="#while-loops"></a></h5>
                     <div class="indented">
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> Here is an example while loop:</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> Here is an example while loop:</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">countdown</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span> </span>{
     <span class="hljs-keyword">while</span> (n &gt; <span class="hljs-number">0</span>) {
         System.out.println(n);
@@ -56,7 +56,7 @@
                     </div>
                     <h5 id="for-loops"><code>for</code> loops<a class="fa fa-anchor" href="#for-loops"></a></h5>
                     <div class="indented">
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <code>for</code> loops have the form:</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <code>for</code> loops have the form:</p>
                       <pre><code class="hljs">for (initializer; condition; update) {
     statement(s);
 }
@@ -86,7 +86,7 @@
                     </div>
                     <h5 id="break-and-continue"><code>break</code> and <code>continue</code><a class="fa fa-anchor" href="#break-and-continue"></a></h5>
                     <div class="indented">
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>A <code>break</code> statement exits the current loop</strong>.</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A <code>break</code> statement exits the current loop</strong>.</p>
                       <p>Here is an example <span class="dimmed">(from <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small>)</span>:</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
@@ -100,10 +100,11 @@
     }
 }
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">123
 </code></pre>
                       <p><small>[<a href="https://repl.it/@seedu/Demo-Break">Try the above code on Repl.it</a>]</small></p>
-                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"></span></span> <strong>A <code>continue</code> statement skips the remainder of the current iteration</strong> and moves to the next iteration of the loop.</p>
+                      <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A <code>continue</code> statement skips the remainder of the current iteration</strong> and moves to the next iteration of the loop.</p>
                       <p>Here is an example <span class="dimmed">(from <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small>)</span>:</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
     <span class="hljs-keyword">int</span>[] numbers = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[] { <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">0</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">0</span> };
@@ -115,6 +116,7 @@
     }
 }
 </code></pre>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                       <pre><code class="hljs">12345
 </code></pre>
                       <p><small>[<a href="https://repl.it/@seedu/Demo-Continue">Try the above code on Repl.it</a>]</small></p>
@@ -138,7 +140,7 @@
                   </div>
                   <div>
                     <div>
-                      <panel header=" Resources" expanded>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
                         <div>
                           <ul>
                             <li>Oracle's tutorials on [<a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html"><code>while</code></a>][<a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html"><code>for</code></a>][<a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/branch.html"><code>break</code>/<code>continue</code></a>]</li>
@@ -147,10 +149,10 @@
                       </panel>
                     </div>
                     <div>
-                      <panel header=" Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
                         <div>
                           <div>
-                            <panel header=" `getMultipleGradeCaps` Method">
+                            <panel header="<md>:glyphicon-question-sign:</md> `getMultipleGradeCaps` Method">
                               <question>
                                 <p>Add the following method to the class given below.</p>
                                 <ul>
@@ -228,6 +230,7 @@
     }
 }
 </code></pre>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
                                 <pre><code class="hljs">A+:5.0
 A:5.0
 A-:4.5
