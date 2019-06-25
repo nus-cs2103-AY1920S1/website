@@ -135,3 +135,367 @@
 2019-06-24T06:49:39.073Z - info: Site data built
 2019-06-24T07:13:02.056Z - info: Website generation started at 3:12:59 PM
 2019-06-24T07:13:04.186Z - info: Building assets...
+2019-06-24T07:13:05.776Z - info: Assets built
+2019-06-24T07:13:05.777Z - info: Generating pages...
+2019-06-24T07:14:37.512Z - info: Pages built
+2019-06-24T07:14:59.508Z - info: Website generation complete! Total build time: 119.529s
+2019-06-24T07:14:59.508Z - info: Build success!
+2019-06-24T07:14:59.519Z - info: Site data built
+2019-06-24T07:16:36.757Z - info: Deployed!
+2019-06-24T08:36:46.108Z - info: Website generation started at 4:36:44 PM
+2019-06-24T08:36:48.114Z - info: Building assets...
+2019-06-24T08:36:49.659Z - info: Assets built
+2019-06-24T08:36:49.659Z - info: Generating pages...
+2019-06-24T08:38:21.134Z - info: Pages built
+2019-06-24T08:38:43.461Z - info: Website generation complete! Total build time: 119.361s
+2019-06-24T08:38:43.815Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T08:38:43.815Z - info: Press CTRL+C to stop ...
+2019-06-24T08:38:43.845Z - info: Site data built
+2019-06-24T08:40:06.462Z - info: [4:40:06 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T08:40:07.464Z - info: Rebuilding affected source files
+2019-06-24T08:40:07.468Z - info: Rebuilding 2 pages
+2019-06-24T08:40:10.662Z - info: Pages rebuilt
+2019-06-24T08:40:10.702Z - info: Site data built
+2019-06-24T08:42:09.106Z - info: [4:42:09 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T08:42:10.107Z - info: Rebuilding affected source files
+2019-06-24T08:42:10.108Z - info: Rebuilding 2 pages
+2019-06-24T08:42:13.128Z - info: Pages rebuilt
+2019-06-24T08:42:13.146Z - info: Site data built
+2019-06-24T08:45:15.594Z - info: [4:45:15 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\outcomes.njk
+2019-06-24T08:45:16.602Z - info: Assets built
+2019-06-24T08:46:55.757Z - info: [4:46:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\outcomes.njk
+2019-06-24T08:46:56.764Z - info: Assets built
+2019-06-24T08:52:31.672Z - info: [4:52:31 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\outcomes.njk
+2019-06-24T08:52:32.677Z - info: Assets built
+2019-06-24T10:38:25.157Z - info: [6:38:25 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\outcomes.njk
+2019-06-24T10:38:26.169Z - info: Assets built
+2019-06-24T10:39:36.867Z - info: [6:39:36 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T10:39:37.868Z - info: Rebuilding affected source files
+2019-06-24T10:39:37.871Z - info: Rebuilding 2 pages
+2019-06-24T10:39:41.045Z - info: Pages rebuilt
+2019-06-24T10:39:41.061Z - info: Site data built
+2019-06-24T10:40:23.717Z - info: [6:40:23 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\site.json
+2019-06-24T10:40:24.721Z - info: Assets built
+2019-06-24T10:40:45.166Z - info: Website generation started at 6:40:43 PM
+2019-06-24T10:40:47.200Z - info: Building assets...
+2019-06-24T10:40:48.852Z - info: Assets built
+2019-06-24T10:40:48.852Z - info: Generating pages...
+2019-06-24T10:42:24.609Z - info: Pages built
+2019-06-24T10:42:46.433Z - info: Website generation complete! Total build time: 123.36s
+2019-06-24T10:42:46.803Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T10:42:46.803Z - info: Press CTRL+C to stop ...
+2019-06-24T10:42:46.828Z - info: Site data built
+2019-06-24T10:46:19.575Z - info: [6:46:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T10:46:20.577Z - info: Rebuilding affected source files
+2019-06-24T10:46:20.579Z - info: Rebuilding 2 pages
+2019-06-24T10:46:23.420Z - info: Pages rebuilt
+2019-06-24T10:46:23.436Z - info: Site data built
+2019-06-24T10:54:01.342Z - info: [6:54:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T10:54:01.347Z - info: [6:54:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\admin.md
+2019-06-24T10:54:02.343Z - info: Rebuilding affected source files
+2019-06-24T10:54:02.349Z - info: Rebuilding 4 pages
+2019-06-24T10:54:02.389Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\admin.md)
+  Error: cannot import 'show_week_schedule_admin' date=Mon Jun 24 2019 18:54:02 GMT+0800 (Singapore Standard Time), pid=26700, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v10.14.2, argv=[C:\Program Files\nodejs\node.exe, C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=311967744, heapTotal=223621120, heapUsed=183381064, external=179601, loadavg=[0, 0, 0], uptime=856179
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\admin.md)
+  Error: cannot import 'show_week_schedule_admin'
+    at Object._prettifyError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:52:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:316:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:1016:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:596:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:245:1)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:11:5)
+    at Environment.getTemplate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:9:5)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+2019-06-24T10:54:14.367Z - info: Website generation started at 6:54:12 PM
+2019-06-24T10:54:16.496Z - info: Building assets...
+2019-06-24T10:54:17.987Z - info: Assets built
+2019-06-24T10:54:17.987Z - info: Generating pages...
+2019-06-24T10:55:47.417Z - info: Pages built
+2019-06-24T10:56:09.980Z - info: Website generation complete! Total build time: 117.563s
+2019-06-24T10:56:10.327Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T10:56:10.327Z - info: Press CTRL+C to stop ...
+2019-06-24T10:56:10.353Z - info: Site data built
+2019-06-24T10:58:54.748Z - info: [6:58:54 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T10:58:55.751Z - info: Rebuilding affected source files
+2019-06-24T10:58:55.756Z - info: Rebuilding 2 pages
+2019-06-24T10:58:58.314Z - info: Pages rebuilt
+2019-06-24T10:58:58.344Z - info: Site data built
+2019-06-24T11:01:51.142Z - info: [7:01:51 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:01:52.142Z - info: Rebuilding affected source files
+2019-06-24T11:01:52.143Z - info: Rebuilding 2 pages
+2019-06-24T11:01:54.788Z - info: Pages rebuilt
+2019-06-24T11:01:54.811Z - info: Site data built
+2019-06-24T11:03:59.484Z - info: [7:03:59 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:04:00.486Z - info: Rebuilding affected source files
+2019-06-24T11:04:00.489Z - info: Rebuilding 2 pages
+2019-06-24T11:04:03.202Z - info: Pages rebuilt
+2019-06-24T11:04:03.231Z - info: Site data built
+2019-06-24T11:04:17.032Z - info: [7:04:17 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:04:18.035Z - info: Rebuilding affected source files
+2019-06-24T11:04:18.036Z - info: Rebuilding 2 pages
+2019-06-24T11:04:20.754Z - info: Pages rebuilt
+2019-06-24T11:04:20.768Z - info: Site data built
+2019-06-24T11:04:47.578Z - info: Website generation started at 7:04:45 PM
+2019-06-24T11:04:49.611Z - info: Building assets...
+2019-06-24T11:04:51.318Z - info: Assets built
+2019-06-24T11:04:51.318Z - info: Generating pages...
+2019-06-24T11:06:21.671Z - info: Pages built
+2019-06-24T11:06:42.905Z - info: Website generation complete! Total build time: 117.345s
+2019-06-24T11:06:43.244Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T11:06:43.244Z - info: Press CTRL+C to stop ...
+2019-06-24T11:06:43.276Z - info: Site data built
+2019-06-24T11:12:47.308Z - info: [7:12:47 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:12:48.310Z - info: Rebuilding affected source files
+2019-06-24T11:12:48.314Z - info: Rebuilding 2 pages
+2019-06-24T11:12:50.954Z - info: Pages rebuilt
+2019-06-24T11:12:50.969Z - info: Site data built
+2019-06-24T11:14:31.895Z - info: [7:14:31 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:14:32.895Z - info: Rebuilding affected source files
+2019-06-24T11:14:32.896Z - info: Rebuilding 2 pages
+2019-06-24T11:14:35.434Z - info: Pages rebuilt
+2019-06-24T11:14:35.448Z - info: Site data built
+2019-06-24T11:15:08.272Z - info: [7:15:08 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:15:09.274Z - info: Rebuilding affected source files
+2019-06-24T11:15:09.277Z - info: Rebuilding 2 pages
+2019-06-24T11:15:11.839Z - info: Pages rebuilt
+2019-06-24T11:15:11.851Z - info: Site data built
+2019-06-24T11:16:27.088Z - info: [7:16:27 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:16:28.090Z - info: Rebuilding affected source files
+2019-06-24T11:16:28.093Z - info: Rebuilding 2 pages
+2019-06-24T11:16:38.479Z - info: Website generation started at 7:16:36 PM
+2019-06-24T11:16:40.586Z - info: Building assets...
+2019-06-24T11:16:42.126Z - info: Assets built
+2019-06-24T11:16:42.127Z - info: Generating pages...
+2019-06-24T11:18:12.200Z - info: Pages built
+2019-06-24T11:18:33.553Z - info: Website generation complete! Total build time: 116.952s
+2019-06-24T11:18:33.888Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T11:18:33.888Z - info: Press CTRL+C to stop ...
+2019-06-24T11:18:33.922Z - info: Site data built
+2019-06-24T11:19:57.761Z - info: [7:19:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:19:58.763Z - info: Rebuilding affected source files
+2019-06-24T11:19:58.765Z - info: Rebuilding 2 pages
+2019-06-24T11:20:01.679Z - info: Pages rebuilt
+2019-06-24T11:20:01.690Z - info: Site data built
+2019-06-24T11:20:15.675Z - info: [7:20:15 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:20:16.677Z - info: Rebuilding affected source files
+2019-06-24T11:20:16.679Z - info: Rebuilding 2 pages
+2019-06-24T11:20:19.302Z - info: Pages rebuilt
+2019-06-24T11:20:19.317Z - info: Site data built
+2019-06-24T11:27:01.323Z - info: [7:27:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:27:01.329Z - info: [7:27:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\admin.md
+2019-06-24T11:27:01.333Z - info: [7:27:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\tutorial-cs2103.md
+2019-06-24T11:27:02.326Z - info: Rebuilding affected source files
+2019-06-24T11:27:02.332Z - info: Rebuilding 4 pages
+2019-06-24T11:27:02.365Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\admin.md)
+  Error: cannot import 'show_week_pagetop' date=Mon Jun 24 2019 19:27:02 GMT+0800 (Singapore Standard Time), pid=11240, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v10.14.2, argv=[C:\Program Files\nodejs\node.exe, C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=332128256, heapTotal=245112832, heapUsed=187629776, external=180362, loadavg=[0, 0, 0], uptime=858159
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\admin.md)
+  Error: cannot import 'show_week_pagetop'
+    at Object._prettifyError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:52:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:354:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:1016:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:596:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:245:1)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:11:5)
+    at Environment.getTemplate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:9:5)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+2019-06-24T11:27:02.727Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\tutorial-cs2103.md)
+  Error: cannot import 'show_week_pagetop'
+    at Object._prettifyError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:22:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:354:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:1016:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:596:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:245:1)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:11:5)
+    at Environment.getTemplate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:9:5)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+2019-06-24T11:27:03.005Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\tutorial-cs2103.md)
+  Error: cannot import 'show_week_pagetop'
+    at Object._prettifyError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:22:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:354:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:1016:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:596:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:245:1)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:11:5)
+    at Environment.getTemplate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:9:5)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+2019-06-24T11:27:03.242Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\tutorial-cs2103.md)
+  Error: cannot import 'show_week_pagetop'
+    at Object._prettifyError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:22:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:354:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:1016:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:596:1)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:245:1)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:11:5)
+    at Environment.getTemplate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:9:5)
+    at Template.getExported (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+2019-06-24T11:27:16.241Z - info: Website generation started at 7:27:14 PM
+2019-06-24T11:27:18.377Z - info: Building assets...
+2019-06-24T11:27:19.934Z - info: Assets built
+2019-06-24T11:27:19.935Z - info: Generating pages...
+2019-06-24T11:28:50.296Z - info: Pages built
+2019-06-24T11:29:11.293Z - info: Website generation complete! Total build time: 117.067s
+2019-06-24T11:29:11.634Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T11:29:11.634Z - info: Press CTRL+C to stop ...
+2019-06-24T11:29:11.662Z - info: Site data built
+2019-06-24T11:30:41.070Z - info: [7:30:41 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\site.json
+2019-06-24T11:30:42.075Z - info: Assets built
+2019-06-24T11:31:01.102Z - info: Website generation started at 7:30:59 PM
+2019-06-24T11:31:03.127Z - info: Building assets...
+2019-06-24T11:31:04.634Z - info: Assets built
+2019-06-24T11:31:04.634Z - info: Generating pages...
+2019-06-24T11:32:33.499Z - info: Pages built
+2019-06-24T11:32:55.353Z - info: Website generation complete! Total build time: 116.161s
+2019-06-24T11:32:55.713Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T11:32:55.713Z - info: Press CTRL+C to stop ...
+2019-06-24T11:32:55.748Z - info: Site data built
+2019-06-24T11:33:33.787Z - info: [7:33:33 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\site.json
+2019-06-24T11:33:34.796Z - info: Assets built
+2019-06-24T11:33:45.978Z - info: Website generation started at 7:33:43 PM
+2019-06-24T11:33:48.060Z - info: Building assets...
+2019-06-24T11:33:49.637Z - info: Assets built
+2019-06-24T11:33:49.637Z - info: Generating pages...
+2019-06-24T11:35:21.780Z - info: Pages built
+2019-06-24T11:35:43.355Z - info: Website generation complete! Total build time: 119.386s
+2019-06-24T11:35:43.697Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T11:35:43.697Z - info: Press CTRL+C to stop ...
+2019-06-24T11:35:43.731Z - info: Site data built
+2019-06-24T11:36:26.016Z - info: [7:36:26 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\site.json
+2019-06-24T11:36:27.025Z - info: Assets built
+2019-06-24T11:40:10.595Z - info: Website generation started at 7:40:08 PM
+2019-06-24T11:40:12.710Z - info: Building assets...
+2019-06-24T11:40:14.293Z - info: Assets built
+2019-06-24T11:40:14.293Z - info: Generating pages...
+2019-06-24T11:41:45.390Z - info: Pages built
+2019-06-24T11:42:06.717Z - info: Website generation complete! Total build time: 118.07s
+2019-06-24T11:42:07.075Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T11:42:07.075Z - info: Press CTRL+C to stop ...
+2019-06-24T11:42:07.100Z - info: Site data built
+2019-06-24T11:43:29.841Z - info: [7:43:29 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:43:30.843Z - info: Rebuilding affected source files
+2019-06-24T11:43:30.844Z - info: Rebuilding 2 pages
+2019-06-24T11:43:33.904Z - info: Pages rebuilt
+2019-06-24T11:43:33.924Z - info: Site data built
+2019-06-24T11:49:19.581Z - info: [7:49:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:49:20.583Z - info: Rebuilding affected source files
+2019-06-24T11:49:20.584Z - info: Rebuilding 2 pages
+2019-06-24T11:49:23.473Z - info: Pages rebuilt
+2019-06-24T11:49:23.493Z - info: Site data built
+2019-06-24T11:50:53.559Z - info: [7:50:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:50:53.565Z - info: [7:50:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\admin.md
+2019-06-24T11:50:53.567Z - info: [7:50:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week2\tutorial-cs2103.md
+2019-06-24T11:50:54.561Z - info: Rebuilding affected source files
+2019-06-24T11:50:54.565Z - info: Rebuilding 5 pages
+2019-06-24T11:51:08.244Z - info: Website generation started at 7:51:05 PM
+2019-06-24T11:51:10.442Z - info: Building assets...
+2019-06-24T11:51:12.004Z - info: Assets built
+2019-06-24T11:51:12.004Z - info: Generating pages...
+2019-06-24T11:52:43.561Z - info: Pages built
+2019-06-24T11:53:05.284Z - info: Website generation complete! Total build time: 119.465s
+2019-06-24T11:53:05.620Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T11:53:05.621Z - info: Press CTRL+C to stop ...
+2019-06-24T11:53:05.650Z - info: Site data built
+2019-06-24T11:59:01.316Z - info: [7:59:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T11:59:02.319Z - info: Rebuilding affected source files
+2019-06-24T11:59:02.323Z - info: Rebuilding 2 pages
+2019-06-24T11:59:05.126Z - info: Pages rebuilt
+2019-06-24T11:59:05.153Z - info: Site data built
+2019-06-24T12:00:20.797Z - info: Website generation started at 8:00:18 PM
+2019-06-24T12:00:22.885Z - info: Building assets...
+2019-06-24T12:00:24.417Z - info: Assets built
+2019-06-24T12:00:24.417Z - info: Generating pages...
+2019-06-24T12:01:54.534Z - info: Pages built
+2019-06-24T12:02:15.937Z - info: Website generation complete! Total build time: 117.128s
+2019-06-24T12:02:16.277Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T12:02:16.277Z - info: Press CTRL+C to stop ...
+2019-06-24T12:02:16.302Z - info: Site data built
+2019-06-24T12:03:31.923Z - info: [8:03:31 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T12:03:32.924Z - info: Rebuilding affected source files
+2019-06-24T12:03:32.926Z - info: Rebuilding 2 pages
+2019-06-24T12:03:35.573Z - info: Pages rebuilt
+2019-06-24T12:03:35.601Z - info: Site data built
+2019-06-24T12:05:12.846Z - info: [8:05:12 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T12:05:13.846Z - info: Rebuilding affected source files
+2019-06-24T12:05:13.847Z - info: Rebuilding 2 pages
+2019-06-24T12:05:24.709Z - info: Website generation started at 8:05:22 PM
+2019-06-24T12:05:26.779Z - info: Building assets...
+2019-06-24T12:05:28.342Z - info: Assets built
+2019-06-24T12:05:28.343Z - info: Generating pages...
+2019-06-24T12:06:57.536Z - info: Pages built
+2019-06-24T12:07:19.174Z - info: Website generation complete! Total build time: 116.351s
+2019-06-24T12:07:19.532Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T12:07:19.532Z - info: Press CTRL+C to stop ...
+2019-06-24T12:07:19.561Z - info: Site data built
+2019-06-24T12:09:09.623Z - info: [8:09:09 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T12:09:10.625Z - info: Rebuilding affected source files
+2019-06-24T12:09:10.629Z - info: Rebuilding 2 pages
+2019-06-24T12:11:37.432Z - info: Website generation started at 8:11:35 PM
+2019-06-24T12:11:39.567Z - info: Building assets...
+2019-06-24T12:11:41.115Z - info: Assets built
+2019-06-24T12:11:41.116Z - info: Generating pages...
+2019-06-24T12:13:12.611Z - info: Pages built
+2019-06-24T12:13:34.322Z - info: Website generation complete! Total build time: 118.871s
+2019-06-24T12:13:34.661Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T12:13:34.661Z - info: Press CTRL+C to stop ...
+2019-06-24T12:13:34.685Z - info: Site data built
+2019-06-24T12:18:50.464Z - info: [8:18:50 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T12:18:51.466Z - info: Rebuilding affected source files
+2019-06-24T12:18:51.468Z - info: Rebuilding 2 pages
+2019-06-24T12:18:54.205Z - info: Pages rebuilt
+2019-06-24T12:18:54.228Z - info: Site data built
+2019-06-24T12:20:37.909Z - info: [8:20:37 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T12:20:38.909Z - info: Rebuilding affected source files
+2019-06-24T12:20:38.911Z - info: Rebuilding 2 pages
+2019-06-24T12:20:41.828Z - info: Pages rebuilt
+2019-06-24T12:20:41.845Z - info: Site data built
+2019-06-24T12:21:43.691Z - info: [8:21:43 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-06-24T12:21:44.693Z - info: Rebuilding affected source files
+2019-06-24T12:21:44.694Z - info: Rebuilding 2 pages
+2019-06-24T12:21:56.010Z - info: Website generation started at 8:21:54 PM
+2019-06-24T12:21:58.043Z - info: Building assets...
+2019-06-24T12:21:59.574Z - info: Assets built
+2019-06-24T12:21:59.574Z - info: Generating pages...
+2019-06-24T12:23:30.596Z - info: Pages built
+2019-06-24T12:23:52.160Z - info: Website generation complete! Total build time: 118.136s
+2019-06-24T12:23:52.511Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-06-24T12:23:52.511Z - info: Press CTRL+C to stop ...
+2019-06-24T12:23:52.536Z - info: Site data built
