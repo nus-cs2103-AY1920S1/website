@@ -15,7 +15,7 @@
   </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.1">
+  <meta name="generator" content="MarkBind 2.5.2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 2 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -26,18 +26,19 @@
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
-
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
   <link rel="stylesheet" href="/website/css/main.css">
   <link rel="stylesheet" href="/website/css/schedule.css">
   <link rel="icon" href="/website/favicon.ico">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
-      <navbar placement="top" type="dark">
+      <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
-        <dropdown text="Schedule" class="nav-link">
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
@@ -54,7 +55,8 @@
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-        <dropdown text="Links" class="nav-link">
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -93,7 +95,7 @@
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week2/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
         </ul>
         <p></p>
-        <panel type="seamless" header="**Table of Contents**" expanded>
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
           <ul>
             <li>[<a href="#W2-1">W2.1</a>] <strong>SE: Intro</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
           </ul>
@@ -119,113 +121,103 @@
                   <p><span class="dimmed">[<a href="#W2-2b">W2.2b</a>] <span>Tools → Intellij IDEA →
                       </span></span> <span>Project Setup</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W2-2c">W2.2c</a>] <span>Tools → Intellij IDEA →
-                      </span></span> <span>Code Navigation</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W2-3">W2.3</a>] <strong>Java: Collections</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li>
-                  <p><span class="dimmed">[<a href="#W2-3a">W2.3a</a>] <span>C++ to Java → Collections →
-                      </span></span> <span>The Collections Framework</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W2-3b">W2.3b</a>] <span>C++ to Java → Collections →
-                      </span></span> <span>The <code>ArrayList</code> Class</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W2-3c">W2.3c</a>] <span>C++ to Java → Collections →
-                      </span></span> <span>The <code>HashMap</code> Class</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-              </ul>
-            </small></div>
-          <ul>
-            <li>[<a href="#W2-4">W2.4</a>] <strong>Java: varargs</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W2-4a">W2.4a</a>] <span>Tools → Java →
-                    </span></span> <span>Varargs</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
               </ul>
             </small></div>
           <p></p>
           <ul>
-            <li>[<a href="#W2-5">W2.5</a>] <strong>Automated Testing of Text UIs</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            <li>[<a href="#W2-3">W2.3</a>] <strong>Automated Testing of Text UIs</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
           </ul>
           <div class="indented-level2">
             <small>
               <ul>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-5a">W2.5a</a>] <span>Quality Assurance → Testing → Introduction →
+                  <p><span class="dimmed">[<a href="#W2-3a">W2.3a</a>] <span>Quality Assurance → Testing → Introduction →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-5b">W2.5b</a>] <span>Quality Assurance → Testing → Regression Testing →
+                  <p><span class="dimmed">[<a href="#W2-3b">W2.3b</a>] <span>Quality Assurance → Testing → Regression Testing →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-5c">W2.5c</a>] <span>Quality Assurance → Testing → Test Automation →
+                  <p><span class="dimmed">[<a href="#W2-3c">W2.3c</a>] <span>Quality Assurance → Testing → Test Automation →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-5d">W2.5d</a>] <span>Quality Assurance → Testing → Test Automation →
+                  <p><span class="dimmed">[<a href="#W2-3d">W2.3d</a>] <span>Quality Assurance → Testing → Test Automation →
                       </span></span> <span>Automated Testing of CLI Apps</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
               </ul>
             </small></div>
           <p></p>
           <ul>
-            <li>[<a href="#W2-6">W2.6</a>] <strong>RCS: Revision History</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            <li>[<a href="#W2-4">W2.4</a>] <strong>RCS: Revision History</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
           </ul>
           <div class="indented-level2">
             <small>
               <ul>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6a">W2.6a</a>] <span>Project Management → Revision Control →
+                  <p><span class="dimmed">[<a href="#W2-4a">W2.4a</a>] <span>Project Management → Revision Control →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6b">W2.6b</a>] <span>Project Management → Revision Control →
+                  <p><span class="dimmed">[<a href="#W2-4b">W2.4b</a>] <span>Project Management → Revision Control →
                       </span></span> <span>Repositories</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6c">W2.6c</a>] <span>Tools → Git and GitHub →
+                  <p><span class="dimmed">[<a href="#W2-4c">W2.4c</a>] <span>Tools → Git and GitHub →
                       </span></span> <span>Init</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6d">W2.6d</a>] <span>Project Management → Revision Control →
+                  <p><span class="dimmed">[<a href="#W2-4d">W2.4d</a>] <span>Project Management → Revision Control →
                       </span></span> <span>Saving History</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6e">W2.6e</a>] <span>Tools → Git and GitHub →
+                  <p><span class="dimmed">[<a href="#W2-4e">W2.4e</a>] <span>Tools → Git and GitHub →
                       </span></span> <span>Commit</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6f">W2.6f</a>] <span>Tools → Git and GitHub →
+                  <p><span class="dimmed">[<a href="#W2-4f">W2.4f</a>] <span>Tools → Git and GitHub →
                       </span></span> <span>Ignore</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6g">W2.6g</a>] <span>Project Management → Revision Control →
+                  <p><span class="dimmed">[<a href="#W2-4g">W2.4g</a>] <span>Project Management → Revision Control →
                       </span></span> <span>Using History</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6h">W2.6h</a>] <span>Tools → Git and GitHub →
-                      </span></span> <span>Checkout</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W2-6i">W2.6i</a>] <span>Tools → Git and GitHub →
+                  <p><span class="dimmed">[<a href="#W2-4h">W2.4h</a>] <span>Tools → Git and GitHub →
                       </span></span> <span>Tag</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W2-6j">W2.6j</a>] <span>Tools → Git and GitHub →
+                  <p><span class="dimmed">[<a href="#W2-4i">W2.4i</a>] <span>Tools → Git and GitHub →
+                      </span></span> <span>Checkout</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-4j">W2.4j</a>] <span>Tools → Git and GitHub →
                       </span></span> <span>Stash</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+              </ul>
+            </small></div>
+          <ul>
+            <li>[<a href="#W2-5">W2.5</a>] <strong>RCS: Remote Repos</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+          </ul>
+          <div class="indented-level2">
+            <small>
+              <ul>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-5a">W2.5a</a>] <span>Project Management → Revision Control →
+                      </span></span> <span>Remote Repositories</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-5b">W2.5b</a>] <span>Tools → Git and GitHub →
+                      </span></span> <span>Clone</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-5c">W2.5c</a>] <span>Tools → Git and GitHub →
+                      </span></span> <span>Pull</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                </li>
+                <li>
+                  <p><span class="dimmed">[<a href="#W2-5d">W2.5d</a>] <span>Tools → Git and GitHub →
+                      </span></span> <span>Push</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
               </ul>
             </small></div>
@@ -236,14 +228,16 @@
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W2.1]</span> <big><big><strong>SE: Intro</strong></big></big></big> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+              <h2 id="w2-1-se-intro"><span class="dimmed">[W2.1]</span> <strong>SE: Intro</strong> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w2-1-se-intro"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
             <p><span id="W2-1a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.1a]</span></span> <span class="dimmed"><strong><span>Software Engineering → Introduction →
-                      </span></strong></span> <strong><big><big><span>Pros and Cons</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.1a</span></span> <span class="dimmed"><strong><span>Software Engineering → Introduction →
+                          </span></strong></span></small> <strong><span>Pros and Cons</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -466,14 +460,16 @@
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W2.2]</span> <big><big><strong>IDEs: Basic Features</strong></big></big></big> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+              <h2 id="w2-2-ides-basic-features"><span class="dimmed">[W2.2]</span> <strong>IDEs: Basic Features</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w2-2-ides-basic-features"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
             <p><span id="W2-2a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.2a]</span></span> <span class="dimmed"><strong><span>Implementation → IDEs →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.2a</span></span> <span class="dimmed"><strong><span>Implementation → IDEs →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -535,8 +531,10 @@
             </panel>
             <p><span id="W2-2b"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.2b]</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
-                      </span></strong></span> <strong><big><big><span>Project Setup</span></big></big></strong></span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.2b</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
+                          </span></strong></span></small> <strong><span>Project Setup</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -552,17 +550,13 @@
                         <ul>
                           <li><a href="https://www.jetbrains.com/help/idea/creating-running-and-packaging-your-first-java-application.html">[Intellij Official Tutorial] <strong>Creating, Running and Packaging Your First Java Application</strong></a></li>
                         </ul>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
                       </tab>
                         <tab header="<md>:glyphicon-facetime-video:</md>">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/c0efB_CKOYo" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                         <p>A little bit more detailed explanation <span class="dimmed">(from CodeLaunch)</span> with some additional info at the end.</p>
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/S764o0mAXhg" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
                       </tab>
                     </tabs>
                     <h5 id="importing-a-project-to-intellij-idea">Importing a Project to Intellij IDEA<a class="fa fa-anchor" href="#importing-a-project-to-intellij-idea"></a></h5>
@@ -572,546 +566,23 @@
                 </div>
               </div>
             </panel>
-            <p><span id="W2-2c"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.2c]</span></span> <span class="dimmed"><strong><span>Tools → Intellij IDEA →
-                      </span></strong></span> <strong><big><big><span>Code Navigation</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can navigate code effectively using IDE features</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p>Some useful navigation shortcuts:</p>
-                    <ol>
-                      <li>Quickly locate a file by name.</li>
-                      <li>Go to the definition of a method from where it is used.</li>
-                      <li>Go back to the previous location.</li>
-                      <li>View the documentation of a method from where the method is being used, without navigating to the method itself.</li>
-                      <li>Find where a method/field is being used.</li>
-                    </ol>
-                    <panel header="Intellij IDEA Code Navigation (Basics)" alt="basics" expanded>
-                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/f885wy42IcM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                    </panel>
-                    <panel header="Intellij IDEA Code Navigation (Advanced)" alt="basics">
-                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/IiHZPvmVICg" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                    </panel>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </panel>
           </div>
         </panel>
+        <p></p>
         <p><span id="W2-3"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W2.3]</span> <big><big><strong>Java: Collections</strong></big></big></big> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
+              <h2 id="w2-3-automated-testing-of-text-uis"><span class="dimmed">[W2.3]</span> <strong>Automated Testing of Text UIs</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w2-3-automated-testing-of-text-uis"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
             <p><span id="W2-3a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.3a]</span></span> <span class="dimmed"><strong><span>C++ to Java → Collections →
-                      </span></strong></span> <strong><big><big><span>The Collections Framework</span></big></big></strong></span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Collections framework</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p>This section uses extracts from the <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small>, with some adaptations.</p>
-                    <p><strong>A <em>collection</em> — sometimes called a <em>container</em> — is simply an object that groups multiple elements into a single unit.</strong> Collections are used to store, retrieve, manipulate, and communicate aggregate data.</p>
-                    <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Typically, collections represent data items that form a natural group, such as a poker hand (a collection of cards), a mail folder (a collection of letters), or a telephone directory (a mapping of names to phone numbers).</p>
-                    </box>
-                    <p><strong>The collections framework is a unified architecture for representing and manipulating collections.</strong> It contains the following:</p>
-                    <ul>
-                      <li>
-                        <p><strong>Interfaces</strong>: These are abstract data types that represent collections. Interfaces allow collections to be manipulated independently of the details of their representation.<br>
-                          <span class="dimmed"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: the <code>List&lt;E&gt;</code> interface can be used to manipulate list-like collections which may be implemented in different ways such as <code>ArrayList&lt;E&gt;</code> or <code>LinkedList&lt;E&gt;</code>.</span><br></p>
-                      </li>
-                      <li>
-                        <p><strong>Implementations</strong>: These are the concrete implementations of the collection interfaces. In essence, they are reusable data structures.<br>
-                          <span class="dimmed"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: the <code>ArrayList&lt;E&gt;</code> class implements the <code>List&lt;E&gt;</code> interface while the <code>HashMap&lt;K, V&gt;</code> class implements the <code>Map&lt;K, V&gt;</code> interface.</span><br></p>
-                      </li>
-                      <li>
-                        <p><strong>Algorithms</strong>: These are the methods that perform useful computations, such as <em>searching</em> and <em>sorting</em>, on objects that implement collection interfaces. The algorithms are said to be polymorphic: that is, the same method can be used on many different implementations of the appropriate collection interface.<br>
-                          <span class="dimmed"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: the <code>sort(List&lt;E&gt;)</code> method can sort a collection that implements the <code>List&lt;E&gt;</code> interface.</span></p>
-                      </li>
-                    </ul>
-                    <p><span style="opacity: 0.5"> <span class="badge badge-pill badge-success"><span><span aria-hidden="true" class="fas fa-equals"></span></span></span></span> <strong>A well-known example of collections frameworks is the C++ <em>Standard Template Library (STL)</em></strong>. <span style="opacity: 0.5"> <span class="badge badge-pill badge-danger"><span><span aria-hidden="true" class="fas fa-not-equal"></span></span></span></span> Although both are collections frameworks and the syntax look similar, note that there are important philosophical and implementation differences between the two.</p>
-                    <p>The following list describes the core collection interfaces:</p>
-                    <ul>
-                      <li>
-                        <p><strong><code>Collection</code></strong> — the root of the collection hierarchy. A collection represents a group of objects known as its elements. The Collection interface is the least common denominator that all collections implement and is used to pass collections around and to manipulate them when maximum generality is desired. Some types of collections allow duplicate elements, and others do not. Some are ordered and others are unordered. The Java platform doesn't provide any direct implementations of this interface but provides implementations of more specific subinterfaces, such as <code>Set</code> and <code>List</code>. <span class="dimmed">Also see the <a href="https://docs.oracle.com/javase/9/docs/api/java/util/Collection.html"><code>Collection</code> API</a>.</span></p>
-                      </li>
-                      <li>
-                        <p><strong><code>Set</code></strong> — a collection that cannot contain duplicate elements. This interface models the mathematical set abstraction and is used to represent sets, such as the cards comprising a poker hand, the courses making up a student's schedule, or the processes running on a machine. <span class="dimmed">Also see the <a href="https://docs.oracle.com/javase/9/docs/api/java/util/Set.html"><code>Set</code> API</a>.</span></p>
-                      </li>
-                      <li>
-                        <p><strong><code>List</code></strong> — an ordered collection (sometimes called a <em>sequence</em>). <code>List</code>s can contain duplicate elements. The user of a <code>List</code> generally has precise control over where in the list each element is inserted and can access elements by their integer index (position). <span class="dimmed">Also see the <a href="https://docs.oracle.com/javase/9/docs/api/java/util/List.html"><code>List</code> API</a>.</span></p>
-                      </li>
-                      <li>
-                        <p><strong><code>Queue</code></strong> — a collection used to hold multiple elements prior to processing. Besides basic <code>Collection</code> operations, a <code>Queue</code> provides additional insertion, extraction, and inspection operations. <span class="dimmed">Also see the <a href="https://docs.oracle.com/javase/9/docs/api/java/util/Queue.html"><code>Queue</code> API</a>.</span></p>
-                      </li>
-                      <li>
-                        <p><strong><code>Map</code></strong> — an object that maps keys to values. A <code>Map</code> cannot contain duplicate keys; each key can map to at most one value. <span class="dimmed">Also see the <a href="https://docs.oracle.com/javase/9/docs/api/java/util/Map.html"><code>Map</code> API</a>.</span></p>
-                      </li>
-                      <li>
-                        <p>Others: <code>Deque</code>, <code>SortedSet</code>, <code>SortedMap</code></p>
-                      </li>
-                    </ul>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </panel>
-            <p><span id="W2-3b"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.3b]</span></span> <span class="dimmed"><strong><span>C++ to Java → Collections →
-                      </span></strong></span> <strong><big><big><span>The <code>ArrayList</code> Class</span></big></big></strong></span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the ArrayList class</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p>The <code>ArrayList</code> class is a resizable-array implementation of the <code>List</code> interface. Unlike a normal <code>array</code>, an <code>ArrayList</code> can grow in size as you add more items to it. The example below illustrate some of the useful methods of the <code>ArrayList</code> class using an <code>ArrayList</code> of <code>String</code> objects.</p>
-                    <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.ArrayList;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ArrayListDemo</span> </span>{
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String args[])</span> </span>{
-        ArrayList&lt;String&gt; items = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
-
-        System.out.println(<span class="hljs-string">"Before adding any items:"</span> + items);
-
-        items.add(<span class="hljs-string">"Apple"</span>);
-        items.add(<span class="hljs-string">"Box"</span>);
-        items.add(<span class="hljs-string">"Cup"</span>);
-        items.add(<span class="hljs-string">"Dart"</span>);
-        print(<span class="hljs-string">"After adding four items: "</span> + items);
-
-        items.remove(<span class="hljs-string">"Box"</span>); <span class="hljs-comment">// remove item "Box"</span>
-        print(<span class="hljs-string">"After removing Box: "</span> + items);
-
-        items.add(<span class="hljs-number">1</span>, <span class="hljs-string">"Banana"</span>); <span class="hljs-comment">// add "Banana" at index 1</span>
-        print(<span class="hljs-string">"After adding Banana: "</span> + items);
-
-        items.add(<span class="hljs-string">"Egg"</span>); <span class="hljs-comment">// add "Egg", will be added to the end</span>
-        items.add(<span class="hljs-string">"Cup"</span>); <span class="hljs-comment">// add another "Cup"</span>
-        print(<span class="hljs-string">"After adding Egg: "</span> + items);
-
-        print(<span class="hljs-string">"Number of items: "</span> + items.size());
-
-        print(<span class="hljs-string">"Index of Cup: "</span> + items.indexOf(<span class="hljs-string">"Cup"</span>));
-        print(<span class="hljs-string">"Index of Zebra: "</span> + items.indexOf(<span class="hljs-string">"Zebra"</span>));
-
-        print(<span class="hljs-string">"Item at index 3 is: "</span> + items.get(<span class="hljs-number">2</span>));
-
-        print(<span class="hljs-string">"Do we have a Box?: "</span> + items.contains(<span class="hljs-string">"Box"</span>));
-        print(<span class="hljs-string">"Do we have an Apple?: "</span> + items.contains(<span class="hljs-string">"Apple"</span>));
-
-        items.clear();
-        print(<span class="hljs-string">"After clearing: "</span> + items);
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">(String text)</span> </span>{
-        System.out.println(text);
-    }
-}
-</code></pre>
-                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                    <pre><code class="hljs">Before adding any items:[]
-After adding four items: [Apple, Box, Cup, Dart]
-After removing Box: [Apple, Cup, Dart]
-After adding Banana: [Apple, Banana, Cup, Dart]
-After adding Egg: [Apple, Banana, Cup, Dart, Egg, Cup]
-Number of items: 6
-Index of Cup: 2
-Index of Zebra: -1
-Item at index 3 is: Cup
-Do we have a Box?: false
-Do we have an Apple?: true
-After clearing: []
-</code></pre>
-                    <p><small>[<a href="https://repl.it/@seedu/Demo-ArrayList">Try the above code on Repl.it</a>]</small></p>
-                  </div>
-                  <div>
-                    <div>
-                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
-                        <div>
-                          <ul>
-                            <li><a href="https://docs.oracle.com/javase/9/docs/api/java/util/ArrayList.html"><code>ArrayList</code> API</a></li>
-                            <li><a href="https://beginnersbook.com/2013/12/java-arraylist/">A tutorial on ArrayLists</a> from <a href="http://beginnersbook.com">beginnersbook.com</a></li>
-                          </ul>
-                        </div>
-                      </panel>
-                    </div>
-                    <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
-                        <div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> Numbers list">
-                              <question>
-                                <p>Add the missing methods to the class given below so that it produces the output given.</p>
-                                <p>💡 Use an <code>ArrayList</code> to store the numbers.</p>
-                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-
-    <span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> add your methods here</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        System.out.println(<span class="hljs-string">"Adding numbers to the list"</span>);
-        addNumber(<span class="hljs-number">3</span>);
-        addNumber(<span class="hljs-number">8</span>);
-        addNumber(<span class="hljs-number">24</span>);
-        System.out.println(<span class="hljs-string">"The total is: "</span> + getTotal());
-        System.out.println(<span class="hljs-string">"8 in the list : "</span> + isFound(<span class="hljs-number">8</span>) );
-        System.out.println(<span class="hljs-string">"5 in the list : "</span> + isFound(<span class="hljs-number">5</span>) );
-        removeNumber(<span class="hljs-number">8</span>);
-        System.out.println(<span class="hljs-string">"The total is: "</span> + getTotal());
-    }
-
-}
-</code></pre>
-                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                <pre><code class="hljs">Adding numbers to the list
-[3]
-[3, 8]
-[3, 8, 24]
-The total is: 35
-8 in the list : true
-5 in the list : false
-[3, 24]
-The total is: 27
-</code></pre>
-                                <div slot="hint">
-                                  <p>Partial solution:</p>
-                                  <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.ArrayList;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> ArrayList&lt;Integer&gt; numbers = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addNumber</span><span class="hljs-params">(<span class="hljs-keyword">int</span> i)</span> </span>{
-        numbers.add(Integer.valueOf(i));
-        System.out.println(numbers);
-    }
-
-    <span class="hljs-comment">// ...</span>
-
-}
-</code></pre>
-                                </div>
-                              </question>
-                            </panel>
-                          </div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 4 - **Use `Collections`**">
-                              <div id="body">
-                                <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
-                                </p>
-                                <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-3</code> exercises quoted above.</span></p>
-                                <div id="main">
-                                  <p>Enhance the TaskManager in the following ways:</p>
-                                  <ol>
-                                    <li>Use a suitable Collection class to store tasks, instead of using an array.</li>
-                                    <li>Introduce a <code>done n</code> command to mark the task at index <code>n</code> as done.</li>
-                                  </ol>
-                                  <p>Here is an example output: <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                  <box>
-                                    <div class="text-monospace">
-                                      <p>Welcome to TaskManager-Level4!
-                                        <br>Your task? todo read book
-                                        <br>Tasks in the list: 1
-                                        <br>Your task? deadline return book /by Friday
-                                        <br>Tasks in the list: 2
-                                        <br>Your task? print
-                                        <br>Tasks:
-                                        <br>[1] description: read book
-                                        <br> is done? No
-                                        <br>[2] description: return book
-                                        <br> is done? No
-                                        <br> do by: Friday
-                                        <br>Your task? <mark>done 1</mark>
-                                        <br>Tasks in the list: 2
-                                        <br>Your task? print
-                                        <br>Tasks:
-                                        <br>[1] description: read book
-                                        <br> is done? <mark>Yes</mark>
-                                        <br>[2] description: return book
-                                        <br> is done? No
-                                        <br> do by: Friday
-                                        <br>Your task?</p>
-                                    </div>
-                                  </box>
-                                  <p>Suggestions:</p>
-                                  <ul>
-                                    <li>Move the <code>isDone</code> variable to the <code>Task</code> class and provide a <code>setDone(boolean)</code> method.</li>
-                                  </ul>
-                                  <panel type="seamless" header="Partial solution">
-                                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
-    <span class="hljs-keyword">protected</span> String description;
-    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
-
-    <span class="hljs-comment">// ...</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setDone</span><span class="hljs-params">(<span class="hljs-keyword">boolean</span> isDone)</span></span>{
-        <span class="hljs-keyword">this</span>.isDone = isDone;
-    }
-}
-</code></pre>
-                                    <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.ArrayList;
-<span class="hljs-keyword">import</span> java.util.List;
-<span class="hljs-keyword">import</span> java.util.Scanner;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-    <span class="hljs-keyword">static</span> Scanner in = <span class="hljs-keyword">new</span> Scanner(System.in);
-    <span class="hljs-keyword">static</span> List&lt;Task&gt; tasks = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        <span class="hljs-comment">// ...</span>
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addTodo</span><span class="hljs-params">(String line)</span> <span class="hljs-keyword">throws</span> TaskManagerException </span>{
-        <span class="hljs-comment">//...</span>
-        tasks.add(<span class="hljs-keyword">new</span> Todo(description));
-        <span class="hljs-comment">//...</span>
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">markAsDone</span><span class="hljs-params">(String line)</span> </span>{
-        <span class="hljs-keyword">int</span> index = Integer.parseInt(line.substring(<span class="hljs-string">"done"</span>.length()).trim());
-        tasks.get(index - <span class="hljs-number">1</span>).setDone(<span class="hljs-keyword">true</span>);
-        System.out.println(<span class="hljs-string">"Tasks in the list: "</span> + tasks.size());
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTasks</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-comment">// ...</span>
-        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; tasks.size(); i++) {
-            System.out.println(<span class="hljs-string">"["</span> + (i + <span class="hljs-number">1</span>) + <span class="hljs-string">"] "</span> + tasks.get(i));
-        }
-    }
-}
-</code></pre>
-                                  </panel>
-                                </div>
-                              </div>
-                            </panel>
-                          </div>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </panel>
-            <p><span id="W2-3c"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.3c]</span></span> <span class="dimmed"><strong><span>C++ to Java → Collections →
-                      </span></strong></span> <strong><big><big><span>The <code>HashMap</code> Class</span></big></big></strong></span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the HashMap class</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p><code>HashMap</code> is an implementation of the <code>Map</code> interface. It allows you to store a collection of <em>key-value pairs</em>. The example below illustrates how to use a <code>HashMap&lt;String, Point&gt;</code> to maintain a list of coordinates and their identifiers e.g., the identifier <code>x1</code> is used to identify the point <code>0,0</code> where <code>x1</code> is the <em>key</em> and <code>0,0</code> is the <em>value</em>.</p>
-                    <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.awt.Point;
-<span class="hljs-keyword">import</span> java.util.HashMap;
-<span class="hljs-keyword">import</span> java.util.Map;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HashMapDemo</span> </span>{
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        HashMap&lt;String, Point&gt; points = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
-
-        <span class="hljs-comment">// put the key-value pairs in the HashMap</span>
-        points.put(<span class="hljs-string">"x1"</span>, <span class="hljs-keyword">new</span> Point(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>));
-        points.put(<span class="hljs-string">"x2"</span>, <span class="hljs-keyword">new</span> Point(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>));
-        points.put(<span class="hljs-string">"x3"</span>, <span class="hljs-keyword">new</span> Point(<span class="hljs-number">5</span>, <span class="hljs-number">5</span>));
-        points.put(<span class="hljs-string">"x4"</span>, <span class="hljs-keyword">new</span> Point(<span class="hljs-number">5</span>, <span class="hljs-number">0</span>));
-
-        <span class="hljs-comment">// retrieve a value for a key using the get method</span>
-        print(<span class="hljs-string">"Coordinates of x1: "</span> + pointAsString(points.get(<span class="hljs-string">"x1"</span>)));
-
-        <span class="hljs-comment">// check if a key or a value exists</span>
-        print(<span class="hljs-string">"Key x1 exists? "</span> + points.containsKey(<span class="hljs-string">"x1"</span>));
-        print(<span class="hljs-string">"Key x1 exists? "</span> + points.containsKey(<span class="hljs-string">"y1"</span>));
-        print(<span class="hljs-string">"Value (0,0) exists? "</span> + points.containsValue(<span class="hljs-keyword">new</span> Point(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>)));
-        print(<span class="hljs-string">"Value (1,2) exists? "</span> + points.containsValue(<span class="hljs-keyword">new</span> Point(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>)));
-
-        <span class="hljs-comment">// update the value of a key to a new value</span>
-        points.put(<span class="hljs-string">"x1"</span>, <span class="hljs-keyword">new</span> Point(-<span class="hljs-number">1</span>,-<span class="hljs-number">1</span>));
-
-        <span class="hljs-comment">// iterate over the entries</span>
-        <span class="hljs-keyword">for</span> (Map.Entry&lt;String, Point&gt; entry : points.entrySet()) {
-            print(entry.getKey() + <span class="hljs-string">" = "</span> + pointAsString(entry.getValue()));
-        }
-
-        print(<span class="hljs-string">"Number of keys: "</span> + points.size());
-        points.clear();
-        print(<span class="hljs-string">"Number of keys after clearing: "</span> + points.size());
-
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String <span class="hljs-title">pointAsString</span><span class="hljs-params">(Point p)</span> </span>{
-        <span class="hljs-keyword">return</span> <span class="hljs-string">"["</span> + p.x + <span class="hljs-string">","</span> + p.y + <span class="hljs-string">"]"</span>;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">(String s)</span> </span>{
-        System.out.println(s);
-    }
-}
-</code></pre>
-                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                    <pre><code class="hljs">Coordinates of x1: [0,0]
-Key x1 exists? true
-Key x1 exists? false
-Value (0,0) exists? true
-Value (1,2) exists? false
-x1 = [-1,-1]
-x2 = [0,5]
-x3 = [5,5]
-x4 = [5,0]
-Number of keys: 4
-Number of keys after clearing: 0
-</code></pre>
-                    <p><small>[<a href="https://repl.it/@seedu/Demo-HashMap">Try the above code on Repl.it</a>]</small></p>
-                  </div>
-                  <div>
-                    <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
-                        <div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> Weekly roster">
-                              <question>
-                                <p>The class given below keeps track of how many people signup to attend an event on each day of the week. Add the missing methods so that it produces the output given.</p>
-                                <p>💡 Use an <code>HashMap</code> to store the number of entries for each day.</p>
-                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> HashMap&lt;String, Integer&gt; roster = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
-
-    <span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> add your methods here</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        addToRoster(<span class="hljs-string">"Monday"</span>); <span class="hljs-comment">// i.e., one person signed up for Monday</span>
-        addToRoster(<span class="hljs-string">"Wednesday"</span>); <span class="hljs-comment">// i.e., one person signed up for Wednesday</span>
-        addToRoster(<span class="hljs-string">"Wednesday"</span>); <span class="hljs-comment">// i.e., another person signed up for Wednesday</span>
-        addToRoster(<span class="hljs-string">"Friday"</span>);
-        addToRoster(<span class="hljs-string">"Monday"</span>);
-        printRoster();
-    }
-
-}
-</code></pre>
-                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                <pre><code class="hljs">Monday =&gt; 2
-Friday =&gt; 1
-Wednesday =&gt; 2
-</code></pre>
-                                <div slot="hint">
-                                  <p>Partial solution:</p>
-                                  <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.HashMap;
-<span class="hljs-keyword">import</span> java.util.Map;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> HashMap&lt;String, Integer&gt; roster = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addToRoster</span><span class="hljs-params">(String day)</span> </span>{
-        <span class="hljs-keyword">if</span> (roster.containsKey(day)){
-            Integer newValue = Integer.valueOf(roster.get(day).intValue() + <span class="hljs-number">1</span>);
-            roster.put(day, newValue);
-        } <span class="hljs-keyword">else</span> {
-            roster.put(day, Integer.valueOf(<span class="hljs-number">1</span>));
-        }
-    }
-
-    <span class="hljs-comment">// ...</span>
-}
-</code></pre>
-                                </div>
-                              </question>
-                            </panel>
-                          </div>
-                        </div>
-                      </panel>
-                    </div>
-                    <div>
-                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
-                        <div>
-                          <ul>
-                            <li><a href="https://docs.oracle.com/javase/9/docs/api/java/util/HashMap.html"><code>HashMap</code> API</a></li>
-                            <li><a href="https://www.journaldev.com/11560/java-hashmap">A tutorial on HashMaps</a> from <a href="http://journaldev.com">journaldev.com</a></li>
-                          </ul>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </panel>
-          </div>
-        </panel>
-        <p><span id="W2-4"></span></p>
-        <panel type="seamless" no-close expandable="true" expanded>
-          <span slot="header" class="card-title">
-            <div>
-              <p><big> <span class="dimmed">[W2.4]</span> <big><big><strong>Java: varargs</strong></big></big></big> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
-            </div>
-          </span>
-          <div class="indented-level1">
-            <p><span id="W2-4a"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.4a]</span></span> <span class="dimmed"><strong><span>Tools → Java →
-                      </span></strong></span> <strong><big><big><span>Varargs</span></big></big></strong></span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java varargs feature</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
-                    <ul>
-                      <li><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/language/varargs.html">Java Varargs feature (from Oracle.com)</a></li>
-                      <li><a href="https://www.javatpoint.com/varargs">Java Varargs tutorial (for javaTpoint.com)</a></li>
-                    </ul>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </panel>
-          </div>
-        </panel>
-        <p></p>
-        <p><span id="W2-5"></span></p>
-        <panel type="seamless" no-close expandable="true" expanded>
-          <span slot="header" class="card-title">
-            <div>
-              <p><big> <span class="dimmed">[W2.5]</span> <big><big><strong>Automated Testing of Text UIs</strong></big></big></big> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-            </div>
-          </span>
-          <div class="indented-level1">
-            <p><span id="W2-5a"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.5a]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Introduction →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.3a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Introduction →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1191,10 +662,12 @@ Wednesday =&gt; 2
                 </div>
               </div>
             </panel>
-            <p><span id="W2-5b"></span></p>
+            <p><span id="W2-3b"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.5b]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Regression Testing →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.3b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Regression Testing →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1240,10 +713,12 @@ Wednesday =&gt; 2
                 </div>
               </div>
             </panel>
-            <p><span id="W2-5c"></span></p>
+            <p><span id="W2-3c"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.5c]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.3c</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1256,15 +731,11 @@ Wednesday =&gt; 2
                     <tabs>
                         <tab header="<md>:far-file-alt:</md>">
                         <p><strong>An automated test case can be run programmatically and the result of the test case (pass or fail) is determined programmatically.</strong> Compared to manual testing, automated testing reduces the effort required to run tests repeatedly and increases precision of testing (because manual testing is susceptible to human errors).</p>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
                       </tab>
                         <tab header="<md>:glyphicon-facetime-video:</md>">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/RbSlW8jZFe8?end=79&version=3" frameborder="0" allowfullscreen></iframe>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
                       </tab>
                     </tabs>
                   </div>
@@ -1282,10 +753,12 @@ Wednesday =&gt; 2
                 </div>
               </div>
             </panel>
-            <p><span id="W2-5d"></span></p>
+            <p><span id="W2-3d"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.5d]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
-                      </span></strong></span> <strong><big><big><span>Automated Testing of CLI Apps</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.3d</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Test Automation →
+                          </span></strong></span></small> <strong><span>Automated Testing of CLI Apps</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1375,18 +848,20 @@ Invalid command format: add
           </div>
         </panel>
         <p></p>
-        <p><span id="W2-6"></span></p>
+        <p><span id="W2-4"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W2.6]</span> <big><big><strong>RCS: Revision History</strong></big></big></big> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+              <h2 id="w2-4-rcs-revision-history"><span class="dimmed">[W2.4]</span> <strong>RCS: Revision History</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w2-4-rcs-revision-history"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
-            <p><span id="W2-6a"></span></p>
+            <p><span id="W2-4a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6a]</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4a</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1408,11 +883,9 @@ Invalid command format: add
                           <p>-- [adapted from <trigger trigger="click" for="modal:rcsWhat-bryanMercurialGuide">bryan-mercurial-guide</trigger>
                           </p>
                         </blockquote>
-                        <hr>
                       </tab>
                       <tab header="<md>:glyphicon-facetime-video:</md>">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/M-O8ZNW9icQ" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        <hr>
                       </tab>
                     </tabs>
                     <modal large title="Reference » Mercurial: The Definitive Guide" id="modal:rcsWhat-bryanMercurialGuide">
@@ -1484,10 +957,12 @@ Invalid command format: add
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6b"></span></p>
+            <p><span id="W2-4b"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6b]</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
-                      </span></strong></span> <strong><big><big><span>Repositories</span></big></big></strong></span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4b</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
+                          </span></strong></span></small> <strong><span>Repositories</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1506,11 +981,9 @@ Invalid command format: add
                       <tab header="<md>:far-file-alt:</md>">
                         <p><strong>The <em>repository</em> is the database where the meta-data about the revision history are stored.</strong> Suppose you want to apply revision control on files in a directory called <code>ProjectFoo</code>. In that case you need to set up a <em>repo</em> (short for repository) in <code>ProjectFoo</code> directory, which is referred to as the <em>working directory</em> of the repo. For example, Git uses a hidden folder named <code>.git</code> inside the working directory.</p>
                         <p><strong>You can have multiple repos in your computer</strong>, each repo revision-controlling files of a different working directly, for examples, files of different projects.</p>
-                        <hr>
                       </tab>
                       <tab header="<md>:glyphicon-facetime-video:</md>">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/mLnxwlCEIb8" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        <hr>
                       </tab>
                     </tabs>
                   </div>
@@ -1530,10 +1003,12 @@ Invalid command format: add
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6c"></span></p>
+            <p><span id="W2-4c"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6c]</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                      </span></strong></span> <strong><big><big><span>Init</span></big></big></strong></span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4c</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Init</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div>
@@ -1566,7 +1041,6 @@ Invalid command format: add
                           <p>Go to the <code>things</code> folder and observe how a hidden folder <code>.git</code> has been created.</p>
                           <p>Note: If you are on Windows, you might have to <a href="https://www.howtogeek.com/howto/windows-vista/show-hidden-files-and-folders-in-windows-vista/">configure Windows Explorer to show hidden files</a>.</p>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -1594,7 +1068,6 @@ Initialized empty Git repository in c:/repos/things/.git/
 nothing to commit (create/copy files and use &quot;git add&quot; to track)
 </code></pre>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                   </div>
@@ -1602,10 +1075,12 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6d"></span></p>
+            <p><span id="W2-4d"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6d]</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
-                      </span></strong></span> <strong><big><big><span>Saving History</span></big></big></strong></span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4d</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
+                          </span></strong></span></small> <strong><span>Saving History</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1622,15 +1097,11 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
                         <tab header="<md>:far-file-alt:</md>">
                         <p><strong><mark><em>Committing</em></mark> saves a snapshot of the current state of the tracked files in the revision control history. Such a snapshot is also called a <em>commit</em> (i.e. the noun).</strong></p>
                         <p><strong>When ready to commit, we first <mark><em>stage</em></mark> the specific changes we want to commit.</strong> This intermediate step allows us to commit only some changes while saving other changes for a later commit.</p>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
                       </tab>
                         <tab header="<md>:glyphicon-facetime-video:</md>">
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/7exFDGHgQcw" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
                       </tab>
                     </tabs>
                     <h5 id="identifying-points-in-history">Identifying Points in History<a class="fa fa-anchor" href="#identifying-points-in-history"></a></h5>
@@ -1641,10 +1112,12 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6e"></span></p>
+            <p><span id="W2-4e"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6e]</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                      </span></strong></span> <strong><big><big><span>Commit</span></big></big></strong></span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4e</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Commit</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div>
@@ -1673,7 +1146,6 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
                           <img src="/website/book/gitAndGithub/commit/images/sourcetree_1.png" height="220">
                           <p></p>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -1692,7 +1164,6 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
 nothing added to commit but untracked files present (use <span class="hljs-string">"git add"</span> to track)
 </code></pre>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                     <p>Although git has detected the file in the working directory, it will not do anything with the file unless you tell it to. Suppose we want to commit the current state of the file. First, we should stage the file.</p>
@@ -1716,7 +1187,6 @@ nothing added to commit but untracked files present (use <span class="hljs-strin
                           <img src="/website/book/gitAndGithub/commit/images/sourcetree_3.png" height="180">
                           <p></p>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -1736,7 +1206,6 @@ git status
 <span class="hljs-comment">#</span>
 </code></pre>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                     <p>Now, you can commit the staged version of <code>fruits.txt</code></p>
@@ -1747,7 +1216,6 @@ git status
                           <img src="/website/book/gitAndGithub/commit/images/sourcetree_4.png" height="300">
                           <p></p>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -1765,7 +1233,6 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
   Add fruits.txt
 </code></pre>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                     <p>Note the existence of something called the <code>master</code> branch. Git allows you to have multiple branches (i.e. it is a way to evolve the content in parallel) and Git creates a default branch named <code>master</code> on which the commits go on by default.</p>
@@ -1788,10 +1255,12 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6f"></span></p>
+            <p><span id="W2-4f"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6f]</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                      </span></strong></span> <strong><big><big><span>Ignore</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4f</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Ignore</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div>
@@ -1814,7 +1283,6 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                           <pre><code class="hljs">temp.txt
 </code></pre>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -1822,7 +1290,6 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                           <pre><code class="hljs">temp.txt
 </code></pre>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                     <p>The <code>.gitignore</code> file tells Git which files to ignore when tracking revision history. That file itself can be either revision controlled or ignored.</p>
@@ -1835,10 +1302,12 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6g"></span></p>
+            <p><span id="W2-4g"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6g]</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
-                      </span></strong></span> <strong><big><big><span>Using History</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4g</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
+                          </span></strong></span></small> <strong><span>Using History</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1867,10 +1336,59 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6h"></span></p>
+            <p><span id="W2-4h"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6h]</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                      </span></strong></span> <strong><big><big><span>Checkout</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4h</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Tag</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div>
+                    <p>
+                      <panel src="/website/book/revisionControl/savingHistory/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Project Management → Revision Control → Saving History%%" popup-url="/website/book/revisionControl/savingHistory"></panel>
+                    </p>
+                  </div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can tag commits using Git</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Let's tag a commit in a local repo you have (e.g. the <code>sampelrepo-things</code> repo)</p>
+                    <tabs>
+                      <tab header="SourceTree">
+                        <div>
+                          <p>Right-click on the commit (in the graphical revision graph) you want to tag and choose <code>Tag…</code></p>
+                          <p>Specify the tag name e.g. <code>v1.0</code> and click <code>Add Tag</code>.</p>
+                          <p>The added tag will appear in the revision graph view.</p>
+                          <img src="/website/book/gitAndGithub/tag/images/sourcetree_1.png" height="70">
+                          <p></p>
+                        </div>
+                      </tab>
+                      <tab header="CLI">
+                        <div>
+                          <p>To add a tag to the current commit as <code>v1.0</code>,</p>
+                          <pre><code class="hljs">git tag –a v1.0
+</code></pre>
+                          <p>To view tags</p>
+                          <pre><code class="hljs">git tag
+</code></pre>
+                          <p>To learn how to add a tag to a past commit, go to the <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">‘Git Basics – Tagging’ page of the git-scm book</a> and refer the ‘Tagging Later’ section.</p>
+                        </div>
+                      </tab>
+                    </tabs>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-4i"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4i</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Checkout</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div>
@@ -1892,7 +1410,6 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                           <img src="/website/book/gitAndGithub/checkout/images/sourcetree_1.png" height="220">
                           <p></p>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -1919,7 +1436,6 @@ index 15b57f7..17f4528 100644
  cherries
 </code></pre>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                     <p>Git can also show you the difference between two points in the history of the repo.</p>
@@ -1933,7 +1449,6 @@ index 15b57f7..17f4528 100644
                           <img src="/website/book/gitAndGithub/checkout/images/sourcetree_3.png" height="100">
                           <p></p>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -1950,7 +1465,6 @@ index 15b57f7..17f4528 100644
                             </ul>
                           </panel>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                     <p>Git can load a specific version of the history to the working directory. Note that if you have uncommitted changes in the working directory, you need to <trigger trigger="click" for="modal:checkout-stash">stash</trigger> them first to prevent them from being overwritten.</p>
@@ -1970,15 +1484,11 @@ index 15b57f7..17f4528 100644
                               <tabs>
                                   <tab header="Source Tree">
                                   <p>Follow <a href="https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html">this article from SourceTree creators</a>. <span class="dimmed">Note the GUI shown in the article is slightly outdated but you should be able to map it to the current GUI.</span></p>
-                                  <p>
-                                    <hr>
-                                  </p>
+                                  <p></p>
                                 </tab>
                                   <tab header="CLI">
                                   <p>Follow <a href="https://www.atlassian.com/git/tutorials/git-stash">this article from Atlassian</a>.</p>
-                                  <p>
-                                    <hr>
-                                  </p>
+                                  <p></p>
                                 </tab>
                               </tabs>
                             </div>
@@ -2002,7 +1512,6 @@ index 15b57f7..17f4528 100644
                           <p></p>
                           <p>To go back to the latest commit, double-click it.</p>
                         </div>
-                        <hr>
                       </tab>
                       <tab header="CLI">
                         <div>
@@ -2018,7 +1527,6 @@ index 15b57f7..17f4528 100644
                             <li><code>git checkout master</code></li>
                           </ul>
                         </div>
-                        <hr>
                       </tab>
                     </tabs>
                   </div>
@@ -2026,57 +1534,12 @@ index 15b57f7..17f4528 100644
                 </div>
               </div>
             </panel>
-            <p><span id="W2-6i"></span></p>
+            <p><span id="W2-4j"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6i]</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                      </span></strong></span> <strong><big><big><span>Tag</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div>
-                    <p>
-                      <panel src="/website/book/revisionControl/savingHistory/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Project Management → Revision Control → Saving History%%" popup-url="/website/book/revisionControl/savingHistory"></panel>
-                    </p>
-                  </div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can tag commits using Git</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p>Let's tag a commit in a local repo you have (e.g. the <code>sampelrepo-things</code> repo)</p>
-                    <tabs>
-                      <tab header="SourceTree">
-                        <div>
-                          <p>Right-click on the commit (in the graphical revision graph) you want to tag and choose <code>Tag…</code></p>
-                          <p>Specify the tag name e.g. <code>v1.0</code> and click <code>Add Tag</code>.</p>
-                          <p>The added tag will appear in the revision graph view.</p>
-                          <img src="/website/book/gitAndGithub/tag/images/sourcetree_1.png" height="70">
-                          <p></p>
-                        </div>
-                        <hr>
-                      </tab>
-                      <tab header="CLI">
-                        <div>
-                          <p>To add a tag to the current commit as <code>v1.0</code>,</p>
-                          <pre><code class="hljs">git tag –a v1.0
-</code></pre>
-                          <p>To view tags</p>
-                          <pre><code class="hljs">git tag
-</code></pre>
-                          <p>To learn how to add a tag to a past commit, go to the <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">‘Git Basics – Tagging’ page of the git-scm book</a> and refer the ‘Tagging Later’ section.</p>
-                        </div>
-                        <hr>
-                      </tab>
-                    </tabs>
-                  </div>
-                  <div></div>
-                </div>
-              </div>
-            </panel>
-            <p><span id="W2-6j"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W2.6j]</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
-                      </span></strong></span> <strong><big><big><span>Stash</span></big></big></strong></span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.4j</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Stash</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -2090,15 +1553,308 @@ index 15b57f7..17f4528 100644
                     <tabs>
                         <tab header="Source Tree">
                         <p>Follow <a href="https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html">this article from SourceTree creators</a>. <span class="dimmed">Note the GUI shown in the article is slightly outdated but you should be able to map it to the current GUI.</span></p>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
                       </tab>
                         <tab header="CLI">
                         <p>Follow <a href="https://www.atlassian.com/git/tutorials/git-stash">this article from Atlassian</a>.</p>
-                        <p>
-                          <hr>
-                        </p>
+                        <p></p>
+                      </tab>
+                    </tabs>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+          </div>
+        </panel>
+        <p><span id="W2-5"></span></p>
+        <panel type="seamless" no-close expandable="true" expanded>
+          <span slot="header" class="card-title">
+            <div>
+              <h2 id="w2-5-rcs-remote-repos"><span class="dimmed">[W2.5]</span> <strong>RCS: Remote Repos</strong> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w2-5-rcs-remote-repos"></a></h2>
+            </div>
+          </span>
+          <div class="indented-level1">
+            <p><span id="W2-5a"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.5a</span></span> <span class="dimmed"><strong><span>Project Management → Revision Control →
+                          </span></strong></span></small> <strong><span>Remote Repositories</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain remote repositories</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><strong>Remote repositories are copies of a repo that are hosted on remote computers.</strong> They are especially useful for sharing the revision history of a codebase among team members of a multi-person project. <span class="dimmed">They can also serve as a remote backup of your code base.</span></p>
+                    <p><strong>You can <mark><em>clone</em></mark> a remote repo onto your computer</strong> which will create a copy of a remote repo on your computer, including the version history as the remote repo.</p>
+                    <p><strong>You can <mark><em>push</em></mark> new commits in your clone to the remote repo</strong> which will copy the new commits onto the remote repo. Note that pushing to a remote repo requires you to have write-access to it.</p>
+                    <p><strong>You can <mark><em>pull</em></mark> from the remote repos to receive new commits in the remote repo</strong>. Pulling is used to <em>sync</em> your local repo with latest changes to the remote repo.</p>
+                    <p>While it is possible to set up your own remote repo on a server, an easier option is to use a remote repo hosting service such as GitHub or BitBucket.</p>
+                    <p><strong>A <mark><em>fork</em></mark> is a remote copy of a remote repo</strong>. If there is a remote repo that you want to push to but you do not have write access to it, you can fork the remote repo, which gives you your own remote repo that you can push to.</p>
+                    <p><strong>A <mark><em>pull request</em></mark> is mechanism for contributing code to a remote repo.</strong> It is a formal request sent to the maintainers of the repo asking them to pull your new code to their repo.</p>
+                    <div v-closeable alt="slideshow: remote repo scenario" class="non-printable">
+                      <p>Here is a scenario that includes all the concepts introduced above (click on the slide to advance the animation):</p>
+                      <div class="block-embed block-embed-service-powerpoint"><iframe type="text/html" src="https://onedrive.live.com/embed?cid=A5AF047C4CAD67AB&resid=A5AF047C4CAD67AB%212290&authkey=&em=2&action=embedview&wdAr=1.3333333333333333" frameborder="0" width="610" height="481" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-5b"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.5b</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Clone</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div>
+                    <p>
+                      <panel src="/website/book/revisionControl/remoteRepositories/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Project Management → Revision Control → Remote Respositories%%" popup-url="/website/book/revisionControl/remoteRepositories"></panel>
+                    </p>
+                  </div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can clone a remote repo</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
+                    <tip-box type="error">
+                      <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
+                        e.g.</p>
+                      <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
+                        Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
+                    </tip-box>
+                    <tabs>
+                      <tab header="SourceTree">
+                        <div>
+                          <p><code>File</code> → <code>Clone / New…</code> and provide the URL of the repo and the destination directory.</p>
+                        </div>
+                      </tab>
+                      <tab header="CLI">
+                        <div>
+                          <p>You can use the <code>clone</code> command to clone a repo.</p>
+                          <p>Follow instructions given <a href="https://help.github.com/articles/cloning-a-repository/">here</a>.</p>
+                        </div>
+                      </tab>
+                    </tabs>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-5c"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.5c</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Pull</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div>
+                    <p>
+                      <panel src="/website/book/gitAndGithub/clone/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Tools → Git & GitHub → Clone%%" popup-url="/website/book/gitAndGithub/clone"></panel>
+                    </p>
+                  </div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can pull changes from a repo</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>Clone the sample repo as explained in <trigger for="modal:clone-repository" trigger="click">[Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tools → Git &amp; GitHub → Clone]</trigger>.</p>
+                    <p>Delete the last two commits to simulate cloning the repo 2 commits ago.</p>
+                    <modal title="**Clone Repository**" id="modal:clone-repository">
+                      <div>
+                        <panel type="seamless" expanded>
+                          <span slot="header" class="card-title">
+                            <div>
+                              <p>Clone</p>
+                            </div>
+                          </span>
+                          <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can clone a remote repo</span></span></span></span></p>
+                          <p></p>
+                          <p></p>
+                          <p></p>
+                          <div>
+                            <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
+                            <tip-box type="error">
+                              <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
+                                e.g.</p>
+                              <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
+                                Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
+                            </tip-box>
+                            <tabs>
+                              <tab header="SourceTree">
+                                <div>
+                                  <p><code>File</code> → <code>Clone / New…</code> and provide the URL of the repo and the destination directory.</p>
+                                </div>
+                              </tab>
+                              <tab header="CLI">
+                                <div>
+                                  <p>You can use the <code>clone</code> command to clone a repo.</p>
+                                  <p>Follow instructions given <a href="https://help.github.com/articles/cloning-a-repository/">here</a>.</p>
+                                </div>
+                              </tab>
+                            </tabs>
+                          </div>
+                          <div></div>
+                        </panel>
+                      </div>
+                    </modal>
+                    <tabs>
+                      <tab header="SourceTree">
+                        <div>
+                          <p>Right-click the target commit (i.e. the commit that is 2 commits behind the tip) and choose <code>Reset current branch to this commit</code>.</p>
+                          <img src="/website/book/gitAndGithub/pull/images/rightClickOnTargetCommit.png" height="100">
+                          <p></p>
+                          <p>Choose the <code>Hard - …</code> option and click <code>OK</code>.</p>
+                          <img src="/website/book/gitAndGithub/pull/images/sourcetree_1.png" height="120">
+                          <p></p>
+                          <p>This is what you will see.</p>
+                          <img src="/website/book/gitAndGithub/pull/images/sourcetree_2.png" height="150">
+                          <p></p>
+                          <p>Note the following (cross refer the screenshot above):</p>
+                          <p>Arrow marked as <code>a</code>: The local repo is now at this commit, marked by the <code>master</code> label.<br>
+                            Arrow marked as <code>b</code>: <code>origin/master</code> label shows what is the latest commit in the <code>master</code> branch in the remote repo.</p>
+                        </div>
+                      </tab>
+                      <tab header="CLI">
+                        <div>
+                          <p>Use the <code>reset</code> command to delete commits at the tip of the revision history.</p>
+                          <pre><code class="hljs">git reset --hard HEAD~2
+</code></pre>
+                        </div>
+                      </tab>
+                    </tabs>
+                    <p>Now, your local repo state is exactly how it would be if you had cloned the repo 2 commits ago, as if somebody has added two more commits to the remote repo since you cloned it. To get those commits to your local repo (i.e. to sync your local repo with upstream repo) you can do a pull.</p>
+                    <tabs>
+                      <tab header="SourceTree">
+                        <div>
+                          <p>Click the <code>Pull</code> button in the main menu, choose <code>origin</code> and <code>master</code> in the next dialog, and click <code>OK</code>.</p>
+                          <img src="/website/book/gitAndGithub/pull/images/sourcetree_3.png" height="160">
+                          <p></p>
+                          <p>Now you should see something like this where <code>master</code> and <code>origin/master</code> are both pointing the same commit.</p>
+                          <img src="/website/book/gitAndGithub/pull/images/sourcetree_4.png" height="100">
+                          <p></p>
+                        </div>
+                      </tab>
+                      <tab header="CLI">
+                        <div>
+                          <p><code>git pull origin</code></p>
+                        </div>
+                      </tab>
+                    </tabs>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W2-5d"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W2.5d</span></span> <span class="dimmed"><strong><span>Tools → Git and GitHub →
+                          </span></strong></span></small> <strong><span>Push</span></strong></span> <small><small><span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div>
+                    <p>
+                      <panel src="/website/book/gitAndGithub/pull/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Tools → Git & GitHub → Pull%%" popup-url="/website/book/gitAndGithub/pull"></panel>
+                    </p>
+                  </div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can push to a remote repo</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <ol>
+                      <li>
+                        <p>Create a GitHub account if you don't have one yet.</p>
+                      </li>
+                      <li>
+                        <p>Fork the <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your GitHub account:</p>
+                        <panel type="seamless" header="%%How to fork a repo?%%">
+                          <p>Navigate to the on GitHub and click on the <img src="/website/book/gitAndGithub/push/images/fork.png" height="30"> button on the top-right corner.</p>
+                          <p></p>
+                        </panel>
+                        <p></p>
+                      </li>
+                      <li>
+                        <p>Clone the fork (not the original) to your computer.</p>
+                      </li>
+                      <li>
+                        <p>Create some commits in your repo.</p>
+                      </li>
+                      <li>
+                        <p>Push the new commits to your fork on GitHub</p>
+                      </li>
+                    </ol>
+                    <tabs>
+                      <tab header="SourceTree">
+                        <div>
+                          <p>Click the <code>Push</code> button on the main menu, ensure the settings are as follows in the next dialog, and click the <code>Push</code> button on the dialog.</p>
+                          <img src="/website/book/gitAndGithub/push/images/sourcetree_1.png" height="150">
+                          <p></p>
+                        </div>
+                      </tab>
+                      <tab header="CLI">
+                        <div>
+                          <p>Use the command <code>git push origin master</code>. Enter Github username and password when prompted.</p>
+                        </div>
+                      </tab>
+                    </tabs>
+                    <p><strong>To push an existing local repo into a new remote repo on GitHub</strong>, first you need to create an empty remote repo on GitHub.</p>
+                    <ol>
+                      <li>
+                        <p>Login to your GitHub account and choose to create a new Repo. <br>
+                          <img src="/website/book/gitAndGithub/push/images/createNewRemoteRepo.png" width="150"></p>
+                      </li>
+                      <li>
+                        <p>In the next screen, provide a name for your repo but keep the <code>Initialize this repo ...</code> tick box unchecked.<br>
+                          <img src="/website/book/gitAndGithub/push/images/fillNewRepoInfo.png" width="600"></p>
+                      </li>
+                      <li>
+                        <p>Note the URL of the repo. It will be of the form <code>https://github.com/{your_user_name}/{repo_name}.git</code><br>
+                          e.g., <code>https://github.com/johndoe/foobar.git</code><br>
+                          <img src="/website/book/gitAndGithub/push/images/newRepoUrl.png" width="450"></p>
+                      </li>
+                    </ol>
+                    <p>Next, you can push the existing local repo to the new remote repo as follows:</p>
+                    <tabs>
+                      <tab header="SourceTree">
+                        <ol>
+                          <li>Open the local repo in SourceTree.</li>
+                          <li>Choose <code>Repository</code> → <code>Repository Settings</code> menu option.</li>
+                          <li>Add a new <em>remote</em> to the repo with the following values.
+                            <ul>
+                              <li><code>Remote name</code>: the name you want to assign to the remote repo. Recommended <code>origin</code></li>
+                              <li><code>URL/path</code>: the URL of your repo (ending in <code>.git</code>) that you collected earlier.</li>
+                              <li><code>Username</code>: your GitHub username<br>
+                                <img src="/website/book/gitAndGithub/push/images/fillRemoteInfoForSourceTree.png" width="450"></li>
+                            </ul>
+                          </li>
+                          <li>Now you can push your repo to the new remote the usual way.<br>
+                            <img src="/website/book/gitAndGithub/push/images/pushToRemote.png" width="470"></li>
+                        </ol>
+                      </tab>
+                      <tab header="CLI">
+                        <ol>
+                          <li>Navigate to the folder containing the local repo.</li>
+                          <li>Set the new remote repo as a <em>remote</em> of the local repo.<br>
+                            command: <code>git remote add {remote_name} {remote_repo_url}</code><br>
+                            e.g., <code>git remote add origin https://github.com/johndoe/foobar.git</code></li>
+                          <li>Push to the new remote the usual way. You can use the <code>-u</code> flag to inform Git that you wish to <tooltip content="i.e., remember which branch in the remote repo corresponds to which branch in the local repo">track</tooltip> the branch.<br>
+                            e.g., <code>git push -u origin master</code></li>
+                        </ol>
                       </tab>
                     </tabs>
                   </div>
@@ -2110,10 +1866,26 @@ index 15b57f7..17f4528 100644
         </panel>
         <p></p>
       </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-2-jan-21">Week 2 [Jan 21]&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#w2-1-se-intro">[W2.1] SE: Intro &#x200E;</a>
+              <a class="nav-link py-1" href="#w2-2-ides-basic-features">[W2.2] IDEs: Basic Features &#x200E;</a>
+              <a class="nav-link py-1" href="#w2-3-automated-testing-of-text-uis">[W2.3] Automated Testing of Text UIs &#x200E;</a>
+              <a class="nav-link py-1" href="#w2-4-rcs-revision-history">[W2.4] RCS: Revision History &#x200E;</a>
+              <a class="nav-link py-1" href="#w2-5-rcs-remote-repos">[W2.5] RCS: Remote Repos &#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Tue, 25 Jun 2019 10:21:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Sun, 07 Jul 2019 11:53:06 GMT</small></div>
     </footer>
   </div>
 </body>

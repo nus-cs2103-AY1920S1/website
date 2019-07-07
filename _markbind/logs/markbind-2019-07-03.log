@@ -1,0 +1,1349 @@
+2019-07-03T04:31:13.111Z - info: Website generation started at 12:31:11 PM
+2019-07-03T04:31:14.393Z - info: Building assets...
+2019-07-03T04:31:15.605Z - info: Assets built
+2019-07-03T04:31:15.605Z - info: Generating pages...
+2019-07-03T04:32:21.224Z - info: Pages built
+2019-07-03T04:32:35.616Z - info: Website generation complete! Total build time: 83.784s
+2019-07-03T04:32:35.965Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-03T04:32:35.965Z - info: Press CTRL+C to stop ...
+2019-07-03T04:32:35.990Z - info: Site data built
+2019-07-03T05:42:59.069Z - info: [1:42:59 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-03T05:43:00.076Z - info: Rebuilding affected source files
+2019-07-03T05:43:00.090Z - info: Rebuilding 2 pages
+2019-07-03T05:43:00.411Z - info: Pages rebuilt
+2019-07-03T05:43:00.436Z - info: Site data built
+2019-07-03T06:36:36.656Z - info: [2:36:36 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-03T06:36:37.665Z - info: Rebuilding affected source files
+2019-07-03T06:36:37.675Z - info: Rebuilding 2 pages
+2019-07-03T06:36:37.951Z - info: Pages rebuilt
+2019-07-03T06:36:37.967Z - info: Site data built
+2019-07-03T06:37:10.821Z - info: [2:37:10 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-03T06:37:11.823Z - info: Rebuilding affected source files
+2019-07-03T06:37:11.824Z - info: Rebuilding 2 pages
+2019-07-03T06:37:12.003Z - info: Pages rebuilt
+2019-07-03T06:37:12.022Z - info: Site data built
+2019-07-03T08:02:49.009Z - info: [4:02:49 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-03T08:02:50.016Z - info: Rebuilding affected source files
+2019-07-03T08:02:50.029Z - info: Rebuilding 2 pages
+2019-07-03T08:02:50.308Z - info: Pages rebuilt
+2019-07-03T08:02:50.325Z - info: Site data built
+2019-07-03T08:02:58.973Z - info: Website generation started at 4:02:57 PM
+2019-07-03T08:03:00.267Z - info: Building assets...
+2019-07-03T08:03:01.529Z - info: Assets built
+2019-07-03T08:03:01.529Z - info: Generating pages...
+2019-07-03T08:04:10.449Z - info: Pages built
+2019-07-03T08:04:24.984Z - info: Website generation complete! Total build time: 87.264s
+2019-07-03T08:04:25.367Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-03T08:04:25.367Z - info: Press CTRL+C to stop ...
+2019-07-03T08:04:25.394Z - info: Site data built
+2019-07-03T08:07:40.050Z - info: [4:07:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-03T08:07:41.053Z - info: Rebuilding affected source files
+2019-07-03T08:07:41.055Z - info: Rebuilding 2 pages
+2019-07-03T08:07:41.346Z - info: Pages rebuilt
+2019-07-03T08:07:41.361Z - info: Site data built
+2019-07-03T09:39:20.659Z - info: Website generation started at 5:39:19 PM
+2019-07-03T09:39:22.009Z - info: Building assets...
+2019-07-03T09:39:23.278Z - info: Assets built
+2019-07-03T09:39:23.278Z - info: Generating pages...
+2019-07-03T09:40:34.503Z - info: Pages built
+2019-07-03T09:40:50.390Z - info: Website generation complete! Total build time: 91.159s
+2019-07-03T09:40:50.761Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-03T09:40:50.761Z - info: Press CTRL+C to stop ...
+2019-07-03T09:40:50.793Z - info: Site data built
+2019-07-03T11:38:03.012Z - info: Website generation started at 7:38:01 PM
+2019-07-03T11:38:04.242Z - info: Building assets...
+2019-07-03T11:38:05.541Z - info: Assets built
+2019-07-03T11:38:05.541Z - info: Generating pages...
+2019-07-03T11:38:33.266Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.267Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.267Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.267Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.268Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.268Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.268Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.268Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.269Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.269Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.269Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.269Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.270Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.270Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.270Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.270Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.271Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.271Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.271Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.272Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.272Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.272Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.273Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.273Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.273Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.273Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.274Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.274Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.275Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.275Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.275Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.275Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.276Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.276Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.276Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.277Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.277Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.277Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.278Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.278Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.278Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.278Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.279Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.279Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.279Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.279Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.280Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.280Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.280Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.280Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.280Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.281Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.281Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.281Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.281Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.282Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.282Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.282Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.282Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.282Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.283Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.283Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.283Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.284Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.284Z - error:  YAMLException: can not read an implicit mapping pair; a colon is missed at line 6, column 13:
+    "pageNav: 4"
+                ^
+    at generateError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:167:10)
+    at throwError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:173:9)
+    at readBlockMapping (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1064:11)
+    at composeNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1359:12)
+    at readDocument (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1519:3)
+    at loadDocuments (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1575:5)
+    at load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\js-yaml\lib\js-yaml\loader.js:1596:19)
+    at fastmatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\fastmatter\index.js:48:37)
+    at Page.collectFrontMatter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:475:24)
+    at markbinder.includeFile.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:795:14)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:699:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+2019-07-03T11:38:33.285Z - warn:  Error: Error while generating C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week1\admin.md
+    at processingFiles.push.page.generate.then.catch (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:986:31)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:695:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+2019-07-03T11:38:35.407Z - error:  Error: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103-AY1920S1\cs2103-website\.temp\index.md'
+2019-07-03T11:38:35.694Z - error:  Error: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103-AY1920S1\cs2103-website\.temp\schedule\index.md'
+2019-07-03T11:39:01.960Z - error:  Error: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103-AY1920S1\cs2103-website\.temp\admin\admin\project-deliverables.md'
+2019-07-03T11:39:01.980Z - error:  Error: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site\book\gitAndGithub\clone\unit-inElsewhere-asFlat._include_.html'
+2019-07-03T11:39:01.980Z - error:  Error: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site\book\revisionControl\repositories\unit-inElsewhere-asFlat._include_.html'
+2019-07-03T11:39:02.026Z - error:  Error: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site\book\revisionControl\savingHistory\unit-inElsewhere-asFlat._include_.html'
+2019-07-03T11:39:07.497Z - warn:  Error: Error while generating C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week1\admin.md
+    at processingFiles.push.page.generate.then.catch (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:986:31)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+    at Promise._settlePromises (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:695:18)
+    at _drainQueueStep (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+2019-07-03T11:39:07.498Z - error: Error while generating C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week1\admin.md
+2019-07-03T11:43:17.468Z - info: Website generation started at 7:43:17 PM
+2019-07-03T11:43:18.889Z - info: Building assets...
+2019-07-03T11:43:20.154Z - info: Assets built
+2019-07-03T11:43:20.155Z - info: Generating pages...
+2019-07-03T11:44:32.768Z - info: Pages built
+2019-07-03T11:44:48.537Z - info: Website generation complete! Total build time: 91.076s
+2019-07-03T11:44:48.891Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-03T11:44:48.891Z - info: Press CTRL+C to stop ...
+2019-07-03T11:44:48.926Z - info: Site data built
+2019-07-03T11:46:21.651Z - info: [7:46:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\index.md
+2019-07-03T11:46:22.655Z - info: Rebuilding affected source files
+2019-07-03T11:46:22.656Z - info: Rebuilding 1 pages
+2019-07-03T11:46:22.843Z - info: Pages rebuilt
+2019-07-03T11:46:22.851Z - info: Site data built
+2019-07-03T12:00:50.823Z - info: Website generation started at 8:00:49 PM
+2019-07-03T12:00:52.120Z - info: Building assets...
+2019-07-03T12:00:53.335Z - info: Assets built
+2019-07-03T12:00:53.336Z - info: Generating pages...
+2019-07-03T12:02:01.244Z - info: Pages built
+2019-07-03T12:02:16.012Z - info: Website generation complete! Total build time: 86.482s
+2019-07-03T12:02:16.352Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-03T12:02:16.352Z - info: Press CTRL+C to stop ...
+2019-07-03T12:02:16.377Z - info: Site data built

@@ -72,7 +72,7 @@
 <span id="{{ make_anchor(id_prefix) }}" />
 
 <panel type="seamless" expanded>
-<span slot="header" class="card-title"><md><span class='badge badge-pill badge-light'>%%[{{ id_prefix }}]%%</span> %%**<include src="{{ path_displacement }}../../book/{{  full_path }}/../path.md" inline />**%% **<big><big><include src="{{ path_displacement }}../../book/{{  full_path }}/text.md#title" inline /></big></big>**</md> {{ show_stars(priority) }}</span>
+<span slot="header" class="card-title"><h4><md><small><span class='badge badge-pill badge-light'>%%{{ id_prefix }}%%</span> %%**<include src="{{ path_displacement }}../../book/{{  full_path }}/../path.md" inline />**%%</small> **<include src="{{ path_displacement }}../../book/{{  full_path }}/text.md#title" inline />**</md> <small><small>{{ show_stars(priority) }}</small></small></h4></span>
   <include src="{{ path_displacement }}../../book/{{  full_path }}/unit-inElsewhere-asPanelBody.md" boilerplate />
 </panel>
 {% else %}
@@ -113,7 +113,7 @@
 {% macro show_subheading(subheading) %}
 <br/>
 
-%%**{{ subheading }}**%%
+### %%**{{ subheading }}**%%
 {% endmacro %}
 
 
@@ -148,7 +148,7 @@
 <span id="{{ anchor }}" />
 
 <panel type="seamless" no-close {{ panel_decorations }} expandable="{{ panel_expandable }}" expanded >
-<span slot="header" class="card-title"><markdown><big> %%[{{ prefix | trim }}]%% <big><big>**{{ params.topic.heading }}**</big></big></big> {{ show_stars(priority) }}</markdown> </span>
+<span slot="header" class="card-title"><markdown>## %%[{{ prefix | trim }}]%% **{{ params.topic.heading }}** <small><small>{{ show_stars(priority) }}</small></small></markdown> </span>
 <div class="indented-level1">
 {% for entry in entries  %}
   {% if entry.location %}
@@ -204,7 +204,7 @@
 
 
 {% macro show_week_schedule(week_num, entries, path_displacement="") %}
-<panel type="seamless" header="**Table of Contents**" expanded>
+<panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
 
 {{ show_week_schedule_main(week_num, entries, path_displacement, is_toc=true) }}
 </panel>

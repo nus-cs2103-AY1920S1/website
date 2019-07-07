@@ -15,7 +15,7 @@
   </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.1">
+  <meta name="generator" content="MarkBind 2.5.2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 10 - Topics</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -26,18 +26,19 @@
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
-
+  <link rel="stylesheet" href="../../markbind/css/page-nav.css">
   <link rel="stylesheet" href="/website/css/main.css">
   <link rel="stylesheet" href="/website/css/schedule.css">
   <link rel="icon" href="/website/favicon.ico">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
-      <navbar placement="top" type="dark">
+      <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
-        <dropdown text="Schedule" class="nav-link">
+        <div class="nav-link temp-dropdown-placeholder">Schedule</div>
+        <dropdown text="Schedule" class="nav-link temp-dropdown">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Jan 14] </span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Jan 21] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Jan 28] </span></a></li>
@@ -54,7 +55,8 @@
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-        <dropdown text="Links" class="nav-link">
+        <div class="nav-link temp-dropdown-placeholder">Links</div>
+        <dropdown text="Links" class="nav-link temp-dropdown">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -93,130 +95,111 @@
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week10/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
         </ul>
         <p></p>
-        <panel type="seamless" header="**Table of Contents**" expanded>
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
           <ul>
-            <li>[<a href="#W10-1">W10.1</a>] <strong>OO Domain Models</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-          </ul>
-          <div class="indented-level2">
-            <small>
-              <ul>
-                <li><span class="dimmed">[<a href="#W10-1a">W10.1a</a>] <span>Design → Modelling → Modelling Structure
-                    </span></span> <span>Object Oriented Domain Models</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-              </ul>
-            </small></div>
-          <p></p>
-          <ul>
-            <li>[<a href="#W10-2">W10.2</a>] <strong>Design Patterns: Basics</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            <li>[<a href="#W10-1">W10.1</a>] <strong>Design Patterns</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
           </ul>
           <div class="indented-level2">
             <small>
               <p>   <strong>Introduction</strong></p>
               <ul>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-2a">W10.2a</a>] <span>Design → Design Patterns → Introduction →
+                  <p><span class="dimmed">[<a href="#W10-1a">W10.1a</a>] <span>Design → Design Patterns → Introduction →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-2b">W10.2b</a>] <span>Design → Design Patterns → Introduction →
+                  <p><span class="dimmed">[<a href="#W10-1b">W10.1b</a>] <span>Design → Design Patterns → Introduction →
                       </span></span> <span>Format</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
               </ul>
               <p>   <strong>Singleton pattern</strong></p>
               <ul>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-2c">W10.2c</a>] <span>Design → Design Patterns → Singleton →
+                  <p><span class="dimmed">[<a href="#W10-1c">W10.1c</a>] <span>Design → Design Patterns → Singleton →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-2d">W10.2d</a>] <span>Design → Design Patterns → Singleton →
+                  <p><span class="dimmed">[<a href="#W10-1d">W10.1d</a>] <span>Design → Design Patterns → Singleton →
                       </span></span> <span>Implementation</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-2e">W10.2e</a>] <span>Design → Design Patterns → Singleton →
+                  <p><span class="dimmed">[<a href="#W10-1e">W10.1e</a>] <span>Design → Design Patterns → Singleton →
                       </span></span> <span>Evaluation</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
               </ul>
               <p>   <strong>Facade pattern</strong></p>
               <ul>
-                <li><span class="dimmed">[<a href="#W10-2f">W10.2f</a>] <span>Design → Design Patterns → Facade Pattern →
+                <li><span class="dimmed">[<a href="#W10-1f">W10.1f</a>] <span>Design → Design Patterns → Facade Pattern →
                     </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
               </ul>
               <p>   <strong>Command pattern</strong></p>
               <ul>
-                <li><span class="dimmed">[<a href="#W10-2g">W10.2g</a>] <span>Design → Design Patterns → Command Pattern →
+                <li><span class="dimmed">[<a href="#W10-1g">W10.1g</a>] <span>Design → Design Patterns → Command Pattern →
                     </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
               </ul>
               <p>   <strong>Abstraction Occurrence pattern</strong></p>
               <ul>
-                <li><span class="dimmed">[<a href="#W10-2h">W10.2h</a>] <span>Design → Design Patterns → Abstraction Occurrence Pattern →
+                <li><span class="dimmed">[<a href="#W10-1h">W10.1h</a>] <span>Design → Design Patterns → Abstraction Occurrence Pattern →
                     </span></span> <span>What</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
               </ul>
             </small></div>
           <p></p>
           <ul>
-            <li>[<a href="#W10-3">W10.3</a>] <strong>Test Case Design</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            <li>[<a href="#W10-2">W10.2</a>] <strong>Test Case Design: Intro</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
           </ul>
           <div class="indented-level2">
             <small>
               <ul>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-3a">W10.3a</a>] <span>Quality Assurance → Test Case Design → Introduction →
+                  <p><span class="dimmed">[<a href="#W10-2a">W10.2a</a>] <span>Quality Assurance → Test Case Design → Introduction →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-3b">W10.3b</a>] <span>Quality Assurance → Testing → Exploratory and Scripted Testing →
-                      </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-3c">W10.3c</a>] <span>Quality Assurance → Testing → Exploratory and Scripted Testing →
-                      </span></span> <span>When</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                </li>
-                <li>
-                  <p><span class="dimmed">[<a href="#W10-3d">W10.3d</a>] <span>Quality Assurance → Test Case Design → Introduction →
+                  <p><span class="dimmed">[<a href="#W10-2b">W10.2b</a>] <span>Quality Assurance → Test Case Design → Introduction →
                       </span></span> <span>Positive vs Negative Test Cases</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-3e">W10.3e</a>] <span>Quality Assurance → Test Case Design → Introduction →
+                  <p><span class="dimmed">[<a href="#W10-2c">W10.2c</a>] <span>Quality Assurance → Test Case Design → Introduction →
                       </span></span> <span>Black Box vs Glass Box</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-3f">W10.3f</a>] <span>Quality Assurance → Test Case Design →
+                  <p><span class="dimmed">[<a href="#W10-2d">W10.2d</a>] <span>Quality Assurance → Test Case Design →
                       </span></span> <span>Testing Based on Use Cases</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
               </ul>
             </small></div>
           <ul>
-            <li>[<a href="#W10-4">W10.4</a>] <strong>Equivalence Partitioning</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            <li>[<a href="#W10-3">W10.3</a>] <strong>Test Case Design: Equivalence Partitioning</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
           </ul>
           <div class="indented-level2">
             <small>
               <ul>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-4a">W10.4a</a>] <span>Quality Assurance → Test Case Design → Equivalence Partitions →
+                  <p><span class="dimmed">[<a href="#W10-3a">W10.3a</a>] <span>Quality Assurance → Test Case Design → Equivalence Partitions →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-4b">W10.4b</a>] <span>Quality Assurance → Test Case Design → Equivalence Partitions →
+                  <p><span class="dimmed">[<a href="#W10-3b">W10.3b</a>] <span>Quality Assurance → Test Case Design → Equivalence Partitions →
                       </span></span> <span>Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-4c">W10.4c</a>] <span>Quality Assurance → Test Case Design → Equivalence Partitions →
+                  <p><span class="dimmed">[<a href="#W10-3c">W10.3c</a>] <span>Quality Assurance → Test Case Design → Equivalence Partitions →
                       </span></span> <span>Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
               </ul>
             </small></div>
           <ul>
-            <li>[<a href="#W10-5">W10.5</a>] <strong>Boundary Value Analysis</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+            <li>[<a href="#W10-4">W10.4</a>] <strong>Test Case Design: Boundary Value Analysis</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
           </ul>
           <div class="indented-level2">
             <small>
               <ul>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-5a">W10.5a</a>] <span>Quality Assurance → Test Case Design → Boundary Value Analysis →
+                  <p><span class="dimmed">[<a href="#W10-4a">W10.4a</a>] <span>Quality Assurance → Test Case Design → Boundary Value Analysis →
                       </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                 </li>
                 <li>
-                  <p><span class="dimmed">[<a href="#W10-5b">W10.5b</a>] <span>Quality Assurance → Test Case Design → Boundary Value Analysis →
+                  <p><span class="dimmed">[<a href="#W10-4b">W10.4b</a>] <span>Quality Assurance → Test Case Design → Boundary Value Analysis →
                       </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                 </li>
               </ul>
@@ -228,102 +211,18 @@
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W10.1]</span> <big><big><strong>OO Domain Models</strong></big></big></big> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-            </div>
-          </span>
-          <div class="indented-level1">
-            <p><span id="W10-1a"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.1a]</span></span> <span class="dimmed"><strong><span>Design → Modelling → Modelling Structure
-                      </span></strong></span> <strong><big><big><span>Object Oriented Domain Models</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain object oriented domain models</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <blockquote>
-                      <p>The analysis process for identifying objects and object classes is recognized as one of the most difficult areas of object-oriented development. <sub>--<a href="http://www.software-engin.com/">Ian Sommerville, in the book <em>Software Engineering</em></a></sub></p>
-                    </blockquote>
-                    <p>Class diagrams can also be used to model objects in the <tooltip content="the relevant information that needs to be examined to understand a problem">problem domain</tooltip> (i.e. to model how objects actually interact in the real world, before emulating them in the solution). <strong>Class diagrams are used to model the problem domain are called <em>conceptual class diagrams</em> or <em>OO domain models (OODMs)</em>.</strong></p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> OO domain model of a snakes and ladders game is given below.</p>
-                      <p>Description: Snakes and ladders game is played by two or more players using a board and a die. The board has 100 squares marked 1 to 100. Each player owns one piece. Players take turns to throw the die and advance their piece by the number of squares they earned from the die throw. The board has a number of snakes. If a player’s piece lands on a square with a snake head, the piece is automatically moved to the square containing the snake’s tail. Similarly, a piece can automatically move from a ladder foot to the ladder top. The player whose piece is the first to reach the 100th square wins.</p>
-                      <img src="/website/book/modeling/modelingStructures/objectOrientedDomainModels/images/diagram.png" height="420">
-                      <p></p>
-                      <p>The above OO domain model omits the ladder class for simplicity. It can be included in a similar fashion to the Snake class.</p>
-                    </tip-box>
-                    <p><strong>OODMs do not contain solution-specific classes</strong> (i.e. classes that are used in the solution domain but do not exist in the problem domain). For example, a class called DatabaseConnection could appear in a class diagram but not usually in an OO domain model because DatabaseConnection is something related to a software solution but not an entity in the problem domain.</p>
-                    <p><strong>OODMs represents the class <em>structure</em> of the problem domain</strong> and not their behavior, just like class diagrams. To show behavior, use other diagrams such as sequence diagrams.</p>
-                    <p><strong>OODM notation is similar to class diagram notation but typically omit methods and navigability.</strong></p>
-                  </div>
-                  <div>
-                    <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
-                        <div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: This diagram is,...">
-                              <question>
-                                <p>This diagram is,</p>
-                                <ul class="task-list">
-                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. A class diagram.</li>
-                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. An object diagram.</li>
-                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. An OO domain model, also known as a conceptual class diagram.</li>
-                                  <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. Can be either a class diagram or an OO domain model.</li>
-                                </ul>
-                                <img src="/website/book/modeling/modelingStructures/objectOrientedDomainModels/images/playerTurn.png" height="50">
-                                <p></p>
-                                <div slot="answer">
-                                  <p>(a)</p>
-                                  <p>Explanation: The diagram shows navigability which is not shown in an OO domain model. Hence, it has to be a class diagram.</p>
-                                </div>
-                              </question>
-                            </panel>
-                          </div>
-                          <div>
-                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Difference between a class diagram and and an OO domain model?">
-                              <question>
-                                <p>What is the main difference between a class diagram and and an OO domain model?</p>
-                                <ul radio-group="88436" class="radio-list">
-                                  <li class="radio-list-item"><label><input class="radio-list-input" name="88436" type="radio"> a. One is about the problem domain while the other is about the solution domain.</label></li>
-                                  <li class="radio-list-item"><label><input class="radio-list-input" name="88436" type="radio"> b. One has more classes than the other.</label></li>
-                                  <li class="radio-list-item"><label><input class="radio-list-input" name="88436" type="radio"> c. One shows more details than the other.</label></li>
-                                  <li class="radio-list-item"><label><input class="radio-list-input" name="88436" type="radio"> d. One is a UML diagram, while the other is not a UML diagram.</label></li>
-                                </ul>
-                                <div slot="answer">
-                                  <p>(a)</p>
-                                  <p>Explanation: Both are UML diagrams, and use the class diagram notation. While it is true that often a class diagram may have more classes and more details, the main difference is that the OO domain model describes the problem domain while the class diagram describes the solution.</p>
-                                </div>
-                              </question>
-                            </panel>
-                          </div>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </panel>
-          </div>
-        </panel>
-        <p></p>
-        <p><span id="W10-2"></span></p>
-        <panel type="seamless" no-close expandable="true" expanded>
-          <span slot="header" class="card-title">
-            <div>
-              <p><big> <span class="dimmed">[W10.2]</span> <big><big><strong>Design Patterns: Basics</strong></big></big></big> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+              <h2 id="w10-1-design-patterns"><span class="dimmed">[W10.1]</span> <strong>Design Patterns</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w10-1-design-patterns"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
             <br>
-            <p><span class="dimmed"><strong>Introduction</strong></span></p>
-            <p><span id="W10-2a"></span></p>
+            <h3 id="introduction"><span class="dimmed"><strong>Introduction</strong></span><a class="fa fa-anchor" href="#introduction"></a></h3>
+            <p><span id="W10-1a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2a]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Introduction →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1a</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Introduction →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -389,10 +288,12 @@
                 </div>
               </div>
             </panel>
-            <p><span id="W10-2b"></span></p>
+            <p><span id="W10-1b"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2b]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Introduction →
-                      </span></strong></span> <strong><big><big><span>Format</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1b</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Introduction →
+                          </span></strong></span></small> <strong><span>Format</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -437,11 +338,13 @@
               </div>
             </panel>
             <br>
-            <p><span class="dimmed"><strong>Singleton pattern</strong></span></p>
-            <p><span id="W10-2c"></span></p>
+            <h3 id="singleton-pattern"><span class="dimmed"><strong>Singleton pattern</strong></span><a class="fa fa-anchor" href="#singleton-pattern"></a></h3>
+            <p><span id="W10-1c"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2c]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Singleton →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1c</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Singleton →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -488,10 +391,12 @@
                 </div>
               </div>
             </panel>
-            <p><span id="W10-2d"></span></p>
+            <p><span id="W10-1d"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2d]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Singleton →
-                      </span></strong></span> <strong><big><big><span>Implementation</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1d</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Singleton →
+                          </span></strong></span></small> <strong><span>Implementation</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -534,10 +439,12 @@
                 </div>
               </div>
             </panel>
-            <p><span id="W10-2e"></span></p>
+            <p><span id="W10-1e"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2e]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Singleton →
-                      </span></strong></span> <strong><big><big><span>Evaluation</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1e</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Singleton →
+                          </span></strong></span></small> <strong><span>Evaluation</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -566,11 +473,13 @@
               </div>
             </panel>
             <br>
-            <p><span class="dimmed"><strong>Facade pattern</strong></span></p>
-            <p><span id="W10-2f"></span></p>
+            <h3 id="facade-pattern"><span class="dimmed"><strong>Facade pattern</strong></span><a class="fa fa-anchor" href="#facade-pattern"></a></h3>
+            <p><span id="W10-1f"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2f]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Facade Pattern →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1f</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Facade Pattern →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -624,11 +533,13 @@
               </div>
             </panel>
             <br>
-            <p><span class="dimmed"><strong>Command pattern</strong></span></p>
-            <p><span id="W10-2g"></span></p>
+            <h3 id="command-pattern"><span class="dimmed"><strong>Command pattern</strong></span><a class="fa fa-anchor" href="#command-pattern"></a></h3>
+            <p><span id="W10-1g"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2g]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Command Pattern →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1g</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Command Pattern →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -660,11 +571,13 @@
               </div>
             </panel>
             <br>
-            <p><span class="dimmed"><strong>Abstraction Occurrence pattern</strong></span></p>
-            <p><span id="W10-2h"></span></p>
+            <h3 id="abstraction-occurrence-pattern"><span class="dimmed"><strong>Abstraction Occurrence pattern</strong></span><a class="fa fa-anchor" href="#abstraction-occurrence-pattern"></a></h3>
+            <p><span id="W10-1h"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.2h]</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Abstraction Occurrence Pattern →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.1h</span></span> <span class="dimmed"><strong><span>Design → Design Patterns → Abstraction Occurrence Pattern →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -771,18 +684,20 @@
           </div>
         </panel>
         <p></p>
-        <p><span id="W10-3"></span></p>
+        <p><span id="W10-2"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W10.3]</span> <big><big><strong>Test Case Design</strong></big></big></big> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+              <h2 id="w10-2-test-case-design-intro"><span class="dimmed">[W10.2]</span> <strong>Test Case Design: Intro</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w10-2-test-case-design-intro"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
-            <p><span id="W10-3a"></span></p>
+            <p><span id="W10-2a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.3a]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Introduction →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Introduction →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -904,151 +819,12 @@ Enter side 1:
                 </div>
               </div>
             </panel>
-            <p><span id="W10-3b"></span></p>
+            <p><span id="W10-2b"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.3b]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Exploratory and Scripted Testing →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain exploratory testing and scripted testing</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p><strong>Here are two alternative approaches to testing a software: <em>Scripted</em> testing and <em>Exploratory</em> testing</strong></p>
-                    <ol>
-                      <li>
-                        <p><strong>Scripted testing:</strong> First write a set of test cases based on the expected behavior of the SUT, and then perform testing based on that set of test cases.</p>
-                      </li>
-                      <li>
-                        <p><strong>Exploratory testing:</strong> Devise test cases on-the-fly, creating new test cases based on the results of the past test cases.</p>
-                      </li>
-                    </ol>
-                    <p>Exploratory testing is ‘the simultaneous learning, test design, and test execution’ <trigger trigger="click" for="modal:exploratoryWhat-bach-et-explained">[source: bach-et-explained]</trigger> whereby the nature of the follow-up test case is decided based on the behavior of the previous test cases. In other words, running the system and trying out various operations. It is called <em>exploratory testing</em> because testing is driven by observations during testing. Exploratory testing usually starts with areas identified as error-prone, based on the tester’s past experience with similar systems. One tends to conduct more tests for those operations where more faults are found.</p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example thought process behind a segment of an exploratory testing session:</p>
-                      <blockquote>
-                        <p>“Hmm... looks like feature x is broken. This usually means feature n and k could be broken too; we need to look at them soon.
-                          But before that, let us give a good test run to feature y because users can still use the product if feature y works, even if x doesn’t work. Now, if feature y doesn’t work 100%, we have a major problem and this has to be made known to the development team sooner rather than later...”</p>
-                      </blockquote>
-                    </tip-box>
-                    <tip-box>
-                      <p>💡 <strong>Exploratory testing is also known as <em>reactive testing, error guessing technique, attack-based testing,</em> and <em>bug hunting</em>.</strong></p>
-                    </tip-box>
-                    <modal id="modal:exploratoryWhat-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>">
-                      <div>
-                        <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
-                      </div>
-                    </modal>
-                  </div>
-                  <div>
-                    <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
-                        <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about exploratory and scripted testing">
-                            <question>
-                              <p>Scripted testing requires tests to be written in a scripting language; Manual testing is called exploratory testing.</p>
-                              <ul radio-group="db31a" class="radio-list">
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="db31a" type="radio"> True</label></li>
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="db31a" type="radio"> False</label></li>
-                              </ul>
-                              <div slot="answer">
-                                <p>A) False</p>
-                                <p>Explanation: “Scripted” means test cases are predetermined. They need not be an executable script. However, exploratory testing is usually manual.</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
-                        <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which testing technique is better?">
-                            <question>
-                              <p>Which testing technique is better?</p>
-                              <ul radio-group="9fd35" class="radio-list">
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="9fd35" type="radio"> a. error guessing</label></li>
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="9fd35" type="radio"> b. bug hunting</label></li>
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="9fd35" type="radio"> c. attack-based testing</label></li>
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="9fd35" type="radio"> d. reactive testing</label></li>
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="9fd35" type="radio"> e. These are different names used to describe exploratory testing.</label></li>
-                              </ul>
-                              <div slot="answer">
-                                <p>(e)</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
-                        <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Explain the concept of exploratory testing using Minesweeper as an example.">
-                            <question has-input="true">
-                              <p>Explain the concept of exploratory testing using Minesweeper as an example.</p>
-                              <div slot="answer">
-                                <p>When we test the Minesweeper by simply playing it in various ways, especially trying out those that are likely to be buggy, that would be exploratory testing.</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </panel>
-            <p><span id="W10-3c"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.3c]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Testing → Exploratory and Scripted Testing →
-                      </span></strong></span> <strong><big><big><span>When</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the choice between exploratory testing and scripted testing</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p>Which approach is better – <strong>scripted or exploratory? A mix is better.</strong></p>
-                    <p><strong>The success of exploratory testing depends on the tester’s prior experience and intuition.</strong> Exploratory testing should be done by experienced testers, using a clear strategy/plan/framework. Ad-hoc exploratory testing by unskilled or inexperienced testers without a clear strategy is not recommended for real-world non-trivial systems. While <strong>exploratory testing may allow us to detect some problems in a relatively short time, it is not prudent to use exploratory testing as the sole means of testing a critical system</strong>.</p>
-                    <p><strong>Scripted testing is more systematic, and hence, likely to discover more bugs given sufficient time</strong>, while exploratory testing would aid in quick error discovery, especially if the tester has a lot of experience in testing similar systems.</p>
-                    <blockquote>
-                      <p>In some contexts, you will achieve your testing mission better through a more scripted approach; in other contexts, your mission will benefit more from the ability to create and improve tests as you execute them. I find that most situations benefit from a mix of scripted and exploratory approaches.
-                        --<trigger trigger="click" for="modal:ExploratoryWhen-bach-et-explained">[source: bach-et-explained]</trigger>
-                      </p>
-                    </blockquote>
-                    <modal id="modal:ExploratoryWhen-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>">
-                      <div>
-                        <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
-                      </div>
-                    </modal>
-                  </div>
-                  <div>
-                    <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
-                        <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which is better?">
-                            <question>
-                              <p>Scripted testing is better than exploratory testing.</p>
-                              <ul radio-group="7d3ff" class="radio-list">
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="7d3ff" type="radio"> True</label></li>
-                                <li class="radio-list-item"><label><input class="radio-list-input" name="7d3ff" type="radio"> False</label></li>
-                              </ul>
-                              <div slot="answer">
-                                <p>B) False</p>
-                                <p>Explanation: Each has pros and cons. Relying on only one is not recommended. A combination is better.</p>
-                              </div>
-                            </question>
-                          </panel>
-                        </div>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </panel>
-            <p><span id="W10-3d"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.3d]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Introduction →
-                      </span></strong></span> <strong><big><big><span>Positive vs Negative Test Cases</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Introduction →
+                          </span></strong></span></small> <strong><span>Positive vs Negative Test Cases</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1071,10 +847,12 @@ Enter side 1:
                 </div>
               </div>
             </panel>
-            <p><span id="W10-3e"></span></p>
+            <p><span id="W10-2c"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.3e]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Introduction →
-                      </span></strong></span> <strong><big><big><span>Black Box vs Glass Box</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2c</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Introduction →
+                          </span></strong></span></small> <strong><span>Black Box vs Glass Box</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1101,21 +879,15 @@ Enter side 1:
                       <tabs>
                           <tab header="<md>:glyphicon-facetime-video:</md> Black-box vs White-box testing">
                           <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/jRwwb7iaRsU" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                          <p>
-                            <hr>
-                          </p>
+                          <p></p>
                         </tab>
                           <tab header="<md>:glyphicon-facetime-video:</md> Black-box testing example">
                           <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/6pbB37nFUZw" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                          <p>
-                            <hr>
-                          </p>
+                          <p></p>
                         </tab>
                           <tab header="<md>:glyphicon-facetime-video:</md> White-box testing example">
                           <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/KIAkoae6_jE" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                          <p>
-                            <hr>
-                          </p>
+                          <p></p>
                         </tab>
                       </tabs>
                     </panel>
@@ -1124,10 +896,12 @@ Enter side 1:
                 </div>
               </div>
             </panel>
-            <p><span id="W10-3f"></span></p>
+            <p><span id="W10-2d"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.3f]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design →
-                      </span></strong></span> <strong><big><big><span>Testing Based on Use Cases</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.2d</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design →
+                          </span></strong></span></small> <strong><span>Testing Based on Use Cases</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1250,18 +1024,20 @@ Enter side 1:
             </panel>
           </div>
         </panel>
-        <p><span id="W10-4"></span></p>
+        <p><span id="W10-3"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W10.4]</span> <big><big><strong>Equivalence Partitioning</strong></big></big></big> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+              <h2 id="w10-3-test-case-design-equivalence-partitioning"><span class="dimmed">[W10.3]</span> <strong>Test Case Design: Equivalence Partitioning</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w10-3-test-case-design-equivalence-partitioning"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
-            <p><span id="W10-4a"></span></p>
+            <p><span id="W10-3a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.4a]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Equivalence Partitions →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Equivalence Partitions →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1295,10 +1071,12 @@ Enter side 1:
                 </div>
               </div>
             </panel>
-            <p><span id="W10-4b"></span></p>
+            <p><span id="W10-3b"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.4b]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Equivalence Partitions →
-                      </span></strong></span> <strong><big><big><span>Basic</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Equivalence Partitions →
+                          </span></strong></span></small> <strong><span>Basic</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1430,10 +1208,12 @@ Enter side 1:
                 </div>
               </div>
             </panel>
-            <p><span id="W10-4c"></span></p>
+            <p><span id="W10-3c"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.4c]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Equivalence Partitions →
-                      </span></strong></span> <strong><big><big><span>Intermediate</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.3c</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Equivalence Partitions →
+                          </span></strong></span></small> <strong><span>Intermediate</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1497,18 +1277,20 @@ Enter side 1:
             </panel>
           </div>
         </panel>
-        <p><span id="W10-5"></span></p>
+        <p><span id="W10-4"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <p><big> <span class="dimmed">[W10.5]</span> <big><big><strong>Boundary Value Analysis</strong></big></big></big> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+              <h2 id="w10-4-test-case-design-boundary-value-analysis"><span class="dimmed">[W10.4]</span> <strong>Test Case Design: Boundary Value Analysis</strong> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#w10-4-test-case-design-boundary-value-analysis"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
-            <p><span id="W10-5a"></span></p>
+            <p><span id="W10-4a"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.5a]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Boundary Value Analysis →
-                      </span></strong></span> <strong><big><big><span>What</span></big></big></strong></span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.4a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Boundary Value Analysis →
+                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1549,10 +1331,12 @@ Enter side 1:
                 </div>
               </div>
             </panel>
-            <p><span id="W10-5b"></span></p>
+            <p><span id="W10-4b"></span></p>
             <panel type="seamless" expanded>
-              <span slot="header" class="card-title"><span><span class="badge badge-pill badge-light"><span class="dimmed">[W10.5b]</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Boundary Value Analysis →
-                      </span></strong></span> <strong><big><big><span>How</span></big></big></strong></span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+              <span slot="header" class="card-title">
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W10.4b</span></span> <span class="dimmed"><strong><span>Quality Assurance → Test Case Design → Boundary Value Analysis →
+                          </span></strong></span></small> <strong><span>How</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+              </span>
               <div>
                 <div class="indented">
                   <div></div>
@@ -1627,10 +1411,32 @@ Enter side 1:
         </panel>
         <p></p>
       </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#week-10-mar-25">Week 10 [Mar 25]&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#w10-1-design-patterns">[W10.1] Design Patterns &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#introduction">Introduction&#x200E;</a>
+                <a class="nav-link py-1" href="#singleton-pattern">Singleton pattern&#x200E;</a>
+                <a class="nav-link py-1" href="#facade-pattern">Facade pattern&#x200E;</a>
+                <a class="nav-link py-1" href="#command-pattern">Command pattern&#x200E;</a>
+                <a class="nav-link py-1" href="#abstraction-occurrence-pattern">Abstraction Occurrence pattern&#x200E;</a>
+              </nav>
+              <a class="nav-link py-1" href="#w10-2-test-case-design-intro">[W10.2] Test Case Design: Intro &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-3-test-case-design-equivalence-partitioning">[W10.3] Test Case Design: Equivalence Partitioning &#x200E;</a>
+              <a class="nav-link py-1" href="#w10-4-test-case-design-boundary-value-analysis">[W10.4] Test Case Design: Boundary Value Analysis &#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.1</a> at Tue, 25 Jun 2019 10:21:25 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Sun, 07 Jul 2019 11:53:06 GMT</small></div>
     </footer>
   </div>
 </body>
