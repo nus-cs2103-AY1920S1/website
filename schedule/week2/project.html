@@ -95,13 +95,403 @@
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week2/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
         </ul>
         <p></p>
-        <p>TBD</p>
+        <p>We'll be starting the individual project.</p>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless" expanded>
+                <div slot="header"><span><span class="dimmed"><strong>Duke - Intro</strong></span></span></div>
+                <div>
+                  <pic add-class="float-right border m-2 p-1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
+                    <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
+                  </pic>
+                  <h1 id="project-duke">Project Duke<a class="fa fa-anchor" href="#project-duke"></a></h1>
+                  <div class="lead">
+                    <p><strong>Project Duke is a small software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying many Java and SE techniques along the way.</p>
+                  </div>
+                  <p><strong>The project aims to build a product named Duke, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of the <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
+                  <p>Here is a sample interaction with Duke:</p>
+                  <pre><code class="hljs">    ____________________________________________________________
+      ____        _        
+     |  _ \ _   _| | _____ 
+     | | | | | | | |/ / _ \
+     | |_| | |_| |   &lt;  __/
+     |____/ \__,_|_|\_\___|
+
+     Hello! I'm Duke
+     What can I do for you?
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[T][✓] read book
+     2.[D][✗] return book (by: June 6th)
+     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+     4.[T][✓] join sports club
+    ____________________________________________________________
+
+todo borrow book
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [T][✗] borrow book
+     Now you have 5 tasks in the list.
+    ____________________________________________________________
+
+
+deadline return book /by Sunday
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [D][✗] return book (by: Sunday)
+     Now you have 6 tasks in the list.
+    ____________________________________________________________
+
+done 2
+    ____________________________________________________________
+     Nice! I've marked this task as done: 
+       [D][✓] return book (by: June 6th)
+    ____________________________________________________________
+
+blah
+    ____________________________________________________________
+     ☹ OOPS!!! I'm sorry, but I don't know what that means :-(
+    ____________________________________________________________
+
+bye
+    ____________________________________________________________
+     Bye. Hope to see you again soon!
+    ____________________________________________________________
+
+</code></pre>
+                  <p>The project consists of the following:</p>
+                  <ul>
+                    <li><strong>Base Features</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Duke 1</code> to <code>Duke 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
+                    <li><strong>Extensions:</strong>
+                      <ul>
+                        <li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
+                        <li><big><span class="badge badge-pill badge-info">Category B</span></big> These are enhancements related to task tracking.</li>
+                        <li><big><span class="badge badge-pill badge-success">Category C</span></big> These are enhancements, not specifically related to task tracking.</li>
+                        <li><big><span class="badge badge-pill badge-danger">Category D</span></big> Each of these adds the ability to track another type of entities.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <br>
+        Some info:
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div slot="header"><span><span class="dimmed"><strong>Duke - Level 1: Greet, Echo, Exit</strong></span></span></div>
+                <div>
+                  <h3 id="duke-1-greet-echo-exit">Duke 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#duke-1-greet-echo-exit"></a></h3>
+                  <p>In this initial <em>skeletal</em> version of Duke, it simply starts by greeting the user, echos whatever commands enters by the user, and exits when the user types <code>bye</code>.</p>
+                  <p>Example:</p>
+                  <pre><code class="hljs">    ____________________________________________________________
+     Hello! I'm Duke
+     What can I do for you?
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+     list
+    ____________________________________________________________
+
+blah
+    ____________________________________________________________
+     blah
+    ____________________________________________________________
+
+bye
+    ____________________________________________________________
+     Bye. Hope to see you again soon!
+    ____________________________________________________________
+
+</code></pre>
+                  <ul>
+                    <li>The indentation and horizontal lines are optional.</li>
+                  </ul>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div slot="header"><span><span class="dimmed"><strong>Duke - Level 2: Add, List</strong></span></span></div>
+                <div>
+                  <h3 id="duke-2-add-list">Duke 2. Add, List<a class="fa fa-anchor" href="#duke-2-add-list"></a></h3>
+                  <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
+                  <p>Example:</p>
+                  <pre><code class="hljs">    ____________________________________________________________
+    Hello! I'm Duke
+    What can I do for you?
+    ____________________________________________________________
+
+read book
+    ____________________________________________________________
+    added: read book
+    ____________________________________________________________
+
+return book
+    ____________________________________________________________
+    added: return book
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+    1. read book
+    2. return book
+    ____________________________________________________________
+bye
+    ____________________________________________________________
+    Bye. Hope to see you again soon!
+    ____________________________________________________________
+
+</code></pre>
+                  <ul>
+                    <li>There is no need to save the data to the hard disk.</li>
+                    <li>If you wish, you may use a fixed size array (e.g., <code>String[100]</code>) to store the items.</li>
+                  </ul>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div slot="header"><span><span class="dimmed"><strong>Duke - Level 3: Mark as Done</strong></span></span></div>
+                <div>
+                  <h3 id="duke-3-mark-as-done">Duke 3. Mark as Done<a class="fa fa-anchor" href="#duke-3-mark-as-done"></a></h3>
+                  <p>Add the ability to mark tasks as <em>done</em>.</p>
+                  <pre><code class="hljs">list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[✓] read book
+     2.[✗] return book
+     3.[✗] buy bread
+    ____________________________________________________________
+
+done 2
+    ____________________________________________________________
+     Nice! I've marked this task as done: 
+       [✓] return book
+    ____________________________________________________________
+</code></pre>
+                  <div>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                    <panel header="**Extension: A-Classes**">
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-classes"><span class="badge badge-pill badge-primary">A-Classes</span><a class="fa fa-anchor" href="#a-classes"></a></h3>
+                          <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
+                        </div>
+                        <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
+                        <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
+    <span class="hljs-keyword">protected</span> String description;
+    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Task</span><span class="hljs-params">(String description)</span> </span>{
+        <span class="hljs-keyword">this</span>.description = description;
+        <span class="hljs-keyword">this</span>.isDone = <span class="hljs-keyword">false</span>;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatus</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">"✓"</span> : <span class="hljs-string">"✗"</span>);
+    }
+
+    <span class="hljs-comment">//...</span>
+}
+</code></pre>
+                        <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
+t.markAsDone()
+</code></pre>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div slot="header"><span><span class="dimmed"><strong>Duke - Level 4: ToDo, Event, Deadline</strong></span></span></div>
+                <div>
+                  <h3 id="duke-4-todos-events-deadlines">Duke 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#duke-4-todos-events-deadlines"></a></h3>
+                  <p>Add support for tracking three types of tasks:</p>
+                  <ol>
+                    <li>ToDos: tasks without any date/time attached to it <span class="dimmed">e.g., visit new theme park</span></li>
+                    <li>Deadlines: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
+                    <li>Events: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li>
+                  </ol>
+                  <p>Example:</p>
+                  <pre><code class="hljs">todo borrow book
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [T][✗] borrow book
+     Now you have 5 tasks in the list.
+    ____________________________________________________________
+
+list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[T][✓] read book
+     2.[D][✗] return book (by: June 6th)
+     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+     4.[T][✓] join sports club
+     5.[T][✗] borrow book
+    ____________________________________________________________
+
+deadline return book /by Sunday
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [D][✗] return book (by: Sunday)
+     Now you have 6 tasks in the list.
+    ____________________________________________________________
+
+event project meeting /at Mon 2-4pm
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [E][✗] project meeting (at: Mon 2-4pm)
+     Now you have 7 tasks in the list.
+    ____________________________________________________________
+</code></pre>
+                  <div>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                    <panel header="**Extension: A-Inheritance**">
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-inheritance"><span class="badge badge-pill badge-primary">A-Inheritance</span><a class="fa fa-anchor" href="#a-inheritance"></a></h3>
+                          <p>     <big>↳</big> <strong>Use Inheritance to support multiple task types</strong></p>
+                        </div>
+                        <p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code>Todo</code>, <code>Deadline</code> and <code>Event</code> classes to inherit from a <code>Task</code> class.</p>
+                        <p>Furthermore, use polymorphism to store all tasks in a data structure containing <code>Task</code> objects e.g., <code>Task[100]</code>.</p>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div slot="header"><span><span class="dimmed"><strong>Duke Extension: A-TextUiTesting</strong></span></span></div>
+                <div>
+                  <div>
+                    <div></div>
+                    <h3 id="a-textuitesting"><span class="badge badge-pill badge-primary">A-TextUiTesting</span><a class="fa fa-anchor" href="#a-textuitesting"></a></h3>
+                    <p>     <big>↳</big> <strong>Test using the I/O redirection technique</strong></p>
+                  </div>
+                  <p>Use the input/output redirection technique to semi-automate testing of Duke.</p>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div slot="header"><span><span class="dimmed"><strong>Duke - Level 5: Handle Incorrect Inputs</strong></span></span></div>
+                <div>
+                  <h3 id="duke-5-incorrect-inputs">Duke 5. Incorrect Inputs<a class="fa fa-anchor" href="#duke-5-incorrect-inputs"></a></h3>
+                  <p>Teach Duke to deal with all sorts of incorrect inputs.
+                    Example:</p>
+                  <pre><code class="hljs">todo
+    ____________________________________________________________
+     ☹ OOPS!!! The description of a todo cannot be empty.
+    ____________________________________________________________
+
+blah
+    ____________________________________________________________
+     ☹ OOPS!!! I'm sorry, but I don't know what that means :-(
+    ____________________________________________________________
+</code></pre>
+                  <div>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                    <panel header="**Extension: A-Exceptions**">
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-exceptions"><span class="badge badge-pill badge-primary">A-Exceptions</span><a class="fa fa-anchor" href="#a-exceptions"></a></h3>
+                          <p>     <big>↳</big> <strong>Use Exceptions to handle errors</strong></p>
+                        </div>
+                        <p>Use exceptions to handle errors. For example, define a class <code>DukeException</code> to represent exceptions specific to Duke.</p>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="indented">
+            <div class="indented border">
+              <panel type="seamless">
+                <div slot="header"><span><span class="dimmed"><strong>Duke - Level 6: Delete</strong></span></span></div>
+                <div>
+                  <h3 id="duke-6-delete">Duke 6. Delete<a class="fa fa-anchor" href="#duke-6-delete"></a></h3>
+                  <p>Add support for deleting tasks from the list.
+                    Example:</p>
+                  <pre><code class="hljs">list
+    ____________________________________________________________
+     Here are the tasks in your list:
+     1.[T][✓] read book
+     2.[D][✓] return book (by: June 6th)
+     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+     4.[T][✓] join sports club
+     5.[T][✗] borrow book
+    ____________________________________________________________
+
+delete 3
+    ____________________________________________________________
+     Noted. I've removed this task: 
+       [T][✓] join sports club
+     Now you have 4 tasks in the list.
+    ____________________________________________________________
+</code></pre>
+                  <div>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                    <panel header="**Extension: A-Collections**">
+                      <div>
+                        <div>
+                          <div></div>
+                          <h3 id="a-collections"><span class="badge badge-pill badge-primary">A-Collections</span><a class="fa fa-anchor" href="#a-collections"></a></h3>
+                          <p>     <big>↳</big> <strong>Use Java Collections classes</strong></p>
+                        </div>
+                        <p>Use Java Collections classes for storing data. For example, you can use an <code>ArrayList&lt;Task&gt;</code> to store the tasks.</p>
+                      </div>
+                    </panel>
+                  </div>
+                </div>
+              </panel>
+            </div>
+          </div>
+        </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-2-jan-21">Week 2 [Jan 21]&#x200E;</a>
+            <a class="nav-link py-1" href="#project-duke">Project Duke&#x200E;</a>
 
           </nav>
         </div>
@@ -109,7 +499,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Sun, 07 Jul 2019 11:53:06 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Thu, 11 Jul 2019 12:14:32 GMT</small></div>
     </footer>
   </div>
 </body>
