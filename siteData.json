@@ -168,6 +168,78 @@
     },
     {
       "headings": {
+        "ip-overview": "iP: Overview "
+      },
+      "title": "Admin: iP: Overview",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/ip-overview.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "ip-week-2": "iP: Week 2 "
+      },
+      "title": "Admin: iP: Week 2",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/ip-w02.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "ip-week-3": "iP: Week 3 "
+      },
+      "title": "Admin: iP: Week 3",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/ip-w03.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "ip-week-4": "iP: Week 4 "
+      },
+      "title": "Admin: iP: Week 4",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/ip-w04.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "ip-week-5": "iP: Week 5 "
+      },
+      "title": "Admin: iP: Week 5",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/ip-w05.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "ip-week-6": "iP: Week 6 "
+      },
+      "title": "Admin: iP: Week 6",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/ip-w06.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
         "lectures": "Lectures "
       },
       "title": "Admin: Lectures",
@@ -244,14 +316,14 @@
     },
     {
       "headings": {
-        "project-assessment": "Project: Assessment ",
+        "tp-assessment": "tP: Assessment ",
         "1-project-assessment-product-design-5-marks": "1. Project Assessment: Product Design [ 5 marks]",
         "2-project-assessment-implementation-15-marks": "2. Project Assessment: Implementation [ 15 marks]",
         "3-project-assessment-qa-10-marks": "3. Project Assessment: QA [ 10 marks]",
         "4-project-assessment-documentation-10-marks": "4. Project Assessment: Documentation [ 10 marks]",
         "5-project-assessment-project-management-5-5-10-marks": "5. Project Assessment: Project Management [ 5 +  5 = 10 marks]"
       },
-      "title": "Admin: Project: Assessment",
+      "title": "Admin: tP: Assessment",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -261,9 +333,9 @@
     },
     {
       "headings": {
-        "project-constraints": "Project: Constraints "
+        "tp-constraints": "tP: Constraints "
       },
-      "title": "Admin: Project: Constraints",
+      "title": "Admin: tP: Constraints",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -273,7 +345,7 @@
     },
     {
       "headings": {
-        "project-deliverables": "Project: Deliverables ",
+        "tp-deliverables": "tP: Deliverables ",
         "deliverable-executable": "Deliverable: Executable",
         "deliverable-source-code": "Deliverable: Source code",
         "deliverable-user-guide-ug": "Deliverable: User Guide (UG)",
@@ -288,7 +360,7 @@
         "processing-pe-bug-reports-2": "Processing PE Bug Reports:",
         "notes-for-those-using-ab-2-or-ab-3-for-the-project": "Notes for Those Using AB-2 or AB-3 for the Project"
       },
-      "title": "Admin: Project: Deliverables",
+      "title": "Admin: tP: Deliverables",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -298,9 +370,9 @@
     },
     {
       "headings": {
-        "project-overview": "Project: Overview "
+        "tp-overview": "tP: Overview "
       },
-      "title": "Admin: Project: Overview",
+      "title": "Admin: tP: Overview",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -310,9 +382,9 @@
     },
     {
       "headings": {
-        "project-the-product": "Project: The product "
+        "tp-the-product": "tP: The product "
       },
-      "title": "Admin: Project: The product",
+      "title": "Admin: tP: The product",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -322,7 +394,7 @@
     },
     {
       "headings": {
-        "project-scope": "Project: Scope  | project expectations",
+        "tp-scope": "tP: Scope  | project expectations",
         "project-direction": "Project Direction",
         "individual-expectations": " Individual Expectations",
         "individual-expectations-on-features": "[Individual] Expectations on Features",
@@ -332,7 +404,7 @@
         "individual-expectations-on-teamwork": "[Individual] Expectations on Teamwork",
         "team-expectations": " Team Expectations"
       },
-      "title": "Admin: Project: Scope",
+      "title": "Admin: tP: Scope",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -342,9 +414,9 @@
     },
     {
       "headings": {
-        "project-supervision": "Project: Supervision "
+        "tp-supervision": "tP: Supervision "
       },
-      "title": "Admin: Project: Supervision",
+      "title": "Admin: tP: Supervision",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -366,9 +438,9 @@
     },
     {
       "headings": {
-        "project-timeline": "Project: Timeline "
+        "tp-timeline": "tP: Timeline "
       },
-      "title": "Admin: Project: Timeline",
+      "title": "Admin: tP: Timeline",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -378,9 +450,9 @@
     },
     {
       "headings": {
-        "project-inception-week-3": "Project: inception [week 3] "
+        "tp-inception-week-3": "tP: inception [week 3] "
       },
-      "title": "Admin: Project: inception [week 3]",
+      "title": "Admin: tP: inception [week 3]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -390,9 +462,9 @@
     },
     {
       "headings": {
-        "project-mid-v1-0-week-4": "Project: mid-v1.0 [week 4] "
+        "tp-mid-v1-0-week-4": "tP: mid-v1.0 [week 4] "
       },
-      "title": "Admin: Project: mid-v1.0 [week 4]",
+      "title": "Admin: tP: mid-v1.0 [week 4]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -402,11 +474,11 @@
     },
     {
       "headings": {
-        "project-v1-0-week-5": "Project: v1.0 [week 5] ",
+        "tp-v1-0-week-5": "tP: v1.0 [week 5] ",
         "v1-0-documentation": "v1.0 Documentation",
         "v1-0-project-management": "v1.0 Project Management"
       },
-      "title": "Admin: Project: v1.0 [week 5]",
+      "title": "Admin: tP: v1.0 [week 5]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -416,9 +488,9 @@
     },
     {
       "headings": {
-        "project-mid-v1-1-week-6": "Project: mid-v1.1 [week 6] "
+        "tp-mid-v1-1-week-6": "tP: mid-v1.1 [week 6] "
       },
-      "title": "Admin: Project: mid-v1.1 [week 6]",
+      "title": "Admin: tP: mid-v1.1 [week 6]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -428,12 +500,12 @@
     },
     {
       "headings": {
-        "project-v1-1-week-7": "Project: v1.1 [week 7] ",
+        "tp-v1-1-week-7": "tP: v1.1 [week 7] ",
         "v1-1-project-management": "v1.1 Project Management",
         "v1-1-documentation": "v1.1 Documentation",
         "v1-1-product": "v1.1 Product"
       },
-      "title": "Admin: Project: v1.1 [week 7]",
+      "title": "Admin: tP: v1.1 [week 7]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -443,9 +515,9 @@
     },
     {
       "headings": {
-        "project-mid-v1-2-week-8": "Project: mid-v1.2 [week 8] "
+        "tp-mid-v1-2-week-8": "tP: mid-v1.2 [week 8] "
       },
-      "title": "Admin: Project: mid-v1.2 [week 8]",
+      "title": "Admin: tP: mid-v1.2 [week 8]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -455,13 +527,13 @@
     },
     {
       "headings": {
-        "project-v1-2-week-9": "Project: v1.2 [week 9] ",
+        "tp-v1-2-week-9": "tP: v1.2 [week 9] ",
         "v1-2-project-management": "v1.2 Project Management",
         "v1-2-product": "v1.2 Product",
         "v1-2-documentation": "v1.2 Documentation",
         "v1-2-demo": "v1.2 Demo"
       },
-      "title": "Admin: Project: v1.2 [week 9]",
+      "title": "Admin: tP: v1.2 [week 9]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -472,9 +544,9 @@
     {
       "headings": {
         "ensuring-your-code-is-reposense-compatible": "Ensuring your code is RepoSense-Compatible",
-        "project-mid-v1-3-week-10": "Project: mid-v1.3 [week 10] "
+        "tp-mid-v1-3-week-10": "tP: mid-v1.3 [week 10] "
       },
-      "title": "Admin: Project: mid-v1.3 [week 10]",
+      "title": "Admin: tP: mid-v1.3 [week 10]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -484,14 +556,14 @@
     },
     {
       "headings": {
-        "project-v1-3-week-11": "Project: v1.3 [week 11] ",
+        "tp-v1-3-week-11": "tP: v1.3 [week 11] ",
         "v1-3-project-management": "v1.3 Project Management",
         "v1-3-product": "v1.3 Product",
         "v1-3-documentation": "v1.3 Documentation",
         "v1-3-demo": "v1.3 Demo",
         "v1-3-testing-aka-practical-exam-dry-run": "v1.3 Testing (aka Practical Exam Dry Run)"
       },
-      "title": "Admin: Project: v1.3 [week 11]",
+      "title": "Admin: tP: v1.3 [week 11]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -501,9 +573,9 @@
     },
     {
       "headings": {
-        "project-mid-v1-4-week-12": "Project: mid-v1.4 [week 12] "
+        "tp-mid-v1-4-week-12": "tP: mid-v1.4 [week 12] "
       },
-      "title": "Admin: Project: mid-v1.4 [week 12]",
+      "title": "Admin: tP: mid-v1.4 [week 12]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -513,7 +585,7 @@
     },
     {
       "headings": {
-        "project-v1-4-week-13": "Project: v1.4 [week 13] ",
+        "tp-v1-4-week-13": "tP: v1.4 [week 13] ",
         "v1-4-product": "v1.4 Product",
         "v1-4-source-code": "v1.4 Source Code",
         "v1-4-user-guide": "v1.4 User Guide",
@@ -523,7 +595,7 @@
         "v1-4-demo": "v1.4 Demo",
         "v1-4-practical-exam": "v1.4 Practical Exam"
       },
-      "title": "Admin: Project: v1.4 [week 13]",
+      "title": "Admin: tP: v1.4 [week 13]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -2019,23 +2091,24 @@
     {
       "headings": {
         "project-duke": "Project Duke",
+        "levels": "\r\n              Levels\r\n            ",
         "duke-1-greet-echo-exit": "Duke 1. Greet, Echo, Exit",
         "duke-2-add-list": "Duke 2. Add, List",
         "duke-3-mark-as-done": "Duke 3. Mark as Done",
         "duke-4-todos-events-deadlines": "Duke 4. ToDos, Events, Deadlines",
         "duke-5-incorrect-inputs": "Duke 5. Incorrect Inputs",
         "duke-6-delete": "Duke 6. Delete",
-        "duke-7-persistence": "Duke 7. Persistence",
+        "duke-7-save": "Duke 7. Save",
         "duke-8-dates-and-times": "Duke 8. Dates and Times",
         "duke-9-find": "Duke 9. Find",
         "duke-10-gui": "Duke 10. GUI",
-        "extensions-category-a": "Extensions: Category A",
+        "extensions-category-a": "\r\n                Extensions: Category A\r\n              ",
         "a-classes-2": "A-Classes",
         "a-inheritance-2": "A-Inheritance",
         "a-exceptions-2": "A-Exceptions",
         "a-textuitesting": "A-TextUiTesting",
         "a-collections-2": "A-Collections",
-        "a-oop": "A-OOP",
+        "a-moreoop": "A-MoreOOP",
         "a-junit": "A-JUnit",
         "a-packages": "A-Packages",
         "a-javadoc": "A-JavaDoc",
@@ -2051,7 +2124,9 @@
         "a-streams": "A-Streams",
         "a-libraries": "A-Libraries",
         "a-javafx-2": "A-JavaFx",
-        "extensions-category-b": "Extensions: Category B",
+        "a-userguide": "A-UserGuide",
+        "a-devguide": "A-DevGuide",
+        "extensions-category-b": "\r\n                Extensions: Category B\r\n              ",
         "b-tentativescheduling": "B-TentativeScheduling",
         "b-snooze": "B-Snooze",
         "b-recurringtasks": "B-RecurringTasks",
@@ -2062,7 +2137,7 @@
         "b-findfreetimes": "B-FindFreeTimes",
         "b-viewschedules": "B-ViewSchedules",
         "b-detectanomalies": "B-DetectAnomalies",
-        "extensions-category-c": "Extensions: Category C",
+        "extensions-category-c": "\r\n                Extensions: Category C\r\n              ",
         "c-detectduplicates": "C-DetectDuplicates",
         "c-flexibledatasource": "C-FlexibleDataSource",
         "c-sort": "C-Sort",
@@ -2077,15 +2152,15 @@
         "c-undo": "C-Undo",
         "c-help": "C-Help",
         "c-friendliersyntax": "C-FriendlierSyntax",
-        "extensions-category-d": "Extensions: Category D",
-        "c-contacts": "C-Contacts",
-        "c-notes": "C-Notes",
-        "c-expenses": "C-Expenses",
-        "c-loans": "C-Loans",
-        "c-places": "C-Places",
-        "c-trivia": "C-Trivia",
-        "c-clients": "C-Clients",
-        "c-merchandise": "C-Merchandise"
+        "extensions-category-d": "\r\n                Extensions: Category D\r\n              ",
+        "d-contacts": "D-Contacts",
+        "d-notes": "D-Notes",
+        "d-expenses": "D-Expenses",
+        "d-loans": "D-Loans",
+        "d-places": "D-Places",
+        "d-trivia": "D-Trivia",
+        "d-clients": "D-Clients",
+        "d-merchandise": "D-Merchandise"
       },
       "title": "Project Duke",
       "header": "header.md",

@@ -35,14 +35,14 @@
             <div id="main">
               <div>
                 <div id="intro">
-                  <pic add-class="float-right border m-2 p-1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
-                    <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
-                  </pic>
                   <h1 id="project-duke-2">Project Duke<a class="fa fa-anchor" href="#project-duke-2"></a></h1>
                   <div class="lead">
+                    <pic add-class="float-left border m-2 p-1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
+                      <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
+                    </pic>
                     <p><strong>Project Duke is a small software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying many Java and SE techniques along the way.</p>
                   </div>
-                  <p><strong>The project aims to build a product named Duke, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of the <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
+                  <p><strong>The project aims to build a product named Duke, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
                   <p>Here is a sample interaction with Duke:</p>
                   <pre><code class="hljs">    ____________________________________________________________
       ____        _        
@@ -109,10 +109,12 @@ bye
                     </li>
                   </ul>
                 </div>
-                <hr>
+                <h2 id="levels">
+                  <div class="text-white bg-dark p-1">Levels</div><a class="fa fa-anchor" href="#levels"></a>
+                </h2>
                 <div id="level1">
                   <h3 id="duke-1-greet-echo-exit">Duke 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#duke-1-greet-echo-exit"></a></h3>
-                  <p>In this initial <em>skeletal</em> version of Duke, it simply starts by greeting the user, echos whatever commands enters by the user, and exits when the user types <code>bye</code>.</p>
+                  <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.</p>
                   <p>Example:</p>
                   <pre><code class="hljs">    ____________________________________________________________
      Hello! I'm Duke
@@ -145,28 +147,28 @@ bye
                   <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
                   <p>Example:</p>
                   <pre><code class="hljs">    ____________________________________________________________
-    Hello! I'm Duke
-    What can I do for you?
+     Hello! I'm Duke
+     What can I do for you?
     ____________________________________________________________
 
 read book
     ____________________________________________________________
-    added: read book
+     added: read book
     ____________________________________________________________
 
 return book
     ____________________________________________________________
-    added: return book
+     added: return book
     ____________________________________________________________
 
 list
     ____________________________________________________________
-    1. read book
-    2. return book
+     1. read book
+     2. return book
     ____________________________________________________________
 bye
     ____________________________________________________________
-    Bye. Hope to see you again soon!
+     Bye. Hope to see you again soon!
     ____________________________________________________________
 
 </code></pre>
@@ -349,7 +351,7 @@ delete 3
                 </div>
                 <hr>
                 <div id="level7">
-                  <h3 id="duke-7-persistence">Duke 7. Persistence<a class="fa fa-anchor" href="#duke-7-persistence"></a></h3>
+                  <h3 id="duke-7-save">Duke 7. Save<a class="fa fa-anchor" href="#duke-7-save"></a></h3>
                   <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
                 </div>
                 <hr>
@@ -388,8 +390,11 @@ delete 3
                     </panel>
                   </div>
                 </div>
+                <p></p>
                 <div>
-                  <h2 id="extensions-category-a">Extensions: Category A<a class="fa fa-anchor" href="#extensions-category-a"></a></h2>
+                  <h2 id="extensions-category-a">
+                    <div class="text-white bg-primary p-1">Extensions: Category A</div><a class="fa fa-anchor" href="#extensions-category-a"></a>
+                  </h2>
                   <div id="A-Classes">
                     <div>
                       <div></div>
@@ -455,10 +460,10 @@ t.markAsDone()
                     <p>Use Java Collections classes for storing data. For example, you can use an <code>ArrayList&lt;Task&gt;</code> to store the tasks.</p>
                   </div>
                   <hr>
-                  <div id="A-OOP">
+                  <div id="A-MoreOOP">
                     <div>
                       <div></div>
-                      <h3 id="a-oop"><span class="badge badge-pill badge-primary">A-OOP</span><a class="fa fa-anchor" href="#a-oop"></a></h3>
+                      <h3 id="a-moreoop"><span class="badge badge-pill badge-primary">A-MoreOOP</span><a class="fa fa-anchor" href="#a-moreoop"></a></h3>
                       <p>     <big>↳</big> <strong>Make the code more OOP</strong></p>
                     </div>
                     <p>Refactor the code to extract out closely related code as classes.</p>
@@ -602,7 +607,28 @@ t.markAsDone()
                     </div>
                     <p>Use JavaFX to create a GUI.</p>
                   </div>
-                  <h2 id="extensions-category-b">Extensions: Category B<a class="fa fa-anchor" href="#extensions-category-b"></a></h2>
+                  <hr>
+                  <div id="A-UserGuide">
+                    <div>
+                      <div></div>
+                      <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
+                      <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
+                    </div>
+                    <p>Add a User Guide to the project.</p>
+                  </div>
+                  <hr>
+                  <div id="A-DevGuide">
+                    <div>
+                      <div></div>
+                      <h3 id="a-devguide"><span class="badge badge-pill badge-primary">A-DevGuide</span><a class="fa fa-anchor" href="#a-devguide"></a></h3>
+                      <p>     <big>↳</big> <strong>Add a Developer Guide</strong></p>
+                    </div>
+                    <p>Add a Developer Guide to the project, explaining the design and implementation to future developers.</p>
+                  </div>
+
+                  <h2 id="extensions-category-b">
+                    <div class="text-white bg-info p-1">Extensions: Category B</div><a class="fa fa-anchor" href="#extensions-category-b"></a>
+                  </h2>
                   <div id="B-TentativeScheduling">
                     <div>
                       <div></div>
@@ -692,8 +718,9 @@ t.markAsDone()
                     </div>
                     <p>Deal with schedule anomalies <span class="dimmed">e.g., detect if a task being added clashes with another task in the list</span>.</p>
                   </div>
-                  <hr>
-                  <h2 id="extensions-category-c">Extensions: Category C<a class="fa fa-anchor" href="#extensions-category-c"></a></h2>
+                  <h2 id="extensions-category-c">
+                    <div class="text-white bg-success p-1">Extensions: Category C</div><a class="fa fa-anchor" href="#extensions-category-c"></a>
+                  </h2>
                   <div id="C-DetectDuplicates">
                     <div>
                       <div></div>
@@ -825,11 +852,13 @@ t.markAsDone()
                       <li>Remove the need for the parts of a command to be in a specific order</li>
                     </ul>
                   </div>
-                  <h2 id="extensions-category-d">Extensions: Category D<a class="fa fa-anchor" href="#extensions-category-d"></a></h2>
+                  <h2 id="extensions-category-d">
+                    <div class="text-white bg-danger p-1">Extensions: Category D</div><a class="fa fa-anchor" href="#extensions-category-d"></a>
+                  </h2>
                   <div id="D-Contacts">
                     <div>
                       <div></div>
-                      <h3 id="c-contacts"><span class="badge badge-pill badge-danger">C-Contacts</span><a class="fa fa-anchor" href="#c-contacts"></a></h3>
+                      <h3 id="d-contacts"><span class="badge badge-pill badge-danger">D-Contacts</span><a class="fa fa-anchor" href="#d-contacts"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing contacts</strong></p>
                     </div>
                     <p>Support managing info about contacts <span class="dimmed">e.g., details of friends</span></p>
@@ -837,7 +866,7 @@ t.markAsDone()
                   <div id="D-Notes">
                     <div>
                       <div></div>
-                      <h3 id="c-notes"><span class="badge badge-pill badge-danger">C-Notes</span><a class="fa fa-anchor" href="#c-notes"></a></h3>
+                      <h3 id="d-notes"><span class="badge badge-pill badge-danger">D-Notes</span><a class="fa fa-anchor" href="#d-notes"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing notes</strong></p>
                     </div>
                     <p>Support managing info about small snippets of textual information the user wants to record <span class="dimmed">e.g., one's own waist size, a name of a movie that the user wants to remember</span></p>
@@ -845,7 +874,7 @@ t.markAsDone()
                   <div id="D-Expenses">
                     <div>
                       <div></div>
-                      <h3 id="c-expenses"><span class="badge badge-pill badge-danger">C-Expenses</span><a class="fa fa-anchor" href="#c-expenses"></a></h3>
+                      <h3 id="d-expenses"><span class="badge badge-pill badge-danger">D-Expenses</span><a class="fa fa-anchor" href="#d-expenses"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing expenses</strong></p>
                     </div>
                     <p>Support managing info about expenses <span class="dimmed">e.g., the amounts spent on food, books, transport, etc.</span></p>
@@ -853,7 +882,7 @@ t.markAsDone()
                   <div id="D-Loans">
                     <div>
                       <div></div>
-                      <h3 id="c-loans"><span class="badge badge-pill badge-danger">C-Loans</span><a class="fa fa-anchor" href="#c-loans"></a></h3>
+                      <h3 id="d-loans"><span class="badge badge-pill badge-danger">D-Loans</span><a class="fa fa-anchor" href="#d-loans"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing loan records</strong></p>
                     </div>
                     <p>Support keeping records of loans given/taken <span class="dimmed">e.g., money lent/owed to colleagues/friends</span></p>
@@ -861,7 +890,7 @@ t.markAsDone()
                   <div id="D-Places">
                     <div>
                       <div></div>
-                      <h3 id="c-places"><span class="badge badge-pill badge-danger">C-Places</span><a class="fa fa-anchor" href="#c-places"></a></h3>
+                      <h3 id="d-places"><span class="badge badge-pill badge-danger">D-Places</span><a class="fa fa-anchor" href="#d-places"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing info about places</strong></p>
                     </div>
                     <p>Support recording info about places <span class="dimmed">e.g., info about restaurants visited, for future reference</span></p>
@@ -869,7 +898,7 @@ t.markAsDone()
                   <div id="D-Trivia">
                     <div>
                       <div></div>
-                      <h3 id="c-trivia"><span class="badge badge-pill badge-danger">C-Trivia</span><a class="fa fa-anchor" href="#c-trivia"></a></h3>
+                      <h3 id="d-trivia"><span class="badge badge-pill badge-danger">D-Trivia</span><a class="fa fa-anchor" href="#d-trivia"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing trivia</strong></p>
                     </div>
                     <p>Provide the ability to learn/memorize things<span class="dimmed">e.g., learn vocabulary, answers to questions</span></p>
@@ -877,7 +906,7 @@ t.markAsDone()
                   <div id="D-Clients">
                     <div>
                       <div></div>
-                      <h3 id="c-clients"><span class="badge badge-pill badge-danger">C-Clients</span><a class="fa fa-anchor" href="#c-clients"></a></h3>
+                      <h3 id="d-clients"><span class="badge badge-pill badge-danger">D-Clients</span><a class="fa fa-anchor" href="#d-clients"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing client info</strong></p>
                     </div>
                     <p>Support managing info about clients <span class="dimmed">e.g., for an insurance agent to keep track of clients</span></p>
@@ -885,7 +914,7 @@ t.markAsDone()
                   <div id="D-Merchandise">
                     <div>
                       <div></div>
-                      <h3 id="c-merchandise"><span class="badge badge-pill badge-danger">C-Merchandise</span><a class="fa fa-anchor" href="#c-merchandise"></a></h3>
+                      <h3 id="d-merchandise"><span class="badge badge-pill badge-danger">D-Merchandise</span><a class="fa fa-anchor" href="#d-merchandise"></a></h3>
                       <p>     <big>↳</big> <strong>Support managing merchandise info</strong></p>
                     </div>
                     <p>Support managing info about merchandise <span class="dimmed">e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection</span></p>
