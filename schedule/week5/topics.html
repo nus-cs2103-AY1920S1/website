@@ -376,15 +376,14 @@
                 </li>
               </ul>
             </small></div>
-          <p></p>
           <ul>
-            <li>[<a href="#W5-7">W5.7</a>] <strong>Static Analysis</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+            <li>[<a href="#W5-7">W5.7</a>] <strong>Java: streams</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
           </ul>
           <div class="indented-level2">
             <small>
               <ul>
-                <li><span class="dimmed">[<a href="#W5-7a">W5.7a</a>] <span>Quality Assurance → Quality Assurance → Static Analysis →
-                    </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                <li><span class="dimmed">[<a href="#W5-7a">W5.7a</a>] <span>Tools → Java →
+                    </span></span> <span>Streams: Basic</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
               </ul>
             </small></div>
           <p></p>
@@ -3496,48 +3495,55 @@ send()
             </panel>
           </div>
         </panel>
-        <p></p>
         <p><span id="W5-7"></span></p>
         <panel type="seamless" no-close expandable="true" expanded>
           <span slot="header" class="card-title">
             <div>
-              <h2 id="w5-7-static-analysis"><span class="dimmed">[W5.7]</span> <strong>Static Analysis</strong> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#w5-7-static-analysis"></a></h2>
+              <h2 id="w5-7-java-streams"><span class="dimmed">[W5.7]</span> <strong>Java: streams</strong> <small><small><span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></small></small><a class="fa fa-anchor" href="#w5-7-java-streams"></a></h2>
             </div>
           </span>
           <div class="indented-level1">
             <p><span id="W5-7a"></span></p>
             <panel type="seamless" expanded>
               <span slot="header" class="card-title">
-                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.7a</span></span> <span class="dimmed"><strong><span>Quality Assurance → Quality Assurance → Static Analysis →
-                          </span></strong></span></small> <strong><span>What</span></strong></span> <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
+                <h4><span><small><span class="badge badge-pill badge-light"><span class="dimmed">W5.7a</span></span> <span class="dimmed"><strong><span>Tools → Java →
+                          </span></strong></span></small> <strong><span>Streams: Basic</span></strong></span> <small><small><span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small></h4>
               </span>
               <div>
                 <div class="indented">
                   <div></div>
                   <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain static analysis</span></span></span></span></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java8 streams</span></span></span></span></p>
                   <p></p>
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
-                      <div>
-                        <p><strong>Static analysis</strong>: Static analysis is the analysis of code without actually executing the code.</p>
-                      </div>
-                    </tip-box>
-                    <p>Static analysis of code can find useful information such unused variables, unhandled exceptions, style errors, and statistics. Most modern IDEs come with some inbuilt static analysis capabilities. For example, an IDE can highlight unused variables as you type the code into the editor.</p>
-                    <p>Higher-end static analyzer tools can perform for more complex analysis such as locating potential bugs, memory leaks, inefficient code structures etc.</p>
-                    <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example static analyzer for Java:</p>
-                      <ul>
-                        <li><a href="http://checkstyle.sourceforge.net/">CheckStyle</a></li>
-                        <li><a href="http://findbugs.sourceforge.net/">PMD</a></li>
-                        <li><a href="https://pmd.github.io/">FindBugs</a></li>
-                      </ul>
-                    </tip-box>
-                    <p><em>Linters</em> are a subset of static analyzers that specifically aim to locate areas where the code can be made 'cleaner'.</p>
+                    <p><strong>Java 8 introduced a number of new features (e.g. Lambdas, Streams)</strong> that are not trivial to learn but also extremely useful to know.</p>
+                    <p><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/">Here</a> is an overview of new Java 8 features .<span class="dimmed"> (written by Benjamin Winterberg)</span></p>
                   </div>
-                  <div></div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
+                        <p><strong>Tutorials</strong>:</p>
+                        <tabs>
+                            <tab header="<md>:far-file-alt:</md>">
+                            <ul>
+                              <li><a href="https://www.tutorialspoint.com/java8/"><strong>Java 8 Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a>. 💡 Also provides a way to try out code online</li>
+                              <li><strong>Tutorials from Oracle</strong>: [<a href="http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html">Lambdas</a>][<a href="http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html">Streams</a>]</li>
+                            </ul>
+                            <p></p>
+                          </tab>
+                            <tab header="<md>:glyphicon-facetime-video:</md>">
+                            <p>A video tutorial by well-known Java coach Venkat Subramaniam</p>
+                            <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Ee5t_EGjv0A" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                            <panel type="seamless" header="A a more detailed version covering similar grounds">
+                              <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/1OpAgZvYXLQ" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                            </panel>
+                          </tab>
+                        </tabs>
+                      </panel>
+                    </div>
+                  </div>
                 </div>
               </div>
             </panel>
@@ -3711,7 +3717,7 @@ send()
               </nav>
               <a class="nav-link py-1" href="#w5-5-refactoring">[W5.5] Refactoring &#x200E;</a>
               <a class="nav-link py-1" href="#w5-6-assertions">[W5.6] Assertions &#x200E;</a>
-              <a class="nav-link py-1" href="#w5-7-static-analysis">[W5.7] Static Analysis &#x200E;</a>
+              <a class="nav-link py-1" href="#w5-7-java-streams">[W5.7] Java: streams &#x200E;</a>
               <a class="nav-link py-1" href="#w5-8-continuous-integration-deployment">[W5.8] Continuous Integration/Deployment &#x200E;</a>
             </nav>
 
@@ -3721,7 +3727,7 @@ send()
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 12 Jul 2019 09:21:33 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Sun, 14 Jul 2019 12:08:54 GMT</small></div>
     </footer>
   </div>
 </body>

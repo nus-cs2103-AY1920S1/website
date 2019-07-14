@@ -168,6 +168,18 @@
     },
     {
       "headings": {
+        "ip-grading": "iP: Grading "
+      },
+      "title": "Admin: iP: Grading",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/ip-grading.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
         "ip-overview": "iP: Overview "
       },
       "title": "Admin: iP: Overview",
@@ -2096,7 +2108,7 @@
         "duke-2-add-list": "Duke 2. Add, List",
         "duke-3-mark-as-done": "Duke 3. Mark as Done",
         "duke-4-todos-events-deadlines": "Duke 4. ToDos, Events, Deadlines",
-        "duke-5-incorrect-inputs": "Duke 5. Incorrect Inputs",
+        "duke-5-handle-errors": "Duke 5. Handle Errors",
         "duke-6-delete": "Duke 6. Delete",
         "duke-7-save": "Duke 7. Save",
         "duke-8-dates-and-times": "Duke 8. Dates and Times",
@@ -2113,6 +2125,7 @@
         "a-packages": "A-Packages",
         "a-javadoc": "A-JavaDoc",
         "a-codingstandard": "A-CodingStandard",
+        "a-checkstyle": "A-CheckStyle",
         "a-codequality": "A-CodeQuality",
         "a-assertions": "A-Assertions",
         "a-jar": "A-Jar",
@@ -2126,6 +2139,7 @@
         "a-javafx-2": "A-JavaFx",
         "a-userguide": "A-UserGuide",
         "a-devguide": "A-DevGuide",
+        "a-release": "A-Release",
         "extensions-category-b": "\r\n                Extensions: Category B\r\n              ",
         "b-tentativescheduling": "B-TentativeScheduling",
         "b-snooze": "B-Snooze",

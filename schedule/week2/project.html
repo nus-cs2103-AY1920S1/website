@@ -97,6 +97,28 @@
         <p></p>
         <p>We'll be starting the individual project this week.</p>
         <div>
+          <ol>
+            <li>Ensure you have met the following prerequisites:
+              <ul>
+                <li>Install Git in your Computer.</li>
+                <li>Have a GitHub account.</li>
+                <li>Installed an IDE in your Computer.</li>
+              </ul>
+            </li>
+            <li>Fork [this repo: TBD], and clone it into your Computer.</li>
+            <li>Set up the project in your IDE as explained in the README file.</li>
+            <li>Implement the following levels/extensions in the given order.
+              <ul>
+                <li>Commit code at important points.</li>
+                <li>After reaching each level/extension,
+                  <ul>
+                    <li><strong><code>git tag</code></strong> the commit with an appropriate label e.g., <code>Level2</code>, <code>A-TextUiTesting</code></li>
+                    <li><strong><code>git push</code></strong> the code to your fork</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ol>
           <div>
             <div class="indented">
               <div class="indented border">
@@ -104,9 +126,13 @@
                   <div slot="header"><span><span class="dimmed"><strong>Duke - Level 1: Greet, Echo, Exit</strong></span></span></div>
                   <div></div>
                   <div>
+                    <p><span>
+                        <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
+                      </span></p>
                     <h3 id="duke-1-greet-echo-exit">Duke 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#duke-1-greet-echo-exit"></a></h3>
-                    <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.</p>
-                    <p>Example:</p>
+                    <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
+                      <br>
+                      Example:</p>
                     <pre><code class="hljs">    ____________________________________________________________
      Hello! I'm Duke
      What can I do for you?
@@ -143,6 +169,9 @@ bye
                   <div slot="header"><span><span class="dimmed"><strong>Duke - Level 2: Add, List</strong></span></span></div>
                   <div></div>
                   <div>
+                    <p><span>
+                        <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
+                      </span></p>
                     <h3 id="duke-2-add-list">Duke 2. Add, List<a class="fa fa-anchor" href="#duke-2-add-list"></a></h3>
                     <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
                     <p>Example:</p>
@@ -188,8 +217,11 @@ bye
                   <div slot="header"><span><span class="dimmed"><strong>Duke - Level 3: Mark as Done</strong></span></span></div>
                   <div></div>
                   <div>
+                    <p><span>
+                        <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
+                      </span></p>
                     <h3 id="duke-3-mark-as-done">Duke 3. Mark as Done<a class="fa fa-anchor" href="#duke-3-mark-as-done"></a></h3>
-                    <p>Add the ability to mark tasks as <em>done</em>.</p>
+                    <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
                     <pre><code class="hljs">list
     ____________________________________________________________
      Here are the tasks in your list:
@@ -205,7 +237,7 @@ done 2
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                       <panel header="**Extension: A-Classes**">
                         <div>
                           <div>
@@ -248,10 +280,15 @@ t.markAsDone()
                   <div slot="header"><span><span class="dimmed"><strong>Duke - Level 4: ToDo, Event, Deadline</strong></span></span></div>
                   <div></div>
                   <div>
+                    <p><span>
+                        <thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
+                      </span></p>
                     <h3 id="duke-4-todos-events-deadlines">Duke 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#duke-4-todos-events-deadlines"></a></h3>
-                    <p>Add support for tracking three types of tasks:</p>
+                    <p>Add support for tracking three types of tasks:
+                      <br>
+                      <br></p>
                     <ol>
-                      <li>ToDos: tasks without any date/time attached to it <span class="dimmed">e.g., visit new theme park</span></li>
+                      <li>ToDos: tasks without any date/time attached to it <span class="dimmed">e.g., <em>visit new theme park</em></span></li>
                       <li>Deadlines: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
                       <li>Events: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li>
                     </ol>
@@ -288,7 +325,7 @@ event project meeting /at Mon 2-4pm
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                       <panel header="**Extension: A-Inheritance**">
                         <div>
                           <div>
@@ -328,12 +365,17 @@ event project meeting /at Mon 2-4pm
             <div class="indented">
               <div class="indented border">
                 <panel type="seamless">
-                  <div slot="header"><span><span class="dimmed"><strong>Duke - Level 5: Handle Incorrect Inputs</strong></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong>Duke - Level 5: Handle Errors</strong></span></span></div>
                   <div></div>
                   <div>
-                    <h3 id="duke-5-incorrect-inputs">Duke 5. Incorrect Inputs<a class="fa fa-anchor" href="#duke-5-incorrect-inputs"></a></h3>
-                    <p>Teach Duke to deal with all sorts of incorrect inputs.
-                      Example:</p>
+                    <p><span>
+                        <thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
+                      </span></p>
+                    <h3 id="duke-5-handle-errors">Duke 5. Handle Errors<a class="fa fa-anchor" href="#duke-5-handle-errors"></a></h3>
+                    <p>Teach Duke to deal with errors such as incorrect inputs entered by the user.
+                      <br>
+                      <br></p>
+                    <p>Example:</p>
                     <pre><code class="hljs">todo
     ____________________________________________________________
      ☹ OOPS!!! The description of a todo cannot be empty.
@@ -345,7 +387,7 @@ blah
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                       <panel header="**Extension: A-Exceptions**">
                         <div>
                           <div>
@@ -357,6 +399,10 @@ blah
                         </div>
                       </panel>
                     </div>
+                    <ul>
+                      <li><strong>Minimal</strong>: handle at least the two types of errors shown in the example above.</li>
+                      <li><strong>Ideal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
+                    </ul>
                   </div>
                 </panel>
               </div>
@@ -369,9 +415,14 @@ blah
                   <div slot="header"><span><span class="dimmed"><strong>Duke - Level 6: Delete</strong></span></span></div>
                   <div></div>
                   <div>
+                    <p><span>
+                        <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
+                      </span></p>
                     <h3 id="duke-6-delete">Duke 6. Delete<a class="fa fa-anchor" href="#duke-6-delete"></a></h3>
                     <p>Add support for deleting tasks from the list.
-                      Example:</p>
+                      <br>
+                      <br></p>
+                    <p>Example:</p>
                     <pre><code class="hljs">list
     ____________________________________________________________
      Here are the tasks in your list:
@@ -390,7 +441,7 @@ delete 3
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                       <panel header="**Extension: A-Collections**">
                         <div>
                           <div>
@@ -411,7 +462,7 @@ delete 3
             <div class="indented">
               <div class="indented border">
                 <panel type="seamless">
-                  <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Enums</strong></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Enums</strong> <code>[if applicable]</code></span></span></div>
                   <div></div>
                   <div>
                     <div>
@@ -439,7 +490,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 12 Jul 2019 09:21:33 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Sun, 14 Jul 2019 12:08:54 GMT</small></div>
     </footer>
   </div>
 </body>

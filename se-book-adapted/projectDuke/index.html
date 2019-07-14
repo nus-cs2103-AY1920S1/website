@@ -202,7 +202,7 @@
             <div id="intro">
               <h1 id="project-duke">Project Duke<a class="fa fa-anchor" href="#project-duke"></a></h1>
               <div class="lead">
-                <pic add-class="float-left border m-2 p-1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
+                <pic add-class="float-left border mr-2 mt-2 p1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
                   <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
                 </pic>
                 <p><strong>Project Duke is a small software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying many Java and SE techniques along the way.</p>
@@ -278,9 +278,13 @@ bye
               <div class="text-white bg-dark p-1">Levels</div><a class="fa fa-anchor" href="#levels"></a>
             </h2>
             <div id="level1">
+              <p><span>
+                  <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
+                </span></p>
               <h3 id="duke-1-greet-echo-exit">Duke 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#duke-1-greet-echo-exit"></a></h3>
-              <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.</p>
-              <p>Example:</p>
+              <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
+                <br>
+                Example:</p>
               <pre><code class="hljs">    ____________________________________________________________
      Hello! I'm Duke
      What can I do for you?
@@ -308,6 +312,9 @@ bye
             </div>
             <hr>
             <div id="level2">
+              <p><span>
+                  <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
+                </span></p>
               <h3 id="duke-2-add-list">Duke 2. Add, List<a class="fa fa-anchor" href="#duke-2-add-list"></a></h3>
               <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
               <p>Example:</p>
@@ -344,8 +351,11 @@ bye
             </div>
             <hr>
             <div id="level3">
+              <p><span>
+                  <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
+                </span></p>
               <h3 id="duke-3-mark-as-done">Duke 3. Mark as Done<a class="fa fa-anchor" href="#duke-3-mark-as-done"></a></h3>
-              <p>Add the ability to mark tasks as <em>done</em>.</p>
+              <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
               <pre><code class="hljs">list
     ____________________________________________________________
      Here are the tasks in your list:
@@ -361,7 +371,7 @@ done 2
     ____________________________________________________________
 </code></pre>
               <div>
-                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                 <panel header="**Extension: A-Classes**">
                   <div>
                     <div>
@@ -395,10 +405,15 @@ t.markAsDone()
             </div>
             <hr>
             <div id="level4">
+              <p><span>
+                  <thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
+                </span></p>
               <h3 id="duke-4-todos-events-deadlines">Duke 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#duke-4-todos-events-deadlines"></a></h3>
-              <p>Add support for tracking three types of tasks:</p>
+              <p>Add support for tracking three types of tasks:
+                <br>
+                <br></p>
               <ol>
-                <li>ToDos: tasks without any date/time attached to it <span class="dimmed">e.g., visit new theme park</span></li>
+                <li>ToDos: tasks without any date/time attached to it <span class="dimmed">e.g., <em>visit new theme park</em></span></li>
                 <li>Deadlines: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
                 <li>Events: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li>
               </ol>
@@ -435,7 +450,7 @@ event project meeting /at Mon 2-4pm
     ____________________________________________________________
 </code></pre>
               <div>
-                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                 <panel header="**Extension: A-Inheritance**">
                   <div>
                     <div>
@@ -451,9 +466,14 @@ event project meeting /at Mon 2-4pm
             </div>
             <hr>
             <div id="level5">
-              <h3 id="duke-5-incorrect-inputs">Duke 5. Incorrect Inputs<a class="fa fa-anchor" href="#duke-5-incorrect-inputs"></a></h3>
-              <p>Teach Duke to deal with all sorts of incorrect inputs.
-                Example:</p>
+              <p><span>
+                  <thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
+                </span></p>
+              <h3 id="duke-5-handle-errors">Duke 5. Handle Errors<a class="fa fa-anchor" href="#duke-5-handle-errors"></a></h3>
+              <p>Teach Duke to deal with errors such as incorrect inputs entered by the user.
+                <br>
+                <br></p>
+              <p>Example:</p>
               <pre><code class="hljs">todo
     ____________________________________________________________
      ☹ OOPS!!! The description of a todo cannot be empty.
@@ -465,7 +485,7 @@ blah
     ____________________________________________________________
 </code></pre>
               <div>
-                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                 <panel header="**Extension: A-Exceptions**">
                   <div>
                     <div>
@@ -477,12 +497,21 @@ blah
                   </div>
                 </panel>
               </div>
+              <ul>
+                <li><strong>Minimal</strong>: handle at least the two types of errors shown in the example above.</li>
+                <li><strong>Ideal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
+              </ul>
             </div>
             <hr>
             <div id="level6">
+              <p><span>
+                  <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
+                </span></p>
               <h3 id="duke-6-delete">Duke 6. Delete<a class="fa fa-anchor" href="#duke-6-delete"></a></h3>
               <p>Add support for deleting tasks from the list.
-                Example:</p>
+                <br>
+                <br></p>
+              <p>Example:</p>
               <pre><code class="hljs">list
     ____________________________________________________________
      Here are the tasks in your list:
@@ -501,7 +530,7 @@ delete 3
     ____________________________________________________________
 </code></pre>
               <div>
-                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                 <panel header="**Extension: A-Collections**">
                   <div>
                     <div>
@@ -516,19 +545,30 @@ delete 3
             </div>
             <hr>
             <div id="level7">
+              <p><span>
+                  <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
+                </span></p>
               <h3 id="duke-7-save">Duke 7. Save<a class="fa fa-anchor" href="#duke-7-save"></a></h3>
               <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
             </div>
             <hr>
             <div id="level8">
+              <p><span>
+                  <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
+                </span></p>
               <h3 id="duke-8-dates-and-times">Duke 8. Dates and Times<a class="fa fa-anchor" href="#duke-8-dates-and-times"></a></h3>
               <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
             </div>
             <hr>
             <div id="level9">
+              <p><span>
+                  <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
+                </span></p>
               <h3 id="duke-9-find">Duke 9. Find<a class="fa fa-anchor" href="#duke-9-find"></a></h3>
               <p>Give users a way to find a task by searching for a keyword.
-                Example:</p>
+                <br>
+                <br></p>
+              <p>Example:</p>
               <pre><code class="hljs">find book
     ____________________________________________________________
      Here are the matching tasks in your list:
@@ -539,10 +579,15 @@ delete 3
             </div>
             <hr>
             <div id="level10">
+              <p><span>
+                  <thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
+                </span></p>
               <h3 id="duke-10-gui">Duke 10. GUI<a class="fa fa-anchor" href="#duke-10-gui"></a></h3>
-              <p>Add a GUI to Duke.</p>
+              <p>Add a GUI to Duke.
+                <br>
+                <br></p>
               <div>
-                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> This feature goes well with the following extension:</p>
+                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
                 <panel header="**Extension: A-JavaFx**">
                   <div>
                     <div>
@@ -633,8 +678,8 @@ t.markAsDone()
                 </div>
                 <p>Refactor the code to extract out closely related code as classes.</p>
                 <ul>
-                  <li><strong>(a) Extract <code>Ui</code>, <code>Storage</code>, <code>TaskList</code>, etc.</strong></li>
-                  <li><strong>(b) Extract <code>*Command</code> classes</strong></li>
+                  <li><strong>Minimal</strong>: Extract <code>Ui</code>, <code>Storage</code>, <code>TaskList</code>, etc.</li>
+                  <li><strong>Ideal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes</li>
                 </ul>
               </div>
               <hr>
@@ -672,6 +717,15 @@ t.markAsDone()
                   <p>     <big>↳</big> <strong>Tweak the code to comply with a coding standard</strong></p>
                 </div>
                 <p>Tweak the code to comply with a chosen coding standard.</p>
+              </div>
+              <hr>
+              <div id="A-CheckStyle">
+                <div>
+                  <div></div>
+                  <h3 id="a-checkstyle"><span class="badge badge-pill badge-primary">A-CheckStyle</span><a class="fa fa-anchor" href="#a-checkstyle"></a></h3>
+                  <p>     <big>↳</big> <strong>Use CheckStyle</strong></p>
+                </div>
+                <p>Use checkStyle to detect coding style violations.</p>
               </div>
               <hr>
               <div id="A-CodeQuality">
@@ -789,6 +843,15 @@ t.markAsDone()
                   <p>     <big>↳</big> <strong>Add a Developer Guide</strong></p>
                 </div>
                 <p>Add a Developer Guide to the project, explaining the design and implementation to future developers.</p>
+              </div>
+              <hr>
+              <div id="A-Release">
+                <div>
+                  <div></div>
+                  <h3 id="a-release"><span class="badge badge-pill badge-primary">A-Release</span><a class="fa fa-anchor" href="#a-release"></a></h3>
+                  <p>     <big>↳</big> <strong>Release the product</strong></p>
+                </div>
+                <p>Release the product to be used by potential users. <span class="dimmed">e.g., you can make it available on GitHub</span></p>
               </div>
 
               <h2 id="extensions-category-b">
@@ -1102,7 +1165,7 @@ t.markAsDone()
                 <a class="nav-link py-1" href="#duke-2-add-list">Duke 2. Add, List&#x200E;</a>
                 <a class="nav-link py-1" href="#duke-3-mark-as-done">Duke 3. Mark as Done&#x200E;</a>
                 <a class="nav-link py-1" href="#duke-4-todos-events-deadlines">Duke 4. ToDos, Events, Deadlines&#x200E;</a>
-                <a class="nav-link py-1" href="#duke-5-incorrect-inputs">Duke 5. Incorrect Inputs&#x200E;</a>
+                <a class="nav-link py-1" href="#duke-5-handle-errors">Duke 5. Handle Errors&#x200E;</a>
                 <a class="nav-link py-1" href="#duke-6-delete">Duke 6. Delete&#x200E;</a>
                 <a class="nav-link py-1" href="#duke-7-save">Duke 7. Save&#x200E;</a>
                 <a class="nav-link py-1" href="#duke-8-dates-and-times">Duke 8. Dates and Times&#x200E;</a>
@@ -1123,6 +1186,7 @@ t.markAsDone()
                 <a class="nav-link py-1" href="#a-packages">A-Packages&#x200E;</a>
                 <a class="nav-link py-1" href="#a-javadoc">A-JavaDoc&#x200E;</a>
                 <a class="nav-link py-1" href="#a-codingstandard">A-CodingStandard&#x200E;</a>
+                <a class="nav-link py-1" href="#a-checkstyle">A-CheckStyle&#x200E;</a>
                 <a class="nav-link py-1" href="#a-codequality">A-CodeQuality&#x200E;</a>
                 <a class="nav-link py-1" href="#a-assertions">A-Assertions&#x200E;</a>
                 <a class="nav-link py-1" href="#a-jar">A-Jar&#x200E;</a>
@@ -1136,6 +1200,7 @@ t.markAsDone()
                 <a class="nav-link py-1" href="#a-javafx-2">A-JavaFx&#x200E;</a>
                 <a class="nav-link py-1" href="#a-userguide">A-UserGuide&#x200E;</a>
                 <a class="nav-link py-1" href="#a-devguide">A-DevGuide&#x200E;</a>
+                <a class="nav-link py-1" href="#a-release">A-Release&#x200E;</a>
               </nav>
               <a class="nav-link py-1" href="#extensions-category-b">
                 Extensions: Category B

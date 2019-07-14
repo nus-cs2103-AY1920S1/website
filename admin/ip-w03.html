@@ -115,6 +115,7 @@
                   <li class="mt-2"><small><a href="/website/admin/ip-w04.html" class="site-nav__a">iP: Week 4</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w05.html" class="site-nav__a">iP: Week 5</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w06.html" class="site-nav__a">iP: Week 6</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/ip-grading.html" class="site-nav__a">iP: Grading</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
             </li>
@@ -180,6 +181,8 @@
           <div id="main">
             <div id="title"></div>
             <div id="body">
+              <p>In this week, we try to practice git branching as we do the iP.</p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Do Level 7 in a branch named <code>branch-level7</code>. Without merging that branch, go back to the <code>master</code> branch and implement Level 8 in a separate branch named <code>branch-level8</code>. Now, go back to the <code>master</code> branch and merge the two branches one after the other. As before, tag the commit (in the <code>master</code> branch, after merging) that achieves the respective milestone, and push to your fork.</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
@@ -187,6 +190,9 @@
                       <div slot="header"><span><span class="dimmed"><strong>Duke - Level 7: Save</strong></span></span></div>
                       <div></div>
                       <div>
+                        <p><span>
+                            <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
+                          </span></p>
                         <h3 id="duke-7-save">Duke 7. Save<a class="fa fa-anchor" href="#duke-7-save"></a></h3>
                         <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
                       </div>
@@ -201,6 +207,9 @@
                       <div slot="header"><span><span class="dimmed"><strong>Duke - Level 8: Dates and Times</strong></span></span></div>
                       <div></div>
                       <div>
+                        <p><span>
+                            <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
+                          </span></p>
                         <h3 id="duke-8-dates-and-times">Duke 8. Dates and Times<a class="fa fa-anchor" href="#duke-8-dates-and-times"></a></h3>
                         <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
                       </div>
@@ -208,6 +217,8 @@
                   </div>
                 </div>
               </div>
+              <p></p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> As in the previous week, commit, tag, and push, as you do the following enhancements in the <code>master</code> branch (no need to use separate branches).</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
@@ -222,8 +233,8 @@
                         </div>
                         <p>Refactor the code to extract out closely related code as classes.</p>
                         <ul>
-                          <li><strong>(a) Extract <code>Ui</code>, <code>Storage</code>, <code>TaskList</code>, etc.</strong></li>
-                          <li><strong>(b) Extract <code>*Command</code> classes</strong></li>
+                          <li><strong>Minimal</strong>: Extract <code>Ui</code>, <code>Storage</code>, <code>TaskList</code>, etc.</li>
+                          <li><strong>Ideal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes</li>
                         </ul>
                       </div>
                     </panel>
@@ -234,19 +245,15 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Level 9: Find</strong></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Packages</strong> <code>[optional]</code></span></span></div>
                       <div></div>
                       <div>
-                        <h3 id="duke-9-find">Duke 9. Find<a class="fa fa-anchor" href="#duke-9-find"></a></h3>
-                        <p>Give users a way to find a task by searching for a keyword.
-                          Example:</p>
-                        <pre><code class="hljs">find book
-    ____________________________________________________________
-     Here are the matching tasks in your list:
-     1.[T][✓] read book
-     2.[D][✓] return book (by: June 6th)
-    ____________________________________________________________
-</code></pre>
+                        <div>
+                          <div></div>
+                          <h3 id="a-packages"><span class="badge badge-pill badge-primary">A-Packages</span><a class="fa fa-anchor" href="#a-packages"></a></h3>
+                          <p>     <big>↳</big> <strong>Divide classes into packages</strong></p>
+                        </div>
+                        <p>Organize the classes into suitable java packages. e.g., <code>duke.task</code>, <code>duke.command</code></p>
                       </div>
                     </panel>
                   </div>
@@ -274,20 +281,22 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Packages</strong></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Jar</strong></span></span></div>
                       <div></div>
                       <div>
                         <div>
                           <div></div>
-                          <h3 id="a-packages"><span class="badge badge-pill badge-primary">A-Packages</span><a class="fa fa-anchor" href="#a-packages"></a></h3>
-                          <p>     <big>↳</big> <strong>Divide classes into packages</strong></p>
+                          <h3 id="a-jar"><span class="badge badge-pill badge-primary">A-Jar</span><a class="fa fa-anchor" href="#a-jar"></a></h3>
+                          <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
                         </div>
-                        <p>Organize the classes into suitable java packages. e.g., <code>duke.task</code>, <code>duke.command</code></p>
+                        <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
                       </div>
                     </panel>
                   </div>
                 </div>
               </div>
+              <p></p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> As in the step 1 above, do these three as three parallel branches first, and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
@@ -328,20 +337,32 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Jar</strong></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong>Duke - Level 9: Find</strong></span></span></div>
                       <div></div>
                       <div>
-                        <div>
-                          <div></div>
-                          <h3 id="a-jar"><span class="badge badge-pill badge-primary">A-Jar</span><a class="fa fa-anchor" href="#a-jar"></a></h3>
-                          <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
-                        </div>
-                        <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
+                        <p><span>
+                            <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
+                          </span></p>
+                        <h3 id="duke-9-find">Duke 9. Find<a class="fa fa-anchor" href="#duke-9-find"></a></h3>
+                        <p>Give users a way to find a task by searching for a keyword.
+                          <br>
+                          <br></p>
+                        <p>Example:</p>
+                        <pre><code class="hljs">find book
+    ____________________________________________________________
+     Here are the matching tasks in your list:
+     1.[T][✓] read book
+     2.[D][✓] return book (by: June 6th)
+    ____________________________________________________________
+</code></pre>
                       </div>
                     </panel>
                   </div>
                 </div>
               </div>
+              <p></p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> Create a PR from the <code>master</code> branch of your fork to the upstream repo.</p>
+              <br>
             </div>
           </div>
           <br>
@@ -351,7 +372,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Fri, 12 Jul 2019 09:21:33 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Sun, 14 Jul 2019 12:08:54 GMT</small></div>
     </footer>
   </div>
 </body>
