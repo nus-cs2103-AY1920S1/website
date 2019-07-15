@@ -181,7 +181,7 @@ bye
 </code></pre>
                   <ul>
                     <li>There is no need to save the data to the hard disk.</li>
-                    <li>If you wish, you may use a fixed size array (e.g., <code>String[100]</code>) to store the items.</li>
+                    <li>Assume there will be no more than 100 tasks. If you wish, you may use a fixed size array (e.g., <code>String[100]</code>) to store the items.</li>
                   </ul>
                 </div>
                 <hr>
@@ -207,7 +207,7 @@ done 2
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Classes**">
+                    <panel header="**Extension: `A-Classes`**">
                       <div>
                         <div>
                           <div></div>
@@ -215,7 +215,8 @@ done 2
                           <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
                         </div>
                         <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
-                        <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
+                        <panel type="seamless" header="Partial solution" minimized>
+                          <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
 
@@ -224,16 +225,17 @@ done 2
         <span class="hljs-keyword">this</span>.isDone = <span class="hljs-keyword">false</span>;
     }
 
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatus</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">"✓"</span> : <span class="hljs-string">"✗"</span>);
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatusIcon</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">"\u2713"</span> : <span class="hljs-string">"\u2718"</span>); <span class="hljs-comment">//return tick or X symbols</span>
     }
 
     <span class="hljs-comment">//...</span>
 }
 </code></pre>
-                        <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
+                          <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
 t.markAsDone()
 </code></pre>
+                        </panel>
                       </div>
                     </panel>
                   </div>
@@ -248,9 +250,9 @@ t.markAsDone()
                     <br>
                     <br></p>
                   <ol>
-                    <li>ToDos: tasks without any date/time attached to it <span class="dimmed">e.g., <em>visit new theme park</em></span></li>
-                    <li>Deadlines: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
-                    <li>Events: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li>
+                    <li><strong>ToDos</strong>: tasks without any date/time attached to it <span class="dimmed">e.g., <em>visit new theme park</em></span></li>
+                    <li><strong>Deadlines</strong>: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
+                    <li><strong>Events</strong>: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li>
                   </ol>
                   <p>Example:</p>
                   <pre><code class="hljs">todo borrow book
@@ -284,9 +286,19 @@ event project meeting /at Mon 2-4pm
      Now you have 7 tasks in the list.
     ____________________________________________________________
 </code></pre>
+                  <p>At this point, dates/times can be treated as strings; there is no need to convert them to actual dates/times.</p>
+                  <p>Example:</p>
+                  <pre><code class="hljs">
+deadline do homework /by no idea :-p
+    ____________________________________________________________
+     Got it. I've added this task: 
+       [D][✗] do homework (by: no idea :-p)
+     Now you have 6 tasks in the list.
+    ____________________________________________________________
+</code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Inheritance**">
+                    <panel header="**Extension: `A-Inheritance`**">
                       <div>
                         <div>
                           <div></div>
@@ -295,6 +307,26 @@ event project meeting /at Mon 2-4pm
                         </div>
                         <p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code>Todo</code>, <code>Deadline</code> and <code>Event</code> classes to inherit from a <code>Task</code> class.</p>
                         <p>Furthermore, use polymorphism to store all tasks in a data structure containing <code>Task</code> objects e.g., <code>Task[100]</code>.</p>
+                        <panel type="seamless" header="Partial solution" minimized>
+                          <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Deadline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
+
+    <span class="hljs-keyword">protected</span> String by;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Deadline</span><span class="hljs-params">(String description, String by)</span> </span>{
+        <span class="hljs-keyword">super</span>(description);
+        <span class="hljs-keyword">this</span>.by = by;
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">"[D]"</span> + <span class="hljs-keyword">super</span>.toString() + <span class="hljs-string">" (by: "</span> + by + <span class="hljs-string">")"</span>;
+    }
+}
+</code></pre>
+                          <pre><code class="hljs java">Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
+task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span> Deadline(<span class="hljs-string">"return book"</span>, <span class="hljs-string">"Monday"</span>);
+</code></pre>
+                        </panel>
                       </div>
                     </panel>
                   </div>
@@ -321,7 +353,7 @@ blah
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Exceptions**">
+                    <panel header="**Extension: `A-Exceptions`**">
                       <div>
                         <div>
                           <div></div>
@@ -366,7 +398,7 @@ delete 3
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Collections**">
+                    <panel header="**Extension: `A-Collections`**">
                       <div>
                         <div>
                           <div></div>
@@ -385,6 +417,12 @@ delete 3
                     </span></p>
                   <h3 id="duke-7-save">Duke 7. Save<a class="fa fa-anchor" href="#duke-7-save"></a></h3>
                   <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
+                  <p>The format of the file is up to you. Example:</p>
+                  <pre><code class="hljs">T | 1 | read book
+D | 0 | return book | June 6th
+E | 0 | project meeting | Aug 6th 2-4pm
+T | 1 | join sports club
+</code></pre>
                 </div>
                 <hr>
                 <div id="level8">
@@ -423,7 +461,7 @@ delete 3
                     <br></p>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-JavaFx**">
+                    <panel header="**Extension: `A-JavaFx`**">
                       <div>
                         <div>
                           <div></div>
@@ -447,7 +485,8 @@ delete 3
                       <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
                     </div>
                     <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
-                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
+                    <panel type="seamless" header="Partial solution" minimized>
+                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
 
@@ -456,16 +495,17 @@ delete 3
         <span class="hljs-keyword">this</span>.isDone = <span class="hljs-keyword">false</span>;
     }
 
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatus</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">"✓"</span> : <span class="hljs-string">"✗"</span>);
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatusIcon</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">"\u2713"</span> : <span class="hljs-string">"\u2718"</span>); <span class="hljs-comment">//return tick or X symbols</span>
     }
 
     <span class="hljs-comment">//...</span>
 }
 </code></pre>
-                    <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
+                      <pre><code class="hljs java">Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">"read book"</span>);
 t.markAsDone()
 </code></pre>
+                    </panel>
                   </div>
                   <hr>
                   <div id="A-Inheritance">
@@ -476,6 +516,26 @@ t.markAsDone()
                     </div>
                     <p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code>Todo</code>, <code>Deadline</code> and <code>Event</code> classes to inherit from a <code>Task</code> class.</p>
                     <p>Furthermore, use polymorphism to store all tasks in a data structure containing <code>Task</code> objects e.g., <code>Task[100]</code>.</p>
+                    <panel type="seamless" header="Partial solution" minimized>
+                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Deadline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
+
+    <span class="hljs-keyword">protected</span> String by;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Deadline</span><span class="hljs-params">(String description, String by)</span> </span>{
+        <span class="hljs-keyword">super</span>(description);
+        <span class="hljs-keyword">this</span>.by = by;
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">"[D]"</span> + <span class="hljs-keyword">super</span>.toString() + <span class="hljs-string">" (by: "</span> + by + <span class="hljs-string">")"</span>;
+    }
+}
+</code></pre>
+                      <pre><code class="hljs java">Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
+task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span> Deadline(<span class="hljs-string">"return book"</span>, <span class="hljs-string">"Monday"</span>);
+</code></pre>
+                    </panel>
                   </div>
                   <hr>
                   <div id="A-Exceptions">
@@ -513,8 +573,30 @@ t.markAsDone()
                     </div>
                     <p>Refactor the code to extract out closely related code as classes.</p>
                     <ul>
-                      <li><strong>Minimal</strong>: Extract <code>Ui</code>, <code>Storage</code>, <code>TaskList</code>, etc.</li>
-                      <li><strong>Ideal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes</li>
+                      <li><strong>Minimal</strong>: Extract the following classes:
+                        <ul>
+                          <li><code>Ui</code>: Deals with interactions with the user</li>
+                          <li><code>Storage</code>: Deals with loading tasks from the file and saving tasks in the file.</li>
+                          <li><code>Parser</code>: Deals with making sense of the user command</li>
+                          <li><code>TaskList</code>: Contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
+                        </ul>
+                      </li>
+                      <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
+                        <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!isExit) {
+    <span class="hljs-keyword">try</span> {
+        String fullCommand = ui.readCommand();
+        ui.showLine();
+        Command c = Parser.parse(fullCommand);
+        c.execute(tasks, ui, storage);
+        isExit = c.isExit();
+    } <span class="hljs-keyword">catch</span> (DukeException e) {
+        ui.showError(e.getMessage());
+    } <span class="hljs-keyword">finally</span> {
+        ui.showLine();
+    }
+}
+</code></pre>
+                      </li>
                     </ul>
                   </div>
                   <hr>
@@ -597,6 +679,11 @@ t.markAsDone()
                       <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
                     </div>
                     <p>Use Gradle to automate some of the build tasks of the project.</p>
+                    <ul>
+                      <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
+                      <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
+                      <li><strong>Stretch Goal</strong>: Learn how to set up Gradle for a project.</li>
+                    </ul>
                   </div>
                   <hr>
                   <div id="A-Travis">

@@ -182,12 +182,13 @@
             <div id="title"></div>
             <div id="body">
               <p>In this week, we try to practice git branching as we do the iP.</p>
-              <p><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Do Level 7 in a branch named <code>branch-level7</code>. Without merging that branch, go back to the <code>master</code> branch and implement Level 8 in a separate branch named <code>branch-level8</code>. Now, go back to the <code>master</code> branch and merge the two branches one after the other. As before, tag the commit (in the <code>master</code> branch, after merging) that achieves the respective milestone, and push to your fork.</p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Do Level 7 in a branch named <code>branch-level7</code>. Without merging that branch, go back to the <code>master</code> branch and implement Level 8 in a separate branch named <code>branch-level8</code>. Now, go back to the <code>master</code> branch and merge the two branches one after the other. As before, tag the commit (in the <code>master</code> branch, after merging) that achieves the respective deliverable, and push to your fork.</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Level 7: Save</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-7</code>: Save</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <p><span>
@@ -195,6 +196,12 @@
                           </span></p>
                         <h3 id="duke-7-save">Duke 7. Save<a class="fa fa-anchor" href="#duke-7-save"></a></h3>
                         <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
+                        <p>The format of the file is up to you. Example:</p>
+                        <pre><code class="hljs">T | 1 | read book
+D | 0 | return book | June 6th
+E | 0 | project meeting | Aug 6th 2-4pm
+T | 1 | join sports club
+</code></pre>
                       </div>
                     </panel>
                   </div>
@@ -204,7 +211,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Level 8: Dates and Times</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-8</code>: Dates and Times</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <p><span>
@@ -223,7 +231,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-MoreOOP</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-MoreOOP</code>: More OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <div>
@@ -233,8 +242,30 @@
                         </div>
                         <p>Refactor the code to extract out closely related code as classes.</p>
                         <ul>
-                          <li><strong>Minimal</strong>: Extract <code>Ui</code>, <code>Storage</code>, <code>TaskList</code>, etc.</li>
-                          <li><strong>Ideal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes</li>
+                          <li><strong>Minimal</strong>: Extract the following classes:
+                            <ul>
+                              <li><code>Ui</code>: Deals with interactions with the user</li>
+                              <li><code>Storage</code>: Deals with loading tasks from the file and saving tasks in the file.</li>
+                              <li><code>Parser</code>: Deals with making sense of the user command</li>
+                              <li><code>TaskList</code>: Contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
+                            </ul>
+                          </li>
+                          <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
+                            <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!isExit) {
+    <span class="hljs-keyword">try</span> {
+        String fullCommand = ui.readCommand();
+        ui.showLine();
+        Command c = Parser.parse(fullCommand);
+        c.execute(tasks, ui, storage);
+        isExit = c.isExit();
+    } <span class="hljs-keyword">catch</span> (DukeException e) {
+        ui.showError(e.getMessage());
+    } <span class="hljs-keyword">finally</span> {
+        ui.showLine();
+    }
+}
+</code></pre>
+                          </li>
                         </ul>
                       </div>
                     </panel>
@@ -245,7 +276,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Packages</strong> <code>[optional]</code></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-Packages</code>: Java Packages</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
                       <div></div>
                       <div>
                         <div>
@@ -263,7 +295,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-JUnit</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-JUnit</code>: JUnit Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <div>
@@ -281,7 +314,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-Jar</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-Jar</code>: JAR file</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <div>
@@ -301,7 +335,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-JavaDoc</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-JavaDoc</code>: JavaDoc</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <div>
@@ -319,7 +354,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Ext: A-CodingStandard</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-CodingStandard</code>: Coding Standard</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <div>
@@ -337,7 +373,8 @@
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless">
-                      <div slot="header"><span><span class="dimmed"><strong>Duke - Level 9: Find</strong></span></span></div>
+                      <div></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
                       <div></div>
                       <div>
                         <p><span>
@@ -372,7 +409,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Sun, 14 Jul 2019 12:08:54 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.2</a> at Mon, 15 Jul 2019 12:06:29 GMT</small></div>
     </footer>
   </div>
 </body>
