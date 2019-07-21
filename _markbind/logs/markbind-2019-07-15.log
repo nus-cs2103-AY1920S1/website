@@ -917,3 +917,10 @@ Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\wee
 2019-07-15T12:00:51.136Z - info: Site data built
 2019-07-15T12:06:24.826Z - info: Website generation started at 8:06:22 PM
 2019-07-15T12:06:27.318Z - info: Building assets...
+2019-07-15T12:06:29.105Z - info: Assets built
+2019-07-15T12:06:29.105Z - info: Generating pages...
+2019-07-15T12:08:08.861Z - info: Pages built
+2019-07-15T12:08:30.422Z - info: Website generation complete! Total build time: 127.77s
+2019-07-15T12:08:30.422Z - info: Build success!
+2019-07-15T12:08:30.435Z - info: Site data built
+2019-07-15T12:09:22.905Z - info: Deployed!
