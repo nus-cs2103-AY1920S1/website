@@ -195,7 +195,7 @@
                             <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
                           </span></p>
                         <h3 id="level-7-save">Level 7. Save<a class="fa fa-anchor" href="#level-7-save"></a></h3>
-                        <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
+                        <p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk whe Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
                         <p>The format of the file is up to you. Example:</p>
                         <pre><code class="hljs">T | 1 | read book
 D | 0 | return book | June 6th
@@ -226,7 +226,7 @@ T | 1 | join sports club
                 </div>
               </div>
               <p></p>
-              <p><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> As in the previous week, commit, tag, and push, as you do the following enhancements in the <code>master</code> branch (no need to use separate branches).</p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> As in the previous week, commit, tag, and push, as you do the following increments in the <code>master</code> branch (no need to use separate branches).</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
@@ -244,24 +244,59 @@ T | 1 | join sports club
                         <ul>
                           <li><strong>Minimal</strong>: Extract the following classes:
                             <ul>
-                              <li><code>Ui</code>: Deals with interactions with the user</li>
-                              <li><code>Storage</code>: Deals with loading tasks from the file and saving tasks in the file.</li>
-                              <li><code>Parser</code>: Deals with making sense of the user command</li>
-                              <li><code>TaskList</code>: Contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
+                              <li><code>Ui</code>: deals with interactions with the user</li>
+                              <li><code>Storage</code>: deals with loading tasks from the file and saving tasks in the file</li>
+                              <li><code>Parser</code>: deals with making sense of the user command</li>
+                              <li><code>TaskList</code>: contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
                             </ul>
                           </li>
+                        </ul>
+                        <div class="indented-level2">
+                          <p>For example, the code of the main class could look like this:</p>
+                          <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Duke</span> </span>{
+
+    <span class="hljs-keyword">private</span> Storage storage;
+    <span class="hljs-keyword">private</span> TaskList tasks;
+    <span class="hljs-keyword">private</span> Ui ui;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duke</span><span class="hljs-params">(String filePath)</span> </span>{
+        ui = <span class="hljs-keyword">new</span> Ui();
+        storage = <span class="hljs-keyword">new</span> Storage(filePath);
+        <span class="hljs-keyword">try</span> {
+            tasks = <span class="hljs-keyword">new</span> TaskList(storage.load());
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showLoadingError();
+            tasks = <span class="hljs-keyword">new</span> TaskList();
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">//...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-keyword">new</span> Duke(<span class="hljs-string">"data/tasks.txt"</span>).run();
+    }
+}
+</code></pre>
+                        </div>
+                        <ul>
                           <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
-                            <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!isExit) {
-    <span class="hljs-keyword">try</span> {
-        String fullCommand = ui.readCommand();
-        ui.showLine();
-        Command c = Parser.parse(fullCommand);
-        c.execute(tasks, ui, storage);
-        isExit = c.isExit();
-    } <span class="hljs-keyword">catch</span> (DukeException e) {
-        ui.showError(e.getMessage());
-    } <span class="hljs-keyword">finally</span> {
-        ui.showLine();
+                            <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+    ui.showWelcome();
+    <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
+    <span class="hljs-keyword">while</span> (!isExit) {
+        <span class="hljs-keyword">try</span> {
+            String fullCommand = ui.readCommand();
+            ui.showLine();
+            Command c = Parser.parse(fullCommand);
+            c.execute(tasks, ui, storage);
+            isExit = c.isExit();
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showError(e.getMessage());
+        } <span class="hljs-keyword">finally</span> {
+            ui.showLine();
+        }
     }
 }
 </code></pre>
@@ -330,7 +365,7 @@ T | 1 | join sports club
                 </div>
               </div>
               <p></p>
-              <p><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> As in the step 1 above, do these three as three parallel branches first, and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.</p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> As in the step 1 above, implement these three increments as three parallel branches first, and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
@@ -398,7 +433,10 @@ T | 1 | join sports club
                 </div>
               </div>
               <p></p>
-              <p><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> Create a PR from the <code>master</code> branch of your fork to the upstream repo.</p>
+              <p><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> Create a pull request (PR) from the <code>master</code> branch of your fork to the upstream repo.</p>
+              <ul>
+                <li>PR name: <code>[Your name] Duke Increments</code> e.g., <code>[John Doe] Duke Increments</code> <span class="dimmed">If you are reluctant to give full name, you may give the first half of your name only</span></li>
+              </ul>
               <br>
             </div>
           </div>
@@ -409,7 +447,7 @@ T | 1 | join sports club
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 22 Jul 2019 04:55:21 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 24 Jul 2019 12:20:43 GMT</small></div>
     </footer>
   </div>
 </body>

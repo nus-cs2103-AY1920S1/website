@@ -40,9 +40,9 @@
                     <pic add-class="float-left border mr-2 mt-2 p1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
                       <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
                     </pic>
-                    <p><strong>Project Duke is a small software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying many Java and SE techniques along the way.</p>
+                    <p><strong>Project Duke is a educational software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying as many Java and SE techniques as possible along the way.</p>
                   </div>
-                  <p><strong>The project aims to build a product named Duke, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
+                  <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> You may give it any other name you wish.</p>
                   <p>Here is a sample interaction with Duke:</p>
                   <pre><code class="hljs">    ____________________________________________________________
       ____        _        
@@ -366,7 +366,7 @@ blah
                   </div>
                   <ul>
                     <li><strong>Minimal</strong>: handle at least the two types of errors shown in the example above.</li>
-                    <li><strong>Ideal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
+                    <li><strong>Stretch goal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li>
                   </ul>
                 </div>
                 <hr>
@@ -416,7 +416,7 @@ delete 3
                       <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
                     </span></p>
                   <h3 id="level-7-save">Level 7. Save<a class="fa fa-anchor" href="#level-7-save"></a></h3>
-                  <p>Save the tasks in the hard disk automatically whenever the task list changes. Automatically load the data from the hard disk whe duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
+                  <p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk whe Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
                   <p>The format of the file is up to you. Example:</p>
                   <pre><code class="hljs">T | 1 | read book
 D | 0 | return book | June 6th
@@ -575,24 +575,59 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                     <ul>
                       <li><strong>Minimal</strong>: Extract the following classes:
                         <ul>
-                          <li><code>Ui</code>: Deals with interactions with the user</li>
-                          <li><code>Storage</code>: Deals with loading tasks from the file and saving tasks in the file.</li>
-                          <li><code>Parser</code>: Deals with making sense of the user command</li>
-                          <li><code>TaskList</code>: Contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
+                          <li><code>Ui</code>: deals with interactions with the user</li>
+                          <li><code>Storage</code>: deals with loading tasks from the file and saving tasks in the file</li>
+                          <li><code>Parser</code>: deals with making sense of the user command</li>
+                          <li><code>TaskList</code>: contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li>
                         </ul>
                       </li>
+                    </ul>
+                    <div class="indented-level2">
+                      <p>For example, the code of the main class could look like this:</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Duke</span> </span>{
+
+    <span class="hljs-keyword">private</span> Storage storage;
+    <span class="hljs-keyword">private</span> TaskList tasks;
+    <span class="hljs-keyword">private</span> Ui ui;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duke</span><span class="hljs-params">(String filePath)</span> </span>{
+        ui = <span class="hljs-keyword">new</span> Ui();
+        storage = <span class="hljs-keyword">new</span> Storage(filePath);
+        <span class="hljs-keyword">try</span> {
+            tasks = <span class="hljs-keyword">new</span> TaskList(storage.load());
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showLoadingError();
+            tasks = <span class="hljs-keyword">new</span> TaskList();
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">//...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-keyword">new</span> Duke(<span class="hljs-string">"data/tasks.txt"</span>).run();
+    }
+}
+</code></pre>
+                    </div>
+                    <ul>
                       <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
-                        <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!isExit) {
-    <span class="hljs-keyword">try</span> {
-        String fullCommand = ui.readCommand();
-        ui.showLine();
-        Command c = Parser.parse(fullCommand);
-        c.execute(tasks, ui, storage);
-        isExit = c.isExit();
-    } <span class="hljs-keyword">catch</span> (DukeException e) {
-        ui.showError(e.getMessage());
-    } <span class="hljs-keyword">finally</span> {
-        ui.showLine();
+                        <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+    ui.showWelcome();
+    <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
+    <span class="hljs-keyword">while</span> (!isExit) {
+        <span class="hljs-keyword">try</span> {
+            String fullCommand = ui.readCommand();
+            ui.showLine();
+            Command c = Parser.parse(fullCommand);
+            c.execute(tasks, ui, storage);
+            isExit = c.isExit();
+        } <span class="hljs-keyword">catch</span> (DukeException e) {
+            ui.showError(e.getMessage());
+        } <span class="hljs-keyword">finally</span> {
+            ui.showLine();
+        }
     }
 }
 </code></pre>
