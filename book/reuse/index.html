@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
 
@@ -86,12 +87,12 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Using a cool UI framework">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Using a cool UI framework" class="algolia-no-index">
                                       <question has-input="true">
                                         <p>One of your teammates is proposing to use a recently-released “cool” UI framework for your class project. List the pros and cons of this idea.</p>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>Pros</p>
                                           <ul>
                                             <li>The potential to create a much better product by reusing the framework.</li>
@@ -149,9 +150,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about APIs">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about APIs" class="algolia-no-index">
                                       <question>
                                         <p>Choose the correct statements</p>
                                         <ul class="task-list">
@@ -161,7 +162,7 @@
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. The API forms the contract between the component developer and the component user.</li>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. Sequence diagrams can be used to show how components interact with each other via APIs.</li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(a) (c) (d) (e)</p>
                                           <p>Explanation: (b) is incorrect because private methods cannot be a part of the API</p>
                                         </div>
@@ -169,14 +170,14 @@
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: True or False?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: True or False?" class="algolia-no-index">
                                       <question>
                                         <p>Defining component APIs early is useful for developing components in parallel.</p>
                                         <ul radio-group="9bd8a" class="radio-list">
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="9bd8a" type="radio"> True</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="9bd8a" type="radio"> False</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>True</p>
                                           <p>Explanation: Yes, once we know the precise behavior expected of each component, we can start developing them in parallel.</p>
                                         </div>
@@ -391,9 +392,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about software frameworks">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about software frameworks" class="algolia-no-index">
                                       <question>
                                         <p>Choose correct statements about software frameworks.</p>
                                         <ul class="task-list">
@@ -404,7 +405,7 @@
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. They are reuse mechanisms.</li>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> f. They are similar to reusable libraries but bigger.</li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(a)(b)(c)(d)(e)<s>(f)</s></p>
                                           <p>Explanation: While both libraries and frameworks are reuse mechanisms, and both more concrete than principles and patterns, libraries differ from frameworks in some key ways. One of them is the ‘inversion of control’ used by frameworks but not libraries. Furthermore, frameworks do not have to be bigger than libraries all the time.</p>
                                         </div>
@@ -412,7 +413,7 @@
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are frameworks?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are frameworks?" class="algolia-no-index">
                                       <question>
                                         <p>Which one of these are frameworks ?</p>
                                         <ul radio-group="58823" class="radio-list">
@@ -421,7 +422,7 @@
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> c. Drupal</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> d. Ruby on Rails</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(a)(b)(c)(d)</p>
                                           <p>Explanation: These are frameworks.</p>
                                         </div>
@@ -469,7 +470,7 @@
                                   <li>.NET is a similar platform and a framework. Its runtime is called CLR (Common Language Runtime) and usually used on Windows machines.</li>
                                 </ul>
                               </tip-box>
-                              <modal title="**Enterprise Applications**" id="modal:enterprise-application">
+                              <modal title="**Enterprise Applications**" id="modal:enterprise-application" class="algolia-no-index">
                                 <div>
                                   <p><strong>Enterprise Application</strong>: ‘enterprise applications’ means software applications used at organizations level and therefore has to meet much higher demands (such as in scalability, security, performance, and robustness) than software meant for individual use.</p>
                                 </div>
@@ -539,9 +540,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Google Calendar in which category?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Google Calendar in which category?" class="algolia-no-index">
                                       <question>
                                         <p>Google Calendar belongs to which category of cloud computing services?</p>
                                         <ul class="task-list">
@@ -549,7 +550,7 @@
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. PaaS</li>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. SaaS</li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(c)</p>
                                           <p>Explanation: It is a <em>software</em> as a service. Instead of installing a calendar software on your desktop, we can use the Google Calendar software that lives ‘on the cloud’.</p>
                                         </div>
@@ -583,6 +584,21 @@
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

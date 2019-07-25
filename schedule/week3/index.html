@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
   <link rel="stylesheet" href="../../markbind/css/page-nav.css">
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -96,18 +97,22 @@
             <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
           </ul>
           <p></p>
+          <box type="warning">
+            <ul>
+              <li>The <strong>deadline to achieve weekly tasks is the midnight before your tutorial</strong>, unless mentioned otherwise. Our scripts that detect your work run at midnight and only the work that's done by midnight will be eligible for marks (for cases where the task is graded).</li>
+              <li>We start tutorials this week. The <a href="https://nus-cs2103-AY1920S1.github.io/website/admin/tutorials.html#tutorial-timetable">tutorial time table</a> is on the module website.
+              </li>
+            </ul>
+          </box>
+
           <h5 id="by-weekly-deadline"><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by <tooltip content="2359 immediately _before_ your tutorial">weekly deadline</tooltip></span></span><a class="fa fa-anchor" href="#by-weekly-deadline"></a></h5>
           <ul>
-            <li>
-              <p>We start formal tutorials this week. The <a href="https://nus-cs2103-AY1920S1.github.io/website/admin/tutorials.html#tutorial-timetable">tutorial time table</a> is on the module website.</p>
-            </li>
-            <li>
-              <p>Note that the official <span><span aria-hidden="true" class="fas fa-clock"></span></span> <strong>deadline to achieve weekly project tasks is the midnight before your tutorial</strong>. Our scripts that detect your work run at midnight and only the work that's done by midnight will be eligible for marks (for cases where the task is graded).</p>
-            </li>
+            <li><strong>Post-lecture quiz</strong>: As usual, read weekly topics allocated for this week. Submit the post-lecture quiz to test your knowledge of those topics. The quiz link will be emailed to you on the previous week's Friday.</li>
+            <li><strong>Individual Project(iP)</strong>: Complete the iP increments allocated for this week. See the <a href="/website/schedule/week3/project.html"><span class="border border-bottom-0 rounded-top"> <span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project </span></a> tab for more info.</li>
           </ul>
-          <p><strong>CS2103 students only:</strong><br></p>
+          <h5 id="in-the-tutorial"><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> in the tutorial</span></span><a class="fa fa-anchor" href="#in-the-tutorial"></a></h5>
           <ul>
-            <li><strong>forming project teams will happen at the <em>start</em> of this week's tutorial</strong>; please try to arrive on time. If you are not there at the team forming time and others in the class are unaware which team you wanted to be in, we'll have to put you into a team randomly.</li>
+            <li><strong>CS2103 students only:</strong> <mark>forming project teams will happen at the <em>start</em> of this week's tutorial</mark>;</li>
           </ul>
         </div>
       </div>
@@ -123,7 +128,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -137,6 +142,21 @@
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

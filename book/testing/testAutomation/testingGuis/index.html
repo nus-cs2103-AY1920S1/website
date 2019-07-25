@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -63,7 +64,7 @@
                         </li>
                         <li>
                           <p><a href="http://seleniumhq.org/"><strong>Selenium</strong></a> can be used to automate testing of Web application UIs<br></p>
-                          <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> demo video of automated testing of a Web application" class="non-printable">
+                          <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> demo video of automated testing of a Web application" class="non-printable algolia-no-index">
                             <p>This video shows automated testing of the <a href="http://github.com/teammates/teammates">TEAMMATES</a> Web app using Selenium</p>
                             <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/ihst69Zq1xM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                           </panel>
@@ -73,16 +74,16 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: API testing vs GUI testing">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: API testing vs GUI testing" class="algolia-no-index">
                             <question>
                               <p>GUI testing is usually easier than API testing because it doesn’t require any extra coding.</p>
                               <ul radio-group="dc574" class="radio-list">
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="dc574" type="radio"> True</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="dc574" type="radio"> False</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>False</p>
                               </div>
                             </question>
@@ -110,6 +111,21 @@
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

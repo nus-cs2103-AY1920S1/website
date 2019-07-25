@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -102,7 +103,7 @@
                           <li>The line starting with <code>//</code> is a comment. You can use <code>//</code> for single line comments and <code>/* ... */</code> for multi-line comments in Java code.</li>
                         </ul>
                         <popover id="pop:helloWorld-statement" title="Statements" placement="top">
-                          <div slot="content">
+                          <div slot="content" class="algolia-no-index">
                             <p>A statement is a line of code that performs a basic operation. In the HelloWorld program, this line is a print statement that displays a message on the screen:</p>
                             <p><code>System.out.println(&quot;Hello, World!&quot;);</code></p>
                           </div>
@@ -139,7 +140,7 @@
                         </p>
                         <p>If the compilation is successful, you should see a file <code>HelloWorld.class</code>. That file contains the byte code for your program. If the compilation is unsuccessful, you will be notified of the <trigger for="pop:compiling-errors">compile-time errors</trigger>.</p>
                         <popover id="pop:compiling-errors" title="Compile-time errors" placement="top">
-                          <div slot="content">
+                          <div slot="content" class="algolia-no-index">
                             <p><em>Compile-time errors</em> <span class="dimmed">(aka <em>compile errors</em>)</span> occur when you violate the syntax rules of the Java language. For example, parentheses and braces have to come in matching pairs.</p>
                             <p>Error messages from the compiler usually indicate where in the program the error occurred, and sometimes they can tell you exactly what the error is.</p>
                           </div>
@@ -196,10 +197,10 @@
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> Run HelloWorld">
+                                <panel header="<md>:glyphicon-question-sign:</md> Run HelloWorld" class="algolia-no-index">
                                   <question>
                                     <ul>
                                       <li>Install Java in your Computer, if you haven't done so already.</li>
@@ -234,6 +235,21 @@
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

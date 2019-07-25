@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../../markbind/layouts/default/styles.css">
 
 
@@ -140,10 +141,10 @@ true
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> override the `toString` method">
+                            <panel header="<md>:glyphicon-question-sign:</md> override the `toString` method" class="algolia-no-index">
                               <question>
                                 <p>Suppose you have the following classes <code>Task</code>, <code>Todo</code>, <code>Deadline</code>:</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
@@ -228,7 +229,7 @@ is done? Yes
 do by: Postponed to Nov 18th
 </code></pre>
                                 <p>💡 You can use the <code>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em>adding onto</em> the behavior of the overridden method.</p>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p><code>toString()</code> method of <code>Task</code> class and <code>Todo</code> class are given below. You can follow a similar approach for the <code>Deadline</code> class.</p>
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-comment">// ...</span>
@@ -281,6 +282,21 @@ do by: Postponed to Nov 18th
   const enableSearch = true
 </script>
 <script src="../../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

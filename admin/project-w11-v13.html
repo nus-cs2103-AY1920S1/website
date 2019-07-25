@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../markbind/css/github.min.css">
   <link rel="stylesheet" href="../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../markbind/layouts/default/styles.css">
   <link rel="stylesheet" href="../markbind/css/site-nav.css">
 
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -221,7 +222,7 @@
               </div>
               <h3 id="v1-3-project-management">v1.3 Project Management<a class="fa fa-anchor" href="#v1-3-project-management"></a></h3>
               <p>Ensure your code is RepoSense-compatible, <trigger trigger="click" for="modal:v13-reposense">as explained in mid-v1.3</trigger>.</p>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → v1.3 (extract)" id="modal:v13-reposense">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project → v1.3 (extract)" id="modal:v13-reposense" class="algolia-no-index">
                   <div>
                   <h4 id="using-reposense">Using RepoSense<a class="fa fa-anchor" href="#using-reposense"></a></h4>
                   <div id="main">
@@ -260,7 +261,7 @@
                       </li>
                     </ul>
                     <div class="indented-level3">
-                      <panel header="Adding `@@author` tags to indicate authorship">
+                      <panel header="Adding `@@author` tags to indicate authorship" class="algolia-no-index">
                         <div>
                           <h4 id="adding-author-tags-indicate-authorship">Adding <code>@@author</code> tags indicate authorship<a class="fa fa-anchor" href="#adding-author-tags-indicate-authorship"></a></h4>
                           <ul>
@@ -401,7 +402,7 @@ method 2 ...
               <ul>
                 <li><strong>README page</strong>: Update to look like a real product (rather than a project for learning SE) if you haven't done so already. In particular, <mark>update the <code>Ui.png</code> to match the current product (<trigger trigger="click" for="modal:v13-tipsForProductScreenshot">💡 tips</trigger>)</mark>.</li>
               </ul>
-              <modal large title="Admin → Project Deliverables → Website" id="modal:v13-tipsForProductScreenshot">
+              <modal large title="Admin → Project Deliverables → Website" id="modal:v13-tipsForProductScreenshot" class="algolia-no-index">
                   <div>
                   <box>
                     <p>💡 <strong>Some common sense tips for a good product screenshot</strong></p>
@@ -412,15 +413,15 @@ method 2 ...
                       <li>Choose a state that showcase the main features of the product <span class="dimmed">i.e., the login screen is not usually a good choice</span></li>
                       <li>Avoid annotations (arrows, callouts, explanatory text etc.); it should look like the product is being in use for real.</li>
                     </ul>
-                    <panel type="seamless" header="Examples">
+                    <panel type="seamless" header="Examples" class="algolia-no-index">
                       <tabs>
                           <tab header="Not Good">
                           <img src="/website/admin/images/Ui-notGood1.png" width="600"></tab>
-                          <tab header="Not Good">
+                          <tab header="Not Good" class="algolia-no-index">
                           <img src="/website/admin/images/Ui-notGood2.png" width="600"></tab>
-                        <tab header="Good">
+                        <tab header="Good" class="algolia-no-index">
                           <img src="/website/admin/images/Ui-good1.png" width="600"></tab>
-                          <tab header="Good">
+                          <tab header="Good" class="algolia-no-index">
                           <img src="/website/admin/images/Ui-good2.png" width="600"></tab>
                       </tabs>
                     </panel>
@@ -457,11 +458,11 @@ method 2 ...
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v13-peDryRun">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Deliverables → <strong>Practical Exam - Dry Run</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Deliverables → **Practical Exam - Dry Run**  <md>:glyphicon-star:</md>" id="modal:v13-peDryRun">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Deliverables → **Practical Exam - Dry Run**  <md>:glyphicon-star:</md>" id="modal:v13-peDryRun" class="algolia-no-index">
                   <div>
                   <p><strong>What</strong>: The v1.3 is subjected to a round of peer <em>acceptance/system testing</em>, also called the <em>Practical Exam Dry Run</em> as this round of testing will be similar to the graded <trigger trigger="click" for="modal:projectDeliverablesPeDryRun-pe">Practical Exam that will be done at v1.4</trigger>.</p>
                   <p><strong>When, where</strong>: uses a 30 minute slot at the start of week 11 lecture</p>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Practical Exam" id="modal:projectDeliverablesPeDryRun-pe">
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Practical Exam" id="modal:projectDeliverablesPeDryRun-pe" class="algolia-no-index">
                       <div>
                       <p><strong>Objectives:</strong></p>
                       <ul>
@@ -936,7 +937,7 @@ method 2 ...
                       </ul>
                     </box>
                   </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project →" id="modal:v1.3-ppp">
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project →" id="modal:v1.3-ppp" class="algolia-no-index">
                       <div>
                       <p>At the end of the project each student is required to submit a <em>Project Portfolio Page</em>.</p>
                       <ul>
@@ -1055,7 +1056,7 @@ method 2 ...
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-practicalexam-dry-run" header="Admin <md>:glyphicon-log-in:</md> Project Deliverables → **Practical Exam - Dry Run**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-deliverables-practicalexam-dry-run"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-practicalexam-dry-run" header="Admin <md>:glyphicon-log-in:</md> Project Deliverables → **Practical Exam - Dry Run**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="project-deliverables-practicalexam-dry-run"></panel>
               </p>
             </div>
           </div>
@@ -1070,7 +1071,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -1084,6 +1085,21 @@ method 2 ...
   const enableSearch = true
 </script>
 <script src="../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../markbind/layouts/default/scripts.js"></script>
 
 </html>

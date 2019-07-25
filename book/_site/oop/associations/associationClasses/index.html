@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../../markbind/layouts/default/styles.css">
 
 
@@ -47,7 +48,7 @@
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code>Man</code> class and a <code>Woman</code> class is linked with a ‘married to’ association and there is a need to store the date of marriage. However, that data is related to the association rather than specifically owned by either the <code>Man</code> object or the <code>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code>Marriage</code> class, to store such information.</p>
                     </tip-box>
                     <p>
-                      <panel type="seamless" src="/website/book/_site/uml/classDiagrams/associationClasses/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Association Classes → What" alt="<md>:glyphicon-education:</md> UML/AssociationClasses" fragment="main"></panel>
+                      <panel type="seamless" src="/website/book/_site/uml/classDiagrams/associationClasses/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Association Classes → What" alt="<md>:glyphicon-education:</md> UML/AssociationClasses" fragment="main" class="algolia-no-index"></panel>
                     </p>
                     <h5 id="implementing-association-classes">Implementing association classes<a class="fa fa-anchor" href="#implementing-association-classes"></a></h5>
                     <p>There is no special way to implement an association class. It can be implemented as a normal class that has variables to represent the endpoint of the association it represents.</p>
@@ -70,9 +71,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are suitable as an Association Class?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are suitable as an Association Class?" class="algolia-no-index">
                             <question>
                               <p>Which one of these is the suitable as an Association Class?</p>
                               <img src="/website/book/oop/associations/associationClasses/images/exerciseDiagram.png" width="500">
@@ -83,7 +84,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a)(b)<s>(c)</s>(d)</p>
                                 <p>Explanation: Mileage is a property of the car, and not specifically about the association between the Driver and the Car. If Mileage was defined as the total number of miles that car was driven by that driver, then it would be suitable as an association class.</p>
                               </div>
@@ -112,6 +113,21 @@
   const enableSearch = true
 </script>
 <script src="../../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

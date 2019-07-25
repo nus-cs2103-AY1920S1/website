@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
   <link rel="stylesheet" href="../../markbind/css/page-nav.css">
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -99,7 +100,7 @@
           <p>Topics allocated to the week will appear in this tab.
           </p>
         </box>
-        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%" class="algolia-no-index">
           <ul>
             <li>[<a href="#W1-1">W1.1</a>] <strong>OOP: Classes &amp; Objects</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
           </ul>
@@ -350,9 +351,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about OOP">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about OOP" class="algolia-no-index">
                             <question>
                               <p>A) Choose the correct statements</p>
                               <ul class="task-list">
@@ -369,7 +370,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. Java can be used to write procedural code</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. Prolog follows the Logic Programming paradigm</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>A) (a)(b)(c)(e)</p>
                                 <p>Explanation: While many languages support the OO paradigm, OO is not a language itself.</p>
                                 <p>B) Choose the correct statement</p>
@@ -380,14 +381,14 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: procedural vs OOP">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: procedural vs OOP" class="algolia-no-index">
                             <question>
                               <p>OO is a higher level mechanism than the procedural paradigm.</p>
                               <ul radio-group="07027" class="radio-list">
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="07027" type="radio"> True</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="07027" type="radio"> False</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>True.</p>
                                 <p>Explanation: Procedural languages work at simple data structures (e.g., integers, arrays) and functions level. Because an object is an abstraction over data+related functions, OO works at a higher level.</p>
                               </div>
@@ -570,10 +571,10 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
 
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Describe objects in the given scenario">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Describe objects in the given scenario" class="algolia-no-index">
                             <question has-input="true">
                               <p>Consider the following real-world scenario.</p>
                               <tip-box>
@@ -587,7 +588,7 @@
                                 <li>Objects interact by sending messages.</li>
                                 <li>OOP does not demand that the virtual world object network follow the real world exactly.</li>
                               </ol>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <blockquote>
                                   <p>[1] Object Oriented Programming (OOP) views the world as a network of interacting objects.</p>
                                 </blockquote>
@@ -743,16 +744,16 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> Identify Classes and Objects">
+                            <panel header="<md>:glyphicon-question-sign:</md> Identify Classes and Objects" class="algolia-no-index">
                               <question>
                                 <p>Consider the following scenario. If you were to simulate this in an OOP program, what are the classes and the objects you would use?</p>
                                 <tip-box>
                                   <p>A customer (name: John) gave a cheque to the Cashier (name: Peter) to pay for the LoTR and GoT books he bought.</p>
                                 </tip-box>
-                                <div slot="answer">
+                                <div slot="answer" class="algolia-no-index">
                                   <div class="table-responsive">
                                     <table class="markbind-table table table-bordered table-striped">
                                       <thead>
@@ -786,7 +787,7 @@
                             </panel>
                           </div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> Classes for CityConnect app">
+                            <panel header="<md>:glyphicon-question-sign:</md> Classes for CityConnect app" class="algolia-no-index">
                               <question has-input="true">
                                 <p>Assume you are writing a CLI program called <strong><code>CityConnect</code></strong> for storing and querying distances between cities. The behavior is as follows:</p>
                                 <pre><code class="hljs">Welcome to CityConnect!
@@ -810,7 +811,7 @@ Enter command: exit
 
 </code></pre>
                                 <p>What classes would you have in your code if you write your program based on the OOP paradigm?</p>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>One class you can have is <code>Route</code></p>
                                 </div>
                               </question>
@@ -839,7 +840,7 @@ Enter command: exit
                   <p></p>
                   <div>
                     <p>The concept of <strong><em>Objects</em> in OOP is an <trigger trigger="click" for="modal:objectsAsAbstractions-abstraction">abstraction</trigger> mechanism because it allows us to abstract away the lower level details and work with bigger granularity entities</strong> i.e. ignore details of data formats and the method implementation details and work at the level of objects.</p>
-                    <modal large title="Definition: Abstraction" id="modal:objectsAsAbstractions-abstraction">
+                    <modal large title="Definition: Abstraction" id="modal:objectsAsAbstractions-abstraction" class="algolia-no-index">
                       <div>
                         <p><strong>Abstraction</strong> is a technique for dealing with complexity. It works by establishing a level of complexity we are interested in, and suppressing the more complex details below that level.</p>
                       </div>
@@ -876,19 +877,19 @@ Enter command: exit
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Choose the correct statement.">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Choose the correct statement." class="algolia-no-index">
                             <question>
                               <p>Choose the correct statements</p>
                               <ul class="task-list">
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. An object is an encapsulation because it packages data and behavior into one bundle.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. An object is an encapsulation because it lets us think in terms of higher level concepts such as Students rather than student-related functions and data separately.</li>
                               </ul>
-                              <div slot="hint">
+                              <div slot="hint" class="algolia-no-index">
                                 <p>Don't confuse encapsulation with abstraction.</p>
                               </div>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>Choose the correct statement</p>
                                 <p>(a)</p>
                                 <p>Explanation: The second statement should be: An object is an <strong>abstraction</strong> <s>encapsulation</s> because it lets ...</p>
@@ -1014,10 +1015,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> define a `Circle` class">
+                            <panel header="<md>:glyphicon-question-sign:</md> define a `Circle` class" class="algolia-no-index">
                               <question>
                                 <p>Define a <code>Circle</code> class so that the code given below produces the given output. The nature of the class is a follows:</p>
                                 <ul>
@@ -1058,7 +1059,7 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                                 <pre><code class="hljs">0
 78
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <ul>
                                     <li>Put the <code>Circle</code> class in a file called <code>Circle.java</code></li>
                                   </ul>
@@ -1139,10 +1140,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> add getters/setters to the `Circle` class">
+                            <panel header="<md>:glyphicon-question-sign:</md> add getters/setters to the `Circle` class" class="algolia-no-index">
                               <question>
                                 <p>Consider the <code>Circle</code> class below:</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -1200,7 +1201,7 @@ area   : 113
 radius : 0.0
 radius : 0.0
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>Partial solution:</p>
                                   <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y, <span class="hljs-keyword">double</span> radius)</span></span>{
     setX(x);
@@ -1258,9 +1259,9 @@ radius : 0.0
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Suitable as a class-level variables">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Suitable as a class-level variables" class="algolia-no-index">
                             <question>
                               <p>Which of these are suitable as class-level variables?</p>
                               <ul class="task-list">
@@ -1269,7 +1270,7 @@ radius : 0.0
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. system: ToDo manager, class: <code>Task</code>, variable: <code>totalPendingTasks</code></li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. system: any, class: <code>ArrayList</code>, variable: <code>total</code> (i.e., total items in a given <code>ArrayList</code> object)</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(c)</p>
                                 <p>Explanation: <code>totalPendingTasks</code> should not be managed by individual <code>Task</code> objects and therefore suitable to be maintained as a class-level variable. The other variables should be managed at instance level as their value varies from instance to instance. e.g., <code>totalStudents</code> for one <code>Course</code> object will differ from <code>totalStudents</code> of another.</p>
                               </div>
@@ -1377,10 +1378,10 @@ radius : 0.0
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class">
+                            <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class" class="algolia-no-index">
                               <question>
                                 <p>Consider the <code>Circle</code> class below:</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -1451,7 +1452,7 @@ max radius used so far : 10.0
 max radius used so far : 10.0
 max radius used so far : 12.0
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>You can use a <code>static</code> variable <code>maxRadius</code> to track the maximum value used for the <code>radius</code> attribute so far.</p>
                                   <p>Partial solution:</p>
                                   <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setRadius</span><span class="hljs-params">(<span class="hljs-keyword">double</span> radius)</span> </span>{
@@ -1538,10 +1539,10 @@ Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.S
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> show priority color">
+                            <panel header="<md>:glyphicon-question-sign:</md> show priority color" class="algolia-no-index">
                               <question>
                                 <p>Define an enumeration named <code>Priority</code>. Add the missing <code>describe</code> method to the code below so that it produces the output given.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -1562,7 +1563,7 @@ Orange indicates medium priority
 Blue indicates medium priority
 Green indicates low priority
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>Use a <code>switch</code> statement to select between possible values for <code>Priority</code>.</p>
                                   <pre><code class="hljs java">    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">describe</span><span class="hljs-params">(String color, Priority p)</span> </span>{
         <span class="hljs-keyword">switch</span> (p) {
@@ -1650,9 +1651,9 @@ Green indicates low priority
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which statements are correct">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which statements are correct" class="algolia-no-index">
                             <question>
                               <p>Which of these are correct?</p>
                               <ul class="task-list">
@@ -1662,7 +1663,7 @@ Green indicates low priority
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. Code reuse can be one benefit of inheritance.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. A change to the superclass will not affect its subclasses.</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a) (b) (c) (d)</p>
                                 <p>Explanation: (e) is incorrect. Because subclasses inherit behavior from the superclass, any changes to the superclass could affect subclasses.</p>
                               </div>
@@ -1694,7 +1695,7 @@ Green indicates low priority
                     <tip-box type="primary">
                       <div>
                         <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                        <panel type="seamless" header="%%Examples%%">
+                        <panel type="seamless" header="%%Examples%%" class="algolia-no-index">
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
@@ -1748,7 +1749,7 @@ Green indicates low priority
                 <div class="indented">
                   <div>
                     <p>
-                      <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
+                      <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what" class="algolia-no-index"></panel>
                     </p>
                   </div>
                   <p></p>
@@ -1788,7 +1789,7 @@ Green indicates low priority
                           </tbody>
                         </table>
                       </div>
-                      <modal title="**Overloading**" id="modal:overriding-overloading">
+                      <modal title="**Overloading**" id="modal:overriding-overloading" class="algolia-no-index">
                         <div>
                           <div></div>
                           <p></p>
@@ -1804,7 +1805,7 @@ Green indicates low priority
                                 <tip-box type="primary">
                                   <div>
                                     <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                    <panel type="seamless" header="%%Examples%%">
+                                    <panel type="seamless" header="%%Examples%%" class="algolia-no-index">
                                       <div class="table-responsive">
                                         <table class="markbind-table table table-bordered table-striped">
                                           <thead>
@@ -1853,9 +1854,9 @@ Green indicates low priority
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which methods override?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which methods override?" class="algolia-no-index">
                             <question>
                               <p>Which of these methods override another method? <span class="dimmed"><code>A</code> is the parent class. <code>B</code> inherits <code>A</code>.</span></p>
                               <img src="/website/book/oop/inheritance/overriding/images/overriding.png" height="220">
@@ -1867,7 +1868,7 @@ Green indicates low priority
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>d</p>
                                 <p>Explanation: Method overriding requires a method in a <em>child class</em> to use the same method name and same parameter sequence used by one of its ancestors</p>
                               </div>
@@ -2014,10 +2015,10 @@ Printed in Subclass
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> inherit the `Task` class">
+                            <panel header="<md>:glyphicon-question-sign:</md> inherit the `Task` class" class="algolia-no-index">
                               <question>
                                 <p>Background: Suppose we are creating a software to manage various tasks a person has to do. Two types of such tasks are,</p>
                                 <ul>
@@ -2088,7 +2089,7 @@ Nov 16
 true
 Postponed to Nov 18th
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p><code>Todo</code> class is given below. You can follow a similar approach for the <code>Deadline</code> class.</p>
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Todo</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
@@ -2196,7 +2197,7 @@ Postponed to Nov 18th
                       <pre><code class="hljs">Mittens: Meow
 Snowball: Meow
 </code></pre>
-                      <panel type="seamless" header="%%The `Cat` class%%">
+                      <panel type="seamless" header="%%The `Cat` class%%" class="algolia-no-index">
                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Cat</span><span class="hljs-params">(String name)</span> </span>{
         <span class="hljs-keyword">super</span>(name);
@@ -2234,7 +2235,7 @@ Snowball: Meow
 Snowball: Meow
 Spot: Woof
 </code></pre>
-                      <panel type="seamless" header="%%The `Dog` class%%">
+                      <panel type="seamless" header="%%The `Dog` class%%" class="algolia-no-index">
                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Dog</span><span class="hljs-params">(String name)</span> </span>{
         <span class="hljs-keyword">super</span>(name);
@@ -2268,7 +2269,7 @@ Spot: Woof
 Snowball: Meow
 Spot: Woof
 </code></pre>
-                      <panel type="seamless" header="%%The `Animal`, `Cat`, and `Dog` classes%%">
+                      <panel type="seamless" header="%%The `Animal`, `Cat`, and `Dog` classes%%" class="algolia-no-index">
                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span> </span>{
 
     <span class="hljs-keyword">protected</span> String name;
@@ -2317,10 +2318,10 @@ Spot: Woof
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> print shape area">
+                            <panel header="<md>:glyphicon-question-sign:</md> print shape area" class="algolia-no-index">
                               <question>
                                 <p>The <code>Main</code> class below keeps a list of <code>Circle</code> and <code>Rectangle</code> objects and prints the area (as an <code>int</code> value) of each shape when requested.</p>
                                 <p>Add the missing variables/methods to the code below so that it produces the output given.</p>
@@ -2375,7 +2376,7 @@ Spot: Woof
 }
 </code></pre>
                                 <p>💡 You may use an array of size 100 to store the shapes.</p>
-                                <panel type="seamless" header="Partial solution">
+                                <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Shape[] shapes = <span class="hljs-keyword">new</span> Shape[<span class="hljs-number">100</span>];
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> shapeCount = <span class="hljs-number">0</span>;
@@ -2394,10 +2395,10 @@ Spot: Woof
                             </panel>
                           </div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 2 - **Use Inheritance**">
+                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 2 - **Use Inheritance**" class="algolia-no-index">
                               <div id="body">
                                 <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
+                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main" class="algolia-no-index"></panel>
                                 </p>
                                 <p><span class="dimmed">This exercise continues from the <code>TaskManager Level1</code> exercise quoted above.</span></p>
                                 <div id="main">
@@ -2448,7 +2449,7 @@ Spot: Woof
                                     <li>Use polymorphism to store both types of tasks in an array of <code>Task</code> type and use one loop to print both types of tasks.</li>
                                   </ul>
                                   <p><strong>B. Add support for <trigger trigger="click" for="modal:taskManagerLevel2-testingClis">semi-automated regression testing using input/output redirection</trigger></strong>.</p>
-                                  <modal large title="Textbook »" id="modal:taskManagerLevel2-testingClis">
+                                  <modal large title="Textbook »" id="modal:taskManagerLevel2-testingClis" class="algolia-no-index">
                                     <div>
                                       <div></div>
                                       <p></p>
@@ -2469,7 +2470,7 @@ Spot: Woof
                                             <ol>
                                               <li>
                                                 <p>Store the test input in the text file <code>input.txt</code>.</p>
-                                                <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless">
+                                                <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless" class="algolia-no-index">
                                                   <pre><code class="hljs">add Valid Name p/12345 valid@email.butNoPrefix
 add Valid Name 12345 e/valid@email.butPhonePrefixMissing
 </code></pre>
@@ -2477,7 +2478,7 @@ add Valid Name 12345 e/valid@email.butPhonePrefixMissing
                                               </li>
                                               <li>
                                                 <p>Store the output we expect from the SUT in another text file <code>expected.txt</code>.</p>
-                                                <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless">
+                                                <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless" class="algolia-no-index">
                                                   <pre><code class="hljs">Command: || [add Valid Name p/12345 valid@email.butNoPrefix]
 Invalid command format: add 
 
@@ -2500,7 +2501,7 @@ Invalid command format: add
                                                     <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
                                                   </li>
                                                 </ul>
-                                                <panel header minimized>
+                                                <panel header minimized class="algolia-no-index">
                                                   <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
                                                   <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                                                   <pre><code class="hljs sh">java AddressBook &gt; output.txt 
@@ -2525,7 +2526,7 @@ Invalid command format: add
                                             <p>Note that the above technique is only suitable when testing CLI apps, and only if the exact output can be predetermined. <span class="dimmed">If the output varies from one run to the other (e.g. it contains a time stamp), this technique will not work. In those cases we need more sophisticated ways of automating tests.</span></p>
                                             <div>
                                               <popover id="pop:cli" placement="top">
-                                                <div slot="content">
+                                                <div slot="content" class="algolia-no-index">
                                                   <div>
                                                     <p><strong>CLI App</strong>: An application that has a <em>Command Line Interface</em>. i.e. user interacts with the app by typing in commands.</p>
                                                   </div>
@@ -2538,7 +2539,7 @@ Invalid command format: add
                                       </div>
                                     </div>
                                   </modal>
-                                  <panel type="seamless" header="Partial solution">
+                                  <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                     <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -2727,10 +2728,10 @@ Invalid command format: add
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`">
+                            <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`" class="algolia-no-index">
                               <question>
                                 <p>The <code>Main</code> class below keeps a list of <code>Circle</code> and <code>Rectangle</code> objects and prints the area (as an <code>int</code> value) of each shape when requested.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -2804,7 +2805,7 @@ Rectangle of area 16
 }
 </code></pre>
                                 <p>Add the missing <code>Shape</code> class <mark>as an abstract class with two abstract methods</mark>.</p>
-                                <panel type="seamless" header="Partial solution">
+                                <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Shape</span> </span>{
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">int</span> <span class="hljs-title">area</span><span class="hljs-params">()</span></span>;
@@ -2816,7 +2817,7 @@ Rectangle of area 16
                             </panel>
                           </div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about abstract classes">
+                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about abstract classes" class="algolia-no-index">
                               <question>
                                 <p>Choose the correct statements about Java abstract classes and <tooltip content="classes that are not abstract">concrete classes</tooltip>.</p>
                                 <ul class="task-list">
@@ -2825,7 +2826,7 @@ Rectangle of area 16
                                   <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. An abstract class need not contain any concrete methods.</li>
                                   <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. An abstract class cannot be instantiated.</li>
                                 </ul>
-                                <div slot="answer">
+                                <div slot="answer" class="algolia-no-index">
                                   <p>(b)(c)(d)</p>
                                   <p>Explanation: A concrete class cannot contain even a single abstract method.</p>
                                 </div>
@@ -2940,7 +2941,7 @@ Rectangle of area 16
                       </ol>
                     </box>
                     <p><strong>Interfaces can also contain <trigger trigger="click" for="modal:javaInterfaces-constants">constants</trigger> and static methods</strong>.</p>
-                    <modal large title="%%Textbook »%%" id="modal:javaInterfaces-constants">
+                    <modal large title="%%Textbook »%%" id="modal:javaInterfaces-constants" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
@@ -2990,10 +2991,10 @@ Rectangle of area 16
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> print `Printable` items">
+                            <panel header="<md>:glyphicon-question-sign:</md> print `Printable` items" class="algolia-no-index">
                               <question>
                                 <p>The <code>Main</code> class below passes a list of <code>Printable</code> objects (i.e., objects that implement the <code>Printable</code> interface) for another method to be printed.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -3072,7 +3073,7 @@ Person of name James Cook
     <span class="hljs-comment">// todo: add missing methods</span>
 }
 </code></pre>
-                                <panel type="seamless" header="Partial solution">
+                                <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Printable</span> </span>{
     <span class="hljs-comment">//...</span>
 }
@@ -3100,7 +3101,7 @@ Person of name James Cook
                 <div class="indented">
                   <div>
                     <p>
-                      <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
+                      <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what" class="algolia-no-index"></panel>
                     </p>
                   </div>
                   <p></p>
@@ -3151,11 +3152,11 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     <p><strong>
                         <trigger trigger="click" for="modal:dynamicAndStatic-overriding">Overridden methods</trigger> are resolved using dynamic binding, and therefore resolves to the implementation in the actual type of the object.
                       </strong></p>
-                    <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overriding">
+                    <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overriding" class="algolia-no-index">
                       <div>
                         <div>
                           <p>
-                            <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
+                            <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> OOP → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what" class="algolia-no-index"></panel>
                           </p>
                         </div>
                         <p></p>
@@ -3198,7 +3199,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                     </tbody>
                                   </table>
                                 </div>
-                                <modal title="**Overloading**" id="modal:overriding-overloading">
+                                <modal title="**Overloading**" id="modal:overriding-overloading" class="algolia-no-index">
                                   <div>
                                     <div></div>
                                     <p></p>
@@ -3214,7 +3215,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                           <tip-box type="primary">
                                             <div>
                                               <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                              <panel type="seamless" header="%%Examples%%">
+                                              <panel type="seamless" header="%%Examples%%" class="algolia-no-index">
                                                 <div class="table-responsive">
                                                   <table class="markbind-table table table-bordered table-striped">
                                                     <thead>
@@ -3263,9 +3264,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which methods override?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which methods override?" class="algolia-no-index">
                                       <question>
                                         <p>Which of these methods override another method? <span class="dimmed"><code>A</code> is the parent class. <code>B</code> inherits <code>A</code>.</span></p>
                                         <img src="/website/book/oop/inheritance/overriding/images/overriding.png" height="220">
@@ -3277,7 +3278,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d</li>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e</li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>d</p>
                                           <p>Explanation: Method overriding requires a method in a <em>child class</em> to use the same method name and same parameter sequence used by one of its ancestors</p>
                                         </div>
@@ -3307,7 +3308,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       </div>
                     </tip-box>
                     <p><strong>In contrast, <trigger trigger="click" for="modal:dynamicAndStatic-overloading">overloaded</trigger> methods are resolved using static binding.</strong></p>
-                    <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overloading">
+                    <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:dynamicAndStatic-overloading" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
@@ -3323,7 +3324,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                               <tip-box type="primary">
                                 <div>
                                   <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                                  <panel type="seamless" header="%%Examples%%">
+                                  <panel type="seamless" header="%%Examples%%" class="algolia-no-index">
                                     <div class="table-responsive">
                                       <table class="markbind-table table table-bordered table-striped">
                                         <thead>
@@ -3403,8 +3404,8 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                 <div class="indented">
                   <div>
                     <p>
-                      <panel src="/website/book/oop/inheritance/substitutability/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → Substitutability%%" popup-url="/website/book/oop/inheritance/substitutability"></panel>
-                      <panel src="/website/book/oop/inheritance/dynamicAndStaticBinding/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → Dynamic and Static Binding%%" popup-url="/website/book/oop/inheritance/dynamicAndStaticBinding"></panel>
+                      <panel src="/website/book/oop/inheritance/substitutability/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → Substitutability%%" popup-url="/website/book/oop/inheritance/substitutability" class="algolia-no-index"></panel>
+                      <panel src="/website/book/oop/inheritance/dynamicAndStaticBinding/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → Dynamic and Static Binding%%" popup-url="/website/book/oop/inheritance/dynamicAndStaticBinding" class="algolia-no-index"></panel>
                     </p>
                   </div>
                   <p></p>
@@ -3422,9 +3423,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Concepts related to polymorphism">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Concepts related to polymorphism" class="algolia-no-index">
                             <question>
                               <p>Which one of these is least related to how OO programs achieve polymorphism?</p>
                               <ul radio-group="8bdf8" class="radio-list">
@@ -3432,7 +3433,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> b. dynamic binding</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> c. operation overloading</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(c)</p>
                                 <p>Explanation: Operation overriding is the one that is related, not operation overloading.</p>
                               </div>
@@ -3606,10 +3607,10 @@ After clearing: []
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> Numbers list">
+                            <panel header="<md>:glyphicon-question-sign:</md> Numbers list" class="algolia-no-index">
                               <question>
                                 <p>Add the missing methods to the class given below so that it produces the output given.</p>
                                 <p>💡 Use an <code>ArrayList</code> to store the numbers.</p>
@@ -3642,7 +3643,7 @@ The total is: 35
 [3, 24]
 The total is: 27
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>Partial solution:</p>
                                   <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.ArrayList;
 
@@ -3663,12 +3664,12 @@ The total is: 27
                             </panel>
                           </div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 4 - **Use `Collections`**">
+                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 4 - **Use `Collections`**" class="algolia-no-index">
                               <div id="body">
                                 <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
+                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main" class="algolia-no-index"></panel>
+                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main" class="algolia-no-index"></panel>
+                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main" class="algolia-no-index"></panel>
                                 </p>
                                 <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-3</code> exercises quoted above.</span></p>
                                 <div id="main">
@@ -3708,7 +3709,7 @@ The total is: 27
                                   <ul>
                                     <li>Move the <code>isDone</code> variable to the <code>Task</code> class and provide a <code>setDone(boolean)</code> method.</li>
                                   </ul>
-                                  <panel type="seamless" header="Partial solution">
+                                  <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
@@ -3843,10 +3844,10 @@ Number of keys after clearing: 0
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> Weekly roster">
+                            <panel header="<md>:glyphicon-question-sign:</md> Weekly roster" class="algolia-no-index">
                               <question>
                                 <p>The class given below keeps track of how many people signup to attend an event on each day of the week. Add the missing methods so that it produces the output given.</p>
                                 <p>💡 Use an <code>HashMap</code> to store the number of entries for each day.</p>
@@ -3871,7 +3872,7 @@ Number of keys after clearing: 0
 Friday =&gt; 1
 Wednesday =&gt; 2
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>Partial solution:</p>
                                   <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.HashMap;
 <span class="hljs-keyword">import</span> java.util.Map;
@@ -4063,9 +4064,9 @@ Wednesday =&gt; 2
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Benefit of exceptions">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Benefit of exceptions" class="algolia-no-index">
                             <question>
                               <p>Which are benefits of exceptions?</p>
                               <ul class="task-list">
@@ -4073,7 +4074,7 @@ Wednesday =&gt; 2
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. Exceptions can prevent problems that happen in the environment.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. Exceptions allow us to handle in one location an error raised in another location.</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a) (c)</p>
                                 <p>Explanation: Exceptions cannot <em>prevent</em> problems in the environment. They can only be used to handle and recover from such problems.</p>
                               </div>
@@ -4242,10 +4243,10 @@ Wednesday =&gt; 2
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor">
+                            <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor" class="algolia-no-index">
                               <question>
                                 <p>The <code>Main</code> class below parses a string descriptor of a rectangle of the format <code>&quot;WIDTHxHEIGHT&quot;</code> <span class="dimmed">e.g., <code>&quot;3x4&quot;</code></span> and prints the area of the rectangle.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -4311,7 +4312,7 @@ WIDTH or HEIGHT is missing: 3x
 WIDTH or HEIGHT is missing: 3
 Too many dimensions: 3x4x5
 </code></pre>
-                                <panel type="seamless" header="Partial solution">
+                                <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printArea</span><span class="hljs-params">(String descriptor)</span></span>{
@@ -4338,11 +4339,11 @@ Too many dimensions: 3x4x5
                             </panel>
                           </div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 3 - **Use exceptions**">
+                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 3 - **Use exceptions**" class="algolia-no-index">
                               <div id="body">
                                 <p>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
+                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main" class="algolia-no-index"></panel>
+                                  <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main" class="algolia-no-index"></panel>
                                 </p>
                                 <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-2</code> exercises quoted above.</span></p>
                                 <div id="main">
@@ -4368,7 +4369,7 @@ Too many dimensions: 3x4x5
                                     <li>Throw a new <code>TaskManagerException</code> object when you detect some necessary information is missing in the command.</li>
                                     <li>Catch that exception somewhere else and print the message inside the exception object.</li>
                                   </ul>
-                                  <panel type="seamless" header="Partial solution">
+                                  <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TaskManagerException</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Exception</span></span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">TaskManagerException</span><span class="hljs-params">(String message)</span> </span>{
         <span class="hljs-keyword">super</span>(message);
@@ -4465,7 +4466,7 @@ Too many dimensions: 3x4x5
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -4479,6 +4480,21 @@ Too many dimensions: 3x4x5
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

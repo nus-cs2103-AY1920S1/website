@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -43,7 +44,7 @@
                 <div id="main">
                   <div>
                     <p>The five OOP principles given below are known as <em>SOLID Principles</em> (an acronym made up of the first letter of each principle):</p>
-                    <panel type="seamless" header="**S**ingle Responsibility Principle (SRP)">
+                    <panel type="seamless" header="**S**ingle Responsibility Principle (SRP)" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
@@ -84,7 +85,7 @@
                         </div>
                       </div>
                     </panel>
-                    <panel type="seamless" header="**O**pen-Closed Principle (OCP)">
+                    <panel type="seamless" header="**O**pen-Closed Principle (OCP)" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
@@ -117,9 +118,9 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Meaning of OCP">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Meaning of OCP" class="algolia-no-index">
                                       <question>
                                         <p>Which of these is closest to the meaning of the open-closed principle?</p>
                                         <ul radio-group="6906e" class="radio-list">
@@ -128,7 +129,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="6906e" type="radio"> c. A software module should be open to modification and closed to extension.</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="6906e" type="radio"> d. Open source software rocks. Closed source software sucks.</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(a)</p>
                                           <p>Explanation: Please refer the handout for the definition of OCP.</p>
                                         </div>
@@ -142,7 +143,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                         </div>
                       </div>
                     </panel>
-                    <panel type="seamless" header="**L**iskov Substitution Principle (LSP)">
+                    <panel type="seamless" header="**L**iskov Substitution Principle (LSP)" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
@@ -160,11 +161,11 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                                 </div>
                               </tip-box>
                               <p>LSP sounds same as <trigger large trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability. However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
-                              <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:lsp-substitutability">
+                              <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:lsp-substitutability" class="algolia-no-index">
                                 <div>
                                   <div>
                                     <p>
-                                      <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what"></panel>
+                                      <panel src="/website/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Paradigms → Object Oriented Programming → Inheritance → What%%" popup-url="/website/book/oop/inheritance/what" class="algolia-no-index"></panel>
                                     </p>
                                   </div>
                                   <p></p>
@@ -210,7 +211,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                   <li><code>Admin</code> class follows LSP because it fulfills <code>Payroll</code>’s expectation of <code>Staff</code> objects (i.e. it works for all positive values). Substituting <code>Admin</code> objects for Staff objects will not break the <code>Payroll</code> class functionality.</li>
                                   <li><code>Academic</code> class violates LSP because it will not work for percent values over <code>100</code> as expected by the <code>Payroll</code> class. Substituting <code>Academic</code> objects for <code>Staff</code> objects can potentially break the <code>Payroll</code> class functionality.</li>
                                 </ul>
-                                <panel type="seamless" header="%%Another example%%">
+                                <panel type="seamless" header="%%Another example%%" class="algolia-no-index">
                                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept a <code>height</code> that is different from the <code>width</code>.</p>
                                   <img src="/website/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
                                   <p></p>
@@ -244,16 +245,16 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is this LSP?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is this LSP?" class="algolia-no-index">
                                       <question>
                                         <p>If a subclass imposes more restrictive conditions than its parent class, it violates Liskov Substitution Principle.</p>
                                         <ul radio-group="55ada" class="radio-list">
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="55ada" type="radio"> True</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="55ada" type="radio"> False</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>True.</p>
                                           <p>Explanation: If the subclass is more restrictive than the parent class, code that worked with the parent class may not work with the child class. Hence, the substitutability does not exist and LSP has been violated.</p>
                                         </div>
@@ -267,7 +268,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                         </div>
                       </div>
                     </panel>
-                    <panel type="seamless" header="**I**nterface Segregation Principle (ISP)">
+                    <panel type="seamless" header="**I**nterface Segregation Principle (ISP)" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
@@ -310,7 +311,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                         </div>
                       </div>
                     </panel>
-                    <panel type="seamless" header="**D**ependency Inversion Principle (DIP)">
+                    <panel type="seamless" header="**D**ependency Inversion Principle (DIP)" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
@@ -337,9 +338,9 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which of these statements is true about the Dependency Inversion Principle.">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which of these statements is true about the Dependency Inversion Principle." class="algolia-no-index">
                                       <question>
                                         <p>Which of these statements is true about the Dependency Inversion Principle.</p>
                                         <ul class="task-list">
@@ -348,7 +349,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. It reduces dependencies in a design.</li>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. It advocates making higher level classes to depend on lower level classes.</li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <ul class="task-list">
                                             <li class="task-list-item"><input class="task-list-item-checkbox" checked type="checkbox"> a. It can complicate the design/implementation by introducing extra abstractions, but it has some benefits.</li>
                                             <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. It is often used during testing, to replace dependencies with mocks.</li>
@@ -388,6 +389,21 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

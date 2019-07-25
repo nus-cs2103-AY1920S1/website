@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../markbind/css/github.min.css">
   <link rel="stylesheet" href="../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../markbind/layouts/default/styles.css">
   <link rel="stylesheet" href="../markbind/css/site-nav.css">
 
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -197,17 +198,17 @@
                 <p>This book tries to <em>layer</em> information so that readers can decide to omit less important layers if they wish to.</p>
                 <p><strong>More important information are in bold</strong> or <mark>highlighted</mark> while <span class="dimmed">less important information are dimmed</span> or in collapsed panels such as the below.</p>
                 <tip-box>
-                  <panel header="Some less important info in a minimized panel" minimized>
+                  <panel header="Some less important info in a minimized panel" minimized class="algolia-no-index">
                     <p>Less important info</p>
                     <p></p>
                   </panel>
                   <p></p>
-                  <panel header="%%Some less important info in a boarder-less panel%%" type="seamless">
+                  <panel header="%%Some less important info in a boarder-less panel%%" type="seamless" class="algolia-no-index">
                     <p>Less important info</p>
                     <p></p>
                   </panel>
                   <p></p>
-                  <panel header="%%Some less important info in a panel%%">
+                  <panel header="%%Some less important info in a panel%%" class="algolia-no-index">
                     <p>Less important info</p>
                     <p></p>
                   </panel>
@@ -219,18 +220,18 @@
                     <tab header="<md>:far-file-alt:</md>">
                       <p>Some textual description of X</p>
                     </tab>
-                    <tab header="<md>:glyphicon-facetime-video:</md>">
+                    <tab header="<md>:glyphicon-facetime-video:</md>" class="algolia-no-index">
                       <p>Video describing X</p>
                     </tab>
                   </tabs>
                 </tip-box>
                 <p><strong>Dotted underlines indicate <trigger for="pop:tooltip-example">tool tips</trigger></strong> (activated by hovering over it) and <strong>dashed underlines indicate <trigger for="modal:modal-example" trigger="click">modal windows</trigger></strong> (activated by clicking) containing additional information.</p>
                 <popover id="pop:tooltip-example" title="Tooltip Example" placement="top">
-                  <div slot="content">
+                  <div slot="content" class="algolia-no-index">
                     Additional information
                   </div>
                 </popover>
-                <modal title="Modal Example" id="modal:modal-example">
+                <modal title="Modal Example" id="modal:modal-example" class="algolia-no-index">
                   Additional information
                 </modal>
               </div>
@@ -240,7 +241,7 @@
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:usingThisWebsite-starRatingSystem">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Module Expectations → Star Rating System</trigger> ]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " id="modal:usingThisWebsite-starRatingSystem">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " id="modal:usingThisWebsite-starRatingSystem" class="algolia-no-index">
                   <div>
                   <h4 id="star-rating-system">Star rating system<a class="fa fa-anchor" href="#star-rating-system"></a></h4>
                   <div class="indented">
@@ -272,7 +273,7 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/moduleExpectations._include_.html#starRatingSystem" header="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " class="embedding" minimized fragment="starRatingSystem"></panel>
+                <panel src="/website/admin/moduleExpectations._include_.html#starRatingSystem" header="Admin <md>:glyphicon-log-in:</md> Module Expectations → Star Rating System  " class="embedding algolia-no-index" minimized fragment="starRatingSystem"></panel>
               </p>
             </div>
             <div id="more">
@@ -284,25 +285,25 @@
                   <li>
                     <p><big><strong>What</strong></big> : the <strong>meaning</strong> of the concept in concern</p>
                     <p>
-                      <panel header="%%Example%%" src="/website/book/refactoring/what/unit-inElsewhere-asFlat._include_.html"></panel>
+                      <panel header="%%Example%%" src="/website/book/refactoring/what/unit-inElsewhere-asFlat._include_.html" class="algolia-no-index"></panel>
                     </p>
                   </li>
                   <li>
                     <p><big><strong>Why</strong></big> : the <strong>motivation</strong> behind the concept in concern</p>
                     <p>
-                      <panel header="%%Example%%" src="/website/book/documentation/guidelines/goTopDown/why/unit-inElsewhere-asFlat._include_.html"></panel>
+                      <panel header="%%Example%%" src="/website/book/documentation/guidelines/goTopDown/why/unit-inElsewhere-asFlat._include_.html" class="algolia-no-index"></panel>
                     </p>
                   </li>
                   <li>
                     <p><big><strong>How</strong></big> : the <strong>usage</strong> of the concept in concern</p>
                     <p>
-                      <panel header="%%Example%%" src="/website/book/refactoring/how/unit-inElsewhere-asFlat._include_.html"></panel>
+                      <panel header="%%Example%%" src="/website/book/refactoring/how/unit-inElsewhere-asFlat._include_.html" class="algolia-no-index"></panel>
                     </p>
                   </li>
                   <li>
                     <p><big><strong>When</strong></big> : the <strong>pros and cons</strong> of the concept in concern, <strong>when to use</strong> the concept</p>
                     <p>
-                      <panel header="%%Example%%" src="/website/book/refactoring/when/unit-inElsewhere-asFlat._include_.html"></panel>
+                      <panel header="%%Example%%" src="/website/book/refactoring/when/unit-inElsewhere-asFlat._include_.html" class="algolia-no-index"></panel>
                     </p>
                   </li>
                 </ul>
@@ -392,7 +393,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -406,6 +407,21 @@
   const enableSearch = true
 </script>
 <script src="../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../markbind/layouts/default/scripts.js"></script>
 
 </html>

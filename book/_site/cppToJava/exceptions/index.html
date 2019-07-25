@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -239,10 +240,10 @@
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor">
+                                <panel header="<md>:glyphicon-question-sign:</md> parse rectangle descriptor" class="algolia-no-index">
                                   <question>
                                     <p>The <code>Main</code> class below parses a string descriptor of a rectangle of the format <code>&quot;WIDTHxHEIGHT&quot;</code> <span class="dimmed">e.g., <code>&quot;3x4&quot;</code></span> and prints the area of the rectangle.</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -308,7 +309,7 @@ WIDTH or HEIGHT is missing: 3x
 WIDTH or HEIGHT is missing: 3
 Too many dimensions: 3x4x5
 </code></pre>
-                                    <panel type="seamless" header="Partial solution">
+                                    <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printArea</span><span class="hljs-params">(String descriptor)</span></span>{
@@ -335,11 +336,11 @@ Too many dimensions: 3x4x5
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 3 - **Use exceptions**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 3 - **Use exceptions**" class="algolia-no-index">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/_site/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/_site/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/_site/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main" class="algolia-no-index"></panel>
+                                      <panel type="seamless" src="/website/book/_site/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main" class="algolia-no-index"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-2</code> exercises quoted above.</span></p>
                                     <div id="main">
@@ -365,7 +366,7 @@ Too many dimensions: 3x4x5
                                         <li>Throw a new <code>TaskManagerException</code> object when you detect some necessary information is missing in the command.</li>
                                         <li>Catch that exception somewhere else and print the message inside the exception object.</li>
                                       </ul>
-                                      <panel type="seamless" header="Partial solution">
+                                      <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TaskManagerException</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Exception</span></span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">TaskManagerException</span><span class="hljs-params">(String message)</span> </span>{
         <span class="hljs-keyword">super</span>(message);
@@ -430,6 +431,21 @@ Too many dimensions: 3x4x5
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

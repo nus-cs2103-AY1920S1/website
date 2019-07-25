@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../../markbind/layouts/default/styles.css">
 
 
@@ -43,7 +44,7 @@
                 <div id="main">
                   <div>
                     <p>String is a built-in Java class that you <trigger trigger="click" for="modal:stringClass-javaLang">can use without importing</trigger>. Given below are some useful String methods:</p>
-                    <modal id="modal:stringClass-javaLang" title=":bulb: `java.lang` classes can be used without importing" placement="top">
+                    <modal id="modal:stringClass-javaLang" title=":bulb: `java.lang` classes can be used without importing" placement="top" class="algolia-no-index">
                       <p>Any class in the <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/package-summary.html"><code>java.lang</code></a> package can be used without importing.
                       </p>
                     </modal>
@@ -267,10 +268,10 @@ Second line
                       </panel>
                     </div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method">
+                            <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method" class="algolia-no-index">
                               <question>
                                 <p>Implement the <code>printPrice</code> method in the code below to produce the given output. Its behavior:</p>
                                 <ul>
@@ -301,7 +302,7 @@ Second line
 SODA: 10.00
 FRIES: 0.50
 </code></pre>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>Partial solution:</p>
                                   <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printPrice</span><span class="hljs-params">(String item)</span> </span>{
     <span class="hljs-keyword">int</span> dividerPosition = item.indexOf(<span class="hljs-string">"--"</span>);
@@ -338,6 +339,21 @@ FRIES: 0.50
   const enableSearch = true
 </script>
 <script src="../../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

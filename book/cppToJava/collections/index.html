@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -181,10 +182,10 @@ After clearing: []
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> Numbers list">
+                                <panel header="<md>:glyphicon-question-sign:</md> Numbers list" class="algolia-no-index">
                                   <question>
                                     <p>Add the missing methods to the class given below so that it produces the output given.</p>
                                     <p>💡 Use an <code>ArrayList</code> to store the numbers.</p>
@@ -217,7 +218,7 @@ The total is: 35
 [3, 24]
 The total is: 27
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p>Partial solution:</p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.ArrayList;
 
@@ -238,12 +239,12 @@ The total is: 27
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 4 - **Use `Collections`**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 4 - **Use `Collections`**" class="algolia-no-index">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main"></panel>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main" class="algolia-no-index"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel2._include_.html#main" header="<md>:glyphicon-education:</md> TM-L2" minimized fragment="main" class="algolia-no-index"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel3._include_.html#main" header="<md>:glyphicon-education:</md> TM-L3" minimized fragment="main" class="algolia-no-index"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level 1-3</code> exercises quoted above.</span></p>
                                     <div id="main">
@@ -283,7 +284,7 @@ The total is: 27
                                       <ul>
                                         <li>Move the <code>isDone</code> variable to the <code>Task</code> class and provide a <code>setDone(boolean)</code> method.</li>
                                       </ul>
-                                      <panel type="seamless" header="Partial solution">
+                                      <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
@@ -416,10 +417,10 @@ Number of keys after clearing: 0
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> Weekly roster">
+                                <panel header="<md>:glyphicon-question-sign:</md> Weekly roster" class="algolia-no-index">
                                   <question>
                                     <p>The class given below keeps track of how many people signup to attend an event on each day of the week. Add the missing methods so that it produces the output given.</p>
                                     <p>💡 Use an <code>HashMap</code> to store the number of entries for each day.</p>
@@ -444,7 +445,7 @@ Number of keys after clearing: 0
 Friday =&gt; 1
 Wednesday =&gt; 2
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p>Partial solution:</p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.HashMap;
 <span class="hljs-keyword">import</span> java.util.Map;
@@ -503,6 +504,21 @@ Wednesday =&gt; 2
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

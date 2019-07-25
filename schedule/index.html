@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../markbind/css/github.min.css">
   <link rel="stylesheet" href="../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../markbind/layouts/default/styles.css">
 
 
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -114,7 +115,7 @@
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools - IDE</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - IDE**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - IDE**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
                   <div>
                   <h4 id="tool-used-intellij-ide">Tool Used: Intellij IDE<a class="fa fa-anchor" href="#tool-used-intellij-ide"></a></h4>
                   <p>You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk.</p>
@@ -125,14 +126,14 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/tools._include_.html#ide" header="Admin <md>:glyphicon-log-in:</md> **Tools - IDE**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="ide"></panel>
+                <panel src="/website/admin/tools._include_.html#ide" header="Admin <md>:glyphicon-log-in:</md> **Tools - IDE**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="ide"></panel>
               </p>
               <div class="flat">
                 <div>
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools - RCS</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - RCS**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - RCS**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
                   <div>
                   <h4 id="tool-used-git-for-revision-control">Tool Used: Git (for Revision Control)<a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a></h4>
                   <p>You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed. The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a>, but you may use any other, or none.</p>
@@ -144,14 +145,14 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/tools._include_.html#rcs" header="Admin <md>:glyphicon-log-in:</md> **Tools - RCS**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="rcs"></panel>
+                <panel src="/website/admin/tools._include_.html#rcs" header="Admin <md>:glyphicon-log-in:</md> **Tools - RCS**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="rcs"></panel>
               </p>
               <div class="flat">
                 <div>
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools - GitHub</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - GitHub**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - GitHub**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
                   <div>
                   <h4 id="tool-used-github-for-code-hosting">Tool Used: GitHub (for Code Hosting)<a class="fa fa-anchor" href="#tool-used-github-for-code-hosting"></a></h4>
                   <p>You are <mark><em>required to</em> use GitHub</mark> as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.).</p>
@@ -161,7 +162,7 @@
                       <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                     </div>
                   </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-">
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
                       <div>
                       <p>Create a personal GitHub account if you don't have one yet.</p>
                       <ol>
@@ -174,7 +175,7 @@
                             <li>Specify your full name.</li>
                             <li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
                           </ul>
-                          <panel type="seamless" header="%%Why am I being asked to complete my GitHub profile?%%">
+                          <panel type="seamless" header="%%Why am I being asked to complete my GitHub profile?%%" class="algolia-no-index">
                             <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p>
                           </panel>
                         </li>
@@ -182,7 +183,7 @@
                           <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p>
                         </li>
                       </ol>
-                      <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria">
+                      <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria" class="algolia-no-index">
                           <div>
                           <ul>
                             <li>
@@ -198,13 +199,13 @@
                     </div>
                   </modal>
                   <p>
-                    <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="githubAccount"></panel>
+                    <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="githubAccount"></panel>
                   </p>
                   <p><strong>More info</strong>: See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a>.</p>
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/tools._include_.html#github" header="Admin <md>:glyphicon-log-in:</md> **Tools - GitHub**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="github"></panel>
+                <panel src="/website/admin/tools._include_.html#github" header="Admin <md>:glyphicon-log-in:</md> **Tools - GitHub**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="github"></panel>
               </p>
             </div>
             <h5 id="friday-afternoon"><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Friday afternoon</span></span><a class="fa fa-anchor" href="#friday-afternoon"></a></h5>
@@ -230,7 +231,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -244,6 +245,21 @@
   const enableSearch = true
 </script>
 <script src="../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../markbind/layouts/default/scripts.js"></script>
 
 </html>

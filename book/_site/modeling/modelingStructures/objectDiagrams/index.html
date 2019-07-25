@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../../markbind/layouts/default/styles.css">
 
 
@@ -43,24 +44,24 @@
                 <div id="main">
                   <div>
                     <p>
-                      <panel type="seamless" src="/website/book/_site/uml/objectDiagrams/introduction/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML → Object Diagrams → Introduction" alt="<md>:glyphicon-education:</md> Object Diagrams" fragment="main"></panel>
+                      <panel type="seamless" src="/website/book/_site/uml/objectDiagrams/introduction/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML → Object Diagrams → Introduction" alt="<md>:glyphicon-education:</md> Object Diagrams" fragment="main" class="algolia-no-index"></panel>
                     </p>
                     <p><strong>Object diagrams can be used to complement class diagrams.</strong> For example, you can use object diagrams to model different object structures that can result from a design represented by a given class diagram.</p>
                     <p>
-                      <panel type="seamless" src="/website/book/_site/uml/objectDiagrams/objects/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML → Object Diagrams → Objects" alt="<md>:glyphicon-education:</md> OD/Objects" fragment="main"></panel>
-                      <panel type="seamless" src="/website/book/_site/uml/objectDiagrams/associations/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML → Object Diagrams → Associations" alt="<md>:glyphicon-education:</md> OD/Associations" fragment="main"></panel>
+                      <panel type="seamless" src="/website/book/_site/uml/objectDiagrams/objects/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML → Object Diagrams → Objects" alt="<md>:glyphicon-education:</md> OD/Objects" fragment="main" class="algolia-no-index"></panel>
+                      <panel type="seamless" src="/website/book/_site/uml/objectDiagrams/associations/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML → Object Diagrams → Associations" alt="<md>:glyphicon-education:</md> OD/Associations" fragment="main" class="algolia-no-index"></panel>
                     </p>
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> Draw Class Diagram for Box etc.">
+                            <panel header="<md>:glyphicon-question-sign:</md> Draw Class Diagram for Box etc." class="algolia-no-index">
                               <question>
                                 <p>This question is based on the following question from another topic:</p>
                                 <div>
-                                  <panel header="<md>:glyphicon-question-sign:</md> Draw Class Diagram for Box etc.">
+                                  <panel header="<md>:glyphicon-question-sign:</md> Draw Class Diagram for Box etc." class="algolia-no-index">
                                     <question>
                                       <p>Draw a class diagram for the code below. Show the attributes, methods, associations, navigabilities, and multiplicities in the class diagram below:</p>
                                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Box</span> </span>{
@@ -112,6 +113,21 @@
   const enableSearch = true
 </script>
 <script src="../../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

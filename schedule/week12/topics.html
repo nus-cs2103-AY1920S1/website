@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
   <link rel="stylesheet" href="../../markbind/css/page-nav.css">
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -95,7 +96,7 @@
           <li class="nav-item"><a class="nav-link" href="/website/schedule/week12/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
         </ul>
         <p></p>
-        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%">
+        <panel type="seamless" header="%%:fas-list-ol: Detailed Table of Contents%%" class="algolia-no-index">
           <ul>
             <li>[<a href="#W12-1">W12.1</a>] <strong>Other UML Models</strong> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
           </ul>
@@ -545,12 +546,12 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Using a cool UI framework">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Using a cool UI framework" class="algolia-no-index">
                             <question has-input="true">
                               <p>One of your teammates is proposing to use a recently-released “cool” UI framework for your class project. List the pros and cons of this idea.</p>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>Pros</p>
                                 <ul>
                                   <li>The potential to create a much better product by reusing the framework.</li>
@@ -659,9 +660,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about APIs">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about APIs" class="algolia-no-index">
                             <question>
                               <p>Choose the correct statements</p>
                               <ul class="task-list">
@@ -671,7 +672,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. The API forms the contract between the component developer and the component user.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. Sequence diagrams can be used to show how components interact with each other via APIs.</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a) (c) (d) (e)</p>
                                 <p>Explanation: (b) is incorrect because private methods cannot be a part of the API</p>
                               </div>
@@ -679,14 +680,14 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: True or False?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: True or False?" class="algolia-no-index">
                             <question>
                               <p>Defining component APIs early is useful for developing components in parallel.</p>
                               <ul radio-group="9bd8a" class="radio-list">
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="9bd8a" type="radio"> True</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="9bd8a" type="radio"> False</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>True</p>
                                 <p>Explanation: Yes, once we know the precise behavior expected of each component, we can start developing them in parallel.</p>
                               </div>
@@ -781,9 +782,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about software frameworks">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statement about software frameworks" class="algolia-no-index">
                             <question>
                               <p>Choose correct statements about software frameworks.</p>
                               <ul class="task-list">
@@ -794,7 +795,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. They are reuse mechanisms.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> f. They are similar to reusable libraries but bigger.</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a)(b)(c)(d)(e)<s>(f)</s></p>
                                 <p>Explanation: While both libraries and frameworks are reuse mechanisms, and both more concrete than principles and patterns, libraries differ from frameworks in some key ways. One of them is the ‘inversion of control’ used by frameworks but not libraries. Furthermore, frameworks do not have to be bigger than libraries all the time.</p>
                               </div>
@@ -802,7 +803,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are frameworks?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which are frameworks?" class="algolia-no-index">
                             <question>
                               <p>Which one of these are frameworks ?</p>
                               <ul radio-group="58823" class="radio-list">
@@ -811,7 +812,7 @@
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> c. Drupal</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="58823" type="radio"> d. Ruby on Rails</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a)(b)(c)(d)</p>
                                 <p>Explanation: These are frameworks.</p>
                               </div>
@@ -852,7 +853,7 @@
                         <li>.NET is a similar platform and a framework. Its runtime is called CLR (Common Language Runtime) and usually used on Windows machines.</li>
                       </ul>
                     </tip-box>
-                    <modal title="**Enterprise Applications**" id="modal:enterprise-application">
+                    <modal title="**Enterprise Applications**" id="modal:enterprise-application" class="algolia-no-index">
                       <div>
                         <p><strong>Enterprise Application</strong>: ‘enterprise applications’ means software applications used at organizations level and therefore has to meet much higher demands (such as in scalability, security, performance, and robustness) than software meant for individual use.</p>
                       </div>
@@ -925,9 +926,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Google Calendar in which category?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Google Calendar in which category?" class="algolia-no-index">
                             <question>
                               <p>Google Calendar belongs to which category of cloud computing services?</p>
                               <ul class="task-list">
@@ -935,7 +936,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. PaaS</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. SaaS</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(c)</p>
                                 <p>Explanation: It is a <em>software</em> as a service. Instead of installing a calendar software on your desktop, we can use the Google Calendar software that lives ‘on the cloud’.</p>
                               </div>
@@ -1074,9 +1075,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about agile processes">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about agile processes" class="algolia-no-index">
                             <question>
                               <p>Choose the correct statements about agile processes.</p>
                               <ul class="task-list">
@@ -1085,7 +1086,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. They may not be suitable for some type of projects.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. XP and Scrum are agile processes.</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a)(b)(c)(d)</p>
                               </div>
                             </question>
@@ -1140,7 +1141,7 @@
                       </ul>
                       <p>...</p>
                       <p>The daily scrum meeting is not used as a problem-solving or issue resolution meeting. <strong>Issues that are raised are taken offline and usually dealt with by the relevant subgroup immediately after the meeting.</strong></p>
-                      <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> Intro to Scrum in Under 10 Minutes" class="non-printable">
+                      <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> Intro to Scrum in Under 10 Minutes" class="non-printable algolia-no-index">
                         <p><sub>(This is not an endorsement of the product mentioned in the video)</sub></p>
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/XU0llRltyFM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                       </panel>
@@ -1277,9 +1278,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about the unified process">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about the unified process" class="algolia-no-index">
                             <question>
                               <p>Choose the correct statements about the unified process.</p>
                               <ul class="task-list">
@@ -1288,7 +1289,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. The Unified process is actually a process framework rather than a fixed process.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. The Unified process can be iterative and incremental</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a)<s>(b)</s>(c)(d)</p>
                                 <p>Explanation: Although UP was created by the same three amigos who created UML, the UP does not require UML.</p>
                               </div>
@@ -1346,9 +1347,9 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Sequential vs iterative approach">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Sequential vs iterative approach" class="algolia-no-index">
                             <question has-input="true">
                               <p>Discuss how sequential approach and the iterative approach can affect the following aspects of a project.</p>
                               <p>a) Quality of the final product.</p>
@@ -1357,7 +1358,7 @@
                               <p>d) Customer satisfaction.</p>
                               <p>e) Monitoring the project progress.</p>
                               <p>f) Suitability for a school project</p>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>a) Quality of the final product:</p>
                                 <ul>
                                   <li>Iterative: Frequent reworking can deteriorate the design. Frequent refactoring should be used to prevent this. Frequent customer feedback can help to improve the quality (i.e. quality as seen by the customer).</li>
@@ -1399,13 +1400,13 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Agile processes, Pair programming, Test-driven development">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Agile processes, Pair programming, Test-driven development" class="algolia-no-index">
                             <question has-input="true">
                               <p>Find out more about the following three topics and give at least three arguments for and three arguments against each.</p>
                               <p>(a) Agile processes</p>
                               <p>(b) Pair programming</p>
                               <p>(c) Test-driven development</p>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a) Arguments in favor of agile processes:</p>
                                 <ul>
                                   <li>More focus on customer satisfaction.</li>
@@ -1454,14 +1455,14 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: the two basic process models">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: the two basic process models" class="algolia-no-index">
                             <question>
                               <p>The sequential model and the waterfall model are the two most basic process models.</p>
                               <ul radio-group="44ac6" class="radio-list">
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="44ac6" type="radio"> True</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="44ac6" type="radio"> False</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>False</p>
                                 <p>Explanation: The sequential model and the waterfall model are the same thing. The second basic model is the iterative model.</p>
                               </div>
@@ -1469,7 +1470,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about sequential and iterative process models">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about sequential and iterative process models" class="algolia-no-index">
                             <question>
                               <p>Choose the correct statements about the sequential and iterative process models.</p>
                               <ul class="task-list">
@@ -1479,7 +1480,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. The iterative model is always better than the sequential model.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. Compared to the sequential model, the iterative model is better at adapting to changing requirements.</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(a)(b)(c)<s>(d)</s>(e)</p>
                                 <p>Explanation: Both models have pros and cons. There is no definitive ‘better’ choice between the two. However, the iterative model works better in typical software projects than a purely sequential approach.</p>
                               </div>
@@ -1487,7 +1488,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Risk of overshooting a deadline">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Risk of overshooting a deadline" class="algolia-no-index">
                             <question>
                               <p>In general, which has a higher risk of overshooting a deadline?</p>
                               <ul radio-group="2ba69" class="radio-list">
@@ -1495,7 +1496,7 @@
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="2ba69" type="radio"> b. The sequential process.</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="2ba69" type="radio"> c. The risk is similar.</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(b)</p>
                                 <p>Explanation: An iterative process can meet a deadline better than a sequential process. If the last iteration got delayed, we can always deliver the previous version. However, this does not guarantee that all features promised at the beginning will be delivered on the deadline.</p>
                               </div>
@@ -1536,7 +1537,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -1550,6 +1551,21 @@
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

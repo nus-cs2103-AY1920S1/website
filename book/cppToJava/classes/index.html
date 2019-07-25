@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -145,10 +146,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> define a `Circle` class">
+                                <panel header="<md>:glyphicon-question-sign:</md> define a `Circle` class" class="algolia-no-index">
                                   <question>
                                     <p>Define a <code>Circle</code> class so that the code given below produces the given output. The nature of the class is a follows:</p>
                                     <ul>
@@ -189,7 +190,7 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                                     <pre><code class="hljs">0
 78
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <ul>
                                         <li>Put the <code>Circle</code> class in a file called <code>Circle.java</code></li>
                                       </ul>
@@ -268,10 +269,10 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> add getters/setters to the `Circle` class">
+                                <panel header="<md>:glyphicon-question-sign:</md> add getters/setters to the `Circle` class" class="algolia-no-index">
                                   <question>
                                     <p>Consider the <code>Circle</code> class below:</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -329,7 +330,7 @@ area   : 113
 radius : 0.0
 radius : 0.0
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p>Partial solution:</p>
                                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Circle</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y, <span class="hljs-keyword">double</span> radius)</span></span>{
     setX(x);
@@ -445,10 +446,10 @@ radius : 0.0
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class">
+                                <panel header="<md>:glyphicon-question-sign:</md> add getMaxRadius to the `Circle` class" class="algolia-no-index">
                                   <question>
                                     <p>Consider the <code>Circle</code> class below:</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Circle</span> </span>{
@@ -519,7 +520,7 @@ max radius used so far : 10.0
 max radius used so far : 10.0
 max radius used so far : 12.0
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p>You can use a <code>static</code> variable <code>maxRadius</code> to track the maximum value used for the <code>radius</code> attribute so far.</p>
                                       <p>Partial solution:</p>
                                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setRadius</span><span class="hljs-params">(<span class="hljs-keyword">double</span> radius)</span> </span>{
@@ -558,6 +559,21 @@ max radius used so far : 12.0
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

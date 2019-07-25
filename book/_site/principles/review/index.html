@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -46,12 +47,12 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Pick the odd one out.">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Pick the odd one out." class="algolia-no-index">
                             <panel header="%%Prerequisites%%" expandable expanded>
-                              <panel src="/website/book/_site/principles/separationOfConcernsPrinciple/unit-inElsewhere-asFlat._include_.html" header="Principles: Separation of Concerns Principle"></panel>
-                              <panel src="/website/book/_site/principles/solidPrinciples/unit-inElsewhere-asFlat._include_.html" header="Principles: SOLID Principles"></panel>
+                              <panel src="/website/book/_site/principles/separationOfConcernsPrinciple/unit-inElsewhere-asFlat._include_.html" header="Principles: Separation of Concerns Principle" class="algolia-no-index"></panel>
+                              <panel src="/website/book/_site/principles/solidPrinciples/unit-inElsewhere-asFlat._include_.html" header="Principles: SOLID Principles" class="algolia-no-index"></panel>
                             </panel>
                             <p></p>
                             <question>
@@ -63,7 +64,7 @@
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="9d6e7" type="radio"> d. Interface Segregation Principle.</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="9d6e7" type="radio"> e. Dependency Inversion Principle.</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <ul radio-group="68380" class="radio-list">
                                   <li class="radio-list-item"><label><input class="radio-list-input" checked name="68380" type="radio"> a. Separation of Concerns Principle.</label></li>
                                 </ul>
@@ -94,6 +95,21 @@
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

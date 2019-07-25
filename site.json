@@ -50,10 +50,17 @@
   ],
   "enableSearch": true,
   "headingIndexingLevel": 5,
-  "plugins": ["filterTags"],
+  "plugins": ["filterTags", "algolia"],
   "pluginsContext": {
    "filterTags" : {
      "tags": []
+   },
+   "algolia": {
+     "apiKey": "0b1e4ae12d54a6114a4c5d131a850c2b",
+     "indexName": "nus-cs2103-ay1920s1",
+     "algoliaOptions": { "hitsPerPage": 10 },
+     "facetFilters": [["tags:admin", "tags:programming", "tags:se-book-adapted"]],
+     "debug": false
    }
  }
 }

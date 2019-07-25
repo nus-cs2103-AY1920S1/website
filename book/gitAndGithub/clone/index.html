@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -34,7 +35,7 @@
             <div>
               <div>
                 <p>
-                  <panel src="/website/book/revisionControl/remoteRepositories/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Project Management → Revision Control → Remote Respositories%%" popup-url="/website/book/revisionControl/remoteRepositories"></panel>
+                  <panel src="/website/book/revisionControl/remoteRepositories/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Project Management → Revision Control → Remote Respositories%%" popup-url="/website/book/revisionControl/remoteRepositories" class="algolia-no-index"></panel>
                 </p>
               </div>
               <p></p>
@@ -59,7 +60,7 @@
                           <p><code>File</code> → <code>Clone / New…</code> and provide the URL of the repo and the destination directory.</p>
                         </div>
                       </tab>
-                      <tab header="CLI">
+                      <tab header="CLI" class="algolia-no-index">
                         <div>
                           <p>You can use the <code>clone</code> command to clone a repo.</p>
                           <p>Follow instructions given <a href="https://help.github.com/articles/cloning-a-repository/">here</a>.</p>
@@ -87,6 +88,21 @@
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

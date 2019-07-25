@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -167,10 +168,10 @@ Printed in Subclass
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> inherit the `Task` class">
+                                <panel header="<md>:glyphicon-question-sign:</md> inherit the `Task` class" class="algolia-no-index">
                                   <question>
                                     <p>Background: Suppose we are creating a software to manage various tasks a person has to do. Two types of such tasks are,</p>
                                     <ul>
@@ -241,7 +242,7 @@ Nov 16
 true
 Postponed to Nov 18th
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p><code>Todo</code> class is given below. You can follow a similar approach for the <code>Deadline</code> class.</p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Todo</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
@@ -374,10 +375,10 @@ true
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> override the `toString` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> override the `toString` method" class="algolia-no-index">
                                   <question>
                                     <p>Suppose you have the following classes <code>Task</code>, <code>Todo</code>, <code>Deadline</code>:</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
@@ -462,7 +463,7 @@ is done? Yes
 do by: Postponed to Nov 18th
 </code></pre>
                                     <p>💡 You can use the <code>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em>adding onto</em> the behavior of the overridden method.</p>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p><code>toString()</code> method of <code>Task</code> class and <code>Todo</code> class are given below. You can follow a similar approach for the <code>Deadline</code> class.</p>
                                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-comment">// ...</span>
@@ -531,7 +532,7 @@ do by: Postponed to Nov 18th
                           <pre><code class="hljs">Mittens: Meow
 Snowball: Meow
 </code></pre>
-                          <panel type="seamless" header="%%The `Cat` class%%">
+                          <panel type="seamless" header="%%The `Cat` class%%" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Cat</span><span class="hljs-params">(String name)</span> </span>{
         <span class="hljs-keyword">super</span>(name);
@@ -569,7 +570,7 @@ Snowball: Meow
 Snowball: Meow
 Spot: Woof
 </code></pre>
-                          <panel type="seamless" header="%%The `Dog` class%%">
+                          <panel type="seamless" header="%%The `Dog` class%%" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Dog</span><span class="hljs-params">(String name)</span> </span>{
         <span class="hljs-keyword">super</span>(name);
@@ -603,7 +604,7 @@ Spot: Woof
 Snowball: Meow
 Spot: Woof
 </code></pre>
-                          <panel type="seamless" header="%%The `Animal`, `Cat`, and `Dog` classes%%">
+                          <panel type="seamless" header="%%The `Animal`, `Cat`, and `Dog` classes%%" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span> </span>{
 
     <span class="hljs-keyword">protected</span> String name;
@@ -652,10 +653,10 @@ Spot: Woof
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> print shape area">
+                                <panel header="<md>:glyphicon-question-sign:</md> print shape area" class="algolia-no-index">
                                   <question>
                                     <p>The <code>Main</code> class below keeps a list of <code>Circle</code> and <code>Rectangle</code> objects and prints the area (as an <code>int</code> value) of each shape when requested.</p>
                                     <p>Add the missing variables/methods to the code below so that it produces the output given.</p>
@@ -710,7 +711,7 @@ Spot: Woof
 }
 </code></pre>
                                     <p>💡 You may use an array of size 100 to store the shapes.</p>
-                                    <panel type="seamless" header="Partial solution">
+                                    <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Shape[] shapes = <span class="hljs-keyword">new</span> Shape[<span class="hljs-number">100</span>];
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> shapeCount = <span class="hljs-number">0</span>;
@@ -729,10 +730,10 @@ Spot: Woof
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 2 - **Use Inheritance**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 2 - **Use Inheritance**" class="algolia-no-index">
                                   <div id="body">
                                     <p>
-                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main"></panel>
+                                      <panel type="seamless" src="/website/book/cppToJava/project/taskManager/q-taskManagerLevel1._include_.html#main" header="<md>:glyphicon-education:</md> TM-L1" minimized fragment="main" class="algolia-no-index"></panel>
                                     </p>
                                     <p><span class="dimmed">This exercise continues from the <code>TaskManager Level1</code> exercise quoted above.</span></p>
                                     <div id="main">
@@ -783,7 +784,7 @@ Spot: Woof
                                         <li>Use polymorphism to store both types of tasks in an array of <code>Task</code> type and use one loop to print both types of tasks.</li>
                                       </ul>
                                       <p><strong>B. Add support for <trigger trigger="click" for="modal:taskManagerLevel2-testingClis">semi-automated regression testing using input/output redirection</trigger></strong>.</p>
-                                      <modal large title="Textbook »" id="modal:taskManagerLevel2-testingClis">
+                                      <modal large title="Textbook »" id="modal:taskManagerLevel2-testingClis" class="algolia-no-index">
                                         <div>
                                           <div></div>
                                           <p></p>
@@ -804,7 +805,7 @@ Spot: Woof
                                                 <ol>
                                                   <li>
                                                     <p>Store the test input in the text file <code>input.txt</code>.</p>
-                                                    <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless">
+                                                    <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless" class="algolia-no-index">
                                                       <pre><code class="hljs">add Valid Name p/12345 valid@email.butNoPrefix
 add Valid Name 12345 e/valid@email.butPhonePrefixMissing
 </code></pre>
@@ -812,7 +813,7 @@ add Valid Name 12345 e/valid@email.butPhonePrefixMissing
                                                   </li>
                                                   <li>
                                                     <p>Store the output we expect from the SUT in another text file <code>expected.txt</code>.</p>
-                                                    <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless">
+                                                    <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless" class="algolia-no-index">
                                                       <pre><code class="hljs">Command: || [add Valid Name p/12345 valid@email.butNoPrefix]
 Invalid command format: add 
 
@@ -835,7 +836,7 @@ Invalid command format: add
                                                         <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
                                                       </li>
                                                     </ul>
-                                                    <panel header minimized>
+                                                    <panel header minimized class="algolia-no-index">
                                                       <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
                                                       <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                                                       <pre><code class="hljs sh">java AddressBook &gt; output.txt 
@@ -860,7 +861,7 @@ Invalid command format: add
                                                 <p>Note that the above technique is only suitable when testing CLI apps, and only if the exact output can be predetermined. <span class="dimmed">If the output varies from one run to the other (e.g. it contains a time stamp), this technique will not work. In those cases we need more sophisticated ways of automating tests.</span></p>
                                                 <div>
                                                   <popover id="pop:cli" placement="top">
-                                                    <div slot="content">
+                                                    <div slot="content" class="algolia-no-index">
                                                       <div>
                                                         <p><strong>CLI App</strong>: An application that has a <em>Command Line Interface</em>. i.e. user interacts with the app by typing in commands.</p>
                                                       </div>
@@ -873,7 +874,7 @@ Invalid command format: add
                                           </div>
                                         </div>
                                       </modal>
-                                      <panel type="seamless" header="Partial solution">
+                                      <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                         <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -1019,10 +1020,10 @@ Invalid command format: add
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`">
+                                <panel header="<md>:glyphicon-question-sign:</md> print area with abstract `Shape`" class="algolia-no-index">
                                   <question>
                                     <p>The <code>Main</code> class below keeps a list of <code>Circle</code> and <code>Rectangle</code> objects and prints the area (as an <code>int</code> value) of each shape when requested.</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -1096,7 +1097,7 @@ Rectangle of area 16
 }
 </code></pre>
                                     <p>Add the missing <code>Shape</code> class <mark>as an abstract class with two abstract methods</mark>.</p>
-                                    <panel type="seamless" header="Partial solution">
+                                    <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Shape</span> </span>{
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">int</span> <span class="hljs-title">area</span><span class="hljs-params">()</span></span>;
@@ -1108,7 +1109,7 @@ Rectangle of area 16
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about abstract classes">
+                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about abstract classes" class="algolia-no-index">
                                   <question>
                                     <p>Choose the correct statements about Java abstract classes and <tooltip content="classes that are not abstract">concrete classes</tooltip>.</p>
                                     <ul class="task-list">
@@ -1117,7 +1118,7 @@ Rectangle of area 16
                                       <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. An abstract class need not contain any concrete methods.</li>
                                       <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. An abstract class cannot be instantiated.</li>
                                     </ul>
-                                    <div slot="answer">
+                                    <div slot="answer" class="algolia-no-index">
                                       <p>(b)(c)(d)</p>
                                       <p>Explanation: A concrete class cannot contain even a single abstract method.</p>
                                     </div>
@@ -1196,7 +1197,7 @@ Rectangle of area 16
                           </ol>
                         </box>
                         <p><strong>Interfaces can also contain <trigger trigger="click" for="modal:javaInterfaces-constants">constants</trigger> and static methods</strong>.</p>
-                        <modal large title="%%Textbook »%%" id="modal:javaInterfaces-constants">
+                        <modal large title="%%Textbook »%%" id="modal:javaInterfaces-constants" class="algolia-no-index">
                           <div>
                             <div></div>
                             <p></p>
@@ -1246,10 +1247,10 @@ Rectangle of area 16
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> print `Printable` items">
+                                <panel header="<md>:glyphicon-question-sign:</md> print `Printable` items" class="algolia-no-index">
                                   <question>
                                     <p>The <code>Main</code> class below passes a list of <code>Printable</code> objects (i.e., objects that implement the <code>Printable</code> interface) for another method to be printed.</p>
                                     <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -1328,7 +1329,7 @@ Person of name James Cook
     <span class="hljs-comment">// todo: add missing methods</span>
 }
 </code></pre>
-                                    <panel type="seamless" header="Partial solution">
+                                    <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Printable</span> </span>{
     <span class="hljs-comment">//...</span>
 }
@@ -1362,6 +1363,21 @@ Person of name James Cook
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

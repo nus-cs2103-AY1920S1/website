@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
   <link rel="stylesheet" href="../../markbind/css/page-nav.css">
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -96,7 +97,7 @@
         </ul>
         <p></p>
         <div id="additional"></div>
-        <panel type="default" no-close expandable="true">
+        <panel type="default" no-close expandable="true" class="algolia-no-index">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: Assessment <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
           <div>
             <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2103T projects will be assessed separately from CS2103 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
@@ -180,7 +181,7 @@
                   </li>
                 </ul>
               </blockquote>
-              <modal large title="Textbook <md>:glyphicon-log-in:</md> Implementation →" id="modal:v15-codeQuality">
+              <modal large title="Textbook <md>:glyphicon-log-in:</md> Implementation →" id="modal:v15-codeQuality" class="algolia-no-index">
                   <div>
                   <p><span class="dimmed"><strong><span></span></strong></span></p>
                   <div id="title-and-body">
@@ -217,7 +218,7 @@
                                           <trigger for="pop:production-code">Production code</trigger> needs to be of high quality
                                         </strong>. Given how the world is becoming increasingly dependent of software, poor quality code is something we cannot afford to tolerate.</p>
                                       <popover id="pop:production-code" title="<md>:glyphicon-eye-open:</md> Production Code" placement="top">
-                                        <div slot="content">
+                                        <div slot="content" class="algolia-no-index">
                                           Code being used in an actual product with actual users
                                         </div>
                                       </popover>
@@ -681,7 +682,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                               <li>[<code>Java</code>, <code>Python</code>] Use parentheses/braces to show grouping even when they can be skipped.</li>
                                               <li>[<code>Java</code>, <code>Python</code>] Use <trigger trigger="click" for="modal:obviousCode-enums">enumerations</trigger> when a certain variable can take only a small number of finite values. For example, instead of declaring the variable 'state' as an integer and using values 0,1,2 to denote the states 'starting', 'enabled', and 'disabled' respectively, declare 'state' as type <code>SystemState</code> and define an enumeration <code>SystemState</code> that has values <code>'STARTING'</code>, <code>'ENABLED'</code>, and <code>'DISABLED'</code>.</li>
                                             </ul>
-                                            <modal title="More about enumerations" id="modal:obviousCode-enums">
+                                            <modal title="More about enumerations" id="modal:obviousCode-enums" class="algolia-no-index">
                                               <ul>
                                                 <li><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html">More about Java enumerations</a></li>
                                                 <li><a href="https://docs.python.org/3/library/enum.html">More about Python enumerations</a></li>
@@ -836,7 +837,7 @@ processData();
 displayResult();
 </code></pre>
                                             </tip-box>
-                                            <modal title id="modal:slap-abstraction">
+                                            <modal title id="modal:slap-abstraction" class="algolia-no-index">
                                               <div>
                                                 <div></div>
                                                 <p></p>
@@ -997,9 +998,9 @@ exit();
                                     </div>
                                     <div>
                                       <div>
-                                        <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                        <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                           <div>
-                                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What is the recommended approach regarding coding standards?">
+                                            <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What is the recommended approach regarding coding standards?" class="algolia-no-index">
                                               <question>
                                                 <p>What is the recommended approach regarding coding standards?</p>
                                                 <ul radio-group="5c5a1" class="radio-list">
@@ -1008,14 +1009,14 @@ exit();
                                                   <li class="radio-list-item"><label><input class="radio-list-input" name="5c5a1" type="radio"> c. A developer should find out the coding standards currently used by the project and follow that closely.</label></li>
                                                   <li class="radio-list-item"><label><input class="radio-list-input" name="5c5a1" type="radio"> d. Coding standards are lame. Real programmers develop their own individual styles.</label></li>
                                                 </ul>
-                                                <div slot="answer">
+                                                <div slot="answer" class="algolia-no-index">
                                                   <p>c</p>
                                                 </div>
                                               </question>
                                             </panel>
                                           </div>
                                           <div>
-                                            <panel header="<md>:glyphicon-question-sign:</md> What is the aim? What is the value?">
+                                            <panel header="<md>:glyphicon-question-sign:</md> What is the aim? What is the value?" class="algolia-no-index">
                                               <question has-input>
                                                 <p>What is the aim of using a coding standard? How does it help?</p>
                                               </question>
@@ -1049,10 +1050,10 @@ exit();
                                     </div>
                                     <div>
                                       <div>
-                                        <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                        <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                           <div>
                                             <div>
-                                              <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
+                                              <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations" class="algolia-no-index">
                                                 <question>
                                                   <p>Consider the code given below:</p>
                                                   <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
@@ -1081,7 +1082,7 @@ exit();
 }
 </code></pre>
                                                   <p>In what ways the code violate the <em>basic</em> guidelines (i.e., those marked with one ⭐️) of the OSS-Generic Java Coding Standard given <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">here</a>?</p>
-                                                  <div slot="hint">
+                                                  <div slot="hint" class="algolia-no-index">
                                                     <p>Here are three:</p>
                                                     <ul>
                                                       <li><code>descriptionPrefix</code> is a constant and should be named <code>DESCRIPTION_PREFIX</code></li>
@@ -1117,10 +1118,10 @@ exit();
                                     </div>
                                     <div>
                                       <div>
-                                        <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                        <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                           <div>
                                             <div>
-                                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Unsuitable variable name">
+                                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Unsuitable variable name" class="algolia-no-index">
                                                 <question>
                                                   <p>According to the given Java coding standard, which one of these is not a good name?</p>
                                                   <ul radio-group="d008b" class="radio-list">
@@ -1130,7 +1131,7 @@ exit();
                                                     <li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> d. method name (returns boolean): <code>isValidAddress</code></label></li>
                                                     <li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> e. String variable name: <code>description</code></label></li>
                                                   </ul>
-                                                  <div slot="answer">
+                                                  <div slot="answer" class="algolia-no-index">
                                                     <p>b</p>
                                                     <p>Explanation: <code>checkWeight</code> is an action. Naming variables as actions makes the code harder to follow. <code>isWeightValid</code> may be a better name.</p>
                                                   </div>
@@ -1138,11 +1139,11 @@ exit();
                                               </panel>
                                             </div>
                                             <div>
-                                              <panel header="<md>:glyphicon-question-sign:</md> Find intermediate coding standard violations">
+                                              <panel header="<md>:glyphicon-question-sign:</md> Find intermediate coding standard violations" class="algolia-no-index">
                                                 <question>
                                                   <p>Repeat the exercise in the panel below but also find violations of <em>intermediate</em> level guidelines.</p>
                                                   <div>
-                                                    <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
+                                                    <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations" class="algolia-no-index">
                                                       <question>
                                                         <p>Consider the code given below:</p>
                                                         <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
@@ -1171,7 +1172,7 @@ exit();
 }
 </code></pre>
                                                         <p>In what ways the code violate the <em>basic</em> guidelines (i.e., those marked with one ⭐️) of the OSS-Generic Java Coding Standard given <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">here</a>?</p>
-                                                        <div slot="hint">
+                                                        <div slot="hint" class="algolia-no-index">
                                                           <p>Here are three:</p>
                                                           <ul>
                                                             <li><code>descriptionPrefix</code> is a constant and should be named <code>DESCRIPTION_PREFIX</code></li>
@@ -1183,7 +1184,7 @@ exit();
                                                       </question>
                                                     </panel>
                                                   </div>
-                                                  <div slot="hint">
+                                                  <div slot="hint" class="algolia-no-index">
                                                     <p>Here's one you are more likely to miss:</p>
                                                     <ul>
                                                       <li><code>* Print the description as a string.</code> → <code>* Prints the description as a string.</code></li>
@@ -1754,7 +1755,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                             <p>This guideline is closely related to the <trigger for="modal:duplication-dry" trigger="click">DRY Principle<trigger>.</trigger>
                                               </trigger>
                                             </p>
-                                            <modal title="**<md>:glyphicon-eye-open:</md> DRY Principle**" id="modal:duplication-dry">
+                                            <modal title="**<md>:glyphicon-eye-open:</md> DRY Principle**" id="modal:duplication-dry" class="algolia-no-index">
                                               <div>
                                                 <div></div>
                                                 <p></p>
@@ -2073,7 +2074,7 @@ compact(input);
               <li>your test code <span class="dimmed">(note <trigger trigger="click" for="modal:projectAssessmentQA-testingExpectations">our expectations for automated testing</trigger>)</span></li>
             </ol>
             <p><strong>Evaluated by:</strong> tutors (in the capacity of <em>moderators</em> <span class="dimmed">e.g., to verify if it is reasonable for the team to downgrade the severity of a bug you reported</span>)</p>
-            <modal large title="Our expectations for automated testing in the project" id="modal:projectAssessmentQA-testingExpectations">
+            <modal large title="Our expectations for automated testing in the project" id="modal:projectAssessmentQA-testingExpectations" class="algolia-no-index">
                 <div>
                 <ul>
                   <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -2173,7 +2174,7 @@ compact(input);
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectAssessment-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectAssessment-exmapleTeamTasks">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectAssessment-exmapleTeamTasks" class="algolia-no-index">
                   <div>
                   <p>Here is a non-exhaustive list of team-tasks:</p>
                   <ol>
@@ -2193,13 +2194,13 @@ compact(input);
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="example-team-tasks"></panel>
+                <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="example-team-tasks"></panel>
               </p>
             </div>
           </div>
         </panel>
         <p></p>
-        <panel type="default" no-close expandable="true">
+        <panel type="default" no-close expandable="true" class="algolia-no-index">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on following instructions <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
           <div>
             <h3 id="policy-on-following-instructions">Policy on following instructions <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#policy-on-following-instructions"></a></h3>
@@ -2211,7 +2212,7 @@ compact(input);
           </div>
         </panel>
         <p></p>
-        <panel type="default" no-close expandable="true">
+        <panel type="default" no-close expandable="true" class="algolia-no-index">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
           <div>
             <p>We use the <a href="http://teammatesv4.appspot.com/">TEAMMATES</a> online peer evaluation system to conduct several rounds of peer-evaluations.
@@ -2224,7 +2225,7 @@ compact(input);
                 </li>
                 <li>💡 TEAMMATES normally allows students to access it without using Google login. In this module, we encourage (but not require) you to login to TEAMMATES using your Google account and complete your profile with a <trigger trigger="click" for="modal:peerEvaluations-suitablePhoto">suitable profile photo</trigger>. <span class="dimmed">Reason: CS2103/T is a big class. This profile helps us to remember you better, even after the module is over.</span></li>
               </ul>
-              <modal title="%%Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Website (extract)%%" id="modal:peerEvaluations-suitablePhoto">
+              <modal title="%%Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Website (extract)%%" id="modal:peerEvaluations-suitablePhoto" class="algolia-no-index">
                   <div>
                   <ul>
                     <li>
@@ -2278,7 +2279,7 @@ compact(input);
           </div>
         </panel>
         <p></p>
-        <panel type="default" no-close expandable="true">
+        <panel type="default" no-close expandable="true" class="algolia-no-index">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Grade Breakdown <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
           <div>
             <img src="/website/admin/images/gradeBreakdown.png" width="600">
@@ -2288,7 +2289,7 @@ compact(input);
                 <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-participation">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Participation Marks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
               </div>
             </div>
-            <modal large title="Admin <md>:glyphicon-log-in:</md> Participation Marks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-participation">
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Participation Marks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-participation" class="algolia-no-index">
                 <div>
                 <p><strong>To receive full 10 marks allocated for participation, earn at least 15 participation <em>points</em>.</strong></p>
                 <p>There are 30+ available points to choose from:</p>
@@ -2322,7 +2323,7 @@ compact(input);
                     <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                   </div>
                 </div>
-                <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals">
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals" class="algolia-no-index">
                     <div>
                     <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
                     <ul>
@@ -2353,19 +2354,19 @@ compact(input);
                   </div>
                 </modal>
                 <p>
-                  <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="peerEvaluation-criteria"></panel>
+                  <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="peerEvaluation-criteria"></panel>
                 </p>
               </div>
             </modal>
             <p>
-              <panel src="/website/admin/participation._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Participation Marks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
+              <panel src="/website/admin/participation._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Participation Marks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
             </p>
             <div class="flat">
               <div>
                 <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-exams">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Exams</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
               </div>
             </div>
-            <modal large title="Admin <md>:glyphicon-log-in:</md> Exams  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-exams">
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Exams  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-exams" class="algolia-no-index">
                 <div>
                 <p>There is no midterm.</p>
                 <p>The final exam has two parts:</p>
@@ -2436,14 +2437,14 @@ compact(input);
               </div>
             </modal>
             <p>
-              <panel src="/website/admin/exams._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Exams  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
+              <panel src="/website/admin/exams._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Exams  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
             </p>
             <div class="flat">
               <div>
                 <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-projectAssessment">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Assessment</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
               </div>
             </div>
-            <modal large title="Admin <md>:glyphicon-log-in:</md> Project Assessment  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-projectAssessment">
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Project Assessment  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-projectAssessment" class="algolia-no-index">
                 <div>
                 <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2103T projects will be assessed separately from CS2103 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
                 <p><strong>Total</strong>: 50 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 40 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
@@ -2526,7 +2527,7 @@ compact(input);
                       </li>
                     </ul>
                   </blockquote>
-                  <modal large title="Textbook <md>:glyphicon-log-in:</md> Implementation →" id="modal:v15-codeQuality">
+                  <modal large title="Textbook <md>:glyphicon-log-in:</md> Implementation →" id="modal:v15-codeQuality" class="algolia-no-index">
                       <div>
                       <p><span class="dimmed"><strong><span></span></strong></span></p>
                       <div id="title-and-body">
@@ -2563,7 +2564,7 @@ compact(input);
                                               <trigger for="pop:production-code">Production code</trigger> needs to be of high quality
                                             </strong>. Given how the world is becoming increasingly dependent of software, poor quality code is something we cannot afford to tolerate.</p>
                                           <popover id="pop:production-code" title="<md>:glyphicon-eye-open:</md> Production Code" placement="top">
-                                            <div slot="content">
+                                            <div slot="content" class="algolia-no-index">
                                               Code being used in an actual product with actual users
                                             </div>
                                           </popover>
@@ -3027,7 +3028,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                                   <li>[<code>Java</code>, <code>Python</code>] Use parentheses/braces to show grouping even when they can be skipped.</li>
                                                   <li>[<code>Java</code>, <code>Python</code>] Use <trigger trigger="click" for="modal:obviousCode-enums">enumerations</trigger> when a certain variable can take only a small number of finite values. For example, instead of declaring the variable 'state' as an integer and using values 0,1,2 to denote the states 'starting', 'enabled', and 'disabled' respectively, declare 'state' as type <code>SystemState</code> and define an enumeration <code>SystemState</code> that has values <code>'STARTING'</code>, <code>'ENABLED'</code>, and <code>'DISABLED'</code>.</li>
                                                 </ul>
-                                                <modal title="More about enumerations" id="modal:obviousCode-enums">
+                                                <modal title="More about enumerations" id="modal:obviousCode-enums" class="algolia-no-index">
                                                   <ul>
                                                     <li><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html">More about Java enumerations</a></li>
                                                     <li><a href="https://docs.python.org/3/library/enum.html">More about Python enumerations</a></li>
@@ -3182,7 +3183,7 @@ processData();
 displayResult();
 </code></pre>
                                                 </tip-box>
-                                                <modal title id="modal:slap-abstraction">
+                                                <modal title id="modal:slap-abstraction" class="algolia-no-index">
                                                   <div>
                                                     <div></div>
                                                     <p></p>
@@ -3343,9 +3344,9 @@ exit();
                                         </div>
                                         <div>
                                           <div>
-                                            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                               <div>
-                                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What is the recommended approach regarding coding standards?">
+                                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: What is the recommended approach regarding coding standards?" class="algolia-no-index">
                                                   <question>
                                                     <p>What is the recommended approach regarding coding standards?</p>
                                                     <ul radio-group="5c5a1" class="radio-list">
@@ -3354,14 +3355,14 @@ exit();
                                                       <li class="radio-list-item"><label><input class="radio-list-input" name="5c5a1" type="radio"> c. A developer should find out the coding standards currently used by the project and follow that closely.</label></li>
                                                       <li class="radio-list-item"><label><input class="radio-list-input" name="5c5a1" type="radio"> d. Coding standards are lame. Real programmers develop their own individual styles.</label></li>
                                                     </ul>
-                                                    <div slot="answer">
+                                                    <div slot="answer" class="algolia-no-index">
                                                       <p>c</p>
                                                     </div>
                                                   </question>
                                                 </panel>
                                               </div>
                                               <div>
-                                                <panel header="<md>:glyphicon-question-sign:</md> What is the aim? What is the value?">
+                                                <panel header="<md>:glyphicon-question-sign:</md> What is the aim? What is the value?" class="algolia-no-index">
                                                   <question has-input>
                                                     <p>What is the aim of using a coding standard? How does it help?</p>
                                                   </question>
@@ -3395,10 +3396,10 @@ exit();
                                         </div>
                                         <div>
                                           <div>
-                                            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                               <div>
                                                 <div>
-                                                  <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
+                                                  <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations" class="algolia-no-index">
                                                     <question>
                                                       <p>Consider the code given below:</p>
                                                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
@@ -3427,7 +3428,7 @@ exit();
 }
 </code></pre>
                                                       <p>In what ways the code violate the <em>basic</em> guidelines (i.e., those marked with one ⭐️) of the OSS-Generic Java Coding Standard given <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">here</a>?</p>
-                                                      <div slot="hint">
+                                                      <div slot="hint" class="algolia-no-index">
                                                         <p>Here are three:</p>
                                                         <ul>
                                                           <li><code>descriptionPrefix</code> is a constant and should be named <code>DESCRIPTION_PREFIX</code></li>
@@ -3463,10 +3464,10 @@ exit();
                                         </div>
                                         <div>
                                           <div>
-                                            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                               <div>
                                                 <div>
-                                                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Unsuitable variable name">
+                                                  <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Unsuitable variable name" class="algolia-no-index">
                                                     <question>
                                                       <p>According to the given Java coding standard, which one of these is not a good name?</p>
                                                       <ul radio-group="d008b" class="radio-list">
@@ -3476,7 +3477,7 @@ exit();
                                                         <li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> d. method name (returns boolean): <code>isValidAddress</code></label></li>
                                                         <li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> e. String variable name: <code>description</code></label></li>
                                                       </ul>
-                                                      <div slot="answer">
+                                                      <div slot="answer" class="algolia-no-index">
                                                         <p>b</p>
                                                         <p>Explanation: <code>checkWeight</code> is an action. Naming variables as actions makes the code harder to follow. <code>isWeightValid</code> may be a better name.</p>
                                                       </div>
@@ -3484,11 +3485,11 @@ exit();
                                                   </panel>
                                                 </div>
                                                 <div>
-                                                  <panel header="<md>:glyphicon-question-sign:</md> Find intermediate coding standard violations">
+                                                  <panel header="<md>:glyphicon-question-sign:</md> Find intermediate coding standard violations" class="algolia-no-index">
                                                     <question>
                                                       <p>Repeat the exercise in the panel below but also find violations of <em>intermediate</em> level guidelines.</p>
                                                       <div>
-                                                        <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations">
+                                                        <panel header="<md>:glyphicon-question-sign:</md> Find basic coding standard violations" class="algolia-no-index">
                                                           <question>
                                                             <p>Consider the code given below:</p>
                                                             <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
@@ -3517,7 +3518,7 @@ exit();
 }
 </code></pre>
                                                             <p>In what ways the code violate the <em>basic</em> guidelines (i.e., those marked with one ⭐️) of the OSS-Generic Java Coding Standard given <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">here</a>?</p>
-                                                            <div slot="hint">
+                                                            <div slot="hint" class="algolia-no-index">
                                                               <p>Here are three:</p>
                                                               <ul>
                                                                 <li><code>descriptionPrefix</code> is a constant and should be named <code>DESCRIPTION_PREFIX</code></li>
@@ -3529,7 +3530,7 @@ exit();
                                                           </question>
                                                         </panel>
                                                       </div>
-                                                      <div slot="hint">
+                                                      <div slot="hint" class="algolia-no-index">
                                                         <p>Here's one you are more likely to miss:</p>
                                                         <ul>
                                                           <li><code>* Print the description as a string.</code> → <code>* Prints the description as a string.</code></li>
@@ -4100,7 +4101,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                                                 <p>This guideline is closely related to the <trigger for="modal:duplication-dry" trigger="click">DRY Principle<trigger>.</trigger>
                                                   </trigger>
                                                 </p>
-                                                <modal title="**<md>:glyphicon-eye-open:</md> DRY Principle**" id="modal:duplication-dry">
+                                                <modal title="**<md>:glyphicon-eye-open:</md> DRY Principle**" id="modal:duplication-dry" class="algolia-no-index">
                                                   <div>
                                                     <div></div>
                                                     <p></p>
@@ -4419,7 +4420,7 @@ compact(input);
                   <li>your test code <span class="dimmed">(note <trigger trigger="click" for="modal:projectAssessmentQA-testingExpectations">our expectations for automated testing</trigger>)</span></li>
                 </ol>
                 <p><strong>Evaluated by:</strong> tutors (in the capacity of <em>moderators</em> <span class="dimmed">e.g., to verify if it is reasonable for the team to downgrade the severity of a bug you reported</span>)</p>
-                <modal large title="Our expectations for automated testing in the project" id="modal:projectAssessmentQA-testingExpectations">
+                <modal large title="Our expectations for automated testing in the project" id="modal:projectAssessmentQA-testingExpectations" class="algolia-no-index">
                     <div>
                     <ul>
                       <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -4519,7 +4520,7 @@ compact(input);
                       <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectAssessment-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                     </div>
                   </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectAssessment-exmapleTeamTasks">
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectAssessment-exmapleTeamTasks" class="algolia-no-index">
                       <div>
                       <p>Here is a non-exhaustive list of team-tasks:</p>
                       <ol>
@@ -4539,18 +4540,18 @@ compact(input);
                     </div>
                   </modal>
                   <p>
-                    <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="example-team-tasks"></panel>
+                    <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="example-team-tasks"></panel>
                   </p>
                 </div>
               </div>
             </modal>
             <p>
-              <panel src="/website/admin/project-assessment._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Project Assessment  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="main"></panel>
+              <panel src="/website/admin/project-assessment._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Project Assessment  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
             </p>
           </div>
         </panel>
         <p></p>
-        <panel type="default" no-close expandable="true">
+        <panel type="default" no-close expandable="true" class="algolia-no-index">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Participation Marks <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
           <div>
             <p><strong>To receive full 10 marks allocated for participation, earn at least 15 participation <em>points</em>.</strong></p>
@@ -4585,7 +4586,7 @@ compact(input);
                 <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
               </div>
             </div>
-            <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals">
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals" class="algolia-no-index">
                 <div>
                 <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
                 <ul>
@@ -4616,12 +4617,12 @@ compact(input);
               </div>
             </modal>
             <p>
-              <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="peerEvaluation-criteria"></panel>
+              <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="peerEvaluation-criteria"></panel>
             </p>
           </div>
         </panel>
         <p></p>
-        <panel type="default" no-close expandable="true">
+        <panel type="default" no-close expandable="true" class="algolia-no-index">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: Supervision <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
           <div>
             <p>Your tutor will serve as your <em>project supervisor</em> too.</p>
@@ -4631,7 +4632,7 @@ compact(input);
           </div>
         </panel>
         <p></p>
-        <panel type="default" no-close expandable="true">
+        <panel type="default" no-close expandable="true" class="algolia-no-index">
           <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → What if I don’t carry around a laptop? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
           <div>
             <h3 id="what-if-i-don-t-carry-around-a-laptop">What if I don’t carry around a laptop? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#what-if-i-don-t-carry-around-a-laptop"></a></h3>
@@ -4657,7 +4658,7 @@ compact(input);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -4671,6 +4672,21 @@ compact(input);
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

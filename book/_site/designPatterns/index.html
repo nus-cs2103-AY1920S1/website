@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -88,9 +89,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Definition of design patterns">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Definition of design patterns" class="algolia-no-index">
                                       <question>
                                         <p>Which one of these describes the ‘software design patterns’ concept best?</p>
                                         <ul radio-group="a7255" class="radio-list">
@@ -99,7 +100,7 @@
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="a7255" type="radio"> c. Architectural styles used in applications.</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="a7255" type="radio"> d. Some good design techniques proposed by the Gang of Four</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(b)</p>
                                         </div>
                                       </question>
@@ -136,16 +137,16 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Anti-patterns required?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Anti-patterns required?" class="algolia-no-index">
                                       <question>
                                         <p>When we describe a pattern, we must also specify anti-patterns.</p>
                                         <ul radio-group="2350f" class="radio-list">
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="2350f" type="radio"> True</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="2350f" type="radio"> False</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>False.</p>
                                           <p>Explanation: Anti-patterns are related to patterns, but they are not a ‘must have’ component of a pattern description.</p>
                                         </div>
@@ -196,9 +197,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about the Singleton pattern">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about the Singleton pattern" class="algolia-no-index">
                                       <question>
                                         <p>We use the Singleton pattern when</p>
                                         <ul radio-group="d9393" class="radio-list">
@@ -207,7 +208,7 @@
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="d9393" type="radio"> c. we want a class with no more than one instance.</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="d9393" type="radio"> d. we want to hide internal structure of a component from its clients.</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(c)</p>
                                         </div>
                                       </question>
@@ -362,9 +363,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which situations match the pattern?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which situations match the pattern?" class="algolia-no-index">
                                       <question has-input="true">
                                         <p>Which pairs of classes are likely to be the <code>&lt;&lt; Abstraction &gt;&gt;</code> and the <code>&lt;&lt; Occurrence &gt;&gt;</code> of the abstraction occurrence pattern?</p>
                                         <ol>
@@ -374,7 +375,7 @@
                                           <li>TeamLeader, TeamMember</li>
                                           <li>Magazine (E.g. ReadersDigest, PCWorld), MagazineIssue</li>
                                         </ol>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>One of the key things to keep in mind is that the <code>&lt;&lt; Abstraction &gt;&gt;</code> does not represent a real entity. Rather, it represents some information common to a set of objects. A single real entity is represented by an object of <code>&lt;&lt; Abstraction &gt;&gt;</code> type and <code>&lt;&lt; Occurrence &gt;&gt;</code> type.</p>
                                           <p>Before applying the pattern, some attributes have the same values for multiple objects. For example, w.r.t. the BookTitle-BookCopy example given in this handout, values of attributes such as <code>book_title</code>, <code>ISBN</code> are exactly the same for copies of the same book.</p>
                                           <p>After applying the pattern, the <code>Abstraction</code> and the <code>Occurrence</code> classes together represent one entity. It is like one class has been split into two. For example, a <code>BookTitle</code> object and a <code>BookCopy</code> object combines to represent an actual <code>Book</code>.</p>
@@ -390,7 +391,7 @@
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Apply pattern?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Apply pattern?" class="algolia-no-index">
                                       <question>
                                         <p>Which one of these is most suited for an application of the Abstraction Occurrence pattern?</p>
                                         <ul radio-group="56836" class="radio-list">
@@ -398,7 +399,7 @@
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="56836" type="radio"> b. Teachers and their students</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="56836" type="radio"> c. Modules and exams/assignments given by those modules</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(a)</p>
                                           <p>Explanation:</p>
                                           <p>(a) Stagings of a drama are ‘occurrences’ of the drama. They have many attributes common (e.g., Drama name, producer, cast, etc.) but some attributes are different (e.g., venue, time).</p>
@@ -457,9 +458,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is this Facade?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Is this Facade?" class="algolia-no-index">
                                       <question>
                                         <p>Does the design below likely to use the Facade pattern?</p>
                                         <img src="/website/book/designPatterns/facade/what/images/textStorage.png" height="150">
@@ -468,7 +469,7 @@
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="d8720" type="radio"> True</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="d8720" type="radio"> False</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>True.</p>
                                           <p>Facade is clearly visible (Storage is the &lt;&lt; Facade &gt;&gt; class).</p>
                                         </div>
@@ -687,12 +688,12 @@ studentList.addUi(statusUi);
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: polymorphism and Observer pattern.">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: polymorphism and Observer pattern." class="algolia-no-index">
                                       <question has-input="true">
                                         <p>Explain how polymorphism is used in the Observer pattern.</p>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <img src="/website/book/designPatterns/observer/what/images/observableInterfaceNotation.png" height="90">
                                           <p></p>
                                           <p>With respect to the general form of the Observer pattern given above, when the Observable object invokes the <code>notifyObservers()</code> method, it is treating all <code>ConcreteObserver</code> objects as a general type called <code>Observer</code> and calling the <code>update()</code> method of each of them. However, the <code>update()</code> method of each <code>ConcreteObserver</code> could potentially show different behavior based on its actual type. That is, <code>update()</code> method shows polymorphic behavior.</p>
@@ -704,14 +705,14 @@ studentList.addUi(statusUi);
                                     </panel>
                                   </div>
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Observer patter usage">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Observer patter usage" class="algolia-no-index">
                                       <question>
                                         <p>The Observer pattern can be used when we want one object to initiate an activity in another object without having a direct dependency from the first object to the second object.</p>
                                         <ul radio-group="caf40" class="radio-list">
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="caf40" type="radio"> True</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="caf40" type="radio"> False</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>True</p>
                                           <p>Explanation: Yes. For example, when applying the Observer pattern to an MVC structure, Views can get notified and update themselves about a change to the Model without the Model having to depend on the Views.</p>
                                         </div>
@@ -884,9 +885,9 @@ studentList.addUi(statusUi);
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md> Give a pattern from another domain">
+                                    <panel header="<md>:glyphicon-question-sign:</md> Give a pattern from another domain" class="algolia-no-index">
                                       <question has-input="true">
                                         <p>Here are some common elements of a design pattern: Name, Context, Problem, Solution, Anti-patterns (optional), Consequences (optional), other useful information (optional).</p>
                                         <p>Using similar elements, describe a pattern that is not a design pattern. It must be a pattern you have noticed, not a pattern already documented by others. You may also give a pattern not related to software.</p>
@@ -944,6 +945,21 @@ studentList.addUi(statusUi);
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -51,7 +52,7 @@
                     <ol>
                       <li>
                         <p>Store the test input in the text file <code>input.txt</code>.</p>
-                        <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless">
+                        <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless" class="algolia-no-index">
                           <pre><code class="hljs">add Valid Name p/12345 valid@email.butNoPrefix
 add Valid Name 12345 e/valid@email.butPhonePrefixMissing
 </code></pre>
@@ -59,7 +60,7 @@ add Valid Name 12345 e/valid@email.butPhonePrefixMissing
                       </li>
                       <li>
                         <p>Store the output we expect from the SUT in another text file <code>expected.txt</code>.</p>
-                        <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless">
+                        <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless" class="algolia-no-index">
                           <pre><code class="hljs">Command: || [add Valid Name p/12345 valid@email.butNoPrefix]
 Invalid command format: add 
 
@@ -82,7 +83,7 @@ Invalid command format: add
                             <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
                           </li>
                         </ul>
-                        <panel header minimized>
+                        <panel header minimized class="algolia-no-index">
                           <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
                           <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                           <pre><code class="hljs sh">java AddressBook &gt; output.txt 
@@ -107,7 +108,7 @@ Invalid command format: add
                     <p>Note that the above technique is only suitable when testing CLI apps, and only if the exact output can be predetermined. <span class="dimmed">If the output varies from one run to the other (e.g. it contains a time stamp), this technique will not work. In those cases we need more sophisticated ways of automating tests.</span></p>
                     <div>
                       <popover id="pop:cli" placement="top">
-                        <div slot="content">
+                        <div slot="content" class="algolia-no-index">
                           <div>
                             <p><strong>CLI App</strong>: An application that has a <em>Command Line Interface</em>. i.e. user interacts with the app by typing in commands.</p>
                           </div>
@@ -135,6 +136,21 @@ Invalid command format: add
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

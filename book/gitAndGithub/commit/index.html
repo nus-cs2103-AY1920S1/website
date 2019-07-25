@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -34,7 +35,7 @@
             <div>
               <div>
                 <p>
-                  <panel src="/website/book/gitAndGithub/init/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Git & GitHub → Init%%" popup-url="/website/book/gitAndGithub/init"></panel>
+                  <panel src="/website/book/gitAndGithub/init/unit-inElsewhere-asFlat._include_.html" header="<md>:glyphicon-education:</md> %%Git & GitHub → Init%%" popup-url="/website/book/gitAndGithub/init" class="algolia-no-index"></panel>
                 </p>
               </div>
               <p></p>
@@ -62,7 +63,7 @@
                           <p></p>
                         </div>
                       </tab>
-                      <tab header="CLI">
+                      <tab header="CLI" class="algolia-no-index">
                         <div>
                           <p>You can use the <code>git status</code> command to check the status of the working directory.</p>
                           <pre><code class="hljs sh">git status
@@ -103,7 +104,7 @@ nothing added to commit but untracked files present (use <span class="hljs-strin
                           <p></p>
                         </div>
                       </tab>
-                      <tab header="CLI">
+                      <tab header="CLI" class="algolia-no-index">
                         <div>
                           <p>You can use the <code>stage</code> or the <code>add</code> command (they are synonyms, <code>add</code> is the more popular choice) to stage files.</p>
                           <pre><code class="hljs sh">git add fruits.txt
@@ -132,7 +133,7 @@ git status
                           <p></p>
                         </div>
                       </tab>
-                      <tab header="CLI">
+                      <tab header="CLI" class="algolia-no-index">
                         <div>
                           <p>Use the <code>commit</code> command to commit. The <code>-m</code> switch is used to specify the commit message.</p>
                           <pre><code class="hljs sh">git commit -m <span class="hljs-string">"add fruits.txt"</span>
@@ -186,6 +187,21 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

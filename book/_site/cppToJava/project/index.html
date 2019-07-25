@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -105,7 +106,7 @@ Bye!
                             <li>and so on ...</li>
                           </ol>
                           <div slot="hint">
-                            <panel type="seamless" header="Partial solution">
+                            <panel type="seamless" header="Partial solution" class="algolia-no-index">
                               <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -202,7 +203,7 @@ Bye!
                             <li>Use polymorphism to store both types of tasks in an array of <code>Task</code> type and use one loop to print both types of tasks.</li>
                           </ul>
                           <p><strong>B. Add support for <trigger trigger="click" for="modal:taskManagerLevel2-testingClis">semi-automated regression testing using input/output redirection</trigger></strong>.</p>
-                          <modal large title="Textbook »" id="modal:taskManagerLevel2-testingClis">
+                          <modal large title="Textbook »" id="modal:taskManagerLevel2-testingClis" class="algolia-no-index">
                               <div>
                               <div></div>
                               <p></p>
@@ -223,7 +224,7 @@ Bye!
                                     <ol>
                                       <li>
                                         <p>Store the test input in the text file <code>input.txt</code>.</p>
-                                        <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless">
+                                        <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless" class="algolia-no-index">
                                           <pre><code class="hljs">add Valid Name p/12345 valid@email.butNoPrefix
 add Valid Name 12345 e/valid@email.butPhonePrefixMissing
 </code></pre>
@@ -231,7 +232,7 @@ add Valid Name 12345 e/valid@email.butPhonePrefixMissing
                                       </li>
                                       <li>
                                         <p>Store the output we expect from the SUT in another text file <code>expected.txt</code>.</p>
-                                        <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless">
+                                        <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless" class="algolia-no-index">
                                           <pre><code class="hljs">Command: || [add Valid Name p/12345 valid@email.butNoPrefix]
 Invalid command format: add 
 
@@ -254,7 +255,7 @@ Invalid command format: add
                                             <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
                                           </li>
                                         </ul>
-                                        <panel header minimized>
+                                        <panel header minimized class="algolia-no-index">
                                           <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
                                           <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                                           <pre><code class="hljs sh">java AddressBook &gt; output.txt 
@@ -279,7 +280,7 @@ Invalid command format: add
                                     <p>Note that the above technique is only suitable when testing CLI apps, and only if the exact output can be predetermined. <span class="dimmed">If the output varies from one run to the other (e.g. it contains a time stamp), this technique will not work. In those cases we need more sophisticated ways of automating tests.</span></p>
                                     <div>
                                       <popover id="pop:cli" placement="top">
-                                        <div slot="content">
+                                        <div slot="content" class="algolia-no-index">
                                           <div>
                                             <p><strong>CLI App</strong>: An application that has a <em>Command Line Interface</em>. i.e. user interacts with the app by typing in commands.</p>
                                           </div>
@@ -292,7 +293,7 @@ Invalid command format: add
                               </div>
                             </div>
                           </modal>
-                          <panel type="seamless" header="Partial solution">
+                          <panel type="seamless" header="Partial solution" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -373,7 +374,7 @@ Invalid command format: add
                             <li>Throw a new <code>TaskManagerException</code> object when you detect some necessary information is missing in the command.</li>
                             <li>Catch that exception somewhere else and print the message inside the exception object.</li>
                           </ul>
-                          <panel type="seamless" header="Partial solution">
+                          <panel type="seamless" header="Partial solution" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TaskManagerException</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Exception</span></span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">TaskManagerException</span><span class="hljs-params">(String message)</span> </span>{
         <span class="hljs-keyword">super</span>(message);
@@ -449,7 +450,7 @@ Invalid command format: add
                           <ul>
                             <li>Move the <code>isDone</code> variable to the <code>Task</code> class and provide a <code>setDone(boolean)</code> method.</li>
                           </ul>
-                          <panel type="seamless" header="Partial solution">
+                          <panel type="seamless" header="Partial solution" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
@@ -513,7 +514,7 @@ T | 1 | join sports club
                             <li>Load all tasks in the text file to the memory (i.e., convert to <code>Task</code> objects) at the start up of TaskManager. You can assume the data are in a predetermined file <span class="dimmed">e.g., <code>data/tasks.txt</code></span>.</li>
                             <li>Save all tasks to the text file every time there is a change to the data. <span class="dimmed">Alternatively, you can introduce a new command to save tasks to the text file.</span></li>
                           </ol>
-                          <panel type="seamless" header="Partial solution">
+                          <panel type="seamless" header="Partial solution" class="algolia-no-index">
                             <p>Here's an example method for loading data from the text file. Use this method at the start of your main method to load the tasks from the text file.</p>
                             <pre><code class="hljs java">    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> List&lt;Task&gt; <span class="hljs-title">getTasksFromFile</span><span class="hljs-params">()</span> </span>{
         List&lt;Task&gt; loadedTasks = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
@@ -585,7 +586,7 @@ ui.showToUser(taskListDescription);
                               <p>Note: As a result of the above, you will have to convert most of the static methods in the <code>TaskManager</code> class to non-static methods, which is more OO.</p>
                             </li>
                           </ol>
-                          <panel type="seamless" header="Partial solution">
+                          <panel type="seamless" header="Partial solution" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TaskManager</span> </span>{
 
     <span class="hljs-keyword">private</span> Storage storage;
@@ -654,7 +655,7 @@ ui.showToUser(taskListDescription);
                         <h4 id="taskmanager-level-7">TaskManager Level 7<a class="fa fa-anchor" href="#taskmanager-level-7"></a></h4>
                         <div>
                           <p><strong>Add JUnit tests</strong> for some of the methods in your code.</p>
-                          <panel type="seamless" header="Partial solution">
+                          <panel type="seamless" header="Partial solution" class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.Test;
 
 <span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> junit.framework.TestCase.assertEquals;
@@ -693,7 +694,7 @@ ui.showToUser(taskListDescription);
                         <div>
                           <p>Add javadoc comments to all non-trivial public classes and methods. Follow the format of the <em>minimal</em> javadoc comment examples given below.</p>
                           <p>
-                            <panel type="seamless" src="/website/book/_site/documentation/tools/javaDoc/how/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> Documentation <md>:glyphicon-log-in:</md> Tools → JavaDoc → How" alt="<md>:glyphicon-education:</md> JavaDoc/How" fragment="main"></panel>
+                            <panel type="seamless" src="/website/book/_site/documentation/tools/javaDoc/how/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> Documentation <md>:glyphicon-log-in:</md> Tools → JavaDoc → How" alt="<md>:glyphicon-education:</md> JavaDoc/How" fragment="main" class="algolia-no-index"></panel>
                           </p>
                         </div>
                         <hr>
@@ -725,7 +726,7 @@ ui.showToUser(taskListDescription);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -739,6 +740,21 @@ ui.showToUser(taskListDescription);
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

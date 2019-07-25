@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -74,15 +75,15 @@
                               <li><a href="https://gradle.org/docs/#getting-started"><strong>Getting Started with Gradle</strong></a> -- Documentation from Gradle</li>
                               <li><a href="http://www.tutorialspoint.com/gradle/"><strong>Gradle Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a></li>
                             </ul>
-                            <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> Working With Gradle in Intellij IDEA (6 minutes)">
+                            <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> Working With Gradle in Intellij IDEA (6 minutes)" class="algolia-no-index">
                               <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/JwPYjnhah3g" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                             </panel>
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
-                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: _Gradle_ is a tool for ...">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: _Gradle_ is a tool for ..." class="algolia-no-index">
                                 <question>
                                   <p>Gradle_is used used for,</p>
                                   <ul class="task-list">
@@ -91,7 +92,7 @@
                                     <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. UML diagramming</li>
                                     <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. project collaboration</li>
                                   </ul>
-                                  <div slot="answer">
+                                  <div slot="answer" class="algolia-no-index">
                                     <p>(b)</p>
                                   </div>
                                 </question>
@@ -158,6 +159,21 @@
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

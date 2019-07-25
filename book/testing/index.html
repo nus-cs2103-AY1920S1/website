@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
 
@@ -71,7 +72,7 @@
                                 </ul>
                               </tip-box>
                               <p><strong>Test cases can be determined based on the specification, reviewing similar existing systems, or comparing to the past behavior of the SUT.</strong></p>
-                              <panel header="%%Other details a test case can contain%%" type="seamless">
+                              <panel header="%%Other details a test case can contain%%" type="seamless" class="algolia-no-index">
                                 <p>A more elaborate test case can have other details such as those given below.</p>
                                 <ul>
                                   <li>A unique identifier : <span class="dimmed">e.g. TC0034-a</span></li>
@@ -93,7 +94,7 @@
                               <tip-box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: In the browser example above, a test case failure is implied if the scrollbar remains disabled after loading <code>longfile.html</code>. The defect/bug causing that failure could be an uninitialized variable.</p>
                               </tip-box>
-                              <panel header="%%A deeper look at the definition of testing%%" type="seamless">
+                              <panel header="%%A deeper look at the definition of testing%%" type="seamless" class="algolia-no-index">
                                 <p>Here is another definition of testing:</p>
                                 <blockquote>
                                   <p>Software testing consists of the <em>dynamic</em> verification that a program provides <em>expected</em> behaviors on a <em>finite</em> set of test cases, suitably <em>selected</em> from the usually infinite execution domain. <sub>-– source: <a href="https://www.computer.org/web/swebok/v3">Software Engineering Book of Knowledge V3</a></sub></p>
@@ -111,9 +112,9 @@
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md> Relate testing, test cases, failure, and defect">
+                                    <panel header="<md>:glyphicon-question-sign:</md> Relate testing, test cases, failure, and defect" class="algolia-no-index">
                                       <question has-input>
                                         <p>Explain how the concepts of <em>testing</em>, <em>test case</em>, <em>test failure</em>, and <em>defect</em> are related to each other.</p>
                                       </question>
@@ -242,7 +243,7 @@
                                   </div>
                                   <div>
                                     <div>
-                                      <panel header="<md>:fas-paperclip:</md> Resources">
+                                      <panel header="<md>:fas-paperclip:</md> Resources" class="algolia-no-index">
                                         <p><strong>Side readings:</strong></p>
                                         <ul>
                                           <li>[Web article] <a href="http://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests">The three pillars of unit testing</a> -
@@ -354,16 +355,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                       </panel>
                                     </div>
                                     <div>
-                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs" class="algolia-no-index">
                                             <question>
                                               <p>Stubs help us to test a component in isolation from its dependencies.</p>
                                               <ul radio-group="a0303" class="radio-list">
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> True</label></li>
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> False</label></li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>True</p>
                                               </div>
                                             </question>
@@ -550,16 +551,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                   </div>
                                   <div>
                                     <div>
-                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Dogfooding improves product design?">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Dogfooding improves product design?" class="algolia-no-index">
                                             <question>
                                               <p>‘dogfooding’ can help us improve product designs.</p>
                                               <ul radio-group="f7c90" class="radio-list">
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="f7c90" type="radio"> True</label></li>
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="f7c90" type="radio"> False</label></li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>True</p>
                                               </div>
                                             </question>
@@ -631,12 +632,12 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                   </div>
                                   <div>
                                     <div>
-                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: implications of developers testing their own code">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: implications of developers testing their own code" class="algolia-no-index">
                                             <question has-input="true">
                                               <p>Discuss pros and cons of developers testing their own code.</p>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>Pros:</p>
                                                 <ul>
                                                   <li>Can be done early (the earlier we find a bug, the cheaper it is to fix).</li>
@@ -656,21 +657,21 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                           </panel>
                                         </div>
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Cost of bug fixing over time">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Cost of bug fixing over time" class="algolia-no-index">
                                             <question>
                                               <p>The cost of fixing a bug goes down as we reach the product release.</p>
                                               <ul radio-group="37242" class="radio-list">
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="37242" type="radio"> True</label></li>
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="37242" type="radio"> False</label></li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>False. The cost goes up over time.</p>
                                               </div>
                                             </question>
                                           </panel>
                                         </div>
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md> Why early testing?">
+                                          <panel header="<md>:glyphicon-question-sign:</md> Why early testing?" class="algolia-no-index">
                                             <question has-input="true">
                                               <p>Explain why early testing by developers is important.</p>
                                             </question>
@@ -726,7 +727,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                     <tip-box>
                                       <p>💡 <strong>Exploratory testing is also known as <em>reactive testing, error guessing technique, attack-based testing,</em> and <em>bug hunting</em>.</strong></p>
                                     </tip-box>
-                                    <modal id="modal:exploratoryWhat-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>">
+                                    <modal id="modal:exploratoryWhat-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>" class="algolia-no-index">
                                       <div>
                                         <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
                                       </div>
@@ -734,16 +735,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                   </div>
                                   <div>
                                     <div>
-                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about exploratory and scripted testing">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about exploratory and scripted testing" class="algolia-no-index">
                                             <question>
                                               <p>Scripted testing requires tests to be written in a scripting language; Manual testing is called exploratory testing.</p>
                                               <ul radio-group="db31a" class="radio-list">
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="db31a" type="radio"> True</label></li>
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="db31a" type="radio"> False</label></li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>A) False</p>
                                                 <p>Explanation: “Scripted” means test cases are predetermined. They need not be an executable script. However, exploratory testing is usually manual.</p>
                                               </div>
@@ -751,7 +752,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                           </panel>
                                         </div>
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which testing technique is better?">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which testing technique is better?" class="algolia-no-index">
                                             <question>
                                               <p>Which testing technique is better?</p>
                                               <ul radio-group="9fd35" class="radio-list">
@@ -761,17 +762,17 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="9fd35" type="radio"> d. reactive testing</label></li>
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="9fd35" type="radio"> e. These are different names used to describe exploratory testing.</label></li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>(e)</p>
                                               </div>
                                             </question>
                                           </panel>
                                         </div>
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Explain the concept of exploratory testing using Minesweeper as an example.">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Explain the concept of exploratory testing using Minesweeper as an example." class="algolia-no-index">
                                             <question has-input="true">
                                               <p>Explain the concept of exploratory testing using Minesweeper as an example.</p>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>When we test the Minesweeper by simply playing it in various ways, especially trying out those that are likely to be buggy, that would be exploratory testing.</p>
                                               </div>
                                             </question>
@@ -804,7 +805,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                         --<trigger trigger="click" for="modal:ExploratoryWhen-bach-et-explained">[source: bach-et-explained]</trigger>
                                       </p>
                                     </blockquote>
-                                    <modal id="modal:ExploratoryWhen-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>">
+                                    <modal id="modal:ExploratoryWhen-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>" class="algolia-no-index">
                                       <div>
                                         <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
                                       </div>
@@ -812,16 +813,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                   </div>
                                   <div>
                                     <div>
-                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which is better?">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which is better?" class="algolia-no-index">
                                             <question>
                                               <p>Scripted testing is better than exploratory testing.</p>
                                               <ul radio-group="7d3ff" class="radio-list">
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="7d3ff" type="radio"> True</label></li>
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="7d3ff" type="radio"> False</label></li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>B) False</p>
                                                 <p>Explanation: Each has pros and cons. Relying on only one is not recommended. A combination is better.</p>
                                               </div>
@@ -946,9 +947,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                   </div>
                                   <div>
                                     <div>
-                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about system testing and acceptance testing.">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Statements about system testing and acceptance testing." class="algolia-no-index">
                                             <question>
                                               <p>Choose the correct statements about system testing and acceptance testing.</p>
                                               <ul class="task-list">
@@ -959,7 +960,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. In smaller projects, the developers may do system testing as well, in addition to developer testing.</li>
                                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> f. If system testing is adequately done, we need not do acceptance testing.</li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>(a)(b)(c)(d)(e)<s>(f)</s></p>
                                                 <p>Explanation:</p>
                                                 <p>(b) is correct because system testing can aim to cover all specified behaviors and can even go beyond the system specification. Therefore, system testing is typically more extensive than acceptance testing.</p>
@@ -1004,9 +1005,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                   </div>
                                   <div>
                                     <div>
-                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Regression Testing defintion T/F?">
+                                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Regression Testing defintion T/F?" class="algolia-no-index">
                                             <question>
                                               <p>Regression testing is the automated re-testing of a software after it has been modified.</p>
                                               <ul radio-group="63d56" class="radio-list">
@@ -1014,7 +1015,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="63d56" type="radio"> b. False</label></li>
                                                 <li class="radio-list-item"><label><input class="radio-list-input" name="63d56" type="radio"> c. Partially true</label></li>
                                               </ul>
-                                              <div slot="answer">
+                                              <div slot="answer" class="algolia-no-index">
                                                 <p>c.</p>
                                                 <p>Explanation: Regression testing <mark>need not be automated</mark> but automation is highly recommended.</p>
                                               </div>
@@ -1022,7 +1023,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                           </panel>
                                         </div>
                                         <div>
-                                          <panel header="<md>:glyphicon-question-sign:</md> Explain regression testing">
+                                          <panel header="<md>:glyphicon-question-sign:</md> Explain regression testing" class="algolia-no-index">
                                             <question has-input>
                                               <p>Explain why and when you would do regression testing in a software project.</p>
                                             </question>
@@ -1065,13 +1066,13 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                 <tab header="<md>:far-file-alt:</md>">
                                   <p><strong>An automated test case can be run programmatically and the result of the test case (pass or fail) is determined programmatically.</strong> Compared to manual testing, automated testing reduces the effort required to run tests repeatedly and increases precision of testing (because manual testing is susceptible to human errors).</p>
                                 </tab>
-                                <tab header="<md>:glyphicon-facetime-video:</md>">
+                                <tab header="<md>:glyphicon-facetime-video:</md>" class="algolia-no-index">
                                   <iframe width="560" height="315" src="https://www.youtube.com/embed/RbSlW8jZFe8?end=79&version=3" frameborder="0" allowfullscreen></iframe></tab>
                               </tabs>
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-paperclip:</md> Resources">
+                                <panel header="<md>:fas-paperclip:</md> Resources" class="algolia-no-index">
                                   <p><strong>Side readings:</strong></p>
                                   <ul>
                                     <li>[Quora post] <a href="http://www.quora.com/What-are-good-ways-to-avoid-bugs-while-programming/answer/Mattias-Petter-Johansson">What is the best way to avoid bugs</a></li>
@@ -1105,7 +1106,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                               <ol>
                                 <li>
                                   <p>Store the test input in the text file <code>input.txt</code>.</p>
-                                  <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless">
+                                  <panel header="%%<md>:fas-cube:</md> Example `input.txt`%%" type="seamless" class="algolia-no-index">
                                     <pre><code class="hljs">add Valid Name p/12345 valid@email.butNoPrefix
 add Valid Name 12345 e/valid@email.butPhonePrefixMissing
 </code></pre>
@@ -1113,7 +1114,7 @@ add Valid Name 12345 e/valid@email.butPhonePrefixMissing
                                 </li>
                                 <li>
                                   <p>Store the output we expect from the SUT in another text file <code>expected.txt</code>.</p>
-                                  <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless">
+                                  <panel header="%%<md>:fas-cube:</md> Example `expected.txt`%%" type="seamless" class="algolia-no-index">
                                     <pre><code class="hljs">Command: || [add Valid Name p/12345 valid@email.butNoPrefix]
 Invalid command format: add 
 
@@ -1136,7 +1137,7 @@ Invalid command format: add
                                       <p>💡 If you are using Windows, use a normal command window to run the app, not a Power Shell window.</p>
                                     </li>
                                   </ul>
-                                  <panel header minimized>
+                                  <panel header minimized class="algolia-no-index">
                                     <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
                                     <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                                     <pre><code class="hljs sh">java AddressBook &gt; output.txt 
@@ -1161,7 +1162,7 @@ Invalid command format: add
                               <p>Note that the above technique is only suitable when testing CLI apps, and only if the exact output can be predetermined. <span class="dimmed">If the output varies from one run to the other (e.g. it contains a time stamp), this technique will not work. In those cases we need more sophisticated ways of automating tests.</span></p>
                               <div>
                                 <popover id="pop:cli" placement="top">
-                                  <div slot="content">
+                                  <div slot="content" class="algolia-no-index">
                                     <div>
                                       <p><strong>CLI App</strong>: An application that has a <em>Command Line Interface</em>. i.e. user interacts with the app by typing in commands.</p>
                                     </div>
@@ -1294,7 +1295,7 @@ Invalid command format: add
                                   </li>
                                   <li>
                                     <p><a href="http://seleniumhq.org/"><strong>Selenium</strong></a> can be used to automate testing of Web application UIs<br></p>
-                                    <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> demo video of automated testing of a Web application" class="non-printable">
+                                    <panel type="seamless" header="<md>:glyphicon-facetime-video:</md> demo video of automated testing of a Web application" class="non-printable algolia-no-index">
                                       <p>This video shows automated testing of the <a href="http://github.com/teammates/teammates">TEAMMATES</a> Web app using Selenium</p>
                                       <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/ihst69Zq1xM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                                     </panel>
@@ -1304,16 +1305,16 @@ Invalid command format: add
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: API testing vs GUI testing">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: API testing vs GUI testing" class="algolia-no-index">
                                       <question>
                                         <p>GUI testing is usually easier than API testing because it doesn’t require any extra coding.</p>
                                         <ul radio-group="dc574" class="radio-list">
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="dc574" type="radio"> True</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="dc574" type="radio"> False</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>False</p>
                                         </div>
                                       </question>
@@ -1378,9 +1379,9 @@ Invalid command format: add
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: highest intensity coverage">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: highest intensity coverage" class="algolia-no-index">
                                       <question>
                                         <p>Which of these gives us the highest intensity of testing?</p>
                                         <ul radio-group="3db75" class="radio-list">
@@ -1389,7 +1390,7 @@ Invalid command format: add
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="3db75" type="radio"> c. 100% branch coverage</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="3db75" type="radio"> d. 100% condition coverage</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>(b)</p>
                                           <p>Explanation: 100% path coverage implies all possible execution paths through the SUT have been tested. This is essentially ‘exhaustive testing’. While this is very hard to achieve for a non-trivial SUT, it technically gives us the highest intensity of testing. If all tests pass at 100% path coverage, the SUT code can be considered ‘bug free’. However, note that path coverage does not include paths that are missing from the code altogether because the programmer left them out by mistake.</p>
                                         </div>
@@ -1452,11 +1453,11 @@ Invalid command format: add
                             <p></p>
                             <div>
                               <p><strong><em>Dependency injection</em> is the process of 'injecting' objects to replace current dependencies with a different object.</strong> This is often used to inject <trigger trigger="click" for="modal:explainDi-stub">stubs</trigger> to isolate the <tooltip content="Software Under Test">SUT</tooltip> from its <tooltip content="objects it depends on">dependencies</tooltip> so that it can be tested in isolation.</p>
-                              <modal large title id="modal:explainDi-stub">
+                              <modal large title id="modal:explainDi-stub" class="algolia-no-index">
                                 <div>
                                   <div>
                                     <p>
-                                      <panel src="/website/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/website/book/testing/testingTypes/unitTesting/what"></panel>
+                                      <panel src="/website/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/website/book/testing/testingTypes/unitTesting/what" class="algolia-no-index"></panel>
                                     </p>
                                   </div>
                                   <p></p>
@@ -1553,16 +1554,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                           </panel>
                                         </div>
                                         <div>
-                                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                             <div>
-                                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs">
+                                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs" class="algolia-no-index">
                                                 <question>
                                                   <p>Stubs help us to test a component in isolation from its dependencies.</p>
                                                   <ul radio-group="a0303" class="radio-list">
                                                     <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> True</label></li>
                                                     <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> False</label></li>
                                                   </ul>
-                                                  <div slot="answer">
+                                                  <div slot="answer" class="algolia-no-index">
                                                     <p>True</p>
                                                   </div>
                                                 </question>
@@ -1598,11 +1599,11 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             <p></p>
                             <div>
                               <p><strong>Polymorphism can be used to implement dependency injection</strong>, as can be seen in the example given in <trigger trigger="click" for="modal:useDi-stub">[Quality Assurance → Testing → Unit Testing → Stubs]</trigger> where a stub is injected to replace a dependency.</p>
-                              <modal large title id="modal:useDi-stub">
+                              <modal large title id="modal:useDi-stub" class="algolia-no-index">
                                 <div>
                                   <div>
                                     <p>
-                                      <panel src="/website/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/website/book/testing/testingTypes/unitTesting/what"></panel>
+                                      <panel src="/website/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<md>:glyphicon-education:</md> Quality Assurance → Testing → Unit Testing → What →%%" popup-url="/website/book/testing/testingTypes/unitTesting/what" class="algolia-no-index"></panel>
                                     </p>
                                   </div>
                                   <p></p>
@@ -1699,16 +1700,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                           </panel>
                                         </div>
                                         <div>
-                                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                             <div>
-                                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs">
+                                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs" class="algolia-no-index">
                                                 <question>
                                                   <p>Stubs help us to test a component in isolation from its dependencies.</p>
                                                   <ul radio-group="a0303" class="radio-list">
                                                     <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> True</label></li>
                                                     <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> False</label></li>
                                                   </ul>
-                                                  <div slot="answer">
+                                                  <div slot="answer" class="algolia-no-index">
                                                     <p>True</p>
                                                   </div>
                                                 </question>
@@ -1787,9 +1788,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about dependency injection">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: statements about dependency injection" class="algolia-no-index">
                                       <question>
                                         <p>Choose correct statement about dependency injection</p>
                                         <ul class="task-list">
@@ -1798,7 +1799,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. It can be done using polymorphism</li>
                                           <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. It can be used to substitute a component with a stub</li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p><s>(a)</s>(b)(c)(d)</p>
                                           <p>Explanation: It is a technique we can use to substitute an existing dependency with another, not increase dependencies. It is useful when you want to test a component in isolation but the SUT depends on other components. Using dependency injection, we can substitute those other components with test-friendly stubs. This is often done using polymorphism.</p>
                                         </div>
@@ -1839,9 +1840,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             </div>
                             <div>
                               <div>
-                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                                <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                                   <div>
-                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: When do we write tests in TDD?">
+                                    <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: When do we write tests in TDD?" class="algolia-no-index">
                                       <question>
                                         <p>A) In TDD, we write all the test cases before we start writing functional code.</p>
                                         <ul radio-group="d75ae" class="radio-list">
@@ -1853,7 +1854,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="b90f5" type="radio"> True</label></li>
                                           <li class="radio-list-item"><label><input class="radio-list-input" name="b90f5" type="radio"> False</label></li>
                                         </ul>
-                                        <div slot="answer">
+                                        <div slot="answer" class="algolia-no-index">
                                           <p>A) False</p>
                                           <p>Explanation: No, not <em>all</em>. We proceed in small steps, writing tests and functional code in tandem, but writing the test before we write the corresponding functional code.</p>
                                           <p>B) False</p>
@@ -1918,6 +1919,21 @@ String name = logic.getName(<span class="hljs-number">23</span>);
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

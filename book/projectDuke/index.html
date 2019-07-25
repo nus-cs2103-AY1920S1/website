@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
 
@@ -207,7 +208,7 @@ done 2
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: `A-Classes`**">
+                    <panel header="**Extension: `A-Classes`**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -215,7 +216,7 @@ done 2
                           <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
                         </div>
                         <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
-                        <panel type="seamless" header="Partial solution" minimized>
+                        <panel type="seamless" header="Partial solution" minimized class="algolia-no-index">
                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
@@ -298,7 +299,7 @@ deadline do homework /by no idea :-p
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: `A-Inheritance`**">
+                    <panel header="**Extension: `A-Inheritance`**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -307,7 +308,7 @@ deadline do homework /by no idea :-p
                         </div>
                         <p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code>Todo</code>, <code>Deadline</code> and <code>Event</code> classes to inherit from a <code>Task</code> class.</p>
                         <p>Furthermore, use polymorphism to store all tasks in a data structure containing <code>Task</code> objects e.g., <code>Task[100]</code>.</p>
-                        <panel type="seamless" header="Partial solution" minimized>
+                        <panel type="seamless" header="Partial solution" minimized class="algolia-no-index">
                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Deadline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
 
     <span class="hljs-keyword">protected</span> String by;
@@ -353,7 +354,7 @@ blah
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: `A-Exceptions`**">
+                    <panel header="**Extension: `A-Exceptions`**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -398,7 +399,7 @@ delete 3
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: `A-Collections`**">
+                    <panel header="**Extension: `A-Collections`**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -461,7 +462,7 @@ T | 1 | join sports club
                     <br></p>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: `A-JavaFx`**">
+                    <panel header="**Extension: `A-JavaFx`**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -485,7 +486,7 @@ T | 1 | join sports club
                       <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
                     </div>
                     <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
-                    <panel type="seamless" header="Partial solution" minimized>
+                    <panel type="seamless" header="Partial solution" minimized class="algolia-no-index">
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
     <span class="hljs-keyword">protected</span> <span class="hljs-keyword">boolean</span> isDone;
@@ -516,7 +517,7 @@ t.markAsDone()
                     </div>
                     <p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code>Todo</code>, <code>Deadline</code> and <code>Event</code> classes to inherit from a <code>Task</code> class.</p>
                     <p>Furthermore, use polymorphism to store all tasks in a data structure containing <code>Task</code> objects e.g., <code>Task[100]</code>.</p>
-                    <panel type="seamless" header="Partial solution" minimized>
+                    <panel type="seamless" header="Partial solution" minimized class="algolia-no-index">
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Deadline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
 
     <span class="hljs-keyword">protected</span> String by;
@@ -1123,6 +1124,21 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

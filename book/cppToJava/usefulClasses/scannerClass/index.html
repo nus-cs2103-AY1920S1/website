@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -79,10 +80,10 @@ System.out.printf(<span class="hljs-string">"Hello %s, age %d\n"</span>, name, a
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> find total expenditure">
+                            <panel header="<md>:glyphicon-question-sign:</md> find total expenditure" class="algolia-no-index">
                               <question>
                                 <p>Write a program to ask the user for a description of overseas expenses (presumably, the user has just returned from an overseas trip) and calculate the total in local currency.</p>
                                 <ul>
@@ -124,10 +125,10 @@ String[] words = sentence.split(<span class="hljs-string">" "</span>); <span cla
 System.out.println(Arrays.toString(words));
 </code></pre>
                                 <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[hello, my, dear]</code></p>
-                                <div slot="hint">
+                                <div slot="hint" class="algolia-no-index">
                                   <p>💡 You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
                                     e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1.33</code></p>
-                                  <panel type="seamless" header="Partial solution">
+                                  <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                     <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Arrays;
 <span class="hljs-keyword">import</span> java.util.Scanner;
 
@@ -170,7 +171,7 @@ System.out.println(Arrays.toString(words));
                             </panel>
                           </div>
                           <div>
-                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 1 - **Create a CLI**">
+                            <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 1 - **Create a CLI**" class="algolia-no-index">
                               <div id="body">
                                 <div id="main">
                                   <p>In this first version of the TaskManager, the task list is not saved to the disk <span class="dimmed">i.e., the task list does not persist between multiple runs of the program</span></p>
@@ -219,7 +220,7 @@ Bye!
                                     <li>and so on ...</li>
                                   </ol>
                                   <div slot="hint">
-                                    <panel type="seamless" header="Partial solution">
+                                    <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -292,6 +293,21 @@ Bye!
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -72,7 +73,7 @@
                       <p></p>
                       <div>
                         <p>String is a built-in Java class that you <trigger trigger="click" for="modal:stringClass-javaLang">can use without importing</trigger>. Given below are some useful String methods:</p>
-                        <modal id="modal:stringClass-javaLang" title=":bulb: `java.lang` classes can be used without importing" placement="top">
+                        <modal id="modal:stringClass-javaLang" title=":bulb: `java.lang` classes can be used without importing" placement="top" class="algolia-no-index">
                           <p>Any class in the <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/package-summary.html"><code>java.lang</code></a> package can be used without importing.
                           </p>
                         </modal>
@@ -296,10 +297,10 @@ Second line
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> `printPrice` method" class="algolia-no-index">
                                   <question>
                                     <p>Implement the <code>printPrice</code> method in the code below to produce the given output. Its behavior:</p>
                                     <ul>
@@ -330,7 +331,7 @@ Second line
 SODA: 10.00
 FRIES: 0.50
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p>Partial solution:</p>
                                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printPrice</span><span class="hljs-params">(String item)</span> </span>{
     <span class="hljs-keyword">int</span> dividerPosition = item.indexOf(<span class="hljs-string">"--"</span>);
@@ -398,10 +399,10 @@ System.out.println(i);
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> `printTotalScore` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> `printTotalScore` method" class="algolia-no-index">
                                   <question>
                                     <p>Implement the <code>printTotalScore</code> method in the code below to produce the given output. Its behavior:</p>
                                     <ul>
@@ -425,7 +426,7 @@ System.out.println(i);
                                     <pre><code class="hljs">0
 109
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p>💡 You can use the <a href="https://www.tutorialspoint.com/java/number_parseint.htm"><code>Integer.parseInt()</code></a> method to convert a <code>String</code> to the equivalent <code>int</code> value.</p>
                                       <p>Partial solution:</p>
                                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printTotalScore</span><span class="hljs-params">(String[] values)</span></span>{
@@ -479,10 +480,10 @@ System.out.println(Arrays.toString(c));
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> `filterEmails` method">
+                                <panel header="<md>:glyphicon-question-sign:</md> `filterEmails` method" class="algolia-no-index">
                                   <question>
                                     <p>Implement the following two methods in the code below to produce the given output.</p>
                                     <ul>
@@ -525,7 +526,7 @@ System.out.println(Arrays.toString(c));
 [@bee.com]
 
 </code></pre>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <ul>
                                         <li><strong><code>filterEmailsfilterEmails(String[] items): String[]</code></strong>
                                           <ol>
@@ -540,7 +541,7 @@ System.out.println(Arrays.toString(c));
                                           </ul>
                                         </li>
                                       </ul>
-                                      <panel type="seamless" header="Partial solution">
+                                      <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                         <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String[] filterEmails(String[] items){
     String[] results = <span class="hljs-keyword">new</span> String[items.length];
     <span class="hljs-keyword">int</span> matchCount = <span class="hljs-number">0</span>;
@@ -618,10 +619,10 @@ System.out.printf(<span class="hljs-string">"Hello %s, age %d\n"</span>, name, a
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> find total expenditure">
+                                <panel header="<md>:glyphicon-question-sign:</md> find total expenditure" class="algolia-no-index">
                                   <question>
                                     <p>Write a program to ask the user for a description of overseas expenses (presumably, the user has just returned from an overseas trip) and calculate the total in local currency.</p>
                                     <ul>
@@ -663,10 +664,10 @@ String[] words = sentence.split(<span class="hljs-string">" "</span>); <span cla
 System.out.println(Arrays.toString(words));
 </code></pre>
                                     <p><span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>[hello, my, dear]</code></p>
-                                    <div slot="hint">
+                                    <div slot="hint" class="algolia-no-index">
                                       <p>💡 You can use <code>String.format(&quot;%.2f&quot;, doubleValue)</code> to format <code>doubleValue</code> to two decimal points.<br>
                                         e.g., <code>String.format(&quot;%.2f&quot;, 1.3334)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code>1.33</code></p>
-                                      <panel type="seamless" header="Partial solution">
+                                      <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                         <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Arrays;
 <span class="hljs-keyword">import</span> java.util.Scanner;
 
@@ -709,7 +710,7 @@ System.out.println(Arrays.toString(words));
                                 </panel>
                               </div>
                               <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 1 - **Create a CLI**">
+                                <panel header="<md>:glyphicon-question-sign:</md> TaskManager Level 1 - **Create a CLI**" class="algolia-no-index">
                                   <div id="body">
                                     <div id="main">
                                       <p>In this first version of the TaskManager, the task list is not saved to the disk <span class="dimmed">i.e., the task list does not persist between multiple runs of the program</span></p>
@@ -758,7 +759,7 @@ Bye!
                                         <li>and so on ...</li>
                                       </ol>
                                       <div slot="hint">
-                                        <panel type="seamless" header="Partial solution">
+                                        <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                           <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.Scanner;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
@@ -833,6 +834,21 @@ Bye!
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

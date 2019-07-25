@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../markbind/layouts/default/styles.css">
 
 
@@ -195,7 +196,7 @@ done 2
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Classes**">
+                    <panel header="**Extension: A-Classes**" class="algolia-no-index">
                       <div>
                         <h3 id="a-classes"><span class="badge badge-pill badge-info">A-Classes</span><a class="fa fa-anchor" href="#a-classes"></a></h3>
                         <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
@@ -266,7 +267,7 @@ event project meeting /at Mon 2-4pm
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Inheritance**">
+                    <panel header="**Extension: A-Inheritance**" class="algolia-no-index">
                       <div>
                         <h3 id="a-inheritance"><span class="badge badge-pill badge-info">A-Inheritance</span><a class="fa fa-anchor" href="#a-inheritance"></a></h3>
                         <p>     <big>↳</big> <strong>Use Inheritance to support multiple task types</strong></p>
@@ -293,7 +294,7 @@ blah
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Exceptions**">
+                    <panel header="**Extension: A-Exceptions**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -329,7 +330,7 @@ delete 3
 </code></pre>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-Collections**">
+                    <panel header="**Extension: A-Collections**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -370,7 +371,7 @@ delete 3
                   <p>Add a GUI to Duke.</p>
                   <div>
                     <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
-                    <panel header="**Extension: A-JavaFx**">
+                    <panel header="**Extension: A-JavaFx**" class="algolia-no-index">
                       <div>
                         <div>
                           <div></div>
@@ -612,6 +613,21 @@ t.markAsDone()
   const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

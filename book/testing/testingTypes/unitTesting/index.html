@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -114,7 +115,7 @@
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-paperclip:</md> Resources">
+                          <panel header="<md>:fas-paperclip:</md> Resources" class="algolia-no-index">
                             <p><strong>Side readings:</strong></p>
                             <ul>
                               <li>[Web article] <a href="http://blog.goyello.com/2011/10/06/three-pillars-of-unit-tests">The three pillars of unit testing</a> -
@@ -226,16 +227,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
-                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Purpose of stubs" class="algolia-no-index">
                                 <question>
                                   <p>Stubs help us to test a component in isolation from its dependencies.</p>
                                   <ul radio-group="a0303" class="radio-list">
                                     <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> True</label></li>
                                     <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> False</label></li>
                                   </ul>
-                                  <div slot="answer">
+                                  <div slot="answer" class="algolia-no-index">
                                     <p>True</p>
                                   </div>
                                 </question>
@@ -265,6 +266,21 @@ String name = logic.getName(<span class="hljs-number">23</span>);
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

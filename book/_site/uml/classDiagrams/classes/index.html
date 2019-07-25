@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../../markbind/layouts/default/styles.css">
 
 
@@ -55,7 +56,7 @@
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code>Table</code> class shown in UML notation:</p>
                           <img src="/website/book/uml/classDiagrams/classes/what/images/operations.png" height="150">
                           <p></p>
-                          <panel type="seamless" header="The equivalent code">
+                          <panel type="seamless" header="The equivalent code" class="algolia-no-index">
                             <table>
                               <tr>
                                   <td>
@@ -109,7 +110,7 @@
                           <li><code>#</code> : protected</li>
                           <li><code>~</code> : package private</li>
                         </ul>
-                        <panel type="seamless" header="How visibilities map to programming language features">
+                        <panel type="seamless" header="How visibilities map to programming language features" class="algolia-no-index">
                           <div class="table-responsive">
                             <table class="markbind-table table table-bordered table-striped">
                               <thead>
@@ -154,9 +155,9 @@
                       </div>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                          <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                             <div>
-                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which classes are correct?">
+                              <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Which classes are correct?" class="algolia-no-index">
                                 <question>
                                   <p>Which of these follow the correct UML notation?</p>
                                   <img src="/website/book/uml/classDiagrams/classes/what/images/chooseNotation.jpg" height="130">
@@ -168,7 +169,7 @@
                                     <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> 4</li>
                                     <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> 5</li>
                                   </ul>
-                                  <div slot="answer">
+                                  <div slot="answer" class="algolia-no-index">
                                     <ol>
                                       <li>Incorrect : <em>Attributes</em> compartment should be above the <em>Methods</em> compartment.</li>
                                       <li>Incorrect : All attributes should be inside the same compartment.</li>
@@ -181,7 +182,7 @@
                               </panel>
                             </div>
                             <div>
-                              <panel header="<md>:glyphicon-question-sign:</md> Draw Car class">
+                              <panel header="<md>:glyphicon-question-sign:</md> Draw Car class" class="algolia-no-index">
                                 <question>
                                   <p>Draw a UML diagram to represent the <code>Car</code> class as given below. Include visibilities.</p>
                                   <div class="alt-java">
@@ -244,6 +245,21 @@
   const enableSearch = true
 </script>
 <script src="../../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>

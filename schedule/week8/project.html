@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../markbind/layouts/default/styles.css">
 
   <link rel="stylesheet" href="../../markbind/css/page-nav.css">
@@ -38,7 +39,7 @@
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
-        <dropdown text="Schedule" class="nav-link temp-dropdown">
+        <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -56,7 +57,7 @@
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
         <div class="nav-link temp-dropdown-placeholder">Links</div>
-        <dropdown text="Links" class="nav-link temp-dropdown">
+        <dropdown text="Links" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
           <li><a href="https://nus-cs2103-ay1920s1.slack.com" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-slack-hash"></span> Slack</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
@@ -78,7 +79,7 @@
         </dropdown>
         <li slot="right" class="nav-link">
           <form class="navbar-form">
-            <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
+            <searchbar placeholder="Search" algolia menu-align-right></searchbar>
           </form>
         </li>
       </navbar>
@@ -116,7 +117,7 @@
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-notesForAb23">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-notesForAb23">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-notesForAb23" class="algolia-no-index">
                   <div>
                   <p>There is no explicit penalty for switching to a lower level AB. All projects are evaluated based on the same yardstick irrespective of on which AB it is based. As an AB is given to you as a 'free' head-start, a lower level AB gives you a shorter head-start, which means your final product is likely to be less functional than those from teams using AB-4 unless you progress faster than them. Nevertheless, you should switch to AB2/3 if you feel you can learn more from the project that way, as our goal is to maximize learning, not features.<br>
                     If your team wants to stay with AB-4 but you want to switch to a lower level AB, let the us know so that we can work something out for you.</p>
@@ -128,7 +129,7 @@
                     <li>Create an <em>About Us</em> page similar to AB-4 and update it as described in <trigger trigger="click" for="modal:deliverables-midv11">mid-v1.1 progress guide</trigger>
                     </li>
                   </ul>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:deliverables-midv11">
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:deliverables-midv11" class="algolia-no-index">
                       <div>
                       <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Set up project repo, start moving UG and DG to the repo, attempt to do local-impact changes to the code base.</span></span></p>
                       <p></p>
@@ -141,7 +142,7 @@
                               <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-orgSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Organization setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                             </div>
                           </div>
-                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup">
+                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
                               <div>
                               <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
                               <p>
@@ -165,7 +166,7 @@
                             </div>
                           </modal>
                           <p>
-                            <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="organization-setup"></panel>
+                            <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="organization-setup"></panel>
                           </p>
                         </div>
                         <div class="indented-level2">
@@ -174,7 +175,7 @@
                               <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-repoSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Repo setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                             </div>
                           </div>
-                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup">
+                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
                               <div>
                               <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
                               <p>Only one team member:</p>
@@ -204,7 +205,7 @@
                             </div>
                           </modal>
                           <p>
-                            <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="repo-setup"></panel>
+                            <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="repo-setup"></panel>
                           </p>
                         </div>
                         <p>When updating code in the repo, follow the workflow explained below:</p>
@@ -214,7 +215,7 @@
                               <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-workflow">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Workflow</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                             </div>
                           </div>
-                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" id="modal:midv11-workflow">
+                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" id="modal:midv11-workflow" class="algolia-no-index">
                               <div>
                               <h2 id="workflow">Workflow<a class="fa fa-anchor" href="#workflow"></a></h2>
                               <p>
@@ -224,7 +225,7 @@
                                 <li>Ensure you have <trigger trigger="click" for="modal:appE-gitUsername">set the Git username correctly (as explained in Appendix E)</trigger> in <em>all</em> Computers you use for coding.</li>
                                 <li>Read <trigger trigger="click" for="modal:appE-reusePolicy">our reuse policy <span class="dimmed">(in Admin: Appendix B)</span></trigger>, in particular, <mark>how to give credit when you reuse code from the Internet or classmates</mark>:</li>
                               </ul>
-                              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername">
+                              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername" class="algolia-no-index">
                                   <div>
                                   <h2 id="setting-git-username-to-match-github-username">Setting Git Username to Match GitHub Username<a class="fa fa-anchor" href="#setting-git-username-to-match-github-username"></a></h2>
                                   <p>We use various tools to analyze your code. <mark>For us to be able to identify your commits, you should use the GitHub username as your Git username as well. If there is a mismatch, or if you use multiple user names for Git,</mark> our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
@@ -237,7 +238,7 @@
                                   <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
                                 </div>
                               </modal>
-                              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix B: Policies → Policy on Reuse" id="modal:appE-reusePolicy">
+                              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix B: Policies → Policy on Reuse" id="modal:appE-reusePolicy" class="algolia-no-index">
                                   <div>
                                   <h3 id="policy-on-reuse">Policy on reuse <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#policy-on-reuse"></a></h3>
                                   <div class="indented">
@@ -302,7 +303,7 @@ Collections.sort(persons, <span class="hljs-keyword">new</span> Comparator&lt;Cu
                                           </li>
                                         </ul>
                                       </tip-box>
-                                      <modal large title="Admin <md>:glyphicon-log-in:</md> Project mid-v1.3 (extract) →" id="modal:reusePolicy-authorTags">
+                                      <modal large title="Admin <md>:glyphicon-log-in:</md> Project mid-v1.3 (extract) →" id="modal:reusePolicy-authorTags" class="algolia-no-index">
                                           <div>
                                           <h4 id="adding-author-tags-indicate-authorship">Adding <code>@@author</code> tags indicate authorship<a class="fa fa-anchor" href="#adding-author-tags-indicate-authorship"></a></h4>
                                           <ul>
@@ -413,7 +414,7 @@ method 2 ...
                                           </ul>
                                         </div>
                                       </modal>
-                                      <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Project Portfolio Page" id="modal:reusePolicy-ppp">
+                                      <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Project Portfolio Page" id="modal:reusePolicy-ppp" class="algolia-no-index">
                                           <div>
                                           <p>At the end of the project each student is required to submit a <em>Project Portfolio Page</em>.</p>
                                           <ul>
@@ -551,7 +552,7 @@ method 2 ...
                                 <ul>
                                   <li>Use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code>master</code> branch against rogue PRs.</li>
                                 </ul>
-                                <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations">
+                                <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
                                     <div>
                                     <ul>
                                       <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -561,7 +562,7 @@ method 2 ...
                                   </div>
                                 </modal>
                               </div>
-                              <modal large title="TextBook <md>:glyphicon-log-in:</md>" id="modal:appErecommendedWorkflow-forkingworkflow">
+                              <modal large title="TextBook <md>:glyphicon-log-in:</md>" id="modal:appErecommendedWorkflow-forkingworkflow" class="algolia-no-index">
                                   <div>
                                   <div></div>
                                   <p></p>
@@ -603,7 +604,7 @@ method 2 ...
                             </div>
                           </modal>
                           <p>
-                            <panel src="/website/admin/appendixE-gitHub._include_.html#workflow" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="workflow"></panel>
+                            <panel src="/website/admin/appendixE-gitHub._include_.html#workflow" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="workflow"></panel>
                           </p>
                         </div>
                       </div>
@@ -630,7 +631,7 @@ method 2 ...
                             </ul>
                           </li>
                         </ul>
-                        <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:mid-v12-photo">
+                        <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:mid-v12-photo" class="algolia-no-index">
                             <div>
                             <ul>
                               <li>
@@ -643,10 +644,10 @@ method 2 ...
                             </ul>
                           </div>
                         </modal>
-                        <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope (extract): roles and responsibilities" id="modal:midv11-rolesAndResponsibilities">
+                        <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope (extract): roles and responsibilities" id="modal:midv11-rolesAndResponsibilities" class="algolia-no-index">
                             <div>
                             <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
-                            <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities">
+                            <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities" class="algolia-no-index">
                               <p>This is a non-exhaustive list; you may define additional roles.</p>
                               <ul>
                                 <li><em>Team lead</em>: Responsible for overall project coordination.</li>
@@ -714,7 +715,7 @@ method 2 ...
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-deliverables._include_.html#notes-for-ab23" header="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="notes-for-ab23"></panel>
+                <panel src="/website/admin/project-deliverables._include_.html#notes-for-ab23" header="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="notes-for-ab23"></panel>
               </p>
             </div>
             <ul>
@@ -726,7 +727,7 @@ method 2 ...
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-workflowAfterV11">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Workflow (after v1.1)</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-workflowAfterV11">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-workflowAfterV11" class="algolia-no-index">
                   <div>
                   <p><strong>After completing v1.1, you can adjust process rigor to suit your team's pace,</strong> as explained below.</p>
                   <ul>
@@ -746,7 +747,7 @@ method 2 ...
                   <ul>
                     <li>Use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code>master</code> branch against rogue PRs.</li>
                   </ul>
-                  <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations">
+                  <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
                       <div>
                       <ul>
                         <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -758,7 +759,7 @@ method 2 ...
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/appendixE-gitHub._include_.html#workflow-after-v11" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding" minimized fragment="workflow-after-v11"></panel>
+                <panel src="/website/admin/appendixE-gitHub._include_.html#workflow-after-v11" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="workflow-after-v11"></panel>
               </p>
             </div>
             <ul>
@@ -775,7 +776,7 @@ method 2 ...
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-issueTrackerSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Setting up the issue tracker</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" id="modal:midv12-issueTrackerSetup">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" id="modal:midv12-issueTrackerSetup" class="algolia-no-index">
                   <div>
                   <h2 id="issue-tracker-setup">Issue tracker setup<a class="fa fa-anchor" href="#issue-tracker-setup"></a></h2>
                   <p>We recommend you configure the issue tracker of the <code>main</code> repo as follows:</p>
@@ -830,7 +831,7 @@ method 2 ...
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/appendixE-gitHub._include_.html#issue-tracker-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="issue-tracker-setup"></panel>
+                <panel src="/website/admin/appendixE-gitHub._include_.html#issue-tracker-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="issue-tracker-setup"></panel>
               </p>
             </div>
             <ul>
@@ -842,7 +843,7 @@ method 2 ...
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-projectScheduleTracking">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Project schedule tracking</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" id="modal:midv12-projectScheduleTracking">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" id="modal:midv12-projectScheduleTracking" class="algolia-no-index">
                   <div>
                   <h2 id="project-schedule-tracking">Project Schedule Tracking<a class="fa fa-anchor" href="#project-schedule-tracking"></a></h2>
                   <p>In general, use the issue tracker (Milestones, Issues, PRs, Tags, Releases, and Labels) for assigning, scheduling, and tracking <em>all</em> noteworthy project tasks, including user stories. Update the issue tracker regularly to reflect the current status of the project. You can also use GitHub's <a href="https://www.youtube.com/watch?v=C6MGKHkNtxU">Projects feature</a> to manage the project, but keep it linked to the issue tracker as much as you can.</p>
@@ -936,7 +937,7 @@ method 2 ...
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/appendixE-gitHub._include_.html#project-schedule-tracking" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" class="embedding" minimized fragment="project-schedule-tracking"></panel>
+                <panel src="/website/admin/appendixE-gitHub._include_.html#project-schedule-tracking" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="project-schedule-tracking"></panel>
               </p>
             </div>
             <div id="product">
@@ -964,7 +965,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 03:12:28 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 08:08:00 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -978,6 +979,21 @@ method 2 ...
   const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 
 </html>

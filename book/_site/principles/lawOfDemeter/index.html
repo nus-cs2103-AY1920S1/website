@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/github.min.css">
   <link rel="stylesheet" href="../../../../markbind/css/markbind.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css">
 
 
@@ -78,12 +79,12 @@
                   </div>
                   <div>
                     <div>
-                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable>
+                      <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Examples for LoD">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Examples for LoD" class="algolia-no-index">
                             <question has-input="true">
                               <p>Explain the Law of Demeter using code examples. You are to make up your own code examples. Take Minesweeper as the basis for your code examples.</p>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>Let us take the <code>Logic</code> class as an example. Assume that it has the following operation.</p>
                                 <p><code>setMinefield(Minefiled mf):void</code></p>
                                 <p>Consider the following that can happen inside this operation.</p>
@@ -98,7 +99,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LoD violation?">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LoD violation?" class="algolia-no-index">
                             <question>
                               <p>This violates Law of Demeter.</p>
                               <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">foo</span><span class="hljs-params">(Bar b)</span> </span>{
@@ -110,7 +111,7 @@
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="3cf8e" type="radio"> True</label></li>
                                 <li class="radio-list-item"><label><input class="radio-list-input" name="3cf8e" type="radio"> False</label></li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>False</p>
                                 <p>Explanation: The line <code>g.doSomething()</code> does not violate LoD because it is OK to invoke methods of objects created within a method.</p>
                               </div>
@@ -118,7 +119,7 @@
                           </panel>
                         </div>
                         <div>
-                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Odd one out">
+                          <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Odd one out" class="algolia-no-index">
                             <question>
                               <p>Pick the odd one out.</p>
                               <ul class="task-list">
@@ -128,7 +129,7 @@
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. Principle of least knowledge.</li>
                                 <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. Coupling.</li>
                               </ul>
-                              <div slot="answer">
+                              <div slot="answer" class="algolia-no-index">
                                 <p>(b)</p>
                                 <p>Explanation: Law of Demeter, which aims to reduce coupling, is also known as ‘Don’t talk to strangers’ and ‘Principle of least knowledge’.</p>
                               </div>
@@ -157,6 +158,21 @@
   const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script>
+  function initAlgolia() {
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {
+        "hitsPerPage": 10
+      },
+      debug: false,
+    });
+  }
+  MarkBind.afterSetup(initAlgolia);
+</script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
 </html>
