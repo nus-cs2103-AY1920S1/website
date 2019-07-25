@@ -438,9 +438,9 @@
     },
     {
       "headings": {
-        "forming-teams": "Forming Teams "
+        "tp-forming-teams": "tP: Forming Teams "
       },
-      "title": "Admin: Forming Teams",
+      "title": "Admin: tP: Forming Teams",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -469,7 +469,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
-      "src": "admin/project-w03-inception.md",
+      "src": "admin/project-w03-kickoff.md",
       "layout": "default"
     },
     {
@@ -481,7 +481,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
-      "src": "admin/project-w04-mid-v10.md",
+      "src": "admin/project-w04-inception.md",
       "layout": "default"
     },
     {
