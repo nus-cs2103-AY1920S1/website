@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2103/T Website - Week 3 - Project</title>
+  <title>CS2103/T Website - Week - </title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -86,20 +87,44 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week2/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week4/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-3-aug-26">Week 3 <small><small><span class="dimmed">[Aug 26]</span></small></small><a class="fa fa-anchor" href="#week-3-aug-26"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week3/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week3/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week2"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week3/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week3/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week3/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week3/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week3/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week4"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-3-aug-26-project">Week 3 <small><small><span class="dimmed">[Aug 26]</span> - Project</small></small><a class="fa fa-anchor" href="#week-3-aug-26-project"></a></h1>
+        <div id="summary" class="lead border-bottom border-left ml-3 mb-3 pl-2" style="color: purple;">
+          <p><strong>iP:</strong></p>
+          <div>
+            <ol>
+              <li>Do as parallel branches: <code>Level-7</code> and <code>Level-8</code></li>
+              <li>Do increments <code>A-MoreOOP</code>, <code>A-Packages</code>, <code>A-JUnit</code>, <code>A-Jar</code></li>
+              <li>Do as parallel branches: <code>A-JavaDoc</code>, <code>A-CodingStandard</code>, <code>Level-9</code></li>
+              <li>Create a PR to the upstream repo</li>
+            </ol>
+          </div>
+          <p><strong>tP:</strong></p>
+          <div>
+            <ol>
+              <li>Set up a project meeting time.</li>
+              <li>Get familiar with AB3 features.</li>
+            </ol>
+          </div>
+        </div>
         <h1 id="ip">iP<a class="fa fa-anchor" href="#ip"></a></h1>
         <div>
           <p>In this week, we try to practice git branching as we do the iP.</p>
-          <p><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Do Level 7 in a branch named <code>branch-level7</code>. Without merging that branch, go back to the <code>master</code> branch and implement Level 8 in a separate branch named <code>branch-level8</code>. Now, go back to the <code>master</code> branch and merge the two branches one after the other. As before, tag the commit (in the <code>master</code> branch, after merging) that achieves the respective deliverable, and push to your fork.</p>
+          <h4 id="1-do-as-parallel-branches-level-7-and-level-8"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Do as parallel branches: <code>Level-7</code> and <code>Level-8</code><a class="fa fa-anchor" href="#1-do-as-parallel-branches-level-7-and-level-8"></a></h4>
+          <p>Do Level 7 in a branch named <code>branch-level7</code>. Without merging that branch, go back to the <code>master</code> branch and implement Level 8 in a separate branch named <code>branch-level8</code>. Now, go back to the <code>master</code> branch and merge the two branches one after the other. As before, tag the commit (in the <code>master</code> branch, after merging) that achieves the respective deliverable, and push to your fork.</p>
           <div>
             <div class="indented">
               <div class="indented border">
@@ -143,7 +168,8 @@ T | 1 | join sports club
             </div>
           </div>
           <p></p>
-          <p><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> As in the previous week, commit, tag, and push, as you do the following increments in the <code>master</code> branch (no need to use separate branches).</p>
+          <h4 id="2-do-increments-a-moreoop-a-packages-a-junit-a-jar"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Do increments <code>A-MoreOOP</code>, <code>A-Packages</code>, <code>A-JUnit</code>, <code>A-Jar</code><a class="fa fa-anchor" href="#2-do-increments-a-moreoop-a-packages-a-junit-a-jar"></a></h4>
+          <p>As in the previous week, commit, tag, and push, as you do the following increments in the <code>master</code> branch (no need to use separate branches).</p>
           <div>
             <div class="indented">
               <div class="indented border">
@@ -282,7 +308,8 @@ T | 1 | join sports club
             </div>
           </div>
           <p></p>
-          <p><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> As in the step 1 above, implement these three increments as three parallel branches first, and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.</p>
+          <h4 id="3-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Do as parallel branches: <code>A-JavaDoc</code>, <code>A-CodingStandard</code>, <code>Level-9</code><a class="fa fa-anchor" href="#3-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9"></a></h4>
+          <p>As in the step 1 above, implement these three increments as three parallel branches first, and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.</p>
           <div>
             <div class="indented">
               <div class="indented border">
@@ -350,7 +377,8 @@ T | 1 | join sports club
             </div>
           </div>
           <p></p>
-          <p><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> Create a pull request (PR) from the <code>master</code> branch of your fork to the upstream repo.</p>
+          <h4 id="4-create-a-pr-to-the-upstream-repo"><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> Create a PR to the upstream repo<a class="fa fa-anchor" href="#4-create-a-pr-to-the-upstream-repo"></a></h4>
+          <p>Create a pull request (PR) from the <code>master</code> branch of your fork to the upstream repo.</p>
           <ul>
             <li>PR name: <code>[Your name] Duke Increments</code> e.g., <code>[John Doe] Duke Increments</code> <span class="dimmed">If you are reluctant to give full name, you may give the first half of your name only</span></li>
           </ul>
@@ -358,28 +386,44 @@ T | 1 | join sports club
         </div>
         <h1 id="tp-milestone-kickoff">tP Milestone: Kickoff<a class="fa fa-anchor" href="#tp-milestone-kickoff"></a></h1>
         <div>
-          <div id="title"></div>
-          <div id="body">
-            <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Set up a project meeting time. Familiarize with AB3</span></span></p>
-            <ul>
-              <li>
-                <p><strong>Set up a weekly project meeting time/venue with your team members</strong></p>
-                <p>We recommend at least one 1-2 hour face-to-face project meeting per week. <span class="dimmed">The project meeting time can be used to discuss project related things, but also, can be used as a time for team members to work on the project tasks individually (having all members in the same place will facilitate easier collaboration and more peer-learning).</span></p>
-              </li>
-              <li>
-                <p><strong>Familiarize yourself with AB3</strong>: Download the latest released version <span class="dimmed">(i.e., the jar file)</span> of AB3 from <a href="https://se-edu.github.io/addressbook-level3/UserGuide.html">its upstream repo</a> and play around with it to familiarize with its current features.</p>
-              </li>
-            </ul>
-          </div>
+          <h4 id="1-set-up-a-project-meeting-time"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Set up a project meeting time.<a class="fa fa-anchor" href="#1-set-up-a-project-meeting-time"></a></h4>
+          <ul>
+            <li>
+              <p><strong>Set up a weekly project meeting time/venue with your team members</strong>:</p>
+              <ul>
+                <li>
+                  <p><strong>We recommend at least one 1-2 hour <mark>face-to-face</mark> project meeting per week</strong>, in addition to any online meetings. <span class="dimmed">Reason: you need to know how to run both types of project meetings</span>. The project meeting time can be used to discuss project related things, but also, can be used as a time for team members to work on the project tasks individually (having all members in the same place will facilitate easier collaboration and more peer-learning).</p>
+                </li>
+                <li>
+                  <p>After the team has been finalized (latest by week 3 tutorial), decide on a 1-2 hour time slot and a venue that all commit to. <strong>All members are expected to honor this commitment</strong> (not doing so could lower the peer evaluation ratings you receive, which in turn will be factored into your grade).<br>
+                    <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> The best time to have the weekly project meeting is, after the previous week's lecture but before the deadline for weekly tasks.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <h4 id="2-get-familiar-with-ab3-features"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Get familiar with AB3 features.<a class="fa fa-anchor" href="#2-get-familiar-with-ab3-features"></a></h4>
+          <ul>
+            <li><strong>Familiarize yourself with AB3</strong>: Download the latest released version <span class="dimmed">(i.e., the jar file)</span> of AB3 from <a href="https://se-edu.github.io/addressbook-level3/UserGuide.html">its upstream repo</a> and play around with it to familiarize with its current features.</li>
+          </ul>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-3-aug-26">Week 3 [Aug 26]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-3-aug-26-project">Week 3 [Aug 26] - Project&#x200E;</a>
             <a class="nav-link py-1" href="#ip">iP&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#1-do-as-parallel-branches-level-7-and-level-8">1 Do as parallel branches: Level-7 and Level-8&#x200E;</a>
+              <a class="nav-link py-1" href="#2-do-increments-a-moreoop-a-packages-a-junit-a-jar">2 Do increments A-MoreOOP, A-Packages, A-JUnit, A-Jar&#x200E;</a>
+              <a class="nav-link py-1" href="#3-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9">3 Do as parallel branches: A-JavaDoc, A-CodingStandard, Level-9&#x200E;</a>
+              <a class="nav-link py-1" href="#4-create-a-pr-to-the-upstream-repo">4 Create a PR to the upstream repo&#x200E;</a>
+            </nav>
             <a class="nav-link py-1" href="#tp-milestone-kickoff">tP Milestone: Kickoff&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#1-set-up-a-project-meeting-time">1 Set up a project meeting time.&#x200E;</a>
+              <a class="nav-link py-1" href="#2-get-familiar-with-ab3-features">2 Get familiar with AB3 features.&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -387,7 +431,7 @@ T | 1 | join sports club
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

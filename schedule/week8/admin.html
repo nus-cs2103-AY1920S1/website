@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2103/T Website - Week 8 - Admin Info</title>
+  <title>CS2103/T Website - Week - </title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -86,131 +87,144 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week7/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week9/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-8-oct-7">Week 8 <small><small><span class="dimmed">[Oct 7]</span></small></small><a class="fa fa-anchor" href="#week-8-oct-7"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week8/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week8/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week8/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week9"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-8-oct-7-admin-info">Week 8 <small><small><span class="dimmed">[Oct 7]</span> - Admin Info</small></small><a class="fa fa-anchor" href="#week-8-oct-7-admin-info"></a></h1>
         <div id="additional"></div>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: mid-v1.2 [week 8] <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <div id="title"></div>
-            <div id="body">
-              <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Start proper milestone management.Start adding a minimal version of the new feature.</span></span></p>
-              <p></p>
-              <p><strong><big>Project Management:</big></strong></p>
-              <box>
-                <p>💡 <strong>You are free to adjust <em>process rigor</em> and <em>project plan</em> at any future time in the project</strong>, starting from v1.2. If you are not sure if a certain adjustment is allowed, you can check with the teaching team first.
-                </p>
-              </box>
-              <p></p>
-              <ul>
-                <li><strong>Switch to AB-3 or AB-2 if AB-4 is not working out for you</strong>.</li>
-              </ul>
-              <div class="indented-level2">
-                <div class="flat">
-                  <div>
-                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-notesForAb23">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+        <h4 id="other-admin-info-you-may-want-to-read-this-week"><span class="badge badge-pill badge-dark p-2"><big><big>+</big></big></span> Other admin info you may want to read this week:<a class="fa fa-anchor" href="#other-admin-info-you-may-want-to-read-this-week"></a></h4>
+        <div class="indented">
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: mid-v1.2 [week 8] <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <div id="title"></div>
+              <div id="body">
+                <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Start proper milestone management. Start adding a minimal version of the new feature.</span></span></p>
+                <p></p>
+                <p><strong><big>Project Management:</big></strong></p>
+                <box>
+                  <p>💡 <strong>You are free to adjust <em>process rigor</em> and <em>project plan</em> at any future time in the project</strong>, starting from v1.2. If you are not sure if a certain adjustment is allowed, you can check with the teaching team first.
+                  </p>
+                </box>
+                <p></p>
+                <ul>
+                  <li><strong>Switch to AB-3 or AB-2 if AB-4 is not working out for you</strong>.</li>
+                </ul>
+                <div class="indented-level2">
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-notesForAb23">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                    </div>
                   </div>
-                </div>
-                <modal large title="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-notesForAb23" class="algolia-no-index">
-                    <div>
-                    <p>There is no explicit penalty for switching to a lower level AB. All projects are evaluated based on the same yardstick irrespective of on which AB it is based. As an AB is given to you as a 'free' head-start, a lower level AB gives you a shorter head-start, which means your final product is likely to be less functional than those from teams using AB-4 unless you progress faster than them. Nevertheless, you should switch to AB2/3 if you feel you can learn more from the project that way, as our goal is to maximize learning, not features.<br>
-                      If your team wants to stay with AB-4 but you want to switch to a lower level AB, let the us know so that we can work something out for you.</p>
-                    <p>If you have opted to use AB-2 or AB-3 instead of AB-4 as the basis of your product, please note the following points:</p>
-                    <ul>
-                      <li>Set up <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation">auto-publishing of documentation similar to AB-4</a></li>
-                      <li>Add Project Portfolio Pages (PPP) for members, similar to the example provided in AB-4</li>
-                      <li>You can convert UG, DG, and PPP into pdf files using <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/DeveloperGuide.html#converting-documentation-to-pdf-format">instructions provided in AB-4 DG</a></li>
-                      <li>Create an <em>About Us</em> page similar to AB-4 and update it as described in <trigger trigger="click" for="modal:deliverables-midv11">mid-v1.1 progress guide</trigger>
-                      </li>
-                    </ul>
-                    <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:deliverables-midv11" class="algolia-no-index">
-                        <div>
-                        <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Set up project repo. Get familiar with the code base. Draft the UG.</span></span></p>
-                        <p></p>
-                        <div id="product">
-                          <p><strong><big>Project Management:</big></strong></p>
-                          <p>Set up the team org and the team repo as explained below:</p>
-                          <div class="indented-level2">
-                            <div class="flat">
-                              <div>
-                                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-orgSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Organization setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-notesForAb23" class="algolia-no-index">
+                      <div>
+                      <p>There is no explicit penalty for switching to a lower level AB. All projects are evaluated based on the same yardstick irrespective of on which AB it is based. As an AB is given to you as a 'free' head-start, a lower level AB gives you a shorter head-start, which means your final product is likely to be less functional than those from teams using AB-4 unless you progress faster than them. Nevertheless, you should switch to AB2/3 if you feel you can learn more from the project that way, as our goal is to maximize learning, not features.<br>
+                        If your team wants to stay with AB-4 but you want to switch to a lower level AB, let the us know so that we can work something out for you.</p>
+                      <p>If you have opted to use AB-2 or AB-3 instead of AB-4 as the basis of your product, please note the following points:</p>
+                      <ul>
+                        <li>Set up <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation">auto-publishing of documentation similar to AB-4</a></li>
+                        <li>Add Project Portfolio Pages (PPP) for members, similar to the example provided in AB-4</li>
+                        <li>You can convert UG, DG, and PPP into pdf files using <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/DeveloperGuide.html#converting-documentation-to-pdf-format">instructions provided in AB-4 DG</a></li>
+                        <li>Create an <em>About Us</em> page similar to AB-4 and update it as described in <trigger trigger="click" for="modal:deliverables-midv11">mid-v1.1 progress guide</trigger>
+                        </li>
+                      </ul>
+                      <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:deliverables-midv11" class="algolia-no-index">
+                          <div>
+                          <h4 id="1-set-up-project-repo"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Set up project repo<a class="fa fa-anchor" href="#1-set-up-project-repo"></a></h4>
+                          <div id="product">
+                            <p><strong><big>Project Management:</big></strong></p>
+                            <ul>
+                              <li>Set up the team org and the team repo as explained below:</li>
+                            </ul>
+                            <div class="indented-level2">
+                              <div class="flat">
+                                <div>
+                                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-orgSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Organization setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                                </div>
                               </div>
+                              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
+                                  <div>
+                                  <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
+                                  <p>
+                                    <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
+                                  </p>
+                                  <p>After receiving your team ID, one team member should do the following steps:</p>
+                                  <ul>
+                                    <li>Create a GitHub organization with the following details:
+                                      <ul>
+                                        <li><mark>Organization name : <code>CS2103-AY1920S1-TEAM_ID</code></mark>. e.g.  <code>CS2103-AY1920S1-W12-1</code></li>
+                                        <li>Plan:  Open Source ($0/month)</li>
+                                      </ul>
+                                    </li>
+                                    <li>Add members to the organization:
+                                      <ul>
+                                        <li>Create a team called <code>developers</code> to your organization.</li>
+                                        <li>Add your team members to the developers team.</li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </modal>
+                              <p>
+                                <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="organization-setup"></panel>
+                              </p>
                             </div>
-                            <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
-                                <div>
-                                <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
-                                <p>
-                                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
-                                </p>
-                                <p>After receiving your team ID, one team member should do the following steps:</p>
-                                <ul>
-                                  <li>Create a GitHub organization with the following details:
-                                    <ul>
-                                      <li><mark>Organization name : <code>CS2103-AY1920S1-TEAM_ID</code></mark>. e.g.  <code>CS2103-AY1920S1-W12-1</code></li>
-                                      <li>Plan:  Open Source ($0/month)</li>
-                                    </ul>
-                                  </li>
-                                  <li>Add members to the organization:
-                                    <ul>
-                                      <li>Create a team called <code>developers</code> to your organization.</li>
-                                      <li>Add your team members to the developers team.</li>
-                                    </ul>
-                                  </li>
-                                </ul>
+                            <div class="indented-level2">
+                              <div class="flat">
+                                <div>
+                                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-repoSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Repo setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                                </div>
                               </div>
-                            </modal>
-                            <p>
-                              <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="organization-setup"></panel>
-                            </p>
-                          </div>
-                          <div class="indented-level2">
-                            <div class="flat">
-                              <div>
-                                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-repoSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Repo setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                              </div>
+                              <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
+                                  <div>
+                                  <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
+                                  <p>Only one team member:</p>
+                                  <ol>
+                                    <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">Address Book Level 4</a> to your team org.</li>
+                                    <li><mark><strong>Rename</strong> the forked repo as <code>main</code></mark>. This repo (let's call it the <em>team repo</em>) is to be used as the repo for your project.</li>
+                                    <li><mark>Ensure the issue tracker of your team repo is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.</span></li>
+                                    <li>Ensure your team members have the desired level of access to your team repo.</li>
+                                    <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci"><strong>Enable Travis CI for the team repo</strong></a>.</li>
+                                    <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation"><strong>Set up <em>auto-publishing</em> of docs</strong></a>. When set up correctly, your project website should be available via the URL <code>https://nus-cs2103-ay1920s1-{team-id}.github.io/main</code> e.g., <code>https://cs2103-ay1920s1-w13-1.github.io/main/</code>. This also requires you to <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages">enable the <em>GitHub Pages</em> feature of your team repo and configure it to serve the website from the <code>gh-pages</code> branch</a>.</li>
+                                    <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">nus-cs2103-AY1920S1/addressbook-level4</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[T09-2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
+                                  </ol>
+                                  <p>All team members:</p>
+                                  <ol>
+                                    <li><strong>Watch</strong>the <code>main</code> repo (created above) i.e., go to the repo and click on the <code>watch</code> button to subscribe to activities of the repo</li>
+                                    <li><strong>Fork</strong> the <code>main</code> repo to your personal GitHub account.</li>
+                                    <li><strong>Clone</strong> the fork to your Computer.</li>
+                                    <li>Recommended: Set it up as an Intellij project (follow the instructions in the Developer Guide carefully).</li>
+                                    <li><strong>Set up the developer environment</strong> in your computer. You are recommended to use JDK 9 for AB-4 as some of the libraries used in AB-4 have not updated to support Java 10 yet. <mark>JDK 9 can be downloaded from the <a href="https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java Archive</a>.</mark></li>
+                                  </ol>
+                                  <p>Note that some of our download scripts depend on the following folder paths. Please do not alter those paths in your project.</p>
+                                  <ul>
+                                    <li><code>/src/main</code></li>
+                                    <li><code>/src/test</code></li>
+                                    <li><code>/docs</code></li>
+                                  </ul>
+                                </div>
+                              </modal>
+                              <p>
+                                <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="repo-setup"></panel>
+                              </p>
                             </div>
-                            <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
-                                <div>
-                                <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
-                                <p>Only one team member:</p>
-                                <ol>
-                                  <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">Address Book Level 4</a> to your team org.</li>
-                                  <li><mark><strong>Rename</strong> the forked repo as <code>main</code></mark>. This repo (let's call it the <em>team repo</em>) is to be used as the repo for your project.</li>
-                                  <li><mark>Ensure the issue tracker of your team repo is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.</span></li>
-                                  <li>Ensure your team members have the desired level of access to your team repo.</li>
-                                  <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci"><strong>Enable Travis CI for the team repo</strong></a>.</li>
-                                  <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation"><strong>Set up <em>auto-publishing</em> of docs</strong></a>. When set up correctly, your project website should be available via the URL <code>https://nus-cs2103-ay1920s1-{team-id}.github.io/main</code> e.g., <code>https://cs2103-ay1920s1-w13-1.github.io/main/</code>. This also requires you to <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages">enable the <em>GitHub Pages</em> feature of your team repo and configure it to serve the website from the <code>gh-pages</code> branch</a>.</li>
-                                  <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">nus-cs2103-AY1920S1/addressbook-level4</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[T09-2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
-                                </ol>
-                                <p>All team members:</p>
-                                <ol>
-                                  <li><strong>Watch</strong>the <code>main</code> repo (created above) i.e., go to the repo and click on the <code>watch</code> button to subscribe to activities of the repo</li>
-                                  <li><strong>Fork</strong> the <code>main</code> repo to your personal GitHub account.</li>
-                                  <li><strong>Clone</strong> the fork to your Computer.</li>
-                                  <li>Recommended: Set it up as an Intellij project (follow the instructions in the Developer Guide carefully).</li>
-                                  <li><strong>Set up the developer environment</strong> in your computer. You are recommended to use JDK 9 for AB-4 as some of the libraries used in AB-4 have not updated to support Java 10 yet. <mark>JDK 9 can be downloaded from the <a href="https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java Archive</a>.</mark></li>
-                                </ol>
-                                <p>Note that some of our download scripts depend on the following folder paths. Please do not alter those paths in your project.</p>
-                                <ul>
-                                  <li><code>/src/main</code></li>
-                                  <li><code>/src/test</code></li>
-                                  <li><code>/docs</code></li>
-                                </ul>
-                              </div>
-                            </modal>
-                            <p>
-                              <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="repo-setup"></panel>
-                            </p>
                           </div>
-                          <p>When updating code in the repo, follow the workflow explained below:</p>
+                          <h4 id="2-get-familiar-with-the-code-base"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Get familiar with the code base<a class="fa fa-anchor" href="#2-get-familiar-with-the-code-base"></a></h4>
+                          <ul>
+                            <li>Do the provided tutorials to get familiar with the codebase</li>
+                            <li>When updating code in the repo, follow the workflow explained below:</li>
+                          </ul>
                           <div class="indented-level2">
                             <div class="flat">
                               <div>
@@ -554,7 +568,7 @@ method 2 ...
                                   <ul>
                                     <li>Use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code>master</code> branch against rogue PRs.</li>
                                   </ul>
-                                  <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
+                                  <modal title="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
                                       <div>
                                       <ul>
                                         <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -609,397 +623,315 @@ method 2 ...
                               <panel src="/website/admin/appendixE-gitHub._include_.html#workflow" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="workflow"></panel>
                             </p>
                           </div>
-                        </div>
-                        <div id="documentation">
-                          <p><strong><big>Documentation:</big></strong></p>
-                          <tip-box>
-                            <p><strong>Recommended procedure for updating docs</strong>:</p>
-                            <ol>
-                              <li>Divide among yourselves who will update which parts of the document(s).</li>
-                              <li>Update the team repo by following the workflow mentioned above.</li>
-                            </ol>
-                          </tip-box>
-                          <div class="indented">
-                            <p>Update the following pages in your project repo:</p>
-                          </div>
-                          <ul>
-                            <li><strong><em>About Us</em> page</strong>:
-                              This page is used for module admin purposes. <mark>Please follow the format closely</mark> or else our scripts will not be able to give credit for your work.
-                              <ul>
-                                <li>Replace info of SE-EDU developers with info of your team, including a <mark>suitable photo</mark> as described <trigger trigger="click" for="modal:mid-v12-photo">here</trigger>.</li>
-                                <li>Including the name/photo of the supervisor/lecturer is optional.</li>
-                                <li>The photo of a team member should be <code>doc/images/githbub_username_in_lower_case.png</code> <span class="dimmed">e.g. <code>docs/images/damithc.png</code></span>. <mark>If you photo is in jpg format, name the file as <code>.png</code> anyway</mark>.</li>
-                                <li>Indicate the different roles played and responsibilities held by each team member. You can reassign these <trigger trigger="click" for="modal:midv11-rolesAndResponsibilities">roles and responsibilities <span class="dimmed">(as explained in Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope)</span></trigger> later in the project, if necessary.</li>
-                              </ul>
-                            </li>
-                          </ul>
-                          <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:mid-v12-photo" class="algolia-no-index">
-                              <div>
-                              <ul>
-                                <li>
-                                  <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
-                                    <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
-                                </li>
-                                <li>
-                                  <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
-                                </li>
-                              </ul>
-                            </div>
-                          </modal>
-                          <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope (extract): roles and responsibilities" id="modal:midv11-rolesAndResponsibilities" class="algolia-no-index">
-                              <div>
-                              <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
-                              <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities" class="algolia-no-index">
-                                <p>This is a non-exhaustive list; you may define additional roles.</p>
-                                <ul>
-                                  <li><em>Team lead</em>: Responsible for overall project coordination.</li>
-                                  <li><em>Documentation</em> (short for ‘in charge of documentation’): Responsible for the quality of various project documents.</li>
-                                  <li><em>Testing</em>: Ensures the testing of the project is done properly and on time.</li>
-                                  <li><em>Code quality</em>: Looks after code quality, ensures adherence to coding standards, etc.</li>
-                                  <li><em>Deliverables and deadlines</em>: Ensure project deliverables are done on time and in the right format.</li>
-                                  <li><em>Integration</em>: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li>
-                                  <li><em>Scheduling and tracking</em>: In charge of defining, assigning, and tracking project tasks.</li>
-                                  <li><em>[Tool ABC] expert</em>: <span class="dimmed">e.g. Intellij expert, Git expert, etc.</span> Helps other team member with matters related to the specific tool.</li>
-                                  <li><em>In charge of[Component XYZ]</em>: <span class="dimmed">e.g. In charge of <code>Model</code>, <code>UI</code>, <code>Storage</code>, etc.</span> If you are in charge of a component, you are expected to know that component well, and review changes done to that component in v1.3-v1.4.</li>
-                                </ul>
-                              </panel>
-                              <p></p>
-                              <p>Please make sure each of the important roles are assigned to one person in the team. It is OK to have a 'backup' for each role, but <strong>for each aspect there should be one person who is unequivocally the person responsible for it</strong>.</p>
-                            </div>
-                          </modal>
+                          <h4 id="3-draft-the-ug"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Draft the UG<a class="fa fa-anchor" href="#3-draft-the-ug"></a></h4>
                           <ul>
                             <li>
-                              <p><strong><em>Contact Us</em> Page</strong>: Update to match your product.</p>
-                            </li>
-                            <li>
-                              <p><strong>README.adoc</strong> page: Update it to match your project.</p>
+                              <p><strong>User Guide</strong>:
+                                Draft a user guide in a convenient medium (e.g., a GoogleDoc) to describe what the product would be like when it is at v2.0.</p>
                               <ul>
-                                <li>
-                                  <p>Add a UI mockup of your intended final product.<br>
-                                    Note that the <mark>image of the UI should be <code>docs/images/Ui.png</code></mark> so that it can be downloaded by our scripts. Limit the file to contain one screenshot/mockup only and ensure the new image is roughly the same <code>height x width</code> proportions as the original one. <span class="dimmed">Reason: when we compile these images from all teams into one page (<a href="https://nus-cs2103-ay1819s1.github.io/cs2103-website/admin/projectList.html">example</a>), yours should not look out of place.</span></p>
-                                </li>
-                                <li>
-                                  <p>The original <code>README.adoc</code> file (which doubles as the landing page of your project website) is written to read like the introduction to an SE learning/teaching resource. You should <mark>restructure this page to look like the home page of a real product</mark> (not a school project) targeting real users <span class="dimmed"> e.g. remove references to addressbook-level3, Learning Outcomes etc. mention target users, add a marketing blurb etc.</span> On a related note, also remove <code>Learning Outcomes</code> link and related pages.</p>
-                                </li>
-                                <li>
-                                  <p>Update the link of the Travis <em>build status badge</em> (<img src="https://travis-ci.org/se-edu/addressbook-level4.svg?branch=master" alt="Build Status">) so that it reflects the build status of your team repo.<br>
-                                    For the other badges,</p>
-                                  <ul>
-                                    <li>either set up the respective tool for your project (AB-4 Developer Guide has instructions on how to set up AppVeyor and Coveralls) and update the badges accordingly,</li>
-                                    <li>or remove the badge.</li>
-                                  </ul>
-                                </li>
-                                <li>
-                                  <p>Acknowledge the original source of the code i.e. AddressBook-Level4 project created by SE-EDU initiative at <code>https://github.com/se-edu/</code></p>
-                                </li>
+                                <li>We recommend that you follow the existing <a href="https://nus-CS2103-ay1920s1.github.io/addressbook-level3/UserGuide.html">AB3 User Guide</a> in terms of structure and format.</li>
+                                <li>As this is a very rough draft and the final version will be in a different format altogether <span class="dimmed">(i.e., in asciidoc format)</span>, don't waste time in formatting, copy editing etc. It is fine as long as the tutor can get a rough idea of the features from this draft. You can also do just the 'Features' section and omit the other parts.</li>
+                                <li>Do try to come up with concrete command syntax for feature that you would implement (at least for those that you will implement by v1.4).</li>
+                                <li>Consider including some UI mock-ups too <span class="dimmed">(they can be hand-drawn or created using a tool such as PowerPoint, PlantUML or <a href="https://balsamiq.com/">Balsamiq</a>)</span>.<br><br></li>
                               </ul>
-                            </li>
-                            <li>
-                              <p><strong>User Guide</strong>: Start moving the content from your User Guide (draft created in previous weeks) into the User Guide page in your repository. If a feature is not implemented, mark it as 'Coming in v2.0' (<a href="https://se-edu.github.io/addressbook-level4/UserGuide.html#encrypting-data-files-code-coming-in-v2-0-code">example</a>).</p>
-                            </li>
-                            <li>
-                              <p><strong>Developer Guide</strong>: Similar to the User Guide, start moving the content from your Developer Guide (draft created in previous weeks) into the Developer Guide page in your team repository.</p>
-                            </li>
-                          </ul>
-                          <p><strong><big>Product:</big></strong></p>
-                          <ul>
-                            <li>
-                              <p>Each member can attempt to do a <tooltip content="a change impacting only one component">local-impact</tooltip> change to the code base.</p>
-                              <p><strong>Objective</strong>: To familiarize yourself with at least one <tooltip content="components as stated in the [Developer Guide: Architecture]">components</tooltip> of the product.</p>
-                              <p><strong>Description</strong>: Divide the components among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the <a href="https://nus-cs2103-AY1920S1.github.io/addressbook-level4/DeveloperGuide.html#improving-each-component">AddressBook-Level4 developer guide</a>.</p>
-                              <p><strong>Submission</strong>: Create PRs from your own fork to your team repo. Get it merged by following your team's workflow.</p>
+                              <tip-box>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is highly recommended that you <strong>divide documentation work (in the User Guide and the Developer Guide) among team members based on enhancements/features each person would be adding</strong> <span class="dimmed"> e.g., If you are the person planing to add a feature X, you should be the person to describe the feature X in the User Guide and in the Developer Guide</span>. For features that are not planned to be implemented by v1.4, you can divide them based on who will be implementing them <em>if</em> the project were to continue until v2.0 (hypothetically).</p>
+                                <p><span class="dimmed">Reason: In the final project evaluation your documentation skills will be graded based on sections of the User/Developer Guide you have written.</span></p>
+                              </tip-box>
                             </li>
                           </ul>
                         </div>
-                        <p></p>
-                      </div>
-                    </modal>
-                  </div>
-                </modal>
-                <p>
-                  <panel src="/website/admin/project-deliverables._include_.html#notes-for-ab23" header="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="notes-for-ab23"></panel>
-                </p>
-              </div>
-              <ul>
-                <li><strong>Adjust process rigor to suit your team's pace</strong>, as explained in the panel below.</li>
-              </ul>
-              <div class="indented-level2">
-                <div class="flat">
-                  <div>
-                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-workflowAfterV11">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Workflow (after v1.1)</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                  </div>
+                      </modal>
+                    </div>
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/project-deliverables._include_.html#notes-for-ab23" header="Admin <md>:glyphicon-log-in:</md> Project Deliverables → Notes for Those Using AB-2 or AB-3 for the Project  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="notes-for-ab23"></panel>
+                  </p>
                 </div>
-                <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-workflowAfterV11" class="algolia-no-index">
-                    <div>
-                    <p><strong>After completing v1.1, you can adjust process rigor to suit your team's pace,</strong> as explained below.</p>
-                    <ul>
-                      <li>
-                        <p><strong>Reduce automated tests</strong> have benefits, but they can be a pain to write/maintain; GUI tests are especially hard to maintain because their behavior can sometimes depend on things such as the OS, resolution etc.<br>
-                          It is OK to get rid of some of the troublesome tests and rely more on manual testing instead. The less automated tests you have, the higher the risk of regressions; but it may be an acceptable trade-off under the circumstances if tests are slowing you down too much.<br>
-                          There is no direct penalty for removing GUI tests. Also note <trigger trigger="click" for="modal:appEworkflow-testingExpectations">our expectation on test code</trigger>.</p>
-                      </li>
-                      <li>
-                        <p><strong>Reduce automated checks</strong>: You can also reduce the rigor of checkstyle checks to expedite PR processing.</p>
-                      </li>
-                      <li>
-                        <p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest, it is also rather heavy. You an switch to a simpler workflow if the forking workflow is slowing you down. Refer the textbook to find more about alternative workflows: <em>branching workflow</em>, <em>centralized workflow</em>. However, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p>
-                      </li>
-                    </ul>
-                    <p><strong>You can also increase the rigor/safety of your workflow</strong> in the following ways:</p>
-                    <ul>
-                      <li>Use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code>master</code> branch against rogue PRs.</li>
-                    </ul>
-                    <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
-                        <div>
-                        <ul>
-                          <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
-                          <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
-                          <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
-                        </ul>
-                      </div>
-                    </modal>
-                  </div>
-                </modal>
-                <p>
-                  <panel src="/website/admin/appendixE-gitHub._include_.html#workflow-after-v11" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="workflow-after-v11"></panel>
-                </p>
-              </div>
-              <ul>
-                <li>
-                  <p><strong>Adjust project plan if necessary</strong>. Now that you have a some idea about the code base, revisit the feature release plan and adjust it if necessary.</p>
-                </li>
-                <li>
-                  <p><strong>Set up the issue tracker</strong> as described in the panel below, if you haven't done so already.</p>
-                </li>
-              </ul>
-              <div class="indented-level2">
-                <div class="flat">
-                  <div>
-                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-issueTrackerSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Setting up the issue tracker</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                  </div>
-                </div>
-                <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" id="modal:midv12-issueTrackerSetup" class="algolia-no-index">
-                    <div>
-                    <h2 id="issue-tracker-setup">Issue tracker setup<a class="fa fa-anchor" href="#issue-tracker-setup"></a></h2>
-                    <p>We recommend you configure the issue tracker of the <code>main</code> repo as follows:</p>
-                    <ul>
-                      <li>Delete existing labels and add the following labels.<br>
-                        💡 <strong>Issue type</strong> labels are useful from the beginning of the project. The other labels are needed only when you start implementing the features.</li>
-                    </ul>
-                    <tip-box>
-                      <p><strong>Issue type</strong> labels:</p>
-                      <ul>
-                        <li><code>type.Epic</code> : A big feature which can be broken down into smaller stories e.g. search</li>
-                        <li><code>type.Story</code> : A user story</li>
-                        <li><code>type.Enhancement</code>: An enhancement to an existing story</li>
-                        <li><code>type.Task</code> : Something that needs to be done, but not a story, bug, or an epic. e.g. Move testing code into a new folder)</li>
-                        <li><code>type.Bug</code> : A bug</li>
-                      </ul>
-                    </tip-box>
-                    <tip-box>
-                      <p><strong>Status</strong> labels:</p>
-                      <ul>
-                        <li><code>status.Ongoing</code> : The issue is currently being worked on. note: remove this label before closing an issue.
-                        </li>
-                      </ul>
-                    </tip-box>
-
-                    <tip-box>
-                      <p><strong>Priority</strong> labels:</p>
-                      <ul>
-                        <li><code>priority.High</code> : Must do</li>
-                        <li><code>priority.Medium</code> : Nice to have</li>
-                        <li><code>priority.Low</code> : Unlikely to do</li>
-                      </ul>
-                    </tip-box>
-                    <span id="bug-severity">
-                      <tip-box>
-                        <p><strong>Bug Severity</strong> labels:</p>
-                        <ul>
-                          <li><code>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
-                          <li><code>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
-                          <li><code>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li>
-                        </ul>
-                      </tip-box>
-                    </span>
-                    <ul>
-                      <li>
-                        <p>Create following milestones : <code>v1.0</code>, <code>v1.1</code>, <code>v1.2</code>, <code>v1.3</code>, <code>v1.4</code>,</p>
-                      </li>
-                      <li>
-                        <p>You may configure other project settings as you wish. e.g. more labels, more milestones</p>
-                      </li>
-                    </ul>
-                  </div>
-                </modal>
-                <p>
-                  <panel src="/website/admin/appendixE-gitHub._include_.html#issue-tracker-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="issue-tracker-setup"></panel>
-                </p>
-              </div>
-              <ul>
-                <li><strong>Start proper schedule tracking and milestone management</strong> as explained in the panel below.</li>
-              </ul>
-              <div class="indented-level2">
-                <div class="flat">
-                  <div>
-                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-projectScheduleTracking">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Project schedule tracking</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                  </div>
-                </div>
-                <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" id="modal:midv12-projectScheduleTracking" class="algolia-no-index">
-                    <div>
-                    <h2 id="project-schedule-tracking">Project Schedule Tracking<a class="fa fa-anchor" href="#project-schedule-tracking"></a></h2>
-                    <p>In general, use the issue tracker (Milestones, Issues, PRs, Tags, Releases, and Labels) for assigning, scheduling, and tracking <em>all</em> noteworthy project tasks, including user stories. Update the issue tracker regularly to reflect the current status of the project. You can also use GitHub's <a href="https://www.youtube.com/watch?v=C6MGKHkNtxU">Projects feature</a> to manage the project, but keep it linked to the issue tracker as much as you can.</p>
-                    <h3 id="using-issues">Using Issues:<a class="fa fa-anchor" href="#using-issues"></a></h3>
-                    <p><big><strong>During the initial stages</strong></big> (latest by the start of v1.2):</p>
-                    <ul>
-                      <li>
-                        <p><strong>Record each of the user stories you plan to deliver as an issue in the issue tracker.</strong>
-                          <span class="dimmed">e.g.</span> <code>Title: As a user I can add a deadline</code><br>
-                          <code>Description: ... so that I can keep track of my deadlines</code></p>
-                      </li>
-                      <li>
-                        <p><strong>Assign the <code>type.*</code> and <code>priority.*</code> labels to those issues.</strong></p>
-                      </li>
-                      <li>
-                        <p><strong>Formalize the project plan</strong> by assigning relevant issues to the corresponding milestone.</p>
-                      </li>
-                    </ul>
-                    <p><big><strong>From milestone v1.2:</strong></big></p>
-                    <ul>
-                      <li>
-                        <p><strong>Define project tasks as issues</strong>. When you start implementing a user story (or a feature), break it down to smaller tasks if necessary. Define reasonable sized, standalone tasks. <mark>Create issues for each</mark> of those tasks so that they can be tracked.<span class="dimmed">e.g.</span></p>
-                        <ul>
-                          <li>
-                            <p>A typical task should be able to done by one person, in a few hours.</p>
-                            <ul>
-                              <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad (reasons: not a one-person task, not small enough): <code>Write the Developer Guide</code></span></li>
-                              <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good: <code>Update class diagram in the Developer Guide for v1.4</code></span></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <p>There is no need to break things into VERY small tasks. Keep them as big as possible, but they should be no bigger than what you are going to assign a single person to do within a week. <span class="dimmed">eg.,</span></p>
-                            <ul>
-                              <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad:<code>Implementing parser</code> (reason: too big).</span></li>
-                              <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good:<code>Implementing parser support for adding of floating tasks</code></span></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <p>Do not track things taken for granted. <span class="dimmed">e.g., <code>push code to repo</code> should not be a task to track. In the example given under the previous point, it is taken for granted that the owner will also (a) test the code and (b) push to the repo when it is ready. Those two need not be tracked as separate tasks.</span></p>
-                          </li>
-                          <li>
-                            <p>Write a descriptive title for the issue. <span class="dimmed">e.g. <code>Add support for the 'undo' command to the parser</code></span></p>
-                            <ul>
-                              <li>Omit redundant details. In some cases, the issue title is enough to describe the task. In that case, no need to repeat it in the issue description. There is no need for well-crafted and detailed descriptions for tasks. A minimal description is enough. Similarly, labels such as <code>priority</code> can be omitted if you think they don't help you.<br><br></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <p><strong>Assign tasks (i.e., issues) to the corresponding team members using the <code>assignees</code> field.</strong> <mark>Normally, there should be some ongoing tasks and some pending tasks against each team member at any point</mark>.</p>
-                      </li>
-                      <li>
-                        <p>Optionally, you can use <code>status.ongoing</code> label to indicate issues currently ongoing.</p>
-                      </li>
-                    </ul>
-                    <div id="using-milestones">
-                      <h3 id="using-milestones">Using Milestones:<a class="fa fa-anchor" href="#using-milestones"></a></h3>
-                      <p>We recommend you do proper milestone management starting from v1.2. <mark>Given below are the conditions to satisfy for a milestone to be considered properly managed</mark>:</p>
-                      <p><strong>Planning a Milestone</strong>:<br></p>
-                      <ul>
-                        <li>
-                          <p><strong>Issues assigned to the milestone, team members assigned to issues</strong>: Used <a href="https://help.github.com/articles/about-milestones/">GitHub milestones</a> to indicate which issues are to be handled for which milestone by assigning issues to suitable milestones. Also make sure those issues are assigned to team members. <span class="dimmed">Note that you can change the milestone plan along the way as necessary.</span></p>
-                        </li>
-                        <li>
-                          <p><strong>Deadline set for the milestones</strong> (in the GitHub milestone). <span class="dimmed">Your internal milestones can be set earlier than the deadlines we have set, to give you a buffer.</span></p>
-                        </li>
-                      </ul>
-                      <p><strong>Wrapping up a Milestone</strong>:<br></p>
-                      <ul>
-                        <li>
-                          <p><strong>A working product tagged</strong> with the correct tag (e.g. <code>v1.2</code>) and is pushed to the main repo<br>
-                            or a <strong>product <em>release</em> done on GitHub</strong>. A product release is optional for v1.2 but required from from v1.3. Click <a href="https://github.com/se-edu/addressbook-level4/releases/">here</a> to see an example release.</p>
-                        </li>
-                        <li>
-                          <p><strong>All tests passing</strong> on Travis for the version tagged/released.</p>
-                        </li>
-                        <li>
-                          <p><strong>Milestone updated to match the product</strong> i.e. all issues completed and PRs merged for the milestone should be assigned to the milestone. Incomplete issues/PRs should be moved to a future milestone.<br>
-                            <img src="/website/admin/images/assigningIssuesToMilestones.png" width="700"></p>
-                        </li>
-                        <li>
-                          <p><strong>Milestone closed.</strong><br>
-                            <img src="/website/admin/images/closingMilestones.png" width="700"></p>
-                        </li>
-                        <li>
-                          <p><strong>If necessary, future milestones are revised</strong> based on what you experienced in the current milestone <span class="dimmed"> e.g. if you could not finish all issues assigned to the current milestone, it is a sign that you overestimated how much you can do in a week, which means you might want to reduce the issues assigned to future milestones to match that observation</span>.</p>
-                        </li>
-                      </ul>
-                      <p></p>
+                <ul>
+                  <li><strong>Adjust process rigor to suit your team's pace</strong>, as explained in the panel below.</li>
+                </ul>
+                <div class="indented-level2">
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-workflowAfterV11">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Workflow (after v1.1)</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                     </div>
                   </div>
-                </modal>
-                <p>
-                  <panel src="/website/admin/appendixE-gitHub._include_.html#project-schedule-tracking" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="project-schedule-tracking"></panel>
-                </p>
-              </div>
-              <div id="product">
-                <p><strong><big>Product:</big></strong></p>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv12-workflowAfterV11" class="algolia-no-index">
+                      <div>
+                      <p><strong>After completing v1.1, you can adjust process rigor to suit your team's pace,</strong> as explained below.</p>
+                      <ul>
+                        <li>
+                          <p><strong>Reduce automated tests</strong> have benefits, but they can be a pain to write/maintain; GUI tests are especially hard to maintain because their behavior can sometimes depend on things such as the OS, resolution etc.<br>
+                            It is OK to get rid of some of the troublesome tests and rely more on manual testing instead. The less automated tests you have, the higher the risk of regressions; but it may be an acceptable trade-off under the circumstances if tests are slowing you down too much.<br>
+                            There is no direct penalty for removing GUI tests. Also note <trigger trigger="click" for="modal:appEworkflow-testingExpectations">our expectation on test code</trigger>.</p>
+                        </li>
+                        <li>
+                          <p><strong>Reduce automated checks</strong>: You can also reduce the rigor of checkstyle checks to expedite PR processing.</p>
+                        </li>
+                        <li>
+                          <p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest, it is also rather heavy. You an switch to a simpler workflow if the forking workflow is slowing you down. Refer the textbook to find more about alternative workflows: <em>branching workflow</em>, <em>centralized workflow</em>. However, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p>
+                        </li>
+                      </ul>
+                      <p><strong>You can also increase the rigor/safety of your workflow</strong> in the following ways:</p>
+                      <ul>
+                        <li>Use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code>master</code> branch against rogue PRs.</li>
+                      </ul>
+                      <modal title="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
+                          <div>
+                          <ul>
+                            <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
+                            <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
+                            <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
+                          </ul>
+                        </div>
+                      </modal>
+                    </div>
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/appendixE-gitHub._include_.html#workflow-after-v11" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow (after v1.1)**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="workflow-after-v11"></panel>
+                  </p>
+                </div>
                 <ul>
-                  <li><strong>From v1.2 onwards each member is expected to contribute <tooltip content="the amount of code does not matter; even small contributions are acceptable">some</tooltip> code to each <tooltip content="v1.3, v1.4"> milestone</tooltip>, preferably each week; only merged code is considered as contributions</strong> <span class="dimmed">
-                      <popover content="The ability to deliver code incrementally is an important learning outcome of this module because incremental delivery improves the _visibility_ of your work.">(Reason)</popover>
-                    </span>. <br>
-                    If an enhancement is too big to complete in one milestone, try to deliver it in smaller incremental steps e.g. deliver a basic version of the enhancement first.</li>
+                  <li>
+                    <p><strong>Adjust project plan if necessary</strong>. Now that you have a some idea about the code base, revisit the feature release plan and adjust it if necessary.</p>
+                  </li>
+                  <li>
+                    <p><strong>Set up the issue tracker</strong> as described in the panel below, if you haven't done so already.</p>
+                  </li>
                 </ul>
+                <div class="indented-level2">
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-issueTrackerSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Setting up the issue tracker</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                    </div>
+                  </div>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" id="modal:midv12-issueTrackerSetup" class="algolia-no-index">
+                      <div>
+                      <h2 id="issue-tracker-setup">Issue tracker setup<a class="fa fa-anchor" href="#issue-tracker-setup"></a></h2>
+                      <p>We recommend you configure the issue tracker of the <code>main</code> repo as follows:</p>
+                      <ul>
+                        <li>Delete existing labels and add the following labels.<br>
+                          💡 <strong>Issue type</strong> labels are useful from the beginning of the project. The other labels are needed only when you start implementing the features.</li>
+                      </ul>
+                      <tip-box>
+                        <p><strong>Issue type</strong> labels:</p>
+                        <ul>
+                          <li><code>type.Epic</code> : A big feature which can be broken down into smaller stories e.g. search</li>
+                          <li><code>type.Story</code> : A user story</li>
+                          <li><code>type.Enhancement</code>: An enhancement to an existing story</li>
+                          <li><code>type.Task</code> : Something that needs to be done, but not a story, bug, or an epic. e.g. Move testing code into a new folder)</li>
+                          <li><code>type.Bug</code> : A bug</li>
+                        </ul>
+                      </tip-box>
+                      <tip-box>
+                        <p><strong>Status</strong> labels:</p>
+                        <ul>
+                          <li><code>status.Ongoing</code> : The issue is currently being worked on. note: remove this label before closing an issue.
+                          </li>
+                        </ul>
+                      </tip-box>
+
+                      <tip-box>
+                        <p><strong>Priority</strong> labels:</p>
+                        <ul>
+                          <li><code>priority.High</code> : Must do</li>
+                          <li><code>priority.Medium</code> : Nice to have</li>
+                          <li><code>priority.Low</code> : Unlikely to do</li>
+                        </ul>
+                      </tip-box>
+                      <span id="bug-severity">
+                        <tip-box>
+                          <p><strong>Bug Severity</strong> labels:</p>
+                          <ul>
+                            <li><code>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
+                            <li><code>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
+                            <li><code>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li>
+                          </ul>
+                        </tip-box>
+                      </span>
+                      <ul>
+                        <li>
+                          <p>Create following milestones : <code>v1.0</code>, <code>v1.1</code>, <code>v1.2</code>, <code>v1.3</code>, <code>v1.4</code>,</p>
+                        </li>
+                        <li>
+                          <p>You may configure other project settings as you wish. e.g. more labels, more milestones</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/appendixE-gitHub._include_.html#issue-tracker-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Setting up the issue tracker**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="issue-tracker-setup"></panel>
+                  </p>
+                </div>
+                <ul>
+                  <li><strong>Start proper schedule tracking and milestone management</strong> as explained in the panel below.</li>
+                </ul>
+                <div class="indented-level2">
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv12-projectScheduleTracking">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Project schedule tracking</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                    </div>
+                  </div>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" id="modal:midv12-projectScheduleTracking" class="algolia-no-index">
+                      <div>
+                      <h2 id="project-schedule-tracking">Project Schedule Tracking<a class="fa fa-anchor" href="#project-schedule-tracking"></a></h2>
+                      <p>In general, use the issue tracker (Milestones, Issues, PRs, Tags, Releases, and Labels) for assigning, scheduling, and tracking <em>all</em> noteworthy project tasks, including user stories. Update the issue tracker regularly to reflect the current status of the project. You can also use GitHub's <a href="https://www.youtube.com/watch?v=C6MGKHkNtxU">Projects feature</a> to manage the project, but keep it linked to the issue tracker as much as you can.</p>
+                      <h3 id="using-issues">Using Issues:<a class="fa fa-anchor" href="#using-issues"></a></h3>
+                      <p><big><strong>During the initial stages</strong></big> (latest by the start of v1.2):</p>
+                      <ul>
+                        <li>
+                          <p><strong>Record each of the user stories you plan to deliver as an issue in the issue tracker.</strong>
+                            <span class="dimmed">e.g.</span> <code>Title: As a user I can add a deadline</code><br>
+                            <code>Description: ... so that I can keep track of my deadlines</code></p>
+                        </li>
+                        <li>
+                          <p><strong>Assign the <code>type.*</code> and <code>priority.*</code> labels to those issues.</strong></p>
+                        </li>
+                        <li>
+                          <p><strong>Formalize the project plan</strong> by assigning relevant issues to the corresponding milestone.</p>
+                        </li>
+                      </ul>
+                      <p><big><strong>From milestone v1.2:</strong></big></p>
+                      <ul>
+                        <li>
+                          <p><strong>Define project tasks as issues</strong>. When you start implementing a user story (or a feature), break it down to smaller tasks if necessary. Define reasonable sized, standalone tasks. <mark>Create issues for each</mark> of those tasks so that they can be tracked.<span class="dimmed">e.g.</span></p>
+                          <ul>
+                            <li>
+                              <p>A typical task should be able to done by one person, in a few hours.</p>
+                              <ul>
+                                <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad (reasons: not a one-person task, not small enough): <code>Write the Developer Guide</code></span></li>
+                                <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good: <code>Update class diagram in the Developer Guide for v1.4</code></span></li>
+                              </ul>
+                            </li>
+                            <li>
+                              <p>There is no need to break things into VERY small tasks. Keep them as big as possible, but they should be no bigger than what you are going to assign a single person to do within a week. <span class="dimmed">eg.,</span></p>
+                              <ul>
+                                <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad:<code>Implementing parser</code> (reason: too big).</span></li>
+                                <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good:<code>Implementing parser support for adding of floating tasks</code></span></li>
+                              </ul>
+                            </li>
+                            <li>
+                              <p>Do not track things taken for granted. <span class="dimmed">e.g., <code>push code to repo</code> should not be a task to track. In the example given under the previous point, it is taken for granted that the owner will also (a) test the code and (b) push to the repo when it is ready. Those two need not be tracked as separate tasks.</span></p>
+                            </li>
+                            <li>
+                              <p>Write a descriptive title for the issue. <span class="dimmed">e.g. <code>Add support for the 'undo' command to the parser</code></span></p>
+                              <ul>
+                                <li>Omit redundant details. In some cases, the issue title is enough to describe the task. In that case, no need to repeat it in the issue description. There is no need for well-crafted and detailed descriptions for tasks. A minimal description is enough. Similarly, labels such as <code>priority</code> can be omitted if you think they don't help you.<br><br></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <p><strong>Assign tasks (i.e., issues) to the corresponding team members using the <code>assignees</code> field.</strong> <mark>Normally, there should be some ongoing tasks and some pending tasks against each team member at any point</mark>.</p>
+                        </li>
+                        <li>
+                          <p>Optionally, you can use <code>status.ongoing</code> label to indicate issues currently ongoing.</p>
+                        </li>
+                      </ul>
+                      <div id="using-milestones">
+                        <h3 id="using-milestones">Using Milestones:<a class="fa fa-anchor" href="#using-milestones"></a></h3>
+                        <p>We recommend you do proper milestone management starting from v1.2. <mark>Given below are the conditions to satisfy for a milestone to be considered properly managed</mark>:</p>
+                        <p><strong>Planning a Milestone</strong>:<br></p>
+                        <ul>
+                          <li>
+                            <p><strong>Issues assigned to the milestone, team members assigned to issues</strong>: Used <a href="https://help.github.com/articles/about-milestones/">GitHub milestones</a> to indicate which issues are to be handled for which milestone by assigning issues to suitable milestones. Also make sure those issues are assigned to team members. <span class="dimmed">Note that you can change the milestone plan along the way as necessary.</span></p>
+                          </li>
+                          <li>
+                            <p><strong>Deadline set for the milestones</strong> (in the GitHub milestone). <span class="dimmed">Your internal milestones can be set earlier than the deadlines we have set, to give you a buffer.</span></p>
+                          </li>
+                        </ul>
+                        <p><strong>Wrapping up a Milestone</strong>:<br></p>
+                        <ul>
+                          <li>
+                            <p><strong>A working product tagged</strong> with the correct tag (e.g. <code>v1.2</code>) and is pushed to the main repo<br>
+                              or a <strong>product <em>release</em> done on GitHub</strong>. A product release is optional for v1.2 but required from from v1.3. Click <a href="https://github.com/se-edu/addressbook-level4/releases/">here</a> to see an example release.</p>
+                          </li>
+                          <li>
+                            <p><strong>All tests passing</strong> on Travis for the version tagged/released.</p>
+                          </li>
+                          <li>
+                            <p><strong>Milestone updated to match the product</strong> i.e. all issues completed and PRs merged for the milestone should be assigned to the milestone. Incomplete issues/PRs should be moved to a future milestone.<br>
+                              <img src="/website/admin/images/assigningIssuesToMilestones.png" width="700"></p>
+                          </li>
+                          <li>
+                            <p><strong>Milestone closed.</strong><br>
+                              <img src="/website/admin/images/closingMilestones.png" width="700"></p>
+                          </li>
+                          <li>
+                            <p><strong>If necessary, future milestones are revised</strong> based on what you experienced in the current milestone <span class="dimmed"> e.g. if you could not finish all issues assigned to the current milestone, it is a sign that you overestimated how much you can do in a week, which means you might want to reduce the issues assigned to future milestones to match that observation</span>.</p>
+                          </li>
+                        </ul>
+                        <p></p>
+                      </div>
+                    </div>
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/appendixE-gitHub._include_.html#project-schedule-tracking" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Project schedule tracking**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="project-schedule-tracking"></panel>
+                  </p>
+                </div>
+                <div id="product">
+                  <p><strong><big>Product:</big></strong></p>
+                  <ul>
+                    <li><strong>From v1.2 onwards each member is expected to contribute <tooltip content="the amount of code does not matter; even small contributions are acceptable">some</tooltip> code to each <tooltip content="v1.3, v1.4"> milestone</tooltip>, preferably each week; only merged code is considered as contributions</strong> <span class="dimmed">
+                        <popover content="The ability to deliver code incrementally is an important learning outcome of this module because incremental delivery improves the _visibility_ of your work.">(Reason)</popover>
+                      </span>. <br>
+                      If an enhancement is too big to complete in one milestone, try to deliver it in smaller incremental steps e.g. deliver a basic version of the enhancement first.</li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why aren't we allowed to build a new product from scratch? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="why-aren-t-we-allowed-to-build-a-new-product-from-scratch">Why aren't we allowed to build a new product from scratch? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-aren-t-we-allowed-to-build-a-new-product-from-scratch"></a></h3>
-            <div class="indented">
-              <div>
-                <p>There are many reasons. One of them is that most of you will be working with existing software in your first few years of the career while hardly any school projects train you to work with existing code bases. We decided to bite the bullet and use CS2103/T to train you to work in existing code bases.</p>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why aren't we allowed to build a new product from scratch? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="why-aren-t-we-allowed-to-build-a-new-product-from-scratch">Why aren't we allowed to build a new product from scratch? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-aren-t-we-allowed-to-build-a-new-product-from-scratch"></a></h3>
+              <div class="indented">
+                <div>
+                  <p>There are many reasons. One of them is that most of you will be working with existing software in your first few years of the career while hardly any school projects train you to work with existing code bases. We decided to bite the bullet and use CS2103/T to train you to work in existing code bases.</p>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why so many submissions? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="why-so-many-submissions">Why so many submissions? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-so-many-submissions"></a></h3>
-            <div class="indented">
-              <div>
-                <img src="/website/admin/images/frequent submissions.png" width="759" height="359">
-                <p>The high number of submissions is not meant to increase workload but to spread it across the semester. Learning theory and applying them should be done in parallel to maximize the learning effect. That can happen only if we spread theory and 'application of theory' (i.e., project work) evenly across the semester.</p>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why so many submissions? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="why-so-many-submissions">Why so many submissions? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-so-many-submissions"></a></h3>
+              <div class="indented">
+                <div>
+                  <img src="/website/admin/images/frequent submissions.png" width="759" height="359">
+                  <p>The high number of submissions is not meant to increase workload but to spread it across the semester. Learning theory and applying them should be done in parallel to maximize the learning effect. That can happen only if we spread theory and 'application of theory' (i.e., project work) evenly across the semester.</p>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why submission requirements differ between CS2103/T and CS2101? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="why-submission-requirements-differ-between-cs2103-t-and-cs2101">Why submission requirements differ between CS2103/T and CS2101? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-submission-requirements-differ-between-cs2103-t-and-cs2101"></a></h3>
-            <div class="indented">
-              <div>
-                <img src="/website/admin/images/Submission requirements differ.png" width="300">
-                <p>They do, and they should.</p>
-                <p>CS2103T communication requirements are limited to a very narrow scope (i.e., communicate about the product to users and developers). CS2101 aims to teach you technical communication in a much wider context. While you may be able to reuse some of the stuff across the two modules, submissions are not intended to be exactly the same.</p>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why submission requirements differ between CS2103/T and CS2101? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="why-submission-requirements-differ-between-cs2103-t-and-cs2101">Why submission requirements differ between CS2103/T and CS2101? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-submission-requirements-differ-between-cs2103-t-and-cs2101"></a></h3>
+              <div class="indented">
+                <div>
+                  <img src="/website/admin/images/Submission requirements differ.png" width="300">
+                  <p>They do, and they should.</p>
+                  <p>CS2103T communication requirements are limited to a very narrow scope (i.e., communicate about the product to users and developers). CS2101 aims to teach you technical communication in a much wider context. While you may be able to reuse some of the stuff across the two modules, submissions are not intended to be exactly the same.</p>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
+          </panel>
+          <p></p>
+        </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-8-oct-7">Week 8 [Oct 7]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-8-oct-7-admin-info">Week 8 [Oct 7] - Admin Info&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#other-admin-info-you-may-want-to-read-this-week">+ Other admin info you may want to read this week:&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -1007,7 +939,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

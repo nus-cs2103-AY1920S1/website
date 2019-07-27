@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -92,141 +93,257 @@
 
             <div>
               <div>
-                <p><span style="float:right"><span><a href="/website/schedule/week2/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-                <h1 id="week-1-aug-12">Week 1 <small><small><span class="dimmed">[Aug 12]</span></small></small><a class="fa fa-anchor" href="#week-1-aug-12"></a></h1>
-                <ul class="nav nav-tabs">
-                  <li class="nav-item"><a class="nav-link active" href="/website/schedule/week1/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/website/schedule/week1/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/website/schedule/week1/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/website/schedule/week1/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
-                  <li class="nav-item"><a class="nav-link" href="/website/schedule/week1/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
-                </ul>
+                <nav>
+                  <ul class="pagination mt-2">
+                    <li class="page-item disabled"><a class="page-link" href="/website/schedule/week0"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+                    <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+                    <li class="page-item active"><a class="page-link" href="/website/schedule/week1/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+                    <li class="page-item"><a class="page-link" href="/website/schedule/week1/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+                    <li class="page-item"><a class="page-link" href="/website/schedule/week1/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+                    <li class="page-item"><a class="page-link" href="/website/schedule/week1/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+                    <li class="page-item"><a class="page-link" href="/website/schedule/week1/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+                    <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+                    <li class="page-item"><a class="page-link" href="/website/schedule/week2"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+                  </ul>
+                </nav>
                 <p></p>
-                <h5 id="before-the-lecture"><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the lecture</span></span><a class="fa fa-anchor" href="#before-the-lecture"></a></h5>
-                <ul>
-                  <li>
-                    <p><strong>Read prerequisite topics</strong> allocated for week 1. <strong>Submit week 1 quiz</strong> to test your knowledge of those topics. The quiz link will be emailed to you by Monday.</p>
-                  </li>
-                  <li>
-                    <p><strong>Set up the tools</strong>: Follow the 'Preparation' instructions of the following tools.</p>
-                  </li>
-                </ul>
-                <div class="indented-level3">
-                  <div class="flat">
-                    <div>
-                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools - IDE</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                    </div>
-                  </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - IDE**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                      <div>
-                      <h4 id="tool-used-intellij-ide">Tool Used: Intellij IDE<a class="fa fa-anchor" href="#tool-used-intellij-ide"></a></h4>
-                      <p>You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk.</p>
-                      <p><strong>Preparation:</strong></p>
-                      <ul>
-                        <li>Install the IDE in your Computer. You may use the Intellij community edition (free) or the ultimate edition (free for students).</li>
-                      </ul>
-                    </div>
-                  </modal>
-                  <p>
-                    <panel src="/website/admin/tools._include_.html#ide" header="Admin <md>:glyphicon-log-in:</md> **Tools - IDE**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="ide"></panel>
+                <h1 id="week-1-aug-12-summary">Week 1 <small><small><span class="dimmed">[Aug 12]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-1-aug-12-summary"></a></h1>
+                <box type="info" dismissible>
+                  <p>A summary of the week, and announcements relevant to that week, will appear in this tab.
                   </p>
-                  <div class="flat">
-                    <div>
-                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools - RCS</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                    </div>
-                  </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - RCS**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                      <div>
-                      <h4 id="tool-used-git-for-revision-control">Tool Used: Git (for Revision Control)<a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a></h4>
-                      <p>You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed. The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a>, but you may use any other, or none.</p>
-                      <p><strong>Preparation:</strong></p>
-                      <ul>
-                        <li>Install Git and a Git GUI client on your Computer.<br>
-                          <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</li>
-                      </ul>
-                    </div>
-                  </modal>
-                  <p>
-                    <panel src="/website/admin/tools._include_.html#rcs" header="Admin <md>:glyphicon-log-in:</md> **Tools - RCS**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="rcs"></panel>
-                  </p>
-                  <div class="flat">
-                    <div>
-                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools - GitHub</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                    </div>
-                  </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - GitHub**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                      <div>
-                      <h4 id="tool-used-github-for-code-hosting">Tool Used: GitHub (for Code Hosting)<a class="fa fa-anchor" href="#tool-used-github-for-code-hosting"></a></h4>
-                      <p>You are <mark><em>required to</em> use GitHub</mark> as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.).</p>
-                      <p><strong>Preparation</strong>: Create a GitHub account (if you don't have one yet), as explained in the panel below.</p>
-                      <div class="flat">
-                        <div>
-                          <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                        </div>
+                </box>
+                <span id="summary">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm border-right border-bottom">
+                        <ul>
+                          <li>
+                            <p>[<a href="/website/schedule/week1/topics.html#W1-1">W1.1</a>] <strong>OOP: Classes &amp; Objects</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
+                          </li>
+                          <li>
+                            <p>[<a href="/website/schedule/week1/topics.html#W1-2">W1.2</a>] <strong>OOP Inheritance</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
+                          </li>
+                          <li>
+                            <p>[<a href="/website/schedule/week1/topics.html#W1-3">W1.3</a>] <strong>OOP: Polymorphism</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
+                          </li>
+                        </ul>
+                        <p></p>
+                        <ul>
+                          <li>
+                            <p>[<a href="/website/schedule/week1/topics.html#W1-4">W1.4</a>] <strong>Java: Collections</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
+                          </li>
+                          <li>
+                            <p>[<a href="/website/schedule/week1/topics.html#W1-5">W1.5</a>] <strong>Exception Handling</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
+                          </li>
+                        </ul>
+                        <p></p>
+                        <panel type="seamless" header="%%Full ToC%%" class="algolia-no-index">
+                          <div>
+                            <ul>
+                              <li>[<a href="/website/schedule/week1/topics.html#W1-1">W1.1</a>] <strong>OOP: Classes &amp; Objects</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
+                            </ul>
+                            <div class="indented-level2">
+                              <small>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1a">W1.1a</a>] <span>Paradigms → OOP → Introduction →
+                                        </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1b">W1.1b</a>] <span>Paradigms → OOP → Objects →
+                                        </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1c">W1.1c</a>] <span>Paradigms → OOP → Classes →
+                                        </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1d">W1.1d</a>] <span>Paradigms → OOP → Objects →
+                                        </span></span> <span>Objects as Abstractions</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1e">W1.1e</a>] <span>Paradigms → OOP → Objects →
+                                        </span></span> <span>Encapsulation of Objects</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1f">W1.1f</a>] <span>C++ to Java → Classes →
+                                        </span></span> <span>Defining Classes</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1g">W1.1g</a>] <span>C++ to Java → Classes →
+                                        </span></span> <span>Getters and setters</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1h">W1.1h</a>] <span>Paradigms → OOP → Classes →
+                                        </span></span> <span>Class-Level Members</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1i">W1.1i</a>] <span>C++ to Java → Classes →
+                                        </span></span> <span>Class-Level Members</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1j">W1.1j</a>] <span>Paradigms → OOP → Classes →
+                                        </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-1k">W1.1k</a>] <span>C++ to Java → Miscellaneous Topics →
+                                        </span></span> <span>Enumerations</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                              </small></div>
+                            <ul>
+                              <li>[<a href="/website/schedule/week1/topics.html#W1-2">W1.2</a>] <strong>OOP Inheritance</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
+                            </ul>
+                            <div class="indented-level2">
+                              <small>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-2a">W1.2a</a>] <span>Paradigms → OOP → Inheritance →
+                                        </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-2b">W1.2b</a>] <span>Paradigms → OOP → Inheritance →
+                                        </span></span> <span>Overloading</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-2c">W1.2c</a>] <span>Paradigms → OOP → Inheritance →
+                                        </span></span> <span>Overriding</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-2d">W1.2d</a>] <span>C++ to Java → Inheritance →
+                                        </span></span> <span>Inheritance (Basics)</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                              </small></div>
+                            <ul>
+                              <li>[<a href="/website/schedule/week1/topics.html#W1-3">W1.3</a>] <strong>OOP: Polymorphism</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
+                            </ul>
+                            <div class="indented-level2">
+                              <small>
+                                <p>   <strong>Polymorphism</strong></p>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3a">W1.3a</a>] <span>Paradigms → OOP → Polymorphism →
+                                        </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3b">W1.3b</a>] <span>C++ to Java → Inheritance →
+                                        </span></span> <span>Polymorphism</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                                <p>   <strong>Abstract Classes</strong></p>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3c">W1.3c</a>] <span>Paradigms → OOP → Inheritance →
+                                        </span></span> <span>Abstract Classes and Methods</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3d">W1.3d</a>] <span>C++ to Java → Inheritance →
+                                        </span></span> <span>Abstract Classes and Methods</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                                <p>   <strong>Interfaces</strong></p>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3e">W1.3e</a>] <span>Paradigms → OOP → Inheritance →
+                                        </span></span> <span>Interfaces</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3f">W1.3f</a>] <span>C++ to Java → Inheritance →
+                                        </span></span> <span>Interfaces</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                                <p>   <strong>How Polymorphism Works</strong></p>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3g">W1.3g</a>] <span>Paradigms → OOP → Inheritance →
+                                        </span></span> <span>Substitutability</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3h">W1.3h</a>] <span>Paradigms → OOP → Inheritance →
+                                        </span></span> <span>Dynamic and Static Binding</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-3i">W1.3i</a>] <span>Paradigms → OOP → Polymorphism →
+                                        </span></span> <span>How</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                              </small></div>
+                            <p></p>
+                            <ul>
+                              <li>[<a href="/website/schedule/week1/topics.html#W1-4">W1.4</a>] <strong>Java: Collections</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
+                            </ul>
+                            <div class="indented-level2">
+                              <small>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-4a">W1.4a</a>] <span>C++ to Java → Collections →
+                                        </span></span> <span>The Collections Framework</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-4b">W1.4b</a>] <span>C++ to Java → Collections →
+                                        </span></span> <span>The <code>ArrayList</code> Class</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-4c">W1.4c</a>] <span>C++ to Java → Collections →
+                                        </span></span> <span>The <code>HashMap</code> Class</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                              </small></div>
+                            <ul>
+                              <li>[<a href="/website/schedule/week1/topics.html#W1-5">W1.5</a>] <strong>Exception Handling</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
+                            </ul>
+                            <div class="indented-level2">
+                              <small>
+                                <ul>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-5a">W1.5a</a>] <span>Implementation → Error Handling → Introduction →
+                                        </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-5b">W1.5b</a>] <span>Implementation → Error Handling → Exceptions →
+                                        </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-5c">W1.5c</a>] <span>C++ to Java → Exceptions →
+                                        </span></span> <span>What are Exceptions?</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-5d">W1.5d</a>] <span>Implementation → Error Handling → Exceptions →
+                                        </span></span> <span>How</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-5e">W1.5e</a>] <span>C++ to Java → Exceptions →
+                                        </span></span> <span>How to Use Exceptions</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                  <li>
+                                    <p><span class="dimmed">[<a href="/website/schedule/week1/topics.md#W1-5f">W1.5f</a>] <span>Implementation → Error Handling → Exceptions →
+                                        </span></span> <span>When</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                                  </li>
+                                </ul>
+                              </small></div>
+                            <p></p>
+                          </div>
+                        </panel>
                       </div>
-                      <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                          <div>
-                          <p>Create a personal GitHub account if you don't have one yet.</p>
+                      <div class="col-sm border-bottom">
+                        <p><strong>Admin:</strong></p>
+                        <div>
                           <ol>
-                            <li>
-                              <p>You are advised to choose a sensible GitHub username as you are likely to use it for years to come in professional contexts.</p>
-                            </li>
-                            <li>
-                              <p>Strongly recommended: Complete your GitHub profile. In particular,</p>
-                              <ul>
-                                <li>Specify your full name.</li>
-                                <li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
-                              </ul>
-                              <panel type="seamless" header="%%Why am I being asked to complete my GitHub profile?%%" class="algolia-no-index">
-                                <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p>
-                              </panel>
-                            </li>
-                            <li>
-                              <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p>
-                            </li>
+                            <li>Submit pre-lecture quiz <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the lecture</span></span></li>
+                            <li>Set up the tools <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the lecture</span></span></li>
+                            <li>Attend the lecture</li>
+                            <li>Submit the pre-module survey <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Friday 2359</span></span></li>
+                            <li>Learn how to use the module website</li>
+                            <li>Learn about the module</li>
                           </ol>
-                          <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria" class="algolia-no-index">
-                              <div>
-                              <ul>
-                                <li>
-                                  <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
-                                    <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
-                                </li>
-                                <li>
-                                  <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
-                                </li>
-                              </ul>
-                            </div>
-                          </modal>
                         </div>
-                      </modal>
-                      <p>
-                        <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="githubAccount"></panel>
-                      </p>
-                      <p><strong>More info</strong>: See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a>.</p>
+                        <div></div>
+                      </div>
                     </div>
-                  </modal>
-                  <p>
-                    <panel src="/website/admin/tools._include_.html#github" header="Admin <md>:glyphicon-log-in:</md> **Tools - GitHub**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="github"></panel>
-                  </p>
-                </div>
-                <h5 id="friday-afternoon"><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Friday afternoon</span></span><a class="fa fa-anchor" href="#friday-afternoon"></a></h5>
-                <ul>
-                  <li>Attend the Week 1 lecture (Week 1 lecture is <mark><strong>compulsory</strong></mark>).
-                    <ul>
-                      <li>Bring your Computer to the lecture. Some lecture activities will require you to use it.</li>
-                    </ul>
-                  </li>
-                </ul>
-                <h5 id="by-friday-2359"><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Friday 2359</span></span><a class="fa fa-anchor" href="#by-friday-2359"></a></h5>
-                <ul>
-                  <li><strong>Submit the pre-module survey <mark>(compulsory)</mark></strong><br>
-                    <em>Pre-Module Survey</em> will be available on LumiNUS <strong>Week 1 Monday - Friday 2359</strong>. <span class="dimmed">We need all of you to submit it because it tells us some important information about you, especially your GitHub username.</span></li>
-                </ul>
-                <h5 id="within-the-week"><span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> within the week</span></span><a class="fa fa-anchor" href="#within-the-week"></a></h5>
-                <ul>
-                  <li><strong>See the</strong> <a href="/website/schedule/week1/admin.html"><span class="border border-bottom-0 rounded-top"> <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info </span></a> <strong>tab (above)</strong> for some important admin info you need to know at the start of the semester.</li>
-                </ul>
+                  </div>
+                </span>
+                <br>
               </div>
             </div>
           </div>
@@ -236,7 +353,7 @@
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-1-aug-12">Week 1 [Aug 12]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-1-aug-12-summary">Week 1 [Aug 12] - Summary&#x200E;</a>
 
           </nav>
         </div>
@@ -244,7 +361,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -131,8 +132,8 @@
                   <li class="mt-2"><small><a href="/website/admin/project-constraints.html" class="site-nav__a">tP: Constraints</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-teams.html" class="site-nav__a">tP: Forming Teams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-timeline.html" class="site-nav__a">tP: Timeline</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w03-kickoff.html" class="site-nav__a">tP: inception [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w04-inception.html" class="site-nav__a">tP: mid-v1.0 [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w03-kickoff.html" class="site-nav__a">tP: Kickoff [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w04-inception.html" class="site-nav__a">tP: Inception [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w05-v10.html" class="site-nav__a">tP: v1.0 [week 5]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w06-mid-v11.html" class="site-nav__a">tP: mid-v1.1 [week 6]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w07-v11.html" class="site-nav__a">tP: v1.1 [week 7]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -143,7 +144,7 @@
                   <li class="mt-2"><small><a href="/website/admin/project-w12-mid-v14.html" class="site-nav__a">tP: mid-v1.4 [week 12]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w13-v14.html" class="site-nav__a">tP: v1.4 [week 13]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-deliverables.html" class="site-nav__a">tP: Deliverables</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-assessment.html" class="site-nav__a">tP: Assessment</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-grading.html" class="site-nav__a">tP: Grading</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-supervision.html" class="site-nav__a">tP: Supervision</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
@@ -184,9 +185,16 @@
             </div>
           </p>
           <div id="main">
-            <div id="title"></div>
+            <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple">
+              <ol>
+                <li>Set up prerequisites</li>
+                <li>Set up the project in your Computer</li>
+                <li>Implement increments while committing code frequently: <code>Level-1</code>, <code>Level-2</code>, <code>Level-3</code>, <code>Level-4</code>, <code>A-TextUiTesting</code>, <code>Level-5</code>, <code>Level-6</code>, <code>A-Enums</code> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Thursday 2359</span></span></li>
+              </ol>
+            </div>
             <div id="body">
-              <p><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <strong>Ensure you have met the following prerequisites:</strong></p>
+              <h4 id="1-set-up-prerequisites"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Set up prerequisites<a class="fa fa-anchor" href="#1-set-up-prerequisites"></a></h4>
+              <p><strong>Ensure you have met the following prerequisites:</strong></p>
               <box>
                 <p><strong>Prerequisites</strong>:</p>
                 <ul>
@@ -239,11 +247,11 @@
                               <div>
                               <ul>
                                 <li>
-                                  <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
+                                  <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
                                     <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
                                 </li>
                                 <li>
-                                  <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
+                                  <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you may omit the photo from module-related documents that are publicly visible.</p>
                                 </li>
                               </ul>
                             </div>
@@ -462,12 +470,13 @@ method 2 ...
                 </p>
               </box>
               <br>
-              <p><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <strong>Set up the project in your Computer:</strong></p>
+              <h4 id="2-set-up-the-project-in-your-computer"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Set up the project in your Computer<a class="fa fa-anchor" href="#2-set-up-the-project-in-your-computer"></a></h4>
               <ol>
                 <li>Fork [this repo: TBD], and clone it into your Computer.</li>
                 <li>Set up the project in your IDE as explained in the README file.</li>
               </ol>
-              <p><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <strong>Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip></strong> in the given order.</p>
+              <h4 id="3-implement-increments-while-committing-code-frequently"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Implement increments while committing code frequently<a class="fa fa-anchor" href="#3-implement-increments-while-committing-code-frequently"></a></h4>
+              <p>Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> in the given order.</p>
               <ul>
                 <li>Commit code at important points. <mark>Minimally, commit after completing each increment</mark>.</li>
                 <li>After completing each increment,
@@ -887,7 +896,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

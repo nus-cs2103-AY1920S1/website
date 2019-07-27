@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2103/T Website - Week 4 - Notices</title>
+  <title>CS2103/T Website - Week - </title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -87,48 +88,228 @@
     <div id="flex-body">
       <div id="content-wrapper">
         <div>
-          <p><span style="float:left"><span><a href="/website/schedule/week3/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week5/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-          <h1 id="week-4-sep-2">Week 4 <small><small><span class="dimmed">[Sep 2]</span></small></small><a class="fa fa-anchor" href="#week-4-sep-2"></a></h1>
-          <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week4/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
-          </ul>
+          <nav>
+            <ul class="pagination mt-2">
+              <li class="page-item"><a class="page-link" href="/website/schedule/week3"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item active"><a class="page-link" href="/website/schedule/week4/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week4/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week4/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week4/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week4/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week5"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+            </ul>
+          </nav>
           <p></p>
-          <ul>
-            <li>
-              <p><strong>Quiz results will be posted</strong> in the forum. Participation marks for lecture participation (based on quiz participation) will be posted on IVLE gradebook soon. If you have any queries/objections about your marks, please write to the module email <code>cs2103@comp.nus.edu.sg</code>.</p>
-            </li>
-            <li>
-              <p>We will be adding you all to cs2103-AY1920S1 github org. <strong>Please accept the invitation sent by GitHub</strong> as you need to be a member of the org for some of the future module activities. If you did not receive the invitation link, you can use the link <a href="https://github.com/orgs/nus-cs2103-AY1920S1/invitation">https://github.com/orgs/nus-cs2103-AY1920S1/invitation</a>.</p>
-            </li>
-            <li>
-              <p>Get started on the project (i.e., defining your project direction and requirements). <strong>Try to do at least step 1 of <a href="https://nus-cs2103-AY1920S1.github.io/website/admin/project-w04-inception.html">mid-v1.0 project milestone</a></strong> before coming to the tutorial this week, and try to finish the remainder by the end of this week.</p>
-            </li>
-            <li>
-              <p>A heads up: <strong>next week is going to be HEAVY</strong> 😨 as it has two graded tasks -- both require significant team efforts and a substantial time period to complete. We urge you all to <strong>make full use of this week to prepare yourself for that challenge</strong>. In particular,</p>
-              <ul>
-                <li>Try to reach <a href="https://nus-cs2103-AY1920S1.github.io/website/admin/project-w04-inception.html">mid-v1.0</a> fully by the end of this week i.e., complete all 3 steps.</li>
-                <li>If you are not familiar with Git and GitHub, complete this week's topics related to Git and GitHub. Next week's topics need that knowledge.</li>
-                <li>If you are not familiar with JUnit, try to do the PR for <strong><code>W4.11e</code></strong>. Tutors will review the PRs over the weekend and will give you feedback before next week.</li>
-              </ul>
-            </li>
-            <li>
-              <p><strong>A practice peer evaluation/feedback session</strong> will be set up on TEAMMATES. You should receive the submission link by Thursday noon. This session is for you get get used to the system and also to get to know the evaluation criteria. This round of peer evaluations are not used for grading. Email <code>cs2103@comp.nus.edu.sg</code> if you did not receive the submission link on time.</p>
-            </li>
-            <li>
-              <p><strong>One part of this week's lecture is not covered in the textbook</strong> and is relevant for your project work for the upcoming project milestone v1.0. You are encouraged to attend this week's lecture even if you don't normally come to lectures.</p>
-            </li>
-          </ul>
+          <h1 id="week-4-sep-2-summary">Week 4 <small><small><span class="dimmed">[Sep 2]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-4-sep-2-summary"></a></h1>
+          <span id="summary">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm border-right border-bottom">
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week4/topics.html#W4-1">W4.1</a>] <strong>Design: Models</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week4/topics.html#W4-2">W4.2</a>] <strong>Class/Ojbect Diagrams: Basics</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week4/topics.html#W4-3">W4.3</a>] <strong>Class Diagrams: Intermediate-Level</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week4/topics.html#W4-4">W4.4</a>] <strong>Java: JavaFX</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week4/topics.html#W4-5">W4.5</a>] <strong>Java: varargs</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>[<a href="/website/schedule/week4/topics.html#W4-6">W4.6</a>] <strong>RCS: Managing Pull Requests</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week4/topics.html#W4-7">W4.7</a>] <strong>Code reviews</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week4/topics.html#W4-8">W4.8</a>] <strong>Static Analysis</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <panel type="seamless" header="%%Full ToC%%" class="algolia-no-index">
+                    <div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-1">W4.1</a>] <strong>Design: Models</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-1a">W4.1a</a>] <span>Design → Modelling → Introduction →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-1b">W4.1b</a>] <span>Design → Modelling → Introduction →
+                                  </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-1c">W4.1c</a>] <span>Design → Modelling → Introduction →
+                                  </span></span> <span>UML Models</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-2">W4.2</a>] <strong>Class/Ojbect Diagrams: Basics</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-2a">W4.2a</a>] <span>Design → Modelling → Modelling Structure →
+                                  </span></span> <span>OO Structures</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-2b">W4.2b</a>] <span>Design → Modelling → Modelling Structure →
+                                  </span></span> <span>Class Diagrams (Basics)</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-2c">W4.2c</a>] <span>Design → Modelling → Modelling Structure →
+                                  </span></span> <span>Object Diagrams</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-2d">W4.2d</a>] <span>Tools → UML →
+                                  </span></span> <span>Object vs Class Diagrams</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-3">W4.3</a>] <strong>Class Diagrams: Intermediate-Level</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-3a">W4.3a</a>] <span>Tools → UML →
+                                  </span></span> <span>Notes</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-3b">W4.3b</a>] <span>Tools → UML →
+                                  </span></span> <span>Constraints</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-3c">W4.3c</a>] <span>Tools → UML → Class Diagrams →
+                                  </span></span> <span>Associations as Attributes</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-3d">W4.3d</a>] <span>Design → Modelling → Modelling Structure →
+                                  </span></span> <span>Class Diagrams - Intermediate</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-3e">W4.3e</a>] <span>Paradigms → OOP → Associations →
+                                  </span></span> <span>Association Classes</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-4">W4.4</a>] <strong>Java: JavaFX</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-4a">W4.4a</a>] <span>Tools → Java →
+                                </span></span> <span>JavaFX: Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-5">W4.5</a>] <strong>Java: varargs</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-5a">W4.5a</a>] <span>Tools → Java →
+                                </span></span> <span>Varargs</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-6">W4.6</a>] <strong>RCS: Managing Pull Requests</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-6a">W4.6a</a>] <span>Tools → Git and GitHub →
+                                </span></span> <span>Manage PRs</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-7">W4.7</a>] <strong>Code reviews</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-7a">W4.7a</a>] <span>Quality Assurance → Quality Assurance → Code Reviews →
+                                </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week4/topics.html#W4-8">W4.8</a>] <strong>Static Analysis</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week4/topics.md#W4-8a">W4.8a</a>] <span>Quality Assurance → Quality Assurance → Static Analysis →
+                                </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                    </div>
+                  </panel>
+                </div>
+                <div class="col-sm border-bottom">
+                  <p><strong>Admin:</strong></p>
+                  <div>
+                    <ol>
+                      <li>Accept GitHub invitation from the module organization</li>
+                      <li>Practice peer evaluation on TEAMMATES</li>
+                    </ol>
+                  </div>
+                  <div>
+                    <p><strong>iP:</strong></p>
+                    <div>
+                      <ol>
+                        <li>Review some peer PRs</li>
+                        <li>Add increments: <code>A-Gradle</code>,<code>A-CheckStyle</code>, <code>Level-10</code>, <code>A-Varargs</code></li>
+                        <li>Add another extension</li>
+                      </ol>
+                    </div>
+                    <p><strong>tP:</strong></p>
+                    <div>
+                      <ol>
+                        <li>Start weekly project meetings</li>
+                        <li>Decide on a overall project direction <span class="dimmed">(user profile, problem addressed).</span></li>
+                        <li>Start a collaborative doc to take project notes</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+          <br>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-4-sep-2">Week 4 [Sep 2]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-4-sep-2-summary">Week 4 [Sep 2] - Summary&#x200E;</a>
 
           </nav>
         </div>
@@ -136,7 +317,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

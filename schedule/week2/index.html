@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2103/T Website - Week 2 - Notices</title>
+  <title>CS2103/T Website - Week - </title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -87,66 +88,218 @@
     <div id="flex-body">
       <div id="content-wrapper">
         <div>
-          <p><span style="float:left"><span><a href="/website/schedule/week1/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week3/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-          <h1 id="week-2-aug-19">Week 2 <small><small><span class="dimmed">[Aug 19]</span></small></small><a class="fa fa-anchor" href="#week-2-aug-19"></a></h1>
-          <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="/website/schedule/week2/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week2/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week2/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week2/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/schedule/week2/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
-          </ul>
+          <nav>
+            <ul class="pagination mt-2">
+              <li class="page-item"><a class="page-link" href="/website/schedule/week1"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item active"><a class="page-link" href="/website/schedule/week2/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week2/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week2/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week2/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week2/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+              <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+              <li class="page-item"><a class="page-link" href="/website/schedule/week3"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+            </ul>
+          </nav>
           <p></p>
-          <h5 id="by-thursday-2359"><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Thursday 2359</span></span><a class="fa fa-anchor" href="#by-thursday-2359"></a></h5>
-          <ul>
-            <li>
-              <p><strong>Read weekly topics</strong> allocated for this week. <strong>Submit the post-lecture quiz</strong> to test your knowledge of those topics. The quiz link will be emailed to you on the previous week's Friday.</p>
-            </li>
-            <li>
-              <p><strong>Individual Project(iP)</strong>: <strong>Complete the eight iP increments</strong> allocated for this week. See the <a href="/website/schedule/week2/project.html"><span class="border border-bottom-0 rounded-top"> <span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project </span></a> tab for more info.</p>
-            </li>
-          </ul>
-          <h5 id="sometime-this-week"><span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> sometime this week</span></span><a class="fa fa-anchor" href="#sometime-this-week"></a></h5>
-          <ul>
-            <li><strong>Get connected</strong>: Follow the 'Preparation' instructions of the following tools.</li>
-          </ul>
-          <div class="indented-level3">
-            <div class="flat">
-              <div>
-                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools - Communication</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+          <h1 id="week-2-aug-19-summary">Week 2 <small><small><span class="dimmed">[Aug 19]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-2-aug-19-summary"></a></h1>
+          <box type="warning" dismissable>
+            <div>
+              <ul>
+                <li>Please try to <strong>follow instructions closely</strong>. If you deviate, our grading scripts will not be able to detect your work.</li>
+                <li>The deadline to complete tasks allocated to the week is the <strong>
+                    <tooltip content="e.g., if your tutorial is on Thursday, the deadline is Wednesday 23.59">midnight before your tutorial day</tooltip>
+                  </strong>, unless stated otherwise. Our scripts that detect your work run at midnight and only the work that's done by midnight will be eligible for marks (for cases where the task is graded).</li>
+                <li>You may have to <strong>go through the weekly topics before attempting weekly project tasks</strong> as the knowledge from those topics may be needed to complete the iP tasks.</li>
+              </ul>
+            </div>
+          </box>
+          <span id="summary">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm border-right border-bottom">
+                  <ul>
+                    <li>[<a href="/website/schedule/week2/topics.html#W2-1">W2.1</a>] <strong>SE: Intro</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>[<a href="/website/schedule/week2/topics.html#W2-2">W2.2</a>] <strong>IDEs: Basic Features</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>[<a href="/website/schedule/week2/topics.html#W2-3">W2.3</a>] <strong>Automated Testing of Text UIs</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                  </ul>
+                  <p></p>
+                  <ul>
+                    <li>
+                      <p>[<a href="/website/schedule/week2/topics.html#W2-4">W2.4</a>] <strong>RCS: Revision History</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                    <li>
+                      <p>[<a href="/website/schedule/week2/topics.html#W2-5">W2.5</a>] <strong>RCS: Remote Repos</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    </li>
+                  </ul>
+                  <p></p>
+                  <panel type="seamless" header="%%Full ToC%%" class="algolia-no-index">
+                    <div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week2/topics.html#W2-1">W2.1</a>] <strong>SE: Intro</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-1a">W2.1a</a>] <span>Software Engineering → Introduction →
+                                </span></span> <span>Pros and Cons</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week2/topics.html#W2-2">W2.2</a>] <strong>IDEs: Basic Features</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-2a">W2.2a</a>] <span>Implementation → IDEs →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-2b">W2.2b</a>] <span>Tools → Intellij IDEA →
+                                  </span></span> <span>Project Setup</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week2/topics.html#W2-3">W2.3</a>] <strong>Automated Testing of Text UIs</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-3a">W2.3a</a>] <span>Quality Assurance → Testing → Introduction →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-3b">W2.3b</a>] <span>Quality Assurance → Testing → Regression Testing →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-3c">W2.3c</a>] <span>Quality Assurance → Testing → Test Automation →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-3d">W2.3d</a>] <span>Quality Assurance → Testing → Test Automation →
+                                  </span></span> <span>Automated Testing of CLI Apps</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                      <ul>
+                        <li>[<a href="/website/schedule/week2/topics.html#W2-4">W2.4</a>] <strong>RCS: Revision History</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4a">W2.4a</a>] <span>Project Management → Revision Control →
+                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4b">W2.4b</a>] <span>Project Management → Revision Control →
+                                  </span></span> <span>Repositories</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4c">W2.4c</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Init</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4d">W2.4d</a>] <span>Project Management → Revision Control →
+                                  </span></span> <span>Saving History</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4e">W2.4e</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Commit</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4f">W2.4f</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Ignore</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4g">W2.4g</a>] <span>Project Management → Revision Control →
+                                  </span></span> <span>Using History</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4h">W2.4h</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Tag</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4i">W2.4i</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Checkout</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-4j">W2.4j</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Stash</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <ul>
+                        <li>[<a href="/website/schedule/week2/topics.html#W2-5">W2.5</a>] <strong>RCS: Remote Repos</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
+                      </ul>
+                      <div class="indented-level2">
+                        <small>
+                          <ul>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-5a">W2.5a</a>] <span>Project Management → Revision Control →
+                                  </span></span> <span>Remote Repositories</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-5b">W2.5b</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Clone</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-5c">W2.5c</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Pull</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                            <li>
+                              <p><span class="dimmed">[<a href="/website/schedule/week2/topics.md#W2-5d">W2.5d</a>] <span>Tools → Git and GitHub →
+                                  </span></span> <span>Push</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                            </li>
+                          </ul>
+                        </small></div>
+                      <p></p>
+                    </div>
+                  </panel>
+                </div>
+                <div class="col-sm border-bottom">
+                  <p><strong>Admin:</strong></p>
+                  <div>
+                    <ol>
+                      <li>Submit post-lecture quiz <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Thursday 2359</span></span></li>
+                      <li>Get connected with communication channels</li>
+                    </ol>
+                  </div>
+                  <div>
+                    <p><strong>iP:</strong></p>
+                    <div>
+                      <ol>
+                        <li>Set up prerequisites</li>
+                        <li>Set up the project in your Computer</li>
+                        <li>Implement increments while committing code frequently: <code>Level-1</code>, <code>Level-2</code>, <code>Level-3</code>, <code>Level-4</code>, <code>A-TextUiTesting</code>, <code>Level-5</code>, <code>Level-6</code>, <code>A-Enums</code> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Thursday 2359</span></span></li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools - Communication**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                <div>
-                <h4 id="tools-used-for-communication">Tools Used: for Communication<a class="fa fa-anchor" href="#tools-used-for-communication"></a></h4>
-                <ul>
-                  <li><strong>The preferred channels for module-related communications are</strong>:
-                    <ul>
-                      <li><mark><a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">github/nus-cs2103-AY1920S1/forum</a></mark> (not LumiNUS forum) -- suitable for longer-running conversations</li>
-                      <li>our slack channel <a href="https://nus-cs2103-ay1920s1.slack.com">https://nus-cs2103-ay1920s1.slack.com</a> -- suitable for quick chats</li>
-                    </ul>
-                  </li>
-                  <li>When communicating with instructors, prefer the two public channels given above. Use private channels (e.g., emails, private messages, face-to-face, private chat groups) only when the public channels are not suitable. <span class="dimmed">Rationale: 1. More classmates can benefit from the discussions, 2. It is also safer because the prof can monitor information you receive for accuracy</span>.</li>
-                  <li>You are encouraged to help others in the forum (e.g., share tips, help with technical problems). <mark>We consider such sharing when giving out <code>A+</code> grades and when recruiting tutors.</mark></li>
-                </ul>
-                <p><strong>Preparation:</strong> We encourage you all to,</p>
-                <ul>
-                  <li><mark>join the slack channel</mark> (you'll need to use an email address ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
-                  <li><mark><em>watch</em> <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">the forum</a></mark> to get alerts when new issues/comments are posted <a href="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" target="_self"><img src="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" alt class="img-fluid"></a></li>
-                </ul>
-              </div>
-            </modal>
-            <p>
-              <panel src="/website/admin/tools._include_.html#communication" header="Admin <md>:glyphicon-log-in:</md> **Tools - Communication**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="communication"></panel>
-            </p>
-          </div>
+          </span>
+          <br>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-2-aug-19">Week 2 [Aug 19]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-2-aug-19-summary">Week 2 [Aug 19] - Summary&#x200E;</a>
 
           </nav>
         </div>
@@ -154,7 +307,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

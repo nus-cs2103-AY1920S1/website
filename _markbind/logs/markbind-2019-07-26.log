@@ -1,2 +1,839 @@
 2019-07-25T16:04:41.978Z - info: Website generation started at 00:04:35
 2019-07-25T16:04:45.238Z - info: Building assets...
+2019-07-25T16:04:48.984Z - info: Assets built
+2019-07-25T16:04:48.984Z - info: Generating pages...
+2019-07-25T16:07:15.062Z - info: Pages built
+2019-07-25T16:07:44.101Z - info: Website generation complete! Total build time: 189.047s
+2019-07-25T16:07:44.101Z - info: Build success!
+2019-07-25T16:07:44.117Z - info: Site data built
+2019-07-25T16:08:44.765Z - info: Deployed!
+2019-07-26T14:02:10.626Z - info: Website generation started at 22:02:03
+2019-07-26T14:02:12.931Z - info: Building assets...
+2019-07-26T14:02:15.194Z - info: Assets built
+2019-07-26T14:02:15.195Z - info: Generating pages...
+2019-07-26T14:04:36.789Z - info: Pages built
+2019-07-26T14:05:07.537Z - info: Website generation complete! Total build time: 183.587s
+2019-07-26T14:05:08.129Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-26T14:05:08.129Z - info: Press CTRL+C to stop ...
+2019-07-26T14:05:08.160Z - info: Site data built
+2019-07-26T14:10:08.302Z - info: [22:10:08] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\notices-cs2103.md
+2019-07-26T14:10:09.306Z - info: Rebuilding affected source files
+2019-07-26T14:10:09.306Z - info: Rebuilding 1 pages
+2019-07-26T14:10:10.797Z - info: Pages rebuilt
+2019-07-26T14:10:10.805Z - info: Site data built
+2019-07-26T14:12:45.037Z - info: [22:12:45] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w03-kickoff.md
+2019-07-26T14:12:46.041Z - info: Rebuilding affected source files
+2019-07-26T14:12:46.041Z - info: Rebuilding 2 pages
+2019-07-26T14:12:46.671Z - info: Pages rebuilt
+2019-07-26T14:12:46.679Z - info: Site data built
+2019-07-26T14:16:25.512Z - info: [22:16:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\admin.njk
+2019-07-26T14:16:25.544Z - info: [22:16:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:16:26.525Z - info: Assets built
+2019-07-26T14:16:26.549Z - info: Rebuilding affected source files
+2019-07-26T14:16:26.549Z - info: Rebuilding 6 pages
+2019-07-26T14:16:32.558Z - info: Pages rebuilt
+2019-07-26T14:16:32.566Z - info: Site data built
+2019-07-26T14:17:05.683Z - info: [22:17:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:17:06.685Z - info: Rebuilding affected source files
+2019-07-26T14:17:06.692Z - info: Rebuilding 6 pages
+2019-07-26T14:17:12.580Z - info: Pages rebuilt
+2019-07-26T14:17:12.624Z - info: Site data built
+2019-07-26T14:18:07.680Z - info: [22:18:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:18:08.696Z - info: Rebuilding affected source files
+2019-07-26T14:18:08.696Z - info: Rebuilding 6 pages
+2019-07-26T14:18:15.385Z - info: Pages rebuilt
+2019-07-26T14:18:15.445Z - info: Site data built
+2019-07-26T14:19:00.439Z - info: [22:19:00] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:19:01.447Z - info: Rebuilding affected source files
+2019-07-26T14:19:01.447Z - info: Rebuilding 6 pages
+2019-07-26T14:19:07.197Z - info: Pages rebuilt
+2019-07-26T14:19:07.335Z - info: Site data built
+2019-07-26T14:19:12.478Z - info: [22:19:12] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:19:13.486Z - info: Rebuilding affected source files
+2019-07-26T14:19:13.486Z - info: Rebuilding 6 pages
+2019-07-26T14:19:18.757Z - info: Pages rebuilt
+2019-07-26T14:19:18.765Z - info: Site data built
+2019-07-26T14:19:34.098Z - info: [22:19:34] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:19:35.106Z - info: Rebuilding affected source files
+2019-07-26T14:19:35.106Z - info: Rebuilding 6 pages
+2019-07-26T14:19:40.351Z - info: Pages rebuilt
+2019-07-26T14:19:40.363Z - info: Site data built
+2019-07-26T14:19:53.586Z - info: [22:19:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:19:54.598Z - info: Rebuilding affected source files
+2019-07-26T14:19:54.598Z - info: Rebuilding 6 pages
+2019-07-26T14:20:00.426Z - info: Pages rebuilt
+2019-07-26T14:20:00.438Z - info: Site data built
+2019-07-26T14:21:42.158Z - info: [22:21:42] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\admin.njk
+2019-07-26T14:21:43.176Z - info: Assets built
+2019-07-26T14:23:39.052Z - info: [22:23:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\admin.njk
+2019-07-26T14:23:39.060Z - info: [22:23:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:23:40.062Z - info: Rebuilding affected source files
+2019-07-26T14:23:40.074Z - info: Rebuilding 6 pages
+2019-07-26T14:23:40.194Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md)
+  Error: cannot import 'show_project_summary' date=Fri Jul 26 2019 22:23:40 GMT+0800 (Malay Peninsula Standard Time), pid=9296, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=212168704, heapTotal=173559808, heapUsed=146616288, external=295654, loadavg=[0, 0, 0], uptime=89571.716686
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md)
+  Error: cannot import 'show_project_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:443:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T14:23:40.595Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md)
+  Error: cannot import 'show_project_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:443:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T14:23:40.680Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md)
+  Error: cannot import 'show_project_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:443:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T14:23:40.880Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md)
+  Error: cannot import 'show_project_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:443:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T14:23:40.908Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md)
+  Error: cannot import 'show_project_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:443:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T14:23:41.076Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md)
+  Error: cannot import 'show_project_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:443:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T14:23:41.217Z - info: Assets built
+2019-07-26T14:25:35.512Z - info: [22:25:35] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-07-26T14:25:48.621Z - info: Website generation started at 22:25:41
+2019-07-26T14:25:52.160Z - info: Building assets...
+2019-07-26T14:25:55.066Z - info: Assets built
+2019-07-26T14:25:55.066Z - info: Generating pages...
+2019-07-26T14:28:54.272Z - info: Pages built
+2019-07-26T14:29:26.912Z - info: Website generation complete! Total build time: 224.916s
+2019-07-26T14:29:27.421Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-26T14:29:27.421Z - info: Press CTRL+C to stop ...
+2019-07-26T14:29:27.449Z - info: Site data built
+2019-07-26T14:32:42.250Z - info: [22:32:42] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
+2019-07-26T14:32:43.254Z - info: Rebuilding affected source files
+2019-07-26T14:32:43.254Z - info: Rebuilding 1 pages
+2019-07-26T14:32:44.210Z - info: Pages rebuilt
+2019-07-26T14:32:44.218Z - info: Site data built
+2019-07-26T14:34:44.358Z - info: [22:34:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
+2019-07-26T14:34:45.366Z - info: Rebuilding affected source files
+2019-07-26T14:34:45.370Z - info: Rebuilding 1 pages
+2019-07-26T14:34:46.134Z - info: Pages rebuilt
+2019-07-26T14:34:46.150Z - info: Site data built
+2019-07-26T14:34:58.833Z - info: [22:34:58] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
+2019-07-26T14:34:59.840Z - info: Rebuilding affected source files
+2019-07-26T14:34:59.840Z - info: Rebuilding 1 pages
+2019-07-26T14:35:00.556Z - info: Pages rebuilt
+2019-07-26T14:35:00.564Z - info: Site data built
+2019-07-26T14:35:45.748Z - info: [22:35:45] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
+2019-07-26T14:35:46.759Z - info: Rebuilding affected source files
+2019-07-26T14:35:46.759Z - info: Rebuilding 1 pages
+2019-07-26T14:35:47.405Z - info: Pages rebuilt
+2019-07-26T14:35:47.413Z - info: Site data built
+2019-07-26T14:35:59.585Z - info: [22:35:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
+2019-07-26T14:36:00.588Z - info: Rebuilding affected source files
+2019-07-26T14:36:00.588Z - info: Rebuilding 1 pages
+2019-07-26T14:36:01.415Z - info: Pages rebuilt
+2019-07-26T14:36:01.419Z - info: Site data built
+2019-07-26T14:36:34.034Z - info: [22:36:34] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
+2019-07-26T14:36:35.042Z - info: Rebuilding affected source files
+2019-07-26T14:36:35.042Z - info: Rebuilding 1 pages
+2019-07-26T14:36:35.880Z - info: Pages rebuilt
+2019-07-26T14:36:35.888Z - info: Site data built
+2019-07-26T14:36:51.162Z - info: [22:36:51] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
+2019-07-26T14:36:52.166Z - info: Rebuilding affected source files
+2019-07-26T14:36:52.170Z - info: Rebuilding 1 pages
+2019-07-26T14:36:52.807Z - info: Pages rebuilt
+2019-07-26T14:36:52.815Z - info: Site data built
+2019-07-26T14:38:31.903Z - info: [22:38:31] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w03-kickoff.md
+2019-07-26T14:38:32.916Z - info: Rebuilding affected source files
+2019-07-26T14:38:32.924Z - info: Rebuilding 2 pages
+2019-07-26T14:38:33.820Z - info: Pages rebuilt
+2019-07-26T14:38:33.828Z - info: Site data built
+2019-07-26T14:39:31.402Z - info: [22:39:31] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w03-kickoff.md
+2019-07-26T14:39:32.408Z - info: Rebuilding affected source files
+2019-07-26T14:39:32.408Z - info: Rebuilding 2 pages
+2019-07-26T14:39:33.044Z - info: Pages rebuilt
+2019-07-26T14:39:33.048Z - info: Site data built
+2019-07-26T14:40:51.711Z - info: [22:40:51] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md
+2019-07-26T14:40:52.714Z - info: Rebuilding affected source files
+2019-07-26T14:40:52.720Z - info: Rebuilding 4 pages
+2019-07-26T14:40:54.656Z - info: Pages rebuilt
+2019-07-26T14:40:54.670Z - info: Site data built
+2019-07-26T14:42:38.054Z - info: [22:42:38] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md
+2019-07-26T14:42:39.056Z - info: Rebuilding affected source files
+2019-07-26T14:42:39.063Z - info: Rebuilding 4 pages
+2019-07-26T14:42:41.097Z - info: Pages rebuilt
+2019-07-26T14:42:41.128Z - info: Site data built
+2019-07-26T14:43:09.421Z - info: [22:43:09] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md
+2019-07-26T14:43:10.424Z - info: Rebuilding affected source files
+2019-07-26T14:43:10.430Z - info: Rebuilding 4 pages
+2019-07-26T14:43:12.386Z - info: Pages rebuilt
+2019-07-26T14:43:12.398Z - info: Site data built
+2019-07-26T14:50:04.764Z - info: [22:50:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md
+2019-07-26T14:50:04.774Z - info: [22:50:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w05.md
+2019-07-26T14:50:04.824Z - info: [22:50:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w06.md
+2019-07-26T14:50:04.841Z - info: [22:50:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w02.md
+2019-07-26T14:50:04.841Z - info: [22:50:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md
+2019-07-26T14:50:05.766Z - info: Rebuilding affected source files
+2019-07-26T14:50:05.781Z - info: Rebuilding 12 pages
+2019-07-26T14:50:12.951Z - info: Pages rebuilt
+2019-07-26T14:50:12.969Z - info: Site data built
+2019-07-26T14:51:46.027Z - info: [22:51:46] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\project.md
+2019-07-26T14:51:47.030Z - info: Rebuilding affected source files
+2019-07-26T14:51:47.032Z - info: Rebuilding 3 pages
+2019-07-26T14:51:48.526Z - info: Pages rebuilt
+2019-07-26T14:51:48.532Z - info: Site data built
+2019-07-26T14:54:10.450Z - info: [22:54:10] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md
+2019-07-26T14:54:11.452Z - info: Rebuilding affected source files
+2019-07-26T14:54:11.454Z - info: Rebuilding 4 pages
+2019-07-26T14:54:13.119Z - info: Pages rebuilt
+2019-07-26T14:54:13.129Z - info: Site data built
+2019-07-26T14:55:40.538Z - info: [22:55:40] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md
+2019-07-26T14:55:41.541Z - info: Rebuilding affected source files
+2019-07-26T14:55:41.547Z - info: Rebuilding 4 pages
+2019-07-26T14:55:43.613Z - info: Pages rebuilt
+2019-07-26T14:55:43.630Z - info: Site data built
+2019-07-26T14:56:45.359Z - info: [22:56:45] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md
+2019-07-26T14:56:46.359Z - info: Rebuilding affected source files
+2019-07-26T14:56:46.361Z - info: Rebuilding 4 pages
+2019-07-26T14:56:48.369Z - info: Pages rebuilt
+2019-07-26T14:56:48.385Z - info: Site data built
+2019-07-26T15:03:58.117Z - info: [23:03:58] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\admin.njk
+2019-07-26T15:03:58.127Z - info: [23:03:58] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md
+2019-07-26T15:03:59.127Z - info: Rebuilding affected source files
+2019-07-26T15:03:59.128Z - info: Rebuilding 3 pages
+2019-07-26T15:03:59.528Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'show_admin_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:56:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:462:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:03:59.606Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'show_admin_summary' date=Fri Jul 26 2019 23:03:59 GMT+0800 (Malay Peninsula Standard Time), pid=4912, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=144154624, heapTotal=192585728, heapUsed=157658744, external=381726, loadavg=[0, 0, 0], uptime=91991.1323111
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'show_admin_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:56:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:462:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:03:59.747Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'show_admin_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:56:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:462:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:03:59.900Z - info: Assets built
+2019-07-26T15:04:11.502Z - info: Website generation started at 23:04:06
+2019-07-26T15:04:13.291Z - info: Building assets...
+2019-07-26T15:04:15.141Z - info: Assets built
+2019-07-26T15:04:15.142Z - info: Generating pages...
+2019-07-26T15:06:47.581Z - info: Pages built
+2019-07-26T15:07:19.922Z - info: Website generation complete! Total build time: 193.485s
+2019-07-26T15:07:20.243Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-26T15:07:20.243Z - info: Press CTRL+C to stop ...
+2019-07-26T15:07:20.265Z - info: Site data built
+2019-07-26T15:08:52.481Z - info: [23:08:52] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md
+2019-07-26T15:08:53.483Z - info: Rebuilding affected source files
+2019-07-26T15:08:53.486Z - info: Rebuilding 3 pages
+2019-07-26T15:08:59.012Z - info: Pages rebuilt
+2019-07-26T15:08:59.032Z - info: Site data built
+2019-07-26T15:12:05.254Z - info: [23:12:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md
+2019-07-26T15:12:05.258Z - info: [23:12:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\notices-cs2103.md
+2019-07-26T15:12:05.262Z - info: [23:12:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md
+2019-07-26T15:12:06.255Z - info: Rebuilding affected source files
+2019-07-26T15:12:06.259Z - info: Rebuilding 5 pages
+2019-07-26T15:12:06.382Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md)
+  Error: cannot import 'timing_badge' date=Fri Jul 26 2019 23:12:06 GMT+0800 (Malay Peninsula Standard Time), pid=9456, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=229773312, heapTotal=170938368, heapUsed=144474280, external=151938, loadavg=[0, 0, 0], uptime=92477.9057898
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md)
+  Error: cannot import 'timing_badge'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:62:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:12:06.619Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md)
+  Error: cannot import 'timing_badge'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:62:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:12:06.747Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'timing_badge'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:62:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:12:06.899Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md)
+  Error: cannot import 'timing_badge'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:62:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:12:07.013Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'timing_badge'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:62:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:12:07.019Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'timing_badge' date=Fri Jul 26 2019 23:12:07 GMT+0800 (Malay Peninsula Standard Time), pid=9456, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=253050880, heapTotal=192958464, heapUsed=163629952, external=234232, loadavg=[0, 0, 0], uptime=92478.5471607
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md)
+  Error: cannot import 'timing_badge'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:62:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:12:44.394Z - info: [23:12:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md
+2019-07-26T15:12:44.402Z - info: [23:12:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\admin.md
+2019-07-26T15:14:59.125Z - info: [23:14:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\admin.md
+2019-07-26T15:14:59.142Z - info: [23:14:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\notices-cs2103.md
+2019-07-26T15:15:26.793Z - info: Website generation started at 23:15:20
+2019-07-26T15:15:28.836Z - info: Building assets...
+2019-07-26T15:15:31.206Z - info: Assets built
+2019-07-26T15:15:31.207Z - info: Generating pages...
+2019-07-26T15:17:59.165Z - info: Pages built
+2019-07-26T15:18:28.462Z - info: Website generation complete! Total build time: 187.848s
+2019-07-26T15:18:28.806Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-26T15:18:28.806Z - info: Press CTRL+C to stop ...
+2019-07-26T15:18:28.835Z - info: Site data built
+2019-07-26T15:25:11.318Z - info: [23:25:11] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-26T15:25:12.323Z - info: Rebuilding affected source files
+2019-07-26T15:25:12.335Z - info: Rebuilding 2 pages
+2019-07-26T15:25:14.081Z - info: Pages rebuilt
+2019-07-26T15:25:14.103Z - info: Site data built
+2019-07-26T15:25:27.715Z - info: [23:25:27] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-26T15:25:28.716Z - info: Rebuilding affected source files
+2019-07-26T15:25:28.717Z - info: Rebuilding 2 pages
+2019-07-26T15:25:42.830Z - info: Website generation started at 23:25:37
+2019-07-26T15:25:44.834Z - info: Building assets...
+2019-07-26T15:25:46.909Z - info: Assets built
+2019-07-26T15:25:46.910Z - info: Generating pages...
+2019-07-26T15:28:19.037Z - info: Pages built
+2019-07-26T15:28:47.198Z - info: Website generation complete! Total build time: 189.73s
+2019-07-26T15:28:47.550Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-26T15:28:47.550Z - info: Press CTRL+C to stop ...
+2019-07-26T15:28:47.568Z - info: Site data built
+2019-07-26T15:38:43.627Z - info: [23:38:43] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\project.md
+2019-07-26T15:38:44.633Z - info: Rebuilding affected source files
+2019-07-26T15:38:44.635Z - info: Rebuilding 3 pages
+2019-07-26T15:38:46.651Z - info: Pages rebuilt
+2019-07-26T15:38:46.658Z - info: Site data built
+2019-07-26T15:40:12.447Z - info: [23:40:12] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\project.md
+2019-07-26T15:40:13.449Z - info: Rebuilding affected source files
+2019-07-26T15:40:13.451Z - info: Rebuilding 3 pages
+2019-07-26T15:40:14.690Z - info: Pages rebuilt
+2019-07-26T15:40:14.723Z - info: Site data built
+2019-07-26T15:41:26.153Z - info: [23:41:26] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week3\project.md
+2019-07-26T15:41:27.156Z - info: Rebuilding affected source files
+2019-07-26T15:41:27.167Z - info: Rebuilding 3 pages
+2019-07-26T15:41:28.867Z - info: Pages rebuilt
+2019-07-26T15:41:28.879Z - info: Site data built
+2019-07-26T15:42:04.441Z - info: [23:42:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\project.md
+2019-07-26T15:42:05.442Z - info: Rebuilding affected source files
+2019-07-26T15:42:05.446Z - info: Rebuilding 3 pages
+2019-07-26T15:42:07.649Z - info: Pages rebuilt
+2019-07-26T15:42:07.673Z - info: Site data built
+2019-07-26T15:42:07.904Z - info: [23:42:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\project.md
+2019-07-26T15:42:08.904Z - info: Rebuilding affected source files
+2019-07-26T15:42:08.905Z - info: Rebuilding 3 pages
+2019-07-26T15:42:10.700Z - info: Pages rebuilt
+2019-07-26T15:42:10.718Z - info: Site data built
+2019-07-26T15:43:53.359Z - info: [23:43:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\admin.njk
+2019-07-26T15:43:54.370Z - info: Assets built
+2019-07-26T15:44:11.039Z - info: Website generation started at 23:44:05
+2019-07-26T15:44:12.943Z - info: Building assets...
+2019-07-26T15:44:14.902Z - info: Assets built
+2019-07-26T15:44:14.902Z - info: Generating pages...
+2019-07-26T15:46:28.243Z - info: Pages built
+2019-07-26T15:46:58.550Z - info: Website generation complete! Total build time: 173.147s
+2019-07-26T15:46:58.881Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-07-26T15:46:58.881Z - info: Press CTRL+C to stop ...
+2019-07-26T15:46:58.901Z - info: Site data built
+2019-07-26T15:56:50.367Z - info: [23:56:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w02.md
+2019-07-26T15:56:50.371Z - info: [23:56:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w06.md
+2019-07-26T15:56:50.378Z - info: [23:56:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-07-26T15:56:50.385Z - info: [23:56:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md
+2019-07-26T15:56:50.387Z - info: [23:56:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md
+2019-07-26T15:56:50.392Z - info: [23:56:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\admin.njk
+2019-07-26T15:56:50.395Z - info: [23:56:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w05.md
+2019-07-26T15:56:51.370Z - info: Rebuilding affected source files
+2019-07-26T15:56:51.376Z - info: Rebuilding 15 pages
+2019-07-26T15:56:51.415Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w02.md)
+  Error: cannot import 'show_project_summary_lead' date=Fri Jul 26 2019 23:56:51 GMT+0800 (Malay Peninsula Standard Time), pid=5828, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=238325760, heapTotal=186667008, heapUsed=143178800, external=521405, loadavg=[0, 0, 0], uptime=95162.9418237
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w02.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:51.431Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md)
+  Error: cannot import 'show_project_summary_lead' date=Fri Jul 26 2019 23:56:51 GMT+0800 (Malay Peninsula Standard Time), pid=5828, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=239456256, heapTotal=186667008, heapUsed=143481152, external=527207, loadavg=[0, 0, 0], uptime=95162.9598707
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:51.438Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md)
+  Error: cannot import 'show_project_summary_lead' date=Fri Jul 26 2019 23:56:51 GMT+0800 (Malay Peninsula Standard Time), pid=5828, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=239595520, heapTotal=187191296, heapUsed=143606160, external=527207, loadavg=[0, 0, 0], uptime=95162.9668899
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:51.445Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w05.md)
+  Error: cannot import 'show_project_summary_lead' date=Fri Jul 26 2019 23:56:51 GMT+0800 (Malay Peninsula Standard Time), pid=5828, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=240848896, heapTotal=187191296, heapUsed=143769448, external=535399, loadavg=[0, 0, 0], uptime=95162.9739091
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w05.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:51.452Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w06.md)
+  Error: cannot import 'show_project_summary_lead' date=Fri Jul 26 2019 23:56:51 GMT+0800 (Malay Peninsula Standard Time), pid=5828, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=241520640, heapTotal=187191296, heapUsed=144461032, external=535399, loadavg=[0, 0, 0], uptime=95162.9801088
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w06.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:51.727Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:51.845Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.001Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.192Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.231Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w02.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.244Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w03.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.251Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.352Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w05.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.356Z - error:  Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w06.md)
+  Error: cannot import 'show_project_summary_lead'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:56:52.510Z - info: Assets built
+2019-07-26T15:57:10.625Z - info: Website generation started at 23:57:05
+2019-07-26T15:57:12.799Z - info: Building assets...
+2019-07-26T15:57:15.125Z - info: Assets built
+2019-07-26T15:57:15.126Z - info: Generating pages...
+2019-07-26T15:57:17.576Z - error: uncaughtException: Template render error: Template render error: Template render error: Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w03-kickoff.md)
+  Error: cannot import 'show_project_summary' date=Fri Jul 26 2019 23:57:17 GMT+0800 (Malay Peninsula Standard Time), pid=4704, uid=null, gid=null, cwd=C:\repos\nus-cs2103-AY1920S1\cs2103-website, execPath=C:\Program Files\nodejs\node.exe, version=v8.9.4, argv=[C:\Program Files\nodejs\node.exe, C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve], rss=130015232, heapTotal=105816064, heapUsed=70747816, external=831019, loadavg=[0, 0, 0], uptime=95189.1021704
+Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w03-kickoff.md)
+  Error: cannot import 'show_project_summary'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:567:19
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:15:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:483:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:661:1)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:619:9
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:244:1)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:8:5)
+    at Template.getExported (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:615:10)
+    at eval (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:10:5)
+    at Environment.getTemplate (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:279:9)
+2019-07-26T15:58:08.105Z - info: Website generation started at 23:58:06
+2019-07-26T15:58:10.075Z - info: Building assets...
+2019-07-26T15:58:12.362Z - info: Assets built
+2019-07-26T15:58:12.363Z - info: Generating pages...

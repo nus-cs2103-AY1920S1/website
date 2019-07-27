@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -131,8 +132,8 @@
                   <li class="mt-2"><small><a href="/website/admin/project-constraints.html" class="site-nav__a">tP: Constraints</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-teams.html" class="site-nav__a">tP: Forming Teams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-timeline.html" class="site-nav__a">tP: Timeline</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w03-kickoff.html" class="site-nav__a">tP: inception [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w04-inception.html" class="site-nav__a">tP: mid-v1.0 [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w03-kickoff.html" class="site-nav__a">tP: Kickoff [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w04-inception.html" class="site-nav__a">tP: Inception [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w05-v10.html" class="site-nav__a">tP: v1.0 [week 5]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w06-mid-v11.html" class="site-nav__a">tP: mid-v1.1 [week 6]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w07-v11.html" class="site-nav__a">tP: v1.1 [week 7]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -143,7 +144,7 @@
                   <li class="mt-2"><small><a href="/website/admin/project-w12-mid-v14.html" class="site-nav__a">tP: mid-v1.4 [week 12]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w13-v14.html" class="site-nav__a">tP: v1.4 [week 13]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-deliverables.html" class="site-nav__a">tP: Deliverables</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-assessment.html" class="site-nav__a">tP: Assessment</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-grading.html" class="site-nav__a">tP: Grading</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-supervision.html" class="site-nav__a">tP: Supervision</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
@@ -376,10 +377,10 @@ method 2 ...
             <div class="indented-level2">
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv14_codeQualityTips">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Assessment → Code Quality Tips</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv14_codeQualityTips">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading → Code Quality Tips</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Code Quality Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_codeQualityTips" class="algolia-no-index">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Grading → Code Quality Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_codeQualityTips" class="algolia-no-index">
                   <div>
                   <blockquote>
                     <ul>
@@ -2236,7 +2237,7 @@ compact(input);
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-assessment._include_.html#projectGrading-codeQuality-criteria" header="Admin <md>:glyphicon-log-in:</md> Project Assessment → Code Quality Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="projectGrading-codeQuality-criteria"></panel>
+                <panel src="/website/admin/project-grading._include_.html#projectGrading-codeQuality-criteria" header="Admin <md>:glyphicon-log-in:</md> Project Grading → Code Quality Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="projectGrading-codeQuality-criteria"></panel>
               </p>
             </div>
             <p><strong><big>Documentation:</big></strong></p>
@@ -2422,7 +2423,7 @@ compact(input);
                     <ul>
                       <li>If a significant feature was not merged on time: inform the tutor and get permission to show the unmerged feature using your own version of the code. Obviously, unmerged features earn much less marks than a merged equivalent but something is better than nothing.</li>
                       <li>If you have no user visible features to show, you can still contribute to the demo by giving an overview of the product (at the start) and/or giving a wrap of of the product (at the end).</li>
-                      <li>If you are unable to come to the demo due to a valid reason, you can ask a team member to demo your feature. Remember to submit the evidence of your excuse <span class="dimmed">e.g., MC</span> to prof. The demo is part of module assessment and <mark>absence without a valid reason</mark> will cause you to lose marks.</li>
+                      <li>If you are unable to come to the demo due to a valid reason, you can ask a team member to demo your feature. Remember to submit the evidence of your excuse <span class="dimmed">e.g., MC</span> to prof. The demo is part of module grading and <mark>absence without a valid reason</mark> will cause you to lose marks.</li>
                     </ul>
                   </li>
                 </ul>
@@ -2440,7 +2441,7 @@ compact(input);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

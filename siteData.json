@@ -192,7 +192,10 @@
     },
     {
       "headings": {
-        "ip-week-2": "iP: Week 2 "
+        "ip-week-2": "iP: Week 2 ",
+        "1-set-up-prerequisites": "1 Set up prerequisites",
+        "2-set-up-the-project-in-your-computer": "2 Set up the project in your Computer",
+        "3-implement-increments-while-committing-code-frequently": "3 Implement increments while committing code frequently"
       },
       "title": "Admin: iP: Week 2",
       "header": "header.md",
@@ -204,7 +207,11 @@
     },
     {
       "headings": {
-        "ip-week-3": "iP: Week 3 "
+        "ip-week-3": "iP: Week 3 ",
+        "1-do-as-parallel-branches-level-7-and-level-8": "1 Do as parallel branches: Level-7 and Level-8",
+        "2-do-increments-a-moreoop-a-packages-a-junit-a-jar": "2 Do increments A-MoreOOP, A-Packages, A-JUnit, A-Jar",
+        "3-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9": "3 Do as parallel branches: A-JavaDoc, A-CodingStandard, Level-9",
+        "4-create-a-pr-to-the-upstream-repo": "4 Create a PR to the upstream repo"
       },
       "title": "Admin: iP: Week 3",
       "header": "header.md",
@@ -216,7 +223,10 @@
     },
     {
       "headings": {
-        "ip-week-4": "iP: Week 4 "
+        "ip-week-4": "iP: Week 4 ",
+        "1-review-some-peer-prs": "1 Review some peer PRs",
+        "2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs": "2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs",
+        "3-add-another-extension": "3 Add another extension"
       },
       "title": "Admin: iP: Week 4",
       "header": "header.md",
@@ -228,7 +238,10 @@
     },
     {
       "headings": {
-        "ip-week-5": "iP: Week 5 "
+        "ip-week-5": "iP: Week 5 ",
+        "1-add-increments-a-assertions-a-codequality-a-lambdas-a-streams": "1 Add increments A-Assertions, A-CodeQuality, A-Lambdas, A-Streams",
+        "2-set-up-ci": "2 Set up CI",
+        "3-add-another-extension-tbd": "3 Add another extension [TBD]"
       },
       "title": "Admin: iP: Week 5",
       "header": "header.md",
@@ -240,7 +253,9 @@
     },
     {
       "headings": {
-        "ip-week-6": "iP: Week 6 "
+        "ip-week-6": "iP: Week 6 ",
+        "1-write-a-brief-user-guide": "1 Write a brief user guide",
+        "2-release-the-product": "2 Release the product"
       },
       "title": "Admin: iP: Week 6",
       "header": "header.md",
@@ -328,23 +343,6 @@
     },
     {
       "headings": {
-        "tp-assessment": "tP: Assessment ",
-        "1-project-assessment-product-design-5-marks": "1. Project Assessment: Product Design [ 5 marks]",
-        "2-project-assessment-implementation-15-marks": "2. Project Assessment: Implementation [ 15 marks]",
-        "3-project-assessment-qa-10-marks": "3. Project Assessment: QA [ 10 marks]",
-        "4-project-assessment-documentation-10-marks": "4. Project Assessment: Documentation [ 10 marks]",
-        "5-project-assessment-project-management-5-5-10-marks": "5. Project Assessment: Project Management [ 5 +  5 = 10 marks]"
-      },
-      "title": "Admin: tP: Assessment",
-      "header": "header.md",
-      "footer": "footer.md",
-      "siteNav": "adminSiteNav.md",
-      "head": "adminHead.md",
-      "src": "admin/project-assessment.md",
-      "layout": "default"
-    },
-    {
-      "headings": {
         "tp-constraints": "tP: Constraints "
       },
       "title": "Admin: tP: Constraints",
@@ -378,6 +376,23 @@
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
       "src": "admin/project-deliverables.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "tp-grading": "tP: Grading ",
+        "1-project-grading-product-design-5-marks": "1. Project Grading: Product Design [ 5 marks]",
+        "2-project-grading-implementation-15-marks": "2. Project Grading: Implementation [ 15 marks]",
+        "3-project-grading-qa-10-marks": "3. Project Grading: QA [ 10 marks]",
+        "4-project-grading-documentation-10-marks": "4. Project Grading: Documentation [ 10 marks]",
+        "5-project-grading-project-management-5-5-10-marks": "5. Project Grading: Project Management [ 5 +  5 = 10 marks]"
+      },
+      "title": "Admin: tP: Grading",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "src": "admin/project-grading.md",
       "layout": "default"
     },
     {
@@ -462,9 +477,11 @@
     },
     {
       "headings": {
-        "tp-inception-week-3": "tP: inception [week 3] "
+        "tp-kickoff-week-3": "tP: Kickoff [week 3] ",
+        "1-set-up-a-project-meeting-time": "1 Set up a project meeting time.",
+        "2-get-familiar-with-ab3-features": "2 Get familiar with AB3 features."
       },
-      "title": "Admin: tP: inception [week 3]",
+      "title": "Admin: tP: Kickoff [week 3]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -474,9 +491,12 @@
     },
     {
       "headings": {
-        "tp-mid-v1-0-week-4": "tP: mid-v1.0 [week 4] "
+        "tp-inception-week-4": "tP: Inception [week 4] ",
+        "1-start-weekly-project-meetings": "1 Start weekly project meetings",
+        "2-decide-on-a-overall-project-direction-user-profile-problem-addressed": "2 Decide on a overall project direction (user profile, problem addressed)",
+        "3-start-a-collaborative-doc-to-take-project-notes": "3 Start a collaborative doc to take project notes"
       },
-      "title": "Admin: tP: mid-v1.0 [week 4]",
+      "title": "Admin: tP: Inception [week 4]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -487,8 +507,8 @@
     {
       "headings": {
         "tp-v1-0-week-5": "tP: v1.0 [week 5] ",
-        "v1-0-documentation": "v1.0 Documentation",
-        "v1-0-project-management": "v1.0 Project Management"
+        "1-brainstorm-user-stories": "1 Brainstorm user stories",
+        "2-prioritize-the-user-stories": "2 Prioritize the user stories"
       },
       "title": "Admin: tP: v1.0 [week 5]",
       "header": "header.md",
@@ -500,7 +520,10 @@
     },
     {
       "headings": {
-        "tp-mid-v1-1-week-6": "tP: mid-v1.1 [week 6] "
+        "tp-mid-v1-1-week-6": "tP: mid-v1.1 [week 6] ",
+        "1-set-up-project-repo": "1 Set up project repo",
+        "2-get-familiar-with-the-code-base": "2 Get familiar with the code base",
+        "3-draft-the-ug": "3 Draft the UG"
       },
       "title": "Admin: tP: mid-v1.1 [week 6]",
       "header": "header.md",
@@ -513,6 +536,7 @@
     {
       "headings": {
         "tp-v1-1-week-7": "tP: v1.1 [week 7] ",
+        "v1-0-project-management": "v1.0 Project Management",
         "v1-1-project-management": "v1.1 Project Management",
         "v1-1-documentation": "v1.1 Documentation",
         "v1-1-product": "v1.1 Product"
@@ -1323,20 +1347,6 @@
         "casting": "Casting",
         "jar-files": "JAR Files",
         "miscellaneous-topics": "Miscellaneous Topics",
-        "taskmanager": "TaskManager",
-        "taskmanager-level-1": "TaskManager Level 1",
-        "taskmanager-level-2": "TaskManager Level 2",
-        "taskmanager-level-3": "TaskManager Level 3",
-        "taskmanager-level-4": "TaskManager Level 4",
-        "taskmanager-level-5": "TaskManager Level 5",
-        "taskmanager-level-6": "TaskManager Level 6",
-        "taskmanager-level-7": "TaskManager Level 7",
-        "taskmanager-level-8": "TaskManager Level 8",
-        "taskmanager-level-9": "TaskManager Level 9",
-        "taskmanager-level-10": "TaskManager Level 10",
-        "taskmanager-level-11": "TaskManager Level 11",
-        "taskmanager-level-12": "TaskManager Level 12",
-        "practice-projects": "Practice Projects",
         "c-to-java": "C++ to Java"
       },
       "title": "Textbook Chapter : C++ to Java",

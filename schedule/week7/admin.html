@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2103/T Website - Week 7 - Admin Info</title>
+  <title>CS2103/T Website - Week - </title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -86,145 +87,558 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week6/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week8/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-7-sep-30">Week 7 <small><small><span class="dimmed">[Sep 30]</span></small></small><a class="fa fa-anchor" href="#week-7-sep-30"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week7/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week7/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week7/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week7/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week7/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week6"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week7/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week7/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week8"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-7-sep-30-admin-info">Week 7 <small><small><span class="dimmed">[Sep 30]</span> - Admin Info</small></small><a class="fa fa-anchor" href="#week-7-sep-30-admin-info"></a></h1>
         <div id="additional"></div>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: v1.1 [week 7] <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
-          <div>
-            <div id="title"></div>
-            <div id="body">
-              <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Transfer documentation to the repo <span class="dimmed">(AboutUs; ContactUs; README; UG; DG: user stories, glossary, NFRs, use cases)</span>, draft a rough project plan.</span></span></p>
-              <p>
-                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Milestone progress is graded</strong>. Be reminded that reaching individual and team milestones are considered for <trigger trigger="click" for="modal:v11-projectMgtGrading">grading the <em>project management</em> component</trigger> of your project grade.
-              </p>
-              <p>
-                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Most aspects project progress are tracked using automated scripts.</strong> <mark>lease follow our instructions closely or else the script will not be able to detect your progress</mark>. We prefer not to spend admin resources processing requests for partial credit for work that did not follow the instructions precisely, unless the progress was not detected due to a bug in the script.
-              </p>
-              <p>
-                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Milestone requirements are cumulative</strong>. The recommended progress for the mid-milestone is an implicit requirement for the actual milestone unless a milestone requirement overrides a mid-milestone requirement <span class="dimmed">e.g., mid-milestone requires a document to be in a temp format while the actual milestone requires it to be in the proper format</span>. Similarly, a requirement for milestone <code>n</code> is also an implicit requirement for milestone <code>n+1</code> unless <code>n+1</code> overrides the <code>n</code> requirement. This means <mark>if you miss some requirement at milestone <code>n</code>, you should try to achieve it before milestone <code>n+1</code></mark> or else it could be noted again as a 'missed requirement' at milestone <code>n+1</code>.
-              </p>
-              <p><strong>v1.1 Summary of Milestone</strong></p>
-              <div class="table-responsive">
-                <table class="markbind-table table table-bordered table-striped">
-                  <thead>
-                    <tr>
-                      <th>Milestone</th>
-                      <th>Minimum acceptable performance to consider as 'reached'</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Team org/repo set up</td>
-                      <td>as stated in <trigger trigger="click" for="modal:v11summary-midv11">mid-v1.1</trigger> (i.e., <em>team PR</em> created, <em>auto-publishing</em> of docs set up)</td>
-                    </tr>
-                    <tr>
-                      <td><span><span aria-hidden="true" class="fas fa-user"></span></span> Some code enhancements done</td>
-                      <td>created PRs to do local/global changes</td>
-                    </tr>
-                    <tr>
-                      <td><span><span aria-hidden="true" class="fas fa-user"></span></span> Photo uploaded</td>
-                      <td>a photo complying to <trigger trigger="click" for="modal:v11-photo">our guidelines</trigger> is in the master branch of your team repo</td>
-                    </tr>
-                    <tr>
-                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Project docs updated</td>
-                      <td>updated docs are merged to the master branch</td>
-                    </tr>
-                    <tr>
-                      <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Milestone wrapped up</td>
-                      <td>a commit in the master branch tagged as <code>v1.1</code></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:v11summary-midv11" class="algolia-no-index">
-                  <div>
-                  <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Set up project repo. Get familiar with the code base. Draft the UG.</span></span></p>
-                  <p></p>
-                  <div id="product">
-                    <p><strong><big>Project Management:</big></strong></p>
-                    <p>Set up the team org and the team repo as explained below:</p>
-                    <div class="indented-level2">
-                      <div class="flat">
+        <h4 id="other-admin-info-you-may-want-to-read-this-week"><span class="badge badge-pill badge-dark p-2"><big><big>+</big></big></span> Other admin info you may want to read this week:<a class="fa fa-anchor" href="#other-admin-info-you-may-want-to-read-this-week"></a></h4>
+        <div class="indented">
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: v1.1 [week 7] <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+            <div>
+              <div id="title"></div>
+              <div id="body">
+                <ul>
+                  <li>
+                    <p><strong>Step 3: Document requirements of the product</strong></p>
+                    <p>Based on your user story categorization in the step above, given module requirements/constraints for the project, and the current state of the product, select which user stories you are likely to include in v2.0.</p>
+                    <p>Document the following items using a convenient format (e.g., a GoogleDoc). <span class="dimmed">Do not spend time on formatting the content nicely; reason: these will be ported to the actual Developer Guide in your project repo later.</span><br>
+                      💡 Some examples of these can be found in the <a href="https://se-edu.github.io/addressbook-level4/DeveloperGuide.html#product-scope">AB4 Developer Guide</a>.</p>
+                    <ul>
+                      <li><strong>Target user profile</strong>, <strong>value proposition</strong>, and <trigger trigger="click" for="modal:v10-userstories"><strong>user stories</strong></trigger>: Update the target user profile and value proposition to match the project direction you have selected. Give a list of the user stories (and update/delete existing ones, if applicable), including priorities. This can include user stories considered but will not be included in the final product.</li>
+                      <li>
+                        <trigger trigger="click" for="modal:v10-usecases"><strong>Use cases</strong></trigger>: Give use cases (textual form) for a few representative user stories that need multiple steps to complete. <span class="dimmed">e.g. Adding a tag to a person (assume the user needs to find the person first)</span>
+                      </li>
+                      <li>
+                        <trigger trigger="click" for="modal:v10-nfr"><strong>Non-functional requirements</strong></trigger>:
+                        Note: Many of the project constraints mentioned above are NFRs. You can add more. e.g. performance requirements, usability requirements, scalability requirements, etc.
+                      </li>
+                      <li>
+                        <trigger trigger="click" for="modal:v10-glossary"><strong>Glossary</strong></trigger>: Define terms that are worth defining.
+                      </li>
+                      <li>[Optional]<trigger trigger="click" for="modal:v10-prodsurveys"><strong>Product survey</strong></trigger>: Explore a few similar/related products and describe your findings i.e. Pros, cons, (from the target user's point of view).</li>
+                    </ul>
+                  </li>
+                </ul>
+                <modal large title="Textbook <md>:glyphicon-log-in:</md> Specifying Requirements → Use Cases" id="modal:v10-usecases" class="algolia-no-index">
+                    <div>
+                    <div></div>
+                    <p></p>
+                    <p><span class="dimmed"><strong><span>Requirements → Specifying Requirements → Use Cases →
+                          </span></strong></span></p>
+                    <div id="title-and-body">
+                      <div>
+                        <h4 id="introduction"><span>Introduction</span><a class="fa fa-anchor" href="#introduction"></a></h4>
+                      </div>
+                      <div id="main">
                         <div>
-                          <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-orgSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Organization setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                          <tip-box type="definition">
+                            <div>
+                              <p><strong>Use Case</strong>: A description of a set of sequences of actions, including variants, that a system performs to yield an observable result of value to an <trigger for="pop:actor">actor</trigger>.[ 📖 : <popover effect="fade" placement="top">uml-user-guide<span slot="content"><span><em><strong>The Unified Modeling Language User Guide</strong></em>, 2e, G Booch, J Rumbaugh, and I Jacobson </span></span></popover>]</p>
+                              <popover id="pop:actor" title="<md>:glyphicon-eye-open:</md>" placement="top">
+                                <div slot="content" class="algolia-no-index">
+                                  <div>
+                                    <p><strong>Actor</strong>: An actor (in a use case) is a role played by a user. An actor can be a human or another system. Actors are not part of the system; they reside outside the system.</p>
+                                  </div>
+                                </div>
+                              </popover>
+                            </div>
+                          </tip-box>
+                          <p><strong>A use case describes an <em>interaction between the user and the system</em> for a <em>specific functionality</em> of the system.</strong></p>
+                          <tip-box>
+                            <panel header="<md>:fas-cube:</md> Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
+                              <ul>
+                                <li>System: <popover effect="fade" placement="right" content="Automated Teller Machine">
+                                    ATM </popover>
+                                </li>
+                                <li>Actor: Customer</li>
+                                <li>Use Case: Check account balance
+                                  <ol>
+                                    <li>User inserts an ATM card</li>
+                                    <li>ATM prompts for PIN</li>
+                                    <li>User enters PIN</li>
+                                    <li>ATM prompts for withdrawal amount</li>
+                                    <li>User enters the amount</li>
+                                    <li>ATM ejects the ATM card and issues cash</li>
+                                    <li>User collects the card and the cash.</li>
+                                  </ol>
+                                </li>
+                              </ul>
+                            </panel>
+                            <panel header="%%<md>:fas-cube:</md> Example 2: 'upload file' use case of an LMS%%" type="seamless" class="algolia-no-index">
+                              <ul>
+                                <li>System: A Learning Management System (LMS)</li>
+                                <li>Actor: Student</li>
+                                <li>Use Case: Upload file
+                                  <ol>
+                                    <li>Student requests to upload file</li>
+                                    <li>LMS requests for the file location</li>
+                                    <li>Student specifies the file location</li>
+                                    <li>LMS uploads the file</li>
+                                  </ol>
+                                </li>
+                              </ul>
+                            </panel>
+                          </tip-box>
+                          <p></p>
+                          <p><strong>
+                              <trigger for="modal:uml" trigger="click">UML</trigger> includes a diagram type called use case diagrams that can illustrate use cases of a system visually
+                            </strong>, providing a visual ‘table of contents’ of the use cases of a system. In the example below, note how use cases are shown as ovals and user roles relevant to each use case are shown as stick figures connected to the corresponding ovals.</p>
+                          <modal title="**Unified Modeling Language (UML)**" id="modal:uml" class="algolia-no-index">
+                            <div>
+                              <p><a href="http://www.uml.org/#UML2.0"><strong>Unified Modeling Language (UML)</strong></a> is a graphical notation to describe various aspects of a software system. UML is the brainchild of three software modeling specialists James Rumbaugh, Grady Booch and Ivar Jacobson (also known as the Three Amigos). Each of them has developed their own notation for modeling software systems before joining force to create a unified modeling language (hence, the term ‘Unified’ in UML). UML is currently the <em>de facto</em> modeling notation used in the software industry.</p>
+                            </div>
+                          </modal>
+                          <p></p>
+                          <img src="/website/book/specifyingRequirements/useCases/introduction/images/ticketMachine.png" width="300">
+                          <p></p>
+                          <p><strong>Use cases capture the <em>functional requirements</em> of a system.</strong></p>
+                        </div>
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </modal>
+                <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:v10-nfr" class="algolia-no-index">
+                    <div>
+                    <div></div>
+                    <p></p>
+                    <p><span class="dimmed"><strong><span>Requirements → Requirements →
+                          </span></strong></span></p>
+                    <div id="title-and-body">
+                      <div>
+                        <h4 id="non-functional-requirements"><span>Non-Functional Requirements</span><a class="fa fa-anchor" href="#non-functional-requirements"></a></h4>
+                      </div>
+                      <div id="main">
+                        <div>
+                          <p>There are two kinds of requirements:</p>
+                          <ol>
+                            <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
+                            <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
+                          </ol>
+                          <tip-box>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of non-functional requirement categories:</p>
+                            <ul>
+                              <li>Data requirements e.g. size, <tooltip content="how often do data change">volatility</tooltip>, <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
+                              <li>Environment requirements e.g. technical environment in which system would operate or need to be compatible with.</li>
+                              <li>Accessibility, Capacity, Compliance with regulations, Documentation, Disaster recovery, Efficiency, Extensibility, Fault tolerance, Interoperability, Maintainability, Privacy, Portability, Quality, Reliability, Response time, Robustness, Scalability, Security, Stability, Testability, and more ...</li>
+                            </ul>
+                            <panel type="seamless" header="<md>:fas-cube:</md> Some concrete examples of NFRs" expanded>
+                              <ul>
+                                <li>Business/domain rules: e.g. the size of the minefield cannot be smaller than five.</li>
+                                <li>Constraints: e.g. the system should be backward compatible with data produced by earlier versions of the system; system testers are available only during the last month of the project; the total project cost should not exceed $1.5 million.</li>
+                                <li>Technical requirements: e.g. the system should work on both 32-bit and 64-bit environments.</li>
+                                <li>Performance requirements: e.g. the system should respond within two seconds.</li>
+                                <li>Quality requirements: e.g. the system should be usable by a novice who has never carried out an online purchase.</li>
+                                <li>Process requirements: e.g. the project is expected to adhere to a schedule that delivers a feature set every one month.</li>
+                                <li>Notes about project scope: e.g. the product is not required to handle the printing of reports.</li>
+                                <li>Any other noteworthy points: e.g. the game should not use images deemed offensive to those injured in real mine clearing activities.
+                                </li>
+                              </ul>
+                            </panel>
+                          </tip-box>
+                          <p>We may have to spend an extra effort in digging NFRs out as early as possible because,</p>
+                          <ol>
+                            <li><strong>NFRs are easier to miss</strong> <span class="dimmed"> e.g., stakeholders tend to think of functional requirements first</span></li>
+                            <li>sometimes <strong>NFRs are critical to the success of the software.</strong> <span class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span></li>
+                          </ol>
+                        </div>
+                        <div>
+                          <div>
+                            <panel header="<md>:fas-dumbbell:</md> Exercises" expandable class="algolia-no-index">
+                              <div>
+                                <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: TEAMMATES NFRs" class="algolia-no-index">
+                                  <question>
+                                    <p>Given below are some requirements of TEAMMATES (an online peer evaluation system for education). Which one of these are non-functional requirements?</p>
+                                    <ul class="task-list">
+                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a. The response to any use action should become visible within 5 seconds.</li>
+                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> b. The application admin should be able to view a log of user activities.</li>
+                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> c. The source code should be open source.</li>
+                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> d. A course should be able to have up to 2000 students.</li>
+                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> e. As a student user, I can view details of my team members so that I can know who they are.</li>
+                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> f. The user interface should be intuitive enough for users who are not IT-savvy.</li>
+                                      <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> g. The product is offered as a free online service.</li>
+                                    </ul>
+                                    <div slot="answer" class="algolia-no-index">
+                                      <p>(a)(c)(d)(f)(g)</p>
+                                      <p>Explanation: (b) are (e) are functions available for a specific user types. Therefore, they are functional requirements. (a), (c), (d), (f) and (g) are either constraints on functionality or constraints on how the project is done, both of which are considered non-functional requirements.</p>
+                                    </div>
+                                  </question>
+                                </panel>
+                              </div>
+                            </panel>
+                          </div>
                         </div>
                       </div>
-                      <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
-                          <div>
-                          <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
-                          <p>
-                            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
-                          </p>
-                          <p>After receiving your team ID, one team member should do the following steps:</p>
-                          <ul>
-                            <li>Create a GitHub organization with the following details:
-                              <ul>
-                                <li><mark>Organization name : <code>CS2103-AY1920S1-TEAM_ID</code></mark>. e.g.  <code>CS2103-AY1920S1-W12-1</code></li>
-                                <li>Plan:  Open Source ($0/month)</li>
-                              </ul>
-                            </li>
-                            <li>Add members to the organization:
-                              <ul>
-                                <li>Create a team called <code>developers</code> to your organization.</li>
-                                <li>Add your team members to the developers team.</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </div>
-                      </modal>
-                      <p>
-                        <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="organization-setup"></panel>
-                      </p>
                     </div>
-                    <div class="indented-level2">
-                      <div class="flat">
-                        <div>
-                          <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-repoSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Repo setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                        </div>
+                  </div>
+                </modal>
+                <modal title="Textbook <md>:glyphicon-log-in:</md>" id="modal:v10-glossary" class="algolia-no-index">
+                    <div>
+                    <div></div>
+                    <p></p>
+                    <p><span class="dimmed"><strong><span>Requirements → Specifying Requirements → Glossary →
+                          </span></strong></span></p>
+                    <div id="title-and-body">
+                      <div>
+                        <h4 id="what"><span>What</span><a class="fa fa-anchor" href="#what"></a></h4>
                       </div>
-                      <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
-                          <div>
-                          <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
-                          <p>Only one team member:</p>
-                          <ol>
-                            <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">Address Book Level 4</a> to your team org.</li>
-                            <li><mark><strong>Rename</strong> the forked repo as <code>main</code></mark>. This repo (let's call it the <em>team repo</em>) is to be used as the repo for your project.</li>
-                            <li><mark>Ensure the issue tracker of your team repo is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.</span></li>
-                            <li>Ensure your team members have the desired level of access to your team repo.</li>
-                            <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci"><strong>Enable Travis CI for the team repo</strong></a>.</li>
-                            <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation"><strong>Set up <em>auto-publishing</em> of docs</strong></a>. When set up correctly, your project website should be available via the URL <code>https://nus-cs2103-ay1920s1-{team-id}.github.io/main</code> e.g., <code>https://cs2103-ay1920s1-w13-1.github.io/main/</code>. This also requires you to <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages">enable the <em>GitHub Pages</em> feature of your team repo and configure it to serve the website from the <code>gh-pages</code> branch</a>.</li>
-                            <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">nus-cs2103-AY1920S1/addressbook-level4</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[T09-2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
-                          </ol>
-                          <p>All team members:</p>
-                          <ol>
-                            <li><strong>Watch</strong>the <code>main</code> repo (created above) i.e., go to the repo and click on the <code>watch</code> button to subscribe to activities of the repo</li>
-                            <li><strong>Fork</strong> the <code>main</code> repo to your personal GitHub account.</li>
-                            <li><strong>Clone</strong> the fork to your Computer.</li>
-                            <li>Recommended: Set it up as an Intellij project (follow the instructions in the Developer Guide carefully).</li>
-                            <li><strong>Set up the developer environment</strong> in your computer. You are recommended to use JDK 9 for AB-4 as some of the libraries used in AB-4 have not updated to support Java 10 yet. <mark>JDK 9 can be downloaded from the <a href="https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java Archive</a>.</mark></li>
-                          </ol>
-                          <p>Note that some of our download scripts depend on the following folder paths. Please do not alter those paths in your project.</p>
-                          <ul>
-                            <li><code>/src/main</code></li>
-                            <li><code>/src/test</code></li>
-                            <li><code>/docs</code></li>
-                          </ul>
+                      <div id="main">
+                        <div>
+                          <tip-box type="definition">
+                            <div>
+                              <p><strong>Glossary</strong>: A glossary serves to ensure that <em>all stakeholders have a common understanding</em> of the noteworthy terms, abbreviation, acronyms etc.</p>
+                            </div>
+                          </tip-box>
+                          <tip-box>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is a partial glossary from a variant of the <em>Snakes and Ladders</em> game:</p>
+                            <ul>
+                              <li>Conditional square: A square that specifies a specific face value which a player has to throw before his/her piece can leave the square.</li>
+                              <li>Normal square: a normal square does not have any conditions, snakes, or ladders in it.</li>
+                            </ul>
+                          </tip-box>
                         </div>
-                      </modal>
-                      <p>
-                        <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="repo-setup"></panel>
-                      </p>
+                        <div></div>
+                      </div>
                     </div>
-                    <p>When updating code in the repo, follow the workflow explained below:</p>
+                  </div>
+                </modal>
+                <modal title="Textbook <md>:glyphicon-log-in:</md>" id="modal:v10-prodsurveys" class="algolia-no-index">
+                    <div>
+                    <div></div>
+                    <p></p>
+                    <p><span class="dimmed"><strong><span>Requirements → Gathering Requirements →
+                          </span></strong></span></p>
+                    <div id="title-and-body">
+                      <div>
+                        <h4 id="product-surveys"><span>Product Surveys</span><a class="fa fa-anchor" href="#product-surveys"></a></h4>
+                      </div>
+                      <div id="main">
+                        <div>
+                          <p><strong>Studying existing products can unearth shortcomings of existing solutions that can be addressed by a new product.</strong> Product manuals and other forms of technical documentation of an existing system can be a good way to learn about how the existing solutions work.</p>
+                          <tip-box>
+                            <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> When developing a game for a mobile device, a look at a similar PC game can give insight into the kind of features and interactions the mobile game can offer.</p>
+                          </tip-box>
+                        </div>
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </modal>
+                <p>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <mark>Reaching individual and team milestones are considered for grading</mark> the <em>project management</em> component of your project grade (expand the panel below for more info).
+                </p>
+                <p>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> The deadline for reaching a milestone is <mark>the midnight before your tutorial</mark> <span class="dimmed">e.g., if your tutorial is on Wednesday, you need to reach the milestone by Tuesday midnight.</span>
+                </p>
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:v10-projectMgsGrading">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading → Project Management</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  </div>
+                </div>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Project Grading → Project Management  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:v10-projectMgsGrading" class="algolia-no-index">
+                    <div>
+                    <p><big><strong>5A. Process:</strong></big></p>
+                    <p><strong>Evaluates:</strong> How well you did in project management related aspects of the project, as an individual and as a team</p>
+                    <p><strong>Based on:</strong> tutor/bot observations of project milestones and GitHub data</p>
+                    <p>Milestones <mark>need to be reached the midnight before of the tutorial</mark> for it to be counted as achieved. <mark>To get a good grade for this aspect, achieve at least 60% of the recommended milestone progress.</mark></p>
+                    <p>Other criteria:</p>
+                    <ul>
+                      <li>Good use of GitHub milestones</li>
+                      <li>Good use of GitHub release mechanism</li>
+                      <li>Good version control, based on the repo</li>
+                      <li>Reasonable attempt to use the forking workflow</li>
+                      <li>Good task definition, assignment and tracking, based on the issue tracker</li>
+                      <li>Good use of buffers <span class="dimmed">(opposite: everything at the last minute)</span></li>
+                      <li>Project done iteratively and incrementally <span class="dimmed">(opposite: doing most of the work in one big burst)</span></li>
+                    </ul>
+                    <p><big><strong>5B. Team-tasks:</strong></big></p>
+                    <p><strong>Evaluates:</strong> How much you contributed to team-tasks</p>
+                    <p><strong>Based on:</strong> peer evaluations, tutor observations</p>
+                    <p>To earn full marks, you should have done a fair share of the team tasks. You can earn bonus marks by doing more than your fair share.</p>
+                    <div class="flat">
+                      <div>
+                        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectGrading-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                      </div>
+                    </div>
+                    <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectGrading-exmapleTeamTasks" class="algolia-no-index">
+                        <div>
+                        <p>Here is a non-exhaustive list of team-tasks:</p>
+                        <ol>
+                          <li>Necessary general code enhancements e.g.,
+                            <ol>
+                              <li>Work related to renaming the product</li>
+                              <li>Work related to changing the product icon</li>
+                              <li>Morphing the product into a different product</li>
+                            </ol>
+                          </li>
+                          <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
+                          <li>Maintaining the issue tracker</li>
+                          <li>Release management</li>
+                          <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
+                          <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
+                        </ol>
+                      </div>
+                    </modal>
+                    <p>
+                      <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="example-team-tasks"></panel>
+                    </p>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/project-grading._include_.html#project-management-grading" header="Admin <md>:glyphicon-log-in:</md> Project Grading → Project Management  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="project-management-grading"></panel>
+                </p>
+                <h3 id="v1-0-project-management">v1.0 Project Management<a class="fa fa-anchor" href="#v1-0-project-management"></a></h3>
+                <ul>
+                  <li>
+                    <p>After the v2.0 is conceptualized, decide which features each member will do by v1.4. <span class="dimmed">We realize that it will be hard for you to estimate the effort required for each feature as you are not familiar with the code base. Nevertheless, come up with a project plan as per your best estimate; this plan can be revised at later stages. It is better to start with <em>some</em> plan rather than no plan at all. If in doubt, choose to do <em>less</em> than <em>more</em>; we don't expect you to deliver a lot of big features.</span></p>
+                  </li>
+                  <li>
+                    <p>Divide each of those features into three increments, to be released at v1.1, v1.2, v1.3 (v1.4 omitted deliberately as a buffer). <mark>Each increment should deliver a end-user visible enhancement.</mark></p>
+                  </li>
+                  <li>
+                    <p>Document the above two items somewhere e.g., in a Google doc/sheet. An example is given below:</p>
+                    <pre><code class="hljs">* Jake Woo: Profile photo feature
+  * v1.1: show a place holder for photo, showing a generic default image
+  * v1.2: can specify photo location if it is in local hard disk,
+          show photo from local hard disk
+  * v1.3: auto-copy the photo to app folder, support using online photo
+          as profile pic, stylize photo e.g., round frame
+</code></pre>
+                  </li>
+                </ul>
+                <div id="documentation">
+                  <p><strong><big>Documentation:</big></strong></p>
+                  <tip-box>
+                    <p><strong>Recommended procedure for updating docs</strong>:</p>
+                    <ol>
+                      <li>Divide among yourselves who will update which parts of the document(s).</li>
+                      <li>Update the team repo by following the workflow mentioned above.</li>
+                    </ol>
+                  </tip-box>
+                  <div class="indented">
+                    <p>Update the following pages in your project repo:</p>
+                  </div>
+                  <ul>
+                    <li><strong><em>About Us</em> page</strong>:
+                      This page is used for module admin purposes. <mark>Please follow the format closely</mark> or else our scripts will not be able to give credit for your work.
+                      <ul>
+                        <li>Replace info of SE-EDU developers with info of your team, including a <mark>suitable photo</mark> as described <trigger trigger="click" for="modal:mid-v12-photo">here</trigger>.</li>
+                        <li>Including the name/photo of the supervisor/lecturer is optional.</li>
+                        <li>The photo of a team member should be <code>doc/images/githbub_username_in_lower_case.png</code> <span class="dimmed">e.g. <code>docs/images/damithc.png</code></span>. <mark>If you photo is in jpg format, name the file as <code>.png</code> anyway</mark>.</li>
+                        <li>Indicate the different roles played and responsibilities held by each team member. You can reassign these <trigger trigger="click" for="modal:midv11-rolesAndResponsibilities">roles and responsibilities <span class="dimmed">(as explained in Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope)</span></trigger> later in the project, if necessary.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:mid-v12-photo" class="algolia-no-index">
+                      <div>
+                      <ul>
+                        <li>
+                          <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
+                            <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
+                        </li>
+                        <li>
+                          <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you may omit the photo from module-related documents that are publicly visible.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </modal>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope (extract): roles and responsibilities" id="modal:midv11-rolesAndResponsibilities" class="algolia-no-index">
+                      <div>
+                      <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
+                      <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities" class="algolia-no-index">
+                        <p>This is a non-exhaustive list; you may define additional roles.</p>
+                        <ul>
+                          <li><em>Team lead</em>: Responsible for overall project coordination.</li>
+                          <li><em>Documentation</em> (short for ‘in charge of documentation’): Responsible for the quality of various project documents.</li>
+                          <li><em>Testing</em>: Ensures the testing of the project is done properly and on time.</li>
+                          <li><em>Code quality</em>: Looks after code quality, ensures adherence to coding standards, etc.</li>
+                          <li><em>Deliverables and deadlines</em>: Ensure project deliverables are done on time and in the right format.</li>
+                          <li><em>Integration</em>: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li>
+                          <li><em>Scheduling and tracking</em>: In charge of defining, assigning, and tracking project tasks.</li>
+                          <li><em>[Tool ABC] expert</em>: <span class="dimmed">e.g. Intellij expert, Git expert, etc.</span> Helps other team member with matters related to the specific tool.</li>
+                          <li><em>In charge of[Component XYZ]</em>: <span class="dimmed">e.g. In charge of <code>Model</code>, <code>UI</code>, <code>Storage</code>, etc.</span> If you are in charge of a component, you are expected to know that component well, and review changes done to that component in v1.3-v1.4.</li>
+                        </ul>
+                      </panel>
+                      <p></p>
+                      <p>Please make sure each of the important roles are assigned to one person in the team. It is OK to have a 'backup' for each role, but <strong>for each aspect there should be one person who is unequivocally the person responsible for it</strong>.</p>
+                    </div>
+                  </modal>
+                  <ul>
+                    <li>
+                      <p><strong><em>Contact Us</em> Page</strong>: Update to match your product.</p>
+                    </li>
+                    <li>
+                      <p><strong>README.adoc</strong> page: Update it to match your project.</p>
+                      <ul>
+                        <li>
+                          <p>Add a UI mockup of your intended final product.
+                            Note that the <mark>image of the UI should be <code>docs/images/Ui.png</code></mark> so that it can be downloaded by our scripts. Limit the file to contain one screenshot/mockup only and ensure the new image is roughly the same <code>height x width</code> proportions as the original one. <span class="dimmed">Reason: when we compile these images from all teams into one page (<a href="https://nus-cs2103-ay1819s1.github.io/cs2103-website/admin/projectList.html">example</a>), yours should not look out of place.</span></p>
+                        </li>
+                        <li>
+                          <p>The original <code>README.adoc</code> file (which doubles as the landing page of your project website) is written to read like the introduction to an SE learning/teaching resource. You should <mark>restructure this page to look like the home page of a real product</mark> (not a school project) targeting real users <span class="dimmed"> e.g. remove references to addressbook-level3, Learning Outcomes etc. mention target users, add a marketing blurb etc.</span> On a related note, also remove <code>Learning Outcomes</code> link and related pages.</p>
+                        </li>
+                        <li>
+                          <p>Update the link of the Travis <em>build status badge</em> (<img src="https://travis-ci.org/se-edu/addressbook-level4.svg?branch=master" alt="Build Status">) so that it reflects the build status of your team repo.<br>
+                            For the other badges,</p>
+                          <ul>
+                            <li>either set up the respective tool for your project (AB-4 Developer Guide has instructions on how to set up AppVeyor and Coveralls) and update the badges accordingly,</li>
+                            <li>or remove the badge.</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <p>Acknowledge the original source of the code i.e. AddressBook-Level4 project created by SE-EDU initiative at <code>https://github.com/se-edu/</code></p>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><strong>User Guide</strong>: Start moving the content from your User Guide (draft created in previous weeks) into the User Guide page in your repository. If a feature is not implemented, mark it as 'Coming in v2.0' (<a href="https://se-edu.github.io/addressbook-level4/UserGuide.html#encrypting-data-files-code-coming-in-v2-0-code">example</a>).</p>
+                    </li>
+                    <li>
+                      <p><strong>Developer Guide</strong>: Similar to the User Guide, start moving the content from your Developer Guide (draft created in previous weeks) into the Developer Guide page in your team repository.</p>
+                    </li>
+                  </ul>
+                </div>
+                <p>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Milestone progress is graded</strong>. Be reminded that reaching individual and team milestones are considered for <trigger trigger="click" for="modal:v11-projectMgtGrading">grading the <em>project management</em> component</trigger> of your project grade.
+                </p>
+                <p>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Most aspects project progress are tracked using automated scripts.</strong> <mark>lease follow our instructions closely or else the script will not be able to detect your progress</mark>. We prefer not to spend admin resources processing requests for partial credit for work that did not follow the instructions precisely, unless the progress was not detected due to a bug in the script.
+                </p>
+                <p>
+                  <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Milestone requirements are cumulative</strong>. The recommended progress for the mid-milestone is an implicit requirement for the actual milestone unless a milestone requirement overrides a mid-milestone requirement <span class="dimmed">e.g., mid-milestone requires a document to be in a temp format while the actual milestone requires it to be in the proper format</span>. Similarly, a requirement for milestone <code>n</code> is also an implicit requirement for milestone <code>n+1</code> unless <code>n+1</code> overrides the <code>n</code> requirement. This means <mark>if you miss some requirement at milestone <code>n</code>, you should try to achieve it before milestone <code>n+1</code></mark> or else it could be noted again as a 'missed requirement' at milestone <code>n+1</code>.
+                </p>
+                <p><strong>v1.1 Summary of Milestone</strong></p>
+                <div class="table-responsive">
+                  <table class="markbind-table table table-bordered table-striped">
+                    <thead>
+                      <tr>
+                        <th>Milestone</th>
+                        <th>Minimum acceptable performance to consider as 'reached'</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Team org/repo set up</td>
+                        <td>as stated in <trigger trigger="click" for="modal:v11summary-midv11">mid-v1.1</trigger> (i.e., <em>team PR</em> created, <em>auto-publishing</em> of docs set up)</td>
+                      </tr>
+                      <tr>
+                        <td><span><span aria-hidden="true" class="fas fa-user"></span></span> Some code enhancements done</td>
+                        <td>created PRs to do local/global changes</td>
+                      </tr>
+                      <tr>
+                        <td><span><span aria-hidden="true" class="fas fa-user"></span></span> Photo uploaded</td>
+                        <td>a photo complying to <trigger trigger="click" for="modal:v11-photo">our guidelines</trigger> is in the master branch of your team repo</td>
+                      </tr>
+                      <tr>
+                        <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Project docs updated</td>
+                        <td>updated docs are merged to the master branch</td>
+                      </tr>
+                      <tr>
+                        <td><span><span aria-hidden="true" class="fas fa-users"></span></span> Milestone wrapped up</td>
+                        <td>a commit in the master branch tagged as <code>v1.1</code></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:v11summary-midv11" class="algolia-no-index">
+                    <div>
+                    <h4 id="1-set-up-project-repo"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Set up project repo<a class="fa fa-anchor" href="#1-set-up-project-repo"></a></h4>
+                    <div id="product">
+                      <p><strong><big>Project Management:</big></strong></p>
+                      <ul>
+                        <li>Set up the team org and the team repo as explained below:</li>
+                      </ul>
+                      <div class="indented-level2">
+                        <div class="flat">
+                          <div>
+                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-orgSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Organization setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                          </div>
+                        </div>
+                        <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
+                            <div>
+                            <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
+                            <p>
+                              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
+                            </p>
+                            <p>After receiving your team ID, one team member should do the following steps:</p>
+                            <ul>
+                              <li>Create a GitHub organization with the following details:
+                                <ul>
+                                  <li><mark>Organization name : <code>CS2103-AY1920S1-TEAM_ID</code></mark>. e.g.  <code>CS2103-AY1920S1-W12-1</code></li>
+                                  <li>Plan:  Open Source ($0/month)</li>
+                                </ul>
+                              </li>
+                              <li>Add members to the organization:
+                                <ul>
+                                  <li>Create a team called <code>developers</code> to your organization.</li>
+                                  <li>Add your team members to the developers team.</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </modal>
+                        <p>
+                          <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="organization-setup"></panel>
+                        </p>
+                      </div>
+                      <div class="indented-level2">
+                        <div class="flat">
+                          <div>
+                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-repoSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Repo setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                          </div>
+                        </div>
+                        <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
+                            <div>
+                            <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
+                            <p>Only one team member:</p>
+                            <ol>
+                              <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">Address Book Level 4</a> to your team org.</li>
+                              <li><mark><strong>Rename</strong> the forked repo as <code>main</code></mark>. This repo (let's call it the <em>team repo</em>) is to be used as the repo for your project.</li>
+                              <li><mark>Ensure the issue tracker of your team repo is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.</span></li>
+                              <li>Ensure your team members have the desired level of access to your team repo.</li>
+                              <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci"><strong>Enable Travis CI for the team repo</strong></a>.</li>
+                              <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation"><strong>Set up <em>auto-publishing</em> of docs</strong></a>. When set up correctly, your project website should be available via the URL <code>https://nus-cs2103-ay1920s1-{team-id}.github.io/main</code> e.g., <code>https://cs2103-ay1920s1-w13-1.github.io/main/</code>. This also requires you to <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages">enable the <em>GitHub Pages</em> feature of your team repo and configure it to serve the website from the <code>gh-pages</code> branch</a>.</li>
+                              <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">nus-cs2103-AY1920S1/addressbook-level4</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[T09-2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
+                            </ol>
+                            <p>All team members:</p>
+                            <ol>
+                              <li><strong>Watch</strong>the <code>main</code> repo (created above) i.e., go to the repo and click on the <code>watch</code> button to subscribe to activities of the repo</li>
+                              <li><strong>Fork</strong> the <code>main</code> repo to your personal GitHub account.</li>
+                              <li><strong>Clone</strong> the fork to your Computer.</li>
+                              <li>Recommended: Set it up as an Intellij project (follow the instructions in the Developer Guide carefully).</li>
+                              <li><strong>Set up the developer environment</strong> in your computer. You are recommended to use JDK 9 for AB-4 as some of the libraries used in AB-4 have not updated to support Java 10 yet. <mark>JDK 9 can be downloaded from the <a href="https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java Archive</a>.</mark></li>
+                            </ol>
+                            <p>Note that some of our download scripts depend on the following folder paths. Please do not alter those paths in your project.</p>
+                            <ul>
+                              <li><code>/src/main</code></li>
+                              <li><code>/src/test</code></li>
+                              <li><code>/docs</code></li>
+                            </ul>
+                          </div>
+                        </modal>
+                        <p>
+                          <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="repo-setup"></panel>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 id="2-get-familiar-with-the-code-base"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Get familiar with the code base<a class="fa fa-anchor" href="#2-get-familiar-with-the-code-base"></a></h4>
+                    <ul>
+                      <li>Do the provided tutorials to get familiar with the codebase</li>
+                      <li>When updating code in the repo, follow the workflow explained below:</li>
+                    </ul>
                     <div class="indented-level2">
                       <div class="flat">
                         <div>
@@ -568,7 +982,7 @@ method 2 ...
                             <ul>
                               <li>Use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code>master</code> branch against rogue PRs.</li>
                             </ul>
-                            <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
+                            <modal title="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
                                 <div>
                                 <ul>
                                   <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -623,271 +1037,191 @@ method 2 ...
                         <panel src="/website/admin/appendixE-gitHub._include_.html#workflow" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="workflow"></panel>
                       </p>
                     </div>
-                  </div>
-                  <div id="documentation">
-                    <p><strong><big>Documentation:</big></strong></p>
-                    <tip-box>
-                      <p><strong>Recommended procedure for updating docs</strong>:</p>
-                      <ol>
-                        <li>Divide among yourselves who will update which parts of the document(s).</li>
-                        <li>Update the team repo by following the workflow mentioned above.</li>
-                      </ol>
-                    </tip-box>
-                    <div class="indented">
-                      <p>Update the following pages in your project repo:</p>
-                    </div>
-                    <ul>
-                      <li><strong><em>About Us</em> page</strong>:
-                        This page is used for module admin purposes. <mark>Please follow the format closely</mark> or else our scripts will not be able to give credit for your work.
-                        <ul>
-                          <li>Replace info of SE-EDU developers with info of your team, including a <mark>suitable photo</mark> as described <trigger trigger="click" for="modal:mid-v12-photo">here</trigger>.</li>
-                          <li>Including the name/photo of the supervisor/lecturer is optional.</li>
-                          <li>The photo of a team member should be <code>doc/images/githbub_username_in_lower_case.png</code> <span class="dimmed">e.g. <code>docs/images/damithc.png</code></span>. <mark>If you photo is in jpg format, name the file as <code>.png</code> anyway</mark>.</li>
-                          <li>Indicate the different roles played and responsibilities held by each team member. You can reassign these <trigger trigger="click" for="modal:midv11-rolesAndResponsibilities">roles and responsibilities <span class="dimmed">(as explained in Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope)</span></trigger> later in the project, if necessary.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:mid-v12-photo" class="algolia-no-index">
-                        <div>
-                        <ul>
-                          <li>
-                            <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
-                              <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
-                          </li>
-                          <li>
-                            <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
-                          </li>
-                        </ul>
-                      </div>
-                    </modal>
-                    <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope (extract): roles and responsibilities" id="modal:midv11-rolesAndResponsibilities" class="algolia-no-index">
-                        <div>
-                        <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
-                        <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities" class="algolia-no-index">
-                          <p>This is a non-exhaustive list; you may define additional roles.</p>
-                          <ul>
-                            <li><em>Team lead</em>: Responsible for overall project coordination.</li>
-                            <li><em>Documentation</em> (short for ‘in charge of documentation’): Responsible for the quality of various project documents.</li>
-                            <li><em>Testing</em>: Ensures the testing of the project is done properly and on time.</li>
-                            <li><em>Code quality</em>: Looks after code quality, ensures adherence to coding standards, etc.</li>
-                            <li><em>Deliverables and deadlines</em>: Ensure project deliverables are done on time and in the right format.</li>
-                            <li><em>Integration</em>: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li>
-                            <li><em>Scheduling and tracking</em>: In charge of defining, assigning, and tracking project tasks.</li>
-                            <li><em>[Tool ABC] expert</em>: <span class="dimmed">e.g. Intellij expert, Git expert, etc.</span> Helps other team member with matters related to the specific tool.</li>
-                            <li><em>In charge of[Component XYZ]</em>: <span class="dimmed">e.g. In charge of <code>Model</code>, <code>UI</code>, <code>Storage</code>, etc.</span> If you are in charge of a component, you are expected to know that component well, and review changes done to that component in v1.3-v1.4.</li>
-                          </ul>
-                        </panel>
-                        <p></p>
-                        <p>Please make sure each of the important roles are assigned to one person in the team. It is OK to have a 'backup' for each role, but <strong>for each aspect there should be one person who is unequivocally the person responsible for it</strong>.</p>
-                      </div>
-                    </modal>
+                    <h4 id="3-draft-the-ug"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Draft the UG<a class="fa fa-anchor" href="#3-draft-the-ug"></a></h4>
                     <ul>
                       <li>
-                        <p><strong><em>Contact Us</em> Page</strong>: Update to match your product.</p>
-                      </li>
-                      <li>
-                        <p><strong>README.adoc</strong> page: Update it to match your project.</p>
+                        <p><strong>User Guide</strong>:
+                          Draft a user guide in a convenient medium (e.g., a GoogleDoc) to describe what the product would be like when it is at v2.0.</p>
                         <ul>
-                          <li>
-                            <p>Add a UI mockup of your intended final product.<br>
-                              Note that the <mark>image of the UI should be <code>docs/images/Ui.png</code></mark> so that it can be downloaded by our scripts. Limit the file to contain one screenshot/mockup only and ensure the new image is roughly the same <code>height x width</code> proportions as the original one. <span class="dimmed">Reason: when we compile these images from all teams into one page (<a href="https://nus-cs2103-ay1819s1.github.io/cs2103-website/admin/projectList.html">example</a>), yours should not look out of place.</span></p>
-                          </li>
-                          <li>
-                            <p>The original <code>README.adoc</code> file (which doubles as the landing page of your project website) is written to read like the introduction to an SE learning/teaching resource. You should <mark>restructure this page to look like the home page of a real product</mark> (not a school project) targeting real users <span class="dimmed"> e.g. remove references to addressbook-level3, Learning Outcomes etc. mention target users, add a marketing blurb etc.</span> On a related note, also remove <code>Learning Outcomes</code> link and related pages.</p>
-                          </li>
-                          <li>
-                            <p>Update the link of the Travis <em>build status badge</em> (<img src="https://travis-ci.org/se-edu/addressbook-level4.svg?branch=master" alt="Build Status">) so that it reflects the build status of your team repo.<br>
-                              For the other badges,</p>
-                            <ul>
-                              <li>either set up the respective tool for your project (AB-4 Developer Guide has instructions on how to set up AppVeyor and Coveralls) and update the badges accordingly,</li>
-                              <li>or remove the badge.</li>
-                            </ul>
-                          </li>
-                          <li>
-                            <p>Acknowledge the original source of the code i.e. AddressBook-Level4 project created by SE-EDU initiative at <code>https://github.com/se-edu/</code></p>
-                          </li>
+                          <li>We recommend that you follow the existing <a href="https://nus-CS2103-ay1920s1.github.io/addressbook-level3/UserGuide.html">AB3 User Guide</a> in terms of structure and format.</li>
+                          <li>As this is a very rough draft and the final version will be in a different format altogether <span class="dimmed">(i.e., in asciidoc format)</span>, don't waste time in formatting, copy editing etc. It is fine as long as the tutor can get a rough idea of the features from this draft. You can also do just the 'Features' section and omit the other parts.</li>
+                          <li>Do try to come up with concrete command syntax for feature that you would implement (at least for those that you will implement by v1.4).</li>
+                          <li>Consider including some UI mock-ups too <span class="dimmed">(they can be hand-drawn or created using a tool such as PowerPoint, PlantUML or <a href="https://balsamiq.com/">Balsamiq</a>)</span>.<br><br></li>
                         </ul>
-                      </li>
-                      <li>
-                        <p><strong>User Guide</strong>: Start moving the content from your User Guide (draft created in previous weeks) into the User Guide page in your repository. If a feature is not implemented, mark it as 'Coming in v2.0' (<a href="https://se-edu.github.io/addressbook-level4/UserGuide.html#encrypting-data-files-code-coming-in-v2-0-code">example</a>).</p>
-                      </li>
-                      <li>
-                        <p><strong>Developer Guide</strong>: Similar to the User Guide, start moving the content from your Developer Guide (draft created in previous weeks) into the Developer Guide page in your team repository.</p>
-                      </li>
-                    </ul>
-                    <p><strong><big>Product:</big></strong></p>
-                    <ul>
-                      <li>
-                        <p>Each member can attempt to do a <tooltip content="a change impacting only one component">local-impact</tooltip> change to the code base.</p>
-                        <p><strong>Objective</strong>: To familiarize yourself with at least one <tooltip content="components as stated in the [Developer Guide: Architecture]">components</tooltip> of the product.</p>
-                        <p><strong>Description</strong>: Divide the components among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the <a href="https://nus-cs2103-AY1920S1.github.io/addressbook-level4/DeveloperGuide.html#improving-each-component">AddressBook-Level4 developer guide</a>.</p>
-                        <p><strong>Submission</strong>: Create PRs from your own fork to your team repo. Get it merged by following your team's workflow.</p>
+                        <tip-box>
+                          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is highly recommended that you <strong>divide documentation work (in the User Guide and the Developer Guide) among team members based on enhancements/features each person would be adding</strong> <span class="dimmed"> e.g., If you are the person planing to add a feature X, you should be the person to describe the feature X in the User Guide and in the Developer Guide</span>. For features that are not planned to be implemented by v1.4, you can divide them based on who will be implementing them <em>if</em> the project were to continue until v2.0 (hypothetically).</p>
+                          <p><span class="dimmed">Reason: In the final project evaluation your documentation skills will be graded based on sections of the User/Developer Guide you have written.</span></p>
+                        </tip-box>
                       </li>
                     </ul>
                   </div>
-                  <p></p>
-                </div>
-              </modal>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Project Management" id="modal:v11-projectMgtGrading" class="algolia-no-index">
-                  <div>
-                  <p><big><strong>5A. Process:</strong></big></p>
-                  <p><strong>Evaluates:</strong> How well you did in project management related aspects of the project, as an individual and as a team</p>
-                  <p><strong>Based on:</strong> tutor/bot observations of project milestones and GitHub data</p>
-                  <p>Milestones <mark>need to be reached the midnight before of the tutorial</mark> for it to be counted as achieved. <mark>To get a good grade for this aspect, achieve at least 60% of the recommended milestone progress.</mark></p>
-                  <p>Other criteria:</p>
-                  <ul>
-                    <li>Good use of GitHub milestones</li>
-                    <li>Good use of GitHub release mechanism</li>
-                    <li>Good version control, based on the repo</li>
-                    <li>Reasonable attempt to use the forking workflow</li>
-                    <li>Good task definition, assignment and tracking, based on the issue tracker</li>
-                    <li>Good use of buffers <span class="dimmed">(opposite: everything at the last minute)</span></li>
-                    <li>Project done iteratively and incrementally <span class="dimmed">(opposite: doing most of the work in one big burst)</span></li>
-                  </ul>
-                  <p><big><strong>5B. Team-tasks:</strong></big></p>
-                  <p><strong>Evaluates:</strong> How much you contributed to team-tasks</p>
-                  <p><strong>Based on:</strong> peer evaluations, tutor observations</p>
-                  <p>To earn full marks, you should have done a fair share of the team tasks. You can earn bonus marks by doing more than your fair share.</p>
-                  <div class="flat">
-                    <div>
-                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectAssessment-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                    </div>
-                  </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectAssessment-exmapleTeamTasks" class="algolia-no-index">
-                      <div>
-                      <p>Here is a non-exhaustive list of team-tasks:</p>
-                      <ol>
-                        <li>Necessary general code enhancements e.g.,
-                          <ol>
-                            <li>Work related to renaming the product</li>
-                            <li>Work related to changing the product icon</li>
-                            <li>Morphing the product into a different product</li>
-                          </ol>
-                        </li>
-                        <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
-                        <li>Maintaining the issue tracker</li>
-                        <li>Release management</li>
-                        <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
-                        <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
-                      </ol>
-                    </div>
-                  </modal>
-                  <p>
-                    <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="example-team-tasks"></panel>
-                  </p>
-                </div>
-              </modal>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:v11-photo" class="algolia-no-index">
-                  <div>
-                  <ul>
-                    <li>
-                      <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
-                        <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
-                    </li>
-                    <li>
-                      <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
-                    </li>
-                  </ul>
-                </div>
-              </modal>
-              <div id="documentation">
-                <h3 id="v1-1-project-management">v1.1 Project Management<a class="fa fa-anchor" href="#v1-1-project-management"></a></h3>
-                <ul>
-                  <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Fix any errors in org/repo set up <span class="dimmed"> (e.g. wrong repo name)</span>.</li>
-                  <li><strong>Wrap up the milestone using a git tag <code>v1.1</code></strong> as explained below:
-                    <ul>
-                      <li>When the milestone deadline is near (e.g., 0.5 days before the deadline), if you think some of the ongoing work intended for the current milestone may not finish in time, reassign them to a future milestone.</li>
-                      <li>After all changes that <em>can</em> be merged before the milestone deadline has been merged, use <code>git tag</code> feature to tag the current version with the milestone and push the tag to the team repo.</li>
-                    </ul>
-                  </li>
-                </ul>
-                <h3 id="v1-1-documentation">v1.1 Documentation<a class="fa fa-anchor" href="#v1-1-documentation"></a></h3>
-                <ul>
-                  <li>
-                    <p>Update User Guide, Developer Guide, README, and About Us pages as described earlier in <trigger trigger="click" for="modal:v11docs-midv11">mid-v1.1 progress guide</trigger>.</p>
-                    <p><strong>Submission</strong>: merge your changes to the master branch of your repo.</p>
-                  </li>
-                </ul>
-                <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:v11docs-midv11" class="algolia-no-index">
+                </modal>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Project Grading → Project Management" id="modal:v11-projectMgtGrading" class="algolia-no-index">
                     <div>
-                    <p class="lead" style="color: purple"><span><span aria-hidden="true" class="far fa-calendar-check"></span> <span>Set up project repo. Get familiar with the code base. Draft the UG.</span></span></p>
-                    <p></p>
-                    <div id="product">
-                      <p><strong><big>Project Management:</big></strong></p>
-                      <p>Set up the team org and the team repo as explained below:</p>
-                      <div class="indented-level2">
-                        <div class="flat">
-                          <div>
-                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-orgSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Organization setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                          </div>
-                        </div>
-                        <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
-                            <div>
-                            <h2 id="organization-setup-2">Organization setup<a class="fa fa-anchor" href="#organization-setup-2"></a></h2>
-                            <p>
-                              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
-                            </p>
-                            <p>After receiving your team ID, one team member should do the following steps:</p>
-                            <ul>
-                              <li>Create a GitHub organization with the following details:
-                                <ul>
-                                  <li><mark>Organization name : <code>CS2103-AY1920S1-TEAM_ID</code></mark>. e.g.  <code>CS2103-AY1920S1-W12-1</code></li>
-                                  <li>Plan:  Open Source ($0/month)</li>
-                                </ul>
-                              </li>
-                              <li>Add members to the organization:
-                                <ul>
-                                  <li>Create a team called <code>developers</code> to your organization.</li>
-                                  <li>Add your team members to the developers team.</li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </div>
-                        </modal>
-                        <p>
-                          <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="organization-setup"></panel>
-                        </p>
+                    <p><big><strong>5A. Process:</strong></big></p>
+                    <p><strong>Evaluates:</strong> How well you did in project management related aspects of the project, as an individual and as a team</p>
+                    <p><strong>Based on:</strong> tutor/bot observations of project milestones and GitHub data</p>
+                    <p>Milestones <mark>need to be reached the midnight before of the tutorial</mark> for it to be counted as achieved. <mark>To get a good grade for this aspect, achieve at least 60% of the recommended milestone progress.</mark></p>
+                    <p>Other criteria:</p>
+                    <ul>
+                      <li>Good use of GitHub milestones</li>
+                      <li>Good use of GitHub release mechanism</li>
+                      <li>Good version control, based on the repo</li>
+                      <li>Reasonable attempt to use the forking workflow</li>
+                      <li>Good task definition, assignment and tracking, based on the issue tracker</li>
+                      <li>Good use of buffers <span class="dimmed">(opposite: everything at the last minute)</span></li>
+                      <li>Project done iteratively and incrementally <span class="dimmed">(opposite: doing most of the work in one big burst)</span></li>
+                    </ul>
+                    <p><big><strong>5B. Team-tasks:</strong></big></p>
+                    <p><strong>Evaluates:</strong> How much you contributed to team-tasks</p>
+                    <p><strong>Based on:</strong> peer evaluations, tutor observations</p>
+                    <p>To earn full marks, you should have done a fair share of the team tasks. You can earn bonus marks by doing more than your fair share.</p>
+                    <div class="flat">
+                      <div>
+                        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectGrading-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                       </div>
-                      <div class="indented-level2">
-                        <div class="flat">
-                          <div>
-                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-repoSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Repo setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                          </div>
-                        </div>
-                        <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
-                            <div>
-                            <h2 id="repo-setup-2">Repo setup<a class="fa fa-anchor" href="#repo-setup-2"></a></h2>
-                            <p>Only one team member:</p>
+                    </div>
+                    <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectGrading-exmapleTeamTasks" class="algolia-no-index">
+                        <div>
+                        <p>Here is a non-exhaustive list of team-tasks:</p>
+                        <ol>
+                          <li>Necessary general code enhancements e.g.,
                             <ol>
-                              <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">Address Book Level 4</a> to your team org.</li>
-                              <li><mark><strong>Rename</strong> the forked repo as <code>main</code></mark>. This repo (let's call it the <em>team repo</em>) is to be used as the repo for your project.</li>
-                              <li><mark>Ensure the issue tracker of your team repo is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.</span></li>
-                              <li>Ensure your team members have the desired level of access to your team repo.</li>
-                              <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci"><strong>Enable Travis CI for the team repo</strong></a>.</li>
-                              <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation"><strong>Set up <em>auto-publishing</em> of docs</strong></a>. When set up correctly, your project website should be available via the URL <code>https://nus-cs2103-ay1920s1-{team-id}.github.io/main</code> e.g., <code>https://cs2103-ay1920s1-w13-1.github.io/main/</code>. This also requires you to <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages">enable the <em>GitHub Pages</em> feature of your team repo and configure it to serve the website from the <code>gh-pages</code> branch</a>.</li>
-                              <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">nus-cs2103-AY1920S1/addressbook-level4</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[T09-2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
+                              <li>Work related to renaming the product</li>
+                              <li>Work related to changing the product icon</li>
+                              <li>Morphing the product into a different product</li>
                             </ol>
-                            <p>All team members:</p>
-                            <ol>
-                              <li><strong>Watch</strong>the <code>main</code> repo (created above) i.e., go to the repo and click on the <code>watch</code> button to subscribe to activities of the repo</li>
-                              <li><strong>Fork</strong> the <code>main</code> repo to your personal GitHub account.</li>
-                              <li><strong>Clone</strong> the fork to your Computer.</li>
-                              <li>Recommended: Set it up as an Intellij project (follow the instructions in the Developer Guide carefully).</li>
-                              <li><strong>Set up the developer environment</strong> in your computer. You are recommended to use JDK 9 for AB-4 as some of the libraries used in AB-4 have not updated to support Java 10 yet. <mark>JDK 9 can be downloaded from the <a href="https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java Archive</a>.</mark></li>
-                            </ol>
-                            <p>Note that some of our download scripts depend on the following folder paths. Please do not alter those paths in your project.</p>
-                            <ul>
-                              <li><code>/src/main</code></li>
-                              <li><code>/src/test</code></li>
-                              <li><code>/docs</code></li>
-                            </ul>
-                          </div>
-                        </modal>
-                        <p>
-                          <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="repo-setup"></panel>
-                        </p>
+                          </li>
+                          <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
+                          <li>Maintaining the issue tracker</li>
+                          <li>Release management</li>
+                          <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
+                          <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
+                        </ol>
                       </div>
-                      <p>When updating code in the repo, follow the workflow explained below:</p>
+                    </modal>
+                    <p>
+                      <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="example-team-tasks"></panel>
+                    </p>
+                  </div>
+                </modal>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:v11-photo" class="algolia-no-index">
+                    <div>
+                    <ul>
+                      <li>
+                        <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
+                          <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
+                      </li>
+                      <li>
+                        <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you may omit the photo from module-related documents that are publicly visible.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </modal>
+                <div id="documentation">
+                  <h3 id="v1-1-project-management">v1.1 Project Management<a class="fa fa-anchor" href="#v1-1-project-management"></a></h3>
+                  <ul>
+                    <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Fix any errors in org/repo set up <span class="dimmed"> (e.g. wrong repo name)</span>.</li>
+                    <li><strong>Wrap up the milestone using a git tag <code>v1.1</code></strong> as explained below:
+                      <ul>
+                        <li>When the milestone deadline is near (e.g., 0.5 days before the deadline), if you think some of the ongoing work intended for the current milestone may not finish in time, reassign them to a future milestone.</li>
+                        <li>After all changes that <em>can</em> be merged before the milestone deadline has been merged, use <code>git tag</code> feature to tag the current version with the milestone and push the tag to the team repo.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <h3 id="v1-1-documentation">v1.1 Documentation<a class="fa fa-anchor" href="#v1-1-documentation"></a></h3>
+                  <ul>
+                    <li>
+                      <p>Update User Guide, Developer Guide, README, and About Us pages as described earlier in <trigger trigger="click" for="modal:v11docs-midv11">mid-v1.1 progress guide</trigger>.</p>
+                      <p><strong>Submission</strong>: merge your changes to the master branch of your repo.</p>
+                    </li>
+                  </ul>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project: mid-v1.1" id="modal:v11docs-midv11" class="algolia-no-index">
+                      <div>
+                      <h4 id="1-set-up-project-repo-2"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Set up project repo<a class="fa fa-anchor" href="#1-set-up-project-repo-2"></a></h4>
+                      <div id="product">
+                        <p><strong><big>Project Management:</big></strong></p>
+                        <ul>
+                          <li>Set up the team org and the team repo as explained below:</li>
+                        </ul>
+                        <div class="indented-level2">
+                          <div class="flat">
+                            <div>
+                              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-orgSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Organization setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                            </div>
+                          </div>
+                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
+                              <div>
+                              <h2 id="organization-setup-2">Organization setup<a class="fa fa-anchor" href="#organization-setup-2"></a></h2>
+                              <p>
+                                <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
+                              </p>
+                              <p>After receiving your team ID, one team member should do the following steps:</p>
+                              <ul>
+                                <li>Create a GitHub organization with the following details:
+                                  <ul>
+                                    <li><mark>Organization name : <code>CS2103-AY1920S1-TEAM_ID</code></mark>. e.g.  <code>CS2103-AY1920S1-W12-1</code></li>
+                                    <li>Plan:  Open Source ($0/month)</li>
+                                  </ul>
+                                </li>
+                                <li>Add members to the organization:
+                                  <ul>
+                                    <li>Create a team called <code>developers</code> to your organization.</li>
+                                    <li>Add your team members to the developers team.</li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </div>
+                          </modal>
+                          <p>
+                            <panel src="/website/admin/appendixE-gitHub._include_.html#organization-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="organization-setup"></panel>
+                          </p>
+                        </div>
+                        <div class="indented-level2">
+                          <div class="flat">
+                            <div>
+                              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv11-repoSetup">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Repo setup</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                            </div>
+                          </div>
+                          <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
+                              <div>
+                              <h2 id="repo-setup-2">Repo setup<a class="fa fa-anchor" href="#repo-setup-2"></a></h2>
+                              <p>Only one team member:</p>
+                              <ol>
+                                <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">Address Book Level 4</a> to your team org.</li>
+                                <li><mark><strong>Rename</strong> the forked repo as <code>main</code></mark>. This repo (let's call it the <em>team repo</em>) is to be used as the repo for your project.</li>
+                                <li><mark>Ensure the issue tracker of your team repo is enabled.</mark> <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your team repo.</span></li>
+                                <li>Ensure your team members have the desired level of access to your team repo.</li>
+                                <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#setting-up-travis-ci"><strong>Enable Travis CI for the team repo</strong></a>.</li>
+                                <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/UsingTravis.html#enabling-auto-publishing-of-documentation"><strong>Set up <em>auto-publishing</em> of docs</strong></a>. When set up correctly, your project website should be available via the URL <code>https://nus-cs2103-ay1920s1-{team-id}.github.io/main</code> e.g., <code>https://cs2103-ay1920s1-w13-1.github.io/main/</code>. This also requires you to <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages">enable the <em>GitHub Pages</em> feature of your team repo and configure it to serve the website from the <code>gh-pages</code> branch</a>.</li>
+                                <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level4">nus-cs2103-AY1920S1/addressbook-level4</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[T09-2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
+                              </ol>
+                              <p>All team members:</p>
+                              <ol>
+                                <li><strong>Watch</strong>the <code>main</code> repo (created above) i.e., go to the repo and click on the <code>watch</code> button to subscribe to activities of the repo</li>
+                                <li><strong>Fork</strong> the <code>main</code> repo to your personal GitHub account.</li>
+                                <li><strong>Clone</strong> the fork to your Computer.</li>
+                                <li>Recommended: Set it up as an Intellij project (follow the instructions in the Developer Guide carefully).</li>
+                                <li><strong>Set up the developer environment</strong> in your computer. You are recommended to use JDK 9 for AB-4 as some of the libraries used in AB-4 have not updated to support Java 10 yet. <mark>JDK 9 can be downloaded from the <a href="https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase9-3934878.html">Java Archive</a>.</mark></li>
+                              </ol>
+                              <p>Note that some of our download scripts depend on the following folder paths. Please do not alter those paths in your project.</p>
+                              <ul>
+                                <li><code>/src/main</code></li>
+                                <li><code>/src/test</code></li>
+                                <li><code>/docs</code></li>
+                              </ul>
+                            </div>
+                          </modal>
+                          <p>
+                            <panel src="/website/admin/appendixE-gitHub._include_.html#repo-setup" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="repo-setup"></panel>
+                          </p>
+                        </div>
+                      </div>
+                      <h4 id="2-get-familiar-with-the-code-base-2"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Get familiar with the code base<a class="fa fa-anchor" href="#2-get-familiar-with-the-code-base-2"></a></h4>
+                      <ul>
+                        <li>Do the provided tutorials to get familiar with the codebase</li>
+                        <li>When updating code in the repo, follow the workflow explained below:</li>
+                      </ul>
                       <div class="indented-level2">
                         <div class="flat">
                           <div>
@@ -1231,7 +1565,7 @@ method 2 ...
                               <ul>
                                 <li>Use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code>master</code> branch against rogue PRs.</li>
                               </ul>
-                              <modal title="Admin <md>:glyphicon-log-in:</md> Project Assessment → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
+                              <modal title="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing" id="modal:appEworkflow-testingExpectations" class="algolia-no-index">
                                   <div>
                                   <ul>
                                     <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -1286,193 +1620,111 @@ method 2 ...
                           <panel src="/website/admin/appendixE-gitHub._include_.html#workflow" header="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="workflow"></panel>
                         </p>
                       </div>
-                    </div>
-                    <div id="documentation">
-                      <p><strong><big>Documentation:</big></strong></p>
-                      <tip-box>
-                        <p><strong>Recommended procedure for updating docs</strong>:</p>
-                        <ol>
-                          <li>Divide among yourselves who will update which parts of the document(s).</li>
-                          <li>Update the team repo by following the workflow mentioned above.</li>
-                        </ol>
-                      </tip-box>
-                      <div class="indented">
-                        <p>Update the following pages in your project repo:</p>
-                      </div>
-                      <ul>
-                        <li><strong><em>About Us</em> page</strong>:
-                          This page is used for module admin purposes. <mark>Please follow the format closely</mark> or else our scripts will not be able to give credit for your work.
-                          <ul>
-                            <li>Replace info of SE-EDU developers with info of your team, including a <mark>suitable photo</mark> as described <trigger trigger="click" for="modal:mid-v12-photo">here</trigger>.</li>
-                            <li>Including the name/photo of the supervisor/lecturer is optional.</li>
-                            <li>The photo of a team member should be <code>doc/images/githbub_username_in_lower_case.png</code> <span class="dimmed">e.g. <code>docs/images/damithc.png</code></span>. <mark>If you photo is in jpg format, name the file as <code>.png</code> anyway</mark>.</li>
-                            <li>Indicate the different roles played and responsibilities held by each team member. You can reassign these <trigger trigger="click" for="modal:midv11-rolesAndResponsibilities">roles and responsibilities <span class="dimmed">(as explained in Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope)</span></trigger> later in the project, if necessary.</li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <modal large title="Admin <md>:glyphicon-log-in:</md> Choosing a profile photo" id="modal:mid-v12-photo" class="algolia-no-index">
-                          <div>
-                          <ul>
-                            <li>
-                              <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
-                                <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
-                            </li>
-                            <li>
-                              <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you can request permission to omit your photo from the page by writing to prof.</p>
-                            </li>
-                          </ul>
-                        </div>
-                      </modal>
-                      <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope (extract): roles and responsibilities" id="modal:midv11-rolesAndResponsibilities" class="algolia-no-index">
-                          <div>
-                          <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
-                          <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities" class="algolia-no-index">
-                            <p>This is a non-exhaustive list; you may define additional roles.</p>
-                            <ul>
-                              <li><em>Team lead</em>: Responsible for overall project coordination.</li>
-                              <li><em>Documentation</em> (short for ‘in charge of documentation’): Responsible for the quality of various project documents.</li>
-                              <li><em>Testing</em>: Ensures the testing of the project is done properly and on time.</li>
-                              <li><em>Code quality</em>: Looks after code quality, ensures adherence to coding standards, etc.</li>
-                              <li><em>Deliverables and deadlines</em>: Ensure project deliverables are done on time and in the right format.</li>
-                              <li><em>Integration</em>: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li>
-                              <li><em>Scheduling and tracking</em>: In charge of defining, assigning, and tracking project tasks.</li>
-                              <li><em>[Tool ABC] expert</em>: <span class="dimmed">e.g. Intellij expert, Git expert, etc.</span> Helps other team member with matters related to the specific tool.</li>
-                              <li><em>In charge of[Component XYZ]</em>: <span class="dimmed">e.g. In charge of <code>Model</code>, <code>UI</code>, <code>Storage</code>, etc.</span> If you are in charge of a component, you are expected to know that component well, and review changes done to that component in v1.3-v1.4.</li>
-                            </ul>
-                          </panel>
-                          <p></p>
-                          <p>Please make sure each of the important roles are assigned to one person in the team. It is OK to have a 'backup' for each role, but <strong>for each aspect there should be one person who is unequivocally the person responsible for it</strong>.</p>
-                        </div>
-                      </modal>
+                      <h4 id="3-draft-the-ug-2"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Draft the UG<a class="fa fa-anchor" href="#3-draft-the-ug-2"></a></h4>
                       <ul>
                         <li>
-                          <p><strong><em>Contact Us</em> Page</strong>: Update to match your product.</p>
-                        </li>
-                        <li>
-                          <p><strong>README.adoc</strong> page: Update it to match your project.</p>
+                          <p><strong>User Guide</strong>:
+                            Draft a user guide in a convenient medium (e.g., a GoogleDoc) to describe what the product would be like when it is at v2.0.</p>
                           <ul>
-                            <li>
-                              <p>Add a UI mockup of your intended final product.<br>
-                                Note that the <mark>image of the UI should be <code>docs/images/Ui.png</code></mark> so that it can be downloaded by our scripts. Limit the file to contain one screenshot/mockup only and ensure the new image is roughly the same <code>height x width</code> proportions as the original one. <span class="dimmed">Reason: when we compile these images from all teams into one page (<a href="https://nus-cs2103-ay1819s1.github.io/cs2103-website/admin/projectList.html">example</a>), yours should not look out of place.</span></p>
-                            </li>
-                            <li>
-                              <p>The original <code>README.adoc</code> file (which doubles as the landing page of your project website) is written to read like the introduction to an SE learning/teaching resource. You should <mark>restructure this page to look like the home page of a real product</mark> (not a school project) targeting real users <span class="dimmed"> e.g. remove references to addressbook-level3, Learning Outcomes etc. mention target users, add a marketing blurb etc.</span> On a related note, also remove <code>Learning Outcomes</code> link and related pages.</p>
-                            </li>
-                            <li>
-                              <p>Update the link of the Travis <em>build status badge</em> (<img src="https://travis-ci.org/se-edu/addressbook-level4.svg?branch=master" alt="Build Status">) so that it reflects the build status of your team repo.<br>
-                                For the other badges,</p>
-                              <ul>
-                                <li>either set up the respective tool for your project (AB-4 Developer Guide has instructions on how to set up AppVeyor and Coveralls) and update the badges accordingly,</li>
-                                <li>or remove the badge.</li>
-                              </ul>
-                            </li>
-                            <li>
-                              <p>Acknowledge the original source of the code i.e. AddressBook-Level4 project created by SE-EDU initiative at <code>https://github.com/se-edu/</code></p>
-                            </li>
+                            <li>We recommend that you follow the existing <a href="https://nus-CS2103-ay1920s1.github.io/addressbook-level3/UserGuide.html">AB3 User Guide</a> in terms of structure and format.</li>
+                            <li>As this is a very rough draft and the final version will be in a different format altogether <span class="dimmed">(i.e., in asciidoc format)</span>, don't waste time in formatting, copy editing etc. It is fine as long as the tutor can get a rough idea of the features from this draft. You can also do just the 'Features' section and omit the other parts.</li>
+                            <li>Do try to come up with concrete command syntax for feature that you would implement (at least for those that you will implement by v1.4).</li>
+                            <li>Consider including some UI mock-ups too <span class="dimmed">(they can be hand-drawn or created using a tool such as PowerPoint, PlantUML or <a href="https://balsamiq.com/">Balsamiq</a>)</span>.<br><br></li>
                           </ul>
-                        </li>
-                        <li>
-                          <p><strong>User Guide</strong>: Start moving the content from your User Guide (draft created in previous weeks) into the User Guide page in your repository. If a feature is not implemented, mark it as 'Coming in v2.0' (<a href="https://se-edu.github.io/addressbook-level4/UserGuide.html#encrypting-data-files-code-coming-in-v2-0-code">example</a>).</p>
-                        </li>
-                        <li>
-                          <p><strong>Developer Guide</strong>: Similar to the User Guide, start moving the content from your Developer Guide (draft created in previous weeks) into the Developer Guide page in your team repository.</p>
-                        </li>
-                      </ul>
-                      <p><strong><big>Product:</big></strong></p>
-                      <ul>
-                        <li>
-                          <p>Each member can attempt to do a <tooltip content="a change impacting only one component">local-impact</tooltip> change to the code base.</p>
-                          <p><strong>Objective</strong>: To familiarize yourself with at least one <tooltip content="components as stated in the [Developer Guide: Architecture]">components</tooltip> of the product.</p>
-                          <p><strong>Description</strong>: Divide the components among yourselves. Each member can do some small enhancements to their component(s) to learn the code of that component. Some suggested enhancements are given in the <a href="https://nus-cs2103-AY1920S1.github.io/addressbook-level4/DeveloperGuide.html#improving-each-component">AddressBook-Level4 developer guide</a>.</p>
-                          <p><strong>Submission</strong>: Create PRs from your own fork to your team repo. Get it merged by following your team's workflow.</p>
+                          <tip-box>
+                            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is highly recommended that you <strong>divide documentation work (in the User Guide and the Developer Guide) among team members based on enhancements/features each person would be adding</strong> <span class="dimmed"> e.g., If you are the person planing to add a feature X, you should be the person to describe the feature X in the User Guide and in the Developer Guide</span>. For features that are not planned to be implemented by v1.4, you can divide them based on who will be implementing them <em>if</em> the project were to continue until v2.0 (hypothetically).</p>
+                            <p><span class="dimmed">Reason: In the final project evaluation your documentation skills will be graded based on sections of the User/Developer Guide you have written.</span></p>
+                          </tip-box>
                         </li>
                       </ul>
                     </div>
-                    <p></p>
-                  </div>
-                </modal>
-              </div>
-              <div id="product">
-                <h3 id="v1-1-product">v1.1 Product<a class="fa fa-anchor" href="#v1-1-product"></a></h3>
-                <ul>
-                  <li>Each member should try to add some enhancements that are in line with the vision for v2.0. After adding some <em>local-impact</em> changes as recommended in <trigger trigger="click" for="modal:v11docs-midv11">mid-v1.1 progress guide</trigger>, attempt to do some <mark>
-                      <tooltip content="should go beyond the component you are in charge of"><em>global-impact</em></tooltip> enhancements
-                    </mark>, touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> F: Handling teamwork issues <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <p>If your team is facing difficulties due to differences in skill/motivation /availability among team members,</p>
-            <ul>
-              <li>
-                <p><strong>First, do not expect everyone to have the same skill/motivation level as you.</strong> It is fine if someone wants to do less and have low expectations from the module. That doesn't mean that person is a bad person. Everyone is entitled to have their own priorities.</p>
-              </li>
-              <li>
-                <p><strong>Second, don't give up.</strong> It is unfortunate that your team ended up in this situation, but you can turn it into a good learning opportunity. You don't get an opportunity to save a sinking team every day 😃</p>
-              </li>
-              <li>
-                <p><strong>Third, if you care about your grade and willing to work for it, you need to take initiative</strong> to turn the situation around or else the whole team is going to suffer. Don't hesitate to take charge if the situation calls for it. By doing so, you'll be doing a favor for your team. Be professional, kind, and courteous to the team members, but also be firm and assertive. It is your grade that is at stake. Don't worry about making a bad situation worse. You won't know until you try.</p>
-              </li>
-              <li>
-                <p><strong>Finally, don't feel angry or 'wronged'.</strong> Teamwork problems are not uncommon in this module and we know how to grade so that you will not be penalized for others' low contribution. We can use Git to find exactly what others did. It's not your responsibility to get others to contribute.</p>
-              </li>
-            </ul>
-            <p>Given below are some suggestions you can adopt if the project work is not going smooth due to team issues. Note that the below measures can result in some team members doing more work than others and earning better project grades than others. It is still better than sinking the whole team together.</p>
-            <ul>
-              <li>
-                <p><strong>Redistribute the work</strong>: Stronger programmers in the team should take over the critical parts of the code.</p>
-              </li>
-              <li>
-                <p><strong>Enforce stricter integration workflow</strong>: Appoint an integrator (typically, the strongest programmer). His/her job is to maintain the integrated version of the code. He/she should not accept any code that breaks the existing product or is not up to the acceptable quality standard. It is up to others to submit acceptable code to the integrator. Note that if the integrator rejected your code unreasonably, you can still earn marks for that code. You are allowed to submit such 'rejected' code for grading. They can earn marks based on the quality of the code.</p>
-              </li>
-            </ul>
-            <p><strong>If you have very unreliable or totally disengaged team members</strong> :</p>
-            <ul>
-              <li>Re-allocate to others any mission-critical work allocated to that person so that such team members cannot bring down the entire team.</li>
-              <li>However, do not leave out such team members from project communications. Always keep them in the loop so that they can contribute any time they wish to.</li>
-              <li>Furthermore, evaluate them sincerely and fairly during peer evaluations so that they do get the grade their work deserves, no more, no less.</li>
-              <li>Be courteous to such team members too. Some folks have genuine problems that prevent them from contributing more although they may not be able tell you the reasons. Just do your best for the project and assume everyone else is doing their best too, although their best may be lower than yours.</li>
-            </ul>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why I’m not allowed to use my favorite tool/framework/language etc.? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc">Why I’m not allowed to use my favorite tool/framework/language etc.? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc"></a></h3>
-            <div class="indented">
-              <div>
-                <img src="/website/admin/images/I'm not allowed to use my favorite tool.png" width="750" height="287">
-                <p>We have chosen a basic set of tools after considering ease of learning, availability, typical-ness, popularity, migration path to other tools, etc. There are many reasons for limiting your choices:</p>
-                <p>Pedagogical reasons:</p>
-                <ul>
-                  <li><strong>Sometimes 'good enough', not necessarily the best, tools are a better fit for beginners</strong>: Most bleeding edge, most specialized, or most sophisticated tools are not suitable for a beginner course. After mastering our toolset, you will find it easy to upgrade to such high-end tools by yourself. We do expect you to eventually (after this module) migrate to better tools and, having learned more than one tool, to attain a more general understanding about a family of tools.</li>
-                  <li><strong>We want you to learn to thrive under given conditions</strong>: As a professional Software Engineer, you must learn to be productive in any given tool environment, rather than insist on using your preferred tools. It is usually in small companies doing less important work that you get to chose your own toolset. Bigger companies working on mature products often impose some choices on developers, such as the project management tool, code repository, IDE, language etc. For example, Google used SVN as their revision control software until very recently, long after SVN fell out of popularity among developers. Sometimes this is due to cost reasons (tool licensing cost), and sometimes due to legacy reasons (because the tool is already entrenched in their code base).<br>
-                    While programming in school is often a solo sport, programming in the industry is a team sport. As we are training you to become professional software engineers, it is important to get over the psychological hurdle of needing to satisfy individual preferences and get used to making the best of a given environment.</li>
-                </ul>
-                <p>Practical reasons:</p>
-                <ul>
-                  <li>Some of the topics are tightly coupled to tools. Allowing more tools means tutors need to learn more tools, which increases their workload.</li>
-                  <li>We provide learning resources for tools. e.g. 'Git guides'. Allowing more tools means we need to produce more resources.</li>
-                  <li>When all students use the same tool, the collective expertise of the tool is more, increasing the opportunities for you to learn from each others.</li>
-                </ul>
-                <p>Meanwhile, feel free to share with peers your experience of using other tools.</p>
+                  </modal>
+                </div>
+                <div id="product">
+                  <h3 id="v1-1-product">v1.1 Product<a class="fa fa-anchor" href="#v1-1-product"></a></h3>
+                  <ul>
+                    <li>Each member should try to add some enhancements that are in line with the vision for v2.0. After adding some <em>local-impact</em> changes as recommended in <trigger trigger="click" for="modal:v11docs-midv11">mid-v1.1 progress guide</trigger>, attempt to do some <mark>
+                        <tooltip content="should go beyond the component you are in charge of"><em>global-impact</em></tooltip> enhancements
+                      </mark>, touching as many other components as possible. Refer to the AddressBook-Level4 Developer Guide has <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level4/DeveloperGuide.html#creating-a-new-command-code-remark-code">some guidance on how to implement a new feature end-to-end</a>.</li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> F: Handling teamwork issues <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <p>If your team is facing difficulties due to differences in skill/motivation /availability among team members,</p>
+              <ul>
+                <li>
+                  <p><strong>First, do not expect everyone to have the same skill/motivation level as you.</strong> It is fine if someone wants to do less and have low expectations from the module. That doesn't mean that person is a bad person. Everyone is entitled to have their own priorities.</p>
+                </li>
+                <li>
+                  <p><strong>Second, don't give up.</strong> It is unfortunate that your team ended up in this situation, but you can turn it into a good learning opportunity. You don't get an opportunity to save a sinking team every day 😃</p>
+                </li>
+                <li>
+                  <p><strong>Third, if you care about your grade and willing to work for it, you need to take initiative</strong> to turn the situation around or else the whole team is going to suffer. Don't hesitate to take charge if the situation calls for it. By doing so, you'll be doing a favor for your team. Be professional, kind, and courteous to the team members, but also be firm and assertive. It is your grade that is at stake. Don't worry about making a bad situation worse. You won't know until you try.</p>
+                </li>
+                <li>
+                  <p><strong>Finally, don't feel angry or 'wronged'.</strong> Teamwork problems are not uncommon in this module and we know how to grade so that you will not be penalized for others' low contribution. We can use Git to find exactly what others did. It's not your responsibility to get others to contribute.</p>
+                </li>
+              </ul>
+              <p>Given below are some suggestions you can adopt if the project work is not going smooth due to team issues. Note that the below measures can result in some team members doing more work than others and earning better project grades than others. It is still better than sinking the whole team together.</p>
+              <ul>
+                <li>
+                  <p><strong>Redistribute the work</strong>: Stronger programmers in the team should take over the critical parts of the code.</p>
+                </li>
+                <li>
+                  <p><strong>Enforce stricter integration workflow</strong>: Appoint an integrator (typically, the strongest programmer). His/her job is to maintain the integrated version of the code. He/she should not accept any code that breaks the existing product or is not up to the acceptable quality standard. It is up to others to submit acceptable code to the integrator. Note that if the integrator rejected your code unreasonably, you can still earn marks for that code. You are allowed to submit such 'rejected' code for grading. They can earn marks based on the quality of the code.</p>
+                </li>
+              </ul>
+              <p><strong>If you have very unreliable or totally disengaged team members</strong> :</p>
+              <ul>
+                <li>Re-allocate to others any mission-critical work allocated to that person so that such team members cannot bring down the entire team.</li>
+                <li>However, do not leave out such team members from project communications. Always keep them in the loop so that they can contribute any time they wish to.</li>
+                <li>Furthermore, evaluate them sincerely and fairly during peer evaluations so that they do get the grade their work deserves, no more, no less.</li>
+                <li>Be courteous to such team members too. Some folks have genuine problems that prevent them from contributing more although they may not be able tell you the reasons. Just do your best for the project and assume everyone else is doing their best too, although their best may be lower than yours.</li>
+              </ul>
+            </div>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why I’m not allowed to use my favorite tool/framework/language etc.? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc">Why I’m not allowed to use my favorite tool/framework/language etc.? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc"></a></h3>
+              <div class="indented">
+                <div>
+                  <img src="/website/admin/images/I'm not allowed to use my favorite tool.png" width="750" height="287">
+                  <p>We have chosen a basic set of tools after considering ease of learning, availability, typical-ness, popularity, migration path to other tools, etc. There are many reasons for limiting your choices:</p>
+                  <p>Pedagogical reasons:</p>
+                  <ul>
+                    <li><strong>Sometimes 'good enough', not necessarily the best, tools are a better fit for beginners</strong>: Most bleeding edge, most specialized, or most sophisticated tools are not suitable for a beginner course. After mastering our toolset, you will find it easy to upgrade to such high-end tools by yourself. We do expect you to eventually (after this module) migrate to better tools and, having learned more than one tool, to attain a more general understanding about a family of tools.</li>
+                    <li><strong>We want you to learn to thrive under given conditions</strong>: As a professional Software Engineer, you must learn to be productive in any given tool environment, rather than insist on using your preferred tools. It is usually in small companies doing less important work that you get to chose your own toolset. Bigger companies working on mature products often impose some choices on developers, such as the project management tool, code repository, IDE, language etc. For example, Google used SVN as their revision control software until very recently, long after SVN fell out of popularity among developers. Sometimes this is due to cost reasons (tool licensing cost), and sometimes due to legacy reasons (because the tool is already entrenched in their code base).<br>
+                      While programming in school is often a solo sport, programming in the industry is a team sport. As we are training you to become professional software engineers, it is important to get over the psychological hurdle of needing to satisfy individual preferences and get used to making the best of a given environment.</li>
+                  </ul>
+                  <p>Practical reasons:</p>
+                  <ul>
+                    <li>Some of the topics are tightly coupled to tools. Allowing more tools means tutors need to learn more tools, which increases their workload.</li>
+                    <li>We provide learning resources for tools. e.g. 'Git guides'. Allowing more tools means we need to produce more resources.</li>
+                    <li>When all students use the same tool, the collective expertise of the tool is more, increasing the opportunities for you to learn from each others.</li>
+                  </ul>
+                  <p>Meanwhile, feel free to share with peers your experience of using other tools.</p>
+                </div>
+              </div>
+            </div>
+          </panel>
+          <p></p>
+        </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-7-sep-30">Week 7 [Sep 30]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-7-sep-30-admin-info">Week 7 [Sep 30] - Admin Info&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#other-admin-info-you-may-want-to-read-this-week">+ Other admin info you may want to read this week:&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -1480,7 +1732,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

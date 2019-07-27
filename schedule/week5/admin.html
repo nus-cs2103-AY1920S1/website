@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="MarkBind 2.5.3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS2103/T Website - Week 5 - Admin Info</title>
+  <title>CS2103/T Website - Week - </title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="../../markbind/fontawesome/css/all.min.css">
@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -86,82 +87,93 @@
     </header>
     <div id="flex-body">
       <div id="content-wrapper">
-        <p><span style="float:left"><span><a href="/website/schedule/week4/"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> Previous Week</a></span></span><span style="float:right"><span><a href="/website/schedule/week6/">Next Week <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a></span></span><br></p>
-        <h1 id="week-5-sep-9">Week 5 <small><small><span class="dimmed">[Sep 9]</span></small></small><a class="fa fa-anchor" href="#week-5-sep-9"></a></h1>
-        <ul class="nav nav-tabs">
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Notices</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
-          <li class="nav-item"><a class="nav-link" href="/website/schedule/week5/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/website/schedule/week5/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
-        </ul>
+        <nav>
+          <ul class="pagination mt-2">
+            <li class="page-item"><a class="page-link" href="/website/schedule/week4"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5/index.html"><span><span aria-hidden="true" class="fas fa-bell"></span></span> Summary</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5/topics.html"><span><span aria-hidden="true" class="fas fa-book"></span></span> Topics</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5/project.html"><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project</a></li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week5/tutorial-cs2103.html"><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span> Tutorial</a></li>
+            <li class="page-item active"><a class="page-link" href="/website/schedule/week5/admin.html"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Admin Info</a></li>
+            <li class="page-item">&nbsp;&nbsp;&nbsp;</li>
+            <li class="page-item"><a class="page-link" href="/website/schedule/week6"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li>
+          </ul>
+        </nav>
         <p></p>
+        <h1 id="week-5-sep-9-admin-info">Week 5 <small><small><span class="dimmed">[Sep 9]</span> - Admin Info</small></small><a class="fa fa-anchor" href="#week-5-sep-9-admin-info"></a></h1>
         <div id="additional"></div>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on project work distribution <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="policy-on-project-work-distribution">Policy on project work distribution <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-project-work-distribution"></a></h3>
-            <div class="indented">
-              <div>
-                <p>As most of the work is graded individually, it is OK to do less or more than equal share in your project team.</p>
-                <p><span class="flat"><span class="dimmed">Related: [<a href="#individual-expectations">Admin: Project: Scope</a>]</span></span>
-                  <panel src="/website/admin/project-scope._include_.html#individual-expectations" header="Admin <md>:glyphicon-log-in:</md> Project → Scope: Expectations from each student" class="embedding algolia-no-index" minimized fragment="individual-expectations"></panel>
-                </p>
+        <h4 id="other-admin-info-you-may-want-to-read-this-week"><span class="badge badge-pill badge-dark p-2"><big><big>+</big></big></span> Other admin info you may want to read this week:<a class="fa fa-anchor" href="#other-admin-info-you-may-want-to-read-this-week"></a></h4>
+        <div class="indented">
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on project work distribution <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="policy-on-project-work-distribution">Policy on project work distribution <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-project-work-distribution"></a></h3>
+              <div class="indented">
+                <div>
+                  <p>As most of the work is graded individually, it is OK to do less or more than equal share in your project team.</p>
+                  <p><span class="flat"><span class="dimmed">Related: [<a href="#individual-expectations">Admin: Project: Scope</a>]</span></span>
+                    <panel src="/website/admin/project-scope._include_.html#individual-expectations" header="Admin <md>:glyphicon-log-in:</md> Project → Scope: Expectations from each student" class="embedding algolia-no-index" minimized fragment="individual-expectations"></panel>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on email response time <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="policy-on-email-response-time">Policy on email response time <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-email-response-time"></a></h3>
-            <div class="indented">
-              <div>
-                <p><strong>Normally, the prof will respond within 24 hours</strong> if it was an email sent to the prof or a forum post directed at the prof. If you don't get a response within that time, <strong>please feel free to remind the prof</strong>. It is likely that the prof did not notice your post or the email got stuck somewhere.</p>
-                <p>Similarly we expect you to check email regularly and respond to emails written to you personally (not mass email) promptly.</p>
-                <panel header="Email etiquette: ALWAYS respond to direct emails" expanded>
-                  <p>Not responding to a personal email is a major breach of professional etiquette (and general civility). Imagine how pissed off you would be if you met the prof along the corridor, said 'Hi prof, good morning' and the prof walked away without saying anything back. Not responding to a personal email is just as bad. Always take a few seconds to at least acknowledge such emails.  It doesn't take long to type &quot;Noted. Thanks&quot; and hit 'send'.</p>
-                  <p>The promptness of a reply is even more important when the email is requesting you for something that you cannot provide. Imagine you wrote to the prof requesting a reference letter and the prof did not respond at all because he/she did not want to give you one; You'll be quite frustrated because you wouldn't know whether to look for another prof or wait longer for a response. Saying 'No' is fine and in fact a necessary part of professional life; but saying nothing is not acceptable. If you didn't reply, the sender will not even know whether you received the email.</p>
-                </panel>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on email response time <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="policy-on-email-response-time">Policy on email response time <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-email-response-time"></a></h3>
+              <div class="indented">
+                <div>
+                  <p><strong>Normally, the prof will respond within 24 hours</strong> if it was an email sent to the prof or a forum post directed at the prof. If you don't get a response within that time, <strong>please feel free to remind the prof</strong>. It is likely that the prof did not notice your post or the email got stuck somewhere.</p>
+                  <p>Similarly we expect you to check email regularly and respond to emails written to you personally (not mass email) promptly.</p>
+                  <panel header="Email etiquette: ALWAYS respond to direct emails" expanded>
+                    <p>Not responding to a personal email is a major breach of professional etiquette (and general civility). Imagine how pissed off you would be if you met the prof along the corridor, said 'Hi prof, good morning' and the prof walked away without saying anything back. Not responding to a personal email is just as bad. Always take a few seconds to at least acknowledge such emails.  It doesn't take long to type &quot;Noted. Thanks&quot; and hit 'send'.</p>
+                    <p>The promptness of a reply is even more important when the email is requesting you for something that you cannot provide. Imagine you wrote to the prof requesting a reference letter and the prof did not respond at all because he/she did not want to give you one; You'll be quite frustrated because you wouldn't know whether to look for another prof or wait longer for a response. Saying 'No' is fine and in fact a necessary part of professional life; but saying nothing is not acceptable. If you didn't reply, the sender will not even know whether you received the email.</p>
+                  </panel>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on grading smaller/larger teams <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="policy-on-grading-smaller-larger-teams">Policy on grading smaller/larger teams <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-grading-smaller-larger-teams"></a></h3>
-            <div class="indented">
-              <div>
-                <p>As most of the work is graded individually, team sizes of 3, 4, or 5 is not expected to affect your grade. While managing larger teams is harder, larger teams have more collective know-how, which can cancel each other.</p>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on grading smaller/larger teams <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="policy-on-grading-smaller-larger-teams">Policy on grading smaller/larger teams <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-grading-smaller-larger-teams"></a></h3>
+              <div class="indented">
+                <div>
+                  <p>As most of the work is graded individually, team sizes of 3, 4, or 5 is not expected to affect your grade. While managing larger teams is harder, larger teams have more collective know-how, which can cancel each other.</p>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
-        <panel type="default" no-close expandable="true" class="algolia-no-index">
-          <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why so much bean counting? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-          <div>
-            <h3 id="why-so-much-bean-counting">Why so much bean counting? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-so-much-bean-counting"></a></h3>
-            <div class="indented">
-              <div>
-                <img src="/website/admin/images/small things matter.png" width="600" height="300">
-                <p>Sometimes, small things matter in big ways. e.g., all other things being equal, a job may be offered to the candidate who has the neater looking CV although both have the same qualifications. This may be unfair, but that's how the world works. Students forget this harsh reality when they are in the protected environment of the school and tend to get sloppy with their work habits. That is why we reward all positive behavior, even small ones (e.g., following precise submission instructions, arriving on time etc.).</p>
-                <p>But unlike the real world, we are forgiving. That is why you can still earn full 10 marks of the participation marks even if you miss a few things here and there.</p>
-                <p>Related article: <a href="http://www.businessinsider.sg/conscientiousness-predicts-success-2014-4/#.Vewqb_mqpBc">This Is The Personality Trait That Most Often Predicts Success</a> (this is why we reward things like punctuality).</p>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why so much bean counting? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <div>
+              <h3 id="why-so-much-bean-counting">Why so much bean counting? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-so-much-bean-counting"></a></h3>
+              <div class="indented">
+                <div>
+                  <img src="/website/admin/images/small things matter.png" width="600" height="300">
+                  <p>Sometimes, small things matter in big ways. e.g., all other things being equal, a job may be offered to the candidate who has the neater looking CV although both have the same qualifications. This may be unfair, but that's how the world works. Students forget this harsh reality when they are in the protected environment of the school and tend to get sloppy with their work habits. That is why we reward all positive behavior, even small ones (e.g., following precise submission instructions, arriving on time etc.).</p>
+                  <p>But unlike the real world, we are forgiving. That is why you can still earn full 10 marks of the participation marks even if you miss a few things here and there.</p>
+                  <p>Related article: <a href="http://www.businessinsider.sg/conscientiousness-predicts-success-2014-4/#.Vewqb_mqpBc">This Is The Personality Trait That Most Often Predicts Success</a> (this is why we reward things like punctuality).</p>
+                </div>
               </div>
             </div>
-          </div>
-        </panel>
-        <p></p>
+          </panel>
+          <p></p>
+        </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-5-sep-9">Week 5 [Sep 9]&#x200E;</a>
+            <a class="nav-link py-1" href="#week-5-sep-9-admin-info">Week 5 [Sep 9] - Admin Info&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#other-admin-info-you-may-want-to-read-this-week">+ Other admin info you may want to read this week:&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -169,7 +181,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>

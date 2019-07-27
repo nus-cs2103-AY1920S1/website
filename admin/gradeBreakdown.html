@@ -40,6 +40,7 @@
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
+          <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
           <li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Aug 12] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Aug 19] </span></a></li>
           <li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Aug 26] </span></a></li>
@@ -131,8 +132,8 @@
                   <li class="mt-2"><small><a href="/website/admin/project-constraints.html" class="site-nav__a">tP: Constraints</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-teams.html" class="site-nav__a">tP: Forming Teams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-timeline.html" class="site-nav__a">tP: Timeline</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w03-kickoff.html" class="site-nav__a">tP: inception [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-w04-inception.html" class="site-nav__a">tP: mid-v1.0 [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w03-kickoff.html" class="site-nav__a">tP: Kickoff [week 3]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-w04-inception.html" class="site-nav__a">tP: Inception [week 4]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w05-v10.html" class="site-nav__a">tP: v1.0 [week 5]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w06-mid-v11.html" class="site-nav__a">tP: mid-v1.1 [week 6]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w07-v11.html" class="site-nav__a">tP: v1.1 [week 7]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -143,7 +144,7 @@
                   <li class="mt-2"><small><a href="/website/admin/project-w12-mid-v14.html" class="site-nav__a">tP: mid-v1.4 [week 12]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-w13-v14.html" class="site-nav__a">tP: v1.4 [week 13]</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-deliverables.html" class="site-nav__a">tP: Deliverables</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
-                  <li class="mt-2"><small><a href="/website/admin/project-assessment.html" class="site-nav__a">tP: Assessment</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
+                  <li class="mt-2"><small><a href="/website/admin/project-grading.html" class="site-nav__a">tP: Grading</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-supervision.html" class="site-nav__a">tP: Supervision</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                 </ul>
               </div>
@@ -245,7 +246,7 @@
                           <li>Rarely misses compulsory module activities such as pre-module survey.</li>
                         </ul>
                       </li>
-                      <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc.</li>
+                      <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
                     </ul>
                     <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
                     <ul>
@@ -298,7 +299,7 @@
                   <li>If a question is not clear, you can circle the question number in the question paper and write your doubt in the question paper, near that question.</li>
                   <li>If your doubt is justified <span class="dimmed">(e.g. there is a typo in the question)</span> or if many students found the question to be unclear, the examiner may decide to omit that question from grading.</li>
                 </ul>
-                <p><strong>Questions in Part 1 are confidential.</strong> You are not allowed to reveal Part 1 content to anyone after the exam. All pages of the assessment paper are to be returned at the end of the exam.</p>
+                <p><strong>Questions in Part 1 are confidential.</strong> You are not allowed to reveal Part 1 content to anyone after the exam. All pages of the exam paper are to be returned at the end of the exam.</p>
                 <div class="full-mode">
                   <p>You will be given OCR forms <span class="dimmed">(i.e., bubble sheets)</span> to indicate your answers for Part 1. As each OCR form can accommodate only 50 answers, you will be given 2 OCR forms. <strong>Indicate your student number in both OCR forms</strong>.</p>
                 </div>
@@ -343,16 +344,16 @@
             </p>
             <div class="flat">
               <div>
-                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-projectAssessment">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Assessment</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-projectGrading">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
               </div>
             </div>
-            <modal large title="Admin <md>:glyphicon-log-in:</md> Project Assessment  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-projectAssessment" class="algolia-no-index">
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Project Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-projectGrading" class="algolia-no-index">
                 <div>
                 <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2103T projects will be assessed separately from CS2103 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
                 <p><strong>Total</strong>: 50 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 40 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
                 <p>See the sections below for details of how we assess each aspect.</p>
                 <hr>
-                <h4 id="1-project-assessment-product-design-5-marks">1. Project Assessment: Product Design <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 marks]</span><a class="fa fa-anchor" href="#1-project-assessment-product-design-5-marks"></a></h4>
+                <h4 id="1-project-grading-product-design-5-marks">1. Project Grading: Product Design <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 marks]</span><a class="fa fa-anchor" href="#1-project-grading-product-design-5-marks"></a></h4>
                 <p><strong>Evaluates:</strong> how well your features fit together to form a cohesive product (not how many features or how big the features are) and how well does it match the target user</p>
                 <p><strong>Evaluated by:</strong></p>
                 <ul>
@@ -397,7 +398,7 @@
                   </div>
                 </blockquote>
                 <hr>
-                <h4 id="2-project-assessment-implementation-15-marks">2. Project Assessment: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 15 marks]</span><a class="fa fa-anchor" href="#2-project-assessment-implementation-15-marks"></a></h4>
+                <h4 id="2-project-grading-implementation-15-marks">2. Project Grading: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 15 marks]</span><a class="fa fa-anchor" href="#2-project-grading-implementation-15-marks"></a></h4>
                 <p><strong><big>2A. Code quality</big></strong></p>
                 <p><strong>Evaluates:</strong> the quality of the code you have written yourself</p>
                 <p><strong>Based on:</strong> the parts of the code you claim as written by you</p>
@@ -2305,7 +2306,7 @@ compact(input);
                   </div>
                 </blockquote>
                 <hr>
-                <h4 id="3-project-assessment-qa-10-marks">3. Project Assessment: QA <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#3-project-assessment-qa-10-marks"></a></h4>
+                <h4 id="3-project-grading-qa-10-marks">3. Project Grading: QA <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#3-project-grading-qa-10-marks"></a></h4>
                 <p><big><strong>3A. System/Acceptance Testing:</strong></big></p>
                 <p><strong>Evaluates:</strong> How well you can system-test/acceptance-test a product</p>
                 <p><strong>Based on:</strong></p>
@@ -2319,10 +2320,10 @@ compact(input);
                 <p><strong>Based on:</strong></p>
                 <ol>
                   <li>bugs in your work found by others during the PE</li>
-                  <li>your test code <span class="dimmed">(note <trigger trigger="click" for="modal:projectAssessmentQA-testingExpectations">our expectations for automated testing</trigger>)</span></li>
+                  <li>your test code <span class="dimmed">(note <trigger trigger="click" for="modal:projectGradingQA-testingExpectations">our expectations for automated testing</trigger>)</span></li>
                 </ol>
                 <p><strong>Evaluated by:</strong> tutors (in the capacity of <em>moderators</em> <span class="dimmed">e.g., to verify if it is reasonable for the team to downgrade the severity of a bug you reported</span>)</p>
-                <modal large title="Our expectations for automated testing in the project" id="modal:projectAssessmentQA-testingExpectations" class="algolia-no-index">
+                <modal large title="Our expectations for automated testing in the project" id="modal:projectGradingQA-testingExpectations" class="algolia-no-index">
                     <div>
                     <ul>
                       <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
@@ -2356,7 +2357,7 @@ compact(input);
                   <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">de-duplicating</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
                 </ul>
                 <hr>
-                <h4 id="4-project-assessment-documentation-10-marks">4. Project Assessment: Documentation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#4-project-assessment-documentation-10-marks"></a></h4>
+                <h4 id="4-project-grading-documentation-10-marks">4. Project Grading: Documentation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#4-project-grading-documentation-10-marks"></a></h4>
                 <p><strong>Evaluates:</strong> the quality of the sections you wrote for the user guide and the developer guide</p>
                 <p><strong>Based on:</strong> the relevant sections of your PPP.</p>
                 <p><strong>Evaluated by:</strong> tutors, peers from own team and other teams</p>
@@ -2397,7 +2398,7 @@ compact(input);
                   </div>
                 </blockquote>
                 <hr>
-                <h4 id="5-project-assessment-project-management-5-5-10-marks">5. Project Assessment: Project Management <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 + <span><span aria-hidden="true" class="fas fa-user"></span></span> 5 = 10 marks]</span><a class="fa fa-anchor" href="#5-project-assessment-project-management-5-5-10-marks"></a></h4>
+                <h4 id="5-project-grading-project-management-5-5-10-marks">5. Project Grading: Project Management <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 + <span><span aria-hidden="true" class="fas fa-user"></span></span> 5 = 10 marks]</span><a class="fa fa-anchor" href="#5-project-grading-project-management-5-5-10-marks"></a></h4>
                 <div id="project-management-grading">
                   <p><big><strong>5A. Process:</strong></big></p>
                   <p><strong>Evaluates:</strong> How well you did in project management related aspects of the project, as an individual and as a team</p>
@@ -2419,10 +2420,10 @@ compact(input);
                   <p>To earn full marks, you should have done a fair share of the team tasks. You can earn bonus marks by doing more than your fair share.</p>
                   <div class="flat">
                     <div>
-                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectAssessment-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectGrading-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                     </div>
                   </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectAssessment-exmapleTeamTasks" class="algolia-no-index">
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectGrading-exmapleTeamTasks" class="algolia-no-index">
                       <div>
                       <p>Here is a non-exhaustive list of team-tasks:</p>
                       <ol>
@@ -2448,7 +2449,7 @@ compact(input);
               </div>
             </modal>
             <p>
-              <panel src="/website/admin/project-assessment._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Project Assessment  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
+              <panel src="/website/admin/project-grading._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Project Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
             </p>
           </div>
           <br>
@@ -2462,7 +2463,7 @@ compact(input);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 25 Jul 2019 16:04:48 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
     </footer>
   </div>
 </body>
