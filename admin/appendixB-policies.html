@@ -27,13 +27,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
   <link rel="stylesheet" href="../markbind/layouts/default/styles.css">
   <link rel="stylesheet" href="../markbind/css/site-nav.css">
-
+  <link rel="stylesheet" href="../markbind/css/page-nav.css">
   <link rel="stylesheet" href="/website/css/main.css">
   <link rel="stylesheet" href="/website/css/admin.css">
   <link rel="icon" href="/website/favicon.ico">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
       <navbar placement="top" type="dark" class="temp-navbar">
@@ -625,10 +625,35 @@ method 2 ...
             </span></p>
         </div>
       </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#b-module-policies">B: Module Policies &#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#policy-on-following-instructions">Policy on following instructions &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-grading-smaller-larger-teams">Policy on grading smaller/larger teams &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-project-work-distribution">Policy on project work distribution &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-absence-due-to-valid-reasons-e-g-mc-loa-university-events">Policy on absence due to valid reasons (e.g. MC, LOA, University events) &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-email-response-time">Policy on email response time &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-tech-help">Policy on tech help &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-publishing-submissions">Policy on publishing submissions &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-plagiarism">Policy on plagiarism &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-reuse">Policy on reuse &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#giving-credit-for-reused-work">Giving credit for reused work&#x200E;</a>
+              </nav>
+              <a class="nav-link py-1" href="#policy-on-help-from-outsiders">Policy on help from outsiders &#x200E;</a>
+              <a class="nav-link py-1" href="#policy-on-suggested-length-for-submissions">Policy on suggested length for submissions &#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 27 Jul 2019 15:40:22 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 28 Jul 2019 16:11:54 GMT</small></div>
     </footer>
   </div>
 </body>

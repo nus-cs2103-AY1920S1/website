@@ -10,6 +10,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixA-principles.md",
       "layout": "default"
     },
@@ -34,6 +35,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixB-policies.md",
       "layout": "default"
     },
@@ -61,6 +63,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixC-faq.md",
       "layout": "default"
     },
@@ -73,6 +76,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixD-help.md",
       "layout": "default"
     },
@@ -95,6 +99,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixE-gitHub.md",
       "layout": "default"
     },
@@ -107,6 +112,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/appendixF-teamworkIssues.md",
       "layout": "default"
     },
@@ -121,6 +127,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/exams.md",
       "layout": "default"
     },
@@ -139,6 +146,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/gradeBreakdown.md",
       "layout": "default"
     },
@@ -151,6 +159,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/index.md",
       "layout": "default"
     },
@@ -163,6 +172,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/instructors.md",
       "layout": "default"
     },
@@ -175,6 +185,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-grading.md",
       "layout": "default"
     },
@@ -187,6 +198,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-overview.md",
       "layout": "default"
     },
@@ -202,6 +214,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w02.md",
       "layout": "default"
     },
@@ -218,6 +231,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w03.md",
       "layout": "default"
     },
@@ -233,6 +247,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w04.md",
       "layout": "default"
     },
@@ -248,6 +263,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w05.md",
       "layout": "default"
     },
@@ -262,6 +278,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/ip-w06.md",
       "layout": "default"
     },
@@ -274,6 +291,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/lectures.md",
       "layout": "default"
     },
@@ -289,6 +307,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/moduleExpectations.md",
       "layout": "default"
     },
@@ -301,6 +320,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/moduleOverview.md",
       "layout": "default"
     },
@@ -313,6 +333,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/participation.md",
       "layout": "default"
     },
@@ -325,6 +346,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/peerEvaluations.md",
       "layout": "default"
     },
@@ -338,6 +360,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/programmingLanguages.md",
       "layout": "default"
     },
@@ -350,6 +373,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-constraints.md",
       "layout": "default"
     },
@@ -375,6 +399,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-deliverables.md",
       "layout": "default"
     },
@@ -392,6 +417,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-grading.md",
       "layout": "default"
     },
@@ -404,6 +430,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-overview.md",
       "layout": "default"
     },
@@ -416,6 +443,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-product.md",
       "layout": "default"
     },
@@ -436,6 +464,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-scope.md",
       "layout": "default"
     },
@@ -448,6 +477,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-supervision.md",
       "layout": "default"
     },
@@ -460,6 +490,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-teams.md",
       "layout": "default"
     },
@@ -472,6 +503,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-timeline.md",
       "layout": "default"
     },
@@ -486,6 +518,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w03-kickoff.md",
       "layout": "default"
     },
@@ -501,6 +534,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w04-inception.md",
       "layout": "default"
     },
@@ -515,37 +549,44 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w05-v10.md",
       "layout": "default"
     },
     {
       "headings": {
         "tp-mid-v1-1-week-6": "tP: mid-v1.1 [week 6] ",
-        "1-set-up-project-repo": "1 Set up project repo",
-        "2-get-familiar-with-the-code-base": "2 Get familiar with the code base",
-        "3-draft-the-ug": "3 Draft the UG"
+        "1-set-up-project-repo": "1  Set up project repo",
+        "2-get-familiar-with-the-code-base": "2  Get familiar with the code base",
+        "3-conceptualize-v2-0": "3  Conceptualize v2.0",
+        "4-draft-the-ug": "4  Draft the UG",
+        "5-refine-product-design": "5  Refine product design"
       },
       "title": "Admin: tP: mid-v1.1 [week 6]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w06-mid-v11.md",
       "layout": "default"
     },
     {
       "headings": {
         "tp-v1-1-week-7": "tP: v1.1 [week 7] ",
-        "v1-0-project-management": "v1.0 Project Management",
-        "v1-1-project-management": "v1.1 Project Management",
-        "v1-1-documentation": "v1.1 Documentation",
-        "v1-1-product": "v1.1 Product"
+        "1-update-project-site-aboutus-contactus-readme": "1  update project site: AboutUs, ContactUs, README",
+        "2-update-ug": "2  update UG",
+        "3-update-dg-user-stories-glossary-nfrs-use-cases": "3  update DG: user stories, glossary, NFRs, use cases",
+        "4-wrap-up-v1-1": "4  wrap up v1.1",
+        "5-draft-a-rough-project-plan": "5  draft a rough project plan",
+        "6-start-implementing-a-minimal-version-of-your-feature": "6  start implementing a minimal version of your feature"
       },
       "title": "Admin: tP: v1.1 [week 7]",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w07-v11.md",
       "layout": "default"
     },
@@ -558,6 +599,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w08-mid-v12.md",
       "layout": "default"
     },
@@ -574,6 +616,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w09-v12.md",
       "layout": "default"
     },
@@ -587,6 +630,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w10-mid-v13.md",
       "layout": "default"
     },
@@ -604,6 +648,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w11-v13.md",
       "layout": "default"
     },
@@ -616,6 +661,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w12-mid-v14.md",
       "layout": "default"
     },
@@ -636,6 +682,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/project-w13-v14.md",
       "layout": "default"
     },
@@ -1012,6 +1059,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/textbooks.md",
       "layout": "default"
     },
@@ -1031,6 +1079,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/tools.md",
       "layout": "default"
     },
@@ -1045,6 +1094,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/tutorials.md",
       "layout": "default"
     },
@@ -1067,6 +1117,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/usingThisWebsite.md",
       "layout": "default"
     },
@@ -1079,6 +1130,7 @@
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
       "head": "adminHead.md",
+      "pageNav": 4,
       "src": "admin/weeklySchedule.md",
       "layout": "default"
     },
