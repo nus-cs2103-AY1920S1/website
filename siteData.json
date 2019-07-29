@@ -254,7 +254,7 @@
     {
       "headings": {
         "ip-week-5": "iP: Week 5 ",
-        "1-add-increments-a-assertions-a-codequality-a-lambdas-a-streams": "1 Add increments A-Assertions, A-CodeQuality, A-Lambdas, A-Streams",
+        "1-add-increments-as-prs-a-assertions-a-codequality-a-lambdas-a-streams": "1 Add increments as PRs: A-Assertions, A-CodeQuality, A-Lambdas, A-Streams",
         "2-set-up-ci": "2 Set up CI",
         "3-add-another-extension-tbd": "3 Add another extension [TBD]"
       },
@@ -391,8 +391,7 @@
         "testing-instructions-for-pe-and-pe-dry-run-2": "Testing instructions for PE and PE Dry Run",
         "deliverable-practical-exam": "Deliverable: Practical Exam",
         "testing-instructions-for-pe-and-pe-dry-run-3": "Testing instructions for PE and PE Dry Run",
-        "processing-pe-bug-reports-2": "Processing PE Bug Reports:",
-        "notes-for-those-using-ab-2-or-ab-3-for-the-project": "Notes for Those Using AB-2 or AB-3 for the Project"
+        "processing-pe-bug-reports-2": "Processing PE Bug Reports:"
       },
       "title": "Admin: tP: Deliverables",
       "header": "header.md",
@@ -574,11 +573,11 @@
     {
       "headings": {
         "tp-v1-1-week-7": "tP: v1.1 [week 7] ",
-        "1-update-project-site-aboutus-contactus-readme": "1  update project site: AboutUs, ContactUs, README",
-        "2-update-ug": "2  update UG",
-        "3-update-dg-user-stories-glossary-nfrs-use-cases": "3  update DG: user stories, glossary, NFRs, use cases",
-        "4-wrap-up-v1-1": "4  wrap up v1.1",
-        "5-draft-a-rough-project-plan": "5  draft a rough project plan",
+        "1-update-project-site-aboutus-contactus-readme": "1  Update project site: AboutUs, ContactUs, README",
+        "2-update-ug": "2  Update UG",
+        "3-update-dg-user-stories-glossary-nfrs-use-cases": "3  Update DG: user stories, glossary, NFRs, use cases",
+        "4-wrap-up-v1-1": "4  Wrap up v1.1",
+        "5-draft-a-rough-project-plan": "5  Draft a rough project plan",
         "6-start-implementing-a-minimal-version-of-your-feature": "6  start implementing a minimal version of your feature"
       },
       "title": "Admin: tP: v1.1 [week 7]",
@@ -592,7 +591,10 @@
     },
     {
       "headings": {
-        "tp-mid-v1-2-week-8": "tP: mid-v1.2 [week 8] "
+        "tp-mid-v1-2-week-8": "tP: mid-v1.2 [week 8] ",
+        "1-adjust-process-rigor-if-necessary": "1  Adjust process rigor if necessary",
+        "2-start-proper-milestone-management": "2  Start proper milestone management",
+        "3-add-another-increment-to-your-feature": "3  Add another increment to your feature"
       },
       "title": "Admin: tP: mid-v1.2 [week 8]",
       "header": "header.md",
@@ -606,10 +608,9 @@
     {
       "headings": {
         "tp-v1-2-week-9": "tP: v1.2 [week 9] ",
-        "v1-2-project-management": "v1.2 Project Management",
-        "v1-2-product": "v1.2 Product",
-        "v1-2-documentation": "v1.2 Documentation",
-        "v1-2-demo": "v1.2 Demo"
+        "deliver-an-intermediate-version-of-the-new-features": " Deliver an intermediate version of the new features",
+        "wrap-up-milestone": " Wrap up milestone",
+        "demo-new-features": " Demo new features"
       },
       "title": "Admin: tP: v1.2 [week 9]",
       "header": "header.md",
