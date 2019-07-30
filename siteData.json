@@ -623,8 +623,11 @@
     },
     {
       "headings": {
-        "ensuring-your-code-is-reposense-compatible": "Ensuring your code is RepoSense-Compatible",
-        "tp-mid-v1-3-week-10": "tP: mid-v1.3 [week 10] "
+        "tp-mid-v1-3-week-10": "tP: mid-v1.3 [week 10] ",
+        "1-start-on-the-full-version-of-the-new-features": "1  Start on the full version of the new features",
+        "2-update-dg-with-design-details-important": "2  Update DG with design details  IMPORTANT!",
+        "3-do-a-release": "3  Do a release",
+        "4-make-code-reposense-compatible": "4  Make code RepoSense-compatible"
       },
       "title": "Admin: tP: mid-v1.3 [week 10]",
       "header": "header.md",
@@ -638,11 +641,11 @@
     {
       "headings": {
         "tp-v1-3-week-11": "tP: v1.3 [week 11] ",
-        "v1-3-project-management": "v1.3 Project Management",
-        "v1-3-product": "v1.3 Product",
-        "v1-3-documentation": "v1.3 Documentation",
-        "v1-3-demo": "v1.3 Demo",
-        "v1-3-testing-aka-practical-exam-dry-run": "v1.3 Testing (aka Practical Exam Dry Run)"
+        "1-deliver-the-feature": "1  Deliver the feature",
+        "2-update-user-docs": "2  Update user docs",
+        "3-release-as-a-jar-file": "3  Release as a jar file",
+        "4-wrap-up-milestone": "4  Wrap up milestone",
+        "5-attend-practical-exam-dry-run-during-lecture": "5  Attend practical exam dry run  during Lecture"
       },
       "title": "Admin: tP: v1.3 [week 11]",
       "header": "header.md",
@@ -655,7 +658,11 @@
     },
     {
       "headings": {
-        "tp-mid-v1-4-week-12": "tP: mid-v1.4 [week 12] "
+        "tp-mid-v1-4-week-12": "tP: mid-v1.4 [week 12] ",
+        "1-tweak-the-product-as-per-peer-testing-results": "1  Tweak the product as per peer-testing results",
+        "2-draft-the-ppp": "2  Draft the PPP",
+        "3-prepare-for-the-demo-dry-run": "3  Prepare for the demo dry run",
+        "other-things-to-note": "+  Other things to note"
       },
       "title": "Admin: tP: mid-v1.4 [week 12]",
       "header": "header.md",
@@ -669,14 +676,11 @@
     {
       "headings": {
         "tp-v1-4-week-13": "tP: v1.4 [week 13] ",
-        "v1-4-product": "v1.4 Product",
-        "v1-4-source-code": "v1.4 Source Code",
-        "v1-4-user-guide": "v1.4 User Guide",
-        "v1-4-developer-guide": "v1.4 Developer Guide",
-        "v1-4-project-portfolio-page-ppp": "v1.4 Project Portfolio Page (PPP)",
-        "v1-4-product-website": "v1.4 Product Website",
-        "v1-4-demo": "v1.4 Demo",
-        "v1-4-practical-exam": "v1.4 Practical Exam"
+        "1-do-final-tweaks-to-the-feature": "1  Do final tweaks to the feature",
+        "2-submit-project-by-monday-2359": "2  Submit project  by Monday 2359",
+        "3-demo-product-during-tutorial": "3  Demo product  during Tutorial",
+        "4-prepare-for-practical-exam-before-lecture": "4  Prepare for practical exam  before Lecture",
+        "5-attend-practical-exam-during-lecture": "5  Attend practical exam  during Lecture"
       },
       "title": "Admin: tP: v1.4 [week 13]",
       "header": "header.md",
@@ -983,9 +987,7 @@
       "layout": "default"
     },
     {
-      "headings": {
-        "using-reposense": "Using RepoSense"
-      },
+      "headings": {},
       "src": "admin/reposenseCompatibility.md",
       "title": "",
       "layout": "default"
@@ -1066,7 +1068,6 @@
     },
     {
       "headings": {
-        "using-reposense": "Using RepoSense",
         "tools": "Tools ",
         "tools-used-learning-management-system": "Tools Used: Learning Management System",
         "tool-used-github-for-code-hosting": "Tool Used: GitHub (for Code Hosting)",
