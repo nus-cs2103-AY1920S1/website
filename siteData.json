@@ -85,7 +85,6 @@
         "e-using-github": "E: Using GitHub ",
         "creating-a-github-account": "Creating a GitHub account",
         "setting-git-username-to-match-github-username": "Setting Git Username to Match GitHub Username",
-        "submitting-pull-requests-as-evidence-of-an-lo": "Submitting Pull Requests as evidence of an LO",
         "organization-setup": "Organization setup",
         "repo-setup": "Repo setup",
         "workflow": "Workflow",
@@ -206,7 +205,7 @@
       "headings": {
         "ip-week-2": "iP: Week 2 ",
         "1-set-up-prerequisites": "1 Set up prerequisites",
-        "2-set-up-the-project-in-your-computer": "2 Set up the project in your Computer",
+        "2-set-up-the-project-in-your-computer": "2 Set up the project in your computer",
         "3-implement-increments-while-committing-code-frequently": "3 Implement increments while committing code frequently"
       },
       "title": "Admin: iP: Week 2",
