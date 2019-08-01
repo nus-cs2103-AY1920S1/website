@@ -469,7 +469,7 @@ T | 1 | join sports club
                           <h3 id="a-javafx"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx"></a></h3>
                           <p>     <big>↳</big> <strong>use JavaFX</strong></p>
                         </div>
-                        <p>Use JavaFX to create a GUI.</p>
+                        <p>Use JavaFX to create a GUI. Refer to the JavaFX tutorials at the Duke repo (i.e., the repo you forked from) to learn how to get started.</p>
                       </div>
                     </panel>
                   </div>
@@ -643,6 +643,17 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Add JUnit tests</strong></p>
                     </div>
                     <p>Add JUnit tests to test the behavior of the code.</p>
+                    <p>Notes:</p>
+                    <ul>
+                      <li>Add test code in a folder named <code>[project root]\src\test\java\</code> folder</li>
+                      <li>Name the test class to match the class being tested (<code>Todo.java</code> can be tested by <code>TodoTest.java</code>), and put it in a package to match. For example,
+                        <ul>
+                          <li>Class being tested <code>seedu.duke.Todo</code>: <code>src\main\java\seedu\duke\Todo.java</code></li>
+                          <li>Test class <code>seedu.duke.TodoTest</code>: <code>src\test\java\seedu\duke\TodoTest.java</code></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are <a href="#a-gradle">using Gradle for your project</a>, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use JUnit via Gradle.</p>
                   </div>
                   <hr>
                   <div id="A-Packages">
@@ -679,6 +690,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Use CheckStyle</strong></p>
                     </div>
                     <p>Use checkStyle to detect coding style violations.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are <a href="#a-gradle">using Gradle for your project</a>, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use CheckStyle via Gradle.</p>
                   </div>
                   <hr>
                   <div id="A-CodeQuality">
@@ -706,6 +718,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Package the App as a JAR file</strong></p>
                     </div>
                     <p>Package the app as an executable JAR file so that it can be distributed easily.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are <a href="#a-gradle">using Gradle for your project</a>, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to create a jar file using Gradle.</p>
                   </div>
                   <hr>
                   <div id="A-Gradle">
@@ -714,7 +727,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <h3 id="a-gradle"><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle"></a></h3>
                       <p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p>
                     </div>
-                    <p>Use Gradle to automate some of the build tasks of the project.</p>
+                    <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
                     <ul>
                       <li><strong>Minimal</strong>: Learn how to use Gradle when it is already set up.</li>
                       <li><strong>Recommended</strong>: Learn how to tweak the Gradle gradle set up of for a project.</li>
@@ -782,7 +795,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <h3 id="a-javafx-2"><span class="badge badge-pill badge-primary">A-JavaFx</span><a class="fa fa-anchor" href="#a-javafx-2"></a></h3>
                       <p>     <big>↳</big> <strong>use JavaFX</strong></p>
                     </div>
-                    <p>Use JavaFX to create a GUI.</p>
+                    <p>Use JavaFX to create a GUI. Refer to the JavaFX tutorials at the Duke repo (i.e., the repo you forked from) to learn how to get started.</p>
                   </div>
                   <hr>
                   <div id="A-UserGuide">
@@ -791,7 +804,12 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
                       <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
                     </div>
-                    <p>Add a User Guide to the project.</p>
+                    <p>Add a User Guide to the project. Here is one simple way to do it.</p>
+                    <ul>
+                      <li>Update the given <code>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
+                      <li>Go to the settings page of your Duke fork and enable GitHub pages to publish from the <code>docs</code> folder (you can select a theme too).</li>
+                      <li>Go to <code>http://{your username}.github.io/duke/</code> to view the user guide of your product.</li>
+                    </ul>
                   </div>
                   <hr>
                   <div id="A-DevGuide">

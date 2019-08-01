@@ -47,7 +47,7 @@
         "why-the-workload-is-so-high": "Why the workload is so high? ",
         "what-are-the-extra-requirements-to-get-an-a": "What are the extra requirements to get an A+? ",
         "why-so-much-bean-counting": "Why so much bean counting? ",
-        "why-you-force-me-to-visit-a-separate-website-instead-of-using-ivle": "Why you force me to visit a separate website instead of using IVLE? ",
+        "why-you-force-me-to-visit-a-separate-website-instead-of-using-luminus": "Why you force me to visit a separate website instead of using LumiNUS? ",
         "why-slides-are-not-detailed": "Why slides are not detailed? ",
         "why-so-much-self-study": "Why so much self-study? ",
         "what-if-i-don-t-carry-around-a-laptop": "What if I don’t carry around a laptop? ",
@@ -1076,7 +1076,7 @@
       "headings": {
         "tutorial-structure": "Tutorial Structure",
         "tutorial-timetable": "Tutorial Timetable",
-        "tutorials-tutor-role-times-venue": "Tutorials  #tutor role #times #venue"
+        "tutorials": "Tutorials "
       },
       "title": "Admin: Tutorials",
       "header": "header.md",
