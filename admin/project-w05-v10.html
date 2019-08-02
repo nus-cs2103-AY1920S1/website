@@ -37,7 +37,7 @@
   <div id="app">
     <header>
       <navbar placement="top" type="dark" class="temp-navbar">
-        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
@@ -206,7 +206,7 @@
                   <p>You can write each user story in a piece of paper (e.g. yellow sticky note, index card, or just pieces of paper about the size of a playing card). Alternatively you can use an online tool (some examples given in <trigger trigger="click" for="modal:v10-onlinetools">[Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Specifying Requirements → UserStories → Usage → (panel) Tool Examples ]</trigger>).<br></p>
                 </li>
                 <li>
-                  <p>Note that <mark>you should not 'evaluate' the value of user stories while doing the above</mark>. <span class="dimmed"> Reason: an important aspect of brainstorming is not judging the ideas generated.</span></p>
+                  <p>Note that <mark>you should not 'evaluate' the value of user stories while doing the above</mark>. <span class="dimmed">Reason: an important aspect of brainstorming is not judging the ideas generated.</span></p>
                 </li>
               </ul>
               <modal large title="Textbook <md>:glyphicon-log-in:</md>" id="modal:v10-brainstorming" class="algolia-no-index">
@@ -399,12 +399,12 @@
                   <div>
                   <p>Given their lightweight nature, <strong>user stories are quite handy for recording requirements during early stages of requirements gathering</strong>.</p>
                   <tip-box>
-                    <p>💡 Here are some tips for using user stories for early stages of requirement gathering:</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Here are some tips for using user stories for early stages of requirement gathering:</p>
                     <ul>
                       <li><strong>Define the <em>target user</em>:</strong><br>
-                        Decide your target user's profile (e.g. a student, office worker, programmer, sales person) and work patterns (e.g. Does he work in groups or alone? Does he share his computer with others?). A clear understanding of the target user will help when deciding the importance of a user story. You can even give this user a name. <span class="dimmed"> e.g. Target user Jean is a university student studying in a non-IT field. She interacts with a lot of people due to her involvement in university clubs/societies. ...</span></li>
+                        Decide your target user's profile (e.g. a student, office worker, programmer, sales person) and work patterns (e.g. Does he work in groups or alone? Does he share his computer with others?). A clear understanding of the target user will help when deciding the importance of a user story. You can even give this user a name. <span class="dimmed">e.g. Target user Jean is a university student studying in a non-IT field. She interacts with a lot of people due to her involvement in university clubs/societies. ...</span></li>
                       <li><strong>Define the <em>problem scope</em>:</strong>
-                        Decide that exact problem you are going to solve for the target user. <span class="dimmed"> e.g. Help Jean keep track of all her school contacts</span></li>
+                        Decide that exact problem you are going to solve for the target user. <span class="dimmed">e.g. Help Jean keep track of all her school contacts</span></li>
                       <li><strong>Don't be too hasty to discard 'unusual' user stories:</strong><br>
                         Those might make your product unique and stand out from the rest, at least for the target users.</li>
                       <li><strong>Don't go into too much details:</strong><br>
@@ -420,7 +420,7 @@
               </modal>
               <div class="indented-level3">
                 <box>
-                  <p>💡 Recommended: <strong>You can use GitHub issue tracker to manage user stories</strong>, but for that you need to set up your team's GitHub organization, project fork, and issue tracker first. Instructions for doing those steps are in the panel below.</p>
+                  <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Recommended: <strong>You can use GitHub issue tracker to manage user stories</strong>, but for that you need to set up your team's GitHub organization, project fork, and issue tracker first. Instructions for doing those steps are in the panel below.</p>
                   <panel header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: GitHub (extract)%%" class="algolia-no-index">
                     <div>
                       <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
@@ -453,7 +453,7 @@
                         <li>Ensure your team members have the desired level of access to your team repo.</li>
                         <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level3/UsingTravis.html#setting-up-travis-ci"><strong>Enable Travis CI for the team repo</strong></a>.</li>
                         <li><a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level3/UsingTravis.html#enabling-auto-publishing-of-documentation"><strong>Set up <em>auto-publishing</em> of docs</strong></a>. When set up correctly, your project website should be available via the URL <code>https://ay1920s1-{team-id}.github.io/main</code> e.g., <code>https://ay1920s1-cs2103-w13-1.github.io/main/</code>. This also requires you to <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages">enable the <em>GitHub Pages</em> feature of your team repo and configure it to serve the website from the <code>gh-pages</code> branch</a>.</li>
-                        <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3">nus-cs2103-AY1920S1/addressbook-level3</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[CS2103T-T09-2] Contact List Pro</code>. <span class="dimmed"> As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
+                        <li><strong>create a <em>team PR</em></strong> for us to track your project progress: i.e., create a PR from your <mark>team repo <code>master</code> branch</mark> to [<a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3">nus-cs2103-AY1920S1/addressbook-level3</a>] <code>master</code> branch. PR name: <code>[Team ID] Product Name</code> e.g., <code>[CS2103T-T09-2] Contact List Pro</code>. <span class="dimmed">As you merge code to your team repo's <code>master</code> branch, this PR will auto-update to reflect how much your team's product has progressed.</span> In the PR description <tooltip content="use @githubUserName">@mention</tooltip> the other team members so that they get notified when the tutor adds comments to the PR.</li>
                       </ol>
                       <p>All team members:</p>
                       <ol>
@@ -475,7 +475,7 @@
                       <p>We recommend you configure the issue tracker of the <code>main</code> repo as follows:</p>
                       <ul>
                         <li>Delete existing labels and add the following labels.<br>
-                          💡 <strong>Issue type</strong> labels are useful from the beginning of the project. The other labels are needed only when you start implementing the features.</li>
+                          <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Issue type</strong> labels are useful from the beginning of the project. The other labels are needed only when you start implementing the features.</li>
                       </ul>
                       <tip-box>
                         <p><strong>Issue type</strong> labels:</p>
@@ -607,7 +607,7 @@
                               <img src="/website/admin/images/closingMilestones.png" width="700"></p>
                           </li>
                           <li>
-                            <p><strong>If necessary, future milestones are revised</strong> based on what you experienced in the current milestone <span class="dimmed"> e.g. if you could not finish all issues assigned to the current milestone, it is a sign that you overestimated how much you can do in a week, which means you might want to reduce the issues assigned to future milestones to match that observation</span>.</p>
+                            <p><strong>If necessary, future milestones are revised</strong> based on what you experienced in the current milestone <span class="dimmed">e.g. if you could not finish all issues assigned to the current milestone, it is a sign that you overestimated how much you can do in a week, which means you might want to reduce the issues assigned to future milestones to match that observation</span>.</p>
                           </li>
                         </ul>
                         <p></p>
@@ -669,7 +669,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 01 Aug 2019 15:17:35 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 02 Aug 2019 12:17:12 GMT</small></div>
     </footer>
   </div>
 </body>

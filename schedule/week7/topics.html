@@ -37,7 +37,7 @@
   <div id="app">
     <header>
       <navbar placement="top" type="dark" class="temp-navbar">
-        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
@@ -446,7 +446,7 @@
                           c. Answer survey question</li>
                       </ul>
                     </tip-box>
-                    <p>💡 While modeling user-system interactions,</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> While modeling user-system interactions,</p>
                     <ul>
                       <li>Start with high level use cases and progressively work toward lower level use cases.</li>
                       <li>Be mindful at which level of details you are working on and not to mix use cases of different levels.</li>
@@ -1027,7 +1027,7 @@
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
                       <img src="/website/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png" height="250">
                     </tip-box>
-                    <p>💡 Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
                     <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
                     <tip-box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
@@ -1228,7 +1228,7 @@
                             <question has-input="true">
                               <p>Explain the link (if any) between regressions and coupling.</p>
                               <div slot="answer" class="algolia-no-index">
-                                <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed"> e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
+                                <p>When the system is highly-coupled, the risk of regressions is higher too <span class="dimmed">e.g. when component <code>A</code> is modified, all components ‘coupled’ to component <code>A</code> risk ‘unintended behavioral changes’</span>.</p>
                               </div>
                             </question>
                           </panel>
@@ -1288,7 +1288,7 @@
                   <div>
                     <p><strong>X is <em>coupled</em> to Y if a change to Y can <mark>potentially</mark> require a change in X</strong>.</p>
                     <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed"> e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If <code>Foo</code> class calls the method <code>Bar#read()</code>, <code>Foo</code> is coupled to <code>Bar</code> because a change to <code>Bar</code> can potentially (but not always) require a change in the <code>Foo</code> class <span class="dimmed">e.g. if the signature of the <code>Bar#read()</code> is changed, <code>Foo</code> needs to change as well, but a change to the <code>Bar#write()</code> method may not require a change in the <code>Foo</code> class because <code>Foo</code> does not call <code>Bar#write()</code></span>.</p>
                       <panel type="seamless" header="%%code for the above example%%" class="algolia-no-index">
                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
     ...
@@ -1369,13 +1369,13 @@
                   <div>
                     <p>Some examples of different coupling types:</p>
                     <ul>
-                      <li><strong>Content coupling</strong>: one module modifies or relies on the internal workings of another module <span class="dimmed"> e.g., accessing local data of another module</span></li>
+                      <li><strong>Content coupling</strong>: one module modifies or relies on the internal workings of another module <span class="dimmed">e.g., accessing local data of another module</span></li>
                       <li><strong>Common/Global coupling</strong>: two modules share the same global data</li>
-                      <li><strong>Control coupling</strong>: one module controlling the flow of another, by passing it information on what to do <span class="dimmed"> e.g., passing a flag</span></li>
-                      <li><strong>Data coupling</strong>: one module sharing data with another module <span class="dimmed"> e.g. via passing parameters</span></li>
-                      <li><strong>External coupling</strong>: two modules share an externally imposed convention <span class="dimmed"> e.g., data formats, communication protocols, device interfaces</span>.</li>
+                      <li><strong>Control coupling</strong>: one module controlling the flow of another, by passing it information on what to do <span class="dimmed">e.g., passing a flag</span></li>
+                      <li><strong>Data coupling</strong>: one module sharing data with another module <span class="dimmed">e.g. via passing parameters</span></li>
+                      <li><strong>External coupling</strong>: two modules share an externally imposed convention <span class="dimmed">e.g., data formats, communication protocols, device interfaces</span>.</li>
                       <li><strong>Subclass coupling</strong>: a class inherits from another class. Note that a child class is coupled to the parent class but not the other way around.</li>
-                      <li><strong>Temporal coupling</strong>: two actions are bundled together just because they happen to occur at the same time <span class="dimmed"> e.g. extracting a contiguous block of code as a method although the code block contains statements unrelated to each other</span></li>
+                      <li><strong>Temporal coupling</strong>: two actions are bundled together just because they happen to occur at the same time <span class="dimmed">e.g. extracting a contiguous block of code as a method although the code block contains statements unrelated to each other</span></li>
                     </ul>
                   </div>
                   <div></div>
@@ -1403,7 +1403,7 @@
                     <p><strong>Higher cohesion is better.</strong> Disadvantages of low cohesion (aka <em>weak</em> cohesion):</p>
                     <ul>
                       <li>Lowers the understandability of modules as it is difficult to express module functionalities at a higher level.</li>
-                      <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed"> (reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed"> (reason: because the code realated to that change is not localized to a single module)</span>.</li>
+                      <li>Lowers maintainability because a module can be modified due to unrelated causes <span class="dimmed">(reason: the module contains code unrelated to each other)</span> or many many modules may need to be modified to achieve a small change in behavior <span class="dimmed">(reason: because the code realated to that change is not localized to a single module)</span>.</li>
                       <li>Lowers reusability of modules because they do not represent logical units of functionality.</li>
                     </ul>
                   </div>
@@ -1672,7 +1672,7 @@ What%%" class="algolia-no-index"></panel>
                     <p><strong>In terms of timing and frequency, there are two general approaches to integration: <em>late and one-time</em>, <em>early and frequent</em>.</strong></p>
                     <p><strong><em>Late and one-time</em>: wait till all components are completed and integrate all finished components near the end of the project.</strong></p>
                     <tip-box type="wrong">
-                      <p>This approach is not recommended because integration often causes many component incompatibilities (due to previous miscommunications and misunderstandings) to surface which can lead to delivery delays <span class="dimmed"> i.e. Late integration → incompatibilities found → major rework required → cannot meet the delivery date</span>.</p>
+                      <p>This approach is not recommended because integration often causes many component incompatibilities (due to previous miscommunications and misunderstandings) to surface which can lead to delivery delays <span class="dimmed">i.e. Late integration → incompatibilities found → major rework required → cannot meet the delivery date</span>.</p>
                     </tip-box>
                     <p><strong><em>Early and frequent</em>: integrate early and evolve each part in parallel, in small steps, re-integrating frequently.</strong></p>
                     <tip-box>
@@ -1775,7 +1775,7 @@ What%%" class="algolia-no-index"></panel>
                         </div>
                       </div>
                     </popover>
-                    <p><strong><em>Bottom-up</em> integration: the reverse of top-down integration.</strong> Note that when integrating lower level components, <tooltip content="additional code written to provide inputs to a component via an API">drivers</tooltip> may be needed to test the integrated components <span class="dimmed"> because the UI may not be integrated yet</span>, just like top-down integration needs stubs.</p>
+                    <p><strong><em>Bottom-up</em> integration: the reverse of top-down integration.</strong> Note that when integrating lower level components, <tooltip content="additional code written to provide inputs to a component via an API">drivers</tooltip> may be needed to test the integrated components <span class="dimmed">because the UI may not be integrated yet</span>, just like top-down integration needs stubs.</p>
                     <p><strong><em>Sandwich</em> integration: a mix of the top-down and the bottom-up approaches.</strong> The idea is to do both top-down and bottom-up so as to 'meet' in the middle.</p>
                     <div v-closeable alt="slideshow: comparison">
                       <p>Here is an animation that compares the three approaches:</p>
@@ -1922,7 +1922,7 @@ What%%" class="algolia-no-index"></panel>
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>A <em>buffer</em> is a time set aside to absorb any unforeseen delays.</strong> It is very important to include buffers in a software project schedule because effort/time estimations for software development is notoriously hard. However, <strong>do not inflate task estimates to create hidden buffers</strong>; have explicit buffers instead. <span class="dimmed"> Reason: With explicit buffers it is easier to detect incorrect effort estimates which can serve as a feedback to improve future effort estimates.</span></p>
+                    <p><strong>A <em>buffer</em> is a time set aside to absorb any unforeseen delays.</strong> It is very important to include buffers in a software project schedule because effort/time estimations for software development is notoriously hard. However, <strong>do not inflate task estimates to create hidden buffers</strong>; have explicit buffers instead. <span class="dimmed">Reason: With explicit buffers it is easier to detect incorrect effort estimates which can serve as a feedback to improve future effort estimates.</span></p>
                     <img src="/website/book/projectPlanning/buffers/images/schedule.png" height="120">
                   </div>
                   <div></div>
@@ -2205,10 +2205,10 @@ What%%" class="algolia-no-index"></panel>
                     </tip-box>
                     <p>A PERT chart can help determine the following important information:</p>
                     <ul>
-                      <li>The order of tasks. <span class="dimmed"> In the example above, <code>Final Testing</code> cannot begin until all coding of individual subsystems have been completed.</span></li>
-                      <li>Which tasks can be done concurrently. <span class="dimmed"> In the example above, the various subsystem designs can start independently once the <code>High level design</code> is completed.</span></li>
-                      <li>The shortest possible completion time. <span class="dimmed"> In the example above, there is a path (indicated by the shaded boxes) from start to end that determines the shortest possible completion time.</span></li>
-                      <li>The Critical Path. <span class="dimmed"> In the example above, the shortest possible path is also the critical path</span>.</li>
+                      <li>The order of tasks. <span class="dimmed">In the example above, <code>Final Testing</code> cannot begin until all coding of individual subsystems have been completed.</span></li>
+                      <li>Which tasks can be done concurrently. <span class="dimmed">In the example above, the various subsystem designs can start independently once the <code>High level design</code> is completed.</span></li>
+                      <li>The shortest possible completion time. <span class="dimmed">In the example above, there is a path (indicated by the shaded boxes) from start to end that determines the shortest possible completion time.</span></li>
+                      <li>The Critical Path. <span class="dimmed">In the example above, the shortest possible path is also the critical path</span>.</li>
                     </ul>
                     <tip-box type="definition">
                       <p><strong>Critical path</strong> is the path in which any delay can directly affect the project duration. It is important to ensure tasks on the critical path are completed on time.</p>
@@ -2357,7 +2357,7 @@ What%%" class="algolia-no-index"></panel>
                         <p><strong>Each team member: create PRs via own fork</strong></p>
                         <ul>
                           <li><strong>Fork that repo</strong> from your team org to your own GitHub account.</li>
-                          <li><strong>Create a PR</strong> to add a file <code>yourName.md</code> <span class="dimmed"> (e.g. <code>jonhDoe.md</code>) </span> containing a brief resume of yourself <span class="dimmed"> (branch → commit → push → create PR)</span></li>
+                          <li><strong>Create a PR</strong> to add a file <code>yourName.md</code> <span class="dimmed">(e.g. <code>jonhDoe.md</code>) </span> containing a brief resume of yourself <span class="dimmed">(branch → commit → push → create PR)</span></li>
                         </ul>
                       </li>
                       <li>
@@ -2517,7 +2517,7 @@ What%%" class="algolia-no-index"></panel>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 01 Aug 2019 15:17:35 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 02 Aug 2019 12:17:12 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -21,7 +21,7 @@
     </ul>
     <p><strong>Team size</strong>: The default <mark>team size is five</mark>.</p>
     <div id="teamIdFormat">
-      <p><strong>Team ID</strong>: This will be given to you after forming teams. It has the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>W14-2</code> means you are in tutorial W14 (i.e., Wed 1400-1500), team 2.</p>
+      <p><strong>Team ID</strong>: This will be given to you after forming teams. It has the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>CS2103-W14-2</code> means you are in tutorial <code>CS2103-W14</code> (i.e., in module <code>CS2103</code>, on <code>Wednesday</code>, at <code>1400-1500</code>), team <code>2</code>.</p>
     </div>
     <div class="flat">
       <div>
@@ -33,111 +33,176 @@
         <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\tutorials.md">
           <tip-box>
             <p>
-              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Our tutorial IDs are different from CORS. Format: <code>W09</code> means <code>Wednesday</code> <code>0900</code> and so on.
+              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Our tutorial IDs are different from LumiNUS. Format: <code>CS2103T-W09</code> means a tutorial of <code>CS2103T</code> module, held on <code>Wednesday</code> at <code>0900</code>, and so on.
             </p>
           </tip-box>
+          <div></div>
+          <div></div>
           <div class="table-responsive">
             <table class="markbind-table table table-bordered table-striped">
               <thead>
                 <tr>
                   <th>Module</th>
-                  <th>Tutorial ID <span class="dimmed">(ID in CORS)</span></th>
-                  <th>Time</th>
                   <th>Venue</th>
-                  <th>Tutors (<a href="/website/admin/instructors.html">contact details</a>)</th>
+                  <th>Time</th>
+                  <th><s><span class="dimmed">Tutorial ID<br>in LumiNUS</span></s><br><mark>(don't use this!)</mark></th>
+                  <th><strong>Our Tutorial ID</strong><br><mark>(use this!)</mark></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>CS2103</td>
-                  <td>W10 <span class="dimmed">(T01)</span></td>
-                  <td><strong>W</strong>ed <strong>10</strong>00</td>
-                  <td>COM1-B103 (ALL)<sup>*</sup></td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>W</strong>ed <strong>11</strong>:00</td>
+                  <td><s><span class="dimmed">G01</span></s></td>
+                  <td><strong><code>CS2103T-W11</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>W12 <span class="dimmed">(T01)</span></td>
-                  <td><strong>W</strong>ed <strong>12</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>W</strong>ed <strong>12</strong>:00</td>
+                  <td><s><span class="dimmed">G02</span></s></td>
+                  <td><strong><code>CS2103T-W12</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103</td>
-                  <td>W13 <span class="dimmed">(T02)</span></td>
-                  <td><strong>W</strong>ed <strong>13</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>W</strong>ed <strong>13</strong>:00</td>
+                  <td><s><span class="dimmed">G03</span></s></td>
+                  <td><strong><code>CS2103T-W13</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>W14 <span class="dimmed">(T02)</span></td>
-                  <td><strong>W</strong>ed <strong>14</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>W</strong>ed <strong>14</strong>:00</td>
+                  <td><s><span class="dimmed">01</span></s></td>
+                  <td><strong><code>CS2103-W14</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>W16 <span class="dimmed">(T03)</span></td>
-                  <td><strong>W</strong>ed <strong>16</strong>00</td>
-                  <td>COM1-B103 (ALL)</td>
-                  <td>TBD</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>W17 <span class="dimmed">(T04)</span></td>
-                  <td><strong>W</strong>ed <strong>17</strong>00</td>
-                  <td>COM1-B103 (ALL)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>09</strong>:00</td>
+                  <td><s><span class="dimmed">G11</span></s></td>
+                  <td><strong><code>CS2103T-T09</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>T09 <span class="dimmed">(T06)</span></td>
-                  <td><strong>T</strong>hu <strong>09</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>10</strong>:00</td>
+                  <td><s><span class="dimmed">G05</span></s></td>
+                  <td><strong><code>CS2103T-T10</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103</td>
-                  <td>T10 <span class="dimmed">(T04)</span></td>
-                  <td><strong>T</strong>hu <strong>10</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td><mark>COM1-B103</mark></td>
+                  <td><strong>T</strong>hu <strong>11</strong>:00</td>
+                  <td><s><span class="dimmed">08</span></s></td>
+                  <td><strong><code>CS2103-T11</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>T12 <span class="dimmed">(T07)</span></td>
-                  <td><strong>T</strong>hu <strong>12</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>11</strong>:00</td>
+                  <td><s><span class="dimmed">G06</span></s></td>
+                  <td><strong><code>CS2103T-T11</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103</td>
-                  <td>T13 <span class="dimmed">(T06)</span></td>
-                  <td><strong>T</strong>hu <strong>13</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>12</strong>:00</td>
+                  <td><s><span class="dimmed">G04</span></s></td>
+                  <td><strong><code>CS2103T-T12</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>T16 <span class="dimmed">(T08)</span></td>
-                  <td><strong>T</strong>hu <strong>16</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>13</strong>:00</td>
+                  <td><s><span class="dimmed">G10</span></s></td>
+                  <td><strong><code>CS2103T-T13</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103T</td>
-                  <td>F10 <span class="dimmed">(T10)</span></td>
-                  <td><strong>F</strong>ri <strong>10</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>14</strong>:00</td>
+                  <td><s><span class="dimmed">02</span></s></td>
+                  <td><strong><code>CS2103-T14</code></strong></td>
                 </tr>
                 <tr>
-                  <td>CS2103</td>
-                  <td>F11 <span class="dimmed">(T09)</span></td>
-                  <td><strong>F</strong>ri <strong>11</strong>00</td>
-                  <td>COM1-0210 (SR10)</td>
-                  <td>TBD</td>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>15</strong>:00</td>
+                  <td><s><span class="dimmed">03</span></s></td>
+                  <td><strong><code>CS2103-T15</code></strong></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>16</strong>:00</td>
+                  <td><s><span class="dimmed">04</span></s></td>
+                  <td><strong><code>CS2103-T15</code></strong></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>T</strong>hu <strong>17</strong>:00</td>
+                  <td><s><span class="dimmed">05</span></s></td>
+                  <td><strong><code>CS2103-T17</code></strong></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>F</strong>ri <strong>09</strong>:00</td>
+                  <td><s><span class="dimmed">06</span></s></td>
+                  <td><strong><code>CS2103-F09</code></strong></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-info"> CS2103 </span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>F</strong>ri <strong>10</strong>:00</td>
+                  <td><s><span class="dimmed">07</span></s></td>
+                  <td><strong><code>CS2103-F10</code></strong></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>F</strong>ri <strong>11</strong>:00</td>
+                  <td><s><span class="dimmed">G12</span></s></td>
+                  <td><strong><code>CS2103T-F11</code></strong></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>F</strong>ri <strong>12</strong>:00</td>
+                  <td><s><span class="dimmed">G08</span></s></td>
+                  <td><strong><code>CS2103T-F12</code></strong></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>F</strong>ri <strong>13</strong>:00</td>
+                  <td><s><span class="dimmed">G07</span></s></td>
+                  <td><strong><code>CS2103T-F13</code></strong></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-warning">CS2103T</span></td>
+                  <td>COM1-0210 (SR 10)</td>
+                  <td><strong>F</strong>ri <strong>14</strong>:00</td>
+                  <td><s><span class="dimmed">G09</span></s></td>
+                  <td><strong><code>CS2103T-F14</code></strong></td>
                 </tr>
               </tbody>
             </table>
@@ -161,7 +226,7 @@
         <p>No more than one exchange students per team <span class="dimmed">Rationale: to increase interaction between exchange students and NUS students.</span></p>
       </li>
       <li>
-        <p>Same gender teams are highly discouraged unless unavoidable. <span class="dimmed">Rationale: to train you for mixed-gender work environments.</span></p>
+        <p>Same gender teams are discouraged but allowed. <span class="dimmed">Rationale: to train you for mixed-gender work environments.</span></p>
       </li>
       <li>
         <p>Also note that <mark><strong>we may modify teams when circumstances call for it</strong></mark>. There is no avenue for you to object. Staying with your preferred team is not guaranteed.</p>

@@ -118,7 +118,7 @@
                   <p><strong>Problem</strong></p>
                   <p>A normal class can be instantiated multiple times by invoking the constructor.</p>
                   <p><strong>Solution</strong></p>
-                  <p>Make the constructor of the singleton class <code>private</code>, <span class="dimmed"> because a <code>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code>public</code> class-level method to access the <em>single instance</em>.</p>
+                  <p>Make the constructor of the singleton class <code>private</code>, <span class="dimmed">because a <code>public</code> constructor will allow others to instantiate the class at will</span>. Provide a <code>public</code> class-level method to access the <em>single instance</em>.</p>
                   <tip-box>
                     <p>Example:</p>
                     <p>
@@ -209,7 +209,7 @@
                     <p></p>
                   </tip-box>
                   <p><strong>Problem</strong></p>
-                  <p>Access to the component should be allowed without exposing its internal details. <span class="dimmed"> e.g. the <code>UI</code> component should access the functionality of the <code>Logic</code> component without knowing that it contained a <code>Book</code> class within it.</span></p>
+                  <p>Access to the component should be allowed without exposing its internal details. <span class="dimmed">e.g. the <code>UI</code> component should access the functionality of the <code>Logic</code> component without knowing that it contained a <code>Book</code> class within it.</span></p>
                   <p><strong>Solution</strong></p>
                   <p>Include a <tooltip content="a French word that means 'front of a building'">Façade</tooltip> class that sits between the component internals and users of the component such that all access to the component happens through the Facade class.</p>
                   <tip-box>
@@ -236,7 +236,7 @@
                   <p><strong>Context</strong></p>
                   <p>A system is required to execute a number of commands, each doing a different task. For example, a system might have to support <code>Sort</code>, <code>List</code>, <code>Reset</code> commands.</p>
                   <p><strong>Problem</strong></p>
-                  <p>It is preferable that some part of the code executes these commands without having to know each command type. <span class="dimmed"> e.g., there can be a <code>CommandQueue</code> object that is responsible for queuing commands and executing them without knowledge of what each command does.</span></p>
+                  <p>It is preferable that some part of the code executes these commands without having to know each command type. <span class="dimmed">e.g., there can be a <code>CommandQueue</code> object that is responsible for queuing commands and executing them without knowledge of what each command does.</span></p>
                   <p><strong>Solution</strong></p>
                   <p>The essential element of this pattern is to have a general <code>&lt;&lt;Command&gt;&gt;</code> object that can be passed around, stored, executed, etc without knowing the type of command (i.e. via polymorphism).</p>
                   <p>Let us examine an example application of the pattern first:</p>
@@ -395,7 +395,7 @@ studentList.addUi(statusUi);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 01 Aug 2019 15:17:35 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 02 Aug 2019 12:17:12 GMT</small></div>
     </footer>
   </div>
 </body>

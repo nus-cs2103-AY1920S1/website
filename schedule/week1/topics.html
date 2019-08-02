@@ -37,7 +37,7 @@
   <div id="app">
     <header>
       <navbar placement="top" type="dark" class="temp-navbar">
-        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>Aug '19</small></a>
+        <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
         <dropdown text="Schedule" class="nav-link temp-dropdown algolia-no-index">
           <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
@@ -352,7 +352,7 @@
                     </div>
                     <p><strong>Some programming languages support multiple paradigms.</strong></p>
                     <tip-box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Java is primarily an OOP language but it supports limited forms of functional programming and it can be used to (although not recommended) write procedural code. <span class="dimmed"> e.g. <a href="https://github.com/se-edu/addressbook-level1">se-edu/addressbook-level1</a></span></p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Java is primarily an OOP language but it supports limited forms of functional programming and it can be used to (although not recommended) write procedural code. <span class="dimmed">e.g. <a href="https://github.com/se-edu/addressbook-level1">se-edu/addressbook-level1</a></span></p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> JavaScript and Python support functional, procedural, and OOP programming.</p>
                     </tip-box>
                   </div>
@@ -600,7 +600,7 @@
                                   <p>[1] Object Oriented Programming (OOP) views the world as a network of interacting objects.</p>
                                 </blockquote>
                                 <p>Interacting objects in the scenario: <code>Tom</code>, <code>SE Textbook</code> (<code>Book</code> for short), <code>Text</code>, (possibly) <code>Highlighter</code></p>
-                                <p>💡 objects usually match nouns in the description</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> objects usually match nouns in the description</p>
                                 <blockquote>
                                   <p>[2]Every object has both state (data) and behavior (operations on data).</p>
                                 </blockquote>
@@ -1045,9 +1045,9 @@ System.out.println(t.secondsSinceMidnight() + <span class="hljs-string">" second
                                     <ul>
                                       <li><strong><code>getArea()</code></strong>: <code>int</code><br>
                                         Returns the area of the circle as an <code>int</code> value (not <code>double</code>). Calculated as 2xPIx(radius)<sup>2</sup><br>
-                                        💡 You can convert to <code>double</code> to an <code>int</code> using <code>(int)</code> e.g., <code>x = (int)2.25</code> gives <code>x</code> the value <code>2</code>.<br>
-                                        💡 You can use <code>Math.PI</code> to get the value of Pi<br>
-                                        💡 You can use <code>Math.pow()</code> to raise a number to a specific power e.g., <code>Math.pow(3, 2)</code> calculates 3<sup>2</sup></li>
+                                        <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can convert to <code>double</code> to an <code>int</code> using <code>(int)</code> e.g., <code>x = (int)2.25</code> gives <code>x</code> the value <code>2</code>.<br>
+                                        <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>Math.PI</code> to get the value of Pi<br>
+                                        <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <code>Math.pow()</code> to raise a number to a specific power e.g., <code>Math.pow(3, 2)</code> calculates 3<sup>2</sup></li>
                                     </ul>
                                   </li>
                                 </ul>
@@ -1376,7 +1376,7 @@ radius : 0.0
                       </box>
                     </div>
                     <tip-box>
-                      <p>💡 Explanation of <strong><code>System.out.println(...)</code></strong>:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Explanation of <strong><code>System.out.println(...)</code></strong>:</p>
                       <ul>
                         <li><code>out</code> is a class-level public attribute of the <code>System</code> class.</li>
                         <li><code>println</code> is a instance level method of the <code>out</code> object.</li>
@@ -1791,7 +1791,7 @@ Green indicates low priority
                             <tr>
                               <td><code>read():String</code></td>
                               <td><code>read(int):String</code></td>
-                              <td>No. <span class="dimmed"> Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
+                              <td>No. <span class="dimmed">Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
                             </tr>
                           </tbody>
                         </table>
@@ -2313,7 +2313,7 @@ Spot: Woof
 </code></pre>
                       </panel>
                       <p><span class="dimmed">Explanation: Because Java supports polymorphism, you can store both <code>Cat</code> and <code>Dog</code> objects in an array of <code>Animal</code> objects. Similarly, you can call the <code>speak</code> method on any <code>Animal</code> object (as done in the loop) and yet get different behavior from <code>Cat</code> objects and <code>Dog</code> objects.</span></p>
-                      <p>💡 Suggestion: try to add an <code>Animal</code> object (e.g., <code>new Animal(&quot;Unnamed&quot;)</code>) to the <code>animals</code> array and see what happens.
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Suggestion: try to add an <code>Animal</code> object (e.g., <code>new Animal(&quot;Unnamed&quot;)</code>) to the <code>animals</code> array and see what happens.
                       </p>
                     </box>
                     <p><strong>Polymorphic code is better</strong> in several ways:</p>
@@ -2382,7 +2382,7 @@ Spot: Woof
     }
 }
 </code></pre>
-                                <p>💡 You may use an array of size 100 to store the shapes.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You may use an array of size 100 to store the shapes.</p>
                                 <panel type="seamless" header="Partial solution" class="algolia-no-index">
                                   <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Shape[] shapes = <span class="hljs-keyword">new</span> Shape[<span class="hljs-number">100</span>];
@@ -2921,7 +2921,7 @@ Person of name James Cook
                       <p>The following code is valid because an <code>AcademicStaff</code> object is substitutable as a <code>Staff</code> object.</p>
                       <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
-                      <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
+                      <p>But the following code is not valid <span class="dimmed">because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
                       <pre><code class="hljs java">Staff staff;
 ...
 AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
@@ -2997,7 +2997,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                                       <tr>
                                         <td><code>read():String</code></td>
                                         <td><code>read(int):String</code></td>
-                                        <td>No. <span class="dimmed"> Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
+                                        <td>No. <span class="dimmed">Reason: the two methods have different signatures; This is a case of <trigger trigger="click" for="modal:overriding-overloading"> <em>overloading</em></trigger> (rather than overriding).</span></td>
                                       </tr>
                                     </tbody>
                                   </table>
@@ -3416,7 +3416,7 @@ After clearing: []
                             <panel header="<md>:glyphicon-question-sign:</md> Numbers list" class="algolia-no-index">
                               <question>
                                 <p>Add the missing methods to the class given below so that it produces the output given.</p>
-                                <p>💡 Use an <code>ArrayList</code> to store the numbers.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use an <code>ArrayList</code> to store the numbers.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
     <span class="hljs-comment">//<span class="hljs-doctag">TODO:</span> add your methods here</span>
@@ -3558,7 +3558,7 @@ Number of keys after clearing: 0
                             <panel header="<md>:glyphicon-question-sign:</md> Weekly roster" class="algolia-no-index">
                               <question>
                                 <p>The class given below keeps track of how many people signup to attend an event on each day of the week. Add the missing methods so that it produces the output given.</p>
-                                <p>💡 Use an <code>HashMap</code> to store the number of entries for each day.</p>
+                                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use an <code>HashMap</code> to store the number of entries for each day.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> HashMap&lt;String, Integer&gt; roster = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
 
@@ -3983,11 +3983,11 @@ Wednesday =&gt; 2
                                 <ol>
                                   <li>
                                     <p>Update the code of <code>printArea</code> to print an error message if <code>WIDTH</code> and/or <code>HEIGHT</code> are not numbers <span class="dimmed">e.g., <code>&quot;Ax4&quot;</code></span><br>
-                                      💡 <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the code tries to parse a non-number to an integer.</p>
+                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the code tries to parse a non-number to an integer.</p>
                                   </li>
                                   <li>
                                     <p>Update the code of <code>printArea</code> to print an error message if the descriptor is missing <code>WIDTH</code> and/or <code>HEIGHT</code> <span class="dimmed">e.g., <code>&quot;x4&quot;</code></span><br>
-                                      💡 <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if one or both dimensions are missing.</p>
+                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if one or both dimensions are missing.</p>
                                   </li>
                                   <li>
                                     <p>Update the code of <code>calculateArea</code> to throw the checked exception <code>IllegalShapeException</code> if there are more than 2 dimensions <span class="dimmed">e.g., <code>&quot;5x4x3&quot;</code></span> and update the <code>printArea</code> to print an error message for those cases. Here is the code for the <code>IllegalShapeException.java</code></p>
@@ -4103,7 +4103,7 @@ Too many dimensions: 3x4x5
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 01 Aug 2019 15:17:35 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 02 Aug 2019 12:17:12 GMT</small></div>
     </footer>
   </div>
 </body>
