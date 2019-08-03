@@ -124,7 +124,7 @@
             <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: Grading <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
             <div>
               <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2103T projects will be assessed separately from CS2103 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
-              <p><strong>Total</strong>: 50 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 40 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
+              <p><strong>Total</strong>: 45 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 35 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
               <p>See the sections below for details of how we assess each aspect.</p>
               <hr>
               <h4 id="1-project-grading-product-design-5-marks">1. Project Grading: Product Design <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 marks]</span><a class="fa fa-anchor" href="#1-project-grading-product-design-5-marks"></a></h4>
@@ -172,7 +172,7 @@
                 </div>
               </blockquote>
               <hr>
-              <h4 id="2-project-grading-implementation-15-marks">2. Project Grading: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 15 marks]</span><a class="fa fa-anchor" href="#2-project-grading-implementation-15-marks"></a></h4>
+              <h4 id="2-project-grading-implementation-10-marks">2. Project Grading: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#2-project-grading-implementation-10-marks"></a></h4>
               <p><strong><big>2A. Code quality</big></strong></p>
               <p><strong>Evaluates:</strong> the quality of the code you have written yourself</p>
               <p><strong>Based on:</strong> the parts of the code you claim as written by you</p>
@@ -289,9 +289,9 @@
                 <li>The penalty for a bug is divided equally among assignees.</li>
                 <li>The developers are not penalized for the duplicate bug reports they received but the testers earn credit for the duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
                 <li>
-                  <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn slightly less credit for the tester and slightly more penalty for the developer.
+                  <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn less credit for the tester and slightly more penalty for the developer.
                 </li>
-                <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in mock PE)</span> to calculate your marks for system/acceptance testing.</li>
+                <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
                 <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
                   <ul>
                     <li><code>n</code> bugs found in your feature; it is a difficult feature consisting of lot of code → 4/5 marks</li>
@@ -299,7 +299,7 @@
                   </ul>
                 </li>
                 <li>You don't need to find all bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-                <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">de-duplicating</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
+                <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">duplicate-flagging</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
               </ul>
               <hr>
               <h4 id="4-project-grading-documentation-10-marks">4. Project Grading: Documentation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#4-project-grading-documentation-10-marks"></a></h4>
@@ -476,8 +476,9 @@
           <panel type="default" no-close expandable="true" class="algolia-no-index">
             <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Grade Breakdown <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
             <div>
-              <img src="/website/admin/images/gradeBreakdown.png" width="600">
-              <p></p>
+              <p>
+                <pic src="/website/admin/images/grade-breakdown.png"></pic>
+              </p>
               <div class="flat">
                 <div>
                   <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-participation">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Participation Marks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
@@ -485,71 +486,79 @@
               </div>
               <modal large title="Admin <md>:glyphicon-log-in:</md> Participation Marks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-participation" class="algolia-no-index">
                   <div>
-                  <p><strong>To receive full 10 marks allocated for participation, earn at least 15 participation <em>points</em>.</strong></p>
-                  <p>There are 30+ available points to choose from:</p>
+                  <p><strong>To receive full 5 marks allocated for participation, meet the both these criteria</strong></p>
                   <ul>
                     <li>
-                      <tooltip content="No `Below Average`/`Poor` ratings">Good peer ratings</tooltip>
+                      <p><strong>A. Earn at least half of weekly participation points in at least 10 weeks.</strong></p>
                       <ul>
-                        <li>Criteria for professional conduct (1 point for each criterion, max 7)</li>
-                        <li>Competency criteria (2 points for each, max 6)</li>
+                        <li>In-lecture quiz:
+                          <ul>
+                            <li>Answered at least 80% of the questions correctly: 2 points</li>
+                            <li>Answered 40-80% questions correctly: 1 point</li>
+                          </ul>
+                        </li>
+                        <li>Post-lecture quiz:
+                          <ul>
+                            <li>Answered at least 80% of the questions correctly: 3 points</li>
+                            <li>Answered 40-80% questions correctly: 2 point</li>
+                          </ul>
+                        </li>
+                        <li>Missing compulsory administrative requirements <span class="dimmed">e.g., forgot to submit peer evaluations</span>: -1 for each miss</li>
                       </ul>
                     </li>
+                    <li>
+                      <p><strong>B. <tooltip content="No multiple `Below Average`/`Poor` ratings">Received good peer evaluations</tooltip></strong></p>
+                    </li>
                   </ul>
+                  <p>In addition, you can receive a bonus mark if you received good ratings for all 10 peer evaluations criteria.</p>
                   <div class="indented">
-                    <box type="warning">
-                      <p>Only those who submit peer evaluations can earn participation points from peer evaluations they receive.
-                      </p>
-                    </box>
-                  </div>
-                  <ul>
-                    <li>In-lecture quizzes (1 each, max 10 points)</li>
-                    <li>Module admin tasks done <em>on time</em> and <em>as instructed</em>
-                      <ul>
-                        <li>Peer evaluations (1 points each, max 3)</li>
-                        <li>Pre-module survey (1 points)</li>
-                      </ul>
-                    </li>
-                    <li>Enhanced AB1-AB3 (2 points each, max 6 points)</li>
-                  </ul>
-                  <div class="flat">
-                    <div>
-                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                    <div class="flat">
+                      <div>
+                        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                      </div>
                     </div>
+                    <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals" class="algolia-no-index">
+                        <div>
+                        <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
+                        <ul>
+                          <li><strong>Professional Communication</strong> :
+                            <ul>
+                              <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
+                              <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
+                            </ul>
+                          </li>
+                          <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
+                          <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
+                          <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
+                          <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
+                          <li><strong>Meticulousness</strong>:
+                            <ul>
+                              <li>Rarely overlooks submission requirements.</li>
+                              <li>Rarely misses compulsory module activities such as pre-module survey.</li>
+                            </ul>
+                          </li>
+                          <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
+                        </ul>
+                        <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
+                        <ul>
+                          <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
+                          <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
+                          <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
+                        </ul>
+                      </div>
+                    </modal>
+                    <p>
+                      <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="peerEvaluation-criteria"></panel>
+                    </p>
                   </div>
-                  <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals" class="algolia-no-index">
-                      <div>
-                      <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
-                      <ul>
-                        <li><strong>Professional Communication</strong> :
-                          <ul>
-                            <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
-                            <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
-                          </ul>
-                        </li>
-                        <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
-                        <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
-                        <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
-                        <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
-                        <li><strong>Meticulousness</strong>:
-                          <ul>
-                            <li>Rarely overlooks submission requirements.</li>
-                            <li>Rarely misses compulsory module activities such as pre-module survey.</li>
-                          </ul>
-                        </li>
-                        <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
-                      </ul>
-                      <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
-                      <ul>
-                        <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
-                        <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
-                        <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
-                      </ul>
-                    </div>
-                  </modal>
-                  <p>
-                    <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="peerEvaluation-criteria"></panel>
-                  </p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples:</p>
+                    <ul>
+                      <li>Alicia earned 1/2, 3/5, <ins>2/5</ins>, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half points in 11 of the weeks, she gets 5 participation marks. The bonus mark is not applicable as she has full marks already.</li>
+                      <li>Benjamin managed to get at least half of the participation points in 9 weeks only, which gives him 5-1 = 4 participation marks. But he received good peer ratings for all criteria, and hence get a bonus mark to make it 5/5.</li>
+                      <li>Chun Ming met the participation points bar in 8 weeks only, giving him 5-2 = 3 marks. He lost 2 more marks because he received very negative ratings for two criteria, giving him 1/5 participation marks.</li>
+                    </ul>
+                  </box>
                 </div>
               </modal>
               <p>
@@ -569,6 +578,15 @@
                     <li>Part 2: Essay questions (1 hour, 20 marks)</li>
                   </ul>
                   <p>Both papers will be given to you at the start but you need to <strong>answer Part 1 first</strong> (i.e. MCQ paper). It will be <strong>collected 1 hour after the exam start time</strong> (even if arrived late for the exam). You are free to start part 2 early if you finish Part 1 early.</p>
+                  <box type="important">
+                    <p>Given the fast pace required by the paper and the large class size, to be fair to all students, <strong>invigilators will not answer queries about the questions in the exam paper</strong> (but <em>will</em> answer queries related to exam administration).</p>
+                    <ul>
+                      <li>If you have a doubt/query about a question or would like to make an assumption about a question, write down your doubt/query/assumption in the space provided for it in the exam paper.</li>
+                      <li>Those doubts/queries/assumptions (if justified) will be taken into account when grading.
+                      </li>
+                    </ul>
+                  </box>
+
                   <h2 id="final-exam-part-1-mcq">Final Exam: Part 1 (MCQ)<a class="fa fa-anchor" href="#final-exam-part-1-mcq"></a></h2>
                   <p>Each MCQ question gives you a statement to evaluate.</p>
                   <tip-box>
@@ -585,11 +603,6 @@
                   <div class="full-mode">
                     <p>Note that you have <strong>slightly more than ½ minute for each question</strong>, which means you need to go through the questions fairly quickly.</p>
                   </div>
-                  <p>Given the fast pace required by the paper, to be fair to all students, <strong>you will not be allowed to clarify doubts about questions</strong> (in Part 1) by talking to invigilators.</p>
-                  <ul>
-                    <li>If a question is not clear, you can circle the question number in the question paper and write your doubt in the question paper, near that question.</li>
-                    <li>If your doubt is justified <span class="dimmed">(e.g. there is a typo in the question)</span> or if many students found the question to be unclear, the examiner may decide to omit that question from grading.</li>
-                  </ul>
                   <p><strong>Questions in Part 1 are confidential.</strong> You are not allowed to reveal Part 1 content to anyone after the exam. All pages of the exam paper are to be returned at the end of the exam.</p>
                   <div class="full-mode">
                     <p>You will be given OCR forms <span class="dimmed">(i.e., bubble sheets)</span> to indicate your answers for Part 1. As each OCR form can accommodate only 50 answers, you will be given 2 OCR forms. <strong>Indicate your student number in both OCR forms</strong>.</p>
@@ -604,13 +617,13 @@
                     </ul>
                     <p>The correct response for it is <code>Disagree</code> because IDEs can help with all three of the given options, not just writing and testing.</p>
                   </tip-box>
-                  <p>Some questions will use <ins>underlines</ins> or <mark>highlighting</mark> to draw your attention to a specific part of the question. That is because those parts are highly relevant to the answer and we don’t want you to miss the relevance of that part.</p>
+                  <p>Some questions will use <mark>highlighting</mark> to draw your attention to a specific part of the question. That is because those parts are highly relevant to the answer and we don’t want you to miss the relevance of that part.</p>
                   <tip-box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the statement below:</p>
                     <blockquote>
-                      <p>Technique ABC <ins>can</ins> be used to generate more test cases.</p>
+                      <p>Technique ABC <mark>can</mark> be used to generate more test cases.</p>
                     </blockquote>
-                    <p>The word <ins>can</ins> is underlined because the decision you need to make is whether the ABC <em>can or cannot</em> be used to generate more test cases; the decision is not whether ABC can be used to generate <em>more or better</em> test cases.</p>
+                    <p>The word <mark>can</mark> is highlighted because the decision you need to make is whether the ABC <em>can or cannot</em> be used to generate more test cases; the decision is not whether ABC can be used to generate <em>more or better</em> test cases.</p>
                   </tip-box>
                   <p>Markers such as the one given below appears at left margin of the paper to <strong>indicate where the question corresponds to a new column in the OCR form</strong>. E.g. questions 11, 21, 31, etc. (a column has 10 questions). Such markers can help you to detect if you missed a question in the previous 10 questions. You can safely ignore those markers if you are not interested in making use of that additional hint.</p>
                   <p><img src="/website/admin/images/columnMarker.png"><br></p>
@@ -626,7 +639,6 @@
                     </p>
                   </box>
                   <h2 id="final-exam-part-2-essay">Final Exam: Part 2 (Essay)<a class="fa fa-anchor" href="#final-exam-part-2-essay"></a></h2>
-                  <p>Unlike in part 1, <strong>you can ask invigilators for clarifications</strong> if you found a question to be unclear in part 2.</p>
                   <p>Yes, <strong>you may use pencils</strong> when answering part 2.</p>
                 </div>
               </modal>
@@ -635,13 +647,33 @@
               </p>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-projectGrading">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-ipGrading">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Individual Project (iP) Grading</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
                 </div>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Project Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-projectGrading" class="algolia-no-index">
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Individual Project (iP) Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-ipGrading" class="algolia-no-index">
+                  <div>
+                  <div id="title"></div>
+                  <div id="body">
+                    <p>To get full marks, you should achieve <strong>at least some iP deliverables in each week</strong> (i.e., weeks 2-6) and achieve <strong>more than 80% of all deliverables</strong> by the end.</p>
+                    <ul>
+                      <li>Requirements marked as <span class="badge badge-pill badge-secondary">optional</span> or <span class="badge badge-pill badge-secondary">if-applicable</span> are not counted when calculating the percentage of deliverables.</li>
+                      <li>When a requirement specifies a <code>minimal</code> version of it, simply reaching that minimal version of the requirement is enough for it to be counted for grading -- however, we recommend you to go beyond the minimal; the farther you go, the more practice you get.</li>
+                    </ul>
+                  </div>
+                </div>
+              </modal>
+              <p>
+                <panel src="/website/admin/ip-grading._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Individual Project (iP) Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
+              </p>
+              <div class="flat">
+                <div>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:gradeBreakdown-tpGrading">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Team Project (tP) Grading</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                </div>
+              </div>
+              <modal large title="Admin <md>:glyphicon-log-in:</md> Team Project (tP) Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:gradeBreakdown-tpGrading" class="algolia-no-index">
                   <div>
                   <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2103T projects will be assessed separately from CS2103 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
-                  <p><strong>Total</strong>: 50 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 40 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
+                  <p><strong>Total</strong>: 45 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 35 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
                   <p>See the sections below for details of how we assess each aspect.</p>
                   <hr>
                   <h4 id="1-project-grading-product-design-5-marks-2">1. Project Grading: Product Design <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 marks]</span><a class="fa fa-anchor" href="#1-project-grading-product-design-5-marks-2"></a></h4>
@@ -689,7 +721,7 @@
                     </div>
                   </blockquote>
                   <hr>
-                  <h4 id="2-project-grading-implementation-15-marks-2">2. Project Grading: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 15 marks]</span><a class="fa fa-anchor" href="#2-project-grading-implementation-15-marks-2"></a></h4>
+                  <h4 id="2-project-grading-implementation-10-marks-2">2. Project Grading: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#2-project-grading-implementation-10-marks-2"></a></h4>
                   <p><strong><big>2A. Code quality</big></strong></p>
                   <p><strong>Evaluates:</strong> the quality of the code you have written yourself</p>
                   <p><strong>Based on:</strong> the parts of the code you claim as written by you</p>
@@ -806,9 +838,9 @@
                     <li>The penalty for a bug is divided equally among assignees.</li>
                     <li>The developers are not penalized for the duplicate bug reports they received but the testers earn credit for the duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
                     <li>
-                      <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn slightly less credit for the tester and slightly more penalty for the developer.
+                      <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn less credit for the tester and slightly more penalty for the developer.
                     </li>
-                    <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in mock PE)</span> to calculate your marks for system/acceptance testing.</li>
+                    <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
                     <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
                       <ul>
                         <li><code>n</code> bugs found in your feature; it is a difficult feature consisting of lot of code → 4/5 marks</li>
@@ -816,7 +848,7 @@
                       </ul>
                     </li>
                     <li>You don't need to find all bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-                    <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">de-duplicating</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
+                    <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">duplicate-flagging</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
                   </ul>
                   <hr>
                   <h4 id="4-project-grading-documentation-10-marks-2">4. Project Grading: Documentation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#4-project-grading-documentation-10-marks-2"></a></h4>
@@ -911,7 +943,7 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/project-grading._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Project Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
+                <panel src="/website/admin/project-grading._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> Team Project (tP) Grading  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
               </p>
             </div>
           </panel>
@@ -919,71 +951,79 @@
           <panel type="default" no-close expandable="true" class="algolia-no-index">
             <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Participation Marks <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
             <div>
-              <p><strong>To receive full 10 marks allocated for participation, earn at least 15 participation <em>points</em>.</strong></p>
-              <p>There are 30+ available points to choose from:</p>
+              <p><strong>To receive full 5 marks allocated for participation, meet the both these criteria</strong></p>
               <ul>
                 <li>
-                  <tooltip content="No `Below Average`/`Poor` ratings">Good peer ratings</tooltip>
+                  <p><strong>A. Earn at least half of weekly participation points in at least 10 weeks.</strong></p>
                   <ul>
-                    <li>Criteria for professional conduct (1 point for each criterion, max 7)</li>
-                    <li>Competency criteria (2 points for each, max 6)</li>
+                    <li>In-lecture quiz:
+                      <ul>
+                        <li>Answered at least 80% of the questions correctly: 2 points</li>
+                        <li>Answered 40-80% questions correctly: 1 point</li>
+                      </ul>
+                    </li>
+                    <li>Post-lecture quiz:
+                      <ul>
+                        <li>Answered at least 80% of the questions correctly: 3 points</li>
+                        <li>Answered 40-80% questions correctly: 2 point</li>
+                      </ul>
+                    </li>
+                    <li>Missing compulsory administrative requirements <span class="dimmed">e.g., forgot to submit peer evaluations</span>: -1 for each miss</li>
                   </ul>
                 </li>
+                <li>
+                  <p><strong>B. <tooltip content="No multiple `Below Average`/`Poor` ratings">Received good peer evaluations</tooltip></strong></p>
+                </li>
               </ul>
+              <p>In addition, you can receive a bonus mark if you received good ratings for all 10 peer evaluations criteria.</p>
               <div class="indented">
-                <box type="warning">
-                  <p>Only those who submit peer evaluations can earn participation points from peer evaluations they receive.
-                  </p>
-                </box>
-              </div>
-              <ul>
-                <li>In-lecture quizzes (1 each, max 10 points)</li>
-                <li>Module admin tasks done <em>on time</em> and <em>as instructed</em>
-                  <ul>
-                    <li>Peer evaluations (1 points each, max 3)</li>
-                    <li>Pre-module survey (1 points)</li>
-                  </ul>
-                </li>
-                <li>Enhanced AB1-AB3 (2 points each, max 6 points)</li>
-              </ul>
-              <div class="flat">
-                <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:participation-peerEvals">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → Criteria</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  </div>
                 </div>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals" class="algolia-no-index">
+                    <div>
+                    <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
+                    <ul>
+                      <li><strong>Professional Communication</strong> :
+                        <ul>
+                          <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
+                          <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
+                        </ul>
+                      </li>
+                      <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
+                      <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
+                      <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
+                      <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
+                      <li><strong>Meticulousness</strong>:
+                        <ul>
+                          <li>Rarely overlooks submission requirements.</li>
+                          <li>Rarely misses compulsory module activities such as pre-module survey.</li>
+                        </ul>
+                      </li>
+                      <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
+                    </ul>
+                    <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
+                    <ul>
+                      <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
+                      <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
+                      <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
+                    </ul>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="peerEvaluation-criteria"></panel>
+                </p>
               </div>
-              <modal large title="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:participation-peerEvals" class="algolia-no-index">
-                  <div>
-                  <p><big><strong>Peer evaluation criteria: professional conduct</strong></big></p>
-                  <ul>
-                    <li><strong>Professional Communication</strong> :
-                      <ul>
-                        <li>Communicates sufficiently and professionally. e.g. Does not use offensive language or excessive slang in project communications.</li>
-                        <li>Responds to communication from team members in a timely manner (e.g. within 24 hours).</li>
-                      </ul>
-                    </li>
-                    <li><strong>Punctuality</strong>: Does not cause others to waste time or slow down project progress by frequent tardiness.</li>
-                    <li><strong>Dependability</strong>: Promises what can be done, and delivers what was promised.</li>
-                    <li><strong>Effort</strong>: Puts in sufficient effort to, and tries their best to keep up with the module/project pace. Seeks help from others when necessary.</li>
-                    <li><strong>Quality</strong>: Does not deliver work products that seem to be below the student's competence level i.e. tries their best to make the work product as high quality as possible within her competency level.</li>
-                    <li><strong>Meticulousness</strong>:
-                      <ul>
-                        <li>Rarely overlooks submission requirements.</li>
-                        <li>Rarely misses compulsory module activities such as pre-module survey.</li>
-                      </ul>
-                    </li>
-                    <li><strong>Teamwork</strong>: How willing are you to act as part of a team, contribute to team-level tasks, adhere to team decisions, etc. Honors all collectively agreed-upon commitments e.g., weekly project meetings.</li>
-                  </ul>
-                  <p><big><strong>Peer evaluation criteria: competency</strong></big></p>
-                  <ul>
-                    <li><strong>Technical Competency</strong>: Able to gain competency in all the required tools and techniques.</li>
-                    <li><strong>Mentoring skills</strong>: Helps others when possible. Able to mentor others well.</li>
-                    <li><strong>Communication skills</strong>: Able to communicate (written and spoken) well. Takes initiative in discussions.</li>
-                  </ul>
-                </div>
-              </modal>
-              <p>
-                <panel src="/website/admin/peerEvaluations._include_.html#peerEvaluation-criteria" header="Admin <md>:glyphicon-log-in:</md> Peer Evaluations → Criteria  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="peerEvaluation-criteria"></panel>
-              </p>
+              <box>
+                <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples:</p>
+                <ul>
+                  <li>Alicia earned 1/2, 3/5, <ins>2/5</ins>, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half points in 11 of the weeks, she gets 5 participation marks. The bonus mark is not applicable as she has full marks already.</li>
+                  <li>Benjamin managed to get at least half of the participation points in 9 weeks only, which gives him 5-1 = 4 participation marks. But he received good peer ratings for all criteria, and hence get a bonus mark to make it 5/5.</li>
+                  <li>Chun Ming met the participation points bar in 8 weeks only, giving him 5-2 = 3 marks. He lost 2 more marks because he received very negative ratings for two criteria, giving him 1/5 participation marks.</li>
+                </ul>
+              </box>
             </div>
           </panel>
           <p></p>
@@ -1029,7 +1069,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 02 Aug 2019 12:17:12 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -209,62 +209,70 @@
                 <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:ipW02-tools" class="algolia-no-index">
                     <div>
                     <p><img src="/website/admin/images/toolsList.png" style="width: 700px"><br></p>
-                    <h4 id="tools-used-learning-management-system">Tools Used: Learning Management System<a class="fa fa-anchor" href="#tools-used-learning-management-system"></a></h4>
+                    <h4 id="tools-used-learning-management-system">
+                      <div class="text-white bg-dark p-1">Tools Used: Learning Management System</div><a class="fa fa-anchor" href="#tools-used-learning-management-system"></a>
+                    </h4>
                     <p>This module website is the main source of information for the module. In addition, we use LumiNUS for some things <span class="dimmed">(e.g., webcasts, announcements, file submissions, grade book, ...)</span>.</p>
-                    <hr>
+
                     <div id="github">
-                      <h4 id="tool-used-github-for-code-hosting">Tool Used: GitHub (for Code Hosting)<a class="fa fa-anchor" href="#tool-used-github-for-code-hosting"></a></h4>
+                      <h4 id="tool-used-github-for-code-hosting">
+                        <div class="text-white bg-dark p-1">Tool Used: GitHub (for Code Hosting)</div><a class="fa fa-anchor" href="#tool-used-github-for-code-hosting"></a>
+                      </h4>
                       <p>You are <mark><em>required to</em> use GitHub</mark> as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.).</p>
-                      <p><strong>Preparation</strong>: Create a GitHub account (if you don't have one yet), as explained in the panel below.</p>
-                      <div class="flat">
-                        <div>
-                          <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                      <box>
+                        <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation</strong>:</span></p>
+                        <p>Create a GitHub account (if you don't have one yet), as explained in the panel below.</p>
+                        <div class="flat">
+                          <div>
+                            <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                          </div>
                         </div>
-                      </div>
-                      <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                          <div>
-                          <p>Create a personal GitHub account if you don't have one yet.</p>
-                          <ol>
-                            <li>
-                              <p>You are advised to choose a sensible GitHub username as you are likely to use it for years to come in professional contexts.</p>
-                            </li>
-                            <li>
-                              <p>Strongly recommended: Complete your GitHub profile. In particular,</p>
-                              <ul>
-                                <li>Specify your full name.</li>
-                                <li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
-                              </ul>
-                              <panel type="seamless" header="%%Why am I being encouraged to complete my GitHub profile?%%" class="algolia-no-index">
-                                <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p>
-                              </panel>
-                            </li>
-                            <li>
-                              <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p>
-                            </li>
-                          </ol>
-                          <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria" class="algolia-no-index">
-                              <div>
-                              <ul>
-                                <li>
-                                  <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
-                                    <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
-                                </li>
-                                <li>
-                                  <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you may use <a href="https://en.wikipedia.org/wiki/File:Portrait_placeholder.png">a placeholder image</a> in place of the photo in module-related documents that are publicly visible.</p>
-                                </li>
-                              </ul>
-                            </div>
-                          </modal>
-                        </div>
-                      </modal>
-                      <p>
-                        <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="githubAccount"></panel>
-                      </p>
+                        <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
+                            <div>
+                            <p>Create a personal GitHub account if you don't have one yet.</p>
+                            <ol>
+                              <li>
+                                <p>You are advised to choose a sensible GitHub username as you are likely to use it for years to come in professional contexts.</p>
+                              </li>
+                              <li>
+                                <p>Strongly recommended: Complete your GitHub profile. In particular,</p>
+                                <ul>
+                                  <li>Specify your full name.</li>
+                                  <li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
+                                </ul>
+                                <panel type="seamless" header="%%Why am I being encouraged to complete my GitHub profile?%%" class="algolia-no-index">
+                                  <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p>
+                                </panel>
+                              </li>
+                              <li>
+                                <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p>
+                              </li>
+                            </ol>
+                            <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria" class="algolia-no-index">
+                                <div>
+                                <ul>
+                                  <li>
+                                    <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
+                                      <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
+                                  </li>
+                                  <li>
+                                    <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you may use <a href="https://en.wikipedia.org/wiki/File:Portrait_placeholder.png">a placeholder image</a> in place of the photo in module-related documents that are publicly visible.</p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </modal>
+                          </div>
+                        </modal>
+                        <p>
+                          <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="githubAccount"></panel>
+                        </p>
+                      </box>
                       <p><strong>More info</strong>: See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a>.</p>
                     </div>
-                    <hr>
                     <div id="communication">
-                      <h4 id="tools-used-for-communication">Tools Used: for Communication<a class="fa fa-anchor" href="#tools-used-for-communication"></a></h4>
+                      <h4 id="tools-used-for-communication">
+                        <div class="text-white bg-dark p-1">Tools Used: for Communication</div><a class="fa fa-anchor" href="#tools-used-for-communication"></a>
+                      </h4>
                       <ul>
                         <li><strong>The preferred channels for module-related communications are</strong>:
                           <ul>
@@ -275,34 +283,69 @@
                         <li>When communicating with instructors, prefer the two public channels given above. Use private channels (e.g., emails, private messages, face-to-face, private chat groups) only when the public channels are not suitable. <span class="dimmed">Rationale: 1. More classmates can benefit from the discussions, 2. It is also safer because the prof can monitor information you receive for accuracy</span>.</li>
                         <li>You are encouraged to help others in the forum (e.g., share tips, help with technical problems). <mark>We consider such sharing when giving out <code>A+</code> grades and when recruiting tutors.</mark></li>
                       </ul>
-                      <p><strong>Preparation:</strong> We encourage you all to,</p>
-                      <ul>
-                        <li><mark>join the slack channel</mark> (you'll need to use an email address ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
-                        <li><mark><em>watch</em> <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">the forum</a></mark> to get alerts when new issues/comments are posted <a href="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" target="_self"><img src="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" alt class="img-fluid"></a></li>
-                      </ul>
+                      <box>
+                        <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
+                        <p>We encourage you all to,</p>
+                        <ul>
+                          <li><mark>join the slack channel</mark> (you'll need to use an email address ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
+                          <li><mark><em>watch</em> <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">the forum</a></mark> to get alerts when new issues/comments are posted <a href="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" target="_self"><img src="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" alt class="img-fluid"></a></li>
+                        </ul>
+                      </box>
                     </div>
-                    <hr>
                     <div id="ide">
-                      <h4 id="tool-used-intellij-ide">Tool Used: Intellij IDE<a class="fa fa-anchor" href="#tool-used-intellij-ide"></a></h4>
+                      <h4 id="tool-used-intellij-ide">
+                        <div class="text-white bg-dark p-1">Tool Used: Intellij IDE</div><a class="fa fa-anchor" href="#tool-used-intellij-ide"></a>
+                      </h4>
                       <p>You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk.</p>
-                      <p><strong>Preparation:</strong></p>
-                      <ul>
-                        <li>Install the IDE in your computer. You may use the Intellij community edition (free) or the ultimate edition (free for students).</li>
-                      </ul>
+                      <box>
+                        <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
+                        <ul>
+                          <li>Install the IDE in your computer. You may use the Intellij community edition (free) or the ultimate edition (free for students).
+                          </li>
+                        </ul>
+                      </box>
                     </div>
-                    <hr>
                     <div id="rcs">
-                      <h4 id="tool-used-git-for-revision-control">Tool Used: Git (for Revision Control)<a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a></h4>
+                      <h4 id="tool-used-git-for-revision-control">
+                        <div class="text-white bg-dark p-1">Tool Used: Git (for Revision Control)</div><a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a>
+                      </h4>
                       <p>You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed. The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a>, but you may use any other, or none.</p>
-                      <p><strong>Preparation:</strong></p>
-                      <ul>
-                        <li>Install Git and a Git GUI client on your computer.<br>
-                          <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</li>
-                      </ul>
+                      <box>
+                        <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
+                        <ul>
+                          <li>Install Git and a Git GUI client on your computer.<br>
+                            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</li>
+                          <li>Set your Git <code>user.name</code> to a reasonable value.</li>
+                        </ul>
+                        <div class="indented-level2">
+                          <div class="flat">
+                            <div>
+                              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - Setting Git <code>user.name</code></strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                            </div>
+                          </div>
+                          <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - Setting Git `user.name`**  <md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
+                              <div>
+                              <h2 id="setting-git-user-name">Setting Git <code>user.name</code><a class="fa fa-anchor" href="#setting-git-user-name"></a></h2>
+                              <p>We use various tools to analyze your code. ==For us to be able to identify your commits, we encourage you to set your Git <code>user.name</code> in all computers you use to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                              <p>In each computer you use for coding, after installing Git, you can set the Git username as follows.</p>
+                              <ol>
+                                <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
+                                <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code><br>
+                                  e.g., <code>git config --global user.name JohnDoe</code></li>
+                              </ol>
+                              <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
+                            </div>
+                          </modal>
+                          <p>
+                            <panel src="/website/admin/appendixE-gitHub._include_.html#git-username" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - Setting Git `user.name`**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="git-username"></panel>
+                          </p>
+                        </div>
+                      </box>
                     </div>
-                    <hr>
                     <div id="reposense">
-                      <h4 id="tool-used-reposense-for-analyzing-code-authorship">Tool Used: RepoSense (for Analyzing Code Authorship)<a class="fa fa-anchor" href="#tool-used-reposense-for-analyzing-code-authorship"></a></h4>
+                      <h4 id="tool-used-reposense-for-analyzing-code-authorship">
+                        <div class="text-white bg-dark p-1">Tool Used: RepoSense (for Analyzing Code Authorship)</div><a class="fa fa-anchor" href="#tool-used-reposense-for-analyzing-code-authorship"></a>
+                      </h4>
                       <div>
                         <p>We will be using a tool called <a href="https://reposense.org">RepoSense</a> to make it <strong>easier for you to see (and learn from) code written by others</strong>, and to help us see who wrote which part of the code.</p>
                         <pic src="https://github.com/reposense/RepoSense/raw/release/docs/images/report-features.png" alt="RepoSense report screenshot">
@@ -908,7 +951,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 02 Aug 2019 12:17:12 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -231,10 +231,10 @@
                 <ul>
                   <li>The Developer Guide (DG) of the product should match the proposed v2.0 of the product and should be in sync with the current version of the product.</li>
                   <li>
-                    <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>The appendix named <em>Instructions for Manual Testing</em></strong> of the Developer Guide should include testing instructions to <strong>cover the features of each team member</strong>. There is no need to add testing instructions for existing features if you did not touch them.<br>
-                    <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> What to include in the appendix <em>Instructions for Manual Testing</em>? This appendix is meant to give some guidance to the tester to chart a path through the features, and provide some important test inputs the tester can copy-paste into the app. There is no need to give a long list of test cases including all possible variations. It is upto the tester to come up with those variations. However, if the instructions are inaccurate or deliberately misses/mis-states information to make testing harder <span class="dimmed">i.e. annoys the tester</span>, the tester can report it as a bug <span class="dimmed">(because flaws in developer docs are considered as bugs)</span>.
+                    <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>The appendix named <em>Instructions for Manual Testing</em></strong> of the Developer Guide should include testing instructions to <strong>cover the features of each team member</strong>. There is no need to add testing instructions for existing AB3 features if you did not touch them.<br>
+                    <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> What to include in the appendix <em>Instructions for Manual Testing</em>? This appendix is meant to give some guidance to the tester to chart a path through the features, and provide some important test inputs the tester can copy-paste into the app. There is no need to give a long list of test cases including all possible variations. It is upto the tester to come up with those variations. However, if the instructions are inaccurate or deliberately misses/mis-states information to make testing harder <span class="dimmed">i.e. annoys the tester</span>, the tester can report it as a bug <span class="dimmed">(because flaws in developer docs are considered as bugs)</span> or give a lower rating for the <em>testability</em> of your product.
                   </li>
-                  <li>Ensure the parted DG parts included in PPPs match the product precisely, as PPPs will be used by peer evaluators (and <mark>any inaccuracy in the content will be considered bugs</mark>).</li>
+                  <li>Ensure the DG parts included in PPPs match the product precisely, as PPPs will be used by peer evaluators (and <mark>any inaccuracy in the content will be considered bugs</mark>).</li>
                 </ul>
               </div>
             </modal>
@@ -321,7 +321,7 @@
                       <li>
                         <p><mark>
                             <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> It is assumed that all contents in the PPP were written primarily by you.
-                          </mark> If any section is written by someone else <span class="dimmed">e.g. someone else wrote described the feature in the User Guide but you implemented the feature</span>, clearly state that the section was written by someone else <span class="dimmed">(e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed">Reason: Your writing skills will be evaluated based on the PPP</span></p>
+                          </mark> If any section is written by someone else <span class="dimmed">e.g. someone else wrote the description of your feature in the User Guide</span>, clearly state that the section was written by someone else <span class="dimmed">(e.g. <code>Start of Extract [from: User Guide] written by Jane Doe</code>)</span>. <span class="dimmed">Reason: Your writing skills will be evaluated based on the PPP</span></p>
                       </li>
                     </ul>
                   </li>
@@ -383,7 +383,7 @@
                 <div>
                 <ul>
                   <li>Include an updated version of the online UG and DG that match v1.4 executable</li>
-                  <li>README :
+                  <li><strong>README</strong> :
                     <ul>
                       <li><mark>Ensure the <code>Ui.png</code> matches the current product</mark></li>
                     </ul>
@@ -397,24 +397,28 @@
                       <li>Before taking the screenshot, populate the product with data that makes the product look good. For example, if the product is supposed to show photos, use real photos instead of dummy placeholders.</li>
                       <li>It should show a state in which the product is well-populated <span class="dimmed">i.e., don't leave data panels largely blank</span></li>
                       <li>Choose a state that showcase the main features of the product <span class="dimmed">i.e., the login screen is not usually a good choice</span></li>
-                      <li>Avoid annotations (arrows, callouts, explanatory text etc.); it should look like the product is being in use for real.</li>
+                      <li>Avoid annotations (arrows, callouts, explanatory text etc.); it should look like the product is in use for real.</li>
                     </ul>
-                    <panel type="seamless" header="Examples" class="algolia-no-index">
+                    <panel type="seamless" header="Examples" expanded>
                       <tabs>
-                          <tab header="Not Good">
-                          <img src="/website/admin/images/Ui-notGood1.png" width="600"></tab>
-                          <tab header="Not Good" class="algolia-no-index">
-                          <img src="/website/admin/images/Ui-notGood2.png" width="600"></tab>
-                        <tab header="Good" class="algolia-no-index">
+                          <tab header=":-1: Not Good">
+                          <p>Reason: Distracting annotations.</p>
+                          <img src="/website/admin/images/Ui-notGood1.png" width="600">
+                        </tab>
+                          <tab header=":-1: Not Good" class="algolia-no-index">
+                          <p>Reason: Not enough data.</p>
+                          <img src="/website/admin/images/Ui-notGood2.png" width="600">
+                        </tab>
+                        <tab header=":+1: Good" class="algolia-no-index">
                           <img src="/website/admin/images/Ui-good1.png" width="600"></tab>
-                          <tab header="Good" class="algolia-no-index">
+                          <tab header=":+1: Good" class="algolia-no-index">
                           <img src="/website/admin/images/Ui-good2.png" width="600"></tab>
                       </tabs>
                     </panel>
                   </box>
                 </div>
                 <ul>
-                  <li>AboutUs : Ensure the following:
+                  <li><strong>AboutUs</strong> : Ensure the following:
                     <ul>
                       <li>Use a suitable profile photo</li>
                     </ul>
@@ -463,12 +467,13 @@
                 <li>
                   <p><strong>Scope</strong>:</p>
                   <ul>
-                    <li><strong>Each person should demo the enhancements they added</strong>. However, it's ok for one member to do all the typing.</li>
-                    <li>Subjected to the constraint mentioned in the previous point, as far as possible, organize the demo to present a cohesive picture of the product as a whole, presented in a logical order. <span class="dimmed">Remember to explain the profile of the target user profile and value proposition early in the demo.</span></li>
+                    <li><strong>Each person should demo the enhancements they added</strong>. However, it's OK for one member to do all the typing.</li>
+                    <li>Each person should demo their part in one go <span class="dimmed">i.e., one person should not appear multiple times in the demo. Reasons: it will interfere with grading as some things are graded individually</span>. However, it's OK for one person to give a short intro at the start and appear again later in the demo to demo her features.</li>
+                    <li>Subjected to the previous two points, as far as possible, organize the demo to present a cohesive picture of the product as a whole, presented in a logical order. <span class="dimmed">Remember to explain the profile of the target user profile and value proposition early in the demo.</span></li>
                     <li>It is recommended you showcase how the feature improves the user’s life rather than simply describe each feature.</li>
                     <li>No need to cover design/implementation details as the manager is not interested in those details.</li>
-                    <li>Mention features you inherited from AB3 only if they are needed to explain your new features. <span class="dimmed">Reason: existing features will not earn you marks, and the audience is already familiar with AB3 features.</span></li>
-                    <li>Each person should demo their features.</li>
+                    <li>Do not demo features you inherited from AB3 unless they are needed to explain your new features. <span class="dimmed">Reason: existing features will not earn you marks, and the audience is already familiar with AB3 features.</span></li>
+                    <li>Plan the demo to be in sync with the impression you want to create. For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.</li>
                   </ul>
                 </li>
                 <li>
@@ -485,12 +490,13 @@
                   <p><strong>Optimizing the time:</strong></p>
                   <ul>
                     <li>Spend as much time as possible on demonstrating the actual product. Not recommended to use slides (if you do, use them sparingly) or videos or lengthy narrations.<br>
-                      Avoid skits, re-enactments, dramatizations etc. This is not a sales pitch or an informercial. While you need to show how a user use the product to get value, but you don’t need to act like an imaginary user. For example, [Instead of this] <code>Jim get’s a call from boss. &quot;Ring ring&quot;, &quot;hello&quot;, &quot;oh hi Jim, can we postpone the meeting?&quot; &quot;Sure&quot;. Jim hang up and curses the boss under his breath. Now he starts typing ..etc.</code> [do this] <code>If Jim needs to postpone the meeting, he can type …</code>
+                      Avoid skits, re-enactments, dramatizations etc. This is not a sales pitch or an informercial. While you need to show how a user use the product to get value, but you don’t need to act like an imaginary user. For example,<br>
+                      [Instead of this] <code>Jim get’s a call from boss. &quot;Ring ring&quot;, &quot;hello&quot;, &quot;oh hi Jim, can we postpone the meeting?&quot; &quot;Sure&quot;. Jim hang up and curses the boss under his breath. Now he starts typing ..etc.</code><br>
+                      [do this] <code>If Jim needs to postpone the meeting, he can type …</code><br>
                       It’s not that dramatization is bad or we don’t like it. We simply don’t have enough time for it.<br>
                       Note that CS2101 demo requirements may differ. Different context → Different requirements.</li>
                     <li>Rehearse the steps well and ensure you can do a smooth demo. Poor quality demos can affect your grade.</li>
                     <li>Don’t waste time repeating things the target audience already knows. e.g. no need to say things like &quot;We are students from NUS, SoC&quot;.</li>
-                    <li>Plan the demo to be in sync with the impression you want to create. For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.</li>
                   </ul>
                 </li>
                 <li>
@@ -552,11 +558,11 @@
                 <p><strong>Preparation</strong>:</p>
                 <ul>
                   <li>
-                    <p>Ensure that <strong>you can access the relevant issue tracker</strong> given below:<br>
-                      -- for PE Dry Run (at <strong>v1.3</strong>): <a href="https://github.com/nus-cs2103-AY1920S1/pe-dry-run/issues">nus-cs2103-AY1920S1/<strong>pe-dry-run</strong></a><br>
-                      -- for PE (at <strong>v1.4</strong>): <a href="https://github.com/nus-cs2103-AY1920S1/pe/issues">nus-cs2103-AY1920S1/<strong>pe</strong></a> (will open only near the actual PE)</p>
+                    <p>Create a new repo with the name given below in your personal GitHub account. Remember to enable the issue tracker:<br>
+                      -- for PE Dry Run (at <strong>v1.3</strong>): <code>pe-d</code><br>
+                      -- for PE (at <strong>v1.4</strong>): <code>pe</code></p>
                     <ul>
-                      <li><mark>These are private repos!</mark>. If you cannot access the relevant repo, you may not have accepted the invitation to join the GitHub org used by the module. Go to <a href="https://github.com/orgs/nus-cs2103-AY1920S1/invitation">https://github.com/orgs/nus-cs2103-AY1920S1/invitation</a> to accept the invitation.</li>
+                      <li>Ensure that you have accepted the invitation to join the GitHub org used by the module. Go to <a href="https://github.com/orgs/nus-cs2103-AY1920S1/invitation">https://github.com/orgs/nus-cs2103-AY1920S1/invitation</a> to accept the invitation.</li>
                       <li>If you cannot find the invitation, post in our <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">forum</a>.</li>
                     </ul>
                   </li>
@@ -564,9 +570,12 @@
                     <p>Ensure you have access to a <strong>computer that is able to run module projects</strong> <span class="dimmed">e.g. has the right Java version</span>.</p>
                   </li>
                   <li>
+                    <p>Download the CATcher (link to be given nearer to the date) and ensure you can run it on your computer.</p>
+                  </li>
+                  <li>
                     <p><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.</p>
                     <ul>
-                      <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in GitHub issue tracker.</li>
+                      <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in bug report.</li>
                     </ul>
                   </li>
                   <li>
@@ -613,10 +622,10 @@
                         </ul>
                       </li>
                       <li>
-                        <p><strong>Where to report bugs</strong>: Post bug in the following issue trackers (<mark>not in the team's repo</mark>):</p>
+                        <p><strong>Where to report bugs</strong>: Post bug in the following issue trackers that you created in your personal GitHub account (<mark>not in the team's repo</mark>):</p>
                         <ul>
-                          <li>PE Dry Run (at <strong>v1.3</strong>): <a href="https://github.com/nus-cs2103-AY1920S1/pe-dry-run/issues">nus-cs2103-AY1920S1/<strong>pe-dry-run</strong></a>.</li>
-                          <li>PE (at <strong>v1.4</strong>): <a href="https://github.com/nus-cs2103-AY1920S1/pe/issues">nus-cs2103-AY1920S1/<strong>pe</strong></a>.</li>
+                          <li>PE Dry Run (at <strong>v1.3</strong>): <code>pe-d</code><br></li>
+                          <li>PE (at <strong>v1.4</strong>): <code>pe</code></li>
                         </ul>
                       </li>
                       <li>
@@ -625,12 +634,11 @@
                           <li>
                             <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Post bugs as you find them <span class="dimmed">(i.e., do not wait to post all bugs at the end)</span> because the issue tracker will close exactly at the end of the allocated time.
                           </li>
-                          <li><mark>Do not use team ID in bug reports</mark>. <span class="dimmed">Reason: to prevent others copying your bug reports</span></li>
                           <li>Each bug should be a separate issue.</li>
                           <li>Write good quality bug reports; <mark>poor quality or incorrect bug reports will not earn credit</mark>.</li>
                           <li>Use a descriptive title.</li>
                           <li>Give a good description of the bug with <mark>steps to reproduce and screenshots</mark>.</li>
-                          <li>Assign a severity to the bug report. Bug report without a priority label are considered <code>severity.Low</code> (lower severity bugs earn lower credit):</li>
+                          <li>Assign a severity to the bug report. Bug report without a priority label are considered <code>severity.Low</code> (lower severity bugs earn lower credit)<br></li>
                         </ul>
                       </li>
                     </ul>
@@ -644,6 +652,18 @@
                             <li><code>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li>
                           </ul>
                         </tip-box>
+                      </div>
+                      Also assign a `type.*` label to the issue.
+                      <div>
+                        <box>
+                          <p><strong>Type</strong> labels:</p>
+                          <ul>
+                            <li><code>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
+                            <li><code>type.FeatureFlaw</code>: One of these:some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for normal usage. i.e., the feature is not 'complete'. In other words, an acceptance testing bug that falls within the scope of v1.4 features. These issues are counted against the 'depth and completeness' of the feature.</li>
+                            <li><code>type.DocTypo</code>: A minor typo in the documentation <span class="dimmed">e.g., spelling error</span>. Does not affect the users.</li>
+                            <li><code>type.DocumentationBug</code>: A flaw in the documentation that can potentially affect the user <span class="dimmed">e.g., a missing step, a wrong instruction</span></li>
+                          </ul>
+                        </box>
                       </div>
                     </div>
                     <ul>
@@ -825,23 +845,23 @@
                     <p>Response Labels:</p>
                     <ul>
                       <li><code>response.Accepted</code>: You accept it as a bug.</li>
-                      <li><code>response.NotInScope</code>: It is a valid issue but not something the team should be penalized for e.g., it was not related to features delivered in v1.4.</li>
+                      <li><code>response.NotInScope</code>: It is a valid issue but not something the team should be penalized for <span class="dimmed">e.g., it was not related to features delivered in v1.4</span>.</li>
                       <li><code>response.Rejected</code>: What tester treated as a bug is in fact the expected behavior. You can reject bugs that you inherited from AB3.</li>
                       <li><code>response.CannotReproduce</code>: You are unable to reproduce the behavior reported in the bug after multiple tries.</li>
-                      <li><code>response.IssueUnclear</code>: The issue description is not clear. Don't post comments asked the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymized.</li>
+                      <li><code>response.IssueUnclear</code>: The issue description is not clear. Don't post comments asking the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymous.</li>
                     </ul>
                   </box>
                 </div>
                 <ul>
                   <li>If applicable, <strong>decide the type of bug</strong>. Bugs without <code>type.*</code> are considered <code>type.FunctionalityBug</code> by default (which are liable to a heavier penalty).</li>
                 </ul>
-                <div class="indented">
+                <div class="indented" id="type-labels">
                   <box>
-                    <p>Bug Type Labels:</p>
+                    <p><strong>Type</strong> labels:</p>
                     <ul>
-                      <li><code>type.FeatureFlaw</code>: some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for normal usage. i.e., the feature is not 'complete'. In other words, an acceptance testing bug that falls within the scope of v1.4 features. These issues are counted against the 'depth and completeness' of the feature.</li>
-                      <li><code>type.FunctionalityBug</code>: the bug is a flaw in how the product works.</li>
-                      <li><code>type.DocTypo</code>: A minor spelling/grammar error in the documentation. Does not affect the user.</li>
+                      <li><code>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
+                      <li><code>type.FeatureFlaw</code>: One of these:some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for normal usage. i.e., the feature is not 'complete'. In other words, an acceptance testing bug that falls within the scope of v1.4 features. These issues are counted against the 'depth and completeness' of the feature.</li>
+                      <li><code>type.DocTypo</code>: A minor typo in the documentation <span class="dimmed">e.g., spelling error</span>. Does not affect the users.</li>
                       <li><code>type.DocumentationBug</code>: A flaw in the documentation that can potentially affect the user <span class="dimmed">e.g., a missing step, a wrong instruction</span></li>
                     </ul>
                   </box>
@@ -875,7 +895,7 @@
                     <p><strong>Add an explanatory comment</strong> explaining your choice of labels and assignees.</p>
                   </li>
                   <li>
-                    <p>We recommend choosing <code>type.*</code>, <code>severity.*</code> and assignee even for bugs you are not accepting. Reason: your <em>non-acceptance</em> may be rejected by the tutor later, in which case we need to grade it as an accepted bug.</p>
+                    <p>Choose the correct <code>type.*</code>, <code>severity.*</code> labels and assignee even for bugs you are not accepting. Reason: your <em>non-acceptance</em> may be rejected by the tutor later, in which case we need to grade it as an accepted bug.</p>
                   </li>
                 </ul>
               </tip-box>
@@ -906,7 +926,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 02 Aug 2019 12:17:12 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
     </footer>
   </div>
 </body>

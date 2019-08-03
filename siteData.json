@@ -52,7 +52,6 @@
         "why-so-much-self-study": "Why so much self-study? ",
         "what-if-i-don-t-carry-around-a-laptop": "What if I don’t carry around a laptop? ",
         "why-very-narrow-project-scope": "Why very narrow project scope? ",
-        "why-project-requirements-are-so-vague": "Why project requirements are so vague? ",
         "why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc": "Why I’m not allowed to use my favorite tool/framework/language etc.? ",
         "why-so-many-submissions": "Why so many submissions? ",
         "why-aren-t-we-allowed-to-build-a-new-product-from-scratch": "Why aren't we allowed to build a new product from scratch? ",
@@ -84,7 +83,7 @@
       "headings": {
         "e-using-github": "E: Using GitHub ",
         "creating-a-github-account": "Creating a GitHub account",
-        "setting-git-username-to-match-github-username": "Setting Git Username to Match GitHub Username",
+        "setting-git-user-name": "Setting Git user.name",
         "organization-setup": "Organization setup",
         "repo-setup": "Repo setup",
         "workflow": "Workflow",
@@ -405,7 +404,7 @@
       "headings": {
         "tp-grading": "tP: Grading ",
         "1-project-grading-product-design-5-marks": "1. Project Grading: Product Design [ 5 marks]",
-        "2-project-grading-implementation-15-marks": "2. Project Grading: Implementation [ 15 marks]",
+        "2-project-grading-implementation-10-marks": "2. Project Grading: Implementation [ 10 marks]",
         "3-project-grading-qa-10-marks": "3. Project Grading: QA [ 10 marks]",
         "4-project-grading-documentation-10-marks": "4. Project Grading: Documentation [ 10 marks]",
         "5-project-grading-project-management-5-5-10-marks": "5. Project Grading: Project Management [ 5 +  5 = 10 marks]"
@@ -1055,12 +1054,12 @@
     {
       "headings": {
         "tools": "Tools ",
-        "tools-used-learning-management-system": "Tools Used: Learning Management System",
-        "tool-used-github-for-code-hosting": "Tool Used: GitHub (for Code Hosting)",
-        "tools-used-for-communication": "Tools Used: for Communication",
-        "tool-used-intellij-ide": "Tool Used: Intellij IDE",
-        "tool-used-git-for-revision-control": "Tool Used: Git (for Revision Control)",
-        "tool-used-reposense-for-analyzing-code-authorship": "Tool Used: RepoSense (for Analyzing Code Authorship)"
+        "tools-used-learning-management-system": "\r\n              Tools Used: Learning Management System\r\n            ",
+        "tool-used-github-for-code-hosting": "\r\n                Tool Used: GitHub (for Code Hosting)\r\n              ",
+        "tools-used-for-communication": "\r\n                Tools Used: for Communication\r\n              ",
+        "tool-used-intellij-ide": "\r\n                Tool Used: Intellij IDE\r\n              ",
+        "tool-used-git-for-revision-control": "\r\n                Tool Used: Git (for Revision Control)\r\n              ",
+        "tool-used-reposense-for-analyzing-code-authorship": "\r\n                Tool Used: RepoSense (for Analyzing Code Authorship)\r\n              "
       },
       "title": "Admin: Tools",
       "header": "header.md",
@@ -2185,7 +2184,7 @@
         "a-codequality": "A-CodeQuality",
         "a-assertions": "A-Assertions",
         "a-jar": "A-Jar",
-        "a-gradle": "A-Gradle",
+        "a-gradle-4": "A-Gradle",
         "a-travis": "A-Travis",
         "a-enums": "A-Enums",
         "a-varargs": "A-Varargs",
