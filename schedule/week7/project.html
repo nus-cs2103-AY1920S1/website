@@ -103,19 +103,19 @@
         <p></p>
         <h1 id="week-7-sep-30-project">Week 7 <small><small><span class="dimmed">[Sep 30]</span> - Project</small></small><a class="fa fa-anchor" href="#week-7-sep-30-project"></a></h1>
         <div id="summary" class="lead border-bottom border-left ml-3 mb-3 pl-2" style="color: purple;">
-          <p><strong>tP:</strong></p>
+          <p><strong>tP:</strong> <span class="border rounded text-success border-success pr-1 pl-1"><span aria-hidden="true" class="fas fa-tag"></span> <strong>v1.1</strong></span></p>
           <div>
             <ol>
               <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Update project site: <code>AboutUs</code>, <code>ContactUs</code>, <code>README</code></li>
               <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Update UG</li>
               <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Update DG: user stories, glossary, NFRs, use cases</li>
-              <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Wrap up v1.1</li>
+              <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Wrap up <strong>v1.1</strong></li>
               <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Draft a rough project plan</li>
               <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Start implementing a minimal version of your feature</li>
             </ol>
           </div>
         </div>
-        <h1 id="tp-v1-1">tp: v1.1<a class="fa fa-anchor" href="#tp-v1-1"></a></h1>
+        <h1 id="tp-v1-1">tP: v1.1<a class="fa fa-anchor" href="#tp-v1-1"></a></h1>
         <div>
           <h4 id="1-update-project-site-aboutus-contactus-readme"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span aria-hidden="true" class="fas fa-users"></span></span> Update project site: <code>AboutUs</code>, <code>ContactUs</code>, <code>README</code><a class="fa fa-anchor" href="#1-update-project-site-aboutus-contactus-readme"></a></h4>
           <box type="info">
@@ -140,9 +140,8 @@
                 </ul>
                 <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername" class="algolia-no-index">
                     <div>
-                    <h2 id="setting-git-user-name">Setting Git <code>user.name</code><a class="fa fa-anchor" href="#setting-git-user-name"></a></h2>
-                    <p>We use various tools to analyze your code. ==For us to be able to identify your commits, we encourage you to set your Git <code>user.name</code> in all computers you use to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
-                    <p>In each computer you use for coding, after installing Git, you can set the Git username as follows.</p>
+                    <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                    <p>After installing Git in a computer, you can set the Git username as follows:</p>
                     <ol>
                       <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
                       <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code><br>
@@ -156,11 +155,11 @@
                     <h3 id="policy-on-reuse">Policy on reuse <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#policy-on-reuse"></a></h3>
                     <div class="indented">
                       <div>
-                        <p><strong>Reuse is encouraged. However, note that reuse has its own costs</strong> (such as the learning curve, additional complexity, usage restrictions, and unknown bugs). Furthermore, you will not be given credit for work done by others. Rather, you will be given credit for using work done by others.</p>
+                        <p><strong>Reuse is encouraged. However, note that reuse has its own costs</strong> (such as the learning curve, additional complexity, usage restrictions, and unknown bugs). Furthermore, you will not be given credit for work done by others. Rather, you will be given credit for <em>reusing</em> work done by others.</p>
                         <ul>
                           <li>You are allowed to reuse work from your classmates, subject to following conditions:
                             <ul>
-                              <li>The work has been published by us or the authors.</li>
+                              <li>The work has been shared publicly by us or the authors.</li>
                               <li>You clearly give credit to the original author(s).</li>
                             </ul>
                           </li>
@@ -207,7 +206,7 @@
 Collections.sort(persons, <span class="hljs-keyword">new</span> Comparator&lt;CustomData&gt;() {
     <span class="hljs-meta">@Override</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">compare</span><span class="hljs-params">(CustomData lhs, CustomData rhs)</span> </span>{
-        <span class="hljs-keyword">return</span> lhs.customInt &gt; rhs.customInt ? -<span class="hljs-number">1</span> : (lhs.customInt &lt; rhs.customInt) ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">return</span> lhs.customInt &gt; rhs.customInt ? -<span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
     }
 });
 <span class="hljs-comment">//@@author</span>
@@ -827,7 +826,7 @@ method 2 ...
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-7-sep-30-project">Week 7 [Sep 30] - Project&#x200E;</a>
-            <a class="nav-link py-1" href="#tp-v1-1">tp: v1.1&#x200E;</a>
+            <a class="nav-link py-1" href="#tp-v1-1">tP: v1.1&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#1-update-project-site-aboutus-contactus-readme">1 Update project site: AboutUs, ContactUs, README&#x200E;</a>
               <a class="nav-link py-1" href="#2-update-ug">2 Update UG&#x200E;</a>
@@ -843,7 +842,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
     </footer>
   </div>
 </body>

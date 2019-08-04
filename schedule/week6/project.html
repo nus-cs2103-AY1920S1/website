@@ -198,7 +198,9 @@
             </div>
             <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Organization setup**  <md>:glyphicon-star:</md>" id="modal:midv11-orgSetup" class="algolia-no-index">
                 <div>
-                <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
+                <h3 id="organization-setup">
+                  <div class="text-white bg-dark p-1">Organization Setup</div><a class="fa fa-anchor" href="#organization-setup"></a>
+                </h3>
                 <p>
                   <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
                 </p>
@@ -231,7 +233,9 @@
             </div>
             <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Repo setup**  <md>:glyphicon-star:</md>" id="modal:midv11-repoSetup" class="algolia-no-index">
                 <div>
-                <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
+                <h3 id="repo-setup">
+                  <div class="text-white bg-dark p-1">Repo Setup</div><a class="fa fa-anchor" href="#repo-setup"></a>
+                </h3>
                 <p>Only one team member:</p>
                 <ol>
                   <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3">Address Book - Level 3 (AB3)</a> to your team org.</li>
@@ -275,7 +279,9 @@
             </div>
             <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E(extract): **Workflow**  <md>:glyphicon-star:</md>" id="modal:midv11-workflow" class="algolia-no-index">
                 <div>
-                <h2 id="workflow">Workflow<a class="fa fa-anchor" href="#workflow"></a></h2>
+                <h3 id="workflow">
+                  <div class="text-white bg-dark p-1">Workflow</div><a class="fa fa-anchor" href="#workflow"></a>
+                </h3>
                 <div id="workflow-before-v11">
                   <p>
                     <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Before you do any coding for the project</strong>,
@@ -286,9 +292,8 @@
                   </ul>
                   <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername" class="algolia-no-index">
                       <div>
-                      <h2 id="setting-git-user-name">Setting Git <code>user.name</code><a class="fa fa-anchor" href="#setting-git-user-name"></a></h2>
-                      <p>We use various tools to analyze your code. ==For us to be able to identify your commits, we encourage you to set your Git <code>user.name</code> in all computers you use to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
-                      <p>In each computer you use for coding, after installing Git, you can set the Git username as follows.</p>
+                      <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                      <p>After installing Git in a computer, you can set the Git username as follows:</p>
                       <ol>
                         <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
                         <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code><br>
@@ -302,11 +307,11 @@
                       <h3 id="policy-on-reuse">Policy on reuse <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#policy-on-reuse"></a></h3>
                       <div class="indented">
                         <div>
-                          <p><strong>Reuse is encouraged. However, note that reuse has its own costs</strong> (such as the learning curve, additional complexity, usage restrictions, and unknown bugs). Furthermore, you will not be given credit for work done by others. Rather, you will be given credit for using work done by others.</p>
+                          <p><strong>Reuse is encouraged. However, note that reuse has its own costs</strong> (such as the learning curve, additional complexity, usage restrictions, and unknown bugs). Furthermore, you will not be given credit for work done by others. Rather, you will be given credit for <em>reusing</em> work done by others.</p>
                           <ul>
                             <li>You are allowed to reuse work from your classmates, subject to following conditions:
                               <ul>
-                                <li>The work has been published by us or the authors.</li>
+                                <li>The work has been shared publicly by us or the authors.</li>
                                 <li>You clearly give credit to the original author(s).</li>
                               </ul>
                             </li>
@@ -353,7 +358,7 @@
 Collections.sort(persons, <span class="hljs-keyword">new</span> Comparator&lt;CustomData&gt;() {
     <span class="hljs-meta">@Override</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">compare</span><span class="hljs-params">(CustomData lhs, CustomData rhs)</span> </span>{
-        <span class="hljs-keyword">return</span> lhs.customInt &gt; rhs.customInt ? -<span class="hljs-number">1</span> : (lhs.customInt &lt; rhs.customInt) ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">return</span> lhs.customInt &gt; rhs.customInt ? -<span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
     }
 });
 <span class="hljs-comment">//@@author</span>
@@ -726,7 +731,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
     </footer>
   </div>
 </body>

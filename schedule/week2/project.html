@@ -332,6 +332,27 @@ bye
                   </box>
                   <p><strong>More info</strong>: See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a>.</p>
                 </div>
+                <div id="rcs">
+                  <h4 id="tool-used-git-for-revision-control">
+                    <div class="text-white bg-dark p-1">Tool Used: Git (for Revision Control)</div><a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a>
+                  </h4>
+                  <p>You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed. The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a>, but you may use any other, or none.</p>
+                  <box>
+                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
+                    <p><strong>Install Git and a Git GUI client</strong> on your computer.<br>
+                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</p>
+                    <div id="git-username">
+                      <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                      <p>After installing Git in a computer, you can set the Git username as follows:</p>
+                      <ol>
+                        <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
+                        <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code><br>
+                          e.g., <code>git config --global user.name JohnDoe</code></li>
+                      </ol>
+                      <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
+                    </div>
+                  </box>
+                </div>
                 <div id="communication">
                   <h4 id="tools-used-for-communication">
                     <div class="text-white bg-dark p-1">Tools Used: for Communication</div><a class="fa fa-anchor" href="#tools-used-for-communication"></a>
@@ -366,43 +387,6 @@ bye
                       <li>Install the IDE in your computer. You may use the Intellij community edition (free) or the ultimate edition (free for students).
                       </li>
                     </ul>
-                  </box>
-                </div>
-                <div id="rcs">
-                  <h4 id="tool-used-git-for-revision-control">
-                    <div class="text-white bg-dark p-1">Tool Used: Git (for Revision Control)</div><a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a>
-                  </h4>
-                  <p>You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed. The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a>, but you may use any other, or none.</p>
-                  <box>
-                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
-                    <ul>
-                      <li>Install Git and a Git GUI client on your computer.<br>
-                        <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</li>
-                      <li>Set your Git <code>user.name</code> to a reasonable value.</li>
-                    </ul>
-                    <div class="indented-level2">
-                      <div class="flat">
-                        <div>
-                          <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - Setting Git <code>user.name</code></strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
-                        </div>
-                      </div>
-                      <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - Setting Git `user.name`**  <md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                          <div>
-                          <h2 id="setting-git-user-name">Setting Git <code>user.name</code><a class="fa fa-anchor" href="#setting-git-user-name"></a></h2>
-                          <p>We use various tools to analyze your code. ==For us to be able to identify your commits, we encourage you to set your Git <code>user.name</code> in all computers you use to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
-                          <p>In each computer you use for coding, after installing Git, you can set the Git username as follows.</p>
-                          <ol>
-                            <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
-                            <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code><br>
-                              e.g., <code>git config --global user.name JohnDoe</code></li>
-                          </ol>
-                          <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
-                        </div>
-                      </modal>
-                      <p>
-                        <panel src="/website/admin/appendixE-gitHub._include_.html#git-username" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - Setting Git `user.name`**  <md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="git-username"></panel>
-                      </p>
-                    </div>
                   </box>
                 </div>
                 <div id="reposense">
@@ -1007,7 +991,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
     </footer>
   </div>
 </body>

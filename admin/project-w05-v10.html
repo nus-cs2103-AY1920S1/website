@@ -106,10 +106,10 @@
             <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
             <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
             <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Individual Project (iP)
-                <i class="dropdown-btn-icon rotate-icon">
+            <li class="mt-2"><button class="dropdown-btn">Individual Project (iP)
+                <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
-              <div class="dropdown-container dropdown-container-open">
+              <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/ip-overview.html" class="site-nav__a">iP: Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w02.html" class="site-nav__a">iP: Week 2</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -121,10 +121,10 @@
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Team Project (tP)
-                <i class="dropdown-btn-icon rotate-icon">
+            <li class="mt-2"><button class="dropdown-btn">Team Project (tP)
+                <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
-              <div class="dropdown-container dropdown-container-open">
+              <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/project-overview.html" class="site-nav__a">tP: Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-product.html" class="site-nav__a">tP: The product</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -423,7 +423,9 @@
                   <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Recommended: <strong>You can use GitHub issue tracker to manage user stories</strong>, but for that you need to set up your team's GitHub organization, project fork, and issue tracker first. Instructions for doing those steps are in the panel below.</p>
                   <panel header="%%Admin <md>:glyphicon-log-in:</md> Appendix E: GitHub (extract)%%" class="algolia-no-index">
                     <div>
-                      <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
+                      <h3 id="organization-setup">
+                        <div class="text-white bg-dark p-1">Organization Setup</div><a class="fa fa-anchor" href="#organization-setup"></a>
+                      </h3>
                       <p>
                         <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
                       </p>
@@ -444,7 +446,9 @@
                       </ul>
                     </div>
                     <div>
-                      <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
+                      <h3 id="repo-setup">
+                        <div class="text-white bg-dark p-1">Repo Setup</div><a class="fa fa-anchor" href="#repo-setup"></a>
+                      </h3>
                       <p>Only one team member:</p>
                       <ol>
                         <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3">Address Book - Level 3 (AB3)</a> to your team org.</li>
@@ -471,7 +475,9 @@
                       </ul>
                     </div>
                     <div>
-                      <h2 id="issue-tracker-setup">Issue tracker setup<a class="fa fa-anchor" href="#issue-tracker-setup"></a></h2>
+                      <h3 id="issue-tracker-setup">
+                        <div class="text-white bg-dark p-1">Issue Tracker Setup</div><a class="fa fa-anchor" href="#issue-tracker-setup"></a>
+                      </h3>
                       <p>We recommend you configure the issue tracker of the <code>main</code> repo as follows:</p>
                       <ul>
                         <li>Delete existing labels and add the following labels.<br>
@@ -483,7 +489,7 @@
                           <li><code>type.Epic</code> : A big feature which can be broken down into smaller stories e.g. search</li>
                           <li><code>type.Story</code> : A user story</li>
                           <li><code>type.Enhancement</code>: An enhancement to an existing story</li>
-                          <li><code>type.Task</code> : Something that needs to be done, but not a story, bug, or an epic. e.g. Move testing code into a new folder)</li>
+                          <li><code>type.Task</code> (or <code>type.Chore</code>) : Something that needs to be done, but not a story, bug, or an epic. e.g. Move testing code into a new folder)</li>
                           <li><code>type.Bug</code> : A bug</li>
                         </ul>
                       </tip-box>
@@ -523,9 +529,11 @@
                       </ul>
                     </div>
                     <div>
-                      <h2 id="project-schedule-tracking">Project Schedule Tracking<a class="fa fa-anchor" href="#project-schedule-tracking"></a></h2>
+                      <h3 id="project-schedule-tracking">
+                        <div class="text-white bg-dark p-1">Project Schedule Tracking</div><a class="fa fa-anchor" href="#project-schedule-tracking"></a>
+                      </h3>
                       <p>In general, use the issue tracker (Milestones, Issues, PRs, Tags, Releases, and Labels) for assigning, scheduling, and tracking <em>all</em> noteworthy project tasks, including user stories. Update the issue tracker regularly to reflect the current status of the project. You can also use GitHub's <a href="https://www.youtube.com/watch?v=C6MGKHkNtxU">Projects feature</a> to manage the project, but keep it linked to the issue tracker as much as you can.</p>
-                      <h3 id="using-issues">Using Issues:<a class="fa fa-anchor" href="#using-issues"></a></h3>
+                      <h4 id="using-issues">Using Issues:<a class="fa fa-anchor" href="#using-issues"></a></h4>
                       <p><big><strong>During the initial stages</strong></big> (latest by the start of v1.2):</p>
                       <ul>
                         <li>
@@ -578,7 +586,7 @@
                         </li>
                       </ul>
                       <div id="using-milestones">
-                        <h3 id="using-milestones">Using Milestones:<a class="fa fa-anchor" href="#using-milestones"></a></h3>
+                        <h4 id="using-milestones">Using Milestones:<a class="fa fa-anchor" href="#using-milestones"></a></h4>
                         <p>We recommend you do proper milestone management starting from v1.2. <mark>Given below are the conditions to satisfy for a milestone to be considered properly managed</mark>:</p>
                         <p><strong>Planning a Milestone</strong>:<br></p>
                         <ul>
@@ -610,7 +618,6 @@
                             <p><strong>If necessary, future milestones are revised</strong> based on what you experienced in the current milestone <span class="dimmed">e.g. if you could not finish all issues assigned to the current milestone, it is a sign that you overestimated how much you can do in a week, which means you might want to reduce the issues assigned to future milestones to match that observation</span>.</p>
                           </li>
                         </ul>
-                        <p></p>
                       </div>
                     </div>
                   </panel>
@@ -669,7 +676,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -106,10 +106,10 @@
             <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
             <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
             <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Individual Project (iP)
-                <i class="dropdown-btn-icon rotate-icon">
+            <li class="mt-2"><button class="dropdown-btn">Individual Project (iP)
+                <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
-              <div class="dropdown-container dropdown-container-open">
+              <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/ip-overview.html" class="site-nav__a">iP: Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/ip-w02.html" class="site-nav__a">iP: Week 2</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -121,10 +121,10 @@
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Team Project (tP)
-                <i class="dropdown-btn-icon rotate-icon">
+            <li class="mt-2"><button class="dropdown-btn">Team Project (tP)
+                <i class="dropdown-btn-icon">
                   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
-              <div class="dropdown-container dropdown-container-open">
+              <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/project-overview.html" class="site-nav__a">tP: Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
                   <li class="mt-2"><small><a href="/website/admin/project-product.html" class="site-nav__a">tP: The product</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -184,7 +184,9 @@
             </div>
           </p>
           <div id="main">
-            <h2 id="creating-a-github-account">Creating a GitHub account<a class="fa fa-anchor" href="#creating-a-github-account"></a></h2>
+            <h3 id="creating-a-github-account">
+              <div class="text-white bg-dark p-1">Creating a GitHub Account</div><a class="fa fa-anchor" href="#creating-a-github-account"></a>
+            </h3>
             <div id="githubAccount">
               <p>Create a personal GitHub account if you don't have one yet.</p>
               <ol>
@@ -219,19 +221,10 @@
                 </div>
               </modal>
             </div>
-            <div id="git-username">
-              <h2 id="setting-git-user-name">Setting Git <code>user.name</code><a class="fa fa-anchor" href="#setting-git-user-name"></a></h2>
-              <p>We use various tools to analyze your code. ==For us to be able to identify your commits, we encourage you to set your Git <code>user.name</code> in all computers you use to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
-              <p>In each computer you use for coding, after installing Git, you can set the Git username as follows.</p>
-              <ol>
-                <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
-                <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code><br>
-                  e.g., <code>git config --global user.name JohnDoe</code></li>
-              </ol>
-              <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
-            </div>
             <div id="organization-setup">
-              <h2 id="organization-setup">Organization setup<a class="fa fa-anchor" href="#organization-setup"></a></h2>
+              <h3 id="organization-setup">
+                <div class="text-white bg-dark p-1">Organization Setup</div><a class="fa fa-anchor" href="#organization-setup"></a>
+              </h3>
               <p>
                 <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Please follow the organization/repo name format precisely because we use scripts to download your code or else our scripts will not be able to detect your work.
               </p>
@@ -252,7 +245,9 @@
               </ul>
             </div>
             <div id="repo-setup">
-              <h2 id="repo-setup">Repo setup<a class="fa fa-anchor" href="#repo-setup"></a></h2>
+              <h3 id="repo-setup">
+                <div class="text-white bg-dark p-1">Repo Setup</div><a class="fa fa-anchor" href="#repo-setup"></a>
+              </h3>
               <p>Only one team member:</p>
               <ol>
                 <li><strong>Fork</strong> <a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3">Address Book - Level 3 (AB3)</a> to your team org.</li>
@@ -279,7 +274,9 @@
               </ul>
             </div>
             <div id="workflow">
-              <h2 id="workflow">Workflow<a class="fa fa-anchor" href="#workflow"></a></h2>
+              <h3 id="workflow">
+                <div class="text-white bg-dark p-1">Workflow</div><a class="fa fa-anchor" href="#workflow"></a>
+              </h3>
               <div id="workflow-before-v11">
                 <p>
                   <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Before you do any coding for the project</strong>,
@@ -290,9 +287,8 @@
                 </ul>
                 <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername" class="algolia-no-index">
                     <div>
-                    <h2 id="setting-git-user-name-2">Setting Git <code>user.name</code><a class="fa fa-anchor" href="#setting-git-user-name-2"></a></h2>
-                    <p>We use various tools to analyze your code. ==For us to be able to identify your commits, we encourage you to set your Git <code>user.name</code> in all computers you use to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
-                    <p>In each computer you use for coding, after installing Git, you can set the Git username as follows.</p>
+                    <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                    <p>After installing Git in a computer, you can set the Git username as follows:</p>
                     <ol>
                       <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
                       <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code><br>
@@ -306,11 +302,11 @@
                     <h3 id="policy-on-reuse">Policy on reuse <small><small><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></small></small><a class="fa fa-anchor" href="#policy-on-reuse"></a></h3>
                     <div class="indented">
                       <div>
-                        <p><strong>Reuse is encouraged. However, note that reuse has its own costs</strong> (such as the learning curve, additional complexity, usage restrictions, and unknown bugs). Furthermore, you will not be given credit for work done by others. Rather, you will be given credit for using work done by others.</p>
+                        <p><strong>Reuse is encouraged. However, note that reuse has its own costs</strong> (such as the learning curve, additional complexity, usage restrictions, and unknown bugs). Furthermore, you will not be given credit for work done by others. Rather, you will be given credit for <em>reusing</em> work done by others.</p>
                         <ul>
                           <li>You are allowed to reuse work from your classmates, subject to following conditions:
                             <ul>
-                              <li>The work has been published by us or the authors.</li>
+                              <li>The work has been shared publicly by us or the authors.</li>
                               <li>You clearly give credit to the original author(s).</li>
                             </ul>
                           </li>
@@ -357,7 +353,7 @@
 Collections.sort(persons, <span class="hljs-keyword">new</span> Comparator&lt;CustomData&gt;() {
     <span class="hljs-meta">@Override</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">compare</span><span class="hljs-params">(CustomData lhs, CustomData rhs)</span> </span>{
-        <span class="hljs-keyword">return</span> lhs.customInt &gt; rhs.customInt ? -<span class="hljs-number">1</span> : (lhs.customInt &lt; rhs.customInt) ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">return</span> lhs.customInt &gt; rhs.customInt ? -<span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
     }
 });
 <span class="hljs-comment">//@@author</span>
@@ -667,7 +663,9 @@ method 2 ...
               </div>
             </div>
             <div id="issue-tracker-setup">
-              <h2 id="issue-tracker-setup">Issue tracker setup<a class="fa fa-anchor" href="#issue-tracker-setup"></a></h2>
+              <h3 id="issue-tracker-setup">
+                <div class="text-white bg-dark p-1">Issue Tracker Setup</div><a class="fa fa-anchor" href="#issue-tracker-setup"></a>
+              </h3>
               <p>We recommend you configure the issue tracker of the <code>main</code> repo as follows:</p>
               <ul>
                 <li>Delete existing labels and add the following labels.<br>
@@ -679,7 +677,7 @@ method 2 ...
                   <li><code>type.Epic</code> : A big feature which can be broken down into smaller stories e.g. search</li>
                   <li><code>type.Story</code> : A user story</li>
                   <li><code>type.Enhancement</code>: An enhancement to an existing story</li>
-                  <li><code>type.Task</code> : Something that needs to be done, but not a story, bug, or an epic. e.g. Move testing code into a new folder)</li>
+                  <li><code>type.Task</code> (or <code>type.Chore</code>) : Something that needs to be done, but not a story, bug, or an epic. e.g. Move testing code into a new folder)</li>
                   <li><code>type.Bug</code> : A bug</li>
                 </ul>
               </tip-box>
@@ -719,9 +717,11 @@ method 2 ...
               </ul>
             </div>
             <div id="project-schedule-tracking">
-              <h2 id="project-schedule-tracking">Project Schedule Tracking<a class="fa fa-anchor" href="#project-schedule-tracking"></a></h2>
+              <h3 id="project-schedule-tracking">
+                <div class="text-white bg-dark p-1">Project Schedule Tracking</div><a class="fa fa-anchor" href="#project-schedule-tracking"></a>
+              </h3>
               <p>In general, use the issue tracker (Milestones, Issues, PRs, Tags, Releases, and Labels) for assigning, scheduling, and tracking <em>all</em> noteworthy project tasks, including user stories. Update the issue tracker regularly to reflect the current status of the project. You can also use GitHub's <a href="https://www.youtube.com/watch?v=C6MGKHkNtxU">Projects feature</a> to manage the project, but keep it linked to the issue tracker as much as you can.</p>
-              <h3 id="using-issues">Using Issues:<a class="fa fa-anchor" href="#using-issues"></a></h3>
+              <h4 id="using-issues">Using Issues:<a class="fa fa-anchor" href="#using-issues"></a></h4>
               <p><big><strong>During the initial stages</strong></big> (latest by the start of v1.2):</p>
               <ul>
                 <li>
@@ -774,7 +774,7 @@ method 2 ...
                 </li>
               </ul>
               <div id="using-milestones">
-                <h3 id="using-milestones">Using Milestones:<a class="fa fa-anchor" href="#using-milestones"></a></h3>
+                <h4 id="using-milestones">Using Milestones:<a class="fa fa-anchor" href="#using-milestones"></a></h4>
                 <p>We recommend you do proper milestone management starting from v1.2. <mark>Given below are the conditions to satisfy for a milestone to be considered properly managed</mark>:</p>
                 <p><strong>Planning a Milestone</strong>:<br></p>
                 <ul>
@@ -806,7 +806,6 @@ method 2 ...
                     <p><strong>If necessary, future milestones are revised</strong> based on what you experienced in the current milestone <span class="dimmed">e.g. if you could not finish all issues assigned to the current milestone, it is a sign that you overestimated how much you can do in a week, which means you might want to reduce the issues assigned to future milestones to match that observation</span>.</p>
                   </li>
                 </ul>
-                <p></p>
               </div>
             </div>
           </div>
@@ -823,16 +822,29 @@ method 2 ...
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#e-using-github">E: Using GitHub &#x200E;</a>
-            <a class="nav-link py-1" href="#creating-a-github-account">Creating a GitHub account&#x200E;</a>
-            <a class="nav-link py-1" href="#setting-git-user-name">Setting Git user.name&#x200E;</a>
-            <a class="nav-link py-1" href="#organization-setup">Organization setup&#x200E;</a>
-            <a class="nav-link py-1" href="#repo-setup">Repo setup&#x200E;</a>
-            <a class="nav-link py-1" href="#workflow">Workflow&#x200E;</a>
-            <a class="nav-link py-1" href="#issue-tracker-setup">Issue tracker setup&#x200E;</a>
-            <a class="nav-link py-1" href="#project-schedule-tracking">Project Schedule Tracking&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-              <a class="nav-link py-1" href="#using-issues">Using Issues:&#x200E;</a>
-              <a class="nav-link py-1" href="#using-milestones">Using Milestones:&#x200E;</a>
+              <a class="nav-link py-1" href="#creating-a-github-account">
+                Creating a GitHub Account
+                &#x200E;</a>
+              <a class="nav-link py-1" href="#organization-setup">
+                Organization Setup
+                &#x200E;</a>
+              <a class="nav-link py-1" href="#repo-setup">
+                Repo Setup
+                &#x200E;</a>
+              <a class="nav-link py-1" href="#workflow">
+                Workflow
+                &#x200E;</a>
+              <a class="nav-link py-1" href="#issue-tracker-setup">
+                Issue Tracker Setup
+                &#x200E;</a>
+              <a class="nav-link py-1" href="#project-schedule-tracking">
+                Project Schedule Tracking
+                &#x200E;</a>
+              <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+                <a class="nav-link py-1" href="#using-issues">Using Issues:&#x200E;</a>
+                <a class="nav-link py-1" href="#using-milestones">Using Milestones:&#x200E;</a>
+              </nav>
             </nav>
 
           </nav>
@@ -841,7 +853,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
     </footer>
   </div>
 </body>

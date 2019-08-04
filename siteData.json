@@ -27,8 +27,7 @@
         "policy-on-plagiarism": "Policy on plagiarism ",
         "policy-on-reuse": "Policy on reuse ",
         "giving-credit-for-reused-work": "Giving credit for reused work",
-        "policy-on-help-from-outsiders": "Policy on help from outsiders ",
-        "policy-on-suggested-length-for-submissions": "Policy on suggested length for submissions "
+        "policy-on-help-from-outsiders": "Policy on help from outsiders "
       },
       "title": "Admin: B: Module Policies",
       "header": "header.md",
@@ -54,7 +53,7 @@
         "why-very-narrow-project-scope": "Why very narrow project scope? ",
         "why-i-m-not-allowed-to-use-my-favorite-tool-framework-language-etc": "Why I’m not allowed to use my favorite tool/framework/language etc.? ",
         "why-so-many-submissions": "Why so many submissions? ",
-        "why-aren-t-we-allowed-to-build-a-new-product-from-scratch": "Why aren't we allowed to build a new product from scratch? ",
+        "why-aren-t-we-allowed-to-build-a-new-product-from-scratch-in-the-tp": "Why aren't we allowed to build a new product from scratch in the tP? ",
         "why-submission-requirements-differ-between-cs2103-t-and-cs2101": "Why submission requirements differ between CS2103/T and CS2101? "
       },
       "title": "Admin: C: Frequently Asked Questions",
@@ -82,13 +81,12 @@
     {
       "headings": {
         "e-using-github": "E: Using GitHub ",
-        "creating-a-github-account": "Creating a GitHub account",
-        "setting-git-user-name": "Setting Git user.name",
-        "organization-setup": "Organization setup",
-        "repo-setup": "Repo setup",
-        "workflow": "Workflow",
-        "issue-tracker-setup": "Issue tracker setup",
-        "project-schedule-tracking": "Project Schedule Tracking",
+        "creating-a-github-account": "\r\n              Creating a GitHub Account\r\n            ",
+        "organization-setup": "\r\n                Organization Setup\r\n              ",
+        "repo-setup": "\r\n                Repo Setup\r\n              ",
+        "workflow": "\r\n                Workflow\r\n              ",
+        "issue-tracker-setup": "\r\n                Issue Tracker Setup\r\n              ",
+        "project-schedule-tracking": "\r\n                Project Schedule Tracking\r\n              ",
         "using-issues": "Using Issues:",
         "using-milestones": "Using Milestones:"
       },
@@ -298,7 +296,7 @@
         "module-expectations": "Module Expectations ",
         "prior-knowledge-java-and-oop": "Prior Knowledge: Java and OOP",
         "workload": "Workload",
-        "star-rating-system": "Star rating system"
+        "star-rating-system": "Star Rating System"
       },
       "title": "Admin: Module Expectations",
       "header": "header.md",
@@ -510,7 +508,7 @@
       "headings": {
         "tp-inception-week-4": "tP: Inception [week 4] ",
         "1-start-weekly-project-meetings": "1 Start weekly project meetings",
-        "2-decide-on-a-overall-project-direction-user-profile-problem-addressed": "2 Decide on a overall project direction (user profile, problem addressed)",
+        "2-decide-on-a-overall-project-direction-user-profile-problem-addressed": "2 Decide on a overall project direction (user profile, problem addressed) | project expectations",
         "3-start-a-collaborative-doc-to-take-project-notes": "3 Start a collaborative doc to take project notes"
       },
       "title": "Admin: tP: Inception [week 4]",
@@ -1056,9 +1054,9 @@
         "tools": "Tools ",
         "tools-used-learning-management-system": "\r\n              Tools Used: Learning Management System\r\n            ",
         "tool-used-github-for-code-hosting": "\r\n                Tool Used: GitHub (for Code Hosting)\r\n              ",
+        "tool-used-git-for-revision-control": "\r\n                Tool Used: Git (for Revision Control)\r\n              ",
         "tools-used-for-communication": "\r\n                Tools Used: for Communication\r\n              ",
         "tool-used-intellij-ide": "\r\n                Tool Used: Intellij IDE\r\n              ",
-        "tool-used-git-for-revision-control": "\r\n                Tool Used: Git (for Revision Control)\r\n              ",
         "tool-used-reposense-for-analyzing-code-authorship": "\r\n                Tool Used: RepoSense (for Analyzing Code Authorship)\r\n              "
       },
       "title": "Admin: Tools",

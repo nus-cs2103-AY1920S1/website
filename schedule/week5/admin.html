@@ -116,14 +116,413 @@
         <h4 id="other-admin-info-you-may-want-to-read-this-week"><span class="badge badge-pill badge-dark p-2"><big><big>+</big></big></span> Other admin info you may want to read this week:<a class="fa fa-anchor" href="#other-admin-info-you-may-want-to-read-this-week"></a></h4>
         <div class="indented">
           <panel type="default" no-close expandable="true" class="algolia-no-index">
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: Grading <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+            <div>
+              <p>Note that project grading is <mark>not competitive (not bell curved)</mark>. CS2103T projects will be assessed separately from CS2103 projects. This is to account for the perceived difference in workload. Given below is the marking scheme.</p>
+              <p><strong>Total</strong>: 45 marks (<span><span aria-hidden="true" class="fas fa-user"></span></span> 35 individual marks + <span><span aria-hidden="true" class="fas fa-users"></span></span> 10 team marks)</p>
+              <p>See the sections below for details of how we assess each aspect.</p>
+              <hr>
+              <h4 id="1-project-grading-product-design-5-marks">1. Project Grading: Product Design <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 marks]</span><a class="fa fa-anchor" href="#1-project-grading-product-design-5-marks"></a></h4>
+              <p><strong>Evaluates:</strong> how well your features fit together to form a cohesive product (not how many features or how big the features are) and how well does it match the target user</p>
+              <p><strong>Evaluated by:</strong></p>
+              <ul>
+                <li>tutors (based on product demo and user guide)</li>
+                <li>peers from other teams (based on peer testing and user guide)</li>
+              </ul>
+              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some grading instructions that will be given to peers/tutors grading this aspect:</p>
+              <blockquote>
+                <div id="projectGrading-featureFit-instructions">
+                  <p>Evaluate the product design <strong>based on how the product <mark>V2.0 (not V1.4)</mark> is described in the User Guide</strong>.</p>
+                  <ul class="task-list">
+                    <li class="task-list-item">
+                      <p><input class="task-list-item-checkbox" type="checkbox"> <code>unable to judge</code>: You are unable to judge this aspect for some reason e.g., UG is not available or does not have enough information.</p>
+                    </li>
+                    <li>
+                      <p>Target user:</p>
+                      <ul class="task-list">
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>target user specified and appropriate</code>: The target user is clearly specified, <strong>prefers typing over other modes of input</strong>, and not too general (should be narrowed to a specific user group with certain characteristics).</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value specified and matching</code>: The value offered by the product is clearly specified and matches the target user.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p>Value to the target user:</p>
+                      <ul class="task-list">
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: low</code>: The value to target user is low. App is not worth using.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: medium</code>: Some small group of target users might find the app worth using.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>value: high</code>: Most of the target users are likely to find the app worth using.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p>Feature-fit:</p>
+                      <ul class="task-list">
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: low</code>: Features don't seem to fit together.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: medium</code>: Some features fit together but some don't.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>feature-fit: high</code>: All features fit together.</li>
+                      </ul>
+                    </li>
+                    <li class="task-list-item">
+                      <p><input class="task-list-item-checkbox" type="checkbox"> <code>polished</code>: The product looks well-designed.</p>
+                    </li>
+                  </ul>
+                </div>
+              </blockquote>
+              <hr>
+              <h4 id="2-project-grading-implementation-10-marks">2. Project Grading: Implementation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#2-project-grading-implementation-10-marks"></a></h4>
+              <p><strong><big>2A. Code quality</big></strong></p>
+              <p><strong>Evaluates:</strong> the quality of the code you have written yourself</p>
+              <p><strong>Based on:</strong> the parts of the code you claim as written by you</p>
+              <p><strong>Evaluation method:</strong>: manual inspection by tutors + automated-analysis by a script</p>
+              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some factors considered when grading this aspect:</p>
+              <span id="projectGrading-codeQuality-criteria">
+                <ul>
+                  <li>
+                    <p>At least some evidence of these (see <a href="/website/se-book-adapted/chapters/errorHandling.html">here</a> for more info)</p>
+                    <ul>
+                      <li>logging</li>
+                      <li>exceptions</li>
+                      <li>assertions</li>
+                      <li>defensive coding</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p>No <a href="/website/coding-standards/java/intermediate.html">coding standard</a> violations <span class="dimmed">e.g. all boolean variables/methods sounds like booleans</span>. Checkstyle can prevent only <em>some</em> coding standard violations; others need to be checked manually.</p>
+                  </li>
+                  <li>
+                    <p><a href="/website/se-book-adapted/chapters/codeQuality.html#slap-hard">SLAP</a> is applied at a reasonable level. Long methods or deeply-nested code are symptoms of low-SLAP.</p>
+                  </li>
+                  <li>
+                    <p>No noticeable code duplications <span class="dimmed">i.e. if there multiple blocks of code that vary only in minor ways, try to extract out similarities into one place</span>, especially in test code.</p>
+                  </li>
+                  <li>
+                    <p>Evidence of applying <a href="/website/book/codeQuality">code quality guidelines covered in the module</a>.</p>
+                  </li>
+                </ul>
+              </span>
+              <p><strong><big>2B. Feature Quality</big></strong></p>
+              <p><strong>Evaluates:</strong> how deep is your biggest feature, how complete is the feature, how well it solves the target user needs, etc.</p>
+              <p><strong>Evaluation method:</strong></p>
+              <ul>
+                <li>by peers from own team and other teams (based on peer testing session, PPP, RepoSense data) -- more weight for team members from own team than those from other teams</li>
+                <li>by tutors (based on demo, <tooltip content="Project Portfolio Page">PPP</tooltip>, RepoSense data)</li>
+              </ul>
+              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some grading instructions that will be given to peers/tutors grading this aspect:</p>
+              <blockquote>
+                <div id="projectGrading-featureQuality-instructions">
+                  <p>Evaluate <mark>the biggest feature done by the student</mark> for difficulty, completeness, and testability. Note: examples given below assume that AB3 did not have the commands <code>edit</code>, <code>undo</code>, and <code>redo</code>.</p>
+                  <ul>
+                    <li>Difficulty
+                      <ul class="task-list">
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: low</code>: <span class="dimmed">e.g. make the existing <em>find</em> command case insensitive</span>.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: medium</code>: <span class="dimmed">e.g. an <em>edit</em> command that requires the user to type <em>all</em> fields, even the ones that are not being edited</span>.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ difficulty: high</code>: e.g., <span class="dimmed">undo/redo command</span></li>
+                      </ul>
+                    </li>
+                    <li>Completeness
+                      <ul class="task-list">
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: unable to judge</code>: You are unable to judge this aspect for some reason.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: low</code>: A partial implementation of the feature. Barely useful.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: medium</code>: The feature has enough functionality to be useful for some of the users.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ completeness: high</code>: The feature has all functionality to be useful to almost all users.</li>
+                      </ul>
+                    </li>
+                    <li>Other
+                      <ul class="task-list">
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ not hard to test</code>: The feature was not too hard to test manually.</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>Feature/ polished: high</code>: The feature looks <em>polished</em> (as if done by a professional programmer).</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div id="projectGrading-effort-instructions">
+                  <p>Evaluate the amount of work, on a scale of 0 to 30.</p>
+                  <ul>
+                    <li>Consider <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">this PR (<code>history</code> command)</a> as 5 units of effort which means <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">this PR (<code>undo/redo</code> command)</a> is about 15 points of effort. Given that 30 points matches an effort twice as that needed for the <code>undo/redo</code> feature (which was given as an example of an <code>A</code> grade project), we expect most students to be have efforts lower than 20.</li>
+                    <li>Count all implementation/testing/documentation work as mentioned in that person's PPP. Also look at the actual code written by the person.</li>
+                    <li>
+                      <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Do not give a high value just <em>to be nice</em>. You will be asked to provide a brief justification for your effort estimates.
+                    </li>
+                  </ul>
+                </div>
+              </blockquote>
+              <hr>
+              <h4 id="3-project-grading-qa-10-marks">3. Project Grading: QA <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#3-project-grading-qa-10-marks"></a></h4>
+              <p><big><strong>3A. System/Acceptance Testing:</strong></big></p>
+              <p><strong>Evaluates:</strong> How well you can system-test/acceptance-test a product</p>
+              <p><strong>Based on:</strong></p>
+              <ol>
+                <li>bugs you found in the <a href="/website/admin/project-deliverables.html#deliverable-practical-exam">Practical Exam</a></li>
+                <li>our own manual testing (when necessary)</li>
+              </ol>
+              <p><strong>Evaluated by:</strong> teaching team (in the capacity of <em>moderators</em> <span class="dimmed">e.g., to verify if it is reasonable for you to reject a bug reported by others</span>)</p>
+              <p><big><strong>3B. Developer Testing:</strong></big></p>
+              <p><strong>Evaluates:</strong> How well you tested your own feature</p>
+              <p><strong>Based on:</strong></p>
+              <ol>
+                <li>bugs in your work found by others during the PE</li>
+                <li>your test code <span class="dimmed">(note <trigger trigger="click" for="modal:projectGradingQA-testingExpectations">our expectations for automated testing</trigger>)</span></li>
+              </ol>
+              <p><strong>Evaluated by:</strong> tutors (in the capacity of <em>moderators</em> <span class="dimmed">e.g., to verify if it is reasonable for the team to downgrade the severity of a bug you reported</span>)</p>
+              <modal large title="Our expectations for automated testing in the project" id="modal:projectGradingQA-testingExpectations" class="algolia-no-index">
+                  <div>
+                  <ul>
+                    <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
+                    <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
+                    <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
+                  </ul>
+                </div>
+              </modal>
+              <p><big><strong>Notes on how marks are calculated based on bugs</strong></big></p>
+              <ul>
+                <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not be affect marks of the tester or the developer.</li>
+                <li>The penalty/credit for a bug varies based on,
+                  <ul>
+                    <li>The severity of the bug: <code>severity.High</code> &gt; <code>severity.Medium</code> &gt; <code>severity.Low</code></li>
+                    <li>The type of the bug: <code>type.FunctionalityBug</code> &gt; <code>type.DocumentationBug</code> &gt; <code>type.FeatureFlaw</code> &gt; <code>type.DocTypo</code></li>
+                  </ul>
+                </li>
+                <li>The penalty for a bug is divided equally among assignees.</li>
+                <li>The developers are not penalized for the duplicate bug reports they received but the testers earn credit for the duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
+                <li>
+                  <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn less credit for the tester and slightly more penalty for the developer.
+                </li>
+                <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
+                <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
+                  <ul>
+                    <li><code>n</code> bugs found in your feature; it is a difficult feature consisting of lot of code → 4/5 marks</li>
+                    <li><code>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li>
+                  </ul>
+                </li>
+                <li>You don't need to find all bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
+                <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">duplicate-flagging</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
+              </ul>
+              <hr>
+              <h4 id="4-project-grading-documentation-10-marks">4. Project Grading: Documentation <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-user"></span></span> 10 marks]</span><a class="fa fa-anchor" href="#4-project-grading-documentation-10-marks"></a></h4>
+              <p><strong>Evaluates:</strong> the quality of the sections you wrote for the user guide and the developer guide</p>
+              <p><strong>Based on:</strong> the relevant sections of your PPP.</p>
+              <p><strong>Evaluated by:</strong> tutors, peers from own team and other teams</p>
+              <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> For reference, here are some grading instructions that will be given to peers/tutors grading this aspect:</p>
+              <blockquote>
+                <div id="projectGrading-userGuide-instructions">
+                  <p>Evaluate the quality of user documentation <strong>based on the parts of the user guide written by the person,</strong> as reproduced in the project portfolio. <mark>Evaluate from an end-user perspective.</mark></p>
+                  <ul class="task-list">
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ unable to judge</code>: Less than 1 page worth of UG content written by the student or cannot find PPP</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ good use of visuals</code>: Uses visuals e.g., screenshots.</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ good use of examples</code>: Uses examples e.g., sample inputs/outputs.</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ just enough information</code>: Not too much information. All important information is given.</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ easy to understand</code>: The information is easy to understand for the target audience.</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>UG/ polished</code>: The document looks neat, well-formatted, and professional.</li>
+                  </ul>
+                </div>
+                <div id="projectGrading-devGuide-instructions">
+                  <p>Evaluate the quality of developer documentation <strong>based on the developer docs cited/reproduced in the respective project portfolio page.</strong> <mark>Evaluate from the perspective of a new developer trying to understand how the features are implemented.</mark></p>
+                  <ul class="task-list">
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ unable to judge</code>: Less than 0.5 pages worth of content OR other problems in the document <span class="dimmed">e.g. looks like included wrong content</span>.</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ too little</code>: 0.5 - 1 page of documentation</li>
+                    <li>Diagrams:
+                      <ul class="task-list">
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ types of UML diagrams: 1</code>: Only one type of diagram used (types: Class Diagrams, Object Diagrams, Sequence Diagrams, Activity Diagrams, Use Case Diagrams)</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ types of UML diagrams: 2</code>: Two types of diagrams used</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ types of UML diagrams: 3+</code>: Three or more types of diagrams used</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ UML diagrams suitable</code>: The diagrams used for the right purpose</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ UML notation correct</code>: No more than one minor error in the UML notation</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ diagrams not repetitive</code>: No evidence of repeating the same diagram with minor differences</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ diagrams not too complicated</code>: Diagrams don't cram too much information into them</li>
+                        <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ diagrams integrates with text</code>: Diagrams are well integrated into the textual explanations</li>
+                      </ul>
+                    </li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ easy to understand</code>: The document is easy to understand/follow</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ just enough information</code>: Not too much information. All important information is given.</li>
+                    <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> <code>DG/ polished</code>: The document looks neat, well-formatted, and professional.</li>
+                  </ul>
+                </div>
+              </blockquote>
+              <hr>
+              <h4 id="5-project-grading-project-management-5-5-10-marks">5. Project Grading: Project Management <span class="dimmed">[<span><span aria-hidden="true" class="fas fa-users"></span></span> 5 + <span><span aria-hidden="true" class="fas fa-user"></span></span> 5 = 10 marks]</span><a class="fa fa-anchor" href="#5-project-grading-project-management-5-5-10-marks"></a></h4>
+              <div id="project-management-grading">
+                <p><big><strong>5A. Process:</strong></big></p>
+                <p><strong>Evaluates:</strong> How well you did in project management related aspects of the project, as an individual and as a team</p>
+                <p><strong>Based on:</strong> tutor/bot observations of project milestones and GitHub data</p>
+                <p>Milestones <mark>need to be reached the midnight before of the tutorial</mark> for it to be counted as achieved. <mark>To get a good grade for this aspect, achieve at least 60% of the recommended milestone progress.</mark></p>
+                <p>Other criteria:</p>
+                <ul>
+                  <li>Good use of GitHub milestones</li>
+                  <li>Good use of GitHub release mechanism</li>
+                  <li>Good version control, based on the repo</li>
+                  <li>Reasonable attempt to use the forking workflow</li>
+                  <li>Good task definition, assignment and tracking, based on the issue tracker</li>
+                  <li>Good use of buffers <span class="dimmed">(opposite: everything at the last minute)</span></li>
+                  <li>Project done iteratively and incrementally <span class="dimmed">(opposite: doing most of the work in one big burst)</span></li>
+                </ul>
+                <p><big><strong>5B. Team-tasks:</strong></big></p>
+                <p><strong>Evaluates:</strong> How much you contributed to team-tasks</p>
+                <p><strong>Based on:</strong> peer evaluations, tutor observations</p>
+                <p>To earn full marks, you should have done a fair share of the team tasks. You can earn bonus marks by doing more than your fair share.</p>
+                <div class="flat">
+                  <div>
+                    <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectGrading-exmapleTeamTasks">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Scope → Examples of team-tasks</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  </div>
+                </div>
+                <modal large title="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectGrading-exmapleTeamTasks" class="algolia-no-index">
+                    <div>
+                    <p>Here is a non-exhaustive list of team-tasks:</p>
+                    <ol>
+                      <li>Necessary general code enhancements e.g.,
+                        <ol>
+                          <li>Work related to renaming the product</li>
+                          <li>Work related to changing the product icon</li>
+                          <li>Morphing the product into a different product</li>
+                        </ol>
+                      </li>
+                      <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
+                      <li>Maintaining the issue tracker</li>
+                      <li>Release management</li>
+                      <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
+                      <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
+                    </ol>
+                  </div>
+                </modal>
+                <p>
+                  <panel src="/website/admin/project-scope._include_.html#example-team-tasks" header="Admin <md>:glyphicon-log-in:</md> Project Scope → Examples of team-tasks  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="example-team-tasks"></panel>
+                </p>
+              </div>
+            </div>
+          </panel>
+          <p></p>
+          <panel type="default" no-close expandable="true" class="algolia-no-index">
             <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on project work distribution <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
             <div>
               <h3 id="policy-on-project-work-distribution">Policy on project work distribution <small><small><span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-project-work-distribution"></a></h3>
               <div class="indented">
                 <div>
                   <p>As most of the work is graded individually, it is OK to do less or more than equal share in your project team.</p>
-                  <p><span class="flat"><span class="dimmed">Related: [<a href="#individual-expectations">Admin: Project: Scope</a>]</span></span>
-                    <panel src="/website/admin/project-scope._include_.html#individual-expectations" header="Admin <md>:glyphicon-log-in:</md> Project → Scope: Expectations from each student" class="embedding algolia-no-index" minimized fragment="individual-expectations"></panel>
+                  <div class="flat">
+                    <div>
+                      <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:policies-individual">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → Scope: Expectations from each student</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                    </div>
+                  </div>
+                  <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Scope: Expectations from each student  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:policies-individual" class="algolia-no-index">
+                      <div>
+                      <h5 id="individual-expectations-on-features">[Individual] Expectations on Features<a class="fa fa-anchor" href="#individual-expectations-on-features"></a></h5>
+                      <ul>
+                        <li>You are expected to add at least one feature to the product.</li>
+                        <li><mark>One big feature can earn you more marks than multiple small features.</mark> <span class="dimmed">Reason: When grading your work for depth and completeness, only your biggest feature you will be considered.</span></li>
+                        <li>At lest one feature should be end-user visible and end-user testable. <span class="dimmed">Reason: If your feature cannot be identified and tested by the testers, we will not be able to give marks for the quality assurance of that feature.</span></li>
+                        <li>The features should fit with the rest of the software (and the target user profile) and should have the consent of the team members.. <span class="dimmed">You will lose marks if you go 'rogue' and add features that don't fit with the product.</span></li>
+                      </ul>
+                      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of suitable enhancements%%" class="algolia-no-index">
+                        <ol>
+                          <li>Add a new feature</li>
+                          <li>Enhance an existing features in a major way <span class="dimmed">e.g. make the command syntax more user friendly and closer to natural language</span></li>
+                          <li>A major redesign of the GUI <span class="dimmed">e.g. make it work like a chat application (note: chat is a form of CLI)</span></li>
+                          <li>Integrate with online services <span class="dimmed">e.g. Google contacts, Facebook, GitHub, etc.</span></li>
+                        </ol>
+                      </panel>
+                      <panel type="seamless" header="%%<md>:fas-cube:</md> Enhancement vs Grade: Examples%%" class="algolia-no-index">
+                        <p>Here are some examples of different enhancements and the grade the student is likely to earn for the relevant parts of the project grade.</p>
+                        <ul>
+                          <li>Example 1 (Expected grade: <code>A</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">Add support for undo/redo</a></li>
+                          <li>Example 2 (Expected grade: <code>B</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">Add support for viewing history</a></li>
+                        </ul>
+                        <p></p>
+                      </panel>
+                      <p></p>
+                      <ul>
+                        <li>Although we prefer one big feature over multiple small features, it is fine to do small features at first to build up confidence before you start a big feature.</li>
+                      </ul>
+                      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of minor enhancements%%" class="algolia-no-index">
+                        <p>Here is a non-exhaustive list of minor enhancements:</p>
+                        <ol>
+                          <li>Support different themes for the Look &amp; Feel <span class="dimmed">dark, light, etc.</span></li>
+                          <li>Support more fields <span class="dimmed">e.g. Birthday</span></li>
+                          <li>Load a different page instead of the default Google search page <span class="dimmed">e.g. Google Maps page or Twitter page</span></li>
+                          <li>Sort items</li>
+                          <li>Multiple panels <span class="dimmed">e.g. an additional panel to show recently accessed items</span></li>
+                          <li>Marking some items as favorites</li>
+                          <li>Ability to search by labels</li>
+                          <li>Ability to specify colors for labels</li>
+                        </ol>
+                        <p></p>
+                      </panel>
+                      <p></p>
+                      <p>We strongly recommend that you contribute to multiple (preferably, all) aspects of the project e.g. write backend code, frontend code, test code, user documentation, and developer documentation. If you limit yourself to certain aspects only, you could lose marks allocated for the aspects you did not do.</p>
+                      <p>In particular, <mark>you are required to divide work based on features rather than components</mark>:</p>
+                      <ul>
+                        <li>By the <tooltip content="i.e. by `v1.4`">end of this project</tooltip> each team member is expected to have implemented at least one feature end-to-end, doing required changes in <em>almost all</em> components. <span class="dimmed">Reason: to encourage you to learn all components of the software, instead of limiting yourself to just one/few components</span>.</li>
+                        <li>Nevertheless, you are <mark>still expected to divide the components of the product among team members</mark> so that each team member is <em>in charge</em> of one or more components. While others will be modifying those components as necessary for the features they are implementing, your role as the <em>in charge</em> of a component is to guide others modifying that component <span class="dimmed">(reason: you are supposed to be the most knowledgeable about that component)</span> and protect that component from degrading <span class="dimmed">e.g., you can review others' changes to your component and suggest possible changes</span>.</li>
+                      </ul>
+                      <h5 id="individual-expectations-on-code">[Individual] Expectations on Code<a class="fa fa-anchor" href="#individual-expectations-on-code"></a></h5>
+                      <ul>
+                        <li>Based on past experience, <mark>it is possible for a feature consisting of <strong>~300-500 LoC of functional code</strong> to earn full marks</mark> provided the feature do well in all grading criteria.</li>
+                      </ul>
+                      <h5 id="individual-expectations-on-documentation">[Individual] Expectations on Documentation<a class="fa fa-anchor" href="#individual-expectations-on-documentation"></a></h5>
+                      <ul>
+                        <li>You are expected to write user documentation and developer documentation for your features.</li>
+                        <li><strong>The objective is to showcase your ability to write the two types of documentation.</strong> If the documentation for your features is not enough to meet that objective, or does not reach the following minimal requirement, you can make up the shortfall by documenting 'proposed' features and alternative designs/implementations.
+                          <ul>
+                            <li>Contribution to the user guide: 1 page</li>
+                            <li>Contribution to the developer guide: 3 pages</li>
+                          </ul>
+                        </li>
+                        <li>You are expected to <mark>showcase your ability to use the various UML diagrams (at least 2 types)</mark>. As mentioned in the previous point, if the documentation of your features doesn't give you enough opportunities to do so <span class="dimmed">e.g., your features only required minor updates to existing diagrams</span>, you are expected to create those opportunities yourself by documenting proposed features or alternative designs. Evaluators will not be able to give you marks unless there is sufficient evidence of your documentation skills.</li>
+                        <li>You are recommended to, but not required to, update all existing AB3 documentation to match your product. However, all diagrams that are included in the part of documentation claimed as done by you should be updated to match the current product.</li>
+                      </ul>
+                      <h5 id="individual-expectations-on-testing">[Individual] Expectations on Testing<a class="fa fa-anchor" href="#individual-expectations-on-testing"></a></h5>
+                      <div id="testing-expectations">
+                        <ul>
+                          <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
+                          <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
+                          <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
+                        </ul>
+                      </div>
+                      <h5 id="individual-expectations-on-teamwork">[Individual] Expectations on Teamwork<a class="fa fa-anchor" href="#individual-expectations-on-teamwork"></a></h5>
+                      <p><em>Team-tasks</em> are the tasks that <em>someone</em> in the team has to do. Marks allocated to team-tasks will be divided among team members based on how much each member contributed to those tasks.</p>
+                      <p><span id="scope-example-team-tasks"></span></p>
+                      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of team-tasks%%" class="algolia-no-index">
+                        <span id="example-team-tasks">
+                          <p>Here is a non-exhaustive list of team-tasks:</p>
+                          <ol>
+                            <li>Necessary general code enhancements e.g.,
+                              <ol>
+                                <li>Work related to renaming the product</li>
+                                <li>Work related to changing the product icon</li>
+                                <li>Morphing the product into a different product</li>
+                              </ol>
+                            </li>
+                            <li>Setting up the GitHub, Travis, AppVeyor, etc.</li>
+                            <li>Maintaining the issue tracker</li>
+                            <li>Release management</li>
+                            <li>Updating user/developer docs that are not specific to a feature <span class="dimmed">e.g. documenting the target user profile</span></li>
+                            <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li>
+                          </ol>
+                        </span>
+                        <p></p>
+                      </panel>
+                      <p></p>
+                      <span id="roles">
+                        <p><em>Roles</em> indicate aspects you are in charge of and responsible for. <span class="dimmed">E.g., if you are in charge of documentation, you are the person who should allocate which parts of the documentation is to be done by who, ensure the document is in right format, ensure consistency etc.</span></p>
+                        <panel type="seamless" header="<md>:fas-cube:</md> Recommended roles and responsibilities" class="algolia-no-index">
+                          <p>This is a non-exhaustive list; you may define additional roles.</p>
+                          <ul>
+                            <li><em>Team lead</em>: Responsible for overall project coordination.</li>
+                            <li><em>Documentation</em> (short for ‘in charge of documentation’): Responsible for the quality of various project documents.</li>
+                            <li><em>Testing</em>: Ensures the testing of the project is done properly and on time.</li>
+                            <li><em>Code quality</em>: Looks after code quality, ensures adherence to coding standards, etc.</li>
+                            <li><em>Deliverables and deadlines</em>: Ensure project deliverables are done on time and in the right format.</li>
+                            <li><em>Integration</em>: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li>
+                            <li><em>Scheduling and tracking</em>: In charge of defining, assigning, and tracking project tasks.</li>
+                            <li><em>[Tool ABC] expert</em>: <span class="dimmed">e.g. Intellij expert, Git expert, etc.</span> Helps other team member with matters related to the specific tool.</li>
+                            <li><em>In charge of[Component XYZ]</em>: <span class="dimmed">e.g. In charge of <code>Model</code>, <code>UI</code>, <code>Storage</code>, etc.</span> If you are in charge of a component, you are expected to know that component well, and review changes done to that component in v1.3-v1.4.</li>
+                          </ul>
+                        </panel>
+                        <p></p>
+                        <p>Please make sure each of the important roles are assigned to one person in the team. It is OK to have a 'backup' for each role, but <strong>for each aspect there should be one person who is unequivocally the person responsible for it</strong>.
+                        </p>
+                      </span>
+                    </div>
+                  </modal>
+                  <p>
+                    <panel src="/website/admin/project-scope._include_.html#individualExpectations" header="Admin <md>:glyphicon-log-in:</md> Project → Scope: Expectations from each student  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="individualExpectations"></panel>
                   </p>
                 </div>
               </div>
@@ -142,18 +541,6 @@
                     <p>Not responding to a personal email is a major breach of professional etiquette (and general civility). Imagine how pissed off you would be if you met the prof along the corridor, said 'Hi prof, good morning' and the prof walked away without saying anything back. Not responding to a personal email is just as bad. Always take a few seconds to at least acknowledge such emails.  It doesn't take long to type &quot;Noted. Thanks&quot; and hit 'send'.</p>
                     <p>The promptness of a reply is even more important when the email is requesting you for something that you cannot provide. Imagine you wrote to the prof requesting a reference letter and the prof did not respond at all because he/she did not want to give you one; You'll be quite frustrated because you wouldn't know whether to look for another prof or wait longer for a response. Saying 'No' is fine and in fact a necessary part of professional life; but saying nothing is not acceptable. If you didn't reply, the sender will not even know whether you received the email.</p>
                   </panel>
-                </div>
-              </div>
-            </div>
-          </panel>
-          <p></p>
-          <panel type="default" no-close expandable="true" class="algolia-no-index">
-            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix B (Policies) → Policy on grading smaller/larger teams <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-            <div>
-              <h3 id="policy-on-grading-smaller-larger-teams">Policy on grading smaller/larger teams <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#policy-on-grading-smaller-larger-teams"></a></h3>
-              <div class="indented">
-                <div>
-                  <p>As most of the work is graded individually, team sizes of 3, 4, or 5 is not expected to affect your grade. While managing larger teams is harder, larger teams have more collective know-how, which can cancel each other.</p>
                 </div>
               </div>
             </div>
@@ -192,7 +579,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 03 Aug 2019 11:07:14 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
     </footer>
   </div>
 </body>
