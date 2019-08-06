@@ -281,12 +281,12 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>deployment diagram</em> shows a system's physical layout, revealing which pieces of software run on which pieces of hardware.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example deployment diagram:</p>
                       <img src="/website/book/modeling/modelingStructures/deploymentDiagrams/images/diagram.png" height="500">
                       <p></p>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Deployment_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -308,11 +308,11 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>component diagram</em> is used to show how a system is divided into components and how they are connected to each other through interfaces.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example component diagram:</p>
                       <p><img src="/website/book/modeling/modelingStructures/componentDiagrams/images/diagram.png" height="500"><br></p>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Component_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -334,11 +334,11 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>package diagram</em> shows packages and their dependencies.</strong> A package is a grouping construct for grouping UML elements (classes, use cases, etc.).</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example package diagram:</p>
                       <p><img src="/website/book/modeling/modelingStructures/packageDiagrams/images/diagram.png" height="450"><br>
                         <sub>source:<a href="https://en.wikipedia.org/wiki/Package_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -360,12 +360,12 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>composite structure diagram</em> hierarchically decomposes a class into its internal structure.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example composite structure diagram:</p>
                       <img src="/website/book/modeling/modelingStructures/compositeStructureDiagrams/images/diagram.png" height="150">
                       <br>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Composite_structure_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -387,12 +387,12 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>timing diagram</em> focus on timing constraints.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example timing diagram:</p>
                       <img src="/website/book/modeling/modelingBehaviors/timingDiagrams/images/diagram.png" height="280">
                       <br>
                       <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -414,12 +414,12 @@
                   <p></p>
                   <div>
                     <p><strong>An <em>Interaction overview</em> diagrams is a combination of activity diagrams and sequence diagrams</strong>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                       <img src="/website/book/modeling/modelingBehaviors/interactionOverviewDiagrams/images/diagram.png" height="420">
                       <p></p>
                       <p><sub>source:<a href="https://en.wikipedia.org/wiki/Interaction_overview_diagram">https://commons.wikimedia.org</a></sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -441,12 +441,12 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>Communication diagrams</em> are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example:</p>
                       <img src="/website/book/modeling/modelingBehaviors/communicationDiagrams/images/diagram.png" height="300">
                       <br>
                       <p><sub>Adapted from: <em>UML Distilled</em> by Martin Fowler</sub></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -468,7 +468,7 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>State Machine Diagram</em> models state-dependent behavior.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider how a CD player responds when the “eject CD” button is pushed:</p>
                       <ul>
                         <li>If the CD tray is already open, it does nothing.</li>
@@ -478,15 +478,15 @@
                         <li>If the CD tray is already in the process of closing (closed half-way), it waits until the CD tray is fully closed and opens it immediately afterwards.</li>
                       </ul>
                       <p>What this means is that the CD player’s response to pushing the “eject CD” button depends on what it was doing at the time of the event. More generally, the CD player’s response to the event received depends on its internal state. Such a behavior is called a <em>state-dependent behavior</em>.</p>
-                    </tip-box>
+                    </box>
                     <p>Often, state-dependent behavior displayed by an object in a system is simple enough that it needs no extra attention; such a behavior can be as simple as a <em>conditional</em> behavior like <code>if x&gt;y, then x=x-y</code>.
                       Occasionally, objects may exhibit state-dependent behavior that is complex enough such that it needs to be captured into a separate model. Such state-dependent behavior can be modelled using UML <em>state machine diagrams</em> (SMD for short, sometimes also called ‘state charts’, ‘state diagrams’ or ‘state machines’).</p>
                     <p>An SMD views the life-cycle of an object as consisting of a finite number of states where each state displays a unique behavior pattern. An SMD captures information such as the states an object can be in, during its lifetime, and how the object responds to various events while in each state and how the object transits from one state to another. In contrast to sequence diagrams that capture object behavior one scenario at a time, SMDs capture the object’s behavior over its full life cycle.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An SMD for the Minesweeper game.</p>
                       <img src="/website/book/modeling/modelingBehaviors/stateMachineDiagrams/images/minesweeper.png" height="200">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -601,7 +601,7 @@
                   <p></p>
                   <div>
                     <p>A library is a collection of modular code that is general and can be used by other programs.</p>
-                    <tip-box>
+                    <box>
                       <div class="alt-java">
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Java classes you get with the JDK (such as <code>String</code>, <code>ArrayList</code>, <code>HashMap</code>, etc.) are library classes that are provided in the default Java distribution.</p>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://github.com/joestelmach/natty">Natty</a> is a Java library that can be used for parsing strings that represent dates e.g. <code>The 31st of April in the year 2008</code></p>
@@ -610,7 +610,7 @@
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> built-in modules you get with Python (such as <code>csv</code>, <code>random</code>, <code>sys</code>, etc.) are libraries that are provided in the default Python distribution. Classes such as <code>list</code>, <code>str</code>, <code>dict</code> are built-in library classes that you get with Python.</p>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <a href="https://pypi.python.org/pypi/colorama">Colorama</a> is a Python library that can be used for colorizing text in a CLI.</p>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -659,10 +659,10 @@
                   <p></p>
                   <div>
                     <p><strong>An <em>Application Programming Interface (API)</em> specifies the interface through which other programs can interact with a software component.</strong> It is a contract between the component and its clients.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A class has an API (e.g., <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html">API of the Java <code>String</code> class</a>, <a href="https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str">API of the Python <code>str</code> class</a>) which is a collection of public methods that you can invoke to make use of the class.</p>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <a href="https://developer.github.com/v3/">GitHub API</a> is a collection of Web request formats GitHub server accepts and the corresponding responses. We can write a program that interacts with GitHub through that API.</p>
-                    </tip-box>
+                    </box>
                     <p>When developing large systems, if you define the API of each components early, the development team can develop the components in parallel <span class="dimmed">because the future behavior of the other components are now more predictable</span>.</p>
                   </div>
                   <div>
@@ -725,36 +725,36 @@
                   <p></p>
                   <div>
                     <p><strong>The overall structure and execution flow of a specific category of software systems can be very similar. The similarity is an opportunity to reuse at a high scale.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>IDEs for different programming languages are similar in how they support editing code, organizing project files, debugging, etc.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>A <em>software framework</em> is a reusable implementation of a software (or part thereof) providing <em>generic</em> functionality that can be selectively customized to produce a <em>specific</em> application.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>Eclipse is an IDE framework that can be used to create IDEs for different programming languages.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Some frameworks provide a complete implementation of a <em>default</em> behavior which makes them immediately usable.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>Eclipse is a fully functional Java IDE out-of-the-box.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>A framework facilitates the adaptation and customization of some desired functionality.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Running example:</p>
                       <p>Eclipse plugin system can be used to create an IDE for different programming languages while reusing most of the existing IDE features of Eclipse. E.g. <a href="https://marketplace.eclipse.org/content/pydev-python-ide-eclipse">https://marketplace.eclipse.org/content/pydev-python-ide-eclipse</a></p>
-                    </tip-box>
+                    </box>
                     <p>Some frameworks cover only a specific components or an aspect.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> JavaFx a framework for creating Java GUIs. TkInter is a GUI framework for Python.</p>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples of frameworks</p>
                       <ul>
                         <li>Frameworks for Web-based applications: Drupal(PHP), Django(Python), Ruby on Rails (Ruby), Spring (Java)</li>
                         <li>Frameworks for testing: JUnit (Java), unittest (Python), Jest (Java Script)</li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -850,16 +850,16 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>platform</em> provides a runtime environment for applications.</strong> A platform is often bundled with various libraries, tools, frameworks, and technologies in addition to a runtime environment but the defining characteristic of a software platform is the presence of a runtime environment.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Technically, an operating system can be called a platform. For example, Windows PC is a platform for desktop applications while iOS is a platform for mobile apps.</p>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <strong>Two well-known examples of platforms are JavaEE and .NET</strong>, both of which sit above Operating systems layer, and are used to develop <trigger for="modal:enterprise-application" trigger="click">enterprise applications</trigger>. Infrastructure services such as connection pooling, load balancing, remote code execution, transaction management, authentication, security, messaging etc. are done similarly in most enterprise applications. Both JavaEE and .NET provide these services to applications in a customizable way without developers having to implement them from scratch every time.</p>
                       <ul>
                         <li>JavaEE (Java Enterprise Edition) is both a framework and a platform for writing enterprise applications. The runtime used by the JavaEE applications is the JVM (Java Virtual Machine) that can run on different Operating Systems.</li>
                         <li>.NET is a similar platform and a framework. Its runtime is called CLR (Common Language Runtime) and usually used on Windows machines.</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <modal title="**Enterprise Applications**" id="modal:enterprise-application" class="algolia-no-index">
                       <div>
                         <p><strong>Enterprise Application</strong>: ‘enterprise applications’ means software applications used at organizations level and therefore has to meet much higher demands (such as in scalability, security, performance, and robustness) than software meant for individual use.</p>
@@ -1121,7 +1121,7 @@
                   <p></p>
                   <div>
                     <p>This description of Scrum was adapted from Wikipedia [retrieved on 18/10/2011], emphasis added:</p>
-                    <tip-box>
+                    <box>
                       <p><strong>Scrum is a process skeleton that contains sets of practices and predefined roles. The main roles in Scrum are:</strong></p>
                       <ul>
                         <li><strong>The Scrum Master</strong>, who maintains the processes (typically in lieu of a project manager)</li>
@@ -1135,9 +1135,9 @@
                       <p><strong>A key principle of Scrum is its recognition that during a project the customers can change their minds about what they want and need</strong> (often called requirements churn), and that unpredicted challenges cannot be easily addressed in a traditional predictive or planned manner. As such, Scrum adopts an empirical approach—accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team’s ability to deliver quickly and respond to emerging requirements.</p>
                       <img src="/website/book/processModels/exampleProcessModels/scrum/images/diagram.png" height="250">
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p><strong><em>Daily Scrum</em> is another key scrum practice</strong>. The description below was adapted from <a href="https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum">https://www.mountaingoatsoftware.com</a> (emphasis added):</p>
-                    <tip-box>
+                    <box>
                       <p><strong>In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the &quot;daily scrum.”</strong> Meetings are typically held in the same location and at the same time each day. Ideally, a daily scrum meeting is held in the morning, as it helps set the context for the coming day's work. These scrum meetings are strictly time-boxed to 15 minutes. This keeps the discussion brisk but relevant.</p>
                       <p>...</p>
                       <p><strong>During the daily scrum, each team member answers the following three questions:</strong></p>
@@ -1152,7 +1152,7 @@
                         <p><sub>(This is not an endorsement of the product mentioned in the video)</sub></p>
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/XU0llRltyFM" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                       </panel>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1174,7 +1174,7 @@
                   <p></p>
                   <div>
                     <p>The following description was adapted from the <a href="http://www.extremeprogramming.org">XP home page</a>, emphasis added:</p>
-                    <tip-box>
+                    <box>
                       <p><strong>Extreme Programming (XP) stresses customer satisfaction.</strong> Instead of delivering everything you could possibly want on some date far in the future, this process delivers the software you need as you need it.</p>
                       <p><strong>XP aims to empower developers to confidently respond to changing customer requirements</strong>, even late in the life cycle.</p>
                       <p><strong>XP emphasizes teamwork.</strong> Managers, customers, and developers are all equal partners in a collaborative team. XP implements a simple, yet effective environment enabling teams to become highly productive. The team self-organizes around the problem to solve it as efficiently as possible.</p>
@@ -1182,7 +1182,7 @@
                       <p><strong>XP has a set of simple rules.</strong> XP is a lot like a jig saw puzzle with many small pieces. Individually the pieces make no sense, but when combined together a complete picture can be seen. This flow chart shows how Extreme Programming's rules work together.</p>
                       <img src="/website/book/processModels/exampleProcessModels/xp/images/diagram.png" height="200">
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p><strong><em>Pair programming, CRC cards, project velocity</em>, and <em>standup meetings</em> are some interesting topics related to XP.</strong> Refer to <a href="http://extremeprogramming.org">extremeprogramming.org</a> to find out more about XP.</p>
                   </div>
                   <div></div>
@@ -1324,9 +1324,9 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <p>CMMI (Capability Maturity Model Integration) is a process improvement approach defined by Software Engineering Institute at Carnegie Melon University. CMMI provides organizations with the essential elements of effective processes, which will improve their performance. <sub>-- adapted from <a href="http://www.sei.cmu.edu/cmmi/">http://www.sei.cmu.edu/cmmi/</a></sub></p>
-                    </tip-box>
+                    </box>
                     <p><strong>CMMI defines five maturity levels for a process and provides criteria to determine if the process of an organization is at a certain maturity level.</strong> The diagram below [taken from Wikipedia] gives an overview of the five levels.</p>
                     <img src="/website/book/processModels/more/cmmi/images/diagram.png" height="250">
                     <p></p>
@@ -1544,7 +1544,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>

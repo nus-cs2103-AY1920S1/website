@@ -302,12 +302,12 @@
                     <p>The relationship between the components can be observed in the diagram below. Typically, the UI is the combination of view and controller.</p>
                     <img src="/website/book/designPatterns/modelViewController/what/images/classDiagram.png" width="400">
                     <p></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is a concrete example of MVC applied to a student management system. In this scenario, the user is retrieving data of one student.</p>
                       <img src="/website/book/designPatterns/modelViewController/what/images/sequenceDiagram.png" width="500">
                       <p></p>
                       <p>In the diagram above, when the user clicks on a button using the UI, the ‘click’ event is caught and handled by the <code>UiController</code>. The <code>ref</code> frame indicates that the interactions within that frame have been extracted out to another separate sequence diagram.</p>
-                    </tip-box>
+                    </box>
                     <p>Note that in a simple UI where there’s only one view, Controller and View can be combined as one class.</p>
                     <p>There are many variations of the MVC model used in different domains. For example, the one used in a desktop GUI could be different from the one used in a Web application.</p>
                   </div>
@@ -332,7 +332,7 @@
                   <div>
                     <p><strong>Context</strong></p>
                     <p>An object (possibly, more than one) is interested to get notified when a change happens to another object. That is, some objects want to ‘observe’ another object.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider this scenario from the a student management system where the user is adding a new student to the system.</p>
                       <img src="/website/book/designPatterns/observer/what/images/sequenceDiagram.png" height="330">
                       <p></p>
@@ -345,14 +345,14 @@
                       <img src="/website/book/designPatterns/observer/what/images/studentListUI.png" height="180">
                       <p></p>
                       <p>However, the <code>StudentList</code> object has no knowledge about <code>StudentListUi</code> and <code>StudentStatsUi</code> (note the direction of the navigability) and has no way to inform those objects. This is an example of the type of problem addressed by the Observer pattern.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Problem</strong></p>
                     <p>The ‘observed’ object does not want to be coupled to objects that are ‘observing’ it.</p>
                     <p><strong>Solution</strong></p>
                     <p>Force the communication through an interface known to both parties.</p>
                     <img src="/website/book/designPatterns/observer/what/images/studentListObserver.png" height="160">
                     <p></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the Observer pattern applied to the student management system.</p>
                       <p><strong>During the initialization of the system,</strong></p>
                       <ol>
@@ -401,7 +401,7 @@ studentList.addUi(statusUi);
                           <p>Note that <code>StudentList</code> is unaware of the exact nature of the two UIs but still manages to communicate with them via an intermediary.</p>
                         </li>
                       </ol>
-                    </tip-box>
+                    </box>
                     <p>Here is the generic description of the observer pattern:</p>
                     <img src="/website/book/designPatterns/observer/what/images/observableInterfaceDiagram.png" height="100">
                     <p></p>
@@ -507,7 +507,7 @@ studentList.addUi(statusUi);
                   <p></p>
                   <div>
                     <p><strong>Design patterns are usually embedded in a larger design and sometimes applied in combination with other design patterns.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Let us look at a case study that shows how design patterns are used in the design of a class structure for a Stock Inventory System (SIS) for a shop. The shop sells appliances, and accessories for the appliances. SIS simply stores information about each item in the store.</p>
                       <p><strong>Use Cases</strong>:</p>
                       <ul>
@@ -544,7 +544,7 @@ studentList.addUi(statusUi);
                       <img src="/website/book/designPatterns/more/combiningDesignPatterns/images/withObserver.png" height="270">
                       <p></p>
                       <p>In addition, the Singleton pattern can be applied to the façade class.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -566,9 +566,9 @@ studentList.addUi(statusUi);
                   <p></p>
                   <div>
                     <p><strong>Design pattern provides a high-level vocabulary to talk about design.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Someone can say 'apply Observer pattern here' instead of having to describe the mechanics of the solution in detail.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>Knowing more patterns is a way to become more ‘experienced’.</strong> Aim to learn at least the context and the problem of patterns <span class="dimmed">so that when you encounter those problems you know where to look for a solution</span>.</p>
                     <p><strong>Some patterns are domain-specific</strong> <span class="dimmed">e.g. patterns for distributed applications</span>, <strong>some are created in-house</strong> <span class="dimmed">e.g. patterns in the company/project</span> and <strong>some can be self-created</strong> <span class="dimmed">e.g. from past experience</span>.</p>
                     <p><strong>Be careful not to overuse patterns.</strong> Do not throw patterns at a problem at every opportunity. Patterns come with overhead such as adding more classes or increasing the levels of abstraction. Use them only when they are needed. Before applying a pattern, make sure that:</p>
@@ -681,9 +681,9 @@ studentList.addUi(statusUi);
                   <p></p>
                   <div>
                     <p><strong>Software architectures follow various high-level styles (aka <em>architectural patterns</em>)</strong>, just like <trigger trigger="click" for="modal:archiStyles-buildingArchitectures">building architectures follow various architecture styles</trigger>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> n-tier style, client-server style, event-driven style, transaction processing style, service-oriented style, pipes-and-filters style, message-driven style, broker style, ...</p>
-                    </tip-box>
+                    </box>
                     <modal large title="Building Architecture Styles" id="modal:archiStyles-buildingArchitectures" class="algolia-no-index">
                       <p><img src="https://inspectapedia.com/exterior/ArchitectureStyles.jpg" width="600"><br>
                         <sub>source: <a href="https://inspectapedia.com">https://inspectapedia.com</a></sub></p>
@@ -710,10 +710,10 @@ studentList.addUi(statusUi);
                   <div>
                     <p><strong>In the <em>n-tier</em> style, higher layers make use of services provided by lower layers.</strong> Lower layers are independent of higher layers. Other names: <em>multi-layered</em>, <em>layered</em>.</p>
                     <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTier.png" height="150">
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Operating systems and network communication software often use n-tier style.
                         <img src="/website/book/architecture/architecturalStyles/nTier/what/images/nTierExamples.png" height="150"></p>
-                    </tip-box>
+                    </box>
                     <p></p>
                   </div>
                   <div></div>
@@ -738,10 +738,10 @@ studentList.addUi(statusUi);
                     <p><strong>The <em>client-server</em> style has at least one component playing the role of a server and at least one client component accessing the services of the server.</strong> This is an architectural style used often in distributed applications.</p>
                     <img src="/website/book/architecture/architecturalStyles/clientServer/what/images/clientServer.png" height="120">
                     <p></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The online game and the Web application below uses the client-server style.</p>
                       <img src="/website/book/architecture/architecturalStyles/clientServer/what/images/clientServerExamples.png" height="200">
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -764,10 +764,10 @@ studentList.addUi(statusUi);
                   <div>
                     <p><strong><em>Event-driven</em> style controls the flow of the application by detecting <tooltip content="An event is a notable occurrence that happens inside or outside the software, such as the user clicking a button, a timer running out, minimizing a window, etc.">events</tooltip> from event <em>emitters</em> and communicating those events to interested event <em>consumers</em> .</strong> This architectural style is often used in GUIs.</p>
                     <img src="/website/book/architecture/architecturalStyles/eventDriven/what/images/eventDriven.png" width="450">
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> When the ‘button clicked’ event occurs in a GUI, that event can be transmitted to components that are interested in reacting to that event. Similarly, events detected at a Printer port can be transmitted to components related to operating the Printer. The same event can be sent to multiple consumers too.</p>
                       <img src="/website/book/architecture/architecturalStyles/eventDriven/what/images/eventDrivenExamples.png" width="450">
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -790,10 +790,10 @@ studentList.addUi(statusUi);
                   <div>
                     <p><strong>The <em>transaction processing</em> style divides the workload of the system down to a number of <em>transactions</em> which are then given to a <em>dispatcher</em> that controls the execution of each transaction.</strong> Task queuing, ordering, undo etc. are handled by the dispatcher.</p>
                     <img src="/website/book/architecture/architecturalStyles/transactionProcessing/what/images/transactionProcessing.png" height="120">
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example from a Banking system, transactions are generated by the terminals used by <tooltip content="employees of a bank who deals directly with customers">tellers</tooltip> which are then sent to a central dispatching unit which in turn dispatches the transactions to various other units to execute.</p>
                       <img src="/website/book/architecture/architecturalStyles/transactionProcessing/what/images/transactionProcessingExamples.png" height="120">
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -815,11 +815,11 @@ studentList.addUi(statusUi);
                   <p></p>
                   <div>
                     <p><strong>The <em>service-oriented architecture</em> (SOA) style builds applications by combining functionalities packaged as <em>programmatically accessible services</em></strong>. SOA aims to achieve interoperability between distributed services, which may not even be implemented using the same programming language. A common way to implement SOA is through the use of <em>XML web services</em> where the web is used as the medium for the services to interact, and XML is used as the language of communication between service providers and service users.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose that <a href="http://Amazon.com">Amazon.com</a> provides a web service for customers to browse and buy merchandise, while HSBC provides a web service for merchants to charge HSBC credit cards. Using these web services, an ‘eBookShop’ web application can be developed that allows HSBC customers to buy merchandise from Amazon and pay for them using HSBC credit cards. Because both Amazon and HSBC services follow the SOA architecture, their web services can be reused by the web application, even if all three systems use different programming platforms.</p>
                       <img src="/website/book/architecture/architecturalStyles/serviceOriented/what/images/amazonWebServices.png" height="280">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -881,9 +881,9 @@ studentList.addUi(statusUi);
                   <p></p>
                   <div>
                     <p><strong>Most applications use a mix of these architectural styles.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An application can use a client-server architecture where the server component comprises several layers, i.e. it uses the n-Tier architecture.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -945,7 +945,7 @@ studentList.addUi(statusUi);
                   <p></p>
                   <div>
                     <p><strong>A defensive programmer codes under the assumption &quot;if we leave room for things to go wrong, they <em>will</em> go wrong&quot;.</strong> Therefore, a defensive programmer proactively tries to eliminate any room for things to go wrong.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider a <code>MainApp#getConfig()</code> a method that returns a <code>Config</code> object containing configuration data. A typical implementation is given below:</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MainApp</span></span>{
     Config config;
@@ -962,7 +962,7 @@ studentList.addUi(statusUi);
         <span class="hljs-keyword">return</span> config.copy(); <span class="hljs-comment">//return a defensive copy</span>
     }
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -988,7 +988,7 @@ studentList.addUi(statusUi);
                   <p></p>
                   <div>
                     <p>Consider two classes, <code>Account</code> and <code>Guarantor</code>, with an association as shown in the following diagram:</p>
-                    <tip-box>
+                    <box>
                       <p>Example:</p>
                       <img src="/website/book/errorHandling/defensiveProgramming/compulsoryAssociations/images/accountGuarantor.png" height="50">
                       <p></p>
@@ -1024,7 +1024,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
     …
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1332,10 +1332,10 @@ jean.setBoyfriend(yong);
                           <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: Implement `Player` and `Region`" class="algolia-no-index">
                             <question has-input="true">
                               <p>Imagine that we now support the following feature in our Minesweeper game.</p>
-                              <tip-box>
+                              <box>
                                 <p>Feature ID: multiplayer<br>
                                   Description: A minefield is divided into mine regions. Each region is assigned to a single player. Players can swap regions. To win the game, all regions must be cleared.</p>
-                              </tip-box>
+                              </box>
                               <p>Given below is an extract from our class diagram.</p>
                               <img src="/website/book/errorHandling/defensiveProgramming/referentialIntegrity/images/playerRegion.png" height="100">
                               <p></p>
@@ -1688,7 +1688,7 @@ r1.setPlayer(p2);
                   <p></p>
                   <div>
                     <p><strong>An SUT can take multiple inputs.</strong> You can select values for each input (using equivalence partitioning, boundary value analysis, or some other technique).</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an SUT that takes multiple inputs and some values chosen as values for each input:</p>
                       <ul>
                         <li>Method to test: <code>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
@@ -1727,7 +1727,7 @@ r1.setPlayer(p2);
                           </div>
                         </li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p><strong>Testing all possible combinations is effective but not efficient.</strong> If you test all possible combinations for the above example, you need to test 6x5x2x6=360 cases. Doing so has a higher chance of discovering bugs (i.e. effective) but the number of test cases can be too high (i.e. not efficient). Therefore, <strong>we need smarter ways to combine test inputs that are both effective and efficient.</strong></p>
                   </div>
                   <div></div>
@@ -1750,7 +1750,7 @@ r1.setPlayer(p2);
                   <p></p>
                   <div>
                     <p>Given below are some basic strategies for generating a set of test cases by combining multiple test input combination strategies.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Let's assume the SUT has the following three inputs and you have selected the given values for testing:</p>
                       <p>SUT: <code>foo(p1 char, p2 int, p3 boolean)</code></p>
                       <p>Values to test:</p>
@@ -1778,9 +1778,9 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>all combinations</em> strategy generates test cases for each unique combination of test inputs.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> the strategy generates 3x3x2=18 test cases</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -1826,9 +1826,9 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>at least once</em> strategy includes each test input at least once.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 3 test cases.</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -1863,9 +1863,9 @@ r1.setPlayer(p2);
                         </table>
                       </div>
                       <p>VV/IV = Any Valid Value / Any Invalid Value</p>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>all pairs</em> strategy creates test cases so that for any given pair of inputs, all combinations between them are tested.</strong> It is based on the observations that a bug is rarely the result of more than two interacting factors. The resulting number of test cases is lower than the <em>all combinations</em> strategy, but higher than the <em>at least once</em> approach.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> this strategy generates 9 test cases:</p>
                       <panel type="seamless" header="see steps" class="algolia-no-index">
                         <p>Let's first consider inputs p1 and p2:</p>
@@ -1983,9 +1983,9 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>A variation of this strategy is to test all pairs of inputs but only for inputs that could influence each other.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Testing all pairs between p1 and p3 only while ensuring all p3 values are tested at least once</p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -2037,7 +2037,7 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p><strong>The <em>random</em> strategy generates test cases using one of the other strategies and then pick a subset randomly</strong> (presumably because the original set of test cases is too big).</p>
                     <p><strong>There are other strategies that can be used too.</strong></p>
                   </div>
@@ -2061,7 +2061,7 @@ r1.setPlayer(p2);
                   <p></p>
                   <div>
                     <p>Consider the following scenario.</p>
-                    <tip-box>
+                    <box>
                       <p>SUT: <code>printLabel(fruitName String, unitPrice int)</code></p>
                       <p><strong>Selected values for</strong> <code>fruitName</code> (invalid values are <ins>underlined</ins> ):</p>
                       <div class="table-responsive">
@@ -2121,9 +2121,9 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>Suppose these are the test cases being considered.</p>
-                    <tip-box>
+                    <box>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
                           <thead>
@@ -2162,14 +2162,14 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>It looks like the test cases were created using the <em>at least once</em> strategy. After running these tests can we confirm that square-format label printing is done correctly?</p>
                     <ul>
                       <li>Answer: No.</li>
                       <li>Reason: <code>Cherry</code> -- the only input that can produce a square-format label -- is in a negative test case which produces an error message instead of a label. If there is a bug in the code that prints labels in square-format, these tests cases will not trigger that bug.</li>
                     </ul>
                     <p>In this case a useful heuristic to apply is <strong>each valid input must appear at least once in a positive test case</strong>. <code>Cherry</code> is a valid test input and we must ensure that it appears at least once in a positive test case. Here are the updated test cases after applying that heuristic.</p>
-                    <tip-box>
+                    <box>
                       <div id="heuristic-valid-test-case">
                         <div class="table-responsive">
                           <table class="markbind-table table table-bordered table-striped">
@@ -2217,7 +2217,7 @@ r1.setPlayer(p2);
                         </div>
                         <p>VV/IV = Any Invalid or Valid Value VV=Any Valid Value</p>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -2298,7 +2298,7 @@ r1.setPlayer(p2);
                       <li>Reason: <code>-1</code> -- the only input that is a negative price -– is in a test case that produces the error message “invalid fruit”.</li>
                     </ul>
                     <p>In this case a useful heuristic to apply is <strong>no more than one invalid input in a test case</strong>. After applying that, we get the following test cases.</p>
-                    <tip-box>
+                    <box>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
                           <thead>
@@ -2350,7 +2350,7 @@ r1.setPlayer(p2);
                         </table>
                       </div>
                       <p>VV/IV = Any Invalid or Valid Value VV=Any Valid Value</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -2392,7 +2392,7 @@ r1.setPlayer(p2);
                   <p></p>
                   <div>
                     <p>Consider the calculateGrade scenario given below:</p>
-                    <tip-box>
+                    <box>
                       <ul>
                         <li>SUT : <code>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
                         <li>Values to test: invalid values are <ins>underlined</ins>
@@ -2404,9 +2404,9 @@ r1.setPlayer(p2);
                           </ul>
                         </li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p>To get the first cut of test cases, let’s apply the <em>at least once</em> strategy.</p>
-                    <tip-box>
+                    <box>
                       <p><strong>Test cases for calculateGrade V1</strong></p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -2473,9 +2473,9 @@ r1.setPlayer(p2);
                         </table>
                       </div>
                       <p>VV/IV = Any Valid or Invalid Value, Err Msg = Error Message</p>
-                    </tip-box>
+                    </box>
                     <p>Next, let’s apply the <em>each valid input at least once in a positive test case</em> heuristic. Test case 5 has a valid value for <code>projectGrade=F</code> that doesn't appear in any other positive test case. Let's replace test case 5 with 5.1 and 5.2 to rectify that.</p>
-                    <tip-box>
+                    <box>
                       <p><strong>Test cases for calculateGrade V2</strong></p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -2550,9 +2550,9 @@ r1.setPlayer(p2);
                         </table>
                       </div>
                       <p>VV = Any Valid Value VV/IV = Any Valid or Invalid Value</p>
-                    </tip-box>
+                    </box>
                     <p>Next, we apply the <em>no more than one invalid input in a test case</em> heuristic. Test cases 5.2 and 6 don't follow that heuristic. Let's rectify the situation as follows:</p>
-                    <tip-box>
+                    <box>
                       <p><strong>Test cases for calculateGrade V3</strong></p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -2642,9 +2642,9 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>Next, let us assume that there is a dependency between the inputs <code>examScore</code> and <code>isAbsent</code> such that an absent student can only have <code>examScore=0</code>. To cater for the hidden invalid case arising from this, we can add a new test case where <code>isAbsent=true</code> and <code>examScore!=0</code>. In addition, test cases 3-6.2 should have <code>isAbsent=false</code> so that the input remains valid.</p>
-                    <tip-box>
+                    <box>
                       <p><strong>Test cases for calculateGrade V4</strong></p>
                       <div class="table-responsive">
                         <table class="markbind-table table table-bordered table-striped">
@@ -2742,7 +2742,7 @@ r1.setPlayer(p2);
                           </tbody>
                         </table>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -2976,7 +2976,7 @@ r1.setPlayer(p2);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>

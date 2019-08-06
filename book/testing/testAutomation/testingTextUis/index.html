@@ -84,17 +84,17 @@ Invalid command format: add
                           </li>
                         </ul>
                         <panel header minimized class="algolia-no-index">
-                          <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
+                          <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator <span class="badge badge-pill badge-secondary"><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
                           <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                           <pre><code class="hljs sh">java AddressBook &gt; output.txt 
 </code></pre>
                           <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
-                          <tip-box>
+                          <box>
                             <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
                             <ul>
                               <li><a href="http://technet.microsoft.com/en-us/library/bb490982.aspx">Using command redirection operators in Windows</a></li>
                             </ul>
-                          </tip-box>
+                          </box>
                           <p></p>
                         </panel>
                         <p></p>

@@ -255,9 +255,9 @@
                       <li>IntelliJ (2018.2 or later)</li>
                       <li><a href="http://gluonhq.com/products/scene-builder/">SceneBuilder 8</a> (provided by Gluon as <a href="http://www.oracle.com/technetwork/java/javase/downloads/sb2download-2177776.html">Oracle no longer ships the tool in binary form</a>)</li>
                     </ul>
-                    <tip-box type="tip">
+                    <box type="tip">
                       <p>Do remember the installation path to SceneBuilder 8 as we will need it to configure IntelliJ in a later step.</p>
-                    </tip-box>
+                    </box>
                     <h2 id="intellij-configurations">IntelliJ Configurations<a class="fa fa-anchor" href="#intellij-configurations"></a></h2>
                     <p>If this is the first time using IntelliJ, you need to tell IntelliJ where to find JDK 9 and SceneBuilder.</p>
                     <h3 id="configuring-jdk-9">Configuring JDK 9<a class="fa fa-anchor" href="#configuring-jdk-9"></a></h3>
@@ -287,7 +287,7 @@
                     </ol>
                     <img src="/website/book/javaTools/javaFXBasic/part01/images/config-scene-builder-settings.png" alt="Scene Builder settings" height="350">
                     <p></p>
-                    <tip-box type="info" header="Helpful Links">
+                    <box type="info" header="Helpful Links">
                       <p>The JavaDocs will come in handy when writing your own JavaFX applications:</p>
                       <ul>
                         <li><a href="https://docs.oracle.com/javase/9/docs/api">Java 9 API</a></li>
@@ -295,7 +295,7 @@
                         <li><a href="http://controlsfx.bitbucket.org/">ControlsFX API</a></li>
                       </ul>
                       <p>Additionally, <a href="http://docs.oracle.com/javase/8/javafx/get-started-tutorial/get_start_apps.htm">Oracle also has a tutorial on JavaFX</a> if you are interested.</p>
-                    </tip-box>
+                    </box>
                     <h2 id="create-a-new-javafx-project">Create a new JavaFX Project<a class="fa fa-anchor" href="#create-a-new-javafx-project"></a></h2>
                     <ol>
                       <li>On the Welcome screen, press <code>Create New Project</code>.</li>
@@ -328,9 +328,9 @@
                     </ul>
                     <img src="/website/book/javaTools/javaFXBasic/part01/images/new-packages.png" alt="New Packages" height="200">
                     <p></p>
-                    <tip-box type="info">
+                    <box type="info">
                       <p>In subsequent tutorials, our <code>view</code> package will also contain some controllers that are directly related to a single view. We will call them <code>view-controllers</code>.</p>
-                    </tip-box>
+                    </box>
                     <h2 id="create-the-fxml-layout-file">Create the FXML Layout File<a class="fa fa-anchor" href="#create-the-fxml-layout-file"></a></h2>
                     <p>There are two ways to create the UI:</p>
                     <ul>
@@ -341,9 +341,9 @@
                     <p>Right click on the <code>view</code> package, and press <code>New</code> → <code>FXML file</code>. For the file name, type <code>PersonOverview.fxml</code>.</p>
                     <h2 id="design-with-scene-builder">Design with Scene Builder<a class="fa fa-anchor" href="#design-with-scene-builder"></a></h2>
                     <p>Right-click on <code>PersonOverview.fxml</code> and choose <code>Open with Scene Builder</code>. Now you should see the Scene Builder with just an AnchorPane (visible under Hierarchy on the left).</p>
-                    <tip-box type="info">
+                    <box type="info">
                       <p>If IntelliJ prompts for a location of the SceneBuilder executable, make sure to point to where you install SceneBuilder.</p>
-                    </tip-box>
+                    </box>
                     <ol>
                       <li>Select the <code>Anchor Pane</code> in your Hierarchy, and adjust the size under Layout (right side). (Pref Width: 600, Pref Height: 300)</li>
                     </ol>
@@ -379,9 +379,9 @@
                     </ol>
                     <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-title-label.png" width="800">
                     <p></p>
-                    <tip-box type="tip">
+                    <box type="tip">
                       <p>You can use the Search Bar at the top of Library/Inspector to find the respective controls/properties.</p>
-                    </tip-box>
+                    </box>
                     <ol start="8">
                       <li>Add a <code>GridPane</code> on the right side. Select it, and adjust its layout using anchors (Top: 30, Left: 5, Right: 5, Bottom: Blank).</li>
                     </ol>
@@ -422,9 +422,9 @@
                         </tbody>
                       </table>
                     </div>
-                    <tip-box type="tip">
+                    <box type="tip">
                       <p>To add a row to the GridPane, select an existing row number, right click the row number and choose &quot;Add Row Below&quot;.</p>
-                    </tip-box>
+                    </box>
                     <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-2.png" height="250">
                     <p></p>
                     <img src="/website/book/javaTools/javaFXBasic/part01/images/design-scene-builder-grid-pane-3.png" height="280">
@@ -758,14 +758,14 @@
                     <h2 id="the-personoverviewcontroller">The PersonOverviewController<a class="fa fa-anchor" href="#the-personoverviewcontroller"></a></h2>
                     <p>We have our model and view. Let's get our data into our table. We'll need a controller for our <code>PersonOverview.fxml</code> to act as a &quot;middleman&quot; for the model and view.</p>
                     <p>Create a normal Java class inside the <code>view</code> package called <code>PersonOverviewController</code>.</p>
-                    <tip-box type="tip">
+                    <box type="tip">
                       <p>Note: We must put the class inside the same package as <code>PersonOverview.fxml</code>, otherwise the SceneBuilder won't be able to find it.</p>
-                    </tip-box>
+                    </box>
                     <p>We will add some instance variables that give us access to the table and the labels inside the view. The fields and some methods have a special <code>@FXML</code> annotation. This is necessary in order for the <code>.fxml</code> file to have access to private fields and private methods. After we have everything set up in the <code>.fxml</code> file, the application will automatically fill the variables when the <code>.fxml</code> file is loaded.</p>
                     <p>So let's add the following code:</p>
-                    <tip-box type="tip">
+                    <box type="tip">
                       <p>Note: Remember to always use the <code>javafx</code> imports, NOT <code>awt</code> or <code>swing</code>.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>PersonOverviewController.java</strong></p>
                     <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.address.view;
 
@@ -838,14 +838,14 @@
                       <li>The <code>initialize()</code> method is automatically called after the <code>.fxml</code> file has been loaded. At this time, all the FXML fields should have been initialized already.</li>
                       <li>The <code>setCellValueFactory(...)</code> that we set on the table colums are used to determine which field inside the <code>Person</code> objects should be used for the particular column. The arrow <code>-&gt;</code> indicates that we're using a Java 8 feature called Lambdas. (Another option would be to use a <a href="https://docs.oracle.com/javase/9/docs/api/javafx/scene/control/cell/PropertyValueFactory.html"><code>PropertyValueFactory</code></a>, but this is not type-safe).</li>
                     </ul>
-                    <tip-box type="tip">
+                    <box type="tip">
                       <p>Note:</p>
                       <p>We're only using <code>StringProperty</code> values for our table columns in this example. When you want to use <code>IntegerProperty</code> or <code>DoubleProperty</code>, the <code>setCellValueFactory(...)</code> must have an additional <code>asObject()</code>:</p>
                       <pre><code class="hljs java">myIntegerColumn.setCellValueFactory(cellData -&gt;
     cellData.getValue().myIntegerProperty().asObject());
 </code></pre>
                       <p>This is necessary because of a bad design decision of JavaFX (see <a href="https://community.oracle.com/thread/2575601">this discussion</a> for more details).</p>
-                    </tip-box>
+                    </box>
                     <h3 id="connecting-mainapp-with-the-personoverviewcontroller">Connecting MainApp with the PersonOverviewController<a class="fa fa-anchor" href="#connecting-mainapp-with-the-personoverviewcontroller"></a></h3>
                     <p>The <code>setMainApp(...)</code> method must be called by the <code>MainApp</code> class. This gives us a way to access the <code>MainApp</code> object and get the list of <code>Persons</code> and other things. Add the following three lines to <code>showPersonOverview()</code> the method:</p>
                     <p><strong>MainApp.java - additional lines to add to showPersonOverview() method</strong></p>
@@ -1008,7 +1008,7 @@ Caused by: java.lang.IllegalAccessException: class javafx.fxml.FXMLLoader$ValueE
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>

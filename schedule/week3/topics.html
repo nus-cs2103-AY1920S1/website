@@ -347,7 +347,7 @@
                   <p></p>
                   <div>
                     <p><strong>Javadoc is a tool for generating API documentation in HTML format from doc comments in source.</strong> In addition, modern IDEs use JavaDoc comments to generate explanatory tool tips.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example method header comment in JavaDoc format (adapted from <a href="http://www.oracle.com/technetwork/articles/java/index-137868.html">Oracle's Java documentation</a>)</p>
                       <pre><code class="hljs java"><span class="hljs-comment">/**
  * Returns an Image object that can then be painted on the screen.
@@ -378,7 +378,7 @@
                       <p><img src="/website/book/documentation/tools/javaDoc/what/images/intellijTooltip.png"></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -897,7 +897,7 @@ second line
                   <p></p>
                   <div>
                     <p><strong>A test driver is the code that ‘drives’ the <tooltip content="Software Under Test">SUT</tooltip> for the purpose of testing</strong> i.e. invoking the SUT with test inputs and verifying the behavior is as expected.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>PayrollTest</code> ‘drives’ the <code>PayRoll</code> class by sending it test inputs and verifies if the output is as expected.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PayrollTestDriver</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> Exception </span>{
@@ -924,7 +924,7 @@ second line
     }
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -946,7 +946,7 @@ second line
                   <p></p>
                   <div>
                     <p><strong>JUnit is a tool for automated testing of Java programs.</strong> Similar tools are available for other languages and for automating different types of testing.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This an automated test for a <code>Payroll</code> class, written using JUnit libraries.</p>
                       <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testTotalSalary</span><span class="hljs-params">()</span></span>{
@@ -963,7 +963,7 @@ second line
     <span class="hljs-comment">//more tests...</span>
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p>Most modern IDEs has integrated support for testing tools. The figure below shows the JUnit output when running some JUnit tests using the Eclipse IDE.</p>
                     <img src="/website/book/testing/testAutomation/tools/images/junit.png" height="190">
                     <p></p>
@@ -989,7 +989,7 @@ second line
                   <div>
                     <p><strong><em>Unit testing</em> : testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</strong></p>
                     <p>In OOP code, it is common to write one or more unit tests for each public method of a class.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here are the code skeletons for a <code>Foo</code> class containing two methods and a <code>FooTest</code> class that contains unit tests for those two methods.</p>
                       <div class="alt-java">
                         <div>
@@ -1049,7 +1049,7 @@ second line
 </code></pre>
                         </div>
                       </div>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1087,16 +1087,16 @@ second line
                   <p></p>
                   <div>
                     <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed">i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
-                    </tip-box>
+                    </box>
                     <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                       </div>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below:</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Logic</span> </span>{
     Storage s;
@@ -1159,7 +1159,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: Adam"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                     <p>In addition to Stubs, there are other type of replacements you can use during testing. E.g. <em>Mocks</em>, <em>Fakes</em>, <em>Dummies</em>, <em>Spies</em>.</p>
                   </div>
                   <div>
@@ -1653,22 +1653,22 @@ This repo can be used to practice creating PRs.
                     </ul>
                     <img src="/website/book/gitAndGithub/createPRs/images/selectBase.png" width="800">
                     <p></p>
-                    <tip-box type="info">
+                    <box type="info">
                       <p>The <em>base fork</em> is where changes should be applied. The <em>head fork</em> contains the changes you would like to be applied.</p>
-                    </tip-box>
+                    </box>
                     <p>4c. (1) Set the base branch to <code>master</code> and head branch to <code>add-intro</code>, (2) confirm the <em>diff</em> contains the changes you propose to merge in this PR <span class="dimmed">(i.e. confirm that you did not accidentally include extra commits in the branch)</span>, and (3) click the <code>Create pull request</code> button.</p>
                     <img src="/website/book/gitAndGithub/createPRs/images/checkDiff.png" width="800">
                     <p></p>
                     <p>4d. (1) Set PR name, (2) set PR description, and (3) Click the <code>Create pull request</code> button.</p>
                     <img src="/website/book/gitAndGithub/createPRs/images/setPrName.png" width="600">
                     <p></p>
-                    <tip-box type="important">
+                    <box type="important">
                       <p>A common newbie mistake when creating branch-based PRs is to mix commits of one PR with another. To learn how to avoid that mistake, you are encouraged to continue and create another PR as explained below.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>5. In your local repo, create a new branch <code>add-summary</code></strong> off the <code>master</code> branch.</p>
-                    <tip-box type="warning">
+                    <box type="warning">
                       <p>When creating the new branch, it is very important that you switch back to the <code>master</code> branch first. If not, the new branch will be created off the current branch <code>add-intro</code>. And that is how you end up having commits of the first PR in the second PR as well.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>6. Add a commit in the <code>add-summary</code> branch</strong> that adds a <em>Summary</em> section to the <code>README.md</code>, in exactly the same place you added the <em>Introduction</em> section earlier.</p>
                     <img src="/website/book/gitAndGithub/createPRs/images/addSummaryBranch.png" width="400">
                     <p></p>
@@ -1707,7 +1707,7 @@ This repo can be used to practice creating PRs.
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>

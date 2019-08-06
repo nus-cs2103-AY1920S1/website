@@ -232,12 +232,12 @@
                 <p></p>
                 <div>
                   <p><strong>A textual description (i.e. <em>prose</em>) can be used to describe requirements.</strong> Prose is especially useful when describing abstract ideas such as the vision of a product.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The product vision of the <a href="https://github.com/TEAMMATES/teammates">TEAMMATES Project</a> given below is described using prose.</p>
                     <blockquote>
                       <p>TEAMMATES aims to become <strong>the biggest student project in the world</strong> (<em>biggest</em> here refers to 'many contributors, many users, large code base, evolving over a long period'). Furthermore, it aims to serve as a training tool for Software Engineering students who want to learn SE skills in the context of <strong>a non-trivial real software product</strong>.</p>
                     </blockquote>
-                  </tip-box>
+                  </box>
                   <p>
                     <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Avoid using lengthy prose to describe requirements; they can be hard to follow.
                   </p>
@@ -261,12 +261,12 @@
                 <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain feature list</span></span></span></span>
                 <p></p>
                 <div>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Feature List</strong>: A list of features of a product <em>grouped according to some criteria</em> such as aspect, priority, order of delivery, etc.</p>
                     </div>
-                  </tip-box>
-                  <tip-box>
+                  </box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A sample feature list from a simple Minesweeper game <span class="dimmed">(only a brief description has been provided to save space)</span>:</p>
                     <ol>
                       <li>Basic play – Single player play.</li>
@@ -280,7 +280,7 @@
                       <li>Timer – Additional fixed time restriction on the player.</li>
                       <li>...</li>
                     </ol>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -301,25 +301,25 @@
                 <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can write simple user stories</span></span></span></span>
                 <p></p>
                 <div>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>User story</strong>: User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system. <sub>[<a href="https://www.mountaingoatsoftware.com/agile/user-stories">Mike Cohn</a>]</sub></p>
                     </div>
-                  </tip-box>
+                  </box>
                   <p><strong>A common format</strong> for writing user stories is:</p>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>User story format</strong>: <code>As a {user type/role} I can {function} so that {benefit}</code></p>
                     </div>
-                  </tip-box>
-                  <tip-box>
+                  </box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples (from a <em>Learning Management System</em>):</p>
                     <ol>
                       <li><span class="dimmed">As a</span> student, <span class="dimmed">I can</span> download files uploaded by lecturers, <span class="dimmed">so that</span> I can get my own copy of the files</li>
                       <li><span class="dimmed">As a</span> lecturer, <span class="dimmed">I can</span> create discussion forums, <span class="dimmed">so that</span> students can discuss things online</li>
                       <li><span class="dimmed">As a</span> tutor, <span class="dimmed">I can</span> print attendance sheets, <span class="dimmed">so that</span> I can take attendance during the class</li>
                     </ol>
-                  </tip-box>
+                  </box>
                   <p></p>
                   <p><strong>We can write user stories on</strong> index cards or sticky notes, and arrange on walls or tables, to facilitate planning and discussion. Alternatively, we can use a software (e.g., <a href="https://help.github.com/articles/about-project-boards/">GitHub Project Boards</a>, Trello, Google Docs, ...) to manage user stories digitally.</p>
                   <panel header="%%User stories in use%%" class="non-printable" expanded>
@@ -407,19 +407,19 @@
                 <p></p>
                 <div>
                   <p><strong>The <code>{benefit}</code> can be omitted</strong> if it is obvious.</p>
-                  <tip-box>
+                  <box>
                     <p>As a user, I can login to the system <s>so that I can access my data</s></p>
-                  </tip-box>
+                  </box>
                   <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, you could end up adding features that have no real benefit.</p>
                   <p>You can add more characteristics to the <code>{user role}</code> to provide more context to the user story.</p>
-                  <tip-box>
+                  <box>
                     <ul>
                       <li>As a <mark>forgetful</mark> user, I can view a password hint, so that I can recall my password.</li>
                       <li>As an <mark>expert</mark> user, I can tweak the underlying formatting tags of the document, so that I can format the document exactly as I need.</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>You can write user stories at various levels</strong>. High-level user stories, called <mark><em>epics</em></mark> (or <em>themes</em>) cover bigger functionality. You can then break down these epics to multiple user stories of normal size.</p>
-                  <tip-box>
+                  <box>
                     <p>[Epic] As a lecturer, I can monitor student participation levels</p>
                     <ul>
                       <li>As a lecturer, I can view the forum post count of each student
@@ -429,9 +429,9 @@
                       <li>As a lecturer, I can view file download statistics of each student
                         so that I can identify the students who do not download lecture materials</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>You can add <em>conditions of satisfaction</em> to a user story</strong> to specify things that need to be true for the user story implementation to be accepted as ‘done’.</p>
-                  <tip-box>
+                  <box>
                     <ul>
                       <li><em>As a</em> lecturer, <em>I can</em> view the forum post count of each student <em>so that</em> I can identify the activity level of students in the forum.</li>
                     </ul>
@@ -441,7 +441,7 @@
                       <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Total post count of a student should be shown</li>
                       <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> The list should be sortable by student name and post count</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>Other useful info that can be added to a user story</strong> includes (but not limited to)</p>
                   <ul>
                     <li>Priority: how important the user story is</li>
@@ -450,9 +450,9 @@
                   </ul>
                   <span class="non-printable">
                     <panel minimized class="algolia-no-index">
-                      <span slot="header" class="card-title"><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples <span class="badge badge-pill badge-secondary">tangential</span></span>
+                      <span slot="header" class="card-title"><span><span aria-hidden="true" class="fas fa-cube"></span></span> More examples <span class="badge badge-pill badge-secondary">:fas-plus: extra</span></span>
                       <p>User stories for a travel website (credit: Mike Cohen)</p>
-                      <tip-box>
+                      <box>
                         <ul>
                           <li>As a registered user, I am required to log in so that I can access the system</li>
                           <li>As a forgetful user, I can request a password reminder so that I can log in if I forget mine</li>
@@ -472,7 +472,7 @@
                             </ul>
                           </li>
                         </ul>
-                      </tip-box>
+                      </box>
                     </panel>
                   </span>
                 </div>
@@ -538,7 +538,7 @@
                               <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
                               <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
                             </ol>
-                            <tip-box>
+                            <box>
                               <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of non-functional requirement categories:</p>
                               <ul>
                                 <li>Data requirements e.g. size, <tooltip content="how often do data change">volatility</tooltip>, <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
@@ -558,7 +558,7 @@
                                   </li>
                                 </ul>
                               </panel>
-                            </tip-box>
+                            </box>
                             <p>We may have to spend an extra effort in digging NFRs out as early as possible because,</p>
                             <ol>
                               <li><strong>NFRs are easier to miss</strong> <span class="dimmed">e.g., stakeholders tend to think of functional requirements first</span></li>
@@ -595,7 +595,7 @@
                       </div>
                     </div>
                   </modal>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of a NFR captured as a user story:</p>
                     <div class="table-responsive">
                       <table class="markbind-table table table-bordered table-striped">
@@ -615,10 +615,10 @@
                         </tbody>
                       </table>
                     </div>
-                  </tip-box>
+                  </box>
                   <div id="usageTips">
                     <p>Given their lightweight nature, <strong>user stories are quite handy for recording requirements during early stages of requirements gathering</strong>.</p>
-                    <tip-box>
+                    <box>
                       <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Here are some tips for using user stories for early stages of requirement gathering:</p>
                       <ul>
                         <li><strong>Define the <em>target user</em>:</strong><br>
@@ -635,7 +635,7 @@
                         <li><strong>Don't discuss implementation details or whether you are actually going to implement it:</strong><br>
                           When gathering requirements, your decision is whether the user's need is important enough for you to want to fulfil it. Implementation details can be discussed later. If a user story turns out to be too difficult to implement later, you can always omit it from the implementation plan.</li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <p>While use cases can be recorded on <tooltip content="e.g. index cards or sticky notes">physical paper</tooltip> in the initial stages, an online tool is more suitable for longer-term management of user stories, especially if the team is not <tooltip content="physically in the same location">co-located</tooltip>.</p>
                   <span class="non-printable">
@@ -713,7 +713,7 @@
                 <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain use cases</span></span></span></span>
                 <p></p>
                 <div>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Use Case</strong>: A description of a set of sequences of actions, including variants, that a system performs to yield an observable result of value to an <trigger for="pop:actor">actor</trigger>.[ 📖 : <popover effect="fade" placement="top">uml-user-guide<span slot="content"><span><em><strong>The Unified Modeling Language User Guide</strong></em>, 2e, G Booch, J Rumbaugh, and I Jacobson </span></span></popover>]</p>
                       <popover id="pop:actor" title="<md>:glyphicon-eye-open:</md>" placement="top">
@@ -724,9 +724,9 @@
                         </div>
                       </popover>
                     </div>
-                  </tip-box>
+                  </box>
                   <p><strong>A use case describes an <em>interaction between the user and the system</em> for a <em>specific functionality</em> of the system.</strong></p>
-                  <tip-box>
+                  <box>
                     <panel header="<md>:fas-cube:</md> Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
                       <ul>
                         <li>System: <popover effect="fade" placement="right" content="Automated Teller Machine">
@@ -760,7 +760,7 @@
                         </li>
                       </ul>
                     </panel>
-                  </tip-box>
+                  </box>
                   <p></p>
                   <p><strong>
                       <trigger for="modal:uml" trigger="click">UML</trigger> includes a diagram type called use case diagrams that can illustrate use cases of a system visually
@@ -789,52 +789,52 @@
                 <div>
                   <p>A use case is an interaction between a system and its <em>actors</em>.</p>
                   <p><strong>Actors in Use Cases</strong></p>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Actor</strong>: An actor (in a use case) is a role played by a user. An actor can be a human or another system. Actors are not part of the system; they reside outside the system.</p>
                     </div>
-                  </tip-box>
-                  <tip-box>
+                  </box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example actors for a Learning Management System</p>
                     <ul>
                       <li>Actors: Guest, Student, Staff, Admin, <tooltip content="an exam management system">ExamSys</tooltip>, <tooltip content="a library management system">LibSys</tooltip>.</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>A use case can involve multiple actors.</strong></p>
-                  <tip-box>
+                  <box>
                     <ul>
                       <li>Software System: LearnSys</li>
                       <li>Use case: UC01 conduct survey</li>
                       <li>Actors: <mark>Staff, Student</mark></li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>An actor can be involved in many use cases.</strong></p>
-                  <tip-box>
+                  <box>
                     <ul>
                       <li>Software System: LearnSys</li>
                       <li>Actor: Staff</li>
                       <li>Use cases: <mark>UC01 conduct survey, UC02 Set Up Course Schedule, UC03 Email Class, ...</mark></li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>A single person/system can play many roles.</strong></p>
-                  <tip-box>
+                  <box>
                     <ul>
                       <li>Software System: LearnSys</li>
                       <li>Person: <mark>a student</mark></li>
                       <li>Actors (or Roles): Student, Guest, Tutor</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><strong>Many persons/systems can play a single role.</strong></p>
-                  <tip-box>
+                  <box>
                     <ul>
                       <li>Software System: LearnSys</li>
                       <li>Actor(or role) : Student</li>
                       <li>Persons that can play this role : <mark>undergraduate student, graduate student, a staff member doing a part-time course, exchange student</mark></li>
                     </ul>
-                  </tip-box>
+                  </box>
 
                   <p><strong>Use cases can be specified at <em>various levels of detail</em>.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the three use cases given below. Clearly, (a) is at a higher level than (b) and (b) is at a higher level than (c).</p>
                     <ul>
                       <li>System: LearnSys</li>
@@ -843,7 +843,7 @@
                         b. Take the survey<br>
                         c. Answer survey question</li>
                     </ul>
-                  </tip-box>
+                  </box>
                   <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> While modeling user-system interactions,</p>
                   <ul>
                     <li>Start with high level use cases and progressively work toward lower level use cases.</li>
@@ -904,7 +904,7 @@
                   <div>
                     <link rel="stylesheet" href="/website/book/css/common.css">
                     <p><strong>The main body of the use case is the sequence of steps that describes the interaction between the system and the actors.</strong> Each step is given as a simple statement describing <em>who does what</em>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of the main body of a use case.</p>
                       <ol>
                         <li>Student requests to upload file</li>
@@ -912,14 +912,14 @@
                         <li>Student specifies the file location</li>
                         <li>LMS uploads the file</li>
                       </ol>
-                    </tip-box>
+                    </box>
                     <p><strong>A use case describes only the externally visible behavior, not internal details, of a system</strong> i.e. should not mention give details that are not part of the interaction between the user and the system.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example use case step refers to behaviors not externally visible .</p>
                       <ol>
                         <li>LMS <mark>saves the file into the cache</mark> and indicates success.</li>
                       </ol>
-                    </tip-box>
+                    </box>
                     <p><strong>A step gives the intention of the actor (not the mechanics).</strong> That means UI details are usually omitted. The idea is to leave as much flexibility to the UI designer as possible. That is, the use case specification should be as general as possible (less specific) about the UI.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The first example below is not a good use case step because contains UI-specific details. The second one is better because it omits UI-specific details.</p>
@@ -933,7 +933,7 @@
                       </div>
                     </box>
                     <p>A use case description can show loops too.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of how you can show a loop:</p>
                       <p>Software System: Square game
                         Use case: <popover content="Each use case can be given a unique identification for easier cross reference."> UC02 </popover> - Play a Game
@@ -952,12 +952,12 @@
                         <li>Square Game shows the Winner.</li>
                       </ol>
                       <p>  Use case ends.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <link rel="stylesheet" href="/website/book/css/common.css">
                     <p><strong>The <mark><em>Main Success Scenario (MSS)</em></mark> describes the most straightforward interaction for a given use case, which assumes that nothing goes wrong.</strong> This is also called the <em>Basic Course of Action</em> or the <em>Main Flow of Events</em> of a use case.</p>
-                    <tip-box>
+                    <box>
                       <ul>
                         <li>System: Online Banking System (OBS)</li>
                         <li>Use case: UC23 - Transfer Money</li>
@@ -974,11 +974,11 @@
                         </li>
                       </ul>
                       <p>Note how the MSS assumes that all entered details are correct and ignores problems such as timeouts, network outages etc. Fro example, MSS does not tell us what happens if the user enters an incorrect data.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <p><strong><mark><em>Extensions</em></mark> are &quot;add-on&quot;s to the MSS that describe <em>exceptional/alternative flow of events</em>.</strong> They describe variations of the scenario that can happen if certain things are not as expected by the MSS. Extensions appear below the MSS.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example adds some extensions to the use case in the previous example.</p>
                       <ul>
                         <li>System: Online Banking System (OBS)</li>
@@ -1028,7 +1028,7 @@
                           </ol>
                         </li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p>Note that the numbering style is not a universal rule but a widely used convention. Based on that convention,</p>
                     <ul>
                       <li>either of the extensions marked <code>3a.</code> and <code>3b.</code> can happen just after step <code>3</code> of the MSS.</li>
@@ -1074,7 +1074,7 @@
                   <div>
                     <link rel="stylesheet" href="/website/book/css/common.css">
                     <p><strong><mark><em>Preconditions</em></mark> specify the specific state we expect the system to be in before the use case starts.</strong></p>
-                    <tip-box>
+                    <box>
                       <div>
                         <ul>
                           <li>Software System: Online Banking System</li>
@@ -1090,13 +1090,13 @@
                           </li>
                         </ul>
                       </div>
-                    </tip-box>
+                    </box>
                     <p></p>
                   </div>
                   <div>
                     <link rel="stylesheet" href="/website/book/css/common.css">
                     <p><strong><mark><em>Guarantees</em></mark> specify what the use case promises to give us at the end of its operation.</strong></p>
-                    <tip-box>
+                    <box>
                       <div>
                         <ul>
                           <li>Software System: Online Banking System</li>
@@ -1117,7 +1117,7 @@
                           </li>
                         </ul>
                       </div>
-                    </tip-box>
+                    </box>
                     <p></p>
                   </div>
                 </div>
@@ -1129,15 +1129,15 @@
                         <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: EZ-Link top-up use case" class="algolia-no-index">
                           <question has-input="true">
                             <p>Complete the following use case (MSS, extensions, etc.). Note that you should not blindly follow how the existing <tooltip content="A type of a cash card topup machine">EZ-Link machine</tooltip> operates because it will prevent you from designing a better system. You should consider all possible extensions without complicating the use case too much.</p>
-                            <tip-box>
+                            <box>
                               <ul>
                                 <li>System: EZ-Link machine</li>
                                 <li>Use case: UC2 top-up EZ-Link card</li>
                                 <li>Actor: EZ-Link card user</li>
                               </ul>
-                            </tip-box>
+                            </box>
                             <div slot="answer" class="algolia-no-index">
-                              <tip-box>
+                              <box>
                                 <div>
                                   <ul>
                                     <li>System: EZ-Link machine (those found at MRTs)</li>
@@ -1178,8 +1178,8 @@
                                   <li>By not breaking step 4 into further steps, we avoid committing to a particular mechanism to enter data. For example, we are free to accept all data in one screen.</li>
                                   <li>In step 5, we assume that the input mechanism does not allow any incorrect data.</li>
                                 </ul>
-                              </tip-box>
-                              <tip-box>
+                              </box>
+                              <box>
                                 <div>
                                   <ul>
                                     <li>System: EZ-Link machine</li>
@@ -1224,7 +1224,7 @@
                                   </ul>
                                 </div>
                                 <p>Note: UC02 can be written along similar lines.</p>
-                              </tip-box>
+                              </box>
                             </div>
                           </question>
                         </panel>
@@ -1234,15 +1234,15 @@
                         <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LearnSys – reply to post use case" class="algolia-no-index">
                           <question has-input="true">
                             <p>Complete the following use case (MSS, extensions, etc.).</p>
-                            <tip-box>
+                            <box>
                               <ul>
                                 <li>System: LearnSys (an online Learning Management System)</li>
                                 <li>Use case: UC01 reply to post in the forum</li>
                                 <li>Actor: Student</li>
                               </ul>
-                            </tip-box>
+                            </box>
                             <div slot="answer" class="algolia-no-index">
-                              <tip-box>
+                              <box>
                                 <div>
                                   <ul>
                                     <li>System: LearnSys</li>
@@ -1308,7 +1308,7 @@
                                     </li>
                                   </ul>
                                 </div>
-                              </tip-box>
+                              </box>
                             </div>
                           </question>
                         </panel>
@@ -1402,16 +1402,16 @@
                 <p></p>
                 <div>
                   <p><strong>You can use actor generalization in use case diagrams</strong> using a symbol similar to that of UML notation for inheritance.</p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
                     <img src="/website/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png" height="250">
-                  </tip-box>
+                  </box>
                   <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
                   <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
                     <img src="/website/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200">
-                  </tip-box>
+                  </box>
                   <p>However, others argue that only use cases providing value to an external user/system should be shown in the use case diagram. For example, they argue that ‘view daily report’ should be the use case and <code>generate daily report</code> is not to be shown in the use case diagram because it is simply something the system has to do to support the <code>view daily report</code> use case.</p>
                   <p>We recommend that you follow the latter view (i.e. not to use System as a user). Limit use cases for modeling behaviors that involve an external actor.</p>
                   <p><strong>UML is not very specific about the text contents of a use case.</strong> Hence, there are many styles for writing use cases. For example, the steps can be written as a continuous paragraph.
@@ -1482,18 +1482,18 @@
                 <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain glossary</span></span></span></span>
                 <p></p>
                 <div>
-                  <tip-box type="definition">
+                  <box type="definition">
                     <div>
                       <p><strong>Glossary</strong>: A glossary serves to ensure that <em>all stakeholders have a common understanding</em> of the noteworthy terms, abbreviation, acronyms etc.</p>
                     </div>
-                  </tip-box>
-                  <tip-box>
+                  </box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is a partial glossary from a variant of the <em>Snakes and Ladders</em> game:</p>
                     <ul>
                       <li>Conditional square: A square that specifies a specific face value which a player has to throw before his/her piece can leave the square.</li>
                       <li>Normal square: a normal square does not have any conditions, snakes, or ladders in it.</li>
                     </ul>
-                  </tip-box>
+                  </box>
                 </div>
                 <div></div>
               </div>
@@ -1532,7 +1532,7 @@
                               <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
                               <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
                             </ol>
-                            <tip-box>
+                            <box>
                               <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of non-functional requirement categories:</p>
                               <ul>
                                 <li>Data requirements e.g. size, <tooltip content="how often do data change">volatility</tooltip>, <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
@@ -1552,7 +1552,7 @@
                                   </li>
                                 </ul>
                               </panel>
-                            </tip-box>
+                            </box>
                             <p>We may have to spend an extra effort in digging NFRs out as early as possible because,</p>
                             <ol>
                               <li><strong>NFRs are easier to miss</strong> <span class="dimmed">e.g., stakeholders tend to think of functional requirements first</span></li>
@@ -1627,7 +1627,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>

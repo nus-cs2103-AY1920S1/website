@@ -33,18 +33,18 @@
                   <div>
                     <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\stubs\text.md">
                       <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed">i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
-                      <tip-box>
+                      <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
-                      </tip-box>
+                      </box>
                       <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
-                      <tip-box type="definition">
+                      <box type="definition">
                         <div>
                           <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md">
                             <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                           </div>
                         </div>
-                      </tip-box>
-                      <tip-box>
+                      </box>
+                      <box>
                         <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below:</p>
                         <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Logic</span> </span>{
     Storage s;
@@ -107,7 +107,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: Adam"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                      </tip-box>
+                      </box>
                       <p>In addition to Stubs, there are other type of replacements you can use during testing. E.g. <em>Mocks</em>, <em>Fakes</em>, <em>Dummies</em>, <em>Spies</em>.</p>
                     </div>
                   </div>
@@ -151,10 +151,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             </div>
           </div>
         </modal>
-        <tip-box>
+        <box>
           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code>Foo</code> object normally depends on a <code>Bar</code> object, but we can inject a <code>BarStub</code> object so that the <code>Foo</code> object no longer depends on a <code>Bar</code> object. Now we can test the <code>Foo</code> object in isolation from the <code>Bar</code> object.</p>
           <img src="/website/book/testing/dependencyInjection/what/images/diagram.png" height="150">
-        </tip-box>
+        </box>
       </div>
     </div>
     <div>

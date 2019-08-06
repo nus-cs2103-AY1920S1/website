@@ -255,11 +255,11 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Software Engineering</strong>: Software Engineering is the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software&quot; <sub>-- IEEE Standard Glossary of Software Engineering Terminology</sub></p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>The following description of the <em>Joys of the Programming Craft</em> was taken from Chapter 1 of the famous book <trigger for="modal:mmm" trigger="click"><em>The Mythical Man-Month</em>, by Frederick P. Brooks</trigger>.</p>
                     <blockquote>
                       <p><strong>Why is programming fun? What delights may its practitioner expect as his reward?</strong></p>
@@ -487,7 +487,7 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>Professional software engineers often write code using <em>Integrated Development Environments (IDEs)</em>. IDEs support all development-related work within the same tool.</strong></p>
+                    <p><strong>Professional software engineers often write code using <em>Integrated Development Environments (IDEs)</em>. IDEs support most development-related work within the same tool</strong> (hence, the term <em>integrated</em>).</p>
                     <p>An IDE generally consists of:</p>
                     <ul>
                       <li>A source code editor that includes features such as syntax coloring, auto-completion, easy code navigation, error highlighting, and code-snippet generation.</li>
@@ -569,6 +569,7 @@
                         <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/S764o0mAXhg" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                       </tab>
                     </tabs>
+                    <br>
                     <h5 id="importing-a-project-to-intellij-idea">Importing a Project to Intellij IDEA<a class="fa fa-anchor" href="#importing-a-project-to-intellij-idea"></a></h5>
                     <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/WIYTktB1bT4" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                   </div>
@@ -602,24 +603,25 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
-                        <p><strong>Testing</strong>: Testing is operating a system or component under specified conditions, observing or recording the results, and making an evaluation of some aspect of the system or component. –- source: IEEE</p>
+                        <p><strong>Testing</strong>: Operating a system or component under specified conditions, observing or recording the results, and making an evaluation of some aspect of the system or component. –- source: IEEE</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <img src="/website/book/testing/introduction/what/images/diagram.png" height="220">
                     <p></p>
                     <p><strong>When testing, we execute a set of <em>test cases</em>.</strong> A test case specifies how to perform a test. At a minimum, it specifies the input to the <em>software under test (SUT)</em> and the expected behavior.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: A minimal test case for testing a browser:</p>
                       <ul>
                         <li><strong>Input</strong> – Start the browser using a blank page (vertical scrollbar disabled). Then, load <code>longfile.html</code> located in the <code>test data</code> folder.</li>
                         <li><strong>Expected behavior</strong> – The scrollbar should be automatically enabled upon loading <code>longfile.html</code>.</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <p><strong>Test cases can be determined based on the specification, reviewing similar existing systems, or comparing to the past behavior of the SUT.</strong></p>
-                    <panel header="%%Other details a test case can contain%%" type="seamless" class="algolia-no-index">
-                      <p>A more elaborate test case can have other details such as those given below.</p>
+                    <panel type="seamless" class="algolia-no-index">
+                      <span slot="header" class="card-title"><span><span class="dimmed">Other details a test case can contain</span> <span class="badge badge-pill badge-secondary"><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
+                      A more elaborate test case can have other details such as those given below.
                       <ul>
                         <li>A unique identifier : <span class="dimmed">e.g. TC0034-a</span></li>
                         <li>A descriptive name: <span class="dimmed">e.g. vertical scrollbar activation for long web pages</span></li>
@@ -637,10 +639,11 @@
                       <li>Compare actual output with the expected output</li>
                     </ol>
                     <p><strong>A test case <em>failure</em> is a mismatch between the expected behavior and the actual behavior. A failure is caused by a <em>defect</em> (or a bug).</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: In the browser example above, a test case failure is implied if the scrollbar remains disabled after loading <code>longfile.html</code>. The defect/bug causing that failure could be an uninitialized variable.</p>
-                    </tip-box>
-                    <panel header="%%A deeper look at the definition of testing%%" type="seamless" class="algolia-no-index">
+                    </box>
+                    <panel type="seamless" class="algolia-no-index">
+                      <span slot="header" class="card-title"><span><span class="dimmed">A deeper look at the definition of testing</span> <span class="badge badge-pill badge-secondary"><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
                       <p>Here is another definition of testing:</p>
                       <blockquote>
                         <p>Software testing consists of the <em>dynamic</em> verification that a program provides <em>expected</em> behaviors on a <em>finite</em> set of test cases, suitably <em>selected</em> from the usually infinite execution domain. <sub>-– source: <a href="https://www.computer.org/web/swebok/v3">Software Engineering Book of Knowledge V3</a></sub></p>
@@ -688,7 +691,7 @@
                   <p></p>
                   <div>
                     <p><strong>When we modify a system, the modification may result in some unintended and undesirable effects on the system. Such an effect is called a <em>regression</em>.</strong></p>
-                    <p><strong><em>Regression testing</em> is re-testing the software to detect regressions.</strong> Note that to detect regressions, we need to retest all related components, even if they were tested before.</p>
+                    <p><strong><em>Regression testing</em> is re-testing the software to detect regressions.</strong> Note that to detect regressions, we need to retest all related components, even if they had been tested before.</p>
                     <p>Regression testing is more effective when it is done frequently, after each small change. However, doing so can be prohibitively expensive if testing is done manually. Hence, <strong>regression testing is more practical when it is automated</strong>.</p>
                   </div>
                   <div>
@@ -816,17 +819,17 @@ Invalid command format: add
                           </li>
                         </ul>
                         <panel header minimized class="algolia-no-index">
-                          <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator. <span class="badge badge-pill badge-secondary">tangential</span></span></span>
+                          <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator <span class="badge badge-pill badge-secondary"><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
                           <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                           <pre><code class="hljs sh">java AddressBook &gt; output.txt 
 </code></pre>
                           <p>the Operating System then creates a file <code>output.txt</code> and stores the output in that file instead of displaying it in the console. No file I/O coding is required. Similarly, adding <code>&lt; input.txt</code> (or any other filename) makes the OS redirect the contents of the file as input to the program, as if the user typed the content of the file one line at a time.</p>
-                          <tip-box>
+                          <box>
                             <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
                             <ul>
                               <li><a href="http://technet.microsoft.com/en-us/library/bb490982.aspx">Using command redirection operators in Windows</a></li>
                             </ul>
-                          </tip-box>
+                          </box>
                           <p></p>
                         </panel>
                         <p></p>
@@ -900,16 +903,16 @@ Invalid command format: add
                         <p><a href="http://hgbook.red-bean.com/">Mercurial: The Definitive Guide</a> by Bryan O'Sullivan retrieved on 2012/07/11</p>
                       </div>
                     </modal>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
-                        <p><strong>RCS</strong> : <strong>Revision Control Software</strong> are the software tools that automate the process of <em>Revision Control</em> i.e. managing revisions of software artifacts.</p>
+                        <p><strong>RCS</strong>: <strong>Revision Control Software</strong> are the software tools that automate the process of <em>Revision Control</em> i.e. managing revisions of software artifacts.</p>
                       </div>
-                    </tip-box>
-                    <tip-box type="definition">
+                    </box>
+                    <box type="definition">
                       <div>
                         <p><strong>Revision</strong>: A <em>revision</em> (some seem to use it interchangeably with <em>version</em> while others seem to distinguish the two -- here, let us treat them as the same, for simplicity) is a state of a piece of information at a specific time that is a result of some changes to it <span class="dimmed">e.g., if you modify the code and save the file, you have a new revision (or a version) of that file</span>.</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>Revision control is also known as <em>Version Control Software (VCS)</em>, and a few other names.</p>
                   </div>
                   <div>
@@ -979,11 +982,11 @@ Invalid command format: add
                   <p></p>
                   <p></p>
                   <div>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Repository</strong> (<em>repo</em> for short): The database of the history of a directory being tracked by an RCS software (e.g. Git).</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <tabs>
                       <tab header="<md>:far-file-alt:</md>">
                         <p><strong>The <em>repository</em> is the database where the meta-data about the revision history are stored.</strong> Suppose you want to apply revision control on files in a directory called <code>ProjectFoo</code>. In that case you need to set up a <em>repo</em> (short for repository) in <code>ProjectFoo</code> directory, which is referred to as the <em>working directory</em> of the repo. For example, Git uses a hidden folder named <code>.git</code> inside the working directory.</p>
@@ -1138,11 +1141,11 @@ nothing to commit (create/copy files and use &quot;git add&quot; to track)
                   <div>
                     <p>Create an empty repo.</p>
                     <p>Create a file named <code>fruits.txt</code> in the working directory and add some dummy text to it.</p>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Working directory</strong>: The directory the repo is based in is called the <em>working directory</em>.</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <p>Observe how the file is detected by Git.</p>
                     <tabs>
                       <tab header="SourceTree">
@@ -1172,16 +1175,16 @@ nothing added to commit but untracked files present (use <span class="hljs-strin
                       </tab>
                     </tabs>
                     <p>Although git has detected the file in the working directory, it will not do anything with the file unless you tell it to. Suppose we want to commit the current state of the file. First, we should stage the file.</p>
-                    <tip-box type="definition">
+                    <box type="definition">
                       <div>
                         <p><strong>Commit</strong>: Saving the current state of the working folder into the Git revision history.</p>
                       </div>
-                    </tip-box>
-                    <tip-box type="definition">
+                    </box>
+                    <box type="definition">
                       <div>
                         <p><strong>Stage</strong>: Instructing Git to prepare a file for committing.</p>
                       </div>
-                    </tip-box>
+                    </box>
                     <tabs>
                       <tab header="SourceTree">
                         <div>
@@ -1279,7 +1282,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                   <p></p>
                   <p></p>
                   <div>
-                    <p>Add a file names <code>temp.txt</code> to the <code>things</code> repo you created. Suppose we don’t want this file to be revision controlled by Git. Let’s instruct Git to ignore <code>temp.txt</code></p>
+                    <p>Add a file named <code>temp.txt</code> to the <code>things</code> repo you created. Suppose we don’t want this file to be revision controlled by Git. Let’s instruct Git to ignore <code>temp.txt</code></p>
                     <tabs>
                       <tab header="SourceTree">
                         <div>
@@ -1331,7 +1334,7 @@ Date:   Wed Jul 5 16:06:28 2017 +0800
                       <popover id="pop:rcs" placement="top">
                         <div slot="content" class="algolia-no-index">
                           <div>
-                            <p><strong>RCS</strong> : <strong>Revision Control Software</strong> are the software tools that automate the process of <em>Revision Control</em> i.e. managing revisions of software artifacts.</p>
+                            <p><strong>RCS</strong>: <strong>Revision Control Software</strong> are the software tools that automate the process of <em>Revision Control</em> i.e. managing revisions of software artifacts.</p>
                           </div>
                         </div>
                       </popover>
@@ -1627,12 +1630,12 @@ index 15b57f7..17f4528 100644
                   <p></p>
                   <div>
                     <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
-                    <tip-box type="error">
+                    <box type="error">
                       <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
                         e.g.</p>
                       <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
                         Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
-                    </tip-box>
+                    </box>
                     <tabs>
                       <tab header="SourceTree">
                         <div>
@@ -1686,12 +1689,12 @@ index 15b57f7..17f4528 100644
                           <p></p>
                           <div>
                             <p>Clone the sample repo <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your computer.</p>
-                            <tip-box type="error">
+                            <box type="error">
                               <p>Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
                                 e.g.</p>
                               <p>Github project URL: <code>https://github.com/se-edu/samplerepo-things</code> <br>
                                 Git repo URL: <code>https://github.com/se-edu/samplerepo-things.git</code> (note the <code>.git</code> at the end)</p>
-                            </tip-box>
+                            </box>
                             <tabs>
                               <tab header="SourceTree">
                                 <div>
@@ -1886,7 +1889,7 @@ index 15b57f7..17f4528 100644
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>

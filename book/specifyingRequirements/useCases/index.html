@@ -49,7 +49,7 @@
                       <p></p>
                       <p></p>
                       <div>
-                        <tip-box type="definition">
+                        <box type="definition">
                           <div>
                             <p><strong>Use Case</strong>: A description of a set of sequences of actions, including variants, that a system performs to yield an observable result of value to an <trigger for="pop:actor">actor</trigger>.[ 📖 : <popover effect="fade" placement="top">uml-user-guide<span slot="content"><span><em><strong>The Unified Modeling Language User Guide</strong></em>, 2e, G Booch, J Rumbaugh, and I Jacobson </span></span></popover>]</p>
                             <popover id="pop:actor" title="<md>:glyphicon-eye-open:</md>" placement="top">
@@ -60,9 +60,9 @@
                               </div>
                             </popover>
                           </div>
-                        </tip-box>
+                        </box>
                         <p><strong>A use case describes an <em>interaction between the user and the system</em> for a <em>specific functionality</em> of the system.</strong></p>
-                        <tip-box>
+                        <box>
                           <panel header="<md>:fas-cube:</md> Example 1: 'check account balance' use case for an ATM" type="seamless" expanded>
                             <ul>
                               <li>System: <popover effect="fade" placement="right" content="Automated Teller Machine">
@@ -96,7 +96,7 @@
                               </li>
                             </ul>
                           </panel>
-                        </tip-box>
+                        </box>
                         <p></p>
                         <p><strong>
                             <trigger for="modal:uml" trigger="click">UML</trigger> includes a diagram type called use case diagrams that can illustrate use cases of a system visually
@@ -130,52 +130,52 @@
                       <div>
                         <p>A use case is an interaction between a system and its <em>actors</em>.</p>
                         <p><strong>Actors in Use Cases</strong></p>
-                        <tip-box type="definition">
+                        <box type="definition">
                           <div>
                             <p><strong>Actor</strong>: An actor (in a use case) is a role played by a user. An actor can be a human or another system. Actors are not part of the system; they reside outside the system.</p>
                           </div>
-                        </tip-box>
-                        <tip-box>
+                        </box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some example actors for a Learning Management System</p>
                           <ul>
                             <li>Actors: Guest, Student, Staff, Admin, <tooltip content="an exam management system">ExamSys</tooltip>, <tooltip content="a library management system">LibSys</tooltip>.</li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <p><strong>A use case can involve multiple actors.</strong></p>
-                        <tip-box>
+                        <box>
                           <ul>
                             <li>Software System: LearnSys</li>
                             <li>Use case: UC01 conduct survey</li>
                             <li>Actors: <mark>Staff, Student</mark></li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <p><strong>An actor can be involved in many use cases.</strong></p>
-                        <tip-box>
+                        <box>
                           <ul>
                             <li>Software System: LearnSys</li>
                             <li>Actor: Staff</li>
                             <li>Use cases: <mark>UC01 conduct survey, UC02 Set Up Course Schedule, UC03 Email Class, ...</mark></li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <p><strong>A single person/system can play many roles.</strong></p>
-                        <tip-box>
+                        <box>
                           <ul>
                             <li>Software System: LearnSys</li>
                             <li>Person: <mark>a student</mark></li>
                             <li>Actors (or Roles): Student, Guest, Tutor</li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <p><strong>Many persons/systems can play a single role.</strong></p>
-                        <tip-box>
+                        <box>
                           <ul>
                             <li>Software System: LearnSys</li>
                             <li>Actor(or role) : Student</li>
                             <li>Persons that can play this role : <mark>undergraduate student, graduate student, a staff member doing a part-time course, exchange student</mark></li>
                           </ul>
-                        </tip-box>
+                        </box>
 
                         <p><strong>Use cases can be specified at <em>various levels of detail</em>.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the three use cases given below. Clearly, (a) is at a higher level than (b) and (b) is at a higher level than (c).</p>
                           <ul>
                             <li>System: LearnSys</li>
@@ -184,7 +184,7 @@
                               b. Take the survey<br>
                               c. Answer survey question</li>
                           </ul>
-                        </tip-box>
+                        </box>
                         <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> While modeling user-system interactions,</p>
                         <ul>
                           <li>Start with high level use cases and progressively work toward lower level use cases.</li>
@@ -250,7 +250,7 @@
                         <div>
                           <link rel="stylesheet" href="/website/book/css/common.css">
                           <p><strong>The main body of the use case is the sequence of steps that describes the interaction between the system and the actors.</strong> Each step is given as a simple statement describing <em>who does what</em>.</p>
-                          <tip-box>
+                          <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of the main body of a use case.</p>
                             <ol>
                               <li>Student requests to upload file</li>
@@ -258,14 +258,14 @@
                               <li>Student specifies the file location</li>
                               <li>LMS uploads the file</li>
                             </ol>
-                          </tip-box>
+                          </box>
                           <p><strong>A use case describes only the externally visible behavior, not internal details, of a system</strong> i.e. should not mention give details that are not part of the interaction between the user and the system.</p>
-                          <tip-box>
+                          <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example use case step refers to behaviors not externally visible .</p>
                             <ol>
                               <li>LMS <mark>saves the file into the cache</mark> and indicates success.</li>
                             </ol>
-                          </tip-box>
+                          </box>
                           <p><strong>A step gives the intention of the actor (not the mechanics).</strong> That means UI details are usually omitted. The idea is to leave as much flexibility to the UI designer as possible. That is, the use case specification should be as general as possible (less specific) about the UI.</p>
                           <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The first example below is not a good use case step because contains UI-specific details. The second one is better because it omits UI-specific details.</p>
@@ -279,7 +279,7 @@
                             </div>
                           </box>
                           <p>A use case description can show loops too.</p>
-                          <tip-box>
+                          <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example of how you can show a loop:</p>
                             <p>Software System: Square game
                               Use case: <popover content="Each use case can be given a unique identification for easier cross reference."> UC02 </popover> - Play a Game
@@ -298,12 +298,12 @@
                               <li>Square Game shows the Winner.</li>
                             </ol>
                             <p>  Use case ends.</p>
-                          </tip-box>
+                          </box>
                         </div>
                         <div>
                           <link rel="stylesheet" href="/website/book/css/common.css">
                           <p><strong>The <mark><em>Main Success Scenario (MSS)</em></mark> describes the most straightforward interaction for a given use case, which assumes that nothing goes wrong.</strong> This is also called the <em>Basic Course of Action</em> or the <em>Main Flow of Events</em> of a use case.</p>
-                          <tip-box>
+                          <box>
                             <ul>
                               <li>System: Online Banking System (OBS)</li>
                               <li>Use case: UC23 - Transfer Money</li>
@@ -320,11 +320,11 @@
                               </li>
                             </ul>
                             <p>Note how the MSS assumes that all entered details are correct and ignores problems such as timeouts, network outages etc. Fro example, MSS does not tell us what happens if the user enters an incorrect data.</p>
-                          </tip-box>
+                          </box>
                         </div>
                         <div>
                           <p><strong><mark><em>Extensions</em></mark> are &quot;add-on&quot;s to the MSS that describe <em>exceptional/alternative flow of events</em>.</strong> They describe variations of the scenario that can happen if certain things are not as expected by the MSS. Extensions appear below the MSS.</p>
-                          <tip-box>
+                          <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example adds some extensions to the use case in the previous example.</p>
                             <ul>
                               <li>System: Online Banking System (OBS)</li>
@@ -374,7 +374,7 @@
                                 </ol>
                               </li>
                             </ul>
-                          </tip-box>
+                          </box>
                           <p>Note that the numbering style is not a universal rule but a widely used convention. Based on that convention,</p>
                           <ul>
                             <li>either of the extensions marked <code>3a.</code> and <code>3b.</code> can happen just after step <code>3</code> of the MSS.</li>
@@ -420,7 +420,7 @@
                         <div>
                           <link rel="stylesheet" href="/website/book/css/common.css">
                           <p><strong><mark><em>Preconditions</em></mark> specify the specific state we expect the system to be in before the use case starts.</strong></p>
-                          <tip-box>
+                          <box>
                             <div>
                               <ul>
                                 <li>Software System: Online Banking System</li>
@@ -436,13 +436,13 @@
                                 </li>
                               </ul>
                             </div>
-                          </tip-box>
+                          </box>
                           <p></p>
                         </div>
                         <div>
                           <link rel="stylesheet" href="/website/book/css/common.css">
                           <p><strong><mark><em>Guarantees</em></mark> specify what the use case promises to give us at the end of its operation.</strong></p>
-                          <tip-box>
+                          <box>
                             <div>
                               <ul>
                                 <li>Software System: Online Banking System</li>
@@ -463,7 +463,7 @@
                                 </li>
                               </ul>
                             </div>
-                          </tip-box>
+                          </box>
                           <p></p>
                         </div>
                       </div>
@@ -475,15 +475,15 @@
                               <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: EZ-Link top-up use case" class="algolia-no-index">
                                 <question has-input="true">
                                   <p>Complete the following use case (MSS, extensions, etc.). Note that you should not blindly follow how the existing <tooltip content="A type of a cash card topup machine">EZ-Link machine</tooltip> operates because it will prevent you from designing a better system. You should consider all possible extensions without complicating the use case too much.</p>
-                                  <tip-box>
+                                  <box>
                                     <ul>
                                       <li>System: EZ-Link machine</li>
                                       <li>Use case: UC2 top-up EZ-Link card</li>
                                       <li>Actor: EZ-Link card user</li>
                                     </ul>
-                                  </tip-box>
+                                  </box>
                                   <div slot="answer" class="algolia-no-index">
-                                    <tip-box>
+                                    <box>
                                       <div>
                                         <ul>
                                           <li>System: EZ-Link machine (those found at MRTs)</li>
@@ -524,8 +524,8 @@
                                         <li>By not breaking step 4 into further steps, we avoid committing to a particular mechanism to enter data. For example, we are free to accept all data in one screen.</li>
                                         <li>In step 5, we assume that the input mechanism does not allow any incorrect data.</li>
                                       </ul>
-                                    </tip-box>
-                                    <tip-box>
+                                    </box>
+                                    <box>
                                       <div>
                                         <ul>
                                           <li>System: EZ-Link machine</li>
@@ -570,7 +570,7 @@
                                         </ul>
                                       </div>
                                       <p>Note: UC02 can be written along similar lines.</p>
-                                    </tip-box>
+                                    </box>
                                   </div>
                                 </question>
                               </panel>
@@ -580,15 +580,15 @@
                               <panel header="<md>:glyphicon-question-sign:</md>:glyphicon-ok-sign: LearnSys – reply to post use case" class="algolia-no-index">
                                 <question has-input="true">
                                   <p>Complete the following use case (MSS, extensions, etc.).</p>
-                                  <tip-box>
+                                  <box>
                                     <ul>
                                       <li>System: LearnSys (an online Learning Management System)</li>
                                       <li>Use case: UC01 reply to post in the forum</li>
                                       <li>Actor: Student</li>
                                     </ul>
-                                  </tip-box>
+                                  </box>
                                   <div slot="answer" class="algolia-no-index">
-                                    <tip-box>
+                                    <box>
                                       <div>
                                         <ul>
                                           <li>System: LearnSys</li>
@@ -654,7 +654,7 @@
                                           </li>
                                         </ul>
                                       </div>
-                                    </tip-box>
+                                    </box>
                                   </div>
                                 </question>
                               </panel>
@@ -753,16 +753,16 @@
                       <p></p>
                       <div>
                         <p><strong>You can use actor generalization in use case diagrams</strong> using a symbol similar to that of UML notation for inheritance.</p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
                           <img src="/website/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png" height="250">
-                        </tip-box>
+                        </box>
                         <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
                         <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
-                        <tip-box>
+                        <box>
                           <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
                           <img src="/website/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200">
-                        </tip-box>
+                        </box>
                         <p>However, others argue that only use cases providing value to an external user/system should be shown in the use case diagram. For example, they argue that ‘view daily report’ should be the use case and <code>generate daily report</code> is not to be shown in the use case diagram because it is simply something the system has to do to support the <code>view daily report</code> use case.</p>
                         <p>We recommend that you follow the latter view (i.e. not to use System as a user). Limit use cases for modeling behaviors that involve an external actor.</p>
                         <p><strong>UML is not very specific about the text contents of a use case.</strong> Hence, there are many styles for writing use cases. For example, the steps can be written as a continuous paragraph.

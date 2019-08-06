@@ -226,7 +226,7 @@
               <p></p>
               <div>
                 <p><strong>A <em>Work Breakdown Structure (WBS)</em> depicts information about tasks and their details in terms of subtasks.</strong> When managing projects it is useful to divide the total work into smaller, well-defined units. Relatively complex tasks can be further split into subtasks. In complex projects a WBS can also include prerequisite tasks and effort estimates for each task.</p>
-                <tip-box>
+                <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The high level tasks for a single iteration of a small project could look like the following:</p>
                   <div class="table-responsive">
                     <table class="markbind-table table table-bordered table-striped">
@@ -272,9 +272,9 @@
                       </tbody>
                     </table>
                   </div>
-                </tip-box>
+                </box>
                 <p><strong>The effort is traditionally measured in <em>man hour/day/month</em></strong> i.e. work that can be done by one person in one hour/day/month. The <em>Task ID</em> is a label for easy reference to a task. Simple labeling is suitable for a small project, while a more informative labeling system can be adopted for bigger projects.</p>
-                <tip-box>
+                <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example WBS for a project for developing a game.</p>
                   <table class="table">
                     <tr>
@@ -348,9 +348,9 @@
                       <td>D</td>
                     </tr>
                   </table>
-                </tip-box>
+                </box>
                 <p><strong>All tasks should be well-defined.</strong> In particular, it should be clear as to when the task will be considered <em>done</em>.</p>
-                <tip-box>
+                <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of ill-defined tasks and their better-defined counterparts:</p>
                   <div class="table-responsive">
                     <table class="markbind-table table table-bordered table-striped">
@@ -374,7 +374,7 @@
                       </tbody>
                     </table>
                   </div>
-                </tip-box>
+                </box>
               </div>
               <div>
                 <div>
@@ -412,11 +412,11 @@
               <p></p>
               <div>
                 <p><strong>A <em>milestone</em> is the end of a stage which indicates a significant progress.</strong> We should take into account dependencies and priorities when deciding on the features to be delivered at a certain milestone.</p>
-                <tip-box>
+                <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Each intermediate product release is a milestone.</p>
-                </tip-box>
+                </box>
                 <p>In some projects, it is not practical to have a very detailed plan for the whole project due to the uncertainty and unavailability of required information. In such cases, we can use a high-level plan for the whole project and a detailed plan for the next few milestones.</p>
-                <tip-box>
+                <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Milestones for the Minesweeper project, iteration 1</p>
                   <div class="table-responsive">
                     <table class="markbind-table table table-bordered table-striped">
@@ -442,7 +442,7 @@
                       </tbody>
                     </table>
                   </div>
-                </tip-box>
+                </box>
               </div>
               <div></div>
             </div>
@@ -474,11 +474,11 @@
                 <p>Keeping track of project tasks <span class="dimmed">(who is doing what, which tasks are ongoing, which tasks are done etc.)</span> is an essential part of project management. In small projects it may be possible to track tasks using simple tools as online spreadsheets or general-purpose/light-weight tasks tracking tools such as Trello. Bigger projects need more sophisticated task tracking tools.</p>
                 <p><strong>Issue trackers (sometimes called bug trackers) are commonly used to track task assignment and progress.</strong> Most online project management software such as GitHub, SourceForge, and BitBucket come with an integrated issue tracker.</p>
                 <div v-closeable alt="Jira screenshot">
-                  <tip-box>
+                  <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A screenshot from the Jira Issue tracker software <span class="dimmed">(Jira is part of the BitBucket project management tool suite)</span>:</p>
                     <img src="/website/book/projectPlanning/issueTrackers/images/xjira.png" height="350">
                     <p></p>
-                  </tip-box>
+                  </box>
                 </div>
               </div>
               <div></div>
@@ -494,11 +494,11 @@
               <p></p>
               <div>
                 <p><strong>A <em>Gantt chart</em> is a 2-D bar-chart, drawn as <em>time vs tasks</em></strong> (represented by horizontal bars).</p>
-                <tip-box>
+                <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A sample Gantt chart:</p>
                   <img src="/website/book/projectPlanning/ganttCharts/images/gantt.png" height="360">
                   <p></p>
-                </tip-box>
+                </box>
                 <p>In a Gantt chart, a solid bar represents the main task, which is generally composed of a number of subtasks, shown as grey bars. The diamond shape indicates an important deadline/deliverable/milestone.</p>
               </div>
               <div></div>
@@ -518,11 +518,11 @@
                   <li>Node or vertex captures the effort estimation of a task, and</li>
                   <li>Arrow depicts the precedence between tasks</li>
                 </ul>
-                <tip-box>
+                <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> an example PERT chart for a simple software project</p>
                   <p><img src="/website/book/projectPlanning/pertCharts/images/pert.jpg" height="320"><br>
                     <code>md</code> = man days</p>
-                </tip-box>
+                </box>
                 <p>A PERT chart can help determine the following important information:</p>
                 <ul>
                   <li>The order of tasks. <span class="dimmed">In the example above, <code>Final Testing</code> cannot begin until all coding of individual subsystems have been completed.</span></li>
@@ -530,9 +530,9 @@
                   <li>The shortest possible completion time. <span class="dimmed">In the example above, there is a path (indicated by the shaded boxes) from start to end that determines the shortest possible completion time.</span></li>
                   <li>The Critical Path. <span class="dimmed">In the example above, the shortest possible path is also the critical path</span>.</li>
                 </ul>
-                <tip-box type="definition">
+                <box type="definition">
                   <p><strong>Critical path</strong> is the path in which any delay can directly affect the project duration. It is important to ensure tasks on the critical path are completed on time.</p>
-                </tip-box>
+                </box>
               </div>
               <div></div>
             </div>
@@ -559,7 +559,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -297,28 +297,28 @@
                   <p></p>
                   <div>
                     <p>An OO solution is basically a network of objects interacting with each other. Therefore, <strong>it is useful to be able to model how the relevant objects are 'networked' together</strong> inside a software <span class="dimmed">i.e. how the objects are connected together</span>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is an illustration of some objects and how they are connected together. <span class="dimmed">Note: the diagram uses an ad-hoc notation.</span></p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectsAdHoc.png" width="500"></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p>Note that these <strong>object structures within the same software can change over time</strong>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is how the object structure in the previous example could have looked like at a different time.</p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectsAdHoc2.png" width="500"></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p>However, object structures do not change at random; they change based on a set of rules, as was decided by the designer of that software. Those <strong>rules that object structures need to follow can be illustrated as a <em>class structure</em></strong> <span class="dimmed">i.e. a structure that exists among the relevant classes</span>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is a class structure (drawn using an ad-hoc notation) that matches the object structures given in the previous two examples. For example, note how this class structure does not allow any connection between <code>Genre</code> objects and <code>Author</code> objects, a rule followed by the two object structures above.</p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/classesAdHoc.png" width="500"></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p>UML <em>Object Diagrams</em> are used to model object structures and UML <em>Class Diagrams</em> are used to model class structures of an OO solution.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an object diagram for the above example:</p>
                       <p><img src="/website/book/modeling/modelingStructures/ooStructures/images/objectDiagram.png" width="500">
                       </p>
@@ -328,7 +328,7 @@
                       <p></p>
                       <p></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div></div>
@@ -369,11 +369,11 @@
                       <panel type="seamless" src="/website/book/uml/classDiagrams/associations/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → What" alt="<md>:glyphicon-education:</md> UML/Associations" fragment="main" class="algolia-no-index"></panel>
                     </p>
                     <p>The most basic class diagram is a bunch of classes with some solid lines among them to represent associations, such as this one.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An example class diagram showing associations between classes.</p>
                       <p></p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/ageListCalculatorPersonMinimal.png" width="450">
                       <p></p>
-                    </tip-box>
+                    </box>
                     <p>In addition, <strong>associations can show additional decorations such as <em>association labels</em>, <em>association roles</em>, <em>multiplicity</em> and <em>navigability</em></strong> to add more information to a class diagram.</p>
                     <p>
                       <panel type="seamless" src="/website/book/uml/classDiagrams/associations/labels/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → Labels" alt="<md>:glyphicon-education:</md> Labels" fragment="main" class="algolia-no-index"></panel>
@@ -383,11 +383,11 @@
                       <panel type="seamless" src="/website/book/oop/associations/navigability/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> OOP <md>:glyphicon-log-in:</md> Associations → Navigability" alt="<md>:glyphicon-education:</md> OOP/Navigability" fragment="main" class="algolia-no-index"></panel>
                       <panel type="seamless" src="/website/book/uml/classDiagrams/associations/navigability/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Associations → Navigability" alt="<md>:glyphicon-education:</md> UML/Navigability" fragment="main" class="algolia-no-index"></panel>
                     </p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the same class diagram shown earlier but with some additional information included:</p>
                       <p></p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/ageListCalculatorPerson.png" width="450">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -551,13 +551,13 @@
                       <li>Multiplicities are omitted</li>
                     </ul>
                     <p>Furthermore, <strong>multiple object diagrams can correspond to a single class diagram</strong>.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Both object diagrams are derived from the same class diagram shown earlier. In other words, each of these object diagrams shows ‘an instance of’ the same class diagram.</p>
                       <img src="/website/book/uml/miscellaneous/objectVsClassDiagrams/images/professorStudentAdmin.png" height="85">
                       <p></p>
                       <img src="/website/book/uml/miscellaneous/objectVsClassDiagrams/images/professorStudent.png" height="150">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -601,11 +601,11 @@
                   <p></p>
                   <div>
                     <p><strong>UML notes can augment UML diagrams with additional information.</strong> These notes can be shown connected to a particular element in the diagram or can be shown without a connection. The diagram below shows examples of both.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <img src="/website/book/uml/notes/notes/images/adminProfessor.png" height="120">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -631,11 +631,11 @@
                   <p></p>
                   <div>
                     <p><strong>A <em>constraint</em> can be given inside a note, within curly braces</strong>. Natural language or a formal notation such as <em>OCL (Object Constraint Language)</em> may be used to specify constraints.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <img src="/website/book/uml/notes/constraints/images/playerTurn.png" height="120">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -659,7 +659,7 @@
                     <p><strong>An association can be shown as an attribute instead of a line.</strong></p>
                     <p>Association multiplicities and the default value too can be shown as part of the attribute using the following notation. Both are optional.</p>
                     <p><code>name: type [multiplicity] = default value</code></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The diagram below depicts a multi-player <em>Square Game</em> being played on a board comprising of 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain player.</p>
                       <p>A <code>Piece</code> may or may not be on a <code>Square</code>. Note how that association can be replaced by an <code>isOn</code> attribute of the <code>Piece</code> class. The <code>isOn</code> attribute can either be <code>null</code> or hold a reference to a <code>Square</code> object, matching the <code>0..1</code> multiplicity of the association it replaces. The default value is <code>null</code>.</p>
                       <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/squareMultiplicity.png" width="600">
@@ -667,7 +667,7 @@
                       <p>The association that a <code>Board</code> has 100 <code>Sqaure</code>s can be shown in either of these two ways:</p>
                       <img src="/website/book/uml/classDiagrams/associationsAsAttributes/what/images/board.png" height="70">
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -870,15 +870,15 @@
                   <p></p>
                   <div>
                     <p><strong>An <em>association class</em> represents additional information about an association.</strong> It is a normal class but plays a special role from a design point of view.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code>Man</code> class and a <code>Woman</code> class is linked with a ‘married to’ association and there is a need to store the date of marriage. However, that data is related to the association rather than specifically owned by either the <code>Man</code> object or the <code>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code>Marriage</code> class, to store such information.</p>
-                    </tip-box>
+                    </box>
                     <p>
                       <panel type="seamless" src="/website/book/uml/classDiagrams/associationClasses/what/unit-inElsewhere-asFlat._include_.html#main" header="<md>:glyphicon-education:</md> UML <md>:glyphicon-log-in:</md> Class Diagrams → Association Classes → What" alt="<md>:glyphicon-education:</md> UML/AssociationClasses" fragment="main" class="algolia-no-index"></panel>
                     </p>
                     <h5 id="implementing-association-classes">Implementing association classes<a class="fa fa-anchor" href="#implementing-association-classes"></a></h5>
                     <p>There is no special way to implement an association class. It can be implemented as a normal class that has variables to represent the endpoint of the association it represents.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, the <code>Transaction</code> class is an association class that represent a transaction between a <code>Person</code> who is the seller and another <code>Person</code> who is the buyer.</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span></span>{
     
@@ -893,7 +893,7 @@
     }
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1150,14 +1150,14 @@
                     <p>Notation:</p>
                     <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/notation.png" height="100">
                     <p></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The details of the <code>get minefield appearance</code> interactions have been omitted from the diagram.</p>
                       <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/playerTextLogic.png" height="250">
                       <p></p>
                       <p>Those details are shown in a separate sequence diagram given below.<br>
                         <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/textLogic.png" height="170"></p>
                       <p></p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1182,14 +1182,14 @@
                     <p>Notation:</p>
                     <img src="/website/book/uml/sequenceDiagrams/parallelPaths/images/notation.png" height="100">
                     <p></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Logic</code> is calling methods <code>CloudServer#poll()</code> and <code>LocalServer#poll()</code> in parallel.</p>
                       <img src="/website/book/uml/sequenceDiagrams/parallelPaths/images/logicServerData.png" height="150">
                       <p></p>
-                      <tip-box>
+                      <box>
                         <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you show parallel paths in a sequence diagram, the corresponding Java implementation is likely to be <em>multi-threaded</em> %% because a normal Java program cannot do multiple things at the same time%%.</p>
-                      </tip-box>
-                    </tip-box>
+                      </box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1228,9 +1228,9 @@
                   <p></p>
                   <div>
                     <p><strong><em>Integration testing</em> : testing whether different parts of the software <em>work together</em> (i.e. integrates) as expected.</strong> Integration tests aim to discover bugs in the 'glue code' related to how components interact with each other. These bugs are often the result of misunderstanding of what the parts are supposed to do vs what the parts are actually doing.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a class <code>Car</code> users classes <code>Engine</code> and <code>Wheel</code>. If the <code>Car</code> class assumed a <code>Wheel</code> can support 200 mph speed but the actual <code>Wheel</code> can only support 150 mph, it is the integration test that is supposed to uncover this discrepancy.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1256,20 +1256,20 @@
                   <p></p>
                   <div>
                     <p><strong>Integration testing is not simply a repetition of the unit test cases but run using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a class <code>Car</code> uses classes <code>Engine</code> and <code>Wheel</code>. Here is how you would go about doing pure integration tests:</p>
                       <p>a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
                         b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, <mark>using stubs for <code>Engine</code> and <code>Wheel</code></mark>.<br>
                         c) After that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>In practice, developers often use a hybrid of unit+integration tests to minimize the need for stubs.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's how a hybrid unit+integration approach could be applied to the same example used above:</p>
                       <p>(a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
                         <s>(b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, using stubs for <code>Engine</code> and <code>Wheel</code>.</s><br>
                         (c) After that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>. <mark>This step should include test cases that are meant to test the unit <code>Car</code></mark> (i.e. test cases used in the step (b) of the example above) as well as test cases that are meant to test the integration of <code>Car</code> with <code>Wheel</code> and <code>Engine</code> (i.e. pure integration test cases used of the step (c) in the example above).</p>
                       <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Note that you no longer need stubs for <code>Engine</code> and <code>Wheel</code>. The downside is that <code>Car</code> is never tested in isolation of its dependencies. Given that its dependencies are already unit tested, the risk of bugs in <code>Engine</code> and <code>Wheel</code> affecting the testing of <code>Car</code> can be considered minimal.</p>
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1295,14 +1295,14 @@
                     <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
                     <p>System testing is typically done by a testing team (also called a QA team).</p>
                     <p><strong>System test cases are based on the specified external behavior of the system.</strong> Sometimes, system tests go beyond the bounds defined in the specification. This is useful when testing that the system fails 'gracefully' having pushed beyond its limits.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose the SUT is a browser supposedly capable of handling web pages containing up to 5000 characters. Given below is a test case to test if the SUT fails gracefully if pushed beyond its limits.</p>
                       <pre><code class="hljs">Test case: load a web page that is too big
 * Input: load a web page containing more than 5000 characters. 
 * Expected behavior: abort the loading of the page and show a meaningful error message. 
 </code></pre>
                       <p>This test case would fail if the browser attempted to load the large file anyway and crashed.</p>
-                    </tip-box>
+                    </box>
                     <p><strong>System testing includes testing against non-functional requirements too.</strong> Here are some examples.</p>
                     <ul>
                       <li><em>Performance testing</em> – to ensure the system responds quickly.</li>
@@ -1342,7 +1342,7 @@
                     <p></p>
                     <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
                     <p><strong>There are testing tools that can automate GUI testing.</strong></p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some tools used for automated GUI testing:</p>
                       <ul>
                         <li>
@@ -1359,7 +1359,7 @@
                           </panel>
                         </li>
                       </ul>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -1454,7 +1454,7 @@
                       </table>
                     </div>
                     <p><span class="dimmed">Note: <em>negative</em> test cases: cases where the SUT is not expected to work normally e.g. incorrect inputs; <em>positive</em> test cases: cases where the SUT is expected to work normally</span></p>
-                    <tip-box>
+                    <box>
                       <p><strong>Requirement Specification vs System Specification</strong></p>
                       <p>The requirement specification need not be the same as the system specification. Some example differences:</p>
                       <div class="table-responsive">
@@ -1482,7 +1482,7 @@
                         </table>
                       </div>
                       <p>However, <strong>in many cases one document serves as both a requirement specification and a system specification.</strong></p>
-                    </tip-box>
+                    </box>
                     <p><strong>Passing system tests does not necessarily mean passing acceptance testing.</strong> Some examples:</p>
                     <ul>
                       <li>The system might work on the testbed environments but might not work the same way in the deployment environment, due to subtle differences between the two environments.</li>
@@ -1571,16 +1571,16 @@
                       </li>
                     </ol>
                     <p>Exploratory testing is ‘the simultaneous learning, test design, and test execution’ <trigger trigger="click" for="modal:exploratoryWhat-bach-et-explained">[source: bach-et-explained]</trigger> whereby the nature of the follow-up test case is decided based on the behavior of the previous test cases. In other words, running the system and trying out various operations. It is called <em>exploratory testing</em> because testing is driven by observations during testing. Exploratory testing usually starts with areas identified as error-prone, based on the tester’s past experience with similar systems. One tends to conduct more tests for those operations where more faults are found.</p>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example thought process behind a segment of an exploratory testing session:</p>
                       <blockquote>
                         <p>“Hmm... looks like feature x is broken. This usually means feature n and k could be broken too; we need to look at them soon.
                           But before that, let us give a good test run to feature y because users can still use the product if feature y works, even if x doesn’t work. Now, if feature y doesn’t work 100%, we have a major problem and this has to be made known to the development team sooner rather than later...”</p>
                       </blockquote>
-                    </tip-box>
-                    <tip-box>
+                    </box>
+                    <box>
                       <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Exploratory testing is also known as <em>reactive testing, error guessing technique, attack-based testing,</em> and <em>bug hunting</em>.</strong></p>
-                    </tip-box>
+                    </box>
                     <modal id="modal:exploratoryWhat-bach-et-explained" title="bach-et-explained <md>:glyphicon-eye-open:</md>" class="algolia-no-index">
                       <div>
                         <p><a href="http://www.satisfice.com/articles/et-article.pdf"><strong>Exploratory Testing Explained</strong></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a> -- James Bach is an industry thought leader in software testing).</p>
@@ -1736,16 +1736,16 @@
                           <div id="main">
                             <div>
                               <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed">i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
-                              </tip-box>
+                              </box>
                               <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
-                              <tip-box type="definition">
+                              <box type="definition">
                                 <div>
                                   <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                                 </div>
-                              </tip-box>
-                              <tip-box>
+                              </box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below:</p>
                                 <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Logic</span> </span>{
     Storage s;
@@ -1808,7 +1808,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: Adam"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                              </tip-box>
+                              </box>
                               <p>In addition to Stubs, there are other type of replacements you can use during testing. E.g. <em>Mocks</em>, <em>Fakes</em>, <em>Dummies</em>, <em>Spies</em>.</p>
                             </div>
                             <div>
@@ -1842,10 +1842,10 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                         </div>
                       </div>
                     </modal>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code>Foo</code> object normally depends on a <code>Bar</code> object, but we can inject a <code>BarStub</code> object so that the <code>Foo</code> object no longer depends on a <code>Bar</code> object. Now we can test the <code>Foo</code> object in isolation from the <code>Bar</code> object.</p>
                       <img src="/website/book/testing/dependencyInjection/what/images/diagram.png" height="150">
-                    </tip-box>
+                    </box>
                   </div>
                   <div></div>
                 </div>
@@ -1888,16 +1888,16 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                           <div id="main">
                             <div>
                               <p><strong>A proper unit test requires the <em>unit</em> to be tested <mark>in isolation</mark></strong> so that bugs in the <tooltip content="code the unit depends on">dependencies</tooltip> cannot influence the test <span class="dimmed">i.e. bugs outside of the unit should not affect the unit tests</span>.</p>
-                              <tip-box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If a <code>Logic</code> class depends on a <code>Storage</code> class, unit testing the <code>Logic</code> class requires isolating the <code>Logic</code> class from the <code>Storage</code> class.</p>
-                              </tip-box>
+                              </box>
                               <p><strong><em>Stubs</em> can isolate the <popover content="Software Under Test (in this case, the _unit_ being tested)">SUT</popover> from its dependencies</strong>.</p>
-                              <tip-box type="definition">
+                              <box type="definition">
                                 <div>
                                   <p><strong>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for the a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p>
                                 </div>
-                              </tip-box>
-                              <tip-box>
+                              </box>
+                              <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Consider the code below:</p>
                                 <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Logic</span> </span>{
     Storage s;
@@ -1960,7 +1960,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: Adam"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                              </tip-box>
+                              </box>
                               <p>In addition to Stubs, there are other type of replacements you can use during testing. E.g. <em>Mocks</em>, <em>Fakes</em>, <em>Dummies</em>, <em>Spies</em>.</p>
                             </div>
                             <div>
@@ -1994,7 +1994,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                         </div>
                       </div>
                     </modal>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is another example of using polymorphism to implement dependency injection:</p>
                       <p>Suppose we want to unit test the <code>Payroll#totalSalary()</code> given below. The method depends on the <code>SalaryManager</code> object to calculate the return value. Note how the <code>setSalaryManager(SalaryManager)</code> can be used to inject a <code>SalaryManager</code> object to replace the current <code>SalaryManager</code> object.</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll</span> </span>{
@@ -2056,7 +2056,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                    </tip-box>
+                    </box>
                   </div>
                   <div>
                     <div>
@@ -2132,7 +2132,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                       <li><strong>Decision/branch coverage</strong> : based on the decision points exercised <span class="dimmed">e.g., an <code>if</code> statement evaluated to both <code>true</code> and <code>false</code> with separate test cases during testing is considered 'covered'</span>.</li>
                       <li><strong>Condition coverage</strong> : based on the boolean sub-expressions, each evaluated to both true and false with different test cases. Condition coverage is not the same as the decision coverage.</li>
                     </ul>
-                    <tip-box>
+                    <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>if(x &gt; 2 &amp;&amp; x &lt; 44)</code> is considered one decision point but two conditions.</p>
                       <p>For 100% branch or decision coverage, two test cases are required:</p>
                       <ul>
@@ -2145,7 +2145,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                         <li><code>(x &lt; 44) == false</code> : [e.g. <code>x == 100</code>]</li>
                         <li><code>(x &gt; 2) == false</code> : [e.g. <code>x == 0</code>]</li>
                       </ul>
-                    </tip-box>
+                    </box>
                     <ul>
                       <li><strong>Path coverage</strong> measures coverage in terms of possible paths through a given part of the code executed. 100% path coverage means all possible paths have been executed. A commonly used notation for path analysis is called the <em>Control Flow Graph (CFG)</em>.</li>
                       <li><strong>Entry/exit coverage</strong> measures coverage in terms of possible <em>calls to</em> and <em>exits</em> from the operations in the SUT.</li>
@@ -2289,7 +2289,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 04 Aug 2019 10:12:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
     </footer>
   </div>
 </body>
