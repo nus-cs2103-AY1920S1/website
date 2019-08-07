@@ -66,7 +66,7 @@
                   </box>
                   <p><strong>Test cases can be determined based on the specification, reviewing similar existing systems, or comparing to the past behavior of the SUT.</strong></p>
                   <panel type="seamless" class="algolia-no-index">
-                    <span slot="header" class="card-title"><span><span class="dimmed">Other details a test case can contain</span> <span class="badge badge-pill badge-secondary"><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
+                    <span slot="header" class="card-title"><span><span class="dimmed">Other details a test case can contain</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span></span>
                     A more elaborate test case can have other details such as those given below.
                     <ul>
                       <li>A unique identifier : <span class="dimmed">e.g. TC0034-a</span></li>
@@ -89,7 +89,7 @@
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example: In the browser example above, a test case failure is implied if the scrollbar remains disabled after loading <code>longfile.html</code>. The defect/bug causing that failure could be an uninitialized variable.</p>
                   </box>
                   <panel type="seamless" class="algolia-no-index">
-                    <span slot="header" class="card-title"><span><span class="dimmed">A deeper look at the definition of testing</span> <span class="badge badge-pill badge-secondary"><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
+                    <span slot="header" class="card-title"><span><span class="dimmed">A deeper look at the definition of testing</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span></span>
                     <p>Here is another definition of testing:</p>
                     <blockquote>
                       <p>Software testing consists of the <em>dynamic</em> verification that a program provides <em>expected</em> behaviors on a <em>finite</em> set of test cases, suitably <em>selected</em> from the usually infinite execution domain. <sub>-– source: <a href="https://www.computer.org/web/swebok/v3">Software Engineering Book of Knowledge V3</a></sub></p>
@@ -194,7 +194,11 @@
                     </small></small></span><a class="fa fa-anchor" href="#what-4"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p><strong><em>Unit testing</em> : testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</strong></p>
+                  <box type="definition">
+                    <div>
+                      <p><strong>Unit testing</strong>: testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly</p>
+                    </div>
+                  </box>
                   <p>In OOP code, it is common to write one or more unit tests for each public method of a class.</p>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here are the code skeletons for a <code>Foo</code> class containing two methods and a <code>FooTest</code> class that contains unit tests for those two methods.</p>
@@ -304,7 +308,7 @@
     }
 }
 </code></pre>
-                    <p>Normally, you would use the <code>Logic</code> class as follows (not how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
+                    <p>Normally, you would use the <code>Logic</code> class as follows (note how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
                     <pre><code class="hljs java">Logic logic = <span class="hljs-keyword">new</span> Logic(<span class="hljs-keyword">new</span> DatabaseStorage());
 String name = logic.getName(<span class="hljs-number">23</span>);
 </code></pre>
@@ -329,7 +333,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                    <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
+                    <p>Note how the <code>StorageStub</code> has the same interface as <code>DatabaseStorage</code>, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
                     <p>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code>DatabaseStorage</code> class and hence is a pure unit test.</p>
                     <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
@@ -683,7 +687,7 @@ Invalid command format: add
                         </li>
                       </ul>
                       <panel header minimized class="algolia-no-index">
-                        <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator <span class="badge badge-pill badge-secondary"><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span>
+                        <span slot="header" class="card-title"><span>More on the <code>&gt;</code> operator and the <code>&lt;</code> operator <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span></span></span>
                         <p>A CLI program takes input from the keyboard and outputs to the console. That is because those two are default input and output streams, respectively. But you can change that behavior using <code>&lt;</code> and <code>&gt;</code> operators. For example, if you run <code>AddressBook</code> in a command window, the output will be shown in the console, but if you run it like this,</p>
                         <pre><code class="hljs sh">java AddressBook &gt; output.txt 
 </code></pre>
@@ -951,7 +955,7 @@ Invalid command format: add
     }
 }
 </code></pre>
-                              <p>Normally, you would use the <code>Logic</code> class as follows (not how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
+                              <p>Normally, you would use the <code>Logic</code> class as follows (note how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
                               <pre><code class="hljs java">Logic logic = <span class="hljs-keyword">new</span> Logic(<span class="hljs-keyword">new</span> DatabaseStorage());
 String name = logic.getName(<span class="hljs-number">23</span>);
 </code></pre>
@@ -976,7 +980,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                              <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
+                              <p>Note how the <code>StorageStub</code> has the same interface as <code>DatabaseStorage</code>, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
                               <p>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code>DatabaseStorage</code> class and hence is a pure unit test.</p>
                               <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
@@ -1031,7 +1035,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 07 Aug 2019 12:35:41 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -5092,9 +5092,9 @@ Green indicates low priority
                 <p></p>
                 <div>
                   <p><strong>You can organize your <em>types</em> (i.e., classes, interfaces, enumerations, etc.) into <em>packages</em></strong> for easier management (among <a href="https://www.tutorialspoint.com/Advantages-of-using-packages-in-Java">other benefits</a>).</p>
-                  <p><strong>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file.</p>
+                  <p><strong>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file. Furthermore, <strong>the package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code>.class</code> files in a folder structure that matches the package names.</p>
                   <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Formatter</code> class below (in <code>Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>:</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Formatter</code> class below (in <code>&lt;source folder&gt;/seedu/tojava/util/Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>. When it is compiled, the <code>Formatter.class</code> file will be in the location <code>&lt;compiler output folder&gt;/seedu/tojava/util</code>:</p>
                     <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.tojava.util;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Formatter</span> </span>{
@@ -5106,7 +5106,7 @@ Green indicates low priority
 }
 </code></pre>
                   </box>
-                  <p><strong>Package names are written in all lower case</strong> (not camelCase), using the dot as a separate. Companies use their reversed Internet domain name to begin their package names. Packages in the Java language itself begin with <code>java</code>. or <code>javax</code>.</p>
+                  <p><strong>Package names are written in all lower case</strong> (not camelCase), using the dot as a separator. Packages in the Java language itself begin with <code>java</code>. or <code>javax</code>. Companies use their reversed Internet domain name to begin their package names.</p>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, <code>com.foobar.doohickey.util</code> can be the name of a package created by a company with a domain name <code>foobar.com</code></p>
                   </box>
@@ -5178,15 +5178,7 @@ Green indicates low priority
 }
 </code></pre>
                     </panel>
-                    <p>Note how the class can use <code>PREFIX</code> and <code>format</code> (instead of <code>Formatter.PREFIX</code> and <code>Formatter.format()</code>).</p>
-                  </box>
-                  <p><strong>The package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code>.class</code> files in a folder structure that matches the package names.</p>
-                  <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the <code>seedu.tojava.Main</code> class in defined in the file <code>Main.java</code>,</p>
-                    <ul>
-                      <li>the file should be in the location <code>&lt;source folder&gt;/seedu/tojava/</code></li>
-                      <li>when it is compiled, the <code>Main.class</code> file will be in the location <code>&lt;compiler output folder&gt;/seedu/tojava/</code></li>
-                    </ul>
+                    <p>Note how the class can use <code>PREFIX</code> and <code>format()</code> (instead of <code>Formatter.PREFIX</code> and <code>Formatter.format()</code>).</p>
                   </box>
                   <p><strong>When using the commandline to compile/run Java, you should take the package into account.</strong></p>
                   <box>
@@ -5316,7 +5308,7 @@ second line
 }
 </code></pre>
                   </box>
-                  <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
+                  <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class that provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example uses the <code>Files</code> class to copy a file and delete a file.</p>
                     <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.IOException;
@@ -5566,7 +5558,7 @@ Integer x = (Integer)o;
                   <p>An executable JAR file can be launched using the <code>java -jar</code> command.</p>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -jar foo.jar</code> launches the <code>foo.jar</code> file.</p>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can delete the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can download the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
                   </box>
                   <p>The IDE can help you to package your application as a JAR file.</p>
                 </div>
@@ -5686,7 +5678,7 @@ Integer x = (Integer)o;
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 07 Aug 2019 12:35:41 GMT</small></div>
     </footer>
   </div>
 </body>

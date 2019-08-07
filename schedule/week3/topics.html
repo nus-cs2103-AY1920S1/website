@@ -184,12 +184,12 @@
                         </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                   </li>
                   <li>
-                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-4d">W3.4d</a>] <span>Quality Assurance → Testing → Unit Testing →
-                        </span></span> <span>Stubs</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-4d">W3.4d</a>] <span>Tools → JUnit →
+                        </span></span> <span>JUnit: Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
                   </li>
                   <li>
-                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-4e">W3.4e</a>] <span>Tools → JUnit →
-                        </span></span> <span>JUnit: Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
+                    <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-4e">W3.4e</a>] <span>Quality Assurance → Testing → Unit Testing →
+                        </span></span> <span>Stubs</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                   </li>
                   <li>
                     <p><span class="dimmed">[<a href="/website/schedule/week3/topics.html#W3-4f">W3.4f</a>] <span>Tools → JUnit →
@@ -557,7 +557,7 @@ second line
 }
 </code></pre>
                     </box>
-                    <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
+                    <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class that provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example uses the <code>Files</code> class to copy a file and delete a file.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.IOException;
@@ -596,9 +596,9 @@ second line
                   <p></p>
                   <div>
                     <p><strong>You can organize your <em>types</em> (i.e., classes, interfaces, enumerations, etc.) into <em>packages</em></strong> for easier management (among <a href="https://www.tutorialspoint.com/Advantages-of-using-packages-in-Java">other benefits</a>).</p>
-                    <p><strong>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file.</p>
+                    <p><strong>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file. Furthermore, <strong>the package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code>.class</code> files in a folder structure that matches the package names.</p>
                     <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Formatter</code> class below (in <code>Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>:</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>Formatter</code> class below (in <code>&lt;source folder&gt;/seedu/tojava/util/Formatter.java</code> file) is in the package <code>seedu.tojava.util</code>. When it is compiled, the <code>Formatter.class</code> file will be in the location <code>&lt;compiler output folder&gt;/seedu/tojava/util</code>:</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">package</span> seedu.tojava.util;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Formatter</span> </span>{
@@ -610,7 +610,7 @@ second line
 }
 </code></pre>
                     </box>
-                    <p><strong>Package names are written in all lower case</strong> (not camelCase), using the dot as a separate. Companies use their reversed Internet domain name to begin their package names. Packages in the Java language itself begin with <code>java</code>. or <code>javax</code>.</p>
+                    <p><strong>Package names are written in all lower case</strong> (not camelCase), using the dot as a separator. Packages in the Java language itself begin with <code>java</code>. or <code>javax</code>. Companies use their reversed Internet domain name to begin their package names.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> For example, <code>com.foobar.doohickey.util</code> can be the name of a package created by a company with a domain name <code>foobar.com</code></p>
                     </box>
@@ -682,15 +682,7 @@ second line
 }
 </code></pre>
                       </panel>
-                      <p>Note how the class can use <code>PREFIX</code> and <code>format</code> (instead of <code>Formatter.PREFIX</code> and <code>Formatter.format()</code>).</p>
-                    </box>
-                    <p><strong>The package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code>.class</code> files in a folder structure that matches the package names.</p>
-                    <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the <code>seedu.tojava.Main</code> class in defined in the file <code>Main.java</code>,</p>
-                      <ul>
-                        <li>the file should be in the location <code>&lt;source folder&gt;/seedu/tojava/</code></li>
-                        <li>when it is compiled, the <code>Main.class</code> file will be in the location <code>&lt;compiler output folder&gt;/seedu/tojava/</code></li>
-                      </ul>
+                      <p>Note how the class can use <code>PREFIX</code> and <code>format()</code> (instead of <code>Formatter.PREFIX</code> and <code>Formatter.format()</code>).</p>
                     </box>
                     <p><strong>When using the commandline to compile/run Java, you should take the package into account.</strong></p>
                     <box>
@@ -736,7 +728,7 @@ second line
                     <p>An executable JAR file can be launched using the <code>java -jar</code> command.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>java -jar foo.jar</code> launches the <code>foo.jar</code> file.</p>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can delete the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> You can download the Collate-GUI.jar from <a href="https://se-edu.github.io/collate/">https://se-edu.github.io/collate/</a> and run it using the command<code>java -jar Collate-GUI.jar</code> command.</p>
                     </box>
                     <p>The IDE can help you to package your application as a JAR file.</p>
                   </div>
@@ -987,7 +979,11 @@ second line
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong><em>Unit testing</em> : testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</strong></p>
+                    <box type="definition">
+                      <div>
+                        <p><strong>Unit testing</strong>: testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly</p>
+                      </div>
+                    </box>
                     <p>In OOP code, it is common to write one or more unit tests for each public method of a class.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here are the code skeletons for a <code>Foo</code> class containing two methods and a <code>FooTest</code> class that contains unit tests for those two methods.</p>
@@ -1070,7 +1066,111 @@ second line
             <p><span id="W3-4d"></span></p>
             <panel type="seamless" expanded>
               <span slot="header" class="card-title">
-                <span class="badge badge-pill badge-light text-mute">W3.4d</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <span class="badge badge-pill badge-light text-mute">W3.4d</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+                <h4 id="tools-junit-junit-basic"><small><span class="font-weight-bold text-muted"><span>Tools → JUnit →</span></span></small> <strong><span>JUnit: Basic</span></strong><a class="fa fa-anchor" href="#tools-junit-junit-basic"></a></h4>
+              </span>
+              <div>
+                <div class="indented">
+                  <div></div>
+                  <p></p>
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use simple JUnit tests</span></span></span></span></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>When writing JUnit tests for a class <code>Foo</code>, the common practice is to create a <code>FooTest</code> class, which will contain various test methods.</p>
+                    <box>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose we want to write tests for the <code>IntPair</code> class below.</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IntPair</span> </span>{
+    <span class="hljs-keyword">int</span> first;
+    <span class="hljs-keyword">int</span> second;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">IntPair</span><span class="hljs-params">(<span class="hljs-keyword">int</span> first, <span class="hljs-keyword">int</span> second)</span> </span>{
+        <span class="hljs-keyword">this</span>.first = first;
+        <span class="hljs-keyword">this</span>.second = second;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">intDivision</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception </span>{
+        <span class="hljs-keyword">if</span> (second == <span class="hljs-number">0</span>){
+            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Exception(<span class="hljs-string">"Divisor is zero"</span>);
+        }
+        <span class="hljs-keyword">return</span> first/second;
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> first + <span class="hljs-string">","</span> + second;
+    }
+}
+</code></pre>
+                      <p>Here's a <code>IntPairTest</code> class to match (using JUnit 5).</p>
+                      <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.jupiter.api.Test;
+
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.jupiter.api.Assertions.assertEquals;
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.jupiter.api.Assertions.fail;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IntPairTest</span> </span>{
+
+
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testStringConversion</span><span class="hljs-params">()</span> </span>{
+        assertEquals(<span class="hljs-string">"4,7"</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">7</span>).toString());
+    }
+
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">intDivision_nonZeroDivisor_success</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception </span>{
+        assertEquals(<span class="hljs-number">2</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">2</span>).intDivision());
+        assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>).intDivision());
+        assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>).intDivision());
+    }
+
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">intDivision_zeroDivisor_exceptionThrown</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">try</span> {
+            assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">0</span>).intDivision());
+            fail(); <span class="hljs-comment">// the test should not reach this line</span>
+        } <span class="hljs-keyword">catch</span> (Exception e) {
+            assertEquals(<span class="hljs-string">"Divisor is zero"</span>, e.getMessage());
+        }
+    }
+}
+</code></pre>
+                    </box>
+                    <p>Notes:</p>
+                    <ul>
+                      <li>Each test method is marked with a <code>@Test</code> annotation.</li>
+                      <li>Tests use <code>Assert.assertEquals(expected, actual)</code> methods to compare the expected output with the actual output. If they do not match, the test will fail. JUnit comes with other similar methods such as <code>Assert.assertNull</code> and <code>Assert.assertTrue</code>.</li>
+                      <li>Java code normally use camelCase for method names e.g., <code>testStringConversion</code> but when writing test methods, sometimes another convention is used: <code>whatIsBeingTested_descriptionOfTestInputs_expectedOutcome</code> e.g., <code>intDivision_zeroDivisor_exceptionThrown</code></li>
+                      <li>There are <a href="https://howtodoinjava.com/junit5/expected-exception-example/">several ways to verify the code throws the correct exception</a>. The third test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the <code>catch</code> block. But if it is not thrown as expected, the test will reach <code>Assert.fail()</code> line and will fail as a result.</li>
+                      <li>The easiest way to run JUnit tests is to do it via the IDE. For example, in Intellij you can right-click the folder containing test classes and choose 'Run all tests...'</li>
+                    </ul>
+                    <div v-closeable alt="Junit tutorial video" class="non-printable">
+                      <box>
+                        <p><strong><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Adding JUnit 5 to your IntelliJ Project</strong> <sub>-- by Kevintroko@YouTube</sub></p>
+                        <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Z8V7rnvDeB4" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                      </box>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
+                        <ul>
+                          <li><a href="https://junit.org/junit5/docs/current/user-guide/">JUnit Official User Guide</a></li>
+                          <li><a href="https://www.testingexcellence.com/junit-5-annotations/">JUnit 5 Tutorial – Common Annotations With Examples</a> - a short tutorial</li>
+                          <li>How to test private methods in Java?
+                            [ <a href="http://stackoverflow.com/questions/34571/whats-the-proper-way-to-test-a-class-with-private-methods-using-junit">short answer</a> ]
+                            [ <a href="http://www.artima.com/suiterunner/private.html">long answer</a> ]</li>
+                        </ul>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </panel>
+            <p><span id="W3-4e"></span></p>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title">
+                <span class="badge badge-pill badge-light text-mute">W3.4e</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
                 <h4 id="quality-assurance-testing-unit-testing-stubs"><small><span class="font-weight-bold text-muted"><span>Quality Assurance → Testing → Unit Testing →</span></span></small> <strong><span>Stubs</span></strong><a class="fa fa-anchor" href="#quality-assurance-testing-unit-testing-stubs"></a></h4>
               </span>
               <div>
@@ -1126,7 +1226,7 @@ second line
     }
 }
 </code></pre>
-                      <p>Normally, you would use the <code>Logic</code> class as follows (not how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
+                      <p>Normally, you would use the <code>Logic</code> class as follows (note how the <code>Logic</code> object depends on a <code>DatabaseStorage</code> object to perform the <code>getName()</code> operation):</p>
                       <pre><code class="hljs java">Logic logic = <span class="hljs-keyword">new</span> Logic(<span class="hljs-keyword">new</span> DatabaseStorage());
 String name = logic.getName(<span class="hljs-number">23</span>);
 </code></pre>
@@ -1151,7 +1251,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     }
 }
 </code></pre>
-                      <p>Note how the stub has the same interface as the real dependency, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
+                      <p>Note how the <code>StorageStub</code> has the same interface as <code>DatabaseStorage</code>, is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code>DatabaseStorage</code> is expected to return for the given test input.</p>
                       <p>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code>DatabaseStorage</code> class and hence is a pure unit test.</p>
                       <pre><code class="hljs java"><span class="hljs-meta">@Test</span>
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
@@ -1192,116 +1292,6 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                 </div>
               </div>
             </panel>
-            <p><span id="W3-4e"></span></p>
-            <panel type="seamless" expanded>
-              <span slot="header" class="card-title">
-                <span class="badge badge-pill badge-light text-mute">W3.4e</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
-                <h4 id="tools-junit-junit-basic"><small><span class="font-weight-bold text-muted"><span>Tools → JUnit →</span></span></small> <strong><span>JUnit: Basic</span></strong><a class="fa fa-anchor" href="#tools-junit-junit-basic"></a></h4>
-              </span>
-              <div>
-                <div class="indented">
-                  <div></div>
-                  <p></p>
-                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use simple JUnit tests</span></span></span></span></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <div>
-                    <p>When writing JUnit tests for a class <code>Foo</code>, the common practice is to create a <code>FooTest</code> class, which will contain various test methods.</p>
-                    <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose we want to write tests for the <code>IntPair</code> class below.</p>
-                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IntPair</span> </span>{
-    <span class="hljs-keyword">int</span> first;
-    <span class="hljs-keyword">int</span> second;
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">IntPair</span><span class="hljs-params">(<span class="hljs-keyword">int</span> first, <span class="hljs-keyword">int</span> second)</span> </span>{
-        <span class="hljs-keyword">this</span>.first = first;
-        <span class="hljs-keyword">this</span>.second = second;
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">intDivision</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception </span>{
-        <span class="hljs-keyword">if</span> (second == <span class="hljs-number">0</span>){
-            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Exception(<span class="hljs-string">"Divisor is zero"</span>);
-        }
-        <span class="hljs-keyword">return</span> first/second;
-    }
-
-    <span class="hljs-meta">@Override</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">return</span> first + <span class="hljs-string">","</span> + second;
-    }
-}
-</code></pre>
-                      <p>Here's a <code>IntPairTest</code> class to match.</p>
-                      <pre><code class="hljs java"><span class="hljs-keyword">import</span> org.junit.Test;
-<span class="hljs-keyword">import</span> org.junit.Assert;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IntPairTest</span> </span>{
-
-    <span class="hljs-meta">@Test</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testStringConversion</span><span class="hljs-params">()</span> </span>{
-        Assert.assertEquals(<span class="hljs-string">"4,7"</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">7</span>).toString());
-    }
-
-    <span class="hljs-meta">@Test</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">intDivision_nonZeroDivisor_success</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception </span>{
-        Assert.assertEquals(<span class="hljs-number">2</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">2</span>).intDivision());
-        Assert.assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>).intDivision());
-        Assert.assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>).intDivision());
-    }
-
-    <span class="hljs-meta">@Test</span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">intDivision_zeroDivisor_exceptionThrown</span><span class="hljs-params">()</span> </span>{
-        <span class="hljs-keyword">try</span> {
-            Assert.assertEquals(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">1</span>, <span class="hljs-number">0</span>).intDivision());
-            Assert.fail(); <span class="hljs-comment">// the test should not reach this line</span>
-        } <span class="hljs-keyword">catch</span> (Exception e) {
-            Assert.assertEquals(<span class="hljs-string">"Divisor is zero"</span>, e.getMessage());
-        }
-    }
-}
-</code></pre>
-                    </box>
-                    <p>Notes:</p>
-                    <ul>
-                      <li>Each test method is marked with a <code>@Test</code> annotation.</li>
-                      <li>Tests use <code>Assert.assertEquals(expected, actual)</code> methods to compare the expected output with the actual output. If they do not match, the test will fail. JUnit comes with other similar methods such as <code>Assert.assertNull</code> and <code>Assert.assertTrue</code>.</li>
-                      <li>Java code normally use camelCase for method names e.g., <code>testStringConversion</code> but when writing test methods, sometimes another convention is used: <code>whatIsBeingTested_descriptionOfTestInputs_expectedOutcome</code> e.g., <code>intDivision_zeroDivisor_exceptionThrown</code></li>
-                      <li>There are <a href="https://github.com/junit-team/junit4/wiki/exception-testing">several ways to verify the code throws the correct exception</a>. The third test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the <code>catch</code> block. But if it is not thrown as expected, the test will reach <code>Assert.fail()</code> line and will fail as a result.</li>
-                      <li>The easiest way to run JUnit tests is to do it via the IDE. For example, in Intellij you can right-click the folder containing test classes and choose 'Run all tests...'</li>
-                      <li>Optionally, you can use <a href="https://docs.oracle.com/javase/1.5.0/docs/guide/language/static-import.html">static imports</a> to avoid having to specify <code>Assert.</code> everywhere.
-                        <pre><code class="hljs java"><span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> org.junit.Assert.assertEquals;
-<span class="hljs-comment">//...</span>
-<span class="hljs-meta">@Test</span>
-<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testStringConversion</span><span class="hljs-params">()</span> </span>{
-    assertEquals(<span class="hljs-string">"4,7"</span>, <span class="hljs-keyword">new</span> IntPair(<span class="hljs-number">4</span>, <span class="hljs-number">7</span>).toString());
-}
-</code></pre>
-                      </li>
-                    </ul>
-                    <div v-closeable alt="Junit tutorial video" class="non-printable">
-                      <box>
-                        <p><strong><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> JUnit 4 with IntelliJ: A quick introduction</strong> <sub>-- by DrBFraser</sub></p>
-                        <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Bld3644bIAo" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                      </box>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <panel header="<md>:fas-paperclip:</md> Resources" expanded>
-                        <ul>
-                          <li><a href="http://junit.sourceforge.net/doc/cookbook/cookbook.htm">JUnit cookbook</a> - a short tutorial from JUnit creators</li>
-                          <li><a href="http://www.vogella.com/articles/JUnit/article.html">JUnit tutorial</a> - a more detailed tutorial from a developer Lars Vogel</li>
-                          <li>How to test private methods in Java?
-                            [ <a href="http://stackoverflow.com/questions/34571/whats-the-proper-way-to-test-a-class-with-private-methods-using-junit">short answer</a> ]
-                            [ <a href="http://www.artima.com/suiterunner/private.html">long answer</a> ]</li>
-                        </ul>
-                      </panel>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </panel>
             <p><span id="W3-4f"></span></p>
             <panel type="seamless" expanded>
               <span slot="header" class="card-title">
@@ -1317,13 +1307,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                   <p></p>
                   <p></p>
                   <div>
-                    <p>Some intermediate JUnit techniques that may be useful:</p>
-                    <ul>
-                      <li><strong>It is possible for a <a href="https://github.com/junit-team/junit4/wiki/Exception-testing">JUnit test case to verify if the SUT throws the right exception</a></strong>.</li>
-                      <li><strong><a href="https://github.com/junit-team/junit4/wiki/Rules">JUnit <em>Rules</em></a> are a way to add additional behavior to a test.</strong> e.g. to make a test case use a temporary folder for storing files needed for (or generated by) the test.</li>
-                      <li><strong>It is possible to <a href="https://www.mkyong.com/unittest/junit-4-tutorial-1-basic-usage/">write methods thar are automatically run before/after a test method/class</a></strong>. These are useful to do pre/post cleanups for example.</li>
-                      <li><strong><a href="http://www.artima.com/suiterunner/private.html">Testing private methods is possible, although not always necessray</a></strong></li>
-                    </ul>
+                    <p>Skim through the <a href="https://junit.org/junit5/docs/current/user-guide/">JUnit 5 User Guide</a> to see what advanced techniques are available. If applicable, feel free to adopt them.</p>
                   </div>
                   <div></div>
                 </div>
@@ -1707,7 +1691,7 @@ This repo can be used to practice creating PRs.
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Tue, 06 Aug 2019 15:15:39 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 07 Aug 2019 12:35:41 GMT</small></div>
     </footer>
   </div>
 </body>
