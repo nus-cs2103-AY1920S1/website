@@ -1403,7 +1403,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                     </small></small></span><a class="fa fa-anchor" href="#non-functional-requirements"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>There are two kinds of requirements:</p>
+                  <p>Requirements can be divided into two in the following way:</p>
                   <ol>
                     <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
                     <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
@@ -1604,22 +1604,11 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                       </ul>
                     </div>
                   </box>
-                  <p><strong>Prototyping can uncover requirements, in particular, those related to <em>how users interact with the system</em>.</strong> UI prototypes are often used in brainstorming sessions, or in meetings with the users to get quick feedback from them.</p>
+                  <p><strong>Prototyping can uncover requirements, in particular, those related to <em>how users interact with the system</em>.</strong> UI prototypes or <em>mock ups</em> are often used in brainstorming sessions, or in meetings with the users to get quick feedback from them.</p>
                   <box>
-                    <panel header="<md>:fas-cube:</md> Simple text UI prototype for a primitive CLI (Command Line Interface) Minesweeper:" type="seamless" expanded>
-                      <p><img src="/website/book/gatheringRequirements/prototyping/images/textPrototypeCLI.png" height="320"></p>
-                      <p></p>
-                      <p></p>
-                    </panel>
-                    <panel header="<md>:fas-cube:</md> A simple GUI prototype for the same Minesweeper, created using Powerpoint:" type="seamless" expanded>
-                      <p><img src="/website/book/gatheringRequirements/prototyping/images/guiPrototypeMinesweeper.jpg" height="220"></p>
-                      <p></p>
-                      <p></p>
-                    </panel>
-                    <panel header="<md>:fas-cube:</md> A prototype for a mobile app, created using the UI prototyping tool Balsmiq:" type="seamless" expanded>
-                      <img src="/website/book/gatheringRequirements/prototyping/images/balsamiqPrototypeGUI.jpg" height="450">
-                      <p><span class="dimmed"><sup>[source: <a href="http://balsamiq.com/products/mockups">http://balsamiq.com/products/mockups</a>]</sup></span></p>
-                    </panel>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A mock up (also called a <em>wireframe</em> diagram) of a dialog box:</p>
+                    <p><a href="http://s.plantuml.com/imgw/salt-t6yi9tca.webp" target="_self"><img src="http://s.plantuml.com/imgw/salt-t6yi9tca.webp" alt class="img-fluid"></a><br>
+                      <sub><span class="dimmed">[source: <a href="http://plantuml.com">plantuml.com</a>]</span></sub></p>
                   </box>
                   <p></p>
                   <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Prototyping can be used for <em>discovering</em> as well as <em>specifying</em> requirements <span class="dimmed">e.g. a UI prototype can serve as a specification of what to build</span>.</p>
@@ -1860,7 +1849,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                         </div>
                         <div id="main">
                           <div>
-                            <p>There are two kinds of requirements:</p>
+                            <p>Requirements can be divided into two in the following way:</p>
                             <ol>
                               <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
                               <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
@@ -2478,7 +2467,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                         </div>
                         <div id="main">
                           <div>
-                            <p>There are two kinds of requirements:</p>
+                            <p>Requirements can be divided into two in the following way:</p>
                             <ol>
                               <li><strong><em>Functional requirements</em> specify what the system should do.</strong></li>
                               <li><strong><em>Non-functional requirements</em> specify the constraints under which system is developed and operated.</strong></li>
@@ -4437,7 +4426,7 @@ is_urgent = type_code == URGENT
                     </small></small></span><a class="fa fa-anchor" href="#avoid-magic-numbers"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
+                  <p>When the code has a number that does not explain the meaning of the number, we call that a &quot;magic number&quot; (as in &quot;the number appears as if by magic&quot;). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                     <div class="alt-java">
@@ -4510,6 +4499,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                     <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
                   </box>
+                  <p>In general, try to avoid any magic literals.</p>
                 </div>
               </div>
             </div>
@@ -4616,7 +4606,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                   <box>
                     <p>Example:</p>
                     <p>
-                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> (<code>readData();</code> and <code>salary = basic*rise+1000;</code> are at different levels of abstraction)
                     </p>
                     <pre><code class="hljs java">readData();
 salary = basic*rise+<span class="hljs-number">1000</span>;
@@ -4624,7 +4614,7 @@ tax = (taxable?salary*<span class="hljs-number">0.07</span>:<span class="hljs-nu
 displayResult();
 </code></pre>
                     <p>
-                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> (all statements are at the same level of abstraction)
                     </p>
                     <pre><code class="hljs java">readData();
 processData();
@@ -4998,10 +4988,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                   <box>
                     <p>Example: Consider these variables</p>
                     <ul>
-                      <li><code>colorBlack</code> : hex value for color black</li>
-                      <li><code>colorWhite</code> : hex value for color white</li>
-                      <li><code>colorBlue</code> : number of times blue is used</li>
-                      <li><code>hexForRed</code> : : hex value for color red</li>
+                      <li><code>colorBlack</code>: hex value for color black</li>
+                      <li><code>colorWhite</code>: hex value for color white</li>
+                      <li><code>colorBlue</code>: number of times blue is used</li>
+                      <li><code>hexForRed</code>: hex value for color red</li>
                     </ul>
                     <p>This is misleading because <code>colorBlue</code> is named similar to <code>colorWhite</code> and <code>colorBlack</code> but has a different purpose while <code>hexForRed</code> is named differently but has very similar purpose to the first two variables. The following is better:</p>
                     <ul>
@@ -5169,9 +5159,9 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
               </div>
             </p>
             <div class="indented-less">
-              <h4 id="minimise-scope-of-variables">Minimise Scope of Variables <span class="badge badge-light"><small><small>
+              <h4 id="minimize-scope-of-variables">Minimize Scope of Variables <span class="badge badge-light"><small><small>
                       <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#minimise-scope-of-variables"></a></h4>
+                    </small></small></span><a class="fa fa-anchor" href="#minimize-scope-of-variables"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong>Minimize global variables</strong>. Global variables may be the most convenient way to pass information around, but they do create implicit links between code segments that use the global variable. Avoid them as much as possible.</p>
@@ -5187,9 +5177,9 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
               </div>
             </div>
             <div class="indented-less">
-              <h4 id="minimise-code-duplication">Minimise Code Duplication <span class="badge badge-light"><small><small>
+              <h4 id="minimize-code-duplication">Minimize Code Duplication <span class="badge badge-light"><small><small>
                       <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#minimise-code-duplication"></a></h4>
+                    </small></small></span><a class="fa fa-anchor" href="#minimize-code-duplication"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong>Code duplication, especially when you copy-paste-modify code, often indicates a poor quality implementation.</strong> While it may not be possible to have zero duplication, always think twice before duplicating code; most often there is a better alternative.</p>
@@ -5293,7 +5283,7 @@ trim_input()
                     </small></small></span><a class="fa fa-anchor" href="#write-to-the-reader"></a></h4>
               <div class="indented-less">
                 <div>
-                  <p>Do not write comments as if they are private notes to self. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
+                  <p>Do not write comments as if they are private notes to yourself. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                     <div class="alt-java">
@@ -5561,7 +5551,7 @@ send()
                     <li><a href="https://refactoring.com/catalog/decomposeConditional.html">Decompose Conditional</a></li>
                     <li><a href="https://refactoring.com/catalog/inlineMethod.html">Inline Method</a></li>
                     <li><a href="https://refactoring.com/catalog/removeDoubleNegative.html">Remove Double Negative</a></li>
-                    <li><a href="https://refactoring.com/catalog/replaceMagicNumberWithSymbolicConstant.html">Replace Magic Number with Symbolic Constant</a></li>
+                    <li><a href="https://refactoring.com/catalog/replaceMagicLiteral.html">Replace Magic Literal</a></li>
                     <li><a href="https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html">Replace Nested Conditional with Guard Clauses</a></li>
                     <li><a href="https://refactoring.com/catalog/replaceParameterWithExplicitMethods.html">Replace Parameter with Explicit Methods</a></li>
                     <li><a href="https://refactoring.com/catalog/reverseConditional.html">Reverse Conditional</a></li>
@@ -6271,13 +6261,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                   <p>Some of these build steps such as to compile, link and package are already automated in most modern IDEs. <span class="dimmed">For example, several steps happen automatically when the ‘build’ button of the IDE is clicked. Some IDEs even allow customization to this build process to some extent.</span></p>
                   <p>However, most big projects use specialized build tools to automate complex build processes.</p>
                   <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some popular build tools relevant to Java developers:</p>
-                    <ul>
-                      <li><a href="https://gradle.org/">Gradle</a></li>
-                      <li><a href="http://maven.apache.org/">Maven</a></li>
-                      <li><a href="http://ant.apache.org/">Apache Ant</a></li>
-                      <li><a href="http://www.gnu.org/software/make/">GNU Make</a></li>
-                    </ul>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some popular build tools relevant to Java developers: <a href="https://gradle.org/">Gradle</a>, <a href="http://maven.apache.org/">Maven</a>, <a href="http://ant.apache.org/">Apache Ant</a>, <a href="http://www.gnu.org/software/make/">GNU Make</a></p>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <span class="dimmed">Some other build tools : Grunt (JavaScript), Rake (Ruby)</span></p>
                   </box>
                   <p><strong>Some build tools also serve as <em>dependency management tools</em></strong>. Modern software projects often depend on third party libraries that evolve constantly. That means developers need to download the correct version of the required libraries and update them regularly. Therefore, dependency management is an important part of build automation. Dependency Management tools can automate that aspect of a project.</p>
@@ -6296,13 +6280,7 @@ a.setGuarantor(<span class="hljs-keyword">null</span>);
                   <p><strong>An extreme application of build automation is called <em>continuous integration (CI)</em> in which integration, building, and testing happens automatically after each code change.</strong></p>
                   <p><strong>A natural extension of CI is <em>Continuous Deployment (CD)</em> where the changes are not only integrated continuously, but also deployed to end-users at the same time.</strong></p>
                   <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of CI/CD tools:</p>
-                    <ul>
-                      <li><a href="https://travis-ci.org/">Travis</a></li>
-                      <li><a href="http://jenkins-ci.org">Jenkins</a></li>
-                      <li><a href="https://www.appveyor.com">Appveyor</a></li>
-                      <li><a href="https://circleci.com">CircleCI</a></li>
-                    </ul>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of CI/CD tools: <a href="https://travis-ci.org/">Travis</a>, <a href="http://jenkins-ci.org">Jenkins</a>, <a href="https://www.appveyor.com">Appveyor</a>, <a href="https://circleci.com">CircleCI</a></p>
                   </box>
                 </div>
               </div>
@@ -12303,7 +12281,7 @@ git pull origin master
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 07 Aug 2019 12:35:41 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 07 Aug 2019 15:19:38 GMT</small></div>
     </footer>
   </div>
 </body>

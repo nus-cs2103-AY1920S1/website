@@ -383,7 +383,7 @@ is_urgent = type_code == URGENT
                             <p></p>
                             <p></p>
                             <div>
-                              <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
+                              <p>When the code has a number that does not explain the meaning of the number, we call that a &quot;magic number&quot; (as in &quot;the number appears as if by magic&quot;). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                                 <div class="alt-java">
@@ -456,6 +456,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                                 <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
                               </box>
+                              <p>In general, try to avoid any magic literals.</p>
                             </div>
                             <div></div>
                           </div>
@@ -620,7 +621,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                               <box>
                                 <p>Example:</p>
                                 <p>
-                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> (<code>readData();</code> and <code>salary = basic*rise+1000;</code> are at different levels of abstraction)
                                 </p>
                                 <pre><code class="hljs java">readData();
 salary = basic*rise+<span class="hljs-number">1000</span>;
@@ -628,7 +629,7 @@ tax = (taxable?salary*<span class="hljs-number">0.07</span>:<span class="hljs-nu
 displayResult();
 </code></pre>
                                 <p>
-                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> (all statements are at the same level of abstraction)
                                 </p>
                                 <pre><code class="hljs java">readData();
 processData();

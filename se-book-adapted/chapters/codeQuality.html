@@ -574,7 +574,7 @@ is_urgent = type_code == URGENT
                   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid magic numbers </span></span></span></span>
                   <p></p>
                   <div>
-                    <p>When the code has a number that does not explain the meaning of the number, we call that a magic number (as in “the number appears as if by magic”). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
+                    <p>When the code has a number that does not explain the meaning of the number, we call that a &quot;magic number&quot; (as in &quot;the number appears as if by magic&quot;). Using a <tooltip content="e.g., `PI`"><em>named constant</em></tooltip> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example:</p>
                       <div class="alt-java">
@@ -647,6 +647,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                       <pre><code class="hljs java"><span class="hljs-string">"Error 1432"</span>  <span class="hljs-comment">// A magic string!</span>
 </code></pre>
                     </box>
+                    <p>In general, try to avoid any magic literals.</p>
                   </div>
                   <div></div>
                 </div>
@@ -777,7 +778,7 @@ MAX_SIZE = <span class="hljs-number">10</span>
                     <box>
                       <p>Example:</p>
                       <p>
-                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> (<code>readData();</code> and <code>salary = basic*rise+1000;</code> are at different levels of abstraction)
                       </p>
                       <pre><code class="hljs java">readData();
 salary = basic*rise+<span class="hljs-number">1000</span>;
@@ -785,7 +786,7 @@ tax = (taxable?salary*<span class="hljs-number">0.07</span>:<span class="hljs-nu
 displayResult();
 </code></pre>
                       <p>
-                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                        <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font> (all statements are at the same level of abstraction)
                       </p>
                       <pre><code class="hljs java">readData();
 processData();
@@ -1367,10 +1368,10 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                     <box>
                       <p>Example: Consider these variables</p>
                       <ul>
-                        <li><code>colorBlack</code> : hex value for color black</li>
-                        <li><code>colorWhite</code> : hex value for color white</li>
-                        <li><code>colorBlue</code> : number of times blue is used</li>
-                        <li><code>hexForRed</code> : : hex value for color red</li>
+                        <li><code>colorBlack</code>: hex value for color black</li>
+                        <li><code>colorWhite</code>: hex value for color white</li>
+                        <li><code>colorBlue</code>: number of times blue is used</li>
+                        <li><code>hexForRed</code>: hex value for color red</li>
                       </ul>
                       <p>This is misleading because <code>colorBlue</code> is named similar to <code>colorWhite</code> and <code>colorBlack</code> but has a different purpose while <code>hexForRed</code> is named differently but has very similar purpose to the first two variables. The following is better:</p>
                       <ul>
@@ -1558,7 +1559,7 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                   <h3 id="intermediate"><span>Intermediate</span><a class="fa fa-anchor" href="#intermediate"></a></h3>
                 </div>
               </span>
-              <panel type="seamless" header="#### Minimise Scope of Variables<a class='fa fa-anchor' href='#minimise-scope-of-variables'></a>" expanded>
+              <panel type="seamless" header="#### Minimize Scope of Variables<a class='fa fa-anchor' href='#minimize-scope-of-variables'></a>" expanded>
                 <div class="indented">
                   <span class="badge badge-light">
                     <span><span class="dimmed">
@@ -1580,13 +1581,13 @@ names = [<span class="hljs-string">'Jim'</span>, <span class="hljs-string">'Alic
                   <div></div>
                 </div>
               </panel>
-              <panel type="seamless" header="#### Minimise Code Duplication<a class='fa fa-anchor' href='#minimise-code-duplication'></a>" expanded>
+              <panel type="seamless" header="#### Minimize Code Duplication<a class='fa fa-anchor' href='#minimize-code-duplication'></a>" expanded>
                 <div class="indented">
                   <span class="badge badge-light">
                     <span><span class="dimmed">
                         <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                       </span></span></span>
-                  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimise code duplication </span></span></span></span>
+                  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimize code duplication </span></span></span></span>
                   <p></p>
                   <div>
                     <p><strong>Code duplication, especially when you copy-paste-modify code, often indicates a poor quality implementation.</strong> While it may not be possible to have zero duplication, always think twice before duplicating code; most often there is a better alternative.</p>
@@ -1702,7 +1703,7 @@ trim_input()
                   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: write to the reader </span></span></span></span>
                   <p></p>
                   <div>
-                    <p>Do not write comments as if they are private notes to self. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
+                    <p>Do not write comments as if they are private notes to yourself. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
                       <div class="alt-java">
@@ -1855,8 +1856,8 @@ compact(input);
                 <a class="nav-link py-1" href="#don-t-recycle-variables-or-parameters">Don't Recycle Variables or Parameters&#x200E;</a>
                 <a class="nav-link py-1" href="#avoid-empty-catch-blocks">Avoid Empty Catch Blocks&#x200E;</a>
                 <a class="nav-link py-1" href="#delete-dead-code">Delete Dead Code&#x200E;</a>
-                <a class="nav-link py-1" href="#minimise-scope-of-variables">Minimise Scope of Variables&#x200E;</a>
-                <a class="nav-link py-1" href="#minimise-code-duplication">Minimise Code Duplication&#x200E;</a>
+                <a class="nav-link py-1" href="#minimize-scope-of-variables">Minimize Scope of Variables&#x200E;</a>
+                <a class="nav-link py-1" href="#minimize-code-duplication">Minimize Code Duplication&#x200E;</a>
               </nav>
               <a class="nav-link py-1" href="#guideline-comment-minimally-but-sufficiently">Guideline: Comment Minimally, but Sufficiently&#x200E;</a>
               <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
@@ -1872,7 +1873,7 @@ compact(input);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 07 Aug 2019 12:35:41 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 07 Aug 2019 15:19:38 GMT</small></div>
     </footer>
   </div>
 </body>
