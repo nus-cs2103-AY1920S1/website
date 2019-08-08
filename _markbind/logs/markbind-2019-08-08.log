@@ -1,0 +1,35 @@
+2019-08-08T01:26:20.493Z - info: Website generation started at 9:26:18 AM
+2019-08-08T01:26:23.277Z - info: Building assets...
+2019-08-08T01:26:25.181Z - info: Assets built
+2019-08-08T01:26:25.181Z - info: Generating pages...
+2019-08-08T01:28:04.088Z - info: Pages built
+2019-08-08T01:28:23.270Z - info: Website generation complete! Total build time: 124.933s
+2019-08-08T01:28:23.591Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-08T01:28:23.591Z - info: Press CTRL+C to stop ...
+2019-08-08T01:28:23.626Z - info: Site data built
+2019-08-08T02:09:23.207Z - info: [10:09:23 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\topics.njk
+2019-08-08T02:09:24.218Z - info: Assets built
+2019-08-08T02:10:11.933Z - info: Website generation started at 10:10:09 AM
+2019-08-08T02:10:14.260Z - info: Building assets...
+2019-08-08T02:10:15.998Z - info: Assets built
+2019-08-08T02:10:15.998Z - info: Generating pages...
+2019-08-08T02:11:52.135Z - info: Pages built
+2019-08-08T02:12:11.415Z - info: Website generation complete! Total build time: 121.473s
+2019-08-08T02:12:11.739Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-08T02:12:11.739Z - info: Press CTRL+C to stop ...
+2019-08-08T02:12:11.765Z - info: Site data built
+2019-08-08T02:12:58.945Z - info: [10:12:58 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\topics.njk
+2019-08-08T02:12:59.959Z - info: Assets built
+2019-08-08T02:13:03.831Z - info: [10:13:03 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\topics.njk
+2019-08-08T02:13:04.839Z - info: Assets built
+2019-08-08T02:14:59.772Z - info: Website generation started at 10:14:57 AM
+2019-08-08T02:15:02.121Z - info: Building assets...
+2019-08-08T02:15:04.073Z - info: Assets built
+2019-08-08T02:15:04.074Z - info: Generating pages...
+2019-08-08T02:16:38.857Z - info: Pages built
+2019-08-08T02:16:57.956Z - info: Website generation complete! Total build time: 120.138s
+2019-08-08T02:16:58.294Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-08T02:16:58.294Z - info: Press CTRL+C to stop ...
+2019-08-08T02:16:58.328Z - info: Site data built
+2019-08-08T02:24:45.226Z - info: Website generation started at 10:24:43 AM
+2019-08-08T02:24:47.664Z - info: Building assets...

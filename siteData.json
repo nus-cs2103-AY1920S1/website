@@ -187,9 +187,9 @@
     },
     {
       "headings": {
-        "ip-overview": "iP: Overview "
+        "ip-individual-project-overview": "iP (Individual Project): Overview "
       },
-      "title": "Admin: iP: Overview",
+      "title": "Admin: iP (Individual Project): Overview",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -418,9 +418,9 @@
     },
     {
       "headings": {
-        "tp-overview": "tP: Overview "
+        "tp-team-project-overview": "tP (Team Project): Overview "
       },
-      "title": "Admin: tP: Overview",
+      "title": "Admin: tP (Team Project): Overview",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
