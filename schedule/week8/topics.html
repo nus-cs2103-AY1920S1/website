@@ -164,11 +164,11 @@
                   </li>
                   <li>
                     <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2c">W8.2c</a>] <span>Tools → UML → Sequence Diagrams →
-                        </span></span> <span>Reference Frames</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                        </span></span> <span>Reference Frames</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                   </li>
                   <li>
                     <p><span class="dimmed">[<a href="/website/schedule/week8/topics.html#W8-2d">W8.2d</a>] <span>Tools → UML → Sequence Diagrams →
-                        </span></span> <span>Parallel Paths</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
+                        </span></span> <span>Parallel Paths</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
                   </li>
                 </ul>
               </small></div>
@@ -1130,7 +1130,7 @@
             <p><span id="W8-2c"></span></p>
             <panel type="seamless" expanded popup-url="/website/book/uml/sequenceDiagrams/referenceFrames">
               <span slot="header" class="card-title">
-                <span class="badge badge-pill badge-light text-mute">W8.2c</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <span class="badge badge-pill badge-light text-mute">W8.2c</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
                 <h4 id="tools-uml-sequence-diagrams-reference-frames"><small><span class="font-weight-bold text-muted"><span>Tools → UML → Sequence Diagrams →</span></span></small> <strong><span>Reference Frames</span></strong><a class="fa fa-anchor" href="#tools-uml-sequence-diagrams-reference-frames"></a></h4>
               </span>
               <div>
@@ -1162,7 +1162,7 @@
             <p><span id="W8-2d"></span></p>
             <panel type="seamless" expanded popup-url="/website/book/uml/sequenceDiagrams/parallelPaths">
               <span slot="header" class="card-title">
-                <span class="badge badge-pill badge-light text-mute">W8.2d</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                <span class="badge badge-pill badge-light text-mute">W8.2d</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
                 <h4 id="tools-uml-sequence-diagrams-parallel-paths"><small><span class="font-weight-bold text-muted"><span>Tools → UML → Sequence Diagrams →</span></span></small> <strong><span>Parallel Paths</span></strong><a class="fa fa-anchor" href="#tools-uml-sequence-diagrams-parallel-paths"></a></h4>
               </span>
               <div>
@@ -1183,7 +1183,7 @@
                       <img src="/website/book/uml/sequenceDiagrams/parallelPaths/images/logicServerData.png" height="150">
                       <p></p>
                       <box>
-                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you show parallel paths in a sequence diagram, the corresponding Java implementation is likely to be <em>multi-threaded</em> %% because a normal Java program cannot do multiple things at the same time%%.</p>
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you show parallel paths in a sequence diagram, the corresponding Java implementation is likely to be <em>multi-threaded</em> <span class="dimmed">because a normal Java program cannot do multiple things at the same time</span>.</p>
                       </box>
                     </box>
                   </div>
@@ -1251,7 +1251,7 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong>Integration testing is not simply a repetition of the unit test cases but run using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
+                    <p><strong>Integration testing is not simply a case of repeating the unit test cases using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a class <code>Car</code> uses classes <code>Engine</code> and <code>Wheel</code>. Here is how you would go about doing pure integration tests:</p>
                       <p>a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
@@ -1288,7 +1288,11 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
+                    <box type="definition">
+                      <div>
+                        <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
+                      </div>
+                    </box>
                     <p>System testing is typically done by a testing team (also called a QA team).</p>
                     <p><strong>System test cases are based on the specified external behavior of the system.</strong> Sometimes, system tests go beyond the bounds defined in the specification. This is useful when testing that the system fails 'gracefully' having pushed beyond its limits.</p>
                     <box>
@@ -1336,7 +1340,7 @@
                     </ul>
                     <img src="/website/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
                     <p></p>
-                    <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
+                    <p><strong>Moving as much logic as possible out of the GUI can make the GUI testing easier.</strong> That way, you can bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested, the number of such test cases can be reduced as most of the system has been tested using automated API testing.</p>
                     <p><strong>There are testing tools that can automate GUI testing.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some tools used for automated GUI testing:</p>
@@ -1397,7 +1401,11 @@
                   <p></p>
                   <p></p>
                   <div>
-                    <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
+                    <box type="definition">
+                      <div>
+                        <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
+                      </div>
+                    </box>
                     <p>Acceptance tests give an assurance to the customer that the system does what it is intended to do. Acceptance test cases are often defined at the beginning of the project, usually based on the use case specification. Successful completion of UAT is often a prerequisite to the project sign-off.</p>
                   </div>
                   <div></div>
@@ -2285,7 +2293,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 08 Aug 2019 02:24:49 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 08 Aug 2019 12:12:21 GMT</small></div>
     </footer>
   </div>
 </body>

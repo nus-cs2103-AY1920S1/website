@@ -223,7 +223,7 @@
               <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain single responsibility principle</span></span></span></span>
               <p></p>
               <div>
-                <box type="primary">
+                <box type="definition">
                   <div>
                     <p><strong>Single Responsibility Principle (SRP)</strong>: A class should have one, and only one, reason to change. <sub>-- Robert C. Martin</sub></p>
                   </div>
@@ -272,7 +272,7 @@
                 <box>
                   <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code> in one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
                   <pre><code class="hljs java">ArrayList students = <span class="hljs-keyword">new</span> ArrayList&lt; Student &gt;();
-ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();  	
+ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();
 </code></pre>
                 </box>
               </div>
@@ -466,11 +466,15 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
               <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain dependency inversion principle (DIP)</span></span></span></span>
               <p></p>
               <div>
-                <p>The <em>Dependency Inversion Principle</em> states that,</p>
-                <ol>
-                  <li>High-level modules should not depend on low-level modules. Both should depend on abstractions.</li>
-                  <li>Abstractions should not depend on details. Details should depend on abstractions.</li>
-                </ol>
+                <box type="definition">
+                  <div>
+                    <p><strong>Dependency Inversion Principle</strong>:</p>
+                    <ol>
+                      <li>High-level modules should not depend on low-level modules. Both should depend on abstractions.</li>
+                      <li>Abstractions should not depend on details. Details should depend on abstractions.</li>
+                    </ol>
+                  </div>
+                </box>
                 <box>
                   <p>Example:</p>
                   <img src="/website/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
@@ -513,7 +517,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
             <div class="indented">
               <span class="badge badge-light">
                 <span><span class="dimmed">
-                    <font color="ForestGreen"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font>
+                    <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                   </span></span></span>
               <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain SOLID Principles</span></span></span></span>
               <p></p>
@@ -523,15 +527,14 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <div>
                     <div></div>
                     <p></p>
-                    <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></p>
+                    <p><span class="dimmed"><strong><span>Principles →</span></strong></span></p>
                     <div id="title-and-body">
                       <div>
                         <h4 id="single-responsibility-principle"><span>Single Responsibility Principle</span><a class="fa fa-anchor" href="#single-responsibility-principle"></a></h4>
                       </div>
                       <div id="main">
                         <div>
-                          <box type="primary">
+                          <box type="definition">
                             <div>
                               <p><strong>Single Responsibility Principle (SRP)</strong>: A class should have one, and only one, reason to change. <sub>-- Robert C. Martin</sub></p>
                             </div>
@@ -564,8 +567,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <div>
                     <div></div>
                     <p></p>
-                    <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></p>
+                    <p><span class="dimmed"><strong><span>Principles →</span></strong></span></p>
                     <div id="title-and-body">
                       <div>
                         <h4 id="open-closed-principle"><span>Open-Closed Principle</span><a class="fa fa-anchor" href="#open-closed-principle"></a></h4>
@@ -587,7 +589,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                           <box>
                             <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The behavior of a Java generic class can be altered by passing it a different class as a parameter. In the code below, the <code>ArrayList</code> class behaves as a container of <code>Students</code> in one instance and as a container of <code>Admin</code> objects in the other instance, without having to change its code. That is, the behavior of the <code>ArrayList</code> class is extended without modifying its code.</p>
                             <pre><code class="hljs java">ArrayList students = <span class="hljs-keyword">new</span> ArrayList&lt; Student &gt;();
-ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();  	
+ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt;();
 </code></pre>
                           </box>
                         </div>
@@ -622,8 +624,7 @@ ArrayList admins = <span class="hljs-keyword">new</span> ArrayList&lt; Admin &gt
                   <div>
                     <div></div>
                     <p></p>
-                    <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></p>
+                    <p><span class="dimmed"><strong><span>Principles →</span></strong></span></p>
                     <div id="title-and-body">
                       <div>
                         <h4 id="liskov-substitution-principle"><span>Liskov Substitution Principle</span><a class="fa fa-anchor" href="#liskov-substitution-principle"></a></h4>
@@ -747,8 +748,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <div>
                     <div></div>
                     <p></p>
-                    <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></p>
+                    <p><span class="dimmed"><strong><span>Principles →</span></strong></span></p>
                     <div id="title-and-body">
                       <div>
                         <h4 id="interface-segregation-principle"><span>Interface Segregation Principle</span><a class="fa fa-anchor" href="#interface-segregation-principle"></a></h4>
@@ -790,19 +790,22 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <div>
                     <div></div>
                     <p></p>
-                    <p><span class="dimmed"><strong><span>Supplmentary → Principles →
-                          </span></strong></span></p>
+                    <p><span class="dimmed"><strong><span>Principles →</span></strong></span></p>
                     <div id="title-and-body">
                       <div>
                         <h4 id="dependency-inversion-principle"><span>Dependency Inversion Principle</span><a class="fa fa-anchor" href="#dependency-inversion-principle"></a></h4>
                       </div>
                       <div id="main">
                         <div>
-                          <p>The <em>Dependency Inversion Principle</em> states that,</p>
-                          <ol>
-                            <li>High-level modules should not depend on low-level modules. Both should depend on abstractions.</li>
-                            <li>Abstractions should not depend on details. Details should depend on abstractions.</li>
-                          </ol>
+                          <box type="definition">
+                            <div>
+                              <p><strong>Dependency Inversion Principle</strong>:</p>
+                              <ol>
+                                <li>High-level modules should not depend on low-level modules. Both should depend on abstractions.</li>
+                                <li>Abstractions should not depend on details. Details should depend on abstractions.</li>
+                              </ol>
+                            </div>
+                          </box>
                           <box>
                             <p>Example:</p>
                             <img src="/website/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
@@ -856,7 +859,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
               <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain separation of concerns principle</span></span></span></span>
               <p></p>
               <div>
-                <box type="primary">
+                <box type="definition">
                   <div>
                     <p><strong>Separation of Concerns Principle (SoC)</strong>: To achieve better modularity, separate the code into distinct sections, such that each section addresses a separate <em>concern</em>. -- Proposed by <a href="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra">Edsger W. Dijkstra</a></p>
                   </div>
@@ -882,7 +885,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                   <div>
                     <div></div>
                     <p></p>
-                    <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style
+                    <p><span class="dimmed"><strong><span>Design → Architecture → Styles → n-Tier Style →
                           </span></strong></span></p>
                     <div id="title-and-body">
                       <div>
@@ -1274,7 +1277,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 08 Aug 2019 02:24:49 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 08 Aug 2019 12:12:21 GMT</small></div>
     </footer>
   </div>
 </body>

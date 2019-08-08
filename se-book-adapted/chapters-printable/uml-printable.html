@@ -800,6 +800,48 @@
               </div>
             </div>
             <div class="indented-less">
+              <h4 id="parallel-paths">Parallel Paths <span class="badge badge-light"><small><small>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                    </small></small></span><a class="fa fa-anchor" href="#parallel-paths"></a></h4>
+              <div class="indented-less">
+                <div>
+                  <p><strong>UML uses <code>par</code> frames to indicate parallel paths.</strong></p>
+                  <p>Notation:</p>
+                  <img src="/website/book/uml/sequenceDiagrams/parallelPaths/images/notation.png" height="100">
+                  <p></p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code>Logic</code> is calling methods <code>CloudServer#poll()</code> and <code>LocalServer#poll()</code> in parallel.</p>
+                    <img src="/website/book/uml/sequenceDiagrams/parallelPaths/images/logicServerData.png" height="150">
+                    <p></p>
+                    <box>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you show parallel paths in a sequence diagram, the corresponding Java implementation is likely to be <em>multi-threaded</em> <span class="dimmed">because a normal Java program cannot do multiple things at the same time</span>.</p>
+                    </box>
+                  </box>
+                </div>
+              </div>
+            </div>
+            <div class="indented-less">
+              <h4 id="reference-frames">Reference Frames <span class="badge badge-light"><small><small>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                    </small></small></span><a class="fa fa-anchor" href="#reference-frames"></a></h4>
+              <div class="indented-less">
+                <div>
+                  <p><strong>UML uses <em>ref frame</em> to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.</strong> Reference frames help us to break complicated sequence diagrams into multiple parts or simply to omit details we are not interested in showing.</p>
+                  <p>Notation:</p>
+                  <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/notation.png" height="100">
+                  <p></p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The details of the <code>get minefield appearance</code> interactions have been omitted from the diagram.</p>
+                    <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/playerTextLogic.png" height="250">
+                    <p></p>
+                    <p>Those details are shown in a separate sequence diagram given below.<br>
+                      <img src="/website/book/uml/sequenceDiagrams/referenceFrames/images/textLogic.png" height="170"></p>
+                    <p></p>
+                  </box>
+                </div>
+              </div>
+            </div>
+            <div class="indented-less">
               <h4 id="minimal-notation">Minimal Notation <span class="badge badge-light"><small><small>
                       <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
                     </small></small></span><a class="fa fa-anchor" href="#minimal-notation"></a></h4>
@@ -956,9 +998,9 @@
               </div>
             </div>
             <div class="indented-less">
-              <h4 id="parallel-paths">Parallel Paths <span class="badge badge-light"><small><small>
+              <h4 id="parallel-paths-2">Parallel Paths <span class="badge badge-light"><small><small>
                       <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#parallel-paths"></a></h4>
+                    </small></small></span><a class="fa fa-anchor" href="#parallel-paths-2"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong><em>Fork</em> nodes indicate the start of <tooltip content="parallel">concurrent</tooltip> flows of control.</strong></p>
@@ -969,6 +1011,39 @@
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this activity diagram (from an online shop website) the actions <em>User browsers products</em> and <em>System records browsing data</em> happen in parallel. Both of them need to finish before the <em>log out</em> action can take place.</p>
                     <img src="/website/book/uml/activityDiagrams/basicNotations/parallelPaths/images/example.png" width="260">
+                  </box>
+                </div>
+              </div>
+            </div>
+            <div class="indented-less">
+              <h4 id="rakes">Rakes <span class="badge badge-light"><small><small>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                    </small></small></span><a class="fa fa-anchor" href="#rakes"></a></h4>
+              <div class="indented-less">
+                <div>
+                  <p><strong>The rake notation is used to indicate that a part of the activity is given as a separate diagram.</strong></p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is the AD for a game of ‘Snakes and Ladders’.</p>
+                    <img src="/website/book/uml/activityDiagrams/basicNotations/rakes/images/snakesAndLadders.png" height="230">
+                    <p></p>
+                    <p>The <em>rake</em> symbol (in the <code>Move piece</code> action above) is used to show that the action is described in another subsidiary activity diagram elsewhere. That diagram is given below.</p>
+                    <img src="/website/book/uml/activityDiagrams/basicNotations/rakes/images/movePiece.png" height="230">
+                    <p></p>
+                  </box>
+                </div>
+              </div>
+            </div>
+            <div class="indented-less">
+              <h4 id="swimlanes">Swimlanes <span class="badge badge-light"><small><small>
+                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                    </small></small></span><a class="fa fa-anchor" href="#swimlanes"></a></h4>
+              <div class="indented-less">
+                <div>
+                  <p><strong>It is possible to <em>partition</em> an activity diagram to show who is doing which action. Such partitioned activity diagrams are sometime called <em>swimlane diagrams</em>.</strong></p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A simple example of a swimlane diagram:</p>
+                    <img src="/website/book/uml/activityDiagrams/basicNotations/swimlanes/images/diagram.png" height="220">
+                    <p></p>
                   </box>
                 </div>
               </div>
@@ -1037,7 +1112,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 08 Aug 2019 02:24:49 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 08 Aug 2019 12:12:21 GMT</small></div>
     </footer>
   </div>
 </body>

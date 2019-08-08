@@ -306,7 +306,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             <p></p>
                             <p></p>
                             <div>
-                              <p><strong>Integration testing is not simply a repetition of the unit test cases but run using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
+                              <p><strong>Integration testing is not simply a case of repeating the unit test cases using the actual dependencies</strong> (instead of the stubs used in unit testing). Instead, integration tests are additional test cases that focus on the interactions between the parts.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Suppose a class <code>Car</code> uses classes <code>Engine</code> and <code>Wheel</code>. Here is how you would go about doing pure integration tests:</p>
                                 <p>a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
@@ -350,7 +350,11 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             <p></p>
                             <p></p>
                             <div>
-                              <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
+                              <box type="definition">
+                                <div>
+                                  <p><strong><em>System testing</em>: take the <em>whole system</em> and test it <em>against the system specification</em>.</strong></p>
+                                </div>
+                              </box>
                               <p>System testing is typically done by a testing team (also called a QA team).</p>
                               <p><strong>System test cases are based on the specified external behavior of the system.</strong> Sometimes, system tests go beyond the bounds defined in the specification. This is useful when testing that the system fails 'gracefully' having pushed beyond its limits.</p>
                               <box>
@@ -743,7 +747,11 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                             <p></p>
                             <p></p>
                             <div>
-                              <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
+                              <box type="definition">
+                                <div>
+                                  <p><strong><em>Acceptance testing</em> (aka <em>User Acceptance Testing (UAT)</em>): test the delivered system to ensure it meets the user requirements.</strong></p>
+                                </div>
+                              </box>
                               <p>Acceptance tests give an assurance to the customer that the system does what it is intended to do. Acceptance test cases are often defined at the beginning of the project, usually based on the use case specification. Successful completion of UAT is often a prerequisite to the project sign-off.</p>
                             </div>
                             <div></div>
