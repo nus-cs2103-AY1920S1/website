@@ -1,154 +1,111 @@
-2019-08-06T02:29:12.612Z - info: Website generation started at 10:29:10 AM
-2019-08-06T02:29:15.805Z - info: Building assets...
-2019-08-06T02:29:17.861Z - info: Assets built
-2019-08-06T02:29:17.862Z - info: Generating pages...
-2019-08-06T02:30:57.534Z - info: Pages built
-2019-08-06T02:31:17.215Z - info: Website generation complete! Total build time: 126.894s
-2019-08-06T02:31:17.257Z - info: Site data built
-2019-08-06T02:31:18.605Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:54877
-2019-08-06T02:31:18.605Z - info: Press CTRL+C to stop ...
-2019-08-06T03:02:27.400Z - info: [11:02:27 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\inheritance\what\text.md
-2019-08-06T03:02:28.403Z - info: Rebuilding affected source files
-2019-08-06T03:02:28.406Z - info: Rebuilding 12 pages
-2019-08-06T03:02:42.311Z - info: Pages rebuilt
-2019-08-06T03:02:42.323Z - info: Site data built
-2019-08-06T03:06:57.551Z - info: [11:06:57 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\inheritance\overloading\text.md
-2019-08-06T03:06:58.553Z - info: Rebuilding affected source files
-2019-08-06T03:06:58.559Z - info: Rebuilding 14 pages
-2019-08-06T03:07:10.251Z - info: Pages rebuilt
-2019-08-06T03:07:10.271Z - info: Site data built
-2019-08-06T03:07:28.538Z - info: [11:07:28 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\inheritance\overloading\text.md
-2019-08-06T03:07:29.541Z - info: Rebuilding affected source files
-2019-08-06T03:07:29.543Z - info: Rebuilding 14 pages
-2019-08-06T03:07:41.355Z - info: Pages rebuilt
-2019-08-06T03:07:41.374Z - info: Site data built
-2019-08-06T03:08:05.331Z - info: [11:08:05 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-06T03:08:06.333Z - info: Rebuilding affected source files
-2019-08-06T03:08:06.358Z - info: Rebuilding 163 pages
-2019-08-06T03:08:52.247Z - info: Pages rebuilt
-2019-08-06T03:08:52.257Z - info: Site data built
-2019-08-06T03:09:13.235Z - info: [11:09:13 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-06T03:09:14.237Z - info: Rebuilding affected source files
-2019-08-06T03:09:14.261Z - info: Rebuilding 163 pages
-2019-08-06T03:09:44.052Z - info: [11:09:44 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-06T03:09:44.469Z - info: [11:09:44 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-06T03:10:01.745Z - info: Pages rebuilt
-2019-08-06T03:10:01.756Z - info: Site data built
-2019-08-06T03:10:01.918Z - info: Rebuilding affected source files
-2019-08-06T03:10:01.932Z - info: Rebuilding 163 pages
-2019-08-06T03:10:50.591Z - info: Pages rebuilt
-2019-08-06T03:10:50.595Z - info: [11:10:50 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-06T03:10:50.605Z - info: Site data built
-2019-08-06T03:10:51.596Z - info: Rebuilding affected source files
-2019-08-06T03:10:51.614Z - info: Rebuilding 163 pages
-2019-08-06T03:11:37.953Z - info: Pages rebuilt
-2019-08-06T03:11:37.966Z - info: Site data built
-2019-08-06T03:12:43.099Z - info: [11:12:43 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\inheritance\overriding\text.md
-2019-08-06T03:12:44.105Z - info: Rebuilding affected source files
-2019-08-06T03:12:44.108Z - info: Rebuilding 13 pages
-2019-08-06T03:12:55.754Z - info: Pages rebuilt
-2019-08-06T03:12:55.772Z - info: Site data built
-2019-08-06T03:14:42.883Z - info: [11:14:42 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\basic\text.md
-2019-08-06T03:14:43.885Z - info: Rebuilding affected source files
-2019-08-06T03:14:43.888Z - info: Rebuilding 10 pages
-2019-08-06T03:14:53.811Z - info: Pages rebuilt
-2019-08-06T03:14:53.825Z - info: Site data built
-2019-08-06T03:16:09.670Z - info: [11:16:09 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\basic\text.md
-2019-08-06T03:16:10.672Z - info: Rebuilding affected source files
-2019-08-06T03:16:10.675Z - info: Rebuilding 10 pages
-2019-08-06T03:16:20.783Z - info: Pages rebuilt
-2019-08-06T03:16:20.795Z - info: Site data built
-2019-08-06T03:17:00.606Z - info: [11:17:00 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\basic\text.md
-2019-08-06T03:17:01.608Z - info: Rebuilding affected source files
-2019-08-06T03:17:01.610Z - info: Rebuilding 10 pages
-2019-08-06T03:17:11.551Z - info: Pages rebuilt
-2019-08-06T03:17:11.581Z - info: Site data built
-2019-08-06T03:18:00.719Z - info: [11:18:00 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\basic\text.md
-2019-08-06T03:18:01.722Z - info: Rebuilding affected source files
-2019-08-06T03:18:01.723Z - info: Rebuilding 10 pages
-2019-08-06T03:18:11.768Z - info: Pages rebuilt
-2019-08-06T03:18:11.783Z - info: Site data built
-2019-08-06T03:19:26.111Z - info: [11:19:26 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\basic\text.md
-2019-08-06T03:19:27.113Z - info: Rebuilding affected source files
-2019-08-06T03:19:27.116Z - info: Rebuilding 10 pages
-2019-08-06T03:19:37.062Z - info: Pages rebuilt
-2019-08-06T03:19:37.075Z - info: Site data built
-2019-08-06T10:18:25.715Z - info: [6:18:25 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\polymorphism\what\text.md
-2019-08-06T10:18:26.725Z - info: Rebuilding affected source files
-2019-08-06T10:18:26.750Z - info: Rebuilding 12 pages
-2019-08-06T10:18:42.183Z - info: Pages rebuilt
-2019-08-06T10:18:42.212Z - info: Site data built
-2019-08-06T10:21:28.800Z - info: [6:21:28 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\polymorphism\text.md
-2019-08-06T10:21:29.802Z - info: Rebuilding affected source files
-2019-08-06T10:21:29.805Z - info: Rebuilding 10 pages
-2019-08-06T10:21:41.188Z - info: Pages rebuilt
-2019-08-06T10:21:41.196Z - info: [6:21:41 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-06T10:21:41.202Z - info: Site data built
-2019-08-06T10:21:42.198Z - info: Rebuilding affected source files
-2019-08-06T10:21:42.219Z - info: Rebuilding 163 pages
-2019-08-06T10:22:21.982Z - info: [6:22:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\inheritance\abstractClasses\text.md
-2019-08-06T10:22:33.026Z - info: Pages rebuilt
-2019-08-06T10:22:33.037Z - info: Site data built
-2019-08-06T10:22:33.178Z - info: Rebuilding affected source files
-2019-08-06T10:22:33.181Z - info: Rebuilding 12 pages
-2019-08-06T10:22:45.909Z - info: Pages rebuilt
-2019-08-06T10:22:45.924Z - info: Site data built
-2019-08-06T10:24:24.863Z - info: [6:24:24 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\inheritance\abstractClasses\text.md
-2019-08-06T10:24:25.866Z - info: Rebuilding affected source files
-2019-08-06T10:24:25.869Z - info: Rebuilding 12 pages
-2019-08-06T10:24:39.212Z - info: Pages rebuilt
-2019-08-06T10:24:39.226Z - info: Site data built
-2019-08-06T10:26:07.545Z - info: [6:26:07 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\abstractClassesAndMethods\text.md
-2019-08-06T10:26:08.547Z - info: Rebuilding affected source files
-2019-08-06T10:26:08.550Z - info: Rebuilding 10 pages
-2019-08-06T10:26:19.504Z - info: Pages rebuilt
-2019-08-06T10:26:19.515Z - info: Site data built
-2019-08-06T10:27:07.588Z - info: [6:27:07 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\abstractClassesAndMethods\text.md
-2019-08-06T10:27:08.592Z - info: Rebuilding affected source files
-2019-08-06T10:27:08.597Z - info: Rebuilding 10 pages
-2019-08-06T10:27:21.127Z - info: Pages rebuilt
-2019-08-06T10:27:21.140Z - info: Site data built
-2019-08-06T10:27:33.420Z - info: [6:27:33 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\abstractClassesAndMethods\text.md
-2019-08-06T10:27:34.421Z - info: Rebuilding affected source files
-2019-08-06T10:27:34.423Z - info: Rebuilding 10 pages
-2019-08-06T10:27:45.414Z - info: Pages rebuilt
-2019-08-06T10:27:45.426Z - info: Site data built
-2019-08-06T10:50:31.932Z - info: Website generation started at 6:50:29 PM
-2019-08-06T10:50:35.371Z - info: Building assets...
-2019-08-06T10:50:37.638Z - info: Assets built
-2019-08-06T10:50:37.639Z - info: Generating pages...
-2019-08-06T10:52:33.122Z - info: Pages built
-2019-08-06T10:52:53.145Z - info: Website generation complete! Total build time: 143.984s
-2019-08-06T10:52:53.484Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
-2019-08-06T10:52:53.484Z - info: Press CTRL+C to stop ...
-2019-08-06T10:52:53.510Z - info: Site data built
-2019-08-06T10:55:46.423Z - info: [6:55:46 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\abstractClassesAndMethods\text.md
-2019-08-06T10:55:47.426Z - info: Rebuilding affected source files
-2019-08-06T10:55:47.429Z - info: Rebuilding 10 pages
-2019-08-06T10:55:58.404Z - info: Pages rebuilt
-2019-08-06T10:55:58.417Z - info: Site data built
-2019-08-06T10:56:57.687Z - info: [6:56:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\abstractClassesAndMethods\text.md
-2019-08-06T10:56:58.700Z - info: Rebuilding affected source files
-2019-08-06T10:56:58.704Z - info: Rebuilding 10 pages
-2019-08-06T10:57:09.253Z - info: Pages rebuilt
-2019-08-06T10:57:09.267Z - info: Site data built
-2019-08-06T10:58:04.827Z - info: [6:58:04 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\abstractClassesAndMethods\text.md
-2019-08-06T10:58:05.831Z - info: Rebuilding affected source files
-2019-08-06T10:58:05.833Z - info: Rebuilding 10 pages
-2019-08-06T10:58:16.159Z - info: Pages rebuilt
-2019-08-06T10:58:16.180Z - info: Site data built
-2019-08-06T11:02:04.211Z - info: [7:02:04 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\interfaces\text.md
-2019-08-06T11:02:05.215Z - info: Rebuilding affected source files
-2019-08-06T11:02:05.218Z - info: Rebuilding 10 pages
-2019-08-06T11:02:15.023Z - info: Pages rebuilt
-2019-08-06T11:02:15.044Z - info: Site data built
-2019-08-06T11:04:13.380Z - info: [7:04:13 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\cppToJava\inheritance\interfaces\text.md
-2019-08-06T11:04:14.382Z - info: Rebuilding affected source files
-2019-08-06T11:04:14.385Z - info: Rebuilding 10 pages
-2019-08-06T11:04:24.040Z - info: Pages rebuilt
-2019-08-06T11:04:24.070Z - info: Site data built
-2019-08-06T11:11:58.501Z - info: [7:11:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\inheritance\dynamicAndStaticBinding\text.md
-2019-08-06T11:11:59.504Z - info: Rebuilding affected source files
-2019-08-06T11:11:59.509Z - info: Rebuilding 12 pages
-2019-08-06T11:12:11.978Z - info: Pages rebuilt
-2019-08-06T11:12:11.991Z - info: Site data built
+2019-08-06T14:12:22.667Z - info: Website generation started at 22:12:20
+2019-08-06T14:12:24.894Z - info: Building assets...
+2019-08-06T14:12:27.194Z - info: Assets built
+2019-08-06T14:12:27.194Z - info: Generating pages...
+2019-08-06T14:15:37.051Z - info: Pages built
+2019-08-06T14:16:15.552Z - info: Website generation complete! Total build time: 235.338s
+2019-08-06T14:16:15.976Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-06T14:16:15.976Z - info: Press CTRL+C to stop ...
+2019-08-06T14:16:16.000Z - info: Site data built
+2019-08-06T14:16:54.113Z - info: [22:16:54] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\intellij\projectSetup\text.md
+2019-08-06T14:16:55.123Z - info: Rebuilding affected source files
+2019-08-06T14:16:55.131Z - info: Rebuilding 6 pages
+2019-08-06T14:17:02.843Z - info: Pages rebuilt
+2019-08-06T14:17:02.851Z - info: Site data built
+2019-08-06T14:17:38.883Z - info: [22:17:38] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
+2019-08-06T14:17:39.884Z - info: Rebuilding affected source files
+2019-08-06T14:17:39.935Z - info: Rebuilding 156 pages
+2019-08-06T14:19:03.213Z - info: Pages rebuilt
+2019-08-06T14:19:03.260Z - info: Site data built
+2019-08-06T14:19:09.370Z - info: [22:19:09] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\introduction\what\text.md
+2019-08-06T14:19:10.373Z - info: Rebuilding affected source files
+2019-08-06T14:19:10.377Z - info: Rebuilding 9 pages
+2019-08-06T14:19:27.519Z - info: Pages rebuilt
+2019-08-06T14:19:27.559Z - info: Site data built
+2019-08-06T14:20:21.434Z - info: [22:20:21] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\introduction\what\text.md
+2019-08-06T14:20:22.438Z - info: Rebuilding affected source files
+2019-08-06T14:20:22.440Z - info: Rebuilding 9 pages
+2019-08-06T14:20:43.347Z - info: Pages rebuilt
+2019-08-06T14:20:43.426Z - info: Site data built
+2019-08-06T14:21:25.801Z - info: [22:21:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\introduction\what\text.md
+2019-08-06T14:21:26.805Z - info: Rebuilding affected source files
+2019-08-06T14:21:26.812Z - info: Rebuilding 9 pages
+2019-08-06T14:21:48.157Z - info: Pages rebuilt
+2019-08-06T14:21:48.208Z - info: Site data built
+2019-08-06T14:22:18.212Z - info: [22:22:18] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\regressionTesting\what\text.md
+2019-08-06T14:22:19.214Z - info: Rebuilding affected source files
+2019-08-06T14:22:19.217Z - info: Rebuilding 10 pages
+2019-08-06T14:22:36.611Z - info: Pages rebuilt
+2019-08-06T14:22:36.652Z - info: Site data built
+2019-08-06T14:27:44.607Z - info: [22:27:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gatheringRequirements\focusGroups\text.md
+2019-08-06T14:27:44.622Z - info: [22:27:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\variables.md
+2019-08-06T14:27:44.625Z - info: [22:27:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testAutomation\testingTextUis\text.md
+2019-08-06T14:27:44.628Z - info: [22:27:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\_markbind\variables.md
+2019-08-06T14:27:44.640Z - info: [22:27:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\about\usage.md
+2019-08-06T14:27:44.645Z - info: [22:27:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\modeling\introduction\how\text.md
+2019-08-06T14:27:44.676Z - info: [22:27:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-06T14:27:45.608Z - info: Rebuilding affected source files
+2019-08-06T14:27:45.729Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-08-06T14:27:45.864Z - info: Rebuilding 773 pages
+2019-08-06T14:28:44.759Z - info: [22:28:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testAutomation\testingTextUis\text.md
+2019-08-06T14:30:41.598Z - info: Pages rebuilt
+2019-08-06T14:30:41.770Z - info: Site data built
+2019-08-06T14:30:43.368Z - info: Rebuilding affected source files
+2019-08-06T14:30:43.374Z - info: Rebuilding 9 pages
+2019-08-06T14:31:03.510Z - info: Pages rebuilt
+2019-08-06T14:31:03.553Z - info: [22:31:03] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\_markbind\variables.md
+2019-08-06T14:31:03.554Z - info: [22:31:03] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testAutomation\testingTextUis\text.md
+2019-08-06T14:31:03.580Z - info: Site data built
+2019-08-06T14:31:04.555Z - info: Rebuilding affected source files
+2019-08-06T14:31:04.559Z - info: Rebuilding 9 pages
+2019-08-06T14:31:28.761Z - info: Pages rebuilt
+2019-08-06T14:31:29.131Z - info: Site data built
+2019-08-06T14:32:25.256Z - info: [22:32:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testAutomation\testingTextUis\text.md
+2019-08-06T14:32:26.296Z - info: Rebuilding affected source files
+2019-08-06T14:32:26.301Z - info: Rebuilding 9 pages
+2019-08-06T14:32:43.606Z - info: Pages rebuilt
+2019-08-06T14:32:43.651Z - info: Site data built
+2019-08-06T14:34:36.710Z - info: [22:34:36] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testAutomation\testingTextUis\text.md
+2019-08-06T14:34:36.713Z - info: [22:34:36] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\_markbind\variables.md
+2019-08-06T14:34:36.719Z - info: [22:34:36] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\variables.md
+2019-08-06T14:34:36.724Z - info: [22:34:36] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\introduction\what\text.md
+2019-08-06T14:34:37.711Z - info: Rebuilding affected source files
+2019-08-06T14:34:37.828Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-08-06T14:34:38.016Z - info: Rebuilding 773 pages
+2019-08-06T14:35:40.237Z - info: Website generation started at 22:35:38
+2019-08-06T14:35:41.696Z - info: Building assets...
+2019-08-06T14:35:43.120Z - info: Assets built
+2019-08-06T14:35:43.120Z - info: Generating pages...
+2019-08-06T14:37:50.312Z - info: Pages built
+2019-08-06T14:38:17.799Z - info: Website generation complete! Total build time: 159.305s
+2019-08-06T14:38:18.121Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-06T14:38:18.122Z - info: Press CTRL+C to stop ...
+2019-08-06T14:38:18.138Z - info: Site data built
+2019-08-06T14:38:53.697Z - info: [22:38:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
+2019-08-06T14:38:54.702Z - info: Rebuilding affected source files
+2019-08-06T14:38:54.734Z - info: Rebuilding 154 pages
+2019-08-06T14:40:33.519Z - info: Pages rebuilt
+2019-08-06T14:40:33.623Z - info: Site data built
+2019-08-06T14:51:10.957Z - info: [22:51:10] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\ignore\text.md
+2019-08-06T14:51:11.965Z - info: Rebuilding affected source files
+2019-08-06T14:51:11.982Z - info: Rebuilding 8 pages
+2019-08-06T14:51:29.557Z - info: Pages rebuilt
+2019-08-06T14:51:29.758Z - info: Site data built
+2019-08-06T15:03:47.659Z - info: Website generation started at 23:03:45
+2019-08-06T15:03:49.127Z - info: Building assets...
+2019-08-06T15:03:50.658Z - info: Assets built
+2019-08-06T15:03:50.658Z - info: Generating pages...
+2019-08-06T15:06:02.008Z - info: Pages built
+2019-08-06T15:06:25.780Z - info: Website generation complete! Total build time: 160.018s
+2019-08-06T15:06:26.090Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-06T15:06:26.091Z - info: Press CTRL+C to stop ...
+2019-08-06T15:06:26.174Z - info: Site data built
+2019-08-06T15:15:37.192Z - info: Website generation started at 23:15:35
+2019-08-06T15:15:38.524Z - info: Building assets...
+2019-08-06T15:15:39.892Z - info: Assets built
+2019-08-06T15:15:39.893Z - info: Generating pages...
+2019-08-06T15:18:16.978Z - info: Pages built
+2019-08-06T15:18:47.412Z - info: Website generation complete! Total build time: 191.982s
+2019-08-06T15:18:47.415Z - info: Build success!
+2019-08-06T15:18:47.425Z - info: Site data built
+2019-08-06T15:19:17.030Z - info: Deployed!
