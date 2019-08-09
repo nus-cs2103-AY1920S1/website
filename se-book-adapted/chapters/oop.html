@@ -1006,6 +1006,7 @@ Enter command: exit
                   <p><strong>To implement other multiplicities, choose a suitable data structure</strong> such as Arrays, ArrayLists, HashMaps, Sets, etc.</p>
                   <box>
                     <div class="alt-java">
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code uses an two-dimensional array to implement a 1-to-many association from the <code>Minefield</code> to <code>Cell</code>.</p>
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Minefield</span> </span>{
     Cell[][] cell;
     ...
@@ -1094,21 +1095,21 @@ Enter command: exit
                   <h5 id="implementing-composition">Implementing composition<a class="fa fa-anchor" href="#implementing-composition"></a></h5>
                   <p><strong>Composition is implemented using a normal variable.</strong> If correctly implemented, the ‘part’ object will be deleted when the ‘whole’ object is deleted. Ideally, the ‘part’ object may not even be visible to clients of the ‘whole’ object.</p>
                   <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, the <code>Email</code> has a composition type relationship with the <code>Subject</code> class, in the sense that the subject is part of the email.</p>
-                    <div class="alt-java">
+                    <div class="alt-java float-right ml-5">
                       <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Email</span> </span>{
     <span class="hljs-keyword">private</span> Subject subject;
   ...
 }
 </code></pre>
                     </div>
-                    <div class="alt-python">
+                    <div class="alt-python  float-right ml-5">
                       <pre><code class="hljs python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Email</span>:</span>
-  
+
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
     self.__subject = Subject()
 </code></pre>
                     </div>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In this code, the <code>Email</code> has a composition type relationship with the <code>Subject</code> class, in the sense that the subject is part of the email.</p>
                   </box>
                 </div>
                 <div></div>
@@ -2045,7 +2046,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 09 Aug 2019 02:57:42 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 09 Aug 2019 09:43:10 GMT</small></div>
     </footer>
   </div>
 </body>
