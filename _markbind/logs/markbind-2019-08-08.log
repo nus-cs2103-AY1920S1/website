@@ -1,1162 +1,225 @@
-2019-08-08T01:26:20.493Z - info: Website generation started at 9:26:18 AM
-2019-08-08T01:26:23.277Z - info: Building assets...
-2019-08-08T01:26:25.181Z - info: Assets built
-2019-08-08T01:26:25.181Z - info: Generating pages...
-2019-08-08T01:28:04.088Z - info: Pages built
-2019-08-08T01:28:23.270Z - info: Website generation complete! Total build time: 124.933s
-2019-08-08T01:28:23.591Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
-2019-08-08T01:28:23.591Z - info: Press CTRL+C to stop ...
-2019-08-08T01:28:23.626Z - info: Site data built
-2019-08-08T02:09:23.207Z - info: [10:09:23 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\topics.njk
-2019-08-08T02:09:24.218Z - info: Assets built
-2019-08-08T02:10:11.933Z - info: Website generation started at 10:10:09 AM
-2019-08-08T02:10:14.260Z - info: Building assets...
-2019-08-08T02:10:15.998Z - info: Assets built
-2019-08-08T02:10:15.998Z - info: Generating pages...
-2019-08-08T02:11:52.135Z - info: Pages built
-2019-08-08T02:12:11.415Z - info: Website generation complete! Total build time: 121.473s
-2019-08-08T02:12:11.739Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
-2019-08-08T02:12:11.739Z - info: Press CTRL+C to stop ...
-2019-08-08T02:12:11.765Z - info: Site data built
-2019-08-08T02:12:58.945Z - info: [10:12:58 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\topics.njk
-2019-08-08T02:12:59.959Z - info: Assets built
-2019-08-08T02:13:03.831Z - info: [10:13:03 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\topics.njk
-2019-08-08T02:13:04.839Z - info: Assets built
-2019-08-08T02:14:59.772Z - info: Website generation started at 10:14:57 AM
-2019-08-08T02:15:02.121Z - info: Building assets...
-2019-08-08T02:15:04.073Z - info: Assets built
-2019-08-08T02:15:04.074Z - info: Generating pages...
-2019-08-08T02:16:38.857Z - info: Pages built
-2019-08-08T02:16:57.956Z - info: Website generation complete! Total build time: 120.138s
-2019-08-08T02:16:58.294Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
-2019-08-08T02:16:58.294Z - info: Press CTRL+C to stop ...
-2019-08-08T02:16:58.328Z - info: Site data built
-2019-08-08T02:24:45.226Z - info: Website generation started at 10:24:43 AM
-2019-08-08T02:24:47.664Z - info: Building assets...
-2019-08-08T02:24:49.430Z - info: Assets built
-2019-08-08T02:24:49.431Z - info: Generating pages...
-2019-08-08T02:26:24.432Z - info: Pages built
-2019-08-08T02:26:43.974Z - info: Website generation complete! Total build time: 120.777s
-2019-08-08T02:26:43.974Z - info: Build success!
-2019-08-08T02:26:43.985Z - info: Site data built
-2019-08-08T02:27:42.871Z - info: Deployed!
-2019-08-08T07:21:32.500Z - info: Website generation started at 3:21:30 PM
-2019-08-08T07:21:36.082Z - info: Building assets...
-2019-08-08T07:21:38.215Z - info: Assets built
-2019-08-08T07:21:38.215Z - info: Generating pages...
-2019-08-08T07:23:23.295Z - info: Pages built
-2019-08-08T07:23:42.636Z - info: Website generation complete! Total build time: 132.433s
-2019-08-08T07:23:43.007Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
-2019-08-08T07:23:43.007Z - info: Press CTRL+C to stop ...
-2019-08-08T07:23:43.033Z - info: Site data built
-2019-08-08T07:24:24.803Z - info: [3:24:24 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\cli.md
-2019-08-08T07:24:25.804Z - info: Rebuilding affected source files
-2019-08-08T07:24:25.807Z - info: Rebuilding 6 pages
-2019-08-08T07:24:33.169Z - info: Pages rebuilt
-2019-08-08T07:24:33.187Z - info: Site data built
-2019-08-08T07:26:13.316Z - info: [3:26:13 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\cli.md
-2019-08-08T07:26:14.321Z - info: Rebuilding affected source files
-2019-08-08T07:26:14.324Z - info: Rebuilding 6 pages
-2019-08-08T07:26:21.266Z - info: Pages rebuilt
-2019-08-08T07:26:21.297Z - info: Site data built
-2019-08-08T07:28:07.123Z - info: [3:28:07 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\sourcetree.md
-2019-08-08T07:28:08.125Z - info: Rebuilding affected source files
-2019-08-08T07:28:08.127Z - info: Rebuilding 6 pages
-2019-08-08T07:28:15.373Z - info: Pages rebuilt
-2019-08-08T07:28:15.389Z - info: Site data built
-2019-08-08T07:32:03.415Z - info: [3:32:03 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\~$sourcetree_1.pptx
-2019-08-08T07:32:04.416Z - info: Assets built
-2019-08-08T07:33:27.799Z - info: [3:33:27 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\images\pushTags.png
-2019-08-08T07:33:27.827Z - info: [3:33:27 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\images\pushTags.png
-2019-08-08T07:33:28.806Z - info: Assets built
-2019-08-08T07:34:35.302Z - info: [3:34:35 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\sourcetree.md
-2019-08-08T07:34:36.304Z - info: Rebuilding affected source files
-2019-08-08T07:34:36.305Z - info: Rebuilding 6 pages
-2019-08-08T07:34:43.318Z - info: Pages rebuilt
-2019-08-08T07:34:43.337Z - info: Site data built
-2019-08-08T07:34:55.827Z - info: [3:34:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\sourcetree.md
-2019-08-08T07:34:56.833Z - info: Rebuilding affected source files
-2019-08-08T07:34:56.835Z - info: Rebuilding 6 pages
-2019-08-08T07:35:03.938Z - info: Pages rebuilt
-2019-08-08T07:35:03.976Z - info: Site data built
-2019-08-08T07:35:17.723Z - info: [3:35:17 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\sourcetree.md
-2019-08-08T07:35:18.724Z - info: Rebuilding affected source files
-2019-08-08T07:35:18.726Z - info: Rebuilding 6 pages
-2019-08-08T07:35:25.819Z - info: Pages rebuilt
-2019-08-08T07:35:25.852Z - info: Site data built
-2019-08-08T07:35:46.613Z - info: [3:35:46 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\sourcetree.md
-2019-08-08T07:35:47.616Z - info: Rebuilding affected source files
-2019-08-08T07:35:47.618Z - info: Rebuilding 6 pages
-2019-08-08T07:35:54.960Z - info: Pages rebuilt
-2019-08-08T07:35:54.980Z - info: Site data built
-2019-08-08T07:37:41.872Z - info: [3:37:41 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gitAndGithub\tag\sourcetree.md
-2019-08-08T07:37:42.875Z - info: Rebuilding affected source files
-2019-08-08T07:37:42.877Z - info: Rebuilding 6 pages
-2019-08-08T07:37:50.113Z - info: Pages rebuilt
-2019-08-08T07:37:50.132Z - info: Site data built
-2019-08-08T08:30:03.458Z - info: [4:30:03 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\se-book-adapted\config.njk
-2019-08-08T08:30:04.467Z - info: Assets built
-2019-08-08T08:30:48.066Z - info: [4:30:48 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\sequenceDiagrams\parallelPaths\text.md
-2019-08-08T08:30:49.068Z - info: Rebuilding affected source files
-2019-08-08T08:30:49.072Z - info: Rebuilding 10 pages
-2019-08-08T08:30:59.263Z - info: Pages rebuilt
-2019-08-08T08:30:59.282Z - info: Site data built
-2019-08-08T08:33:21.788Z - info: [4:33:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architectureDiagrams\reading\text.md
-2019-08-08T08:33:22.791Z - info: Rebuilding affected source files
-2019-08-08T08:33:22.796Z - info: Rebuilding 15 pages
-2019-08-08T08:33:34.380Z - info: Pages rebuilt
-2019-08-08T08:33:34.389Z - info: Site data built
-2019-08-08T08:34:18.812Z - info: [4:34:18 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architectureDiagrams\reading\text.md
-2019-08-08T08:34:19.815Z - info: Rebuilding affected source files
-2019-08-08T08:34:19.818Z - info: Rebuilding 15 pages
-2019-08-08T08:34:32.267Z - info: Pages rebuilt
-2019-08-08T08:34:32.278Z - info: Site data built
-2019-08-08T08:35:15.646Z - info: [4:35:15 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architectureDiagrams\reading\text.md
-2019-08-08T08:35:16.649Z - info: Rebuilding affected source files
-2019-08-08T08:35:16.652Z - info: Rebuilding 15 pages
-2019-08-08T08:35:29.301Z - info: Pages rebuilt
-2019-08-08T08:35:29.314Z - info: Site data built
-2019-08-08T08:35:49.051Z - info: [4:35:49 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architectureDiagrams\reading\text.md
-2019-08-08T08:35:50.058Z - info: Rebuilding affected source files
-2019-08-08T08:35:50.061Z - info: Rebuilding 15 pages
-2019-08-08T08:36:02.019Z - info: Pages rebuilt
-2019-08-08T08:36:02.029Z - info: Site data built
-2019-08-08T08:36:52.097Z - info: [4:36:52 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architectureDiagrams\reading\text.md
-2019-08-08T08:36:53.100Z - info: Rebuilding affected source files
-2019-08-08T08:36:53.103Z - info: Rebuilding 15 pages
-2019-08-08T08:37:05.218Z - info: Pages rebuilt
-2019-08-08T08:37:05.230Z - info: Site data built
-2019-08-08T08:38:43.338Z - info: [4:38:43 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designApproaches\multilevelDesign\what\text.md
-2019-08-08T08:38:44.341Z - info: Rebuilding affected source files
-2019-08-08T08:38:44.344Z - info: Rebuilding 10 pages
-2019-08-08T08:38:52.076Z - info: Pages rebuilt
-2019-08-08T08:38:52.092Z - info: Site data built
-2019-08-08T08:39:58.012Z - info: [4:39:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designApproaches\multilevelDesign\what\text.md
-2019-08-08T08:39:59.015Z - info: Rebuilding affected source files
-2019-08-08T08:39:59.017Z - info: Rebuilding 10 pages
-2019-08-08T08:40:07.600Z - info: Pages rebuilt
-2019-08-08T08:40:07.614Z - info: Site data built
-2019-08-08T08:41:05.083Z - info: [4:41:05 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designApproaches\multilevelDesign\what\text.md
-2019-08-08T08:41:06.087Z - info: Rebuilding affected source files
-2019-08-08T08:41:06.089Z - info: Rebuilding 10 pages
-2019-08-08T08:41:15.592Z - info: Pages rebuilt
-2019-08-08T08:41:15.704Z - info: Site data built
-2019-08-08T08:41:26.452Z - info: [4:41:26 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designApproaches\multilevelDesign\what\text.md
-2019-08-08T08:41:27.453Z - info: Rebuilding affected source files
-2019-08-08T08:41:27.454Z - info: Rebuilding 10 pages
-2019-08-08T08:41:37.596Z - info: Pages rebuilt
-2019-08-08T08:41:37.611Z - info: Site data built
-2019-08-08T08:41:43.974Z - info: [4:41:43 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designApproaches\multilevelDesign\what\text.md
-2019-08-08T08:41:44.975Z - info: Rebuilding affected source files
-2019-08-08T08:41:44.977Z - info: Rebuilding 10 pages
-2019-08-08T08:41:53.539Z - info: Pages rebuilt
-2019-08-08T08:41:53.553Z - info: Site data built
-2019-08-08T08:41:57.147Z - info: [4:41:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designApproaches\multilevelDesign\what\text.md
-2019-08-08T08:41:58.150Z - info: Rebuilding affected source files
-2019-08-08T08:41:58.152Z - info: Rebuilding 10 pages
-2019-08-08T08:42:07.021Z - info: Pages rebuilt
-2019-08-08T08:42:07.036Z - info: Site data built
-2019-08-08T08:42:40.125Z - info: [4:42:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\ides\debugging\what\text.md
-2019-08-08T08:42:41.127Z - info: Rebuilding affected source files
-2019-08-08T08:42:41.129Z - info: Rebuilding 9 pages
-2019-08-08T08:42:49.962Z - info: Pages rebuilt
-2019-08-08T08:42:49.987Z - info: Site data built
-2019-08-08T08:43:04.078Z - info: [4:43:04 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\ides\debugging\what\text.md
-2019-08-08T08:43:05.080Z - info: Rebuilding affected source files
-2019-08-08T08:43:05.083Z - info: Rebuilding 9 pages
-2019-08-08T08:43:13.506Z - info: Pages rebuilt
-2019-08-08T08:43:13.520Z - info: Site data built
-2019-08-08T08:47:28.672Z - info: [4:47:28 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\ides\debugging\what\text.md
-2019-08-08T08:47:29.675Z - info: Rebuilding affected source files
-2019-08-08T08:47:29.677Z - info: Rebuilding 9 pages
-2019-08-08T08:47:38.035Z - info: Pages rebuilt
-2019-08-08T08:47:38.052Z - info: Site data built
-2019-08-08T08:51:35.495Z - info: [4:51:35 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\ppt6857.tmp
-2019-08-08T08:51:35.537Z - info: [4:51:35 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\ppt6857.tmp
-2019-08-08T08:51:35.706Z - info: [4:51:35 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\sourcetree_1.pptx
-2019-08-08T08:51:35.710Z - info: [4:51:35 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\7D9C5456.tmp
-2019-08-08T08:51:35.787Z - info: [4:51:35 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\sourcetree_1.pptx
-2019-08-08T08:51:35.802Z - info: [4:51:35 PM] Reload for file deletion: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\ppt6857.tmp
-2019-08-08T08:51:35.969Z - info: [4:51:35 PM] Reload for file deletion: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\7D9C5456.tmp
-2019-08-08T08:51:36.136Z - info: [4:51:36 PM] Reload for file deletion: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\diagrams\gitAndGithub\tag\~$sourcetree_1.pptx
-2019-08-08T08:51:36.497Z - info: Assets built
-2019-08-08T08:51:36.804Z - info: Assets removed
-2019-08-08T08:58:14.225Z - info: [4:58:14 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\intellij\codeNavigation\text.md
-2019-08-08T08:58:15.227Z - info: Rebuilding affected source files
-2019-08-08T08:58:15.230Z - info: Rebuilding 6 pages
-2019-08-08T08:58:19.222Z - info: Pages rebuilt
-2019-08-08T08:58:19.234Z - info: Site data built
-2019-08-08T09:04:57.759Z - info: [5:04:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\tools\asciiDoc\path.md
-2019-08-08T09:04:57.762Z - info: [5:04:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\tools\markdown\path.md
-2019-08-08T09:04:58.762Z - info: Rebuilding affected source files
-2019-08-08T09:04:58.764Z - info: Rebuilding 6 pages
-2019-08-08T09:05:02.584Z - info: Pages rebuilt
-2019-08-08T09:05:02.595Z - info: Site data built
-2019-08-08T09:12:41.576Z - info: [5:12:41 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\introduction\text.md
-2019-08-08T09:12:42.578Z - info: Rebuilding affected source files
-2019-08-08T09:12:42.582Z - info: Rebuilding 12 pages
-2019-08-08T09:12:54.323Z - info: Pages rebuilt
-2019-08-08T09:12:54.338Z - info: Site data built
-2019-08-08T09:13:31.884Z - info: [5:13:31 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\introduction\text.md
-2019-08-08T09:13:32.885Z - info: Rebuilding affected source files
-2019-08-08T09:13:32.889Z - info: Rebuilding 12 pages
-2019-08-08T09:13:44.051Z - info: Pages rebuilt
-2019-08-08T09:13:44.069Z - info: Site data built
-2019-08-08T09:14:07.364Z - info: [5:14:07 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\introduction\text.md
-2019-08-08T09:14:08.368Z - info: Rebuilding affected source files
-2019-08-08T09:14:08.371Z - info: Rebuilding 12 pages
-2019-08-08T09:14:19.220Z - info: Pages rebuilt
-2019-08-08T09:14:19.235Z - info: Site data built
-2019-08-08T09:15:05.088Z - info: [5:15:05 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\identifying\text.md
-2019-08-08T09:15:06.089Z - info: Rebuilding affected source files
-2019-08-08T09:15:06.092Z - info: Rebuilding 10 pages
-2019-08-08T09:15:16.229Z - info: Pages rebuilt
-2019-08-08T09:15:16.245Z - info: Site data built
-2019-08-08T09:15:35.135Z - info: [5:15:35 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\identifying\text.md
-2019-08-08T09:15:36.137Z - info: Rebuilding affected source files
-2019-08-08T09:15:36.139Z - info: Rebuilding 10 pages
-2019-08-08T09:15:47.016Z - info: Pages rebuilt
-2019-08-08T09:15:47.030Z - info: Site data built
-2019-08-08T09:15:55.456Z - info: [5:15:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\identifying\text.md
-2019-08-08T09:15:56.458Z - info: Rebuilding affected source files
-2019-08-08T09:15:56.460Z - info: Rebuilding 10 pages
-2019-08-08T09:16:06.842Z - info: Pages rebuilt
-2019-08-08T09:16:06.859Z - info: Site data built
-2019-08-08T09:16:21.183Z - info: [5:16:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\identifying\text.md
-2019-08-08T09:16:22.186Z - info: Rebuilding affected source files
-2019-08-08T09:16:22.188Z - info: Rebuilding 10 pages
-2019-08-08T09:16:32.857Z - info: Pages rebuilt
-2019-08-08T09:16:32.876Z - info: Site data built
-2019-08-08T09:17:27.651Z - info: [5:17:27 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\useCaseSteps.md
-2019-08-08T09:17:28.655Z - info: Rebuilding affected source files
-2019-08-08T09:17:28.657Z - info: Rebuilding 7 pages
-2019-08-08T09:17:37.083Z - info: Pages rebuilt
-2019-08-08T09:17:37.119Z - info: Site data built
-2019-08-08T09:18:19.771Z - info: [5:18:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\useCaseSteps.md
-2019-08-08T09:18:20.773Z - info: Rebuilding affected source files
-2019-08-08T09:18:20.776Z - info: Rebuilding 7 pages
-2019-08-08T09:18:28.970Z - info: Pages rebuilt
-2019-08-08T09:18:28.990Z - info: Site data built
-2019-08-08T09:19:09.319Z - info: [5:19:09 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\useCaseSteps.md
-2019-08-08T09:19:10.322Z - info: Rebuilding affected source files
-2019-08-08T09:19:10.324Z - info: Rebuilding 7 pages
-2019-08-08T09:19:18.441Z - info: Pages rebuilt
-2019-08-08T09:19:18.460Z - info: Site data built
-2019-08-08T09:21:21.913Z - info: [5:21:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\mainSuccessScenario.md
-2019-08-08T09:21:22.917Z - info: Rebuilding affected source files
-2019-08-08T09:21:22.919Z - info: Rebuilding 7 pages
-2019-08-08T09:21:31.704Z - info: Pages rebuilt
-2019-08-08T09:21:31.720Z - info: Site data built
-2019-08-08T09:21:45.947Z - info: [5:21:45 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\mainSuccessScenario.md
-2019-08-08T09:21:46.946Z - info: Rebuilding affected source files
-2019-08-08T09:21:46.948Z - info: Rebuilding 7 pages
-2019-08-08T09:21:55.527Z - info: Pages rebuilt
-2019-08-08T09:21:55.543Z - info: Site data built
-2019-08-08T09:22:06.560Z - info: [5:22:06 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\mainSuccessScenario.md
-2019-08-08T09:22:07.563Z - info: Rebuilding affected source files
-2019-08-08T09:22:07.565Z - info: Rebuilding 7 pages
-2019-08-08T09:22:16.436Z - info: Pages rebuilt
-2019-08-08T09:22:16.456Z - info: Site data built
-2019-08-08T09:23:50.138Z - info: [5:23:50 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\mainSuccessScenario.md
-2019-08-08T09:23:51.141Z - info: Rebuilding affected source files
-2019-08-08T09:23:51.143Z - info: Rebuilding 7 pages
-2019-08-08T09:23:59.715Z - info: Pages rebuilt
-2019-08-08T09:23:59.737Z - info: Site data built
-2019-08-08T09:24:15.439Z - info: [5:24:15 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\mainSuccessScenario.md
-2019-08-08T09:24:16.441Z - info: Rebuilding affected source files
-2019-08-08T09:24:16.442Z - info: Rebuilding 7 pages
-2019-08-08T09:24:24.892Z - info: Pages rebuilt
-2019-08-08T09:24:24.907Z - info: Site data built
-2019-08-08T09:25:14.209Z - info: [5:25:14 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\extensions.md
-2019-08-08T09:25:15.209Z - info: Rebuilding affected source files
-2019-08-08T09:25:15.210Z - info: Rebuilding 7 pages
-2019-08-08T09:25:23.862Z - info: Pages rebuilt
-2019-08-08T09:25:23.883Z - info: Site data built
-2019-08-08T09:26:30.818Z - info: [5:26:30 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\inclusions.md
-2019-08-08T09:26:31.819Z - info: Rebuilding affected source files
-2019-08-08T09:26:31.821Z - info: Rebuilding 7 pages
-2019-08-08T09:26:40.094Z - info: Pages rebuilt
-2019-08-08T09:26:40.104Z - info: Site data built
-2019-08-08T09:27:13.124Z - info: [5:27:13 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\preconditions.md
-2019-08-08T09:27:14.125Z - info: Rebuilding affected source files
-2019-08-08T09:27:14.127Z - info: Rebuilding 7 pages
-2019-08-08T09:27:21.337Z - info: Pages rebuilt
-2019-08-08T09:27:21.347Z - info: Site data built
-2019-08-08T09:28:28.689Z - info: [5:28:28 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\preconditions.md
-2019-08-08T09:28:29.691Z - info: Rebuilding affected source files
-2019-08-08T09:28:29.694Z - info: Rebuilding 7 pages
-2019-08-08T09:28:38.814Z - info: Pages rebuilt
-2019-08-08T09:28:38.843Z - info: Site data built
-2019-08-08T09:29:53.844Z - info: [5:29:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\preconditions.md
-2019-08-08T09:29:54.848Z - info: Rebuilding affected source files
-2019-08-08T09:29:54.850Z - info: Rebuilding 7 pages
-2019-08-08T09:30:03.530Z - info: Pages rebuilt
-2019-08-08T09:30:03.549Z - info: Site data built
-2019-08-08T09:30:46.338Z - info: [5:30:46 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\preconditions.md
-2019-08-08T09:30:47.339Z - info: Rebuilding affected source files
-2019-08-08T09:30:47.341Z - info: Rebuilding 7 pages
-2019-08-08T09:30:56.085Z - info: Pages rebuilt
-2019-08-08T09:30:56.109Z - info: Site data built
-2019-08-08T09:33:13.773Z - info: [5:33:13 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\guarantees.md
-2019-08-08T09:33:14.775Z - info: Rebuilding affected source files
-2019-08-08T09:33:14.778Z - info: Rebuilding 7 pages
-2019-08-08T09:33:25.312Z - info: Pages rebuilt
-2019-08-08T09:33:25.333Z - info: Site data built
-2019-08-08T09:34:54.283Z - info: [5:34:54 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\useCases\details\guarantees.md
-2019-08-08T09:34:55.287Z - info: Rebuilding affected source files
-2019-08-08T09:34:55.289Z - info: Rebuilding 7 pages
-2019-08-08T09:35:04.156Z - info: Pages rebuilt
-2019-08-08T09:35:04.173Z - info: Site data built
-2019-08-08T09:37:20.244Z - info: [5:37:20 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:37:21.247Z - info: Rebuilding affected source files
-2019-08-08T09:37:21.248Z - info: Rebuilding 3 pages
-2019-08-08T09:37:25.017Z - info: Pages rebuilt
-2019-08-08T09:37:25.033Z - info: Site data built
-2019-08-08T09:37:47.756Z - info: [5:37:47 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:37:48.758Z - info: Rebuilding affected source files
-2019-08-08T09:37:48.759Z - info: Rebuilding 3 pages
-2019-08-08T09:37:51.722Z - info: Pages rebuilt
-2019-08-08T09:37:51.749Z - info: Site data built
-2019-08-08T09:41:33.388Z - info: [5:41:33 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:41:34.391Z - info: Rebuilding affected source files
-2019-08-08T09:41:34.393Z - info: Rebuilding 3 pages
-2019-08-08T09:41:37.701Z - info: Pages rebuilt
-2019-08-08T09:41:37.712Z - info: Site data built
-2019-08-08T09:42:46.361Z - info: [5:42:46 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:42:47.366Z - info: Rebuilding affected source files
-2019-08-08T09:42:47.367Z - info: Rebuilding 3 pages
-2019-08-08T09:42:50.424Z - info: Pages rebuilt
-2019-08-08T09:42:50.454Z - info: Site data built
-2019-08-08T09:42:59.596Z - info: [5:42:59 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:43:00.597Z - info: Rebuilding affected source files
-2019-08-08T09:43:00.598Z - info: Rebuilding 3 pages
-2019-08-08T09:43:03.367Z - info: Pages rebuilt
-2019-08-08T09:43:03.377Z - info: Site data built
-2019-08-08T09:43:12.281Z - info: [5:43:12 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:43:13.281Z - info: Rebuilding affected source files
-2019-08-08T09:43:13.282Z - info: Rebuilding 3 pages
-2019-08-08T09:43:15.843Z - info: Pages rebuilt
-2019-08-08T09:43:15.856Z - info: Site data built
-2019-08-08T09:43:28.617Z - info: [5:43:28 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:43:29.618Z - info: Rebuilding affected source files
-2019-08-08T09:43:29.620Z - info: Rebuilding 3 pages
-2019-08-08T09:43:32.030Z - info: Pages rebuilt
-2019-08-08T09:43:32.044Z - info: Site data built
-2019-08-08T09:43:40.441Z - info: [5:43:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:43:41.442Z - info: Rebuilding affected source files
-2019-08-08T09:43:41.443Z - info: Rebuilding 3 pages
-2019-08-08T09:43:43.958Z - info: Pages rebuilt
-2019-08-08T09:43:43.970Z - info: Site data built
-2019-08-08T09:46:31.365Z - info: [5:46:31 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:46:32.367Z - info: Rebuilding affected source files
-2019-08-08T09:46:32.370Z - info: Rebuilding 3 pages
-2019-08-08T09:46:35.896Z - info: Pages rebuilt
-2019-08-08T09:46:35.931Z - info: Site data built
-2019-08-08T09:46:50.250Z - info: [5:46:50 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:46:51.250Z - info: Rebuilding affected source files
-2019-08-08T09:46:51.251Z - info: Rebuilding 3 pages
-2019-08-08T09:46:54.305Z - info: Pages rebuilt
-2019-08-08T09:46:54.318Z - info: Site data built
-2019-08-08T09:47:13.986Z - info: [5:47:13 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:47:14.988Z - info: Rebuilding affected source files
-2019-08-08T09:47:14.990Z - info: Rebuilding 3 pages
-2019-08-08T09:47:18.325Z - info: Pages rebuilt
-2019-08-08T09:47:18.346Z - info: Site data built
-2019-08-08T09:47:32.045Z - info: [5:47:32 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:47:33.047Z - info: Rebuilding affected source files
-2019-08-08T09:47:33.048Z - info: Rebuilding 3 pages
-2019-08-08T09:47:36.111Z - info: Pages rebuilt
-2019-08-08T09:47:36.123Z - info: Site data built
-2019-08-08T09:48:35.710Z - info: [5:48:35 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:48:36.712Z - info: Rebuilding affected source files
-2019-08-08T09:48:36.714Z - info: Rebuilding 3 pages
-2019-08-08T09:48:40.304Z - info: Pages rebuilt
-2019-08-08T09:48:40.325Z - info: Site data built
-2019-08-08T09:48:48.878Z - info: [5:48:48 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:48:49.878Z - info: Rebuilding affected source files
-2019-08-08T09:48:49.879Z - info: Rebuilding 3 pages
-2019-08-08T09:48:53.272Z - info: Pages rebuilt
-2019-08-08T09:48:53.286Z - info: Site data built
-2019-08-08T09:49:18.720Z - info: [5:49:18 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:49:19.721Z - info: Rebuilding affected source files
-2019-08-08T09:49:19.728Z - info: Rebuilding 3 pages
-2019-08-08T09:49:23.115Z - info: Pages rebuilt
-2019-08-08T09:49:23.146Z - info: Site data built
-2019-08-08T09:50:38.264Z - info: [5:50:38 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:50:39.266Z - info: Rebuilding affected source files
-2019-08-08T09:50:39.267Z - info: Rebuilding 3 pages
-2019-08-08T09:50:42.223Z - info: Pages rebuilt
-2019-08-08T09:50:42.252Z - info: Site data built
-2019-08-08T09:51:39.211Z - info: [5:51:39 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\timeline.md
-2019-08-08T09:51:40.213Z - info: Rebuilding affected source files
-2019-08-08T09:51:40.214Z - info: Rebuilding 3 pages
-2019-08-08T09:51:43.481Z - info: Pages rebuilt
-2019-08-08T09:51:43.504Z - info: Site data built
-2019-08-08T10:10:23.534Z - info: [6:10:23 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\abstraction\what\text.md
-2019-08-08T10:10:24.536Z - info: Rebuilding affected source files
-2019-08-08T10:10:24.541Z - info: Rebuilding 22 pages
-2019-08-08T10:10:42.018Z - info: Pages rebuilt
-2019-08-08T10:10:42.030Z - info: Site data built
-2019-08-08T10:11:50.038Z - info: [6:11:50 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designFundamentals\abstraction\what\text.md
-2019-08-08T10:11:51.039Z - info: Rebuilding affected source files
-2019-08-08T10:11:51.043Z - info: Rebuilding 22 pages
-2019-08-08T10:12:07.524Z - info: Pages rebuilt
-2019-08-08T10:12:07.539Z - info: Site data built
-2019-08-08T10:17:30.756Z - info: [6:17:30 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\integration\approaches\lateVsEarly\text.md
-2019-08-08T10:17:31.760Z - info: Rebuilding affected source files
-2019-08-08T10:17:31.765Z - info: Rebuilding 10 pages
-2019-08-08T10:17:43.477Z - info: Pages rebuilt
-2019-08-08T10:17:43.504Z - info: Site data built
-2019-08-08T10:20:55.089Z - info: [6:20:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\projectPlanning\workBreakdownStructure\text.md
-2019-08-08T10:20:56.093Z - info: Rebuilding affected source files
-2019-08-08T10:20:56.096Z - info: Rebuilding 9 pages
-2019-08-08T10:21:06.799Z - info: Pages rebuilt
-2019-08-08T10:21:06.817Z - info: Site data built
-2019-08-08T10:21:20.402Z - info: [6:21:20 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\projectPlanning\workBreakdownStructure\text.md
-2019-08-08T10:21:21.403Z - info: Rebuilding affected source files
-2019-08-08T10:21:21.406Z - info: Rebuilding 9 pages
-2019-08-08T10:21:32.043Z - info: Pages rebuilt
-2019-08-08T10:21:32.060Z - info: Site data built
-2019-08-08T10:21:51.345Z - info: [6:21:51 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\projectPlanning\workBreakdownStructure\text.md
-2019-08-08T10:21:52.346Z - info: Rebuilding affected source files
-2019-08-08T10:21:52.348Z - info: Rebuilding 9 pages
-2019-08-08T10:22:02.160Z - info: Pages rebuilt
-2019-08-08T10:22:02.175Z - info: Site data built
-2019-08-08T10:27:17.807Z - info: [6:27:17 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\integrationTesting\how\text.md
-2019-08-08T10:27:18.808Z - info: Rebuilding affected source files
-2019-08-08T10:27:18.811Z - info: Rebuilding 10 pages
-2019-08-08T10:27:30.325Z - info: Pages rebuilt
-2019-08-08T10:27:30.337Z - info: Site data built
-2019-08-08T10:32:54.949Z - info: [6:32:54 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testAutomation\testingGuis\text.md
-2019-08-08T10:32:55.952Z - info: Rebuilding affected source files
-2019-08-08T10:32:55.955Z - info: Rebuilding 9 pages
-2019-08-08T10:33:07.325Z - info: Pages rebuilt
-2019-08-08T10:33:07.341Z - info: Site data built
-2019-08-08T10:35:56.561Z - info: [6:35:56 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-08T10:35:56.573Z - info: [6:35:56 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-2019-08-08T10:35:57.564Z - info: Rebuilding affected source files
-2019-08-08T10:35:57.587Z - info: Rebuilding 168 pages
-2019-08-08T10:36:01.249Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:03.536Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:07.752Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:11.210Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:11.613Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:11.671Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:11.683Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:12.206Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:36:33.947Z - info: [6:36:33 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-2019-08-08T10:36:34.054Z - info: [6:36:34 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-2019-08-08T10:36:49.902Z - info: Pages rebuilt
-2019-08-08T10:36:49.914Z - info: Site data built
-2019-08-08T10:36:50.126Z - info: Rebuilding affected source files
-2019-08-08T10:36:50.130Z - info: Rebuilding 10 pages
-2019-08-08T10:37:01.719Z - info: Pages rebuilt
-2019-08-08T10:37:01.732Z - info: Site data built
-2019-08-08T10:37:15.410Z - info: [6:37:15 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-2019-08-08T10:37:16.412Z - info: Rebuilding affected source files
-2019-08-08T10:37:16.417Z - info: Rebuilding 10 pages
-2019-08-08T10:37:16.832Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{baseUrl}}\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:18.060Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{hostBaseUrl}}\book\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:18.175Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{hostBaseUrl}}\book\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:18.249Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{baseUrl}}\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:18.262Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{baseUrl}}\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:18.374Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{baseUrl}}\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:19.243Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{baseUrl}}\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:19.843Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\{{hostBaseUrl}}\book\common\definitions.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T10:37:27.742Z - info: Pages rebuilt
-2019-08-08T10:37:27.815Z - info: Site data built
-2019-08-08T10:37:49.034Z - info: [6:37:49 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\acceptanceTesting\what\text.md
-2019-08-08T10:37:50.036Z - info: Rebuilding affected source files
-2019-08-08T10:37:50.039Z - info: Rebuilding 10 pages
-2019-08-08T10:38:01.377Z - info: Pages rebuilt
-2019-08-08T10:38:01.390Z - info: Site data built
-2019-08-08T10:39:55.974Z - info: [6:39:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
-2019-08-08T10:39:55.984Z - info: [6:39:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\systemTesting\what\text.md
-2019-08-08T10:39:56.976Z - info: Rebuilding affected source files
-2019-08-08T10:39:56.995Z - info: Rebuilding 170 pages
-2019-08-08T10:40:47.576Z - info: Pages rebuilt
-2019-08-08T10:40:47.586Z - info: Site data built
-2019-08-08T10:55:44.522Z - info: [6:55:44 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\se-book-adapted\config.njk
-2019-08-08T10:55:45.531Z - info: Assets built
-2019-08-08T10:56:47.594Z - info: [6:56:47 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\se-book-adapted\config.njk
-2019-08-08T10:56:48.601Z - info: Assets built
-2019-08-08T10:58:13.581Z - info: [6:58:13 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\singleResponsibilityPrinciple\text.md
-2019-08-08T10:58:14.580Z - info: Rebuilding affected source files
-2019-08-08T10:58:14.584Z - info: Rebuilding 10 pages
-2019-08-08T10:58:24.961Z - info: Pages rebuilt
-2019-08-08T10:58:24.972Z - info: Site data built
-2019-08-08T10:58:49.671Z - info: [6:58:49 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\separationOfConcernsPrinciple\text.md
-2019-08-08T10:58:50.674Z - info: Rebuilding affected source files
-2019-08-08T10:58:50.677Z - info: Rebuilding 9 pages
-2019-08-08T10:59:00.429Z - info: Pages rebuilt
-2019-08-08T10:59:00.461Z - info: Site data built
-2019-08-08T11:00:26.619Z - info: [7:00:26 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\openClosedPrinciple\text.md
-2019-08-08T11:00:27.623Z - info: Rebuilding affected source files
-2019-08-08T11:00:27.625Z - info: Rebuilding 10 pages
-2019-08-08T11:00:37.937Z - info: Pages rebuilt
-2019-08-08T11:00:37.947Z - info: Site data built
-2019-08-08T11:05:02.303Z - info: [7:05:02 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\path.md
-2019-08-08T11:05:03.306Z - info: Rebuilding affected source files
-2019-08-08T11:05:03.310Z - info: Rebuilding 25 pages
-2019-08-08T11:05:17.271Z - info: Pages rebuilt
-2019-08-08T11:05:17.282Z - info: Site data built
-2019-08-08T11:05:56.714Z - info: [7:05:56 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\path.md
-2019-08-08T11:05:57.715Z - info: Rebuilding affected source files
-2019-08-08T11:05:57.722Z - info: Rebuilding 25 pages
-2019-08-08T11:06:12.402Z - info: Pages rebuilt
-2019-08-08T11:06:12.428Z - info: Site data built
-2019-08-08T11:07:33.921Z - info: [7:07:33 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\principles\dependencyInversionPrinciple\text.md
-2019-08-08T11:07:34.923Z - info: Rebuilding affected source files
-2019-08-08T11:07:34.925Z - info: Rebuilding 8 pages
-2019-08-08T11:07:41.545Z - info: Pages rebuilt
-2019-08-08T11:07:41.556Z - info: Site data built
-2019-08-08T11:18:11.536Z - info: [7:18:11 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:18:12.541Z - info: Rebuilding affected source files
-2019-08-08T11:18:12.543Z - info: Rebuilding 9 pages
-2019-08-08T11:18:21.924Z - info: Pages rebuilt
-2019-08-08T11:18:21.934Z - info: Site data built
-2019-08-08T11:19:00.224Z - info: [7:19:00 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:19:01.227Z - info: Rebuilding affected source files
-2019-08-08T11:19:01.229Z - info: Rebuilding 9 pages
-2019-08-08T11:19:12.410Z - info: Pages rebuilt
-2019-08-08T11:19:12.469Z - info: Site data built
-2019-08-08T11:19:52.401Z - info: [7:19:52 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:19:53.404Z - info: Rebuilding affected source files
-2019-08-08T11:19:53.407Z - info: Rebuilding 9 pages
-2019-08-08T11:20:04.645Z - info: Pages rebuilt
-2019-08-08T11:20:04.658Z - info: Site data built
-2019-08-08T11:20:30.307Z - info: [7:20:30 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:20:31.310Z - info: Rebuilding affected source files
-2019-08-08T11:20:31.312Z - info: Rebuilding 9 pages
-2019-08-08T11:20:40.379Z - info: Pages rebuilt
-2019-08-08T11:20:40.392Z - info: Site data built
-2019-08-08T11:21:07.158Z - info: [7:21:07 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:21:08.160Z - info: Rebuilding affected source files
-2019-08-08T11:21:08.162Z - info: Rebuilding 9 pages
-2019-08-08T11:21:17.529Z - info: Pages rebuilt
-2019-08-08T11:21:17.543Z - info: Site data built
-2019-08-08T11:22:32.582Z - info: [7:22:32 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:22:33.582Z - info: Rebuilding affected source files
-2019-08-08T11:22:33.585Z - info: Rebuilding 9 pages
-2019-08-08T11:22:42.897Z - info: Pages rebuilt
-2019-08-08T11:22:42.927Z - info: Site data built
-2019-08-08T11:24:14.669Z - info: [7:24:14 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:24:15.676Z - info: Rebuilding affected source files
-2019-08-08T11:24:15.678Z - info: Rebuilding 9 pages
-2019-08-08T11:24:24.574Z - info: Pages rebuilt
-2019-08-08T11:24:24.595Z - info: Site data built
-2019-08-08T11:27:36.648Z - info: [7:27:36 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:27:37.648Z - info: Rebuilding affected source files
-2019-08-08T11:27:37.650Z - info: Rebuilding 9 pages
-2019-08-08T11:27:47.189Z - info: Pages rebuilt
-2019-08-08T11:27:47.201Z - info: Site data built
-2019-08-08T11:28:21.754Z - info: [7:28:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:28:22.756Z - info: Rebuilding affected source files
-2019-08-08T11:28:22.759Z - info: Rebuilding 9 pages
-2019-08-08T11:28:31.731Z - info: Pages rebuilt
-2019-08-08T11:28:31.744Z - info: Site data built
-2019-08-08T11:28:42.443Z - info: [7:28:42 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:28:43.444Z - info: Rebuilding affected source files
-2019-08-08T11:28:43.446Z - info: Rebuilding 9 pages
-2019-08-08T11:28:52.946Z - info: Pages rebuilt
-2019-08-08T11:28:52.971Z - info: Site data built
-2019-08-08T11:28:57.825Z - info: [7:28:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:28:58.826Z - info: Rebuilding affected source files
-2019-08-08T11:28:58.831Z - info: Rebuilding 9 pages
-2019-08-08T11:29:08.156Z - info: Pages rebuilt
-2019-08-08T11:29:08.196Z - info: Site data built
-2019-08-08T11:29:53.223Z - info: [7:29:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:29:54.227Z - info: Rebuilding affected source files
-2019-08-08T11:29:54.229Z - info: Rebuilding 9 pages
-2019-08-08T11:30:03.659Z - info: Pages rebuilt
-2019-08-08T11:30:03.690Z - info: Site data built
-2019-08-08T11:30:23.684Z - info: [7:30:23 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:30:24.687Z - info: Rebuilding affected source files
-2019-08-08T11:30:24.690Z - info: Rebuilding 9 pages
-2019-08-08T11:30:34.077Z - info: Pages rebuilt
-2019-08-08T11:30:34.100Z - info: Site data built
-2019-08-08T11:31:36.738Z - info: [7:31:36 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:31:37.738Z - info: Rebuilding affected source files
-2019-08-08T11:31:37.743Z - info: Rebuilding 9 pages
-2019-08-08T11:31:47.614Z - info: Pages rebuilt
-2019-08-08T11:31:47.642Z - info: Site data built
-2019-08-08T11:32:02.645Z - info: [7:32:02 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:32:03.645Z - info: Rebuilding affected source files
-2019-08-08T11:32:03.649Z - info: Rebuilding 9 pages
-2019-08-08T11:32:13.118Z - info: Pages rebuilt
-2019-08-08T11:32:13.138Z - info: Site data built
-2019-08-08T11:33:01.864Z - info: [7:33:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\documentation\introduction\what\text.md
-2019-08-08T11:33:02.868Z - info: Rebuilding affected source files
-2019-08-08T11:33:02.870Z - info: Rebuilding 9 pages
-2019-08-08T11:33:13.153Z - info: Pages rebuilt
-2019-08-08T11:33:13.188Z - info: Site data built
-2019-08-08T11:37:18.932Z - info: [7:37:18 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testCaseDesign\boundaryValueAnalysis\how\text.md
-2019-08-08T11:37:19.934Z - info: Rebuilding affected source files
-2019-08-08T11:37:19.938Z - info: Rebuilding 9 pages
-2019-08-08T11:37:30.296Z - info: Pages rebuilt
-2019-08-08T11:37:30.310Z - info: Site data built
-2019-08-08T11:40:58.929Z - info: [7:40:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\eventDriven\path.md
-2019-08-08T11:40:58.933Z - info: [7:40:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\path.md
-2019-08-08T11:40:58.936Z - info: [7:40:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\more\path.md
-2019-08-08T11:40:58.941Z - info: [7:40:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\path.md
-2019-08-08T11:40:58.946Z - info: [7:40:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\serviceOriented\path.md
-2019-08-08T11:40:58.951Z - info: [7:40:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\transactionProcessing\path.md
-2019-08-08T11:40:58.954Z - info: [7:40:58 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\introduction\path.md
-2019-08-08T11:40:59.930Z - info: Rebuilding affected source files
-2019-08-08T11:40:59.936Z - info: Rebuilding 24 pages
-2019-08-08T11:41:12.224Z - info: Pages rebuilt
-2019-08-08T11:41:12.234Z - info: Site data built
-2019-08-08T11:42:42.989Z - info: [7:42:42 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testCaseDesign\combiningTestInputs\why\text.md
-2019-08-08T11:42:43.992Z - info: Rebuilding affected source files
-2019-08-08T11:42:43.995Z - info: Rebuilding 9 pages
-2019-08-08T11:42:54.312Z - info: Pages rebuilt
-2019-08-08T11:42:54.332Z - info: Site data built
-2019-08-08T11:43:01.987Z - info: [7:43:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testCaseDesign\combiningTestInputs\why\text.md
-2019-08-08T11:43:02.988Z - info: Rebuilding affected source files
-2019-08-08T11:43:02.990Z - info: Rebuilding 9 pages
-2019-08-08T11:43:13.092Z - info: Pages rebuilt
-2019-08-08T11:43:13.108Z - info: Site data built
-2019-08-08T11:43:43.945Z - info: [7:43:43 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testCaseDesign\combiningTestInputs\why\text.md
-2019-08-08T11:43:44.944Z - info: Rebuilding affected source files
-2019-08-08T11:43:44.946Z - info: Rebuilding 9 pages
-2019-08-08T11:43:55.354Z - info: Pages rebuilt
-2019-08-08T11:43:55.377Z - info: Site data built
-2019-08-08T11:47:57.482Z - info: [7:47:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-2019-08-08T11:47:58.482Z - info: Rebuilding affected source files
-2019-08-08T11:47:58.485Z - info: Rebuilding 3 pages
-2019-08-08T11:47:59.730Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-CS2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:47:59.750Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-cs2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:48:01.204Z - info: Pages rebuilt
-2019-08-08T11:48:01.215Z - info: Site data built
-2019-08-08T11:49:10.228Z - info: [7:49:10 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-2019-08-08T11:49:11.229Z - info: Rebuilding affected source files
-2019-08-08T11:49:11.230Z - info: Rebuilding 3 pages
-2019-08-08T11:49:12.431Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-CS2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:49:12.462Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-cs2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:49:13.861Z - info: Pages rebuilt
-2019-08-08T11:49:13.883Z - info: Site data built
-2019-08-08T11:51:08.161Z - info: [7:51:08 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-2019-08-08T11:51:09.165Z - info: Rebuilding affected source files
-2019-08-08T11:51:09.167Z - info: Rebuilding 3 pages
-2019-08-08T11:51:10.356Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-CS2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:51:10.377Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-cs2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:51:11.799Z - info: Pages rebuilt
-2019-08-08T11:51:11.810Z - info: Site data built
-2019-08-08T11:51:23.680Z - info: [7:51:23 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-2019-08-08T11:51:24.681Z - info: Rebuilding affected source files
-2019-08-08T11:51:24.685Z - info: Rebuilding 3 pages
-2019-08-08T11:51:25.754Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-CS2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:51:25.772Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-cs2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:51:27.058Z - info: Pages rebuilt
-2019-08-08T11:51:27.072Z - info: Site data built
-2019-08-08T11:51:28.210Z - info: [7:51:28 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-2019-08-08T11:51:29.211Z - info: Rebuilding affected source files
-2019-08-08T11:51:29.215Z - info: Rebuilding 3 pages
-2019-08-08T11:51:29.235Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-cs2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:51:30.097Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-CS2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:51:31.337Z - info: Pages rebuilt
-2019-08-08T11:51:31.347Z - info: Site data built
-2019-08-08T11:56:37.796Z - info: Website generation started at 7:56:35 PM
-2019-08-08T11:56:40.433Z - info: Building assets...
-2019-08-08T11:56:42.452Z - info: Assets built
-2019-08-08T11:56:42.453Z - info: Generating pages...
-2019-08-08T11:56:46.023Z - error:  Error: No such segment 'toc' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\topics.md
-Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\notices-CS2103.md
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
-    at Array.map (<anonymous>)
-    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
-2019-08-08T11:58:15.468Z - info: Website generation started at 7:58:14 PM
-2019-08-08T11:58:18.006Z - info: Building assets...
-2019-08-08T11:58:19.894Z - info: Assets built
-2019-08-08T11:58:19.894Z - info: Generating pages...
-2019-08-08T12:00:03.660Z - info: Pages built
-2019-08-08T12:00:25.152Z - info: Website generation complete! Total build time: 130.208s
-2019-08-08T12:00:25.492Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
-2019-08-08T12:00:25.492Z - info: Press CTRL+C to stop ...
-2019-08-08T12:00:25.525Z - info: Site data built
-2019-08-08T12:02:54.698Z - info: [8:02:54 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\tools.md
-2019-08-08T12:02:55.700Z - info: Rebuilding affected source files
-2019-08-08T12:02:55.707Z - info: Rebuilding 15 pages
-2019-08-08T12:03:01.416Z - info: Pages rebuilt
-2019-08-08T12:03:01.449Z - info: Site data built
-2019-08-08T12:07:19.316Z - info: [8:07:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\programmingLanguages.md
-2019-08-08T12:07:19.320Z - info: [8:07:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\tools.md
-2019-08-08T12:07:19.326Z - info: [8:07:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week1\admin.md
-2019-08-08T12:07:20.319Z - info: Rebuilding affected source files
-2019-08-08T12:07:20.326Z - info: Rebuilding 20 pages
-2019-08-08T12:07:29.227Z - info: Pages rebuilt
-2019-08-08T12:07:29.254Z - info: Site data built
-2019-08-08T12:08:25.196Z - info: [8:08:25 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\programmingLanguages.md
-2019-08-08T12:08:26.197Z - info: Rebuilding affected source files
-2019-08-08T12:08:26.198Z - info: Rebuilding 2 pages
-2019-08-08T12:08:28.127Z - info: Pages rebuilt
-2019-08-08T12:08:28.154Z - info: Site data built
-2019-08-08T12:08:37.568Z - info: [8:08:37 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\programmingLanguages.md
-2019-08-08T12:08:38.570Z - info: Rebuilding affected source files
-2019-08-08T12:08:38.571Z - info: Rebuilding 2 pages
-2019-08-08T12:08:40.455Z - info: Pages rebuilt
-2019-08-08T12:08:40.469Z - info: Site data built
-2019-08-08T12:12:17.135Z - info: Website generation started at 8:12:14 PM
-2019-08-08T12:12:19.743Z - info: Building assets...
-2019-08-08T12:12:21.652Z - info: Assets built
-2019-08-08T12:12:21.652Z - info: Generating pages...
-2019-08-08T12:14:03.818Z - info: Pages built
-2019-08-08T12:14:23.950Z - info: Website generation complete! Total build time: 128.974s
-2019-08-08T12:14:23.950Z - info: Build success!
-2019-08-08T12:14:23.959Z - info: Site data built
-2019-08-08T12:15:21.623Z - info: Deployed!
+2019-08-08T14:26:53.108Z - info: Website generation started at 22:26:51
+2019-08-08T14:26:55.291Z - info: Building assets...
+2019-08-08T14:26:57.066Z - info: Assets built
+2019-08-08T14:26:57.067Z - info: Generating pages...
+2019-08-08T14:29:21.407Z - info: Pages built
+2019-08-08T14:29:45.132Z - info: Website generation complete! Total build time: 174.005s
+2019-08-08T14:29:45.440Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-08T14:29:45.440Z - info: Press CTRL+C to stop ...
+2019-08-08T14:29:45.514Z - info: Site data built
+2019-08-08T14:32:34.634Z - info: [22:32:34] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T14:32:35.636Z - info: Rebuilding affected source files
+2019-08-08T14:32:35.644Z - info: Rebuilding 15 pages
+2019-08-08T14:32:55.443Z - info: Pages rebuilt
+2019-08-08T14:32:55.470Z - info: Site data built
+2019-08-08T14:46:11.095Z - info: [22:46:11] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:46:12.097Z - info: Rebuilding affected source files
+2019-08-08T14:46:12.099Z - info: Rebuilding 6 pages
+2019-08-08T14:46:23.128Z - info: Pages rebuilt
+2019-08-08T14:46:23.156Z - info: Site data built
+2019-08-08T14:46:39.728Z - info: [22:46:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:46:40.729Z - info: Rebuilding affected source files
+2019-08-08T14:46:40.731Z - info: Rebuilding 6 pages
+2019-08-08T14:46:52.298Z - info: Pages rebuilt
+2019-08-08T14:46:52.328Z - info: Site data built
+2019-08-08T14:47:05.015Z - info: [22:47:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:47:06.040Z - info: Rebuilding affected source files
+2019-08-08T14:47:06.042Z - info: Rebuilding 6 pages
+2019-08-08T14:47:16.775Z - info: Pages rebuilt
+2019-08-08T14:47:16.797Z - info: Site data built
+2019-08-08T14:48:01.151Z - info: [22:48:01] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:48:02.151Z - info: Rebuilding affected source files
+2019-08-08T14:48:02.167Z - info: Rebuilding 6 pages
+2019-08-08T14:48:13.261Z - info: Pages rebuilt
+2019-08-08T14:48:13.297Z - info: Site data built
+2019-08-08T14:48:39.200Z - info: [22:48:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:48:40.207Z - info: Rebuilding affected source files
+2019-08-08T14:48:40.208Z - info: Rebuilding 6 pages
+2019-08-08T14:48:50.893Z - info: Pages rebuilt
+2019-08-08T14:48:51.016Z - info: Site data built
+2019-08-08T14:49:43.757Z - info: [22:49:43] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:49:44.760Z - info: Rebuilding affected source files
+2019-08-08T14:49:44.771Z - info: Rebuilding 6 pages
+2019-08-08T14:49:56.502Z - info: Pages rebuilt
+2019-08-08T14:49:56.522Z - info: Site data built
+2019-08-08T14:50:33.141Z - info: [22:50:33] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:50:34.142Z - info: Rebuilding affected source files
+2019-08-08T14:50:34.144Z - info: Rebuilding 6 pages
+2019-08-08T14:50:47.415Z - info: Pages rebuilt
+2019-08-08T14:50:47.533Z - info: Site data built
+2019-08-08T14:51:59.124Z - info: [22:51:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:52:00.143Z - info: Rebuilding affected source files
+2019-08-08T14:52:00.155Z - info: Rebuilding 12 pages
+2019-08-08T14:52:17.342Z - info: Pages rebuilt
+2019-08-08T14:52:17.441Z - info: Site data built
+2019-08-08T14:52:38.592Z - info: [22:52:38] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:52:39.594Z - info: Rebuilding affected source files
+2019-08-08T14:52:39.597Z - info: Rebuilding 12 pages
+2019-08-08T14:52:55.792Z - info: Pages rebuilt
+2019-08-08T14:52:55.815Z - info: Site data built
+2019-08-08T14:53:55.268Z - info: [22:53:55] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:53:56.276Z - info: Rebuilding affected source files
+2019-08-08T14:53:56.280Z - info: Rebuilding 12 pages
+2019-08-08T14:54:13.636Z - info: Pages rebuilt
+2019-08-08T14:54:13.742Z - info: Site data built
+2019-08-08T14:58:20.261Z - info: [22:58:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:58:20.272Z - info: [22:58:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:58:21.266Z - info: Rebuilding affected source files
+2019-08-08T14:58:21.268Z - info: Rebuilding 12 pages
+2019-08-08T14:58:38.676Z - info: Pages rebuilt
+2019-08-08T14:58:38.697Z - info: Site data built
+2019-08-08T14:59:39.961Z - info: [22:59:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\dependencies\text.md
+2019-08-08T14:59:40.962Z - info: Rebuilding affected source files
+2019-08-08T14:59:40.964Z - info: Rebuilding 6 pages
+2019-08-08T14:59:54.457Z - info: Pages rebuilt
+2019-08-08T14:59:54.500Z - info: Site data built
+2019-08-08T15:01:25.107Z - info: [23:01:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T15:01:26.112Z - info: Rebuilding affected source files
+2019-08-08T15:01:26.114Z - info: Rebuilding 6 pages
+2019-08-08T15:01:39.156Z - info: Pages rebuilt
+2019-08-08T15:01:39.185Z - info: Site data built
+2019-08-08T15:04:24.208Z - info: [23:04:24] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\composition\text.md
+2019-08-08T15:04:25.211Z - info: Rebuilding affected source files
+2019-08-08T15:04:25.218Z - info: Rebuilding 6 pages
+2019-08-08T15:04:41.365Z - info: Pages rebuilt
+2019-08-08T15:04:41.386Z - info: Site data built
+2019-08-08T15:05:02.438Z - info: [23:05:02] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\composition\text.md
+2019-08-08T15:05:03.439Z - info: Rebuilding affected source files
+2019-08-08T15:05:03.441Z - info: Rebuilding 6 pages
+2019-08-08T15:05:19.320Z - info: Pages rebuilt
+2019-08-08T15:05:19.347Z - info: Site data built
+2019-08-08T15:05:41.498Z - info: [23:05:41] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\composition\text.md
+2019-08-08T15:05:42.498Z - info: Rebuilding affected source files
+2019-08-08T15:05:42.500Z - info: Rebuilding 6 pages
+2019-08-08T15:05:56.466Z - info: Pages rebuilt
+2019-08-08T15:05:56.569Z - info: Site data built
+2019-08-08T15:08:17.998Z - info: [23:08:17] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\introduction\text.md
+2019-08-08T15:08:19.001Z - info: Rebuilding affected source files
+2019-08-08T15:08:19.004Z - info: Rebuilding 11 pages
+2019-08-08T15:08:42.623Z - info: Pages rebuilt
+2019-08-08T15:08:42.670Z - info: Site data built
+2019-08-08T15:10:37.834Z - info: [23:10:37] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:10:38.837Z - info: Rebuilding affected source files
+2019-08-08T15:10:38.840Z - info: Rebuilding 9 pages
+2019-08-08T15:11:00.537Z - info: Pages rebuilt
+2019-08-08T15:11:00.642Z - info: Site data built
+2019-08-08T15:12:34.754Z - info: [23:12:34] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:12:35.762Z - info: Rebuilding affected source files
+2019-08-08T15:12:35.763Z - info: Rebuilding 9 pages
+2019-08-08T15:12:58.357Z - info: Pages rebuilt
+2019-08-08T15:12:58.463Z - info: Site data built
+2019-08-08T15:12:58.894Z - info: [23:12:58] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:12:59.902Z - info: Rebuilding affected source files
+2019-08-08T15:12:59.904Z - info: Rebuilding 9 pages
+2019-08-08T15:13:23.527Z - info: [23:13:23] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:13:27.202Z - info: Pages rebuilt
+2019-08-08T15:13:27.300Z - info: Site data built
+2019-08-08T15:13:27.455Z - info: Rebuilding affected source files
+2019-08-08T15:13:27.457Z - info: Rebuilding 9 pages
+2019-08-08T15:13:49.478Z - info: Pages rebuilt
+2019-08-08T15:13:49.501Z - info: Site data built
+2019-08-08T15:17:24.166Z - info: [23:17:24] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:17:25.168Z - info: Rebuilding affected source files
+2019-08-08T15:17:25.173Z - info: Rebuilding 15 pages
+2019-08-08T15:17:51.475Z - info: Pages rebuilt
+2019-08-08T15:17:51.498Z - info: Site data built
+2019-08-08T15:18:27.854Z - info: [23:18:27] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:18:28.856Z - info: Rebuilding affected source files
+2019-08-08T15:18:28.860Z - info: Rebuilding 15 pages
+2019-08-08T15:18:53.068Z - info: Pages rebuilt
+2019-08-08T15:18:53.084Z - info: Site data built
+2019-08-08T15:20:07.692Z - info: [23:20:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:20:08.694Z - info: Rebuilding affected source files
+2019-08-08T15:20:08.700Z - info: Rebuilding 15 pages
+2019-08-08T15:20:36.228Z - info: Pages rebuilt
+2019-08-08T15:20:36.247Z - info: Site data built
+2019-08-08T15:21:44.019Z - info: [23:21:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:21:45.026Z - info: Rebuilding affected source files
+2019-08-08T15:21:45.033Z - info: Rebuilding 15 pages
+2019-08-08T15:22:11.102Z - info: Pages rebuilt
+2019-08-08T15:22:11.127Z - info: Site data built
+2019-08-08T15:23:28.084Z - info: [23:23:28] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\clientServer\what\text.md
+2019-08-08T15:23:29.094Z - info: Rebuilding affected source files
+2019-08-08T15:23:29.098Z - info: Rebuilding 10 pages
+2019-08-08T15:23:47.931Z - info: Pages rebuilt
+2019-08-08T15:23:47.999Z - info: Site data built
+2019-08-08T15:27:05.036Z - info: [23:27:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:27:06.043Z - info: Rebuilding affected source files
+2019-08-08T15:27:06.047Z - info: Rebuilding 9 pages
+2019-08-08T15:27:24.863Z - info: Pages rebuilt
+2019-08-08T15:27:24.889Z - info: Site data built
+2019-08-08T15:28:07.994Z - info: [23:28:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:08.998Z - info: Rebuilding affected source files
+2019-08-08T15:28:09.001Z - info: Rebuilding 9 pages
+2019-08-08T15:28:23.121Z - info: [23:28:23] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:25.487Z - info: [23:28:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:28.992Z - info: Pages rebuilt
+2019-08-08T15:28:29.026Z - info: Site data built
+2019-08-08T15:28:29.230Z - info: Rebuilding affected source files
+2019-08-08T15:28:29.233Z - info: Rebuilding 9 pages
+2019-08-08T15:28:49.083Z - info: Pages rebuilt
+2019-08-08T15:28:49.143Z - info: Site data built
+2019-08-08T15:28:56.279Z - info: [23:28:56] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:57.281Z - info: Rebuilding affected source files
+2019-08-08T15:28:57.284Z - info: Rebuilding 9 pages
+2019-08-08T15:29:14.135Z - info: Pages rebuilt
+2019-08-08T15:29:14.161Z - info: Site data built
+2019-08-08T15:31:13.548Z - info: [23:31:13] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:31:14.556Z - info: Rebuilding affected source files
+2019-08-08T15:31:14.559Z - info: Rebuilding 9 pages
+2019-08-08T15:31:33.534Z - info: Pages rebuilt
+2019-08-08T15:31:33.575Z - info: Site data built
+2019-08-08T15:31:53.250Z - info: [23:31:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:31:54.250Z - info: Rebuilding affected source files
+2019-08-08T15:31:54.252Z - info: Rebuilding 9 pages
+2019-08-08T15:32:12.258Z - info: Pages rebuilt
+2019-08-08T15:32:12.280Z - info: Site data built
+2019-08-08T15:32:59.650Z - info: [23:32:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:33:00.652Z - info: Rebuilding affected source files
+2019-08-08T15:33:00.656Z - info: Rebuilding 9 pages
+2019-08-08T15:33:17.269Z - info: Pages rebuilt
+2019-08-08T15:33:17.290Z - info: Site data built
+2019-08-08T15:35:13.151Z - info: [23:35:13] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\qualityAssurance\staticAnalysis\what\text.md
+2019-08-08T15:35:14.154Z - info: Rebuilding affected source files
+2019-08-08T15:35:14.165Z - info: Rebuilding 9 pages
+2019-08-08T15:35:31.175Z - info: Pages rebuilt
+2019-08-08T15:35:31.191Z - info: Site data built
+2019-08-08T15:35:49.938Z - info: [23:35:49] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\qualityAssurance\staticAnalysis\what\text.md
+2019-08-08T15:35:50.939Z - info: Rebuilding affected source files
+2019-08-08T15:35:50.941Z - info: Rebuilding 9 pages
+2019-08-08T15:36:06.508Z - info: Pages rebuilt
+2019-08-08T15:36:06.533Z - info: Site data built
+2019-08-08T15:37:19.501Z - info: [23:37:19] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\what\exampleTestCode-java.md
+2019-08-08T15:37:20.504Z - info: Rebuilding affected source files
+2019-08-08T15:37:20.507Z - info: Rebuilding 8 pages
+2019-08-08T15:37:37.128Z - info: Pages rebuilt
+2019-08-08T15:37:37.233Z - info: Site data built
+2019-08-08T15:38:57.080Z - info: [23:38:57] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\stubs\text.md
+2019-08-08T15:38:57.097Z - info: [23:38:57] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\what\exampleTestCode-java.md
+2019-08-08T15:38:58.094Z - info: Rebuilding affected source files
+2019-08-08T15:38:58.098Z - info: Rebuilding 15 pages
+2019-08-08T15:39:22.840Z - info: Pages rebuilt
+2019-08-08T15:39:22.864Z - info: Site data built
+2019-08-08T15:40:17.525Z - info: [23:40:17] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\dependencyInjection\what\text.md
+2019-08-08T15:40:18.527Z - info: Rebuilding affected source files
+2019-08-08T15:40:18.530Z - info: Rebuilding 9 pages
+2019-08-08T15:40:41.144Z - info: Pages rebuilt
+2019-08-08T15:40:41.164Z - info: Site data built
+2019-08-08T15:58:44.938Z - info: [23:58:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\what\exampleTestCode-java.md
+2019-08-08T15:58:45.944Z - info: Rebuilding affected source files
+2019-08-08T15:58:45.973Z - info: Rebuilding 8 pages
+2019-08-08T15:58:53.086Z - info: [23:58:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T15:59:00.811Z - info: [23:59:00] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\stubs\text.md
+2019-08-08T15:59:05.160Z - info: Pages rebuilt
+2019-08-08T15:59:05.192Z - info: [23:59:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\clientServer\what\text.md
+2019-08-08T15:59:05.225Z - info: Site data built
+2019-08-08T15:59:05.513Z - info: Rebuilding affected source files
+2019-08-08T15:59:05.529Z - info: Rebuilding 33 pages
+2019-08-08T15:59:20.667Z - info: [23:59:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:59:20.668Z - info: [23:59:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:59:39.763Z - info: [23:59:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:59:39.833Z - info: [23:59:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\dependencies\text.md
+2019-08-08T15:59:47.731Z - info: Pages rebuilt
+2019-08-08T15:59:47.768Z - info: Site data built
+2019-08-08T15:59:47.998Z - info: Rebuilding affected source files
+2019-08-08T15:59:48.003Z - info: Rebuilding 30 pages
