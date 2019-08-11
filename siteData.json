@@ -1343,7 +1343,7 @@
         "getters-and-setters": "Getters and Setters",
         "class-level-members": "Class-Level Members",
         "key-exercise-define-a-circle-class": " [Key Exercise] define a Circle class",
-        "constructos": "Constructos",
+        "constructors": "Constructors",
         "this-keyword": "this keyword",
         "instance-methods": "Instance methods",
         "key-exercise-add-getters-setters-to-the-circle-class": " [Key Exercise] add getters/setters to the Circle class",
