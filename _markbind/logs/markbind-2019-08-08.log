@@ -1,0 +1,225 @@
+2019-08-08T14:26:53.108Z - info: Website generation started at 22:26:51
+2019-08-08T14:26:55.291Z - info: Building assets...
+2019-08-08T14:26:57.066Z - info: Assets built
+2019-08-08T14:26:57.067Z - info: Generating pages...
+2019-08-08T14:29:21.407Z - info: Pages built
+2019-08-08T14:29:45.132Z - info: Website generation complete! Total build time: 174.005s
+2019-08-08T14:29:45.440Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-08T14:29:45.440Z - info: Press CTRL+C to stop ...
+2019-08-08T14:29:45.514Z - info: Site data built
+2019-08-08T14:32:34.634Z - info: [22:32:34] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T14:32:35.636Z - info: Rebuilding affected source files
+2019-08-08T14:32:35.644Z - info: Rebuilding 15 pages
+2019-08-08T14:32:55.443Z - info: Pages rebuilt
+2019-08-08T14:32:55.470Z - info: Site data built
+2019-08-08T14:46:11.095Z - info: [22:46:11] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:46:12.097Z - info: Rebuilding affected source files
+2019-08-08T14:46:12.099Z - info: Rebuilding 6 pages
+2019-08-08T14:46:23.128Z - info: Pages rebuilt
+2019-08-08T14:46:23.156Z - info: Site data built
+2019-08-08T14:46:39.728Z - info: [22:46:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:46:40.729Z - info: Rebuilding affected source files
+2019-08-08T14:46:40.731Z - info: Rebuilding 6 pages
+2019-08-08T14:46:52.298Z - info: Pages rebuilt
+2019-08-08T14:46:52.328Z - info: Site data built
+2019-08-08T14:47:05.015Z - info: [22:47:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:47:06.040Z - info: Rebuilding affected source files
+2019-08-08T14:47:06.042Z - info: Rebuilding 6 pages
+2019-08-08T14:47:16.775Z - info: Pages rebuilt
+2019-08-08T14:47:16.797Z - info: Site data built
+2019-08-08T14:48:01.151Z - info: [22:48:01] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:48:02.151Z - info: Rebuilding affected source files
+2019-08-08T14:48:02.167Z - info: Rebuilding 6 pages
+2019-08-08T14:48:13.261Z - info: Pages rebuilt
+2019-08-08T14:48:13.297Z - info: Site data built
+2019-08-08T14:48:39.200Z - info: [22:48:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:48:40.207Z - info: Rebuilding affected source files
+2019-08-08T14:48:40.208Z - info: Rebuilding 6 pages
+2019-08-08T14:48:50.893Z - info: Pages rebuilt
+2019-08-08T14:48:51.016Z - info: Site data built
+2019-08-08T14:49:43.757Z - info: [22:49:43] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:49:44.760Z - info: Rebuilding affected source files
+2019-08-08T14:49:44.771Z - info: Rebuilding 6 pages
+2019-08-08T14:49:56.502Z - info: Pages rebuilt
+2019-08-08T14:49:56.522Z - info: Site data built
+2019-08-08T14:50:33.141Z - info: [22:50:33] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:50:34.142Z - info: Rebuilding affected source files
+2019-08-08T14:50:34.144Z - info: Rebuilding 6 pages
+2019-08-08T14:50:47.415Z - info: Pages rebuilt
+2019-08-08T14:50:47.533Z - info: Site data built
+2019-08-08T14:51:59.124Z - info: [22:51:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:52:00.143Z - info: Rebuilding affected source files
+2019-08-08T14:52:00.155Z - info: Rebuilding 12 pages
+2019-08-08T14:52:17.342Z - info: Pages rebuilt
+2019-08-08T14:52:17.441Z - info: Site data built
+2019-08-08T14:52:38.592Z - info: [22:52:38] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:52:39.594Z - info: Rebuilding affected source files
+2019-08-08T14:52:39.597Z - info: Rebuilding 12 pages
+2019-08-08T14:52:55.792Z - info: Pages rebuilt
+2019-08-08T14:52:55.815Z - info: Site data built
+2019-08-08T14:53:55.268Z - info: [22:53:55] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:53:56.276Z - info: Rebuilding affected source files
+2019-08-08T14:53:56.280Z - info: Rebuilding 12 pages
+2019-08-08T14:54:13.636Z - info: Pages rebuilt
+2019-08-08T14:54:13.742Z - info: Site data built
+2019-08-08T14:58:20.261Z - info: [22:58:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T14:58:20.272Z - info: [22:58:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T14:58:21.266Z - info: Rebuilding affected source files
+2019-08-08T14:58:21.268Z - info: Rebuilding 12 pages
+2019-08-08T14:58:38.676Z - info: Pages rebuilt
+2019-08-08T14:58:38.697Z - info: Site data built
+2019-08-08T14:59:39.961Z - info: [22:59:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\dependencies\text.md
+2019-08-08T14:59:40.962Z - info: Rebuilding affected source files
+2019-08-08T14:59:40.964Z - info: Rebuilding 6 pages
+2019-08-08T14:59:54.457Z - info: Pages rebuilt
+2019-08-08T14:59:54.500Z - info: Site data built
+2019-08-08T15:01:25.107Z - info: [23:01:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\multiplicity\text.md
+2019-08-08T15:01:26.112Z - info: Rebuilding affected source files
+2019-08-08T15:01:26.114Z - info: Rebuilding 6 pages
+2019-08-08T15:01:39.156Z - info: Pages rebuilt
+2019-08-08T15:01:39.185Z - info: Site data built
+2019-08-08T15:04:24.208Z - info: [23:04:24] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\composition\text.md
+2019-08-08T15:04:25.211Z - info: Rebuilding affected source files
+2019-08-08T15:04:25.218Z - info: Rebuilding 6 pages
+2019-08-08T15:04:41.365Z - info: Pages rebuilt
+2019-08-08T15:04:41.386Z - info: Site data built
+2019-08-08T15:05:02.438Z - info: [23:05:02] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\composition\text.md
+2019-08-08T15:05:03.439Z - info: Rebuilding affected source files
+2019-08-08T15:05:03.441Z - info: Rebuilding 6 pages
+2019-08-08T15:05:19.320Z - info: Pages rebuilt
+2019-08-08T15:05:19.347Z - info: Site data built
+2019-08-08T15:05:41.498Z - info: [23:05:41] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\composition\text.md
+2019-08-08T15:05:42.498Z - info: Rebuilding affected source files
+2019-08-08T15:05:42.500Z - info: Rebuilding 6 pages
+2019-08-08T15:05:56.466Z - info: Pages rebuilt
+2019-08-08T15:05:56.569Z - info: Site data built
+2019-08-08T15:08:17.998Z - info: [23:08:17] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\introduction\text.md
+2019-08-08T15:08:19.001Z - info: Rebuilding affected source files
+2019-08-08T15:08:19.004Z - info: Rebuilding 11 pages
+2019-08-08T15:08:42.623Z - info: Pages rebuilt
+2019-08-08T15:08:42.670Z - info: Site data built
+2019-08-08T15:10:37.834Z - info: [23:10:37] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:10:38.837Z - info: Rebuilding affected source files
+2019-08-08T15:10:38.840Z - info: Rebuilding 9 pages
+2019-08-08T15:11:00.537Z - info: Pages rebuilt
+2019-08-08T15:11:00.642Z - info: Site data built
+2019-08-08T15:12:34.754Z - info: [23:12:34] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:12:35.762Z - info: Rebuilding affected source files
+2019-08-08T15:12:35.763Z - info: Rebuilding 9 pages
+2019-08-08T15:12:58.357Z - info: Pages rebuilt
+2019-08-08T15:12:58.463Z - info: Site data built
+2019-08-08T15:12:58.894Z - info: [23:12:58] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:12:59.902Z - info: Rebuilding affected source files
+2019-08-08T15:12:59.904Z - info: Rebuilding 9 pages
+2019-08-08T15:13:23.527Z - info: [23:13:23] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\details\text.md
+2019-08-08T15:13:27.202Z - info: Pages rebuilt
+2019-08-08T15:13:27.300Z - info: Site data built
+2019-08-08T15:13:27.455Z - info: Rebuilding affected source files
+2019-08-08T15:13:27.457Z - info: Rebuilding 9 pages
+2019-08-08T15:13:49.478Z - info: Pages rebuilt
+2019-08-08T15:13:49.501Z - info: Site data built
+2019-08-08T15:17:24.166Z - info: [23:17:24] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:17:25.168Z - info: Rebuilding affected source files
+2019-08-08T15:17:25.173Z - info: Rebuilding 15 pages
+2019-08-08T15:17:51.475Z - info: Pages rebuilt
+2019-08-08T15:17:51.498Z - info: Site data built
+2019-08-08T15:18:27.854Z - info: [23:18:27] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:18:28.856Z - info: Rebuilding affected source files
+2019-08-08T15:18:28.860Z - info: Rebuilding 15 pages
+2019-08-08T15:18:53.068Z - info: Pages rebuilt
+2019-08-08T15:18:53.084Z - info: Site data built
+2019-08-08T15:20:07.692Z - info: [23:20:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:20:08.694Z - info: Rebuilding affected source files
+2019-08-08T15:20:08.700Z - info: Rebuilding 15 pages
+2019-08-08T15:20:36.228Z - info: Pages rebuilt
+2019-08-08T15:20:36.247Z - info: Site data built
+2019-08-08T15:21:44.019Z - info: [23:21:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:21:45.026Z - info: Rebuilding affected source files
+2019-08-08T15:21:45.033Z - info: Rebuilding 15 pages
+2019-08-08T15:22:11.102Z - info: Pages rebuilt
+2019-08-08T15:22:11.127Z - info: Site data built
+2019-08-08T15:23:28.084Z - info: [23:23:28] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\clientServer\what\text.md
+2019-08-08T15:23:29.094Z - info: Rebuilding affected source files
+2019-08-08T15:23:29.098Z - info: Rebuilding 10 pages
+2019-08-08T15:23:47.931Z - info: Pages rebuilt
+2019-08-08T15:23:47.999Z - info: Site data built
+2019-08-08T15:27:05.036Z - info: [23:27:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:27:06.043Z - info: Rebuilding affected source files
+2019-08-08T15:27:06.047Z - info: Rebuilding 9 pages
+2019-08-08T15:27:24.863Z - info: Pages rebuilt
+2019-08-08T15:27:24.889Z - info: Site data built
+2019-08-08T15:28:07.994Z - info: [23:28:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:08.998Z - info: Rebuilding affected source files
+2019-08-08T15:28:09.001Z - info: Rebuilding 9 pages
+2019-08-08T15:28:23.121Z - info: [23:28:23] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:25.487Z - info: [23:28:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:28.992Z - info: Pages rebuilt
+2019-08-08T15:28:29.026Z - info: Site data built
+2019-08-08T15:28:29.230Z - info: Rebuilding affected source files
+2019-08-08T15:28:29.233Z - info: Rebuilding 9 pages
+2019-08-08T15:28:49.083Z - info: Pages rebuilt
+2019-08-08T15:28:49.143Z - info: Site data built
+2019-08-08T15:28:56.279Z - info: [23:28:56] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:28:57.281Z - info: Rebuilding affected source files
+2019-08-08T15:28:57.284Z - info: Rebuilding 9 pages
+2019-08-08T15:29:14.135Z - info: Pages rebuilt
+2019-08-08T15:29:14.161Z - info: Site data built
+2019-08-08T15:31:13.548Z - info: [23:31:13] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:31:14.556Z - info: Rebuilding affected source files
+2019-08-08T15:31:14.559Z - info: Rebuilding 9 pages
+2019-08-08T15:31:33.534Z - info: Pages rebuilt
+2019-08-08T15:31:33.575Z - info: Site data built
+2019-08-08T15:31:53.250Z - info: [23:31:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:31:54.250Z - info: Rebuilding affected source files
+2019-08-08T15:31:54.252Z - info: Rebuilding 9 pages
+2019-08-08T15:32:12.258Z - info: Pages rebuilt
+2019-08-08T15:32:12.280Z - info: Site data built
+2019-08-08T15:32:59.650Z - info: [23:32:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:33:00.652Z - info: Rebuilding affected source files
+2019-08-08T15:33:00.656Z - info: Rebuilding 9 pages
+2019-08-08T15:33:17.269Z - info: Pages rebuilt
+2019-08-08T15:33:17.290Z - info: Site data built
+2019-08-08T15:35:13.151Z - info: [23:35:13] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\qualityAssurance\staticAnalysis\what\text.md
+2019-08-08T15:35:14.154Z - info: Rebuilding affected source files
+2019-08-08T15:35:14.165Z - info: Rebuilding 9 pages
+2019-08-08T15:35:31.175Z - info: Pages rebuilt
+2019-08-08T15:35:31.191Z - info: Site data built
+2019-08-08T15:35:49.938Z - info: [23:35:49] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\qualityAssurance\staticAnalysis\what\text.md
+2019-08-08T15:35:50.939Z - info: Rebuilding affected source files
+2019-08-08T15:35:50.941Z - info: Rebuilding 9 pages
+2019-08-08T15:36:06.508Z - info: Pages rebuilt
+2019-08-08T15:36:06.533Z - info: Site data built
+2019-08-08T15:37:19.501Z - info: [23:37:19] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\what\exampleTestCode-java.md
+2019-08-08T15:37:20.504Z - info: Rebuilding affected source files
+2019-08-08T15:37:20.507Z - info: Rebuilding 8 pages
+2019-08-08T15:37:37.128Z - info: Pages rebuilt
+2019-08-08T15:37:37.233Z - info: Site data built
+2019-08-08T15:38:57.080Z - info: [23:38:57] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\stubs\text.md
+2019-08-08T15:38:57.097Z - info: [23:38:57] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\what\exampleTestCode-java.md
+2019-08-08T15:38:58.094Z - info: Rebuilding affected source files
+2019-08-08T15:38:58.098Z - info: Rebuilding 15 pages
+2019-08-08T15:39:22.840Z - info: Pages rebuilt
+2019-08-08T15:39:22.864Z - info: Site data built
+2019-08-08T15:40:17.525Z - info: [23:40:17] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\dependencyInjection\what\text.md
+2019-08-08T15:40:18.527Z - info: Rebuilding affected source files
+2019-08-08T15:40:18.530Z - info: Rebuilding 9 pages
+2019-08-08T15:40:41.144Z - info: Pages rebuilt
+2019-08-08T15:40:41.164Z - info: Site data built
+2019-08-08T15:58:44.938Z - info: [23:58:44] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\what\exampleTestCode-java.md
+2019-08-08T15:58:45.944Z - info: Rebuilding affected source files
+2019-08-08T15:58:45.973Z - info: Rebuilding 8 pages
+2019-08-08T15:58:53.086Z - info: [23:58:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\navigability\logic-minefield.md
+2019-08-08T15:59:00.811Z - info: [23:59:00] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\testing\testingTypes\unitTesting\stubs\text.md
+2019-08-08T15:59:05.160Z - info: Pages rebuilt
+2019-08-08T15:59:05.192Z - info: [23:59:05] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\clientServer\what\text.md
+2019-08-08T15:59:05.225Z - info: Site data built
+2019-08-08T15:59:05.513Z - info: Rebuilding affected source files
+2019-08-08T15:59:05.529Z - info: Rebuilding 33 pages
+2019-08-08T15:59:20.667Z - info: [23:59:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\architecture\architecturalStyles\nTier\what\text.md
+2019-08-08T15:59:20.668Z - info: [23:59:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\facade\what\text.md
+2019-08-08T15:59:39.763Z - info: [23:59:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\designPatterns\singleton\what\text.md
+2019-08-08T15:59:39.833Z - info: [23:59:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\oop\associations\dependencies\text.md
+2019-08-08T15:59:47.731Z - info: Pages rebuilt
+2019-08-08T15:59:47.768Z - info: Site data built
+2019-08-08T15:59:47.998Z - info: Rebuilding affected source files
+2019-08-08T15:59:48.003Z - info: Rebuilding 30 pages
