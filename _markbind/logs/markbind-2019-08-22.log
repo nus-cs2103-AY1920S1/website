@@ -1,0 +1,21 @@
+2019-08-22T02:07:12.655Z - info: Website generation started at 10:07:07 AM
+2019-08-22T02:07:16.152Z - info: Building assets...
+2019-08-22T02:07:18.707Z - info: Assets built
+2019-08-22T02:07:18.707Z - info: Generating pages...
+2019-08-22T02:09:07.790Z - info: Pages built
+2019-08-22T02:09:29.041Z - info: Website generation complete! Total build time: 141.817s
+2019-08-22T02:09:29.382Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-22T02:09:29.382Z - info: Press CTRL+C to stop ...
+2019-08-22T02:09:29.424Z - info: Site data built
+2019-08-22T02:11:37.634Z - info: [10:11:37 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\roles\text.md
+2019-08-22T02:11:38.645Z - info: Rebuilding affected source files
+2019-08-22T02:11:38.649Z - info: Rebuilding 8 pages
+2019-08-22T02:11:46.876Z - info: Pages rebuilt
+2019-08-22T02:11:46.913Z - info: Site data built
+2019-08-22T02:12:24.729Z - info: [10:12:24 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associations\roles\text.md
+2019-08-22T02:12:25.731Z - info: Rebuilding affected source files
+2019-08-22T02:12:25.733Z - info: Rebuilding 8 pages
+2019-08-22T02:12:33.399Z - info: Pages rebuilt
+2019-08-22T02:12:33.414Z - info: Site data built
+2019-08-22T02:16:52.980Z - info: Website generation started at 10:16:47 AM
+2019-08-22T02:16:56.622Z - info: Building assets...
