@@ -623,7 +623,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
     <span class="hljs-keyword">while</span> (!isExit) {
         <span class="hljs-keyword">try</span> {
             String fullCommand = ui.readCommand();
-            ui.showLine();
+            ui.showLine(); <span class="hljs-comment">// show the divider line ("_______")</span>
             Command c = Parser.parse(fullCommand);
             c.execute(tasks, ui, storage);
             isExit = c.isExit();

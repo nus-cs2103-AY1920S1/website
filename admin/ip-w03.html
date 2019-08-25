@@ -310,7 +310,7 @@ T | 1 | join sports club
     <span class="hljs-keyword">while</span> (!isExit) {
         <span class="hljs-keyword">try</span> {
             String fullCommand = ui.readCommand();
-            ui.showLine();
+            ui.showLine(); <span class="hljs-comment">// show the divider line ("_______")</span>
             Command c = Parser.parse(fullCommand);
             c.execute(tasks, ui, storage);
             isExit = c.isExit();
@@ -597,7 +597,7 @@ T | 1 | join sports club
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 25 Aug 2019 05:40:58 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 25 Aug 2019 09:43:28 GMT</small></div>
     </footer>
   </div>
 </body>
