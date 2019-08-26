@@ -1,0 +1,16 @@
+2019-08-26T05:40:55.452Z - info: Website generation started at 1:40:49 PM
+2019-08-26T05:40:59.056Z - info: Building assets...
+2019-08-26T05:41:02.266Z - info: Assets built
+2019-08-26T05:41:02.267Z - info: Generating pages...
+2019-08-26T05:42:46.971Z - info: Pages built
+2019-08-26T05:43:07.293Z - info: Website generation complete! Total build time: 137.79s
+2019-08-26T05:43:07.648Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-26T05:43:07.648Z - info: Press CTRL+C to stop ...
+2019-08-26T05:43:07.686Z - info: Site data built
+2019-08-26T05:46:52.393Z - info: [1:46:52 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\projectDuke\extensions.mbdf
+2019-08-26T05:46:53.394Z - info: Rebuilding affected source files
+2019-08-26T05:46:53.399Z - info: Rebuilding 12 pages
+2019-08-26T05:46:57.577Z - info: Pages rebuilt
+2019-08-26T05:46:57.591Z - info: Site data built
+2019-08-26T05:53:21.747Z - info: Website generation started at 1:53:15 PM
+2019-08-26T05:53:25.322Z - info: Building assets...
