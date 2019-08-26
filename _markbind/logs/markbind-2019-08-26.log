@@ -14,3 +14,26 @@
 2019-08-26T05:46:57.591Z - info: Site data built
 2019-08-26T05:53:21.747Z - info: Website generation started at 1:53:15 PM
 2019-08-26T05:53:25.322Z - info: Building assets...
+2019-08-26T05:53:28.015Z - info: Assets built
+2019-08-26T05:53:28.015Z - info: Generating pages...
+2019-08-26T05:55:11.259Z - info: Pages built
+2019-08-26T05:55:31.583Z - info: Website generation complete! Total build time: 135.649s
+2019-08-26T05:55:31.583Z - info: Build success!
+2019-08-26T05:55:31.599Z - info: Site data built
+2019-08-26T05:56:31.472Z - info: Deployed!
+2019-08-26T11:18:40.152Z - info: Website generation started at 7:18:33 PM
+2019-08-26T11:18:43.398Z - info: Building assets...
+2019-08-26T11:18:45.970Z - info: Assets built
+2019-08-26T11:18:45.970Z - info: Generating pages...
+2019-08-26T11:20:31.283Z - info: Pages built
+2019-08-26T11:20:51.262Z - info: Website generation complete! Total build time: 137.516s
+2019-08-26T11:20:51.607Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-26T11:20:51.607Z - info: Press CTRL+C to stop ...
+2019-08-26T11:20:51.633Z - info: Site data built
+2019-08-26T11:21:48.446Z - info: [7:21:48 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\modeling\introduction\umlModels\text.md
+2019-08-26T11:21:49.450Z - info: Rebuilding affected source files
+2019-08-26T11:21:49.453Z - info: Rebuilding 9 pages
+2019-08-26T11:22:01.238Z - info: Pages rebuilt
+2019-08-26T11:22:01.274Z - info: Site data built
+2019-08-26T12:24:02.531Z - info: Website generation started at 8:23:57 PM
+2019-08-26T12:24:05.857Z - info: Building assets...
