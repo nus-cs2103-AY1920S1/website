@@ -109,7 +109,6 @@
             <ol>
               <li>Review some peer PRs</li>
               <li>Add increments: <code>A-Gradle</code>,<code>A-CheckStyle</code>, <code>Level-10</code>, <code>A-Varargs</code></li>
-              <li>Add another extension</li>
             </ol>
           </div>
           <p><strong>tP:</strong></p>
@@ -125,8 +124,27 @@
         <div>
           <h4 id="1-review-some-peer-prs"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Review some peer PRs<a class="fa fa-anchor" href="#1-review-some-peer-prs"></a></h4>
           <ul>
-            <li><strong>Review two PRs</strong> created by your classmates. You will be notified separately which PRs to review.</li>
+            <li><strong>Review two PRs</strong> created by your classmates. PRs can be found <a href="https://github.com/nus-cs2103-AY1920S1/duke/pulls">here</a>. You will be notified separately whose PRs to review. To find the target PR, you can use a filter <code>author:AuthorUsername</code> e.g., <code>author:johnDoe</code></li>
           </ul>
+          <div class="indented">
+            <box type="success">
+              <p>We expect the PR peer-review to be mutually beneficial to the reviewer and the author. i.e., you receive suggestions on how to improve your code, and get to learn alternative designs by reading others' code.
+              </p>
+            </box>
+            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Tips for reviewers</strong>:</p>
+            <ul>
+              <li>Read the blog post <a href="https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/"><strong>10 tips for reviewing code you don’t like</strong></a> - by David Lloyd (a Red Had developer). In particular, follow the tip about phrasing objections as questions.</li>
+              <li>Comment on coding standard violations.</li>
+              <li>Feel free to ask for more info from the author, to help you understand the code/design. For example, you can ask why the author chose to write the code in a specific way.</li>
+              <li>Feel free to compliment the author when appropriate <span class="dimmed">e.g., <em>hey, I like how clean this bit of code is</em> 👍</span></li>
+              <li>You can also suggest alternatives for the author to consider.</li>
+            </ul>
+            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Tips for authors</strong>:</p>
+            <ul>
+              <li>Don't get into arguments with reviewers.</li>
+              <li>Thank reviewers for their inputs.</li>
+            </ul>
+          </div>
           <br>
           <h4 id="2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Add increments: <code>A-Gradle</code>,<code>A-CheckStyle</code>, <code>Level-10</code>, <code>A-Varargs</code><a class="fa fa-anchor" href="#2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs"></a></h4>
           <ul>
@@ -148,7 +166,7 @@
                     </div>
                     <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
                     <ul>
-                      <li><strong>Minimal</strong>: Set up gradle so that your can start Duke using gradle.</li>
+                      <li><strong>Minimal</strong>: Set up gradle so that you can build and run Duke using gradle.</li>
                       <li><strong>Recommended</strong>: Set up gradle to run unit tests.</li>
                       <li><strong>Stretch Goal</strong>: Use gradle to automate more things in your project.</li>
                     </ul>
@@ -171,7 +189,7 @@
                       <p>     <big>↳</big> <strong>Use CheckStyle</strong></p>
                     </div>
                     <p>Use checkStyle to detect coding style violations.</p>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use CheckStyle via Gradle.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use CheckStyle via Gradle. Alternatively, you can try the CheckStyle plugin for Intellij.</p>
                     <panel header="**Extension `A-Gradle`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -181,12 +199,13 @@
                         </div>
                         <p>Use Gradle to automate some of the build tasks of the project. Refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to set up Gradle for your project.</p>
                         <ul>
-                          <li><strong>Minimal</strong>: Set up gradle so that your can start Duke using gradle.</li>
+                          <li><strong>Minimal</strong>: Set up gradle so that you can build and run Duke using gradle.</li>
                           <li><strong>Recommended</strong>: Set up gradle to run unit tests.</li>
                           <li><strong>Stretch Goal</strong>: Use gradle to automate more things in your project.</li>
                         </ul>
                       </div>
                     </panel>
+                    <p></p>
                   </div>
                 </panel>
               </div>
@@ -245,10 +264,6 @@
             </div>
           </div>
           <p></p>
-          <h4 id="3-add-another-extension"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Add another extension<a class="fa fa-anchor" href="#3-add-another-extension"></a></h4>
-          <ul>
-            <li><strong>Add another extension</strong> [to be specified nearer to the date]</li>
-          </ul>
           <br>
         </div>
         <br>
@@ -734,7 +749,7 @@
           </div>
           <h4 id="3-start-a-collaborative-doc-to-take-project-notes"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Start a collaborative doc to take project notes<a class="fa fa-anchor" href="#3-start-a-collaborative-doc-to-take-project-notes"></a></h4>
           <ul>
-            <li>We recommend you keep project notes in a easy-to-use collaborative docs such as GoogleDocs/sheets. Document the decisions taken above in the collaborative docs.</li>
+            <li>We recommend keeping project notes in easy-to-use collaborative docs such as GoogleDocs/sheets. Document the decisions taken above in one of those docs.</li>
           </ul>
         </div>
       </div>
@@ -747,7 +762,6 @@
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#1-review-some-peer-prs">1 Review some peer PRs&#x200E;</a>
               <a class="nav-link py-1" href="#2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs">2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs&#x200E;</a>
-              <a class="nav-link py-1" href="#3-add-another-extension">3 Add another extension&#x200E;</a>
             </nav>
             <a class="nav-link py-1" href="#tp-inception">tP: Inception&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
@@ -762,7 +776,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 26 Aug 2019 12:24:08 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 28 Aug 2019 10:11:36 GMT</small></div>
     </footer>
   </div>
 </body>

@@ -236,8 +236,7 @@
       "headings": {
         "ip-week-4": "iP: Week 4 ",
         "1-review-some-peer-prs": "1 Review some peer PRs",
-        "2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs": "2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs",
-        "3-add-another-extension": "3 Add another extension"
+        "2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs": "2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs"
       },
       "title": "Admin: iP: Week 4",
       "header": "header.md",
