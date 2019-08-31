@@ -234,6 +234,7 @@
     },
     {
       "headings": {
+        "guidelines-for-pr-reviewers-authors": "Guidelines for PR reviewers/authors",
         "ip-week-4": "iP: Week 4 ",
         "1-review-some-peer-prs": "1 Review some peer PRs",
         "2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs": "2 Add increments: A-Gradle,A-CheckStyle, Level-10, A-Varargs"

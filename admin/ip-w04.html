@@ -194,27 +194,37 @@
             <div id="body">
               <h4 id="1-review-some-peer-prs"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Review some peer PRs<a class="fa fa-anchor" href="#1-review-some-peer-prs"></a></h4>
               <ul>
-                <li><strong>Review two PRs</strong> created by your classmates. PRs can be found <a href="https://github.com/nus-cs2103-AY1920S1/duke/pulls">here</a>. You will be notified separately whose PRs to review. To find the target PR, you can use a filter <code>author:AuthorUsername</code> e.g., <code>author:johnDoe</code></li>
+                <li><strong>Review two PRs</strong> created by your classmates. PRs can be found <a href="https://github.com/nus-cs2103-AY1920S1/duke/pulls">here</a>.
+                  <ul>
+                    <li>The allocation of which PRs to review will be specified in <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuJ9gGqFSvZci_uqivCoBipX5AOjJa7DgxRIDQ60xFnH-KEqPyEINmo4M0BJYENj7sS4dcMgRcnnMN/pubhtml?gid=0&amp;single=true">this page</a> (you will be notified when the allocation is ready).</li>
+                    <li>To find the target PR, you can use a filter <code>author:AuthorUsername</code> e.g., <code>author:johnDoe</code></li>
+                    <li>If the student you have been allocated to review has not created a PR by Monday, you can review another PR of your choice.</li>
+                  </ul>
+                </li>
               </ul>
-              <div class="indented">
+              <div class="indented-level2">
                 <box type="success">
                   <p>We expect the PR peer-review to be mutually beneficial to the reviewer and the author. i.e., you receive suggestions on how to improve your code, and get to learn alternative designs by reading others' code.
                   </p>
                 </box>
-                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Tips for reviewers</strong>:</p>
-                <ul>
-                  <li>Read the blog post <a href="https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/"><strong>10 tips for reviewing code you don’t like</strong></a> - by David Lloyd (a Red Had developer). In particular, follow the tip about phrasing objections as questions.</li>
-                  <li>Comment on coding standard violations.</li>
-                  <li>Feel free to ask for more info from the author, to help you understand the code/design. For example, you can ask why the author chose to write the code in a specific way.</li>
-                  <li>Feel free to compliment the author when appropriate <span class="dimmed">e.g., <em>hey, I like how clean this bit of code is</em> 👍</span></li>
-                  <li>You can also suggest alternatives for the author to consider.</li>
-                  <li>You can use Markdown (more specifically, <a href="https://guides.github.com/features/mastering-markdown/">GFMD</a>) in your comments.</li>
-                </ul>
-                <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Tips for authors</strong>:</p>
-                <ul>
-                  <li>Don't get into arguments with reviewers.</li>
-                  <li>Thank reviewers for their inputs.</li>
-                </ul>
+                <panel header="##### Guidelines for PR reviewers/authors<a class='fa fa-anchor' href='#guidelines-for-pr-reviewers-authors'></a>" expanded>
+                  <p><strong>Guidelines for reviewers</strong>:</p>
+                  <ul>
+                    <li>If you are new to GitHub PRs, see <a href="https://help.github.com/en/articles/about-pull-request-reviews">GitHub help on how to review PRs</a>.</li>
+                    <li>Read the blog post <a href="https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/"><strong>10 tips for reviewing code you don’t like</strong></a> - by David Lloyd (a Red Had developer). In particular, follow the tip about phrasing objections as questions.</li>
+                    <li>Comment on coding standard violations.</li>
+                    <li>Feel free to ask for more info from the author, to help you understand the code/design. For example, you can ask why the author chose to write the code in a specific way.</li>
+                    <li>Feel free to compliment the author when appropriate <span class="dimmed">e.g., <em>hey, I like how clean this bit of code is</em> 👍</span></li>
+                    <li>You can also suggest alternatives for the author to consider. Feel free to refer back to your own PR if you think a comparison would benefit the author. <mark>You are very welcome to offer to help the author with the project</mark> (in your PR review, or outside of it) if you think the author needs such help i.e., as an informal mentor. Such mentoring will help both the author and you to become stronger programmers.</li>
+                    <li>You can use Markdown (specifically, <a href="https://guides.github.com/features/mastering-markdown/">GitHub-Flavored Markdown</a>) in your comments.</li>
+                    <li>At the end of the review, we recommend you to choose <code>Comment</code> (i.e., not <code>Approve</code> or <code>Request changes</code>)</li>
+                  </ul>
+                  <p><strong>Guidelines for authors</strong>:</p>
+                  <ul>
+                    <li>Don't get into arguments with reviewers. If you disagree with the reviewer, you can explain your own view in a non-confrontational way without trying to prove your way is better.</li>
+                    <li>Thank reviewers for their inputs.</li>
+                  </ul>
+                </panel>
               </div>
               <br>
               <h4 id="2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Add increments: <code>A-Gradle</code>,<code>A-CheckStyle</code>, <code>Level-10</code>, <code>A-Varargs</code><a class="fa fa-anchor" href="#2-add-increments-a-gradle-a-checkstyle-level-10-a-varargs"></a></h4>
@@ -363,7 +373,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 31 Aug 2019 04:58:49 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 31 Aug 2019 07:13:49 GMT</small></div>
     </footer>
   </div>
 </body>
