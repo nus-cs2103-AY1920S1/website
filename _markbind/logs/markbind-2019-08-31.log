@@ -1,2 +1,30 @@
 2019-08-31T03:27:42.554Z - info: Website generation started at 11:27:34
 2019-08-31T03:27:49.013Z - info: Building assets...
+2019-08-31T03:27:51.789Z - info: Assets built
+2019-08-31T03:27:51.789Z - info: Generating pages...
+2019-08-31T03:30:21.631Z - info: Pages built
+2019-08-31T03:30:54.934Z - info: Website generation complete! Total build time: 199.938s
+2019-08-31T03:30:54.934Z - info: Build success!
+2019-08-31T03:30:55.010Z - info: Site data built
+2019-08-31T03:32:02.579Z - info: Deployed!
+2019-08-31T03:35:44.794Z - info: Website generation started at 11:35:37
+2019-08-31T03:35:48.210Z - info: Building assets...
+2019-08-31T03:35:51.504Z - info: Assets built
+2019-08-31T03:35:51.512Z - info: Generating pages...
+2019-08-31T03:38:08.914Z - info: Pages built
+2019-08-31T03:38:32.511Z - info: Website generation complete! Total build time: 175.101s
+2019-08-31T03:38:32.816Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-31T03:38:32.816Z - info: Press CTRL+C to stop ...
+2019-08-31T03:38:32.899Z - info: Site data built
+2019-08-31T03:43:28.709Z - info: [11:43:28] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-08-31T03:43:29.715Z - info: Rebuilding affected source files
+2019-08-31T03:43:29.721Z - info: Rebuilding 6 pages
+2019-08-31T03:43:35.751Z - info: Pages rebuilt
+2019-08-31T03:43:35.771Z - info: Site data built
+2019-08-31T03:43:54.342Z - info: [11:43:54] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w04-inception.md
+2019-08-31T03:43:55.347Z - info: Rebuilding affected source files
+2019-08-31T03:43:55.349Z - info: Rebuilding 6 pages
+2019-08-31T03:44:00.603Z - info: Pages rebuilt
+2019-08-31T03:44:00.616Z - info: Site data built
+2019-08-31T03:53:23.723Z - info: Website generation started at 11:53:18
+2019-08-31T03:53:26.073Z - info: Building assets...
