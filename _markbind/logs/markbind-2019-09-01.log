@@ -298,3 +298,61 @@ Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\partic
 2019-09-01T06:20:24.617Z - info: Site data built
 2019-09-01T06:30:29.609Z - info: Website generation started at 2:30:27 PM
 2019-09-01T06:30:32.270Z - info: Building assets...
+2019-09-01T06:30:34.264Z - info: Assets built
+2019-09-01T06:30:34.265Z - info: Generating pages...
+2019-09-01T06:32:16.408Z - info: Pages built
+2019-09-01T06:32:37.723Z - info: Website generation complete! Total build time: 130.425s
+2019-09-01T06:32:37.723Z - info: Build success!
+2019-09-01T06:32:37.733Z - info: Site data built
+2019-09-01T06:33:34.209Z - info: Deployed!
+2019-09-01T08:10:29.919Z - info: Website generation started at 4:10:27 PM
+2019-09-01T08:10:32.452Z - info: Building assets...
+2019-09-01T08:10:34.310Z - info: Assets built
+2019-09-01T08:10:34.311Z - info: Generating pages...
+2019-09-01T08:12:17.341Z - info: Pages built
+2019-09-01T08:12:38.478Z - info: Website generation complete! Total build time: 130.959s
+2019-09-01T08:12:38.845Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-01T08:12:38.845Z - info: Press CTRL+C to stop ...
+2019-09-01T08:12:38.875Z - info: Site data built
+2019-09-01T09:41:47.636Z - info: [5:41:47 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gatheringRequirements\prototyping\images\wireframeExample.png
+2019-09-01T09:41:47.638Z - info: [5:41:47 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gatheringRequirements\prototyping\images\wireframeExample.png
+2019-09-01T09:41:48.649Z - info: Assets built
+2019-09-01T09:42:16.074Z - info: [5:42:16 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\common\topics.njk
+2019-09-01T09:42:16.079Z - info: [5:42:16 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gatheringRequirements\prototyping\text.md
+2019-09-01T09:42:17.079Z - info: Rebuilding affected source files
+2019-09-01T09:42:17.083Z - info: Rebuilding 9 pages
+2019-09-01T09:42:20.508Z - info: Assets built
+2019-09-01T09:42:29.801Z - info: Pages rebuilt
+2019-09-01T09:42:29.839Z - info: Site data built
+2019-09-01T09:43:36.571Z - info: [5:43:36 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gatheringRequirements\prototyping\text.md
+2019-09-01T09:43:37.574Z - info: Rebuilding affected source files
+2019-09-01T09:43:37.578Z - info: Rebuilding 9 pages
+2019-09-01T09:43:48.594Z - info: Pages rebuilt
+2019-09-01T09:43:48.613Z - info: Site data built
+2019-09-01T09:43:59.821Z - info: [5:43:59 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gatheringRequirements\prototyping\text.md
+2019-09-01T09:44:00.823Z - info: Rebuilding affected source files
+2019-09-01T09:44:00.824Z - info: Rebuilding 9 pages
+2019-09-01T09:44:11.706Z - info: Pages rebuilt
+2019-09-01T09:44:11.738Z - info: Site data built
+2019-09-01T09:44:31.645Z - info: [5:44:31 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\gatheringRequirements\prototyping\text.md
+2019-09-01T09:44:32.647Z - info: Rebuilding affected source files
+2019-09-01T09:44:32.650Z - info: Rebuilding 9 pages
+2019-09-01T09:44:44.044Z - info: Pages rebuilt
+2019-09-01T09:44:44.055Z - info: Site data built
+2019-09-01T10:08:12.056Z - info: [6:08:12 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\specifyingRequirements\userStories\usage\text.md
+2019-09-01T10:08:13.059Z - info: Rebuilding affected source files
+2019-09-01T10:08:13.062Z - info: Rebuilding 11 pages
+2019-09-01T10:08:25.101Z - info: Pages rebuilt
+2019-09-01T10:08:25.124Z - info: Site data built
+2019-09-01T10:20:19.433Z - info: [6:20:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\common\definitions.md
+2019-09-01T10:20:20.439Z - info: Rebuilding affected source files
+2019-09-01T10:20:20.471Z - info: Rebuilding 170 pages
+2019-09-01T10:21:09.364Z - info: Pages rebuilt
+2019-09-01T10:21:09.379Z - info: Site data built
+2019-09-01T10:46:13.153Z - info: [6:46:13 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\codeQuality\maximiseReadability\intermediate\dontTripReader\text.md
+2019-09-01T10:46:14.155Z - info: Rebuilding affected source files
+2019-09-01T10:46:14.160Z - info: Rebuilding 10 pages
+2019-09-01T10:46:28.484Z - info: Pages rebuilt
+2019-09-01T10:46:28.518Z - info: Site data built
+2019-09-01T12:27:33.856Z - info: Website generation started at 8:27:31 PM
+2019-09-01T12:27:36.366Z - info: Building assets...
