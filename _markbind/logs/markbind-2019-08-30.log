@@ -1,0 +1,37 @@
+2019-08-30T11:05:48.788Z - info: Website generation started at 7:05:46 PM
+2019-08-30T11:05:51.314Z - info: Building assets...
+2019-08-30T11:05:53.179Z - info: Assets built
+2019-08-30T11:05:53.179Z - info: Generating pages...
+2019-08-30T11:07:32.196Z - info: Pages built
+2019-08-30T11:07:52.364Z - info: Website generation complete! Total build time: 125.718s
+2019-08-30T11:07:52.365Z - info: Build success!
+2019-08-30T11:07:52.374Z - info: Site data built
+2019-08-30T11:08:43.085Z - info: Deployed!
+2019-08-30T11:44:11.862Z - info: Website generation started at 7:44:09 PM
+2019-08-30T11:44:14.572Z - info: Building assets...
+2019-08-30T11:44:16.615Z - info: Assets built
+2019-08-30T11:44:16.615Z - info: Generating pages...
+2019-08-30T11:45:58.995Z - info: Pages built
+2019-08-30T11:46:19.773Z - info: Website generation complete! Total build time: 130.045s
+2019-08-30T11:46:20.152Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-08-30T11:46:20.152Z - info: Press CTRL+C to stop ...
+2019-08-30T11:46:20.180Z - info: Site data built
+2019-08-30T11:47:50.022Z - info: [7:47:50 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md
+2019-08-30T11:47:51.025Z - info: Rebuilding affected source files
+2019-08-30T11:47:51.029Z - info: Rebuilding 4 pages
+2019-08-30T11:47:55.147Z - info: Pages rebuilt
+2019-08-30T11:47:55.158Z - info: Site data built
+2019-08-30T11:53:30.620Z - info: [7:53:30 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-w04.md
+2019-08-30T11:53:31.622Z - info: Rebuilding affected source files
+2019-08-30T11:53:31.624Z - info: Rebuilding 4 pages
+2019-08-30T11:53:35.339Z - info: Pages rebuilt
+2019-08-30T11:53:35.351Z - info: Site data built
+2019-08-30T11:58:38.112Z - info: Website generation started at 7:58:36 PM
+2019-08-30T11:58:40.601Z - info: Building assets...
+2019-08-30T11:58:42.565Z - info: Assets built
+2019-08-30T11:58:42.566Z - info: Generating pages...
+2019-08-30T12:00:29.811Z - info: Pages built
+2019-08-30T12:00:51.362Z - info: Website generation complete! Total build time: 135.355s
+2019-08-30T12:00:51.362Z - info: Build success!
+2019-08-30T12:00:51.373Z - info: Site data built
+2019-08-30T12:01:41.957Z - info: Deployed!
