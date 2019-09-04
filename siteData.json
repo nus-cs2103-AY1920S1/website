@@ -510,7 +510,7 @@
         "tp-inception-week-4": "tP: Inception [week 4] ",
         "1-start-weekly-project-meetings": "1 Start weekly project meetings",
         "2-decide-on-a-overall-project-direction-user-profile-problem-addressed": "2 Decide on a overall project direction (user profile, problem addressed) | project expectations",
-        "3-start-a-collaborative-doc-to-take-project-notes": "3 Start a collaborative doc to take project notes"
+        "3-start-a-collaborative-doc-to-take-project-notes-before-the-tutorial": "3 Start a collaborative doc to take project notes  before the tutorial"
       },
       "title": "Admin: tP: Inception [week 4]",
       "header": "header.md",
@@ -524,8 +524,8 @@
     {
       "headings": {
         "tp-v1-0-week-5": "tP: v1.0 [week 5] ",
-        "1-brainstorm-user-stories": "1 Brainstorm user stories",
-        "2-prioritize-the-user-stories": "2 Prioritize the user stories"
+        "1-brainstorm-user-stories-beforethe-tutorial": "1 Brainstorm user stories  beforethe tutorial",
+        "2-prioritize-the-user-stories-before-or-during-the-tutorial": "2 Prioritize the user stories  before or during the tutorial"
       },
       "title": "Admin: tP: v1.0 [week 5]",
       "header": "header.md",
