@@ -1,2 +1,50 @@
 2019-09-04T02:48:18.965Z - info: Website generation started at 10:48:16 AM
 2019-09-04T02:48:21.354Z - info: Building assets...
+2019-09-04T02:48:23.122Z - info: Assets built
+2019-09-04T02:48:23.122Z - info: Generating pages...
+2019-09-04T02:49:57.709Z - info: Pages built
+2019-09-04T02:50:16.672Z - info: Website generation complete! Total build time: 119.688s
+2019-09-04T02:50:16.672Z - info: Build success!
+2019-09-04T02:50:16.683Z - info: Site data built
+2019-09-04T02:51:01.934Z - info: Deployed!
+2019-09-04T04:13:03.125Z - info: Website generation started at 12:13:00 PM
+2019-09-04T04:13:06.346Z - info: Building assets...
+2019-09-04T04:13:08.505Z - info: Assets built
+2019-09-04T04:13:08.505Z - info: Generating pages...
+2019-09-04T04:14:51.885Z - info: Pages built
+2019-09-04T04:15:13.942Z - info: Website generation complete! Total build time: 133.247s
+2019-09-04T04:15:14.309Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-04T04:15:14.309Z - info: Press CTRL+C to stop ...
+2019-09-04T04:15:14.339Z - info: Site data built
+2019-09-04T04:18:34.849Z - info: [12:18:34 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\notices-cs2103.md
+2019-09-04T04:18:35.851Z - info: Rebuilding affected source files
+2019-09-04T04:18:35.855Z - info: Rebuilding 3 pages
+2019-09-04T04:18:36.870Z - info: Pages rebuilt
+2019-09-04T04:18:36.881Z - info: Site data built
+2019-09-04T04:20:14.241Z - info: [12:20:14 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\notices-cs2103.md
+2019-09-04T04:20:15.244Z - info: Rebuilding affected source files
+2019-09-04T04:20:15.245Z - info: Rebuilding 3 pages
+2019-09-04T04:20:16.058Z - info: Pages rebuilt
+2019-09-04T04:20:16.070Z - info: Site data built
+2019-09-04T04:21:10.664Z - info: [12:21:10 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\notices-cs2103.md
+2019-09-04T04:21:11.666Z - info: Rebuilding affected source files
+2019-09-04T04:21:11.668Z - info: Rebuilding 3 pages
+2019-09-04T04:21:12.380Z - info: Pages rebuilt
+2019-09-04T04:21:12.388Z - info: Site data built
+2019-09-04T04:22:04.344Z - info: [12:22:04 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\notices-cs2103.md
+2019-09-04T04:22:05.347Z - info: Rebuilding affected source files
+2019-09-04T04:22:05.349Z - info: Rebuilding 3 pages
+2019-09-04T04:22:06.045Z - info: Pages rebuilt
+2019-09-04T04:22:06.053Z - info: Site data built
+2019-09-04T04:22:42.413Z - info: [12:22:42 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\notices-cs2103.md
+2019-09-04T04:22:43.415Z - info: Rebuilding affected source files
+2019-09-04T04:22:43.416Z - info: Rebuilding 3 pages
+2019-09-04T04:22:44.364Z - info: Pages rebuilt
+2019-09-04T04:22:44.372Z - info: Site data built
+2019-09-04T04:23:26.971Z - info: [12:23:26 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week4\notices-cs2103.md
+2019-09-04T04:23:27.972Z - info: Rebuilding affected source files
+2019-09-04T04:23:27.974Z - info: Rebuilding 3 pages
+2019-09-04T04:23:28.760Z - info: Pages rebuilt
+2019-09-04T04:23:28.769Z - info: Site data built
+2019-09-04T04:26:04.299Z - info: Website generation started at 12:26:01 PM
+2019-09-04T04:26:06.613Z - info: Building assets...
