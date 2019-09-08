@@ -107,7 +107,8 @@
           <p><strong>iP:</strong></p>
           <div>
             <ol>
-              <li>Write a brief user guide</li>
+              <li>Finalize the features</li>
+              <li>Set up the product website</li>
               <li>Release the product</li>
             </ol>
           </div>
@@ -124,52 +125,118 @@
         </div>
         <h1 id="ip">iP<a class="fa fa-anchor" href="#ip"></a></h1>
         <div>
-          <h4 id="1-write-a-brief-user-guide"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Write a brief user guide<a class="fa fa-anchor" href="#1-write-a-brief-user-guide"></a></h4>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless" class="algolia-no-index">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-UserGuide</code>: User Guide</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
+          <h4 id="1-finalize-the-features"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Finalize the features<a class="fa fa-anchor" href="#1-finalize-the-features"></a></h4>
+          <ul>
+            <li>You may give the product any name, but do not rename the repo.</li>
+            <li>Reminder: you can give the chatbot any personality (there is no need to follow the exact command/response formats given)</li>
+          </ul>
+          <h4 id="2-set-up-a-product-website"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Set up a product website<a class="fa fa-anchor" href="#2-set-up-a-product-website"></a></h4>
+          <ul>
+            <li><strong>Add a representative screenshot</strong> of the product to the <code>docs</code> folder.
+              <ul>
+                <li><mark>The file name should be <code>docs/Ui.png</code> exactly</mark> (even if the file format is not <code>png</code>, name it <code>png</code>)</li>
+                <li>Ideally, the product name is visible in the screenshot e.g., in the title bar of the Window</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="indented-level2">
+            <div class="flat">
+              <div>
+                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW6-tipsForScreenshots">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Team Project (tP) → Tips for Product Screenshots</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              </div>
+            </div>
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Team Project (tP) → Tips for Product Screenshots  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:ipW6-tipsForScreenshots" class="algolia-no-index">
+                <div>
+                <box>
+                  <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Some common sense tips for a good product screenshot</strong></p>
+                  <p><code>Ui.png</code> represents your product in its full glory.</p>
+                  <ul>
+                    <li>Before taking the screenshot, populate the product with data that makes the product look good. For example, if the product is supposed to show photos, use real photos instead of dummy placeholders.</li>
+                    <li>It should show a state in which the product is well-populated <span class="dimmed">i.e., don't leave data panels largely blank</span></li>
+                    <li>Choose a state that showcase the main features of the product <span class="dimmed">i.e., the login screen is not usually a good choice</span></li>
+                    <li>Avoid annotations (arrows, callouts, explanatory text etc.); it should look like the product is in use for real.</li>
+                  </ul>
+                  <panel type="seamless" header="Examples" expanded>
+                    <tabs>
+                        <tab header=":-1: Not Good">
+                        <p>Reason: Distracting annotations.</p>
+                        <img src="/website/admin/images/Ui-notGood1.png" width="600">
+                      </tab>
+                        <tab header=":-1: Not Good" class="algolia-no-index">
+                        <p>Reason: Not enough data.</p>
+                        <img src="/website/admin/images/Ui-notGood2.png" width="600">
+                      </tab>
+                      <tab header=":+1: Good" class="algolia-no-index">
+                        <img src="/website/admin/images/Ui-good1.png" width="600"></tab>
+                        <tab header=":+1: Good" class="algolia-no-index">
+                        <img src="/website/admin/images/Ui-good2.png" width="600"></tab>
+                    </tabs>
+                  </panel>
+                </box>
+              </div>
+            </modal>
+            <p>
+              <panel src="/website/admin/project-deliverables._include_.html#tips-for-product-screenshot" header="Admin <md>:glyphicon-log-in:</md> Team Project (tP) → Tips for Product Screenshots  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="tips-for-product-screenshot"></panel>
+            </p>
+          </div>
+          <ul>
+            <li><strong>Add a brief User Guide (UG)</strong></li>
+          </ul>
+          <div class="indented">
+            <div>
+              <div class="indented">
+                <div class="indented border">
+                  <panel type="seamless" class="algolia-no-index">
+                    <div></div>
+                    <div slot="header"><span><span class="dimmed"><strong><code>A-UserGuide</code>: User Guide</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                    <div></div>
                     <div>
-                      <div></div>
-                      <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
-                      <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
+                      <div>
+                        <div></div>
+                        <h3 id="a-userguide"><span class="badge badge-pill badge-primary">A-UserGuide</span><a class="fa fa-anchor" href="#a-userguide"></a></h3>
+                        <p>     <big>↳</big> <strong>Add a User Guide</strong></p>
+                      </div>
+                      <p>Add a User Guide to the project. Here is one simple way to do it.</p>
+                      <ul>
+                        <li>Update the given <code>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
+                        <li>Go to the settings page of your Duke fork and enable GitHub pages to publish from the <code>docs</code> folder (you can select a theme too).</li>
+                        <li>Go to <code>http://{your username}.github.io/duke/</code> to view the user guide of your product.</li>
+                      </ul>
                     </div>
-                    <p>Add a User Guide to the project. Here is one simple way to do it.</p>
-                    <ul>
-                      <li>Update the given <code>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
-                      <li>Go to the settings page of your Duke fork and enable GitHub pages to publish from the <code>docs</code> folder (you can select a theme too).</li>
-                      <li>Go to <code>http://{your username}.github.io/duke/</code> to view the user guide of your product.</li>
-                    </ul>
-                  </div>
-                </panel>
+                  </panel>
+                </div>
               </div>
             </div>
           </div>
           <p></p>
-          <h4 id="2-release-the-product"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Release the product<a class="fa fa-anchor" href="#2-release-the-product"></a></h4>
-          <div>
-            <div class="indented">
-              <div class="indented border">
-                <panel type="seamless" class="algolia-no-index">
-                  <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Release</code>: Release</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-                  <div></div>
-                  <div>
+          <h4 id="3-release-the-product"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Release the product<a class="fa fa-anchor" href="#3-release-the-product"></a></h4>
+          <ul>
+            <li>Create a new jar file.</li>
+            <li>Ensure the jar file works as it will be used to grade your iP.</li>
+            <li>Create a new release on GitHub (e.g., <code>v0.2</code>) and upload the jar file.</li>
+          </ul>
+          <div class="indented">
+            <div>
+              <div class="indented">
+                <div class="indented border">
+                  <panel type="seamless" class="algolia-no-index">
+                    <div></div>
+                    <div slot="header"><span><span class="dimmed"><strong><code>A-Release</code>: Release</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                    <div></div>
                     <div>
-                      <div></div>
-                      <h3 id="a-release"><span class="badge badge-pill badge-primary">A-Release</span><a class="fa fa-anchor" href="#a-release"></a></h3>
-                      <p>     <big>↳</big> <strong>Release the product</strong></p>
+                      <div>
+                        <div></div>
+                        <h3 id="a-release"><span class="badge badge-pill badge-primary">A-Release</span><a class="fa fa-anchor" href="#a-release"></a></h3>
+                        <p>     <big>↳</big> <strong>Release the product</strong></p>
+                      </div>
+                      <p>Release the product to be used by potential users. <span class="dimmed">e.g., you can make it available on GitHub</span></p>
                     </div>
-                    <p>Release the product to be used by potential users. <span class="dimmed">e.g., you can make it available on GitHub</span></p>
-                  </div>
-                </panel>
+                  </panel>
+                </div>
               </div>
             </div>
           </div>
+          <p></p>
         </div>
         <br>
         <hr style="border-top: 3px double #c5c5c5;">
@@ -269,8 +336,26 @@
           </div>
           <h4 id="2-get-familiar-with-the-code-base"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span aria-hidden="true" class="fas fa-user"></span></span> Get familiar with the code base<a class="fa fa-anchor" href="#2-get-familiar-with-the-code-base"></a></h4>
           <ul>
-            <li>Do the provided tutorials to get familiar with the codebase</li>
-            <li>When updating code in the repo, follow the workflow explained below:</li>
+            <li>Do the following tutorials to get familiar with the codebase
+              <ul>
+                <li><a href="https://nus-cs2103-AY1920S1.github.io/addressbook-level3/tutorials/TracingCode">Tutorial 1 - Tracing a Command Execution Path</a></li>
+                <li><a href="https://nus-cs2103-AY1920S1.github.io/addressbook-level3/tutorials/RemovingFields">Tutorial 2 - Removing a field from an entity</a>
+                  <ul>
+                    <li>You may remove a different field than the one given in the tutorial.</li>
+                    <li>Submission: Do your changes in a branch named <code>tutorial-removing-field</code> and push to your fork.</li>
+                  </ul>
+                </li>
+                <li>Tutorial 3 - Adding a new Command (coming soon)
+                  <ul>
+                    <li>You may add a different command than the one given in the tutorial.</li>
+                    <li>Submission: Do your changes in a branch named <code>tutorial-adding-command</code>, push to your fork, and create a PR from your fork to your team's repo.</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><mark>Ideally, you should do the tutorials by week 6 tutorial</mark> (i.e., midnight before), but you may take an extra week (i.e., by the week 7 tutorial) to finish them without penalty.</li>
+            <li>The PRs created for tutorials need not be merged, unless the changes are actually in-line with your project idea.</li>
+            <li>For reference, here is the workflow you should follow use to merge code in your tP:</li>
           </ul>
           <div class="indented-level2">
             <div class="flat">
@@ -293,7 +378,7 @@
                   </ul>
                   <modal large title="Admin <md>:glyphicon-log-in:</md> Appendix E → Setting Git Username to Match GitHub Username" id="modal:appE-gitUsername" class="algolia-no-index">
                       <div>
-                      <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identify you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                      <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identifies you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
                       <p>After installing Git in a computer, you can set the Git username as follows:</p>
                       <ol>
                         <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
@@ -639,7 +724,7 @@ method 2 ...
                   </modal>
                 </div>
                 <div id="workflow-after-v11">
-                  <p><strong>After completing v1.1, you can reduce process rigor</strong> to suit your teams pace. Here are some examples:</p>
+                  <p><strong>After completing v1.1, you can reduce process rigor</strong> to suit your team's pace. Here are some examples:</p>
                   <ul>
                     <li>
                       <p><strong>Reduce automated tests</strong>: Automated tests have benefits, but they can be a pain to write/maintain; GUI tests are especially hard to maintain because their behavior can sometimes depend on things such as the OS, resolution etc.<br>
@@ -714,8 +799,9 @@ method 2 ...
             <a class="nav-link py-1" href="#week-6-sep-16-project">Week 6 [Sep 16] - Project&#x200E;</a>
             <a class="nav-link py-1" href="#ip">iP&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-              <a class="nav-link py-1" href="#1-write-a-brief-user-guide">1 Write a brief user guide&#x200E;</a>
-              <a class="nav-link py-1" href="#2-release-the-product">2 Release the product&#x200E;</a>
+              <a class="nav-link py-1" href="#1-finalize-the-features">1 Finalize the features&#x200E;</a>
+              <a class="nav-link py-1" href="#2-set-up-a-product-website">2 Set up a product website&#x200E;</a>
+              <a class="nav-link py-1" href="#3-release-the-product">3 Release the product&#x200E;</a>
             </nav>
             <a class="nav-link py-1" href="#tp-mid-v1-1">tP: mid-v1.1&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
@@ -732,7 +818,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 08 Sep 2019 09:42:10 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 08 Sep 2019 12:33:20 GMT</small></div>
     </footer>
   </div>
 </body>

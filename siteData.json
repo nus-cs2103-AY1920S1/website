@@ -251,6 +251,7 @@
     {
       "headings": {
         "ip-week-5": "iP: Week 5 ",
+        "0-generate-a-new-jar-file-extra": "0 Generate a new jar file  extra",
         "1-add-increments-as-prs-a-assertions-a-codequality-a-lambdas-a-streams": "1 Add increments as PRs: A-Assertions, A-CodeQuality, A-Lambdas, A-Streams",
         "2-set-up-ci": "2 Set up CI",
         "3-add-an-extension": "3 Add an extension"
@@ -267,8 +268,9 @@
     {
       "headings": {
         "ip-week-6": "iP: Week 6 ",
-        "1-write-a-brief-user-guide": "1 Write a brief user guide",
-        "2-release-the-product": "2 Release the product"
+        "1-finalize-the-features": "1 Finalize the features",
+        "2-set-up-a-product-website": "2 Set up a product website",
+        "3-release-the-product": "3 Release the product"
       },
       "title": "Admin: iP: Week 6",
       "header": "header.md",
