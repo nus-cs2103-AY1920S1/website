@@ -103,54 +103,342 @@
         </nav>
         <p></p>
         <h1 id="week-5-sep-9-tutorial">Week 5 <small><small><span class="dimmed">[Sep 9]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-5-sep-9-tutorial"></a></h1>
-        <p><strong>Suggested question to discuss:</strong></p>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Explain Class Diagram" class="algolia-no-index">
-            <question>
-              <p>Explain the associations, navigabilities, and multiplicities in the class diagram below:</p>
-              <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
-              <p></p>
-            </question>
-          </panel>
+        <h4 id="1-discuss-the-code-quality-of-prs"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Discuss the code quality of PRs<a class="fa fa-anchor" href="#1-discuss-the-code-quality-of-prs"></a></h4>
+        <div class="indented">
+          <p><span><span aria-hidden="true" class="fas fa-users"></span></span> This activity is to be done as a team. One team member needs to be connected to the TV.</p>
         </div>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Object Diagrams for Class Diagram" class="algolia-no-index">
-            <question>
-              <p>Suppose we wrote a program to follow the class structure given in this class diagram:</p>
-              <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
-              <p></p>
-              <p>Draw object diagrams to represent the object structures after each of these steps below. Assume that we are trying to minimize the number of total objects.</p>
-              <p>i.e. apply step 1 → [diagram 1] → apply step 2 on diagram 1 → [diagram 2] and so on.</p>
-              <ol>
-                <li>
-                  <p>There are no persons.</p>
-                </li>
-                <li>
-                  <p><code>Alfred</code> is the Guardian of <code>Bruce</code>.</p>
-                </li>
-                <li>
-                  <p><code>Bruce</code>'s contact number is the same as <code>Alfred</code>'s.</p>
-                </li>
-                <li>
-                  <p><code>Alfred</code> is also the guardian of another person. That person lists <code>Alfred</code>s home address as his home address as well as office address.</p>
-                </li>
-                <li>
-                  <p><code>Alfred</code> has a an office address at <code>Wayne Industries</code> building which is different from his home address (i.e. <code>Bat Cave</code>).</p>
-                </li>
-              </ol>
-              <div slot="hint" class="algolia-no-index">
-                <p>After step 2, the diagram should be like this:</p>
-                <img src="/website/book/uml/classDiagrams/combine/basic/images/objectDiagramsForClassDiagramHint.png" width="600">
+        <ol>
+          <li>
+            <p><strong>Locate PRs to discuss</strong>: Go to the <a href="https://github.com/nus-cs2103-AY1920S1/duke/pulls">list of Duke PRs</a>. Locate the PRs (you can filter using <code>tutorial.*</code> and <code>team.*</code> labels) from the team you are allocated to discuss (given below).</p>
+            <panel header="Team allocation for the code quality discussion" minimized class="algolia-no-index">
+              <div class="table-responsive">
+                <table class="markbind-table table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th>Team</th>
+                      <th>Discuss PRs of</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>CS2103T-W11-1</td>
+                      <td>CS2103T-W13-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W11-2</td>
+                      <td>CS2103T-W13-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W11-3</td>
+                      <td>CS2103T-W13-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W11-4</td>
+                      <td>CS2103T-W13-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W12-1</td>
+                      <td>CS2103T-W11-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W12-2</td>
+                      <td>CS2103T-W11-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W12-3</td>
+                      <td>CS2103T-W11-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W12-4</td>
+                      <td>CS2103T-W11-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W13-1</td>
+                      <td>CS2103T-W12-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W13-2</td>
+                      <td>CS2103T-W12-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W13-3</td>
+                      <td>CS2103T-W12-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-W13-4</td>
+                      <td>CS2103T-W12-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T09-1</td>
+                      <td>CS2103-T16-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T09-2</td>
+                      <td>CS2103-T16-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T09-3</td>
+                      <td>CS2103T-T17-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T09-4</td>
+                      <td>CS2103T-T17-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T10-1</td>
+                      <td>CS2103T-T09-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T10-2</td>
+                      <td>CS2103T-T09-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T10-3</td>
+                      <td>CS2103T-T09-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T10-4</td>
+                      <td>CS2103T-T09-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T11-1</td>
+                      <td>CS2103T-T10-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T11-1</td>
+                      <td>CS2103T-T10-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T11-2</td>
+                      <td>CS2103T-T10-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T11-2</td>
+                      <td>CS2103T-T10-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T11-3</td>
+                      <td>CS2103T-T11-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T11-3</td>
+                      <td>CS2103-T11-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T11-4</td>
+                      <td>CS2103-T11-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T12-1</td>
+                      <td>CS2103T-T11-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T12-2</td>
+                      <td>CS2103T-T11-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T12-3</td>
+                      <td>CS2103-T11-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T12-4</td>
+                      <td>CS2103T-T11-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T13-1</td>
+                      <td>CS2103T-T12-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T13-2</td>
+                      <td>CS2103T-T12-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T13-3</td>
+                      <td>CS2103T-T12-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T13-4</td>
+                      <td>CS2103T-T12-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T14-1</td>
+                      <td>CS2103T-T13-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T14-2</td>
+                      <td>CS2103T-T13-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T14-3</td>
+                      <td>CS2103T-T13-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T14-4</td>
+                      <td>CS2103T-T13-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T16-1</td>
+                      <td>CS2103-T14-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T16-2</td>
+                      <td>CS2103-T14-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T16-3</td>
+                      <td>CS2103-T14-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-T16-4</td>
+                      <td>CS2103-T14-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T17-1</td>
+                      <td>CS2103-T16-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-T17-2</td>
+                      <td>CS2103-T16-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-F09-1</td>
+                      <td>CS2103T-F14-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-F09-2</td>
+                      <td>CS2103T-F14-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-F09-3</td>
+                      <td>CS2103T-F14-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-F09-4</td>
+                      <td>CS2103T-F14-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-F10-1</td>
+                      <td>CS2103-F09-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-F10-2</td>
+                      <td>CS2103-F09-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103-F10-3</td>
+                      <td>CS2103-F09-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F11-1</td>
+                      <td>CS2103-F09-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F11-2</td>
+                      <td>CS2103-F10-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F11-3</td>
+                      <td>CS2103-F10-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F11-4</td>
+                      <td>CS2103-F10-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F12-1</td>
+                      <td>CS2103T-F11-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F12-2</td>
+                      <td>CS2103T-F11-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F12-3</td>
+                      <td>CS2103T-F11-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F12-4</td>
+                      <td>CS2103T-F11-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F13-1</td>
+                      <td>CS2103T-F12-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F13-2</td>
+                      <td>CS2103T-F12-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F13-3</td>
+                      <td>CS2103T-F12-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F13-4</td>
+                      <td>CS2103T-F12-4</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F14-1</td>
+                      <td>CS2103T-F13-1</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F14-2</td>
+                      <td>CS2103T-F13-2</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F14-3</td>
+                      <td>CS2103T-F13-3</td>
+                    </tr>
+                    <tr>
+                      <td>CS2103T-F14-4</td>
+                      <td>CS2103T-F13-4</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-            </question>
-          </panel>
+            </panel>
+            <p></p>
+          </li>
+          <li>
+            <p><strong>Pick a PR to review.</strong> When choosing, give priority to PRs with fewer comments.</p>
+          </li>
+          <li>
+            <p><strong>Discuss code quality</strong> Go through the code, and discuss the code quality of the PR. Example aspects to consider:</p>
+            <ul>
+              <li>abstraction: SLAP, arrow-head style code, too-long methods, too-deep nesting</li>
+              <li>comments: missing comments, redundant comments</li>
+              <li>magic literals</li>
+              <li>hard-to-understand code</li>
+              <li>coding standard violations</li>
+              <li>class/method/variable naming</li>
+            </ul>
+          </li>
+          <li>
+            <p><strong>Add comments</strong>: If the team agrees that the code quality of a specific piece of code should be improved some way, add a comment (team members can take turns on adding comments).<br>
+              If you are unsure about a case, you can also rope the tutor in to the discussion.</p>
+          </li>
+          <li>
+            <p><strong>Repeat for other PRs</strong>: Spend <mark>no more than 10 minutes on one PR</mark>. When you reach 10 minutes, move to another PR.<br>
+              Discuss <mark>at least 2 PRs</mark>.</p>
+          </li>
+        </ol>
+        <div class="indented">
+          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> After the tutorial, you can apply the insights gained from this activity to <strong>improve the code quality of your own iP</strong>, if necessary.</p>
         </div>
+        <h4 id="2-prioritize-tp-user-stories"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Prioritize tP user stories<a class="fa fa-anchor" href="#2-prioritize-tp-user-stories"></a></h4>
+        <ul>
+          <li>Show your list of tP user stories to the tutor <span class="dimmed">(for progress tracking)</span>.</li>
+          <li>If you haven't done so already, prioritize tP user stories as explained in the <a href="/website/schedule/week5/project.html#2-prioritize-the-user-stories-before-or-during-the-tutorial"><span class="border"> <span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Project </span></a>.</li>
+        </ul>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-5-sep-9-tutorial">Week 5 [Sep 9] - Tutorial&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#1-discuss-the-code-quality-of-prs">1 Discuss the code quality of PRs&#x200E;</a>
+              <a class="nav-link py-1" href="#2-prioritize-tp-user-stories">2 Prioritize tP user stories&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -158,7 +446,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 07 Sep 2019 01:15:55 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 08 Sep 2019 09:09:12 GMT</small></div>
     </footer>
   </div>
 </body>
