@@ -1,0 +1,36 @@
+2019-09-11T04:09:07.384Z - info: Website generation started at 12:09:00 PM
+2019-09-11T04:09:12.006Z - info: Building assets...
+2019-09-11T04:09:14.902Z - info: Assets built
+2019-09-11T04:09:14.903Z - info: Generating pages...
+2019-09-11T04:11:08.040Z - info: Pages built
+2019-09-11T04:11:29.224Z - info: Website generation complete! Total build time: 149.07s
+2019-09-11T04:11:29.574Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-11T04:11:29.574Z - info: Press CTRL+C to stop ...
+2019-09-11T04:11:29.598Z - info: Site data built
+2019-09-11T04:11:51.289Z - info: [12:11:51 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week5\tutorial-cs2103.md
+2019-09-11T04:11:52.291Z - info: Rebuilding affected source files
+2019-09-11T04:11:52.293Z - info: Rebuilding 1 pages
+2019-09-11T04:11:52.417Z - info: Pages rebuilt
+2019-09-11T04:11:52.426Z - info: Site data built
+2019-09-11T04:11:52.582Z - info: [12:11:52 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week5\tutorial-cs2103.md
+2019-09-11T04:11:53.583Z - info: Rebuilding affected source files
+2019-09-11T04:11:53.584Z - info: Rebuilding 1 pages
+2019-09-11T04:11:53.690Z - info: Pages rebuilt
+2019-09-11T04:11:53.700Z - info: Site data built
+2019-09-11T04:14:42.890Z - info: [12:14:42 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week5\tutorial-cs2103.md
+2019-09-11T04:14:43.892Z - info: Rebuilding affected source files
+2019-09-11T04:14:43.893Z - info: Rebuilding 1 pages
+2019-09-11T04:14:44.099Z - info: Pages rebuilt
+2019-09-11T04:14:44.108Z - info: Site data built
+2019-09-11T04:14:54.512Z - info: [12:14:54 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week5\tutorial-cs2103.md
+2019-09-11T04:14:55.514Z - info: Rebuilding affected source files
+2019-09-11T04:14:55.515Z - info: Rebuilding 1 pages
+2019-09-11T04:14:55.646Z - info: Pages rebuilt
+2019-09-11T04:14:55.655Z - info: Site data built
+2019-09-11T04:15:40.325Z - info: [12:15:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week5\tutorial-cs2103.md
+2019-09-11T04:15:41.327Z - info: Rebuilding affected source files
+2019-09-11T04:15:41.329Z - info: Rebuilding 1 pages
+2019-09-11T04:15:41.529Z - info: Pages rebuilt
+2019-09-11T04:15:41.540Z - info: Site data built
+2019-09-11T04:16:47.708Z - info: Website generation started at 12:16:41 PM
+2019-09-11T04:16:51.402Z - info: Building assets...
