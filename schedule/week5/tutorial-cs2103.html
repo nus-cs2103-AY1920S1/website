@@ -71,7 +71,7 @@
           <span><strong> Individual Project (iP):</strong></span>
           <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
           <li><a href="https://github.com/nus-cs2103-AY1920S1/duke" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Duke</span></a></li>
-          <li><a href="https://nus-cs2103-ay1920s1.github.io/ip-dashboard" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+          <li><a href="https://nus-cs2103-ay1920s1.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
           <hr>
           <span><strong> Team Project (tP):</strong></span>
           <li><a href="/website/admin/project-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
@@ -406,17 +406,19 @@
             <p></p>
           </li>
           <li>
-            <p><strong>Locate PRs from that team</strong>: Go to the <a href="https://github.com/nus-cs2103-AY1920S1/duke/pulls">list of Duke PRs</a>. Locate the PRs (you can filter using <code>tutorial.*</code> and <code>team.*</code> labels).</p>
+            <p><strong>Locate PRs from that team</strong>: Go to the <a href="https://github.com/nus-cs2103-AY1920S1/duke/pulls">list of Duke PRs</a>. Locate the PRs (you can filter using <code>tutorial.*</code> and <code>team.*</code> labels).
+              <img src="/website/admin/images/filterPrsUsingLabels.png"></p>
           </li>
           <li>
-            <p><strong>Pick a PR to review.</strong> When choosing, give priority to PRs with fewer comments.</p>
+            <p><strong>Pick a PR to review</strong>, giving priority to <mark>PRs with fewer comments</mark>.</p>
           </li>
           <li>
-            <p><strong>Discuss abstraction aspect of the code</strong> Go through the code, and discuss the <mark>abstraction (SLAP, arrow-head style code, too-long methods, too-deep nesting)</mark> aspect of the PR</p>
+            <p><strong>Discuss abstraction aspect of the code</strong>: Go through the code, and discuss the <mark>abstraction (SLAP, arrow-head style code, too-long methods, too-deep nesting)</mark> aspect of the PR<br>
+              <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> To identify long methods or deep nesting, zoom out and scroll through the entire PR code to do a visual inspection (no need to read the code line-by-line). After visually locating a method that looks too long/deep, have a closer look to see it can be improved by using better abstraction.If you are unsure about a case, you can also rope the tutor in to the discussion.</p>
           </li>
           <li>
             <p><strong>Add comments</strong>: If the team agrees that the abstraction aspect of specific piece of code should be improved some way, add a comment (team members can take turns on adding comments).<br>
-              If you are unsure about a case, you can also rope the tutor in to the discussion.</p>
+              e.g., <code>This method looks rather long; perhaps it can be shortened using SLAP?</code></p>
           </li>
           <li>
             <p><strong>Repeat for remaining PRs</strong>: Continue to review PRs until the 30 minutes mark.</p>
@@ -448,7 +450,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 11 Sep 2019 14:59:42 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 12 Sep 2019 04:30:00 GMT</small></div>
     </footer>
   </div>
 </body>
