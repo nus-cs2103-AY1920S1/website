@@ -446,3 +446,12 @@ Template render error: (C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-sho
 2019-09-14T13:07:15.507Z - info: Site data built
 2019-09-14T13:09:46.821Z - info: Website generation started at 21:09:40
 2019-09-14T13:09:50.271Z - info: Building assets...
+2019-09-14T13:09:53.877Z - info: Assets built
+2019-09-14T13:09:53.878Z - info: Generating pages...
+2019-09-14T13:12:31.163Z - info: Pages built
+2019-09-14T13:12:56.427Z - info: Website generation complete! Total build time: 195.509s
+2019-09-14T13:12:56.427Z - info: Build success!
+2019-09-14T13:12:56.447Z - info: Site data built
+2019-09-14T13:13:49.945Z - info: Deployed!
+2019-09-14T13:59:06.310Z - info: Website generation started at 21:59:00
+2019-09-14T13:59:10.329Z - info: Building assets...
