@@ -283,6 +283,21 @@
     },
     {
       "headings": {
+        "ip-week-6": "iP: Week 6 ",
+        "1-do-any-final-clean-ups": "1 Do any final clean-ups",
+        "2-submit-the-final-version-by-monday-2359": "2 Submit the final version  by Monday 2359"
+      },
+      "title": "Admin: iP: Week 6",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "pageNav": 4,
+      "src": "admin/ip-w07.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
         "lectures": "Lectures "
       },
       "title": "Admin: Lectures",
@@ -545,7 +560,7 @@
         "2-get-familiar-with-the-code-base": "2  Get familiar with the code base",
         "3-conceptualize-v2-0": "3  Conceptualize v2.0",
         "4-draft-the-ug": "4  Draft the UG",
-        "5-refine-product-design": "5  Refine product design"
+        "5-refine-the-product-design": "5  Refine the product design"
       },
       "title": "Admin: tP: mid-v1.1 [week 6]",
       "header": "header.md",

@@ -187,6 +187,124 @@
             </question>
           </panel>
         </div>
+        <div>
+          <panel header="<md>:glyphicon-question-sign:</md> Draw a Class Diagram for Item etc." class="algolia-no-index">
+            <question>
+              <p>Consider the code below:</p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Billable</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">bill</span><span class="hljs-params">()</span></span>;
+}
+</code></pre>
+                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Item</span>
+         <span class="hljs-keyword">implements</span> <span class="hljs-title">Billable</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span></span>;
+}
+</code></pre>
+                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StockItem</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Item</span> </span>{
+    <span class="hljs-keyword">private</span> Review review;
+    <span class="hljs-keyword">private</span> String name;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">StockItem</span><span class="hljs-params">(
+        String name, Rating rating)</span></span>{
+
+        <span class="hljs-keyword">this</span>.name = name;
+        <span class="hljs-keyword">this</span>.review = <span class="hljs-keyword">new</span> Review(rating);
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">//...</span>
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">bill</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">//...</span>
+    }
+}
+</code></pre>
+                </div>
+                <div class="col-sm-6">
+                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Rating {
+    GOOD, OK, POOR
+}
+</code></pre>
+                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Review</span> </span>{
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> Rating rating;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Review</span><span class="hljs-params">(Rating rating)</span> </span>{
+        <span class="hljs-keyword">this</span>.rating = rating;
+    }
+}
+</code></pre>
+                  <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.List;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Inventory</span> </span>{
+    <span class="hljs-keyword">private</span> List&lt;Item&gt; items;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getItemCount</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-keyword">return</span> items.size();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateBill</span><span class="hljs-params">(Billable b)</span></span>{
+        <span class="hljs-comment">// ...</span>
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">add</span><span class="hljs-params">(Item s)</span> </span>{
+        items.add(s);
+    }
+}
+</code></pre>
+                </div>
+              </div>
+              <p>(a) Draw a class diagram to represent the code<br>
+                (b) Draw an object diagram to represent the situation where the inventory has one item with a name <code>spanner</code> and a review of <code>POOR</code> rating.</p>
+            </question>
+          </panel>
+        </div>
+        <div>
+          <panel header="<md>:glyphicon-question-sign:</md> Draw a Sequence Diagram for code snippet" class="algolia-no-index">
+            <question>
+              <p>Consider the code below:</p>
+              <div class="row">
+                <div class="col-sm-7">
+                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span></span>{
+    Tag tag;
+    String name;
+
+    Person(String personName, String tagName){
+        name = personName;
+        tag = <span class="hljs-keyword">new</span> Tag(tagName);
+    }
+}
+</code></pre>
+                </div>
+                <div class="col-sm-5">
+                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tag</span></span>{
+    Tag(String value){
+        <span class="hljs-comment">//...</span>
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonList</span></span>{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">addPerson</span><span class="hljs-params">(Person p)</span></span>{
+        <span class="hljs-comment">//...</span>
+    }
+}
+</code></pre>
+                </div>
+              </div>
+              <p>Draw a sequence diagram to illustrate the object interactions that happen in the code snippet below:</p>
+              <pre><code class="hljs java">PersonList personList = <span class="hljs-keyword">new</span> PersonList();
+<span class="hljs-keyword">while</span> (hasRoom){
+    Person p = <span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Adam"</span>, <span class="hljs-string">"friend"</span>);
+    personList.addPerson(p);
+}
+</code></pre>
+            </question>
+          </panel>
+        </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
@@ -200,7 +318,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 13 Sep 2019 11:47:21 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 14 Sep 2019 11:38:06 GMT</small></div>
     </footer>
   </div>
 </body>
