@@ -48,3 +48,46 @@
 2019-09-15T11:51:37.189Z - info: Deployed!
 2019-09-15T11:55:12.273Z - info: Website generation started at 7:55:06 PM
 2019-09-15T11:55:15.813Z - info: Building assets...
+2019-09-15T11:55:18.579Z - info: Assets built
+2019-09-15T11:55:18.579Z - info: Generating pages...
+2019-09-15T11:57:04.274Z - info: Pages built
+2019-09-15T11:57:26.262Z - info: Website generation complete! Total build time: 139.926s
+2019-09-15T11:57:26.262Z - info: Build success!
+2019-09-15T11:57:26.278Z - info: Site data built
+2019-09-15T11:58:22.542Z - info: Deployed!
+2019-09-15T12:04:09.884Z - info: Website generation started at 8:04:04 PM
+2019-09-15T12:04:13.301Z - info: Building assets...
+2019-09-15T12:04:15.959Z - info: Assets built
+2019-09-15T12:04:15.959Z - info: Generating pages...
+2019-09-15T12:05:58.340Z - info: Pages built
+2019-09-15T12:06:18.716Z - info: Website generation complete! Total build time: 134.538s
+2019-09-15T12:06:19.059Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-15T12:06:19.059Z - info: Press CTRL+C to stop ...
+2019-09-15T12:06:19.109Z - info: Site data built
+2019-09-15T12:10:53.771Z - info: [8:10:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-showcase.md
+2019-09-15T12:10:54.774Z - info: Rebuilding affected source files
+2019-09-15T12:10:54.775Z - info: Rebuilding 1 pages
+2019-09-15T12:10:56.299Z - info: Pages rebuilt
+2019-09-15T12:10:56.318Z - info: Site data built
+2019-09-15T12:12:34.876Z - info: [8:12:34 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-showcase.md
+2019-09-15T12:12:35.877Z - info: Rebuilding affected source files
+2019-09-15T12:12:35.879Z - info: Rebuilding 1 pages
+2019-09-15T12:12:37.202Z - info: Pages rebuilt
+2019-09-15T12:12:37.215Z - info: Site data built
+2019-09-15T12:15:17.897Z - info: [8:15:17 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-showcase.md
+2019-09-15T12:15:18.898Z - info: Rebuilding affected source files
+2019-09-15T12:15:18.900Z - info: Rebuilding 1 pages
+2019-09-15T12:15:20.377Z - info: Pages rebuilt
+2019-09-15T12:15:20.396Z - info: Site data built
+2019-09-15T12:16:17.732Z - info: [8:16:17 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-showcase.md
+2019-09-15T12:16:18.735Z - info: Rebuilding affected source files
+2019-09-15T12:16:18.736Z - info: Rebuilding 1 pages
+2019-09-15T12:16:20.251Z - info: Pages rebuilt
+2019-09-15T12:16:20.268Z - info: Site data built
+2019-09-15T12:17:52.507Z - info: [8:17:52 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-showcase.md
+2019-09-15T12:17:53.508Z - info: Rebuilding affected source files
+2019-09-15T12:17:53.510Z - info: Rebuilding 1 pages
+2019-09-15T12:17:54.993Z - info: Pages rebuilt
+2019-09-15T12:17:55.006Z - info: Site data built
+2019-09-15T12:20:26.344Z - info: Website generation started at 8:20:20 PM
+2019-09-15T12:20:30.118Z - info: Building assets...
