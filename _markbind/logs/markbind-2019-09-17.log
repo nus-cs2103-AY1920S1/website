@@ -1,0 +1,10 @@
+2019-09-16T16:05:51.299Z - info: [00:05:51] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\headers\header.md
+2019-09-16T16:05:51.309Z - info: [00:05:51] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T16:05:51.318Z - info: [00:05:51] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\variables.md
+2019-09-16T16:05:51.345Z - info: [00:05:51] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\site.json
+2019-09-16T16:05:51.363Z - info: [00:05:51] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-09-16T16:05:52.307Z - info: Rebuilding affected source files
+2019-09-16T16:05:52.530Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-09-16T16:05:52.862Z - info: Rebuilding 775 pages
+2019-09-16T16:07:18.688Z - info: Website generation started at 00:07:12
+2019-09-16T16:07:23.649Z - info: Building assets...
