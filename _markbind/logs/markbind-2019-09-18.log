@@ -29,3 +29,57 @@
 2019-09-18T02:41:20.809Z - info: Site data built
 2019-09-18T02:42:12.849Z - info: Website generation started at 10:42:10 AM
 2019-09-18T02:42:15.328Z - info: Building assets...
+2019-09-18T02:42:17.187Z - info: Assets built
+2019-09-18T02:42:17.187Z - info: Generating pages...
+2019-09-18T02:43:59.642Z - info: Pages built
+2019-09-18T02:44:19.275Z - info: Website generation complete! Total build time: 128.475s
+2019-09-18T02:44:19.276Z - info: Build success!
+2019-09-18T02:44:19.290Z - info: Site data built
+2019-09-18T02:45:14.364Z - info: Deployed!
+2019-09-18T06:42:34.652Z - info: Website generation started at 2:42:32 PM
+2019-09-18T06:42:37.048Z - info: Building assets...
+2019-09-18T06:42:38.851Z - info: Assets built
+2019-09-18T06:42:38.851Z - info: Generating pages...
+2019-09-18T06:44:18.386Z - info: Pages built
+2019-09-18T06:44:38.010Z - info: Website generation complete! Total build time: 125.327s
+2019-09-18T06:44:38.366Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-18T06:44:38.366Z - info: Press CTRL+C to stop ...
+2019-09-18T06:44:38.403Z - info: Site data built
+2019-09-18T06:44:38.832Z - info: [2:44:38 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectList.md
+2019-09-18T06:44:39.846Z - info: Rebuilding affected source files
+2019-09-18T06:44:39.848Z - info: Rebuilding 1 pages
+2019-09-18T06:44:49.070Z - info: Pages rebuilt
+2019-09-18T06:44:49.086Z - info: Site data built
+2019-09-18T06:45:02.299Z - info: [2:45:02 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectList.md
+2019-09-18T06:45:03.301Z - info: Rebuilding affected source files
+2019-09-18T06:45:03.302Z - info: Rebuilding 1 pages
+2019-09-18T06:45:04.613Z - info: Pages rebuilt
+2019-09-18T06:45:04.627Z - info: Site data built
+2019-09-18T06:48:45.603Z - info: [2:48:45 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\images\placeholder-large.png
+2019-09-18T06:48:45.610Z - info: [2:48:45 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\images\placeholder-large.png
+2019-09-18T06:48:46.614Z - info: Assets built
+2019-09-18T06:48:55.222Z - info: [2:48:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectList.md
+2019-09-18T06:48:56.224Z - info: Rebuilding affected source files
+2019-09-18T06:48:56.226Z - info: Rebuilding 1 pages
+2019-09-18T06:48:57.577Z - info: Pages rebuilt
+2019-09-18T06:48:57.591Z - info: Site data built
+2019-09-18T06:49:53.399Z - info: [2:49:53 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\images\placeholder-small.png
+2019-09-18T06:49:53.408Z - info: [2:49:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\images\placeholder-small.png
+2019-09-18T06:49:54.406Z - info: Assets built
+2019-09-18T06:50:25.491Z - info: [2:50:25 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectList.md
+2019-09-18T06:50:26.494Z - info: Rebuilding affected source files
+2019-09-18T06:50:26.496Z - info: Rebuilding 1 pages
+2019-09-18T06:50:27.784Z - info: Pages rebuilt
+2019-09-18T06:50:27.797Z - info: Site data built
+2019-09-18T06:51:20.455Z - info: [2:51:20 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-showcase.md
+2019-09-18T06:51:21.457Z - info: Rebuilding affected source files
+2019-09-18T06:51:21.458Z - info: Rebuilding 1 pages
+2019-09-18T06:51:22.854Z - info: Pages rebuilt
+2019-09-18T06:51:22.867Z - info: Site data built
+2019-09-18T06:52:16.084Z - info: [2:52:16 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\ip-showcase.md
+2019-09-18T06:52:17.086Z - info: Rebuilding affected source files
+2019-09-18T06:52:17.087Z - info: Rebuilding 1 pages
+2019-09-18T06:52:18.491Z - info: Pages rebuilt
+2019-09-18T06:52:18.507Z - info: Site data built
+2019-09-18T06:54:02.080Z - info: Website generation started at 2:53:59 PM
+2019-09-18T06:54:04.603Z - info: Building assets...
