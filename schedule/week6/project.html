@@ -440,7 +440,7 @@ method 2 ...
           <ul>
             <li><strong>Add a representative screenshot</strong> of the product to the <code>docs</code> folder.
               <ul>
-                <li><mark>The file name should be <code>docs/Ui.png</code> exactly</mark> (even if the file format is not <code>png</code>, name it <code>png</code>)</li>
+                <li><mark>The file name should be in the <code>docs</code> folder and named <code>Ui.png</code> exactly</mark> (even if the file format is not <code>png</code>, name it <code>png</code>)</li>
                 <li>Ideally, the product name is visible in the screenshot e.g., in the title bar of the Window</li>
               </ul>
             </li>
@@ -516,14 +516,18 @@ method 2 ...
           </div>
           <p></p>
           <ul>
-            <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you added the <code>Ui.png</code> correctly and set up product website correctly, <mark>you should be able to see your screenshot in the <a href="/website/admin/ip-showcase.html">iP Showcase</a> page</mark>.</li>
+            <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you added the <code>Ui.png</code> correctly and set up the product website correctly, <mark>you should be able to <strong>see your screenshot in the <a href="/website/admin/ip-showcase.html">iP Showcase</a> page</strong></mark> <span class="dimmed">(a link to the iP Showcase page is also available in the top navigation menu → Links)</span>.</li>
           </ul>
           <h4 id="3-release-the-product"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Release the product<a class="fa fa-anchor" href="#3-release-the-product"></a></h4>
           <ul>
-            <li>Create a new jar file.</li>
-            <li>Ensure the jar file works <span class="dimmed">(reason: it will be used to grade your iP)</span>.<br>
-              <mark>Get a team member to test the Jar file on their computer</mark>, preferrably someone using a different Operating System <span class="dimmed">(reason: it's possible for the jar file to work on your computer but not on others')</span>.</li>
-            <li>Create a new release on GitHub (e.g., <code>v0.2</code>) and upload the jar file.</li>
+            <li><strong>Create a new jar file</strong> using Gradle. Creating jar file using Intellij is not recommended unless the project is very simple.</li>
+            <li><strong>Do the following <a href="https://en.wikipedia.org/wiki/Smoke_testing_(software)"><em>smoke tests</em></a></strong> to ensure the jar file works <span class="dimmed">(reason: it will be used to grade your iP)</span>.<br>
+              <ol>
+                <li>Copy the jar file to an empty folder and test it from there. This should surface issues with hard-coded file paths.</li>
+                <li>Pass the jar file to team members and ask them to do a test drive. Assuming some of your team members' OS differ from yours, this should verify if the app is cross-platform.</li>
+              </ol>
+            </li>
+            <li><strong>Create a new release on GitHub</strong> (e.g., <code>v0.2</code>) and upload the jar file.</li>
           </ul>
           <div class="indented">
             <div>
@@ -1129,7 +1133,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Wed, 18 Sep 2019 12:30:17 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 19 Sep 2019 04:37:56 GMT</small></div>
     </footer>
   </div>
 </body>
