@@ -107,137 +107,451 @@
         </nav>
         <p></p>
         <h1 id="week-7-sep-30-tutorial">Week 7 <small><small><span class="dimmed">[Sep 30]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-7-sep-30-tutorial"></a></h1>
-        <p><strong>Questions to discuss during tutorial:</strong></p>
-        <ol>
-          <li>Which architecture styles are used by AB3?</li>
-          <li>What is an API? How is it used in AB3?</li>
-        </ol>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Draw Sequence Diagram for printing a quote" class="algolia-no-index">
-            <question>
-              <p>Draw a sequence diagram to represent this code snippet.</p>
-              <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isFirstPage) {
-    <span class="hljs-keyword">new</span> Quote().print();
-}
-</code></pre>
-              <p>The <code>Quote</code> class:</p>
-              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Quote</span></span>{
-
-    String q;
-
-    Quote(){
-        q = generate();
-    }
-
-    <span class="hljs-function">String <span class="hljs-title">generate</span><span class="hljs-params">()</span></span>{
-        <span class="hljs-comment">// ...</span>
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span></span>{
-        System.out.println(q);
-    }
-
-}
-</code></pre>
-              <div slot="hint" class="algolia-no-index">
+        <h4 id="1-exercise-on-requirements-pr-tracker"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Exercise on Requirements: PR Tracker<a class="fa fa-anchor" href="#1-exercise-on-requirements-pr-tracker"></a></h4>
+        <ul>
+          <li><strong>Divide the team into sub-team</strong> A and sub-team B, 2-3 members each.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Write the answers to the following questions</strong> on the white-board.</li>
+        </ul>
+        <div class="indented-level2">
+          <box>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Question adapted from a past exam paper.</span></p>
+            <p><span class="text-monospace">Pull Request Tracker (PRT) is a desktop application meant to help CS2103 tutors deal with GitHub PRs more efficiently (compared to the GitHub Web interface). For example, it will help tutors find and review PRs from their <em>mentees</em> easily. It will help the <em>managers</em> of the module (e.g., professor, head TA) to easily keep track of how tutors are dealing with mentee PRs. PRT will communicate with GitHub using the GitHub API.</span></p>
+            <p><strong>Sub-team A:</strong></p>
+            <ul>
+              <li>Write 2 must-have and 2 nice-to-have user stories, covering user types <code>tutor</code> and <code>manager</code>.</li>
+              <li>Write 2 <tooltip content="Non-Functional Requirements">NFRs</tooltip>, 1 related to performance/scalability, and one related to usability.</li>
+              <li>Give 2 terms worth recording in the glossary.</li>
+            </ul>
+            <p><strong>Sub-team B:</strong></p>
+            <ul>
+              <li>Complete the following use case. Give at least one extension. Note that the tutor should give comments in the order of PR size (i.e., give comments to smaller PRs first). Assume the following use cases exists already: <code>U1. Sort PRs by a criterion</code>, <code>U2. Add comments to a PR</code></li>
+            </ul>
+            <div class="indented-level2 text-monospace">
+              <blockquote>
+                <p>System: PRT<br>
+                  Use Case: U3. Add comments to mentee PRs<br>
+                  Actor: ...<br>
+                  Precondition: ...<br></p>
+                <p>...</p>
+              </blockquote>
+            </div>
+          </box>
+        </div>
+        <ul>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Discuss the answers</strong> with the whole team and the tutor</li>
+        </ul>
+        <h4 id="2-review-requirements-of-a-peer-team"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Review Requirements of a peer team<a class="fa fa-anchor" href="#2-review-requirements-of-a-peer-team"></a></h4>
+        <ul>
+          <li><strong>Find the team you have been allocated to discuss</strong> in the panel below and click on the link to locate their team PR.</li>
+        </ul>
+        <div class="indented-level2">
+          <panel header="Team allocation for PR discussion" minimized class="algolia-no-index">
+            <div class="table-responsive">
+              <table class="markbind-table table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>Team</th>
+                    <th>Discuss PR of</th>
+                    <th>Backup team to discuss</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CS2103T-W11-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-1">CS2103T-W13-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-1">CS2103T-W12-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W11-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-2">CS2103T-W13-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-2">CS2103T-W12-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W11-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-3">CS2103T-W13-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-3">CS2103T-W12-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W11-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-4">CS2103T-W13-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-4">CS2103T-W12-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W12-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-1">CS2103T-W11-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-1">CS2103T-W13-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W12-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-2">CS2103T-W11-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-2">CS2103T-W13-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W12-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-3">CS2103T-W11-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-3">CS2103T-W13-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W12-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-4">CS2103T-W11-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W13-4">CS2103T-W13-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W13-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-1">CS2103T-W12-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-1">CS2103T-W11-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W13-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-2">CS2103T-W12-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-2">CS2103T-W11-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W13-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-3">CS2103T-W12-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-3">CS2103T-W11-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-W13-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W12-4">CS2103T-W12-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-W11-4">CS2103T-W11-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T09-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-3">CS2103-T16-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-3">CS2103-T14-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T09-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-4">CS2103-T16-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-4">CS2103-T14-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T09-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T17-1">CS2103T-T17-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-1">CS2103-T16-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T09-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T17-2">CS2103T-T17-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-2">CS2103-T16-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T10-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-1">CS2103T-T09-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-3">CS2103-T16-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T10-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-2">CS2103T-T09-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-4">CS2103-T16-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T10-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-3">CS2103T-T09-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T17-1">CS2103T-T17-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T10-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-4">CS2103T-T09-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T17-2">CS2103T-T17-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T11-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-1">CS2103T-T10-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-1">CS2103T-T09-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T11-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-2">CS2103T-T10-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-2">CS2103T-T09-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T11-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-3">CS2103T-T10-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-3">CS2103T-T09-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T11-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-4">CS2103T-T10-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T09-4">CS2103T-T09-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T11-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-1">CS2103T-T11-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-1">CS2103T-T10-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T11-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T11-1">CS2103-T11-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-2">CS2103T-T10-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T11-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T11-2">CS2103-T11-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-3">CS2103T-T10-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T12-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-2">CS2103T-T11-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T10-4">CS2103T-T10-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T12-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-3">CS2103T-T11-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-1">CS2103T-T11-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T12-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T11-3">CS2103-T11-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T11-1">CS2103-T11-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T12-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-4">CS2103T-T11-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T11-2">CS2103-T11-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T13-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-1">CS2103T-T12-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-2">CS2103T-T11-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T13-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-2">CS2103T-T12-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-3">CS2103T-T11-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T13-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-3">CS2103T-T12-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T11-3">CS2103-T11-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T13-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-4">CS2103T-T12-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T11-4">CS2103T-T11-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T14-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-1">CS2103T-T13-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-1">CS2103T-T12-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T14-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-2">CS2103T-T13-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-2">CS2103T-T12-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T14-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-3">CS2103T-T13-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-3">CS2103T-T12-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T14-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-4">CS2103T-T13-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T12-4">CS2103T-T12-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T16-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-1">CS2103-T14-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-1">CS2103T-T13-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T16-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-2">CS2103-T14-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-2">CS2103T-T13-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T16-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-3">CS2103-T14-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-3">CS2103T-T13-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-T16-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-4">CS2103-T14-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-T13-4">CS2103T-T13-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T17-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-1">CS2103-T16-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-1">CS2103-T14-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-T17-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T16-2">CS2103-T16-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-T14-2">CS2103-T14-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-F09-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-1">CS2103T-F14-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-1">CS2103T-F13-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-F09-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-2">CS2103T-F14-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-2">CS2103T-F13-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-F09-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-3">CS2103T-F14-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-3">CS2103T-F13-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-F09-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-4">CS2103T-F14-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-4">CS2103T-F13-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-F10-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-1">CS2103-F09-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-1">CS2103T-F14-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-F10-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-2">CS2103-F09-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-2">CS2103T-F14-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103-F10-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-3">CS2103-F09-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-3">CS2103T-F14-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F11-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-4">CS2103-F09-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F14-4">CS2103T-F14-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F11-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F10-1">CS2103-F10-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-1">CS2103-F09-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F11-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F10-2">CS2103-F10-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-2">CS2103-F09-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F11-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F10-3">CS2103-F10-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-3">CS2103-F09-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F12-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-1">CS2103T-F11-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F09-4">CS2103-F09-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F12-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-2">CS2103T-F11-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F10-1">CS2103-F10-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F12-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-3">CS2103T-F11-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F10-2">CS2103-F10-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F12-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-4">CS2103T-F11-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103-F10-3">CS2103-F10-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F13-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-1">CS2103T-F12-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-1">CS2103T-F11-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F13-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-2">CS2103T-F12-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-2">CS2103T-F11-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F13-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-3">CS2103T-F12-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-3">CS2103T-F11-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F13-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-4">CS2103T-F12-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F11-4">CS2103T-F11-4</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F14-1</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-1">CS2103T-F13-1</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-1">CS2103T-F12-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F14-2</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-2">CS2103T-F13-2</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-2">CS2103T-F12-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F14-3</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-3">CS2103T-F13-3</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-3">CS2103T-F12-3</a></td>
+                  </tr>
+                  <tr>
+                    <td>CS2103T-F14-4</td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F13-4">CS2103T-F13-4</a></td>
+                    <td><a href="https://github.com/nus-cs2103-AY1920S1/addressbook-level3/pulls?utf8=%E2%9C%93&amp;q=is%3Apr+is%3Aopen+CS2103T-F12-4">CS2103T-F12-4</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </panel>
+        </div>
+        <ul>
+          <li><strong>Go to the PR</strong>.</li>
+          <li><strong>Go the to the preview of the Developer Guide</strong> via the Netlify preview link.
+            <img src="/website/admin/images/prNetlifyPreview.png"></li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Read the following sections and make notes</strong> of areas to improve and doubts. To be done collectively with sub-team members.<br>
+            <span class="dimmed"><strong>If the DG does not have enough content for you to review</strong>, you can review the <em>backup</em> team (see the third column in the allocation panel).</span>
+            <ul>
+              <li><strong>Sub-team A:</strong> use cases
                 <ul>
-                  <li>Show <code>new Quote().print();</code> as two method calls.</li>
-                  <li>As the created Quote object is not assigned to a variable, it can be considered as 'deleted' soon after its <code>print()</code> method is called.</li>
+                  <li>Is the step numbering correct?</li>
+                  <li>Are all possible extensions mentioned?</li>
+                  <li>Are there any unnecessary UI details mentioned?</li>
+                  <li>Any other formatting/notational errors?</li>
                 </ul>
-              </div>
-            </question>
-          </panel>
-        </div>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Review `CliApp` code for quality" class="algolia-no-index">
-            <panel header="%%<md>:glyphicon-education:</md>%% Prerequisites" minimized class="algolia-no-index">
-              <p>See the chapter on <em>Code Quality</em>.
-              </p>
-            </panel>
-            <p></p>
-            <question has-input="true">
-              <p>Suggest ways to improve the quality of the code below.</p>
-              <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.FileNotFoundException;
-<span class="hljs-keyword">import</span> java.util.*;
-
-<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CliApp</span> </span>{
-
-    <span class="hljs-comment">//...</span>
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_COMMAND_HELP_PARAMETERS = <span class="hljs-string">"Parameters: %1$s"</span>;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_COMMAND_HELP_EXAMPLE = <span class="hljs-string">"Example: %1$s"</span>;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_DISPLAY_PERSON_DATA = <span class="hljs-string">"%1$s  Phone Number: %2$s  Email: %3$s"</span>;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String GOODBYE_MESSAGE = <span class="hljs-string">"Exiting Address Book... Good bye!"</span>;
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String MESSAGE_INVALID_COMMAND_FORMAT = <span class="hljs-string">"Invalid command format: %1$s"</span>;
-    <span class="hljs-comment">//...</span>
-
-    <span class="hljs-comment">/**
-     * List of all persons in the address book.
-     */</span>
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> ArrayList&lt;String&gt; person = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
-
-
-    <span class="hljs-comment">//...</span>
-
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
-        String userCommand = <span class="hljs-string">"nothing"</span>; <span class="hljs-keyword">boolean</span> exit = <span class="hljs-keyword">false</span>;
-        <span class="hljs-keyword">if</span> (args.length &gt; <span class="hljs-number">0</span>) {
-            showWelcomeMessage();
-            processProgramArgs(args);
-            loadDataFromStorage();
-            <span class="hljs-keyword">while</span> (!exit) {
-                System.out.print(<span class="hljs-string">"Enter command: "</span>);
-                userCommand = SCANNER.nextLine();
-                userCommand = userCommand.trim();
-                showToUser(userCommand);
-                String feedback = executeCommand(userCommand);
-                showResultToUser(feedback);
-            }
-        } <span class="hljs-keyword">else</span> {
-            showToUser(<span class="hljs-string">"Incorrect usage!"</span>);
-        }
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showResultToUser</span><span class="hljs-params">(String feedback)</span> </span>{
-        <span class="hljs-keyword">switch</span> (feedback) {
-            <span class="hljs-keyword">case</span> <span class="hljs-string">"0"</span>:
-                feedback = <span class="hljs-string">"Good (0)"</span>;
-                <span class="hljs-keyword">break</span>;
-            <span class="hljs-keyword">case</span> <span class="hljs-string">"1"</span>:
-                feedback = <span class="hljs-string">"Better (1)"</span>;
-                <span class="hljs-keyword">break</span>;
-        }
-        <span class="hljs-keyword">try</span> {
-            writeToFile(feedback);
-        } <span class="hljs-keyword">catch</span> (FileNotFoundException e) {
-            <span class="hljs-comment">//e.printStackTrace();</span>
-        }
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">matcher</span><span class="hljs-params">(String s1, String s2)</span> </span>{
-        <span class="hljs-comment">// ...</span>
-    }
-
-    <span class="hljs-comment">/**
-     * Show the {<span class="hljs-doctag">@code</span> message} to the user
-     */</span>
-    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">showToUser</span><span class="hljs-params">(String message)</span> </span>{
-        System.out.println(LINE_PREFIX + message.trim()); <span class="hljs-comment">// add LINE_PREFIX in front</span>
-    }
-
-<span class="hljs-comment">// ...</span>
-
-}
-</code></pre>
-            </question>
-          </panel>
-        </div>
-        <p></p>
+              </li>
+              <li><strong>Sub-team B</strong>:
+                <ul>
+                  <li>User stories
+                    <ul>
+                      <li>Is the user story format correct?</li>
+                      <li>All three parts present?</li>
+                      <li>Does the benefit match the function?</li>
+                      <li>Any important user stories missing?</li>
+                    </ul>
+                  </li>
+                  <li>NFRs
+                    <ul>
+                      <li>Are the NFRs are really <em>Non-Functional</em>?</li>
+                      <li>Is each NFR <em>well-defined</em> (i.e., possible to decide when it has been met)?</li>
+                      <li>Is each NFR reasonably achievable?</li>
+                      <li>Are more relevant NFRs have been left out?</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Discuss with the tutor</strong> and other team members.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5 minutes</span></span> <strong>Add a comment</strong> (not a formal review) in the PR to give your comments to the team. Different members can comment about different things.<br>
+            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> After adding comments, you may want to unsubscribe from the PR to avoid getting GitHub alerts from that PR in the future.</li>
+        </ul>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-7-sep-30-tutorial">Week 7 [Sep 30] - Tutorial&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#1-exercise-on-requirements-pr-tracker">1 Exercise on Requirements: PR Tracker&#x200E;</a>
+              <a class="nav-link py-1" href="#2-review-requirements-of-a-peer-team">2 Review Requirements of a peer team&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -245,7 +559,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 22 Sep 2019 08:59:13 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 23 Sep 2019 11:31:07 GMT</small></div>
     </footer>
   </div>
 </body>
