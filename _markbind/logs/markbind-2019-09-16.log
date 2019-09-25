@@ -1,0 +1,134 @@
+2019-09-16T15:05:14.014Z - info: Website generation started at 23:05:08
+2019-09-16T15:05:16.712Z - info: Building assets...
+2019-09-16T15:05:19.334Z - info: Assets built
+2019-09-16T15:05:19.334Z - info: Generating pages...
+2019-09-16T15:07:34.755Z - info: Pages built
+2019-09-16T15:08:00.471Z - info: Website generation complete! Total build time: 171.746s
+2019-09-16T15:08:00.778Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-16T15:08:00.778Z - info: Press CTRL+C to stop ...
+2019-09-16T15:08:00.805Z - info: Site data built
+2019-09-16T15:10:49.110Z - info: [23:10:49] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:10:50.119Z - info: Rebuilding affected source files
+2019-09-16T15:10:50.119Z - info: Rebuilding 3 pages
+2019-09-16T15:10:53.403Z - info: Pages rebuilt
+2019-09-16T15:10:53.421Z - info: Site data built
+2019-09-16T15:11:22.600Z - info: [23:11:22] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:11:23.601Z - info: Rebuilding affected source files
+2019-09-16T15:11:23.602Z - info: Rebuilding 3 pages
+2019-09-16T15:11:26.518Z - info: Pages rebuilt
+2019-09-16T15:11:26.533Z - info: Site data built
+2019-09-16T15:12:30.585Z - info: [23:12:30] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\variables.md
+2019-09-16T15:12:31.587Z - info: Rebuilding affected source files
+2019-09-16T15:12:31.794Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-09-16T15:12:32.137Z - info: Rebuilding 775 pages
+2019-09-16T15:12:32.168Z - info: [23:12:32] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\variables.md
+2019-09-16T15:15:19.737Z - info: Pages rebuilt
+2019-09-16T15:15:19.809Z - info: [23:15:19] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:15:19.844Z - info: Site data built
+2019-09-16T15:15:20.804Z - info: Rebuilding affected source files
+2019-09-16T15:15:20.875Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2019-09-16T15:15:21.081Z - info: Rebuilding 775 pages
+2019-09-16T15:16:54.692Z - info: [23:16:54] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:17:03.650Z - info: [23:17:03] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:18:09.075Z - info: Pages rebuilt
+2019-09-16T15:18:09.186Z - info: Site data built
+2019-09-16T15:18:10.445Z - info: Rebuilding affected source files
+2019-09-16T15:18:10.446Z - info: Rebuilding 3 pages
+2019-09-16T15:18:13.426Z - info: Pages rebuilt
+2019-09-16T15:18:13.436Z - info: Site data built
+2019-09-16T15:18:15.057Z - info: [23:18:15] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:18:16.058Z - info: Rebuilding affected source files
+2019-09-16T15:18:16.060Z - info: Rebuilding 3 pages
+2019-09-16T15:18:19.462Z - info: Pages rebuilt
+2019-09-16T15:18:19.480Z - info: Site data built
+2019-09-16T15:18:37.142Z - info: [23:18:37] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:18:38.143Z - info: Rebuilding affected source files
+2019-09-16T15:18:38.145Z - info: Rebuilding 3 pages
+2019-09-16T15:18:40.962Z - info: Pages rebuilt
+2019-09-16T15:18:40.982Z - info: Site data built
+2019-09-16T15:24:17.834Z - info: [23:24:17] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:24:18.835Z - info: Rebuilding affected source files
+2019-09-16T15:24:18.840Z - info: Rebuilding 3 pages
+2019-09-16T15:24:22.299Z - info: Pages rebuilt
+2019-09-16T15:24:22.313Z - info: Site data built
+2019-09-16T15:25:14.990Z - info: [23:25:14] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:25:15.995Z - info: Rebuilding affected source files
+2019-09-16T15:25:15.997Z - info: Rebuilding 3 pages
+2019-09-16T15:25:18.927Z - info: Pages rebuilt
+2019-09-16T15:25:18.945Z - info: Site data built
+2019-09-16T15:26:41.775Z - info: [23:26:41] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:26:42.801Z - info: Rebuilding affected source files
+2019-09-16T15:26:42.805Z - info: Rebuilding 3 pages
+2019-09-16T15:26:46.249Z - info: Pages rebuilt
+2019-09-16T15:26:46.266Z - info: Site data built
+2019-09-16T15:34:30.158Z - info: [23:34:30] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:34:31.160Z - info: Rebuilding affected source files
+2019-09-16T15:34:31.165Z - info: Rebuilding 3 pages
+2019-09-16T15:34:34.629Z - info: Pages rebuilt
+2019-09-16T15:34:34.644Z - info: Site data built
+2019-09-16T15:35:35.965Z - info: [23:35:35] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:35:36.994Z - info: Rebuilding affected source files
+2019-09-16T15:35:36.994Z - info: Rebuilding 3 pages
+2019-09-16T15:35:41.074Z - info: Pages rebuilt
+2019-09-16T15:35:41.094Z - info: Site data built
+2019-09-16T15:35:57.198Z - info: [23:35:57] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:35:58.201Z - info: Rebuilding affected source files
+2019-09-16T15:35:58.201Z - info: Rebuilding 3 pages
+2019-09-16T15:36:01.771Z - info: Pages rebuilt
+2019-09-16T15:36:01.783Z - info: Site data built
+2019-09-16T15:38:16.085Z - info: [23:38:16] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:38:17.093Z - info: Rebuilding affected source files
+2019-09-16T15:38:17.093Z - info: Rebuilding 3 pages
+2019-09-16T15:38:22.013Z - info: Pages rebuilt
+2019-09-16T15:38:22.025Z - info: Site data built
+2019-09-16T15:38:47.287Z - info: [23:38:47] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:38:48.291Z - info: Rebuilding affected source files
+2019-09-16T15:38:48.295Z - info: Rebuilding 3 pages
+2019-09-16T15:38:51.840Z - info: Pages rebuilt
+2019-09-16T15:38:51.860Z - info: Site data built
+2019-09-16T15:39:36.064Z - info: [23:39:36] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:39:37.071Z - info: Rebuilding affected source files
+2019-09-16T15:39:37.071Z - info: Rebuilding 3 pages
+2019-09-16T15:39:41.248Z - info: Pages rebuilt
+2019-09-16T15:39:41.276Z - info: Site data built
+2019-09-16T15:40:03.254Z - info: [23:40:03] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:40:04.256Z - info: Rebuilding affected source files
+2019-09-16T15:40:04.260Z - info: Rebuilding 3 pages
+2019-09-16T15:40:08.704Z - info: Pages rebuilt
+2019-09-16T15:40:08.840Z - info: Site data built
+2019-09-16T15:40:35.078Z - info: [23:40:35] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:40:36.084Z - info: Rebuilding affected source files
+2019-09-16T15:40:36.088Z - info: Rebuilding 3 pages
+2019-09-16T15:40:39.845Z - info: Pages rebuilt
+2019-09-16T15:40:39.865Z - info: Site data built
+2019-09-16T15:41:47.161Z - info: [23:41:47] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:41:48.165Z - info: Rebuilding affected source files
+2019-09-16T15:41:48.165Z - info: Rebuilding 3 pages
+2019-09-16T15:41:52.116Z - info: Pages rebuilt
+2019-09-16T15:41:52.132Z - info: Site data built
+2019-09-16T15:45:20.113Z - info: [23:45:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\headers\header.md
+2019-09-16T15:45:21.118Z - info: Rebuilding affected source files
+2019-09-16T15:45:21.210Z - info: Rebuilding 155 pages
+2019-09-16T15:47:30.968Z - info: Pages rebuilt
+2019-09-16T15:47:31.072Z - info: Site data built
+2019-09-16T15:47:33.227Z - info: [23:47:33] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\_markbind\headers\header.md
+2019-09-16T15:47:34.229Z - info: Rebuilding affected source files
+2019-09-16T15:47:34.293Z - info: Rebuilding 155 pages
+2019-09-16T15:49:02.615Z - info: [23:49:02] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:49:02.711Z - info: [23:49:02] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:49:28.318Z - info: Pages rebuilt
+2019-09-16T15:49:28.350Z - info: Site data built
+2019-09-16T15:49:28.815Z - info: Rebuilding affected source files
+2019-09-16T15:49:28.819Z - info: Rebuilding 3 pages
+2019-09-16T15:49:32.024Z - info: Pages rebuilt
+2019-09-16T15:49:32.032Z - info: Site data built
+2019-09-16T15:54:21.160Z - info: [23:54:21] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:54:22.164Z - info: Rebuilding affected source files
+2019-09-16T15:54:22.172Z - info: Rebuilding 3 pages
+2019-09-16T15:54:26.986Z - info: Pages rebuilt
+2019-09-16T15:54:27.006Z - info: Site data built
+2019-09-16T15:59:15.836Z - info: [23:59:15] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\participation.md
+2019-09-16T15:59:16.839Z - info: Rebuilding affected source files
+2019-09-16T15:59:16.839Z - info: Rebuilding 3 pages
+2019-09-16T15:59:21.202Z - info: Pages rebuilt
+2019-09-16T15:59:21.238Z - info: Site data built
