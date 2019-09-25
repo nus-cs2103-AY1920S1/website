@@ -728,6 +728,20 @@
     },
     {
       "headings": {
+        "ip-week-6": "iP: Week 6 ",
+        "1-evaluate-two-peer-ips-by-saturday-2359": "1 Evaluate two peer iPs  by Saturday 2359"
+      },
+      "title": "Admin: iP: Week 6",
+      "header": "header.md",
+      "footer": "footer.md",
+      "siteNav": "adminSiteNav.md",
+      "head": "adminHead.md",
+      "pageNav": 4,
+      "src": "admin/ip-w08.md",
+      "layout": "default"
+    },
+    {
+      "headings": {
         "lectures": "Lectures "
       },
       "title": "Admin: Lectures",
