@@ -1,0 +1,29 @@
+2019-09-29T09:34:37.789Z - info: Website generation started at 5:34:31 PM
+2019-09-29T09:34:42.072Z - info: Building assets...
+2019-09-29T09:34:45.286Z - info: Assets built
+2019-09-29T09:34:45.286Z - info: Generating pages...
+2019-09-29T09:36:42.863Z - info: Pages built
+2019-09-29T09:37:06.531Z - info: Website generation complete! Total build time: 155.403s
+2019-09-29T09:37:06.883Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-29T09:37:06.884Z - info: Press CTRL+C to stop ...
+2019-09-29T09:37:06.911Z - info: Site data built
+2019-09-29T09:50:09.840Z - info: [5:50:09 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\combine\basic\q-essay-objectDiagramsForClassDiagram.md
+2019-09-29T09:50:09.844Z - info: [5:50:09 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week8\tutorial-cs2103.md
+2019-09-29T09:50:10.844Z - info: Rebuilding affected source files
+2019-09-29T09:50:10.847Z - info: Rebuilding 6 pages
+2019-09-29T09:50:13.666Z - info: Pages rebuilt
+2019-09-29T09:50:13.679Z - info: Site data built
+2019-09-29T09:51:07.811Z - info: [5:51:07 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\combine\basic\q-essay-objectDiagramsForClassDiagram.md
+2019-09-29T09:51:08.812Z - info: Rebuilding affected source files
+2019-09-29T09:51:08.816Z - info: Rebuilding 6 pages
+2019-09-29T09:51:11.050Z - info: Pages rebuilt
+2019-09-29T09:51:11.065Z - info: Site data built
+2019-09-29T12:08:50.916Z - info: Website generation started at 8:08:44 PM
+2019-09-29T12:08:55.081Z - info: Building assets...
+2019-09-29T12:08:57.832Z - info: Assets built
+2019-09-29T12:08:57.832Z - info: Generating pages...
+2019-09-29T12:10:47.717Z - info: Pages built
+2019-09-29T12:11:09.127Z - info: Website generation complete! Total build time: 144.333s
+2019-09-29T12:11:09.128Z - info: Build success!
+2019-09-29T12:11:09.143Z - info: Site data built
+2019-09-29T12:12:20.184Z - info: Deployed!

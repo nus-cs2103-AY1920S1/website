@@ -1,0 +1,125 @@
+2019-09-26T03:20:33.966Z - info: Website generation started at 11:20:32 AM
+2019-09-26T03:20:36.575Z - info: Building assets...
+2019-09-26T03:20:38.505Z - info: Assets built
+2019-09-26T03:20:38.506Z - info: Generating pages...
+2019-09-26T03:22:18.124Z - info: Pages built
+2019-09-26T03:22:37.830Z - info: Website generation complete! Total build time: 125.805s
+2019-09-26T03:22:38.168Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-26T03:22:38.168Z - info: Press CTRL+C to stop ...
+2019-09-26T03:22:38.200Z - info: Site data built
+2019-09-26T03:30:21.250Z - info: [11:30:21 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T03:30:22.251Z - info: Rebuilding affected source files
+2019-09-26T03:30:22.254Z - info: Rebuilding 4 pages
+2019-09-26T03:30:26.955Z - info: Pages rebuilt
+2019-09-26T03:30:26.966Z - info: Site data built
+2019-09-26T03:31:49.878Z - info: [11:31:49 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T03:31:50.879Z - info: Rebuilding affected source files
+2019-09-26T03:31:50.881Z - info: Rebuilding 4 pages
+2019-09-26T03:31:54.899Z - info: Pages rebuilt
+2019-09-26T03:31:54.911Z - info: Site data built
+2019-09-26T03:32:11.619Z - info: [11:32:11 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T03:32:12.624Z - info: Rebuilding affected source files
+2019-09-26T03:32:12.625Z - info: Rebuilding 4 pages
+2019-09-26T03:32:16.631Z - info: Pages rebuilt
+2019-09-26T03:32:16.645Z - info: Site data built
+2019-09-26T03:34:04.670Z - info: [11:34:04 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T03:34:05.677Z - info: Rebuilding affected source files
+2019-09-26T03:34:05.679Z - info: Rebuilding 4 pages
+2019-09-26T03:34:09.738Z - info: Pages rebuilt
+2019-09-26T03:34:09.754Z - info: Site data built
+2019-09-26T04:49:01.710Z - info: [12:49:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T04:49:02.732Z - info: Rebuilding affected source files
+2019-09-26T04:49:02.750Z - info: Rebuilding 4 pages
+2019-09-26T04:49:09.151Z - info: Pages rebuilt
+2019-09-26T04:49:09.169Z - info: Site data built
+2019-09-26T04:49:21.652Z - info: [12:49:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T04:49:22.654Z - info: Rebuilding affected source files
+2019-09-26T04:49:22.655Z - info: Rebuilding 4 pages
+2019-09-26T04:49:26.992Z - info: Pages rebuilt
+2019-09-26T04:49:27.007Z - info: Site data built
+2019-09-26T04:50:21.090Z - info: [12:50:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T04:50:22.101Z - info: Rebuilding affected source files
+2019-09-26T04:50:22.103Z - info: Rebuilding 4 pages
+2019-09-26T04:50:22.162Z - error:  Error: No such segment 'teamExpectations' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-scope.md
+Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+2019-09-26T04:50:23.857Z - error:  Error: No such segment 'teamExpectations' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-scope.md
+Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+2019-09-26T04:50:26.074Z - warn:  TypeError: Cannot read property 'parent' of null
+    at Function.exports.update (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:55:26)
+    at module.exports (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:17:11)
+    at Function.exports.load (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\static.js:22:14)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:348:19)
+    at Object.$.not.each.each (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:392:16)
+    at initialize.exports.each (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\api\traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:358:6)
+    at Page.collectHeadingsAndKeywords (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:339:8)
+    at pages.forEach (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1043:12)
+    at Array.forEach (<anonymous>)
+    at Site.updateSiteData (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1041:14)
+    at Promise.all.then (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1025:24)
+    at tryCatcher (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+2019-09-26T04:50:29.140Z - error: Cannot read property 'parent' of null
+2019-09-26T04:51:02.319Z - info: [12:51:02 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T04:51:02.322Z - info: Rebuilding affected source files
+2019-09-26T04:51:02.331Z - info: Rebuilding 4 pages
+2019-09-26T04:51:06.445Z - info: Pages rebuilt
+2019-09-26T04:51:06.452Z - error: Cannot read property 'parent' of null
+2019-09-26T04:51:06.455Z - info: Site data built
+2019-09-26T04:51:44.303Z - info: Website generation started at 12:51:44 PM
+2019-09-26T04:51:47.092Z - info: Building assets...
+2019-09-26T04:51:49.105Z - info: Assets built
+2019-09-26T04:51:49.105Z - info: Generating pages...
+2019-09-26T04:53:37.739Z - info: Pages built
+2019-09-26T04:54:00.308Z - info: Website generation complete! Total build time: 136.022s
+2019-09-26T04:54:00.680Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-09-26T04:54:00.680Z - info: Press CTRL+C to stop ...
+2019-09-26T04:54:00.716Z - info: Site data built
+2019-09-26T04:57:20.174Z - info: [12:57:20 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w08-mid-v12.md
+2019-09-26T04:57:21.197Z - info: Rebuilding affected source files
+2019-09-26T04:57:21.203Z - info: Rebuilding 4 pages
+2019-09-26T04:57:26.095Z - info: Pages rebuilt
+2019-09-26T04:57:26.105Z - info: Site data built
+2019-09-26T12:49:54.028Z - info: Website generation started at 8:49:51 PM
+2019-09-26T12:49:57.004Z - info: Building assets...
+2019-09-26T12:49:59.016Z - info: Assets built
+2019-09-26T12:49:59.016Z - info: Generating pages...
+2019-09-26T12:51:37.706Z - info: Pages built
+2019-09-26T12:51:57.038Z - info: Website generation complete! Total build time: 125.175s
+2019-09-26T12:51:57.039Z - info: Build success!
+2019-09-26T12:51:57.052Z - info: Site data built
+2019-09-26T12:52:52.348Z - info: Deployed!
