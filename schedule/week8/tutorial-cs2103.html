@@ -107,54 +107,28 @@
         </nav>
         <p></p>
         <h1 id="week-8-oct-7-tutorial">Week 8 <small><small><span class="dimmed">[Oct 7]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-8-oct-7-tutorial"></a></h1>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Draw an Object Diagrams for the Class Diagram (Person-Guardian)" class="algolia-no-index">
-            <question>
-              <p>Suppose we wrote a program to follow the class structure given in this class diagram:</p>
-              <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
-              <p></p>
-              <p>Draw object diagrams to represent the object structures after each of these steps below. Assume that we are trying to minimize the number of total objects.</p>
-              <p>i.e. apply step 1 → [diagram 1] → apply step 2 on diagram 1 → [diagram 2] and so on.</p>
-              <ol>
-                <li>
-                  <p>There are no persons.</p>
-                </li>
-                <li>
-                  <p><code>Alfred</code> is the Guardian of <code>Bruce</code>.</p>
-                </li>
-                <li>
-                  <p><code>Bruce</code>'s contact number is the same as <code>Alfred</code>'s.</p>
-                </li>
-                <li>
-                  <p><code>Alfred</code> is also the guardian of another person. That person lists <code>Alfred</code>s home address as his home address as well as office address.</p>
-                </li>
-                <li>
-                  <p><code>Alfred</code> has a an office address at <code>Wayne Industries</code> building which is different from his home address (i.e. <code>Bat Cave</code>).</p>
-                </li>
-              </ol>
-              <div slot="hint" class="algolia-no-index">
-                <p>After step 2, the diagram should be like this:</p>
-                <img src="/website/book/uml/classDiagrams/combine/basic/images/objectDiagramsForClassDiagramHint.png" width="600">
-              </div>
-            </question>
-          </panel>
-        </div>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Draw a Class Diagram for Item etc." class="algolia-no-index">
-            <question>
-              <p>Consider the code below:</p>
-              <div class="row">
-                <div class="col-sm-6">
-                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Billable</span> </span>{
+        <h4 id="1-exercise-draw-a-class-diagram-and-an-object-diagram"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Exercise: draw a class diagram and an object diagram<a class="fa fa-anchor" href="#1-exercise-draw-a-class-diagram-and-an-object-diagram"></a></h4>
+        <ul>
+          <li><strong>Divide into two sub-teams</strong> as you did in the previous week.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10 minutes</span></span> <strong>Each sub-team do the part (a)</strong> of the following exercise, by drawing the answer on the whiteboard.</li>
+        </ul>
+        <div class="indented-level2">
+          <div>
+            <panel header="<md>:glyphicon-question-sign:</md> Draw a Class Diagram for the code (`StokItem`, `Inventory`, `Review` etc.)" class="algolia-no-index">
+              <question>
+                <p>Consider the code below:</p>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Billable</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">bill</span><span class="hljs-params">()</span></span>;
 }
 </code></pre>
-                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Item</span>
+                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Item</span>
          <span class="hljs-keyword">implements</span> <span class="hljs-title">Billable</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span></span>;
 }
 </code></pre>
-                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StockItem</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Item</span> </span>{
+                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StockItem</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Item</span> </span>{
     <span class="hljs-keyword">private</span> Review review;
     <span class="hljs-keyword">private</span> String name;
 
@@ -176,13 +150,13 @@
     }
 }
 </code></pre>
-                </div>
-                <div class="col-sm-6">
-                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Rating {
+                  </div>
+                  <div class="col-sm-6">
+                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Rating {
     GOOD, OK, POOR
 }
 </code></pre>
-                  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Review</span> </span>{
+                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Review</span> </span>{
     <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> Rating rating;
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Review</span><span class="hljs-params">(Rating rating)</span> </span>{
@@ -190,7 +164,7 @@
     }
 }
 </code></pre>
-                  <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.List;
+                    <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.List;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Inventory</span> </span>{
     <span class="hljs-keyword">private</span> List&lt;Item&gt; items;
@@ -208,20 +182,32 @@
     }
 }
 </code></pre>
+                  </div>
                 </div>
-              </div>
-              <p>(a) Draw a class diagram to represent the code<br>
-                (b) Draw an object diagram to represent the situation where the inventory has one item with a name <code>spanner</code> and a review of <code>POOR</code> rating.</p>
-            </question>
-          </panel>
+                <p>(a) Draw a class diagram to represent the code<br>
+                  (b) Draw an object diagram to represent the situation where the inventory has one item with a name <code>spanner</code> and a review of <code>POOR</code> rating.</p>
+              </question>
+            </panel>
+          </div>
         </div>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Draw a Sequence Diagram for code snippet" class="algolia-no-index">
-            <question>
-              <p>Consider the code below:</p>
-              <div class="row">
-                <div class="col-sm-7">
-                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span></span>{
+        <p></p>
+        <ul>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5 minutes</span></span> <strong>Compare answers with those from other sub-teams</strong>. With the tutor's guidance, self-evaluate the answers.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5+5=10 minutes</span></span> <strong>Do part (b)</strong> in the same manner.</li>
+        </ul>
+        <h4 id="2-exercise-draw-a-sequence-diagram"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Exercise: draw a sequence diagram<a class="fa fa-anchor" href="#2-exercise-draw-a-sequence-diagram"></a></h4>
+        <ul>
+          <li><strong>Re-form sub-teams</strong> with different members. You may mix with members of the other team (if any).</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10+5=15 minutes</span></span> <strong>Do the following exercise</strong> similar to the previous one.</li>
+        </ul>
+        <div class="indented-level2">
+          <div>
+            <panel header="<md>:glyphicon-question-sign:</md> Draw a Sequence Diagram for the code (`PersonList`, `Person`, `Tag`)" class="algolia-no-index">
+              <question>
+                <p>Consider the code below:</p>
+                <div class="row">
+                  <div class="col-sm-7">
+                    <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span></span>{
     Tag tag;
     String name;
 
@@ -231,9 +217,9 @@
     }
 }
 </code></pre>
-                </div>
-                <div class="col-sm-5">
-                  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tag</span></span>{
+                  </div>
+                  <div class="col-sm-5">
+                    <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tag</span></span>{
     Tag(String value){
         <span class="hljs-comment">//...</span>
     }
@@ -245,60 +231,44 @@
     }
 }
 </code></pre>
+                  </div>
                 </div>
-              </div>
-              <p>Draw a sequence diagram to illustrate the object interactions that happen in the code snippet below:</p>
-              <pre><code class="hljs java">PersonList personList = <span class="hljs-keyword">new</span> PersonList();
+                <p>Draw a sequence diagram to illustrate the object interactions that happen in the code snippet below:</p>
+                <pre><code class="hljs java">PersonList personList = <span class="hljs-keyword">new</span> PersonList();
 <span class="hljs-keyword">while</span> (hasRoom){
     Person p = <span class="hljs-keyword">new</span> Person(<span class="hljs-string">"Adam"</span>, <span class="hljs-string">"friend"</span>);
     personList.addPerson(p);
 }
 </code></pre>
-            </question>
-          </panel>
+              </question>
+            </panel>
+          </div>
         </div>
-        <div>
-          <panel header="<md>:glyphicon-question-sign:</md> Draw Sequence Diagram for printing a quote" class="algolia-no-index">
-            <question>
-              <p>Draw a sequence diagram to represent this code snippet.</p>
-              <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isFirstPage) {
-    <span class="hljs-keyword">new</span> Quote().print();
+        <p></p>
+        <ul>
+          <li><strong>How would you update the diagram</strong> if the <code>PersonList</code> class was updated as follows?
+            <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonList</span></span>{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">addPerson</span><span class="hljs-params">(Person p)</span></span>{
+        add(p);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">add</span><span class="hljs-params">(Person p)</span></span>{
+        <span class="hljs-comment">//...</span>
+    }
 }
 </code></pre>
-              <p>The <code>Quote</code> class:</p>
-              <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Quote</span></span>{
-
-    String q;
-
-    Quote(){
-        q = generate();
-    }
-
-    <span class="hljs-function">String <span class="hljs-title">generate</span><span class="hljs-params">()</span></span>{
-        <span class="hljs-comment">// ...</span>
-    }
-
-    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span></span>{
-        System.out.println(q);
-    }
-
-}
-</code></pre>
-              <div slot="hint" class="algolia-no-index">
-                <ul>
-                  <li>Show <code>new Quote().print();</code> as two method calls.</li>
-                  <li>As the created Quote object is not assigned to a variable, it can be considered as 'deleted' soon after its <code>print()</code> method is called.</li>
-                </ul>
-              </div>
-            </question>
-          </panel>
-        </div>
+          </li>
+        </ul>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-8-oct-7-tutorial">Week 8 [Oct 7] - Tutorial&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#1-exercise-draw-a-class-diagram-and-an-object-diagram">1 Exercise: draw a class diagram and an object diagram&#x200E;</a>
+              <a class="nav-link py-1" href="#2-exercise-draw-a-sequence-diagram">2 Exercise: draw a sequence diagram&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -306,7 +276,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 04 Oct 2019 12:27:03 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 06 Oct 2019 07:21:39 GMT</small></div>
     </footer>
   </div>
 </body>
