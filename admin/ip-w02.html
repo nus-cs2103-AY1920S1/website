@@ -363,21 +363,32 @@
                           </li>
                           <li>
                             <p>In those cases, you can provide more information to RepoSense to rectify the situation, in the following way:</p>
+                          </li>
+                        </ul>
+                        <div class="indented-level2">
+                          <box>
+                            <p><strong>For simple cases</strong> such as the following, you can create a PR to update our config files <a href="https://github.com/nus-cs2103-AY1920S1/tp-dashboard/tree/master/configs">here</a>. The meaning of the config files are given in the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#customize-using-csv-config-files">RepoSense user guide</a>.</p>
                             <ul>
-                              <li>Install RepoSense (see the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#getting-started">Getting Started</a> section of the RepoSense User Guide)</li>
-                              <li>Use the two methods described in the RepoSense User Guide section <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#configuring-a-repo-to-provide-additional-data-to-reposense">Configuring a Repo to Provide Additional Data to RepoSense</a> to provide additional data to the authorship analysis to make it more accurate.</li>
-                              <li>If you add a <code>config.json</code> file to your repo (as specified by one of the two methods),
-                                <ul>
-                                  <li><strong>Please use the exact partial name from <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuJ9gGqFSvZci_uqivCoBipX5AOjJa7DgxRIDQ60xFnH-KEqPyEINmo4M0BJYENj7sS4dcMgRcnnMN/pubhtml?gid=0&amp;single=true">here</a></strong> as the display name.<br>
-                                    e.g., <code>&quot;displayName&quot;: &quot;ABDUL ... JAVID&quot;,</code></li>
-                                  <li>If your commits have multiple author names, specify all of them<br>
-                                    e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;theGary&quot;]</code></li>
-                                  <li>Update the line <code>config.json</code> in the <code>.gitignore</code> file of your repo as <code>/config.json</code> so that it ignores the <code>config.json</code> produced by the app but not the <code>_reposense/config.json</code>.</li>
-                                </ul>
-                              </li>
-                              <li>If you add <code>@@author</code> annotations, please follow the guidelines below:</li>
+                              <li>missing some commits due to using multiple git <code>user.name</code>s</li>
+                              <li>some commits/files need to be omitted from the analysis</li>
+                            </ul>
+                            <p>For more complicated needs, follow the instructions below this box. If you are not sure which option to use, please post in the <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">forum</a> to ask.
+                            </p>
+                          </box>
+                        </div>
+                        <ul>
+                          <li>Install RepoSense (see the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#getting-started">Getting Started</a> section of the RepoSense User Guide)</li>
+                          <li>Use the two methods described in the RepoSense User Guide section <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#configuring-a-repo-to-provide-additional-data-to-reposense">Configuring a Repo to Provide Additional Data to RepoSense</a> to provide additional data to the authorship analysis to make it more accurate.</li>
+                          <li>If you add a <code>config.json</code> file to your repo (as specified by one of the two methods),
+                            <ul>
+                              <li><strong>Please use the exact partial name from <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuJ9gGqFSvZci_uqivCoBipX5AOjJa7DgxRIDQ60xFnH-KEqPyEINmo4M0BJYENj7sS4dcMgRcnnMN/pubhtml?gid=0&amp;single=true">here</a></strong> as the display name.<br>
+                                e.g., <code>&quot;displayName&quot;: &quot;ABDUL ... JAVID&quot;,</code></li>
+                              <li>If your commits have multiple author names, specify all of them<br>
+                                e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;theGary&quot;]</code></li>
+                              <li>Update the line <code>config.json</code> in the <code>.gitignore</code> file of your repo as <code>/config.json</code> so that it ignores the <code>config.json</code> produced by the app but not the <code>_reposense/config.json</code>.</li>
                             </ul>
                           </li>
+                          <li>If you add <code>@@author</code> annotations, please follow the guidelines below:</li>
                         </ul>
                         <div class="indented-level4">
                           <panel header="Adding `@@author` tags to indicate authorship" class="algolia-no-index">
@@ -964,7 +975,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 13 Oct 2019 09:55:29 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 13 Oct 2019 12:24:15 GMT</small></div>
     </footer>
   </div>
 </body>

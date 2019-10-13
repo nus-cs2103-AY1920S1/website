@@ -373,3 +373,41 @@ Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week9\
 2019-10-13T09:41:33.707Z - info: Site data built
 2019-10-13T09:55:23.082Z - info: Website generation started at 5:55:17 PM
 2019-10-13T09:55:26.553Z - info: Building assets...
+2019-10-13T09:55:29.459Z - info: Assets built
+2019-10-13T09:55:29.460Z - info: Generating pages...
+2019-10-13T09:57:20.604Z - info: Pages built
+2019-10-13T09:57:41.843Z - info: Website generation complete! Total build time: 144.716s
+2019-10-13T09:57:41.843Z - info: Build success!
+2019-10-13T09:57:41.866Z - info: Site data built
+2019-10-13T09:58:43.490Z - info: Deployed!
+2019-10-13T10:53:35.649Z - info: Website generation started at 6:53:29 PM
+2019-10-13T10:53:38.893Z - info: Building assets...
+2019-10-13T10:53:41.440Z - info: Assets built
+2019-10-13T10:53:41.440Z - info: Generating pages...
+2019-10-13T10:55:27.246Z - info: Pages built
+2019-10-13T10:55:49.300Z - info: Website generation complete! Total build time: 139.825s
+2019-10-13T10:55:49.639Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-13T10:55:49.639Z - info: Press CTRL+C to stop ...
+2019-10-13T10:55:49.673Z - info: Site data built
+2019-10-13T10:55:50.094Z - info: [6:55:50 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\reposenseCompatibility.md
+2019-10-13T10:55:51.229Z - info: Rebuilding affected source files
+2019-10-13T10:55:51.231Z - info: Rebuilding 8 pages
+2019-10-13T10:56:02.522Z - info: Pages rebuilt
+2019-10-13T10:56:02.600Z - info: Site data built
+2019-10-13T10:56:16.330Z - info: [6:56:16 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\reposenseCompatibility.md
+2019-10-13T10:56:17.331Z - info: Rebuilding affected source files
+2019-10-13T10:56:17.332Z - info: Rebuilding 8 pages
+2019-10-13T10:56:19.312Z - info: Pages rebuilt
+2019-10-13T10:56:19.330Z - info: Site data built
+2019-10-13T10:57:08.249Z - info: [6:57:08 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\reposenseCompatibility.md
+2019-10-13T10:57:09.250Z - info: Rebuilding affected source files
+2019-10-13T10:57:09.252Z - info: Rebuilding 8 pages
+2019-10-13T10:57:11.669Z - info: Pages rebuilt
+2019-10-13T10:57:11.682Z - info: Site data built
+2019-10-13T10:58:39.336Z - info: [6:58:39 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\reposenseCompatibility.md
+2019-10-13T10:58:40.338Z - info: Rebuilding affected source files
+2019-10-13T10:58:40.340Z - info: Rebuilding 8 pages
+2019-10-13T10:58:42.769Z - info: Pages rebuilt
+2019-10-13T10:58:42.793Z - info: Site data built
+2019-10-13T12:24:07.696Z - info: Website generation started at 8:23:59 PM
+2019-10-13T12:24:12.076Z - info: Building assets...
