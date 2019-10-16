@@ -1,83 +1,38 @@
-2019-10-09T06:06:29.122Z - info: Website generation started at 2:06:26 PM
-2019-10-09T06:06:31.573Z - info: Building assets...
-2019-10-09T06:06:33.410Z - info: Assets built
-2019-10-09T06:06:33.411Z - info: Generating pages...
-2019-10-09T06:08:14.440Z - info: Pages built
-2019-10-09T06:08:34.064Z - info: Website generation complete! Total build time: 127.131s
-2019-10-09T06:08:34.065Z - info: Build success!
-2019-10-09T06:08:34.078Z - info: Site data built
-2019-10-09T06:09:32.939Z - info: Deployed!
-2019-10-09T09:24:24.475Z - info: Website generation started at 5:24:22 PM
-2019-10-09T09:24:27.423Z - info: Building assets...
-2019-10-09T09:24:29.501Z - info: Assets built
-2019-10-09T09:24:29.501Z - info: Generating pages...
-2019-10-09T09:26:16.549Z - info: Pages built
-2019-10-09T09:26:38.231Z - info: Website generation complete! Total build time: 136.186s
-2019-10-09T09:26:38.582Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
-2019-10-09T09:26:38.582Z - info: Press CTRL+C to stop ...
-2019-10-09T09:26:38.613Z - info: Site data built
-2019-10-09T09:28:10.862Z - info: [5:28:10 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:28:11.863Z - info: Rebuilding affected source files
-2019-10-09T09:28:11.865Z - info: Rebuilding 4 pages
-2019-10-09T09:28:15.524Z - info: Pages rebuilt
-2019-10-09T09:28:15.539Z - info: Site data built
-2019-10-09T09:29:36.073Z - info: [5:29:36 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:29:37.074Z - info: Rebuilding affected source files
-2019-10-09T09:29:37.076Z - info: Rebuilding 4 pages
-2019-10-09T09:29:40.093Z - info: Pages rebuilt
-2019-10-09T09:29:40.130Z - info: Site data built
-2019-10-09T09:29:51.371Z - info: [5:29:51 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:29:52.373Z - info: Rebuilding affected source files
-2019-10-09T09:29:52.375Z - info: Rebuilding 4 pages
-2019-10-09T09:29:55.178Z - info: Pages rebuilt
-2019-10-09T09:29:55.192Z - info: Site data built
-2019-10-09T09:31:21.486Z - info: [5:31:21 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:31:22.487Z - info: Rebuilding affected source files
-2019-10-09T09:31:22.489Z - info: Rebuilding 4 pages
-2019-10-09T09:31:27.029Z - info: Pages rebuilt
-2019-10-09T09:31:27.047Z - info: Site data built
-2019-10-09T09:31:40.139Z - info: [5:31:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:31:41.141Z - info: Rebuilding affected source files
-2019-10-09T09:31:41.143Z - info: Rebuilding 4 pages
-2019-10-09T09:31:44.130Z - info: Pages rebuilt
-2019-10-09T09:31:44.142Z - info: Site data built
-2019-10-09T09:32:07.950Z - info: [5:32:07 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:32:08.953Z - info: Rebuilding affected source files
-2019-10-09T09:32:08.954Z - info: Rebuilding 4 pages
-2019-10-09T09:32:12.168Z - info: Pages rebuilt
-2019-10-09T09:32:12.178Z - info: Site data built
-2019-10-09T09:32:40.044Z - info: [5:32:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:32:41.046Z - info: Rebuilding affected source files
-2019-10-09T09:32:41.047Z - info: Rebuilding 4 pages
-2019-10-09T09:32:44.281Z - info: Pages rebuilt
-2019-10-09T09:32:44.294Z - info: Site data built
-2019-10-09T09:34:22.958Z - info: [5:34:22 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:34:23.959Z - info: Rebuilding affected source files
-2019-10-09T09:34:23.961Z - info: Rebuilding 4 pages
-2019-10-09T09:34:27.160Z - info: Pages rebuilt
-2019-10-09T09:34:27.172Z - info: Site data built
-2019-10-09T09:34:38.220Z - info: [5:34:38 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w09-v12.md
-2019-10-09T09:34:39.222Z - info: Rebuilding affected source files
-2019-10-09T09:34:39.224Z - info: Rebuilding 4 pages
-2019-10-09T09:34:42.109Z - info: Pages rebuilt
-2019-10-09T09:34:42.124Z - info: Site data built
-2019-10-09T10:06:56.474Z - info: [6:06:56 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week9\tutorial-cs2103.md
-2019-10-09T10:06:56.477Z - info: [6:06:56 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
-2019-10-09T10:06:57.477Z - info: Rebuilding affected source files
-2019-10-09T10:06:57.478Z - info: Rebuilding 2 pages
-2019-10-09T10:06:57.792Z - info: Pages rebuilt
-2019-10-09T10:06:57.802Z - info: Site data built
-2019-10-09T10:23:03.648Z - info: [6:23:03 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
-2019-10-09T10:23:04.650Z - info: Rebuilding affected source files
-2019-10-09T10:23:04.652Z - info: Rebuilding 2 pages
-2019-10-09T10:23:05.473Z - info: Pages rebuilt
-2019-10-09T10:23:05.484Z - info: Site data built
-2019-10-09T12:27:13.748Z - info: Website generation started at 8:27:11 PM
-2019-10-09T12:27:16.442Z - info: Building assets...
-2019-10-09T12:27:18.395Z - info: Assets built
-2019-10-09T12:27:18.395Z - info: Generating pages...
-2019-10-09T12:29:02.454Z - info: Pages built
-2019-10-09T12:29:23.393Z - info: Website generation complete! Total build time: 132.136s
-2019-10-09T12:29:23.393Z - info: Build success!
-2019-10-09T12:29:23.406Z - info: Site data built
-2019-10-09T12:30:16.349Z - info: Deployed!
+2019-10-09T15:36:00.470Z - info: Website generation started at 23:35:51
+2019-10-09T15:36:03.076Z - info: Building assets...
+2019-10-09T15:36:05.414Z - info: Assets built
+2019-10-09T15:36:05.414Z - info: Generating pages...
+2019-10-09T15:38:34.454Z - info: Pages built
+2019-10-09T15:39:04.154Z - info: Website generation complete! Total build time: 192.946s
+2019-10-09T15:39:04.462Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-09T15:39:04.462Z - info: Press CTRL+C to stop ...
+2019-10-09T15:39:04.499Z - info: Site data built
+2019-10-09T15:40:10.511Z - info: [23:40:10] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associationsAsAttributes\what\text.md
+2019-10-09T15:40:11.527Z - info: Rebuilding affected source files
+2019-10-09T15:40:11.543Z - info: Rebuilding 14 pages
+2019-10-09T15:40:31.275Z - info: Pages rebuilt
+2019-10-09T15:40:31.314Z - info: Site data built
+2019-10-09T15:42:14.340Z - info: [23:42:14] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associationsAsAttributes\what\text.md
+2019-10-09T15:42:15.346Z - info: Rebuilding affected source files
+2019-10-09T15:42:15.353Z - info: Rebuilding 14 pages
+2019-10-09T15:42:33.906Z - info: [23:42:33] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\book\uml\classDiagrams\associationsAsAttributes\what\text.md
+2019-10-09T15:42:38.195Z - info: Pages rebuilt
+2019-10-09T15:42:38.242Z - info: Site data built
+2019-10-09T15:42:38.615Z - info: Rebuilding affected source files
+2019-10-09T15:42:38.621Z - info: Rebuilding 14 pages
+2019-10-09T15:43:02.608Z - info: Pages rebuilt
+2019-10-09T15:43:02.641Z - info: Site data built
+2019-10-09T15:44:09.323Z - info: [23:44:09] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-10-09T15:44:10.326Z - info: Rebuilding affected source files
+2019-10-09T15:44:10.331Z - info: Rebuilding 2 pages
+2019-10-09T15:44:12.153Z - info: Pages rebuilt
+2019-10-09T15:44:12.162Z - info: Site data built
+2019-10-09T15:48:59.601Z - info: Website generation started at 23:48:53
+2019-10-09T15:49:02.006Z - info: Building assets...
+2019-10-09T15:49:04.349Z - info: Assets built
+2019-10-09T15:49:04.349Z - info: Generating pages...
+2019-10-09T15:51:13.651Z - info: Pages built
+2019-10-09T15:51:39.937Z - info: Website generation complete! Total build time: 166.008s
+2019-10-09T15:51:39.938Z - info: Build success!
+2019-10-09T15:51:39.993Z - info: Site data built
+2019-10-09T15:52:20.643Z - info: Deployed!
