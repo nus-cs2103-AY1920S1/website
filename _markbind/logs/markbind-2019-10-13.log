@@ -411,3 +411,10 @@ Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week9\
 2019-10-13T10:58:42.793Z - info: Site data built
 2019-10-13T12:24:07.696Z - info: Website generation started at 8:23:59 PM
 2019-10-13T12:24:12.076Z - info: Building assets...
+2019-10-13T12:24:15.459Z - info: Assets built
+2019-10-13T12:24:15.460Z - info: Generating pages...
+2019-10-13T12:26:12.321Z - info: Pages built
+2019-10-13T12:26:32.737Z - info: Website generation complete! Total build time: 152.909s
+2019-10-13T12:26:32.738Z - info: Build success!
+2019-10-13T12:26:32.749Z - info: Site data built
+2019-10-13T12:27:43.063Z - info: Deployed!
