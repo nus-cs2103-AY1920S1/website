@@ -107,6 +107,28 @@
         </nav>
         <p></p>
         <h1 id="week-10-oct-21-tutorial">Week 10 <small><small><span class="dimmed">[Oct 21]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-10-oct-21-tutorial"></a></h1>
+        <h4 id="0-smoke-test-catcher"><span class="badge badge-pill badge-dark p-2"><big><big>0</big></big></span> Smoke-test CATcher<a class="fa fa-anchor" href="#0-smoke-test-catcher"></a></h4>
+        <div class="indented-level2">
+          <box dismissible>
+            <p><span class="dimmed"><strong><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Some background:</strong> As you know, our <tooltip content="i.e., Practical Exam">PE</tooltip> includes peer-testing tP products under exam conditions. In the past, we used GitHub as the platform for that -- which was not optimal (e.g., it was hard to ensure the compulsory labels have been applied). As a remedy, some ex-students have been developing an app called <tooltip content="CAT stands for Crowd-sourced Anonymous Testing">CATcher</tooltip> that we would like to use for the PE this semester.</span></p>
+          </box>
+          <p>In this tutorial, we would like to smoke-test the CATcher app <strong>to ensure it can run in your computer</strong>.</p>
+          <p></p>
+          <panel type="info" header="**The steps for smoke-testing CATcher:**" minimized class="algolia-no-index">
+            <ol>
+              <li><strong>Download the latest version</strong> of the CATcher executable from <a href="https://github.com/CATcher-org/CATcher/releases">https://github.com/CATcher-org/CATcher/releases</a>.</li>
+              <li><strong>Launch the app.</strong> Allow the app to run if there are security warnings <span class="dimmed">(e.g., for Win 10, click the <code>More Info</code> link in the security warning and choose <code>Run anyway</code>)</span>.<br>
+                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the app is blocked by your virus scanner, put it in a new folder and add the folder to the <em>exclusions</em> list of the virus scanner.</li>
+              <li><strong>Login</strong>: Choose the profile <code>CS2103T Alpha Test</code>, enter your GitHub credentials, and submit.<br>
+                <img src="/website/admin/images/catcherLogin.png"></li>
+              <li><strong>Let CATcher create a repo named <code>alpha</code></strong> in your GitHub account, when it asks for permission. That repo will be used to hold the bug reports you will create in this testing session.</li>
+              <li><strong>Use the app to create 1-2 dummy bug reports</strong>, similar to how you would enter bug reports in the GitHub issue tracker. e.g., you can copy-paste screenshots into the bug description and use Markdown syntax.<br>
+                <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> The <code>severity</code> and <code>type</code> labels are compulsory.</li>
+              <li><strong>Report any problems you encounter</strong> at the <a href="https://github.com/CATcher-org/CATcher/issues">CATcher issue tracker</a>.</li>
+            </ol>
+          </panel>
+          <p></p>
+        </div>
         <h4 id="1-review-the-dg-of-a-peer-team"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Review the <tooltip content="Developer Guide">DG</tooltip> of a Peer Team<a class="fa fa-anchor" href="#1-review-the-dg-of-a-peer-team"></a></h4>
         <ul>
           <li><strong>Divide into two sub-teams</strong>, ensuring that each team has at least one member who is good with UML.</li>
@@ -485,7 +507,8 @@
               <li>Each person can do their own review, but coordinate with sub-team members to avoid duplicating the same point.</li>
               <li>Phrase your comments as question/doubts (e.g., <code>Is this format correct? Should it be ... instead?</code>) rather than directives (e.g., <code>Change this to ...</code>).</li>
               <li>Where possible, use screenshots from their DG in your comments, preferably with annotations. This is particularly useful when commenting on diagrams.</li>
-              <li>Do not finalize the review at this stage. Just keep adding comments.
+              <li>Do not finalize the review at this stage. Just keep adding comments.</li>
+              <li><span class="text-success"><strong>The understanding you gain from this exercise can indirectly determine how well you do in your own project.</strong></span> <mark>If you have even the slightest doubt about your observations in this exercise, please discuss it with the tutor</mark> to ensure you have the right understanding of the criteria used.
               </li>
             </ul>
           </box>
@@ -504,10 +527,10 @@
             <modal large title="Admin <md>:glyphicon-log-in:</md> tP: mid-v1.3 → DG Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:t10-dgTips" class="algolia-no-index">
                 <div>
                 <ul>
-                  <li><strong>Aim to showcase your documentation skills</strong>: The stated objective of the DG is to explain the implementation to a future developer, but a hidden objective is to show evidence that you can document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).<br>
+                  <li><strong>Aim to showcase your documentation skills.</strong> The stated objective of the DG is to explain the implementation to a future developer, but a hidden objective is to show evidence that you can document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).<br>
                     For an example, see <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level3/DeveloperGuide.html#proposed-undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level3 developer guide</a>.</li>
-                  <li><strong>Use multiple UML diagram types</strong>: Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
-                  <li><strong>Keeping diagrams simple</strong>. The aim is to make diagrams <mark><em>comprehensible</em>, not necessarily <em>comprehensive</em></mark>. Ways to simplify diagrams:
+                  <li><strong>Use multiple UML diagram types.</strong> Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
+                  <li><strong>Keep diagrams simple.</strong> The aim is to make diagrams <mark><em>comprehensible</em>, not necessarily <em>comprehensive</em></mark>. Ways to simplify diagrams:
                     <ul>
                       <li>Omit less important details e.g., a class diagram can omit minor utility classes.</li>
                       <li>Omit repetitive details e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete <code>*Command</code> classes).</li>
@@ -569,6 +592,7 @@
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-10-oct-21-tutorial">Week 10 [Oct 21] - Tutorial&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#0-smoke-test-catcher">0 Smoke-test CATcher&#x200E;</a>
               <a class="nav-link py-1" href="#1-review-the-dg-of-a-peer-team">1 Review the DG of a Peer Team&#x200E;</a>
             </nav>
 
@@ -578,7 +602,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 20 Oct 2019 15:24:00 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Mon, 21 Oct 2019 12:30:17 GMT</small></div>
     </footer>
   </div>
 </body>
