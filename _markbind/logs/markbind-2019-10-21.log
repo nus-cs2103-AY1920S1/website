@@ -207,3 +207,10 @@
 2019-10-21T12:27:22.172Z - info: Site data built
 2019-10-21T12:30:09.474Z - info: Website generation started at 8:30:00 PM
 2019-10-21T12:30:14.041Z - info: Building assets...
+2019-10-21T12:30:17.375Z - info: Assets built
+2019-10-21T12:30:17.375Z - info: Generating pages...
+2019-10-21T12:32:15.718Z - info: Pages built
+2019-10-21T12:32:39.140Z - info: Website generation complete! Total build time: 158.558s
+2019-10-21T12:32:39.141Z - info: Build success!
+2019-10-21T12:32:39.155Z - info: Site data built
+2019-10-21T12:34:01.601Z - info: Deployed!
