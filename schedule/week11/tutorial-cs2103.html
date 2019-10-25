@@ -50,8 +50,8 @@
           <li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Sep 30] </span></a></li>
           <li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Oct 7] </span></a></li>
           <li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Oct 14] </span></a></li>
-          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
-          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
+          <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
+          <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
           <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] </span></a></li>
         </dropdown>
@@ -107,8 +107,24 @@
         </nav>
         <p></p>
         <h1 id="week-11-oct-28-tutorial">Week 11 <small><small><span class="dimmed">[Oct 28]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-11-oct-28-tutorial"></a></h1>
-        <p><strong>A. One member do a quick demo of your v1.3 using the jar file</strong> (preferably a different member from previous weeks):</p>
-        <p><strong>B. Whole team: do this question together, using the whiteboard</strong></p>
+        <h4 id="1-demo-v1-3"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Demo v1.3<a class="fa fa-anchor" href="#1-demo-v1-3"></a></h4>
+        <ul>
+          <li>One member do a quick demo of your v1.3 using the jar file (preferably a different member from previous weeks).
+            Make sure the jar file is <mark>in an empty folder</mark> before you start.</li>
+        </ul>
+        <h4 id="2-exercise-of-test-case-design"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Exercise of test case design<a class="fa fa-anchor" href="#2-exercise-of-test-case-design"></a></h4>
+        <ol>
+          <li>What are the EPs for the parameter <code>day</code> of this method
+            <pre><code class="hljs java"><span class="hljs-comment">/**
+ * Returns true if the three values represent a valid day
+ */</span>
+<span class="hljs-function"><span class="hljs-keyword">boolean</span> <span class="hljs-title">isValidDay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> year, <span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> day)</span></span>{
+
+} 
+</code></pre>
+          </li>
+          <li>What are the boundary values for the parameter <code>day</code> in the question above?</li>
+        </ol>
         <div class="indented">
           <div>
             <panel header="<md>:glyphicon-question-sign:</md> test cases for `consume` method" class="algolia-no-index">
@@ -150,16 +166,15 @@
           </div>
         </div>
         <br>
-        <p><strong>C. Divide these questions among team members and get ready to answer them.</strong></p>
         <ol>
-          <li>Distinguish between <em>sequential</em> and <em>iterative</em> processes. Which one are we using in the project?</li>
-          <li>Distinguish between <em>breadth-first</em> and <em>depth-first</em> iterative processes using your project as an example.</li>
-          <li>Describe how <em>agile process models</em> differ from traditional process models.</li>
-          <li>When do you use <em>MVC</em> pattern? Do we have MVC in AB3?</li>
-          <li>When do you use the <em>Observer</em> pattern? Do we have the Observer pattern in AB3?</li>
+          <li>Demonstrate an assertion failure using Intellij.</li>
+          <li>Give an example of defensive programming from your project.</li>
         </ol>
-        <p><strong>D. Divide XP and Scrum between the two teams</strong> for the following activity, if there is enough time left.</p>
+        <h4 id="2-exercise-on-process-models"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Exercise on process models<a class="fa fa-anchor" href="#2-exercise-on-process-models"></a></h4>
         <ul>
+          <li>
+            <p>Divide XP and Scrum between the two teams** for the following activity, if there is enough time left.</p>
+          </li>
           <li>
             <p>Each team use the Web to find about 5 distinguishing features of the process model.</p>
             <ul>
@@ -171,27 +186,17 @@
             <p>Relate those features to your project. <span class="dimmed">i.e. are they applicable? are you doing something similar?</span></p>
           </li>
         </ul>
-        <ol>
-          <li>What are the EPs for the parameter <code>day</code> of this method
-            <pre><code class="hljs java"><span class="hljs-comment">/**
- * Returns true if the three values represent a valid day
- */</span>
-<span class="hljs-function"><span class="hljs-keyword">boolean</span> <span class="hljs-title">isValidDay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> year, <span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> day)</span></span>{
-
-} 
-</code></pre>
-          </li>
-          <li>What are the boundary values for the parameter <code>day</code> in the question above?</li>
-          <li>What’s the purpose of logging levels? What are the available logging levels in AB3?</li>
-          <li>Demonstrate an assertion failure using Intellij.</li>
-          <li>Give an example of defensive programming from your project.</li>
-        </ol>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
             <a class="nav-link py-1" href="#week-11-oct-28-tutorial">Week 11 [Oct 28] - Tutorial&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#1-demo-v1-3">1 Demo v1.3&#x200E;</a>
+              <a class="nav-link py-1" href="#2-exercise-of-test-case-design">2 Exercise of test case design&#x200E;</a>
+              <a class="nav-link py-1" href="#2-exercise-on-process-models">2 Exercise on process models&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -199,7 +204,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Thu, 24 Oct 2019 12:29:10 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 25 Oct 2019 12:31:36 GMT</small></div>
     </footer>
   </div>
 </body>

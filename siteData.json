@@ -1091,8 +1091,8 @@
         "1-deliver-the-feature": "1  Deliver the feature",
         "2-update-user-docs": "2  Update user docs",
         "3-release-as-a-jar-file": "3  Release as a jar file",
-        "4-wrap-up-milestone": "4  Wrap up milestone",
-        "5-attend-practical-exam-dry-run-during-lecture": "5  Attend practical exam dry run  during Lecture"
+        "4-wrap-up-the-milestone": "4  Wrap up the milestone",
+        "5-attend-the-practical-exam-dry-run-during-lecture": "5  Attend the practical exam dry run  during Lecture"
       },
       "title": "Admin: tP: v1.3 [week 11]",
       "header": "header.md",
