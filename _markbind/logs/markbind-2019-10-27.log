@@ -1067,3 +1067,24 @@
 2019-10-27T12:10:47.135Z - info: Site data built
 2019-10-27T12:17:51.006Z - info: Website generation started at 8:17:43 PM
 2019-10-27T12:17:55.192Z - info: Building assets...
+2019-10-27T12:17:58.525Z - info: Assets built
+2019-10-27T12:17:58.525Z - info: Generating pages...
+2019-10-27T12:20:06.340Z - info: Pages built
+2019-10-27T12:20:28.265Z - info: Website generation complete! Total build time: 164.474s
+2019-10-27T12:20:28.266Z - info: Build success!
+2019-10-27T12:20:28.277Z - info: Site data built
+2019-10-27T12:21:39.320Z - info: Deployed!
+2019-10-27T12:33:06.189Z - info: Website generation started at 8:32:58 PM
+2019-10-27T12:33:10.565Z - info: Building assets...
+2019-10-27T12:33:14.082Z - info: Assets built
+2019-10-27T12:33:14.086Z - info: Generating pages...
+2019-10-27T12:35:19.319Z - info: Pages built
+2019-10-27T12:35:42.729Z - info: Website generation complete! Total build time: 164.034s
+2019-10-27T12:35:43.102Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-27T12:35:43.102Z - info: Press CTRL+C to stop ...
+2019-10-27T12:35:43.128Z - info: Site data built
+2019-10-27T12:36:29.598Z - info: [8:36:29 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-10-27T12:36:30.600Z - info: Rebuilding affected source files
+2019-10-27T12:36:30.606Z - info: Rebuilding 26 pages
+2019-10-27T12:38:07.349Z - info: Website generation started at 8:37:59 PM
+2019-10-27T12:38:11.863Z - info: Building assets...
