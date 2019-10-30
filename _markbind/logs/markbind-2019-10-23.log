@@ -1,0 +1,297 @@
+2019-10-23T02:32:47.662Z - info: Website generation started at 10:32:41 AM
+2019-10-23T02:32:51.392Z - info: Building assets...
+2019-10-23T02:32:54.053Z - info: Assets built
+2019-10-23T02:32:54.054Z - info: Generating pages...
+2019-10-23T02:34:54.605Z - info: Pages built
+2019-10-23T02:35:20.519Z - info: Website generation complete! Total build time: 158.888s
+2019-10-23T02:35:20.884Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-23T02:35:20.884Z - info: Press CTRL+C to stop ...
+2019-10-23T02:35:20.915Z - info: Site data built
+2019-10-23T02:38:03.983Z - info: Website generation started at 10:37:57 AM
+2019-10-23T02:38:07.398Z - info: Building assets...
+2019-10-23T02:38:10.049Z - info: Assets built
+2019-10-23T02:38:10.049Z - info: Generating pages...
+2019-10-23T02:39:56.668Z - info: Pages built
+2019-10-23T02:40:18.413Z - info: Website generation complete! Total build time: 140.79s
+2019-10-23T02:40:18.413Z - info: Build success!
+2019-10-23T02:40:18.431Z - info: Site data built
+2019-10-23T02:41:19.155Z - info: Deployed!
+2019-10-23T04:10:54.560Z - info: Deployed!
+2019-10-23T04:23:47.343Z - info: Website generation started at 12:23:41 PM
+2019-10-23T04:23:50.653Z - info: Building assets...
+2019-10-23T04:23:53.357Z - info: Assets built
+2019-10-23T04:23:53.357Z - info: Generating pages...
+2019-10-23T04:25:40.540Z - info: Pages built
+2019-10-23T04:26:01.656Z - info: Website generation complete! Total build time: 140.159s
+2019-10-23T04:26:01.656Z - info: Build success!
+2019-10-23T04:26:01.693Z - info: Site data built
+2019-10-23T04:27:02.327Z - info: Deployed!
+2019-10-23T04:30:12.393Z - info: Website generation started at 12:30:06 PM
+2019-10-23T04:30:15.985Z - info: Building assets...
+2019-10-23T04:30:18.836Z - info: Assets built
+2019-10-23T04:30:18.836Z - info: Generating pages...
+2019-10-23T04:32:08.380Z - info: Pages built
+2019-10-23T04:32:30.007Z - info: Website generation complete! Total build time: 143.743s
+2019-10-23T04:32:30.365Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-23T04:32:30.365Z - info: Press CTRL+C to stop ...
+2019-10-23T04:32:30.410Z - info: Site data built
+2019-10-23T04:32:31.373Z - info: [12:32:31 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T04:32:33.394Z - info: Rebuilding affected source files
+2019-10-23T04:32:33.397Z - info: Rebuilding 7 pages
+2019-10-23T04:32:46.592Z - info: Pages rebuilt
+2019-10-23T04:32:46.624Z - info: Site data built
+2019-10-23T04:33:40.559Z - info: [12:33:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T04:33:41.560Z - info: Rebuilding affected source files
+2019-10-23T04:33:41.562Z - info: Rebuilding 7 pages
+2019-10-23T04:33:45.925Z - info: Pages rebuilt
+2019-10-23T04:33:45.948Z - info: Site data built
+2019-10-23T04:35:08.035Z - info: [12:35:08 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T04:35:09.036Z - info: Rebuilding affected source files
+2019-10-23T04:35:09.037Z - info: Rebuilding 1 pages
+2019-10-23T04:35:09.808Z - info: Pages rebuilt
+2019-10-23T04:35:09.820Z - info: Site data built
+2019-10-23T04:38:33.261Z - info: Website generation started at 12:38:26 PM
+2019-10-23T04:38:36.653Z - info: Building assets...
+2019-10-23T04:38:39.440Z - info: Assets built
+2019-10-23T04:38:39.440Z - info: Generating pages...
+2019-10-23T04:40:30.326Z - info: Pages built
+2019-10-23T04:40:51.811Z - info: Website generation complete! Total build time: 145.073s
+2019-10-23T04:40:51.811Z - info: Build success!
+2019-10-23T04:40:51.823Z - info: Site data built
+2019-10-23T04:41:52.510Z - info: Deployed!
+2019-10-23T05:51:47.706Z - info: Website generation started at 1:51:41 PM
+2019-10-23T05:51:51.198Z - info: Building assets...
+2019-10-23T05:51:53.854Z - info: Assets built
+2019-10-23T05:51:53.855Z - info: Generating pages...
+2019-10-23T05:53:42.563Z - info: Pages built
+2019-10-23T05:54:04.696Z - info: Website generation complete! Total build time: 142.864s
+2019-10-23T05:54:05.093Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-23T05:54:05.093Z - info: Press CTRL+C to stop ...
+2019-10-23T05:54:05.123Z - info: Site data built
+2019-10-23T06:03:57.637Z - info: [2:03:57 PM] Reload for file add: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\images\diagramSizeNegativeExample.png
+2019-10-23T06:03:57.641Z - info: [2:03:57 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\images\diagramSizeNegativeExample.png
+2019-10-23T06:03:58.652Z - info: Assets built
+2019-10-23T06:06:36.505Z - info: [2:06:36 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:06:37.508Z - info: Rebuilding affected source files
+2019-10-23T06:06:37.511Z - info: Rebuilding 7 pages
+2019-10-23T06:06:42.029Z - info: Pages rebuilt
+2019-10-23T06:06:42.043Z - info: Site data built
+2019-10-23T06:07:45.745Z - info: [2:07:45 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:07:46.748Z - info: Rebuilding affected source files
+2019-10-23T06:07:46.750Z - info: Rebuilding 7 pages
+2019-10-23T06:07:50.778Z - info: Pages rebuilt
+2019-10-23T06:07:50.794Z - info: Site data built
+2019-10-23T06:08:55.609Z - info: [2:08:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:08:56.611Z - info: Rebuilding affected source files
+2019-10-23T06:08:56.613Z - info: Rebuilding 7 pages
+2019-10-23T06:09:00.495Z - info: Pages rebuilt
+2019-10-23T06:09:00.511Z - info: Site data built
+2019-10-23T06:10:01.009Z - info: [2:10:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:10:02.011Z - info: Rebuilding affected source files
+2019-10-23T06:10:02.014Z - info: Rebuilding 7 pages
+2019-10-23T06:10:05.922Z - info: Pages rebuilt
+2019-10-23T06:10:05.934Z - info: Site data built
+2019-10-23T06:11:25.369Z - info: [2:11:25 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:11:26.372Z - info: Rebuilding affected source files
+2019-10-23T06:11:26.374Z - info: Rebuilding 7 pages
+2019-10-23T06:11:30.245Z - info: Pages rebuilt
+2019-10-23T06:11:30.259Z - info: Site data built
+2019-10-23T06:11:55.697Z - info: [2:11:55 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:11:56.699Z - info: Rebuilding affected source files
+2019-10-23T06:11:56.702Z - info: Rebuilding 7 pages
+2019-10-23T06:12:00.550Z - info: Pages rebuilt
+2019-10-23T06:12:00.563Z - info: Site data built
+2019-10-23T06:14:42.135Z - info: [2:14:42 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:14:43.137Z - info: Rebuilding affected source files
+2019-10-23T06:14:43.140Z - info: Rebuilding 7 pages
+2019-10-23T06:14:43.183Z - error:  Error: Empty src attribute in include in: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:196:19)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+2019-10-23T06:14:44.609Z - error:  Error: Empty src attribute in include in: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:196:19)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:382:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+2019-10-23T06:14:45.058Z - error:  Error: Empty src attribute in include in: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:196:19)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+2019-10-23T06:14:46.072Z - error:  Error: Empty src attribute in include in: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:196:19)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+2019-10-23T06:14:47.351Z - info: Pages rebuilt
+2019-10-23T06:14:47.363Z - info: Site data built
+2019-10-23T06:24:17.185Z - info: [2:24:17 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:24:18.187Z - info: Rebuilding affected source files
+2019-10-23T06:24:18.189Z - info: Rebuilding 7 pages
+2019-10-23T06:24:22.249Z - info: Pages rebuilt
+2019-10-23T06:24:22.261Z - info: Site data built
+2019-10-23T06:24:52.488Z - info: [2:24:52 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:24:53.489Z - info: Rebuilding affected source files
+2019-10-23T06:24:53.491Z - info: Rebuilding 7 pages
+2019-10-23T06:24:57.478Z - info: Pages rebuilt
+2019-10-23T06:24:57.489Z - info: Site data built
+2019-10-23T06:26:22.117Z - info: [2:26:22 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:26:23.120Z - info: Rebuilding affected source files
+2019-10-23T06:26:23.122Z - info: Rebuilding 7 pages
+2019-10-23T06:26:27.009Z - info: Pages rebuilt
+2019-10-23T06:26:27.020Z - info: Site data built
+2019-10-23T06:26:51.515Z - info: [2:26:51 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:26:52.517Z - info: Rebuilding affected source files
+2019-10-23T06:26:52.519Z - info: Rebuilding 7 pages
+2019-10-23T06:26:56.406Z - info: Pages rebuilt
+2019-10-23T06:26:56.424Z - info: Site data built
+2019-10-23T06:27:47.322Z - info: [2:27:47 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:27:48.325Z - info: Rebuilding affected source files
+2019-10-23T06:27:48.327Z - info: Rebuilding 7 pages
+2019-10-23T06:27:52.236Z - info: Pages rebuilt
+2019-10-23T06:27:52.247Z - info: Site data built
+2019-10-23T06:29:34.652Z - info: [2:29:34 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:29:35.655Z - info: Rebuilding affected source files
+2019-10-23T06:29:35.657Z - info: Rebuilding 7 pages
+2019-10-23T06:29:39.655Z - info: Pages rebuilt
+2019-10-23T06:29:39.670Z - info: Site data built
+2019-10-23T06:30:47.352Z - info: [2:30:47 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:30:48.353Z - info: Rebuilding affected source files
+2019-10-23T06:30:48.356Z - info: Rebuilding 7 pages
+2019-10-23T06:30:52.674Z - info: Pages rebuilt
+2019-10-23T06:30:52.694Z - info: Site data built
+2019-10-23T06:31:19.781Z - info: [2:31:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w10-mid-v13.md
+2019-10-23T06:31:20.783Z - info: Rebuilding affected source files
+2019-10-23T06:31:20.786Z - info: Rebuilding 7 pages
+2019-10-23T06:31:24.898Z - info: Pages rebuilt
+2019-10-23T06:31:24.914Z - info: Site data built
+2019-10-23T06:33:43.702Z - info: Website generation started at 2:33:36 PM
+2019-10-23T06:33:47.787Z - info: Building assets...
+2019-10-23T06:33:50.967Z - info: Assets built
+2019-10-23T06:33:50.967Z - info: Generating pages...
+2019-10-23T06:35:51.032Z - info: Pages built
+2019-10-23T06:36:15.498Z - info: Website generation complete! Total build time: 158.74s
+2019-10-23T06:36:15.499Z - info: Build success!
+2019-10-23T06:36:15.516Z - info: Site data built
+2019-10-23T06:37:23.261Z - info: Deployed!
+2019-10-23T10:39:27.815Z - info: Website generation started at 6:39:20 PM
+2019-10-23T10:39:31.955Z - info: Building assets...
+2019-10-23T10:39:35.180Z - info: Assets built
+2019-10-23T10:39:35.181Z - info: Generating pages...
+2019-10-23T10:41:33.795Z - info: Pages built
+2019-10-23T10:41:57.232Z - info: Website generation complete! Total build time: 156.324s
+2019-10-23T10:41:57.582Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-23T10:41:57.582Z - info: Press CTRL+C to stop ...
+2019-10-23T10:41:57.625Z - info: Site data built
+2019-10-23T10:43:27.412Z - info: [6:43:27 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\index.md
+2019-10-23T10:43:28.417Z - info: Rebuilding affected source files
+2019-10-23T10:43:28.418Z - info: Rebuilding 2 pages
+2019-10-23T10:43:29.256Z - info: Pages rebuilt
+2019-10-23T10:43:29.267Z - info: Site data built
+2019-10-23T10:43:58.074Z - info: Website generation started at 6:43:50 PM
+2019-10-23T10:44:02.389Z - info: Building assets...
+2019-10-23T10:44:05.770Z - info: Assets built
+2019-10-23T10:44:05.770Z - info: Generating pages...
+2019-10-23T10:46:07.741Z - info: Pages built
+2019-10-23T10:46:31.000Z - info: Website generation complete! Total build time: 160.181s
+2019-10-23T10:46:31.376Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-10-23T10:46:31.376Z - info: Press CTRL+C to stop ...
+2019-10-23T10:46:31.410Z - info: Site data built
+2019-10-23T11:34:03.392Z - info: [7:34:03 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:34:04.396Z - info: Rebuilding affected source files
+2019-10-23T11:34:04.403Z - info: Rebuilding 1 pages
+2019-10-23T11:34:05.408Z - info: Pages rebuilt
+2019-10-23T11:34:05.420Z - info: Site data built
+2019-10-23T11:34:44.489Z - info: [7:34:44 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:34:45.491Z - info: Rebuilding affected source files
+2019-10-23T11:34:45.492Z - info: Rebuilding 1 pages
+2019-10-23T11:34:46.192Z - info: Pages rebuilt
+2019-10-23T11:34:46.203Z - info: Site data built
+2019-10-23T11:34:54.919Z - info: [7:34:54 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:34:55.920Z - info: Rebuilding affected source files
+2019-10-23T11:34:55.921Z - info: Rebuilding 1 pages
+2019-10-23T11:34:56.410Z - info: Pages rebuilt
+2019-10-23T11:34:56.420Z - info: Site data built
+2019-10-23T11:35:25.465Z - info: [7:35:25 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:35:26.467Z - info: Rebuilding affected source files
+2019-10-23T11:35:26.468Z - info: Rebuilding 1 pages
+2019-10-23T11:35:27.002Z - info: Pages rebuilt
+2019-10-23T11:35:27.011Z - info: Site data built
+2019-10-23T11:35:40.803Z - info: [7:35:40 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:35:41.806Z - info: Rebuilding affected source files
+2019-10-23T11:35:41.807Z - info: Rebuilding 1 pages
+2019-10-23T11:35:42.485Z - info: Pages rebuilt
+2019-10-23T11:35:42.495Z - info: Site data built
+2019-10-23T11:36:53.308Z - info: [7:36:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:36:54.310Z - info: Rebuilding affected source files
+2019-10-23T11:36:54.311Z - info: Rebuilding 1 pages
+2019-10-23T11:36:54.905Z - info: Pages rebuilt
+2019-10-23T11:36:54.917Z - info: Site data built
+2019-10-23T11:37:19.449Z - info: [7:37:19 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:37:20.452Z - info: Rebuilding affected source files
+2019-10-23T11:37:20.453Z - info: Rebuilding 1 pages
+2019-10-23T11:37:21.028Z - info: Pages rebuilt
+2019-10-23T11:37:21.043Z - info: Site data built
+2019-10-23T11:37:53.514Z - info: [7:37:53 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week10\tutorial-cs2103.md
+2019-10-23T11:37:54.516Z - info: Rebuilding affected source files
+2019-10-23T11:37:54.518Z - info: Rebuilding 1 pages
+2019-10-23T11:37:55.129Z - info: Pages rebuilt
+2019-10-23T11:37:55.142Z - info: Site data built
+2019-10-23T11:47:27.200Z - info: Website generation started at 7:47:20 PM
+2019-10-23T11:47:30.882Z - info: Building assets...
+2019-10-23T11:47:33.774Z - info: Assets built
+2019-10-23T11:47:33.774Z - info: Generating pages...
+2019-10-23T11:49:22.408Z - info: Pages built
+2019-10-23T11:49:42.492Z - info: Website generation complete! Total build time: 141.552s
+2019-10-23T11:49:42.492Z - info: Build success!
+2019-10-23T11:49:42.507Z - info: Site data built
+2019-10-23T11:50:38.634Z - info: Deployed!
