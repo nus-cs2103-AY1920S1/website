@@ -1,2 +1,170 @@
 2019-11-02T06:48:41.465Z - info: Website generation started at 14:48:34
 2019-11-02T06:48:47.243Z - info: Building assets...
+2019-11-02T06:48:50.016Z - info: Assets built
+2019-11-02T06:48:50.016Z - info: Generating pages...
+2019-11-02T06:51:25.818Z - info: Pages built
+2019-11-02T06:51:55.981Z - info: Website generation complete! Total build time: 201.963s
+2019-11-02T06:51:55.985Z - info: Build success!
+2019-11-02T06:51:55.997Z - info: Site data built
+2019-11-02T06:52:40.944Z - info: Deployed!
+2019-11-02T13:20:28.140Z - info: Website generation started at 21:20:21
+2019-11-02T13:20:32.405Z - info: Building assets...
+2019-11-02T13:20:35.394Z - info: Assets built
+2019-11-02T13:20:35.395Z - info: Generating pages...
+2019-11-02T13:23:54.015Z - info: Pages built
+2019-11-02T13:24:27.969Z - info: Website generation complete! Total build time: 246.081s
+2019-11-02T13:24:28.355Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-02T13:24:28.355Z - info: Press CTRL+C to stop ...
+2019-11-02T13:24:28.386Z - info: Site data built
+2019-11-02T13:30:40.871Z - info: [21:30:40] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+2019-11-02T13:30:41.878Z - info: Rebuilding affected source files
+2019-11-02T13:30:41.878Z - info: Rebuilding 1 pages
+2019-11-02T13:30:41.878Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\project-deliverables.md
+Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at dom.map (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:567:28)
+    at Array.map (<anonymous>)
+    at DomHandler.htmlparser.DomHandler [as _callback] (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:564:25)
+    at DomHandler._handleCallback.DomHandler.onerror (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:52:8)
+    at DomHandler.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:46:7)
+    at Parser.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:310:32)
+    at Tokenizer._finish (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:853:12)
+    at Tokenizer.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:844:25)
+    at Parser.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:338:18)
+2019-11-02T13:30:41.893Z - error:  Error: No such file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\project-deliverables.md
+Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:225:21)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at dom.map (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:567:28)
+    at Array.map (<anonymous>)
+    at DomHandler.htmlparser.DomHandler [as _callback] (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:564:25)
+    at DomHandler._handleCallback.DomHandler.onerror (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:52:8)
+    at DomHandler.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:46:7)
+    at Parser.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:310:32)
+    at Tokenizer._finish (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:853:12)
+    at Tokenizer.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:844:25)
+    at Parser.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:338:18)
+    at Parser.parseComplete (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:330:7)
+    at fs.readFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:606:16)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+2019-11-02T13:30:42.096Z - info: Pages rebuilt
+2019-11-02T13:30:42.112Z - info: Site data built
+2019-11-02T13:30:58.057Z - info: [21:30:58] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+2019-11-02T13:30:59.082Z - info: Rebuilding affected source files
+2019-11-02T13:30:59.082Z - info: Rebuilding 1 pages
+2019-11-02T13:30:59.145Z - error:  Error: No such segment 'aproject-deliverables-demo' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at dom.map (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:567:28)
+    at Array.map (<anonymous>)
+    at DomHandler.htmlparser.DomHandler [as _callback] (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:564:25)
+    at DomHandler._handleCallback.DomHandler.onerror (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:52:8)
+    at DomHandler.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:46:7)
+    at Parser.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:310:32)
+    at Tokenizer._finish (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:853:12)
+    at Tokenizer.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:844:25)
+    at Parser.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:338:18)
+2019-11-02T13:31:00.305Z - warn:  TypeError: Cannot read property 'parent' of null
+    at Function.exports.update (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:55:26)
+    at module.exports (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:17:11)
+    at Function.exports.load (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\static.js:22:14)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:348:19)
+    at Object.$.not.each.each (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:392:16)
+    at initialize.exports.each (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\api\traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:358:6)
+    at Page.collectHeadingsAndKeywords (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:339:8)
+    at pages.forEach (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1043:12)
+    at Array.forEach (<anonymous>)
+    at Site.updateSiteData (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1041:14)
+    at Promise.all.then (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1025:24)
+    at tryCatcher (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+2019-11-02T13:31:03.087Z - error: Cannot read property 'parent' of null
+2019-11-02T13:31:33.097Z - info: Website generation started at 21:31:33
+2019-11-02T13:31:38.163Z - info: Building assets...
+2019-11-02T13:31:42.422Z - info: Assets built
+2019-11-02T13:31:42.422Z - info: Generating pages...
+2019-11-02T13:32:05.566Z - error:  Error: No such segment 'aproject-deliverables-demo' in file: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+Missing reference in C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:325:25)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at element.children.element.children.map.e (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:57)
+    at Array.map (<anonymous>)
+    at Parser._preprocess (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:399:43)
+    at dom.map (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:567:28)
+    at Array.map (<anonymous>)
+    at DomHandler.htmlparser.DomHandler [as _callback] (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\lib\markbind\src\parser.js:564:25)
+    at DomHandler._handleCallback.DomHandler.onerror (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:52:8)
+    at DomHandler.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\domhandler\index.js:46:7)
+    at Parser.onend (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:310:32)
+    at Tokenizer._finish (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:853:12)
+    at Tokenizer.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Tokenizer.js:844:25)
+    at Parser.end (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\htmlparser2\lib\Parser.js:338:18)
+2019-11-02T13:34:33.785Z - info: Pages built
+2019-11-02T13:34:45.918Z - warn:  TypeError: Cannot read property 'parent' of null
+    at Function.exports.update (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:55:26)
+    at module.exports (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\parse.js:17:11)
+    at Function.exports.load (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\static.js:22:14)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:348:19)
+    at Object.$.not.each.each (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:392:16)
+    at initialize.exports.each (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\cheerio\lib\api\traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:358:6)
+    at Page.collectHeadingsAndKeywords (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Page.js:339:8)
+    at pages.forEach (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1043:12)
+    at Array.forEach (<anonymous>)
+    at Site.updateSiteData (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:1041:14)
+    at readSiteConfig.then.then.then.then.then.then.then.then.then.then (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\src\Site.js:709:24)
+    at tryCatcher (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:517:31)
+    at Promise._settlePromise (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:574:18)
+    at Promise._settlePromise0 (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\bluebird\js\release\promise.js:619:10)
+2019-11-02T13:34:48.280Z - error: Cannot read property 'parent' of null
+2019-11-02T13:40:34.135Z - info: Website generation started at 21:40:34
+2019-11-02T13:40:37.924Z - info: Building assets...
+2019-11-02T13:40:40.774Z - info: Assets built
+2019-11-02T13:40:40.778Z - info: Generating pages...
+2019-11-02T13:43:40.709Z - info: Pages built
+2019-11-02T13:44:09.186Z - info: Website generation complete! Total build time: 215.098s
+2019-11-02T13:44:09.575Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-02T13:44:09.575Z - info: Press CTRL+C to stop ...
+2019-11-02T13:44:09.590Z - info: Site data built
+2019-11-02T14:14:12.774Z - info: [22:14:12] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+2019-11-02T14:14:13.793Z - info: Rebuilding affected source files
+2019-11-02T14:14:13.805Z - info: Rebuilding 1 pages
+2019-11-02T14:14:15.624Z - info: Pages rebuilt
+2019-11-02T14:14:15.640Z - info: Site data built
+2019-11-02T14:14:57.416Z - info: [22:14:57] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week12\tutorial-cs2103.md
+2019-11-02T14:14:58.425Z - info: Rebuilding affected source files
+2019-11-02T14:14:58.425Z - info: Rebuilding 1 pages
+2019-11-02T14:14:59.560Z - info: Pages rebuilt
+2019-11-02T14:14:59.580Z - info: Site data built
+2019-11-02T14:17:28.522Z - info: [22:17:28] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w12-mid-v14.md
+2019-11-02T14:17:29.536Z - info: Rebuilding affected source files
+2019-11-02T14:17:29.540Z - info: Rebuilding 6 pages
+2019-11-02T14:17:37.622Z - info: Pages rebuilt
+2019-11-02T14:17:37.646Z - info: Site data built
+2019-11-02T14:18:26.167Z - info: [22:18:26] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w12-mid-v14.md
+2019-11-02T14:18:27.178Z - info: Rebuilding affected source files
+2019-11-02T14:18:27.182Z - info: Rebuilding 6 pages
+2019-11-02T14:18:35.534Z - info: Pages rebuilt
+2019-11-02T14:18:35.546Z - info: Site data built
+2019-11-02T14:21:26.829Z - info: Website generation started at 22:21:20
+2019-11-02T14:21:30.027Z - info: Building assets...
