@@ -156,18 +156,30 @@
           <ul>
             <li><strong>Freeze features</strong> around this time. Ensure the current product have all the features you intend to release at v1.4. Adding major changes after this point is risky. The remaining time is better spent fixing problems discovered late or on fine-tuning the product.</li>
             <li><strong>Update documentation</strong> to match the product.</li>
-            <li><strong>Consider increasing test coverage</strong> by adding more tests if it is lower than the level you would like it to be. Take note of <trigger trigger="click" for="modal:mid-v14-testingExpectations">our expectation on test code</trigger>.</li>
-            <li>After you have sufficient code coverage, <strong>fix remaining code quality problems</strong> and bring up the quality to your target level.</li>
+            <li><strong>Consider increasing test coverage</strong> by adding more tests if it is lower than the level you would like it to be. Take note of our expectation on test code (given in the panel below).</li>
           </ul>
-          <modal title="Admin <md>:glyphicon-log-in:</md> Project Asessement → Expectation on testing" id="modal:mid-v14-testingExpectations" class="algolia-no-index">
-              <div>
-              <ul>
-                <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
-                <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
-                <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
-              </ul>
+          <div class="indented-level2">
+            <div class="flat">
+              <div>
+                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv14_testingExpectations">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading → Expectation on testing</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              </div>
             </div>
-          </modal>
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_testingExpectations" class="algolia-no-index">
+                <div>
+                <ul>
+                  <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk of regression bugs, which will cost marks if not fixed before the final submission.</li>
+                  <li>You <mark>must write <em>some</em> tests</mark> so that we can evaluate your ability to write tests.</li>
+                  <li>How much of each type of testing should you do? We expect you to decide. You learned different types of testing and what they try to achieve. Based on that, you should decide how much of each type is required. Similarly, you can decide to what extent you want to automate tests, depending on the benefits and the effort required.</li>
+                </ul>
+              </div>
+            </modal>
+            <p>
+              <panel src="/website/admin/project-scope._include_.html#testing-expectations" header="Admin <md>:glyphicon-log-in:</md> Project Grading → Expectation on testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="testing-expectations"></panel>
+            </p>
+          </div>
+          <ul>
+            <li><strong>After you have sufficient code coverage, fix remaining code quality problems</strong> and bring up the quality to your target level.</li>
+          </ul>
           <div class="indented-level2">
             <div class="flat">
               <div>
@@ -207,7 +219,8 @@
           </div>
           <h4 id="2-draft-the-ppp"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span aria-hidden="true" class="fas fa-user"></span></span> Draft the PPP<a class="fa fa-anchor" href="#2-draft-the-ppp"></a></h4>
           <ul>
-            <li>Create the first version of your <em>Project Portfolio Page (PPP)</em>. Reason: <strong>Each member needs to create a PPP</strong> to describe your contribution to the project. Creating a PPP takes a significant effort; it is <mark>too risky to leave it to the last week of the project</mark>.</li>
+            <li><strong>Create the first version of your <em>Project Portfolio Page (PPP)</em></strong>.<br>
+              Reason: <mark>Each member needs to create a PPP</mark> to describe your contribution to the project. Creating a PPP takes a significant effort; it is <mark>too risky to leave it to the last week of the project</mark>.</li>
           </ul>
           <div class="indented-level2">
             <div class="flat">
@@ -328,67 +341,77 @@
           <ul>
             <li>You will do a product demo during the tutorial to serve as a rehearsal for the final project demo at v1.4
               <ul>
-                <li><mark>Follow <trigger trigger="click" for="modal:mid-v14-demo-instructions">final demo instructions</trigger></mark> as much as possible.</li>
+                <li><mark><strong>Follow final demo instructions</strong> (given in the panel below)</mark> as much as possible .</li>
                 <li><strong>Cover all features</strong>, not just the ones added in the recent iteration.</li>
-                <li>Try to make it <strong>a 'well prepared' demo</strong> i.e., know in advance exactly what you'll do in the demo.</li>
+                <li><strong>Make it a 'well prepared' demo</strong> i.e., know in advance exactly what you'll do in the demo.</li>
               </ul>
             </li>
           </ul>
-          <modal large title="Admin <md>:glyphicon-log-in:</md> Project → v1.4 Demo (extract)" id="modal:mid-v14-demo-instructions" class="algolia-no-index">
-              <div>
-              <ul>
-                <li>
-                  <p><strong>Duration:</strong> Strictly 18 minutes for a 5-person team and 15 minutes for a 4-person team. Exceeding this limit will be penalized. Any set up time will be taken out of your allocated time.</p>
-                </li>
-                <li>
-                  <p><strong>Target audience</strong>: Assume you are giving a demo to a higher-level manager of your company, to brief him/her on the current capabilities of the product. This is the first time they are seeing the new product you developed but they are familiar with the AddressBook-level3 (AB3) product. The actual audience are the evaluators (the team supervisor and another tutor).</p>
-                </li>
-                <li>
-                  <p><strong>Scope</strong>:</p>
-                  <ul>
-                    <li><strong>Each person should demo the enhancements they added</strong>. However, it's OK for one member to do all the typing.</li>
-                    <li>Each person should demo their part in one go <span class="dimmed">i.e., one person should not appear multiple times in the demo. Reasons: it will interfere with grading as some things are graded individually</span>. However, it's OK for one person to give a short intro at the start and appear again later in the demo to demo her features.</li>
-                    <li>Subjected to the previous two points, as far as possible, organize the demo to present a cohesive picture of the product as a whole, presented in a logical order. <span class="dimmed">Remember to explain the profile of the target user profile and value proposition early in the demo.</span></li>
-                    <li>It is recommended you showcase how the feature improves the user’s life rather than simply describe each feature.</li>
-                    <li>No need to cover design/implementation details as the manager is not interested in those details.</li>
-                    <li>Do not demo features you inherited from AB3 unless they are needed to explain your new features. <span class="dimmed">Reason: existing features will not earn you marks, and the audience is already familiar with AB3 features.</span></li>
-                    <li>Plan the demo to be in sync with the impression you want to create. For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.</li>
-                  </ul>
-                </li>
-                <li>
-                  <p><strong>Structure:</strong></p>
-                  <ul>
-                    <li>Demo the product using the same executable you submitted, on your own laptop, using the TV.</li>
-                    <li>It can be <strong>a <em>sitting down</em> demo</strong>: You'll be demonstrating the features using the TV while sitting down. But you may stand around the TV if you prefer that way.</li>
-                    <li>It will be an uninterrupted demo: The audience members will not interrupt you during the demo. That means you should finish within the given time.</li>
-                    <li>The demo should use a sufficient amount of <tooltip content="`Mr aaa` is not a realistic person name"><em>realistic</em></tooltip> demo data. <span class="dimmed">e.g at least 20 contacts</span>. Trying to demo a product using just 1-2 sample data creates a bad impression.</li>
-                    <li><strong>Dress code</strong> : The level of formality is up to you, but it is recommended that the whole team dress at the same level.</li>
-                  </ul>
-                </li>
-                <li>
-                  <p><strong>Optimizing the time:</strong></p>
-                  <ul>
-                    <li>Spend as much time as possible on demonstrating the actual product. Not recommended to use slides (if you do, use them sparingly) or videos or lengthy narrations.<br>
-                      Avoid skits, re-enactments, dramatizations etc. This is not a sales pitch or an informercial. While you need to show how a user use the product to get value, but you don’t need to act like an imaginary user. For example,<br>
-                      [Instead of this] <code>Jim get’s a call from boss. &quot;Ring ring&quot;, &quot;hello&quot;, &quot;oh hi Jim, can we postpone the meeting?&quot; &quot;Sure&quot;. Jim hang up and curses the boss under his breath. Now he starts typing ..etc.</code><br>
-                      [do this] <code>If Jim needs to postpone the meeting, he can type …</code><br>
-                      It’s not that dramatization is bad or we don’t like it. We simply don’t have enough time for it.<br>
-                      Note that CS2101 demo requirements may differ. Different context → Different requirements.</li>
-                    <li>Rehearse the steps well and ensure you can do a smooth demo. Poor quality demos can affect your grade.</li>
-                    <li>Don’t waste time repeating things the target audience already knows. e.g. no need to say things like &quot;We are students from NUS, SoC&quot;.</li>
-                  </ul>
-                </li>
-                <li>
-                  <p><strong>Special circumstances:</strong></p>
-                  <ul>
-                    <li>If a significant feature was not merged on time: inform the tutor and get permission to show the unmerged feature using your own version of the code. Obviously, unmerged features earn much less marks than a merged equivalent but something is better than nothing.</li>
-                    <li>If you have no user visible features to show, you can still contribute to the demo by giving an overview of the product (at the start) and/or giving a wrap of of the product (at the end).</li>
-                    <li>If you are unable to come to the demo due to a valid reason, you can ask a team member to demo your feature. Remember to submit the evidence of your excuse <span class="dimmed">e.g., MC</span> to prof. The demo is part of module grading and <mark>absence without a valid reason</mark> will cause you to lose marks.</li>
-                  </ul>
-                </li>
-              </ul>
+          <div class="indented-level2">
+            <div class="flat">
+              <div>
+                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:midv14_demoExtract">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project → v1.4 Demo (extract)</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              </div>
             </div>
-          </modal>
+            <modal large title="Admin <md>:glyphicon-log-in:</md> Project → v1.4 Demo (extract)  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:midv14_demoExtract" class="algolia-no-index">
+                <div>
+                <ul>
+                  <li>
+                    <p><strong>Duration:</strong> Strictly 18 minutes for a 5-person team and 15 minutes for a 4-person team. Exceeding this limit will be penalized. Any set up time will be taken out of your allocated time.</p>
+                  </li>
+                  <li>
+                    <p><strong>Target audience</strong>: Assume you are giving a demo to a higher-level manager of your company, to brief him/her on the current capabilities of the product. This is the first time they are seeing the new product you developed but they are familiar with the AddressBook-level3 (AB3) product. The actual audience are the evaluators (the team supervisor and another tutor).</p>
+                  </li>
+                  <li>
+                    <p><strong>Scope</strong>:</p>
+                    <ul>
+                      <li><strong>Each person should demo the enhancements they added</strong>. However, it's OK for one member to do all the typing.</li>
+                      <li>Each person should demo their part in one go <span class="dimmed">i.e., one person should not appear multiple times in the demo. Reasons: it will interfere with grading as some things are graded individually</span>. However, it's OK for one person to give a short intro at the start and appear again later in the demo to demo her features.</li>
+                      <li>Subjected to the previous two points, as far as possible, organize the demo to present a cohesive picture of the product as a whole, presented in a logical order. <span class="dimmed">Remember to explain the profile of the target user profile and value proposition early in the demo.</span></li>
+                      <li>It is recommended you showcase how the feature improves the user’s life rather than simply describe each feature.</li>
+                      <li>No need to cover design/implementation details as the manager is not interested in those details.</li>
+                      <li>Do not demo features you inherited from AB3 unless they are needed to explain your new features. <span class="dimmed">Reason: existing features will not earn you marks, and the audience is already familiar with AB3 features.</span></li>
+                      <li>Plan the demo to be in sync with the impression you want to create. For example, if you are trying to convince that the product is easy to use, show the easiest way to perform a task before you show the full command with all the bells and whistles.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><strong>Structure:</strong></p>
+                    <ul>
+                      <li>Demo the product using the same executable you submitted, on your own laptop, using the TV.</li>
+                      <li>It can be <strong>a <em>sitting down</em> demo</strong>: You'll be demonstrating the features using the TV while sitting down. But you may stand around the TV if you prefer that way.</li>
+                      <li>It will be an uninterrupted demo: The audience members will not interrupt you during the demo. That means you should finish within the given time.</li>
+                      <li>The demo should use a sufficient amount of <tooltip content="`Mr aaa` is not a realistic person name"><em>realistic</em></tooltip> demo data. <span class="dimmed">e.g at least 20 contacts</span>. Trying to demo a product using just 1-2 sample data creates a bad impression.</li>
+                      <li><strong>Dress code</strong> : The level of formality is up to you, but it is recommended that the whole team dress at the same level.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><strong>Optimizing the time:</strong></p>
+                    <ul>
+                      <li>Spend as much time as possible on demonstrating the actual product. Not recommended to use slides (if you do, use them sparingly) or videos or lengthy narrations.<br>
+                        Avoid skits, re-enactments, dramatizations etc. This is not a sales pitch or an informercial. While you need to show how a user use the product to get value, but you don’t need to act like an imaginary user. For example,<br>
+                        [Instead of this] <code>Jim get’s a call from boss. &quot;Ring ring&quot;, &quot;hello&quot;, &quot;oh hi Jim, can we postpone the meeting?&quot; &quot;Sure&quot;. Jim hang up and curses the boss under his breath. Now he starts typing ..etc.</code><br>
+                        [do this] <code>If Jim needs to postpone the meeting, he can type …</code><br>
+                        It’s not that dramatization is bad or we don’t like it. We simply don’t have enough time for it.<br>
+                        Note that CS2101 demo requirements may differ. Different context → Different requirements.</li>
+                      <li>Rehearse the steps well and ensure you can do a smooth demo. Poor quality demos can affect your grade.</li>
+                      <li>Don’t waste time repeating things the target audience already knows. e.g. no need to say things like &quot;We are students from NUS, SoC&quot;.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><strong>Special circumstances:</strong></p>
+                    <ul>
+                      <li>If a significant feature was not merged on time: inform the tutor and get permission to show the unmerged feature using your own version of the code. Obviously, unmerged features earn much less marks than a merged equivalent but something is better than nothing.</li>
+                      <li>If you have no user visible features to show, you can still contribute to the demo by giving an overview of the product (at the start) and/or giving a wrap of of the product (at the end).</li>
+                      <li>If you are unable to come to the demo due to a valid reason, you can ask a team member to demo your feature. Remember to submit the evidence of your excuse <span class="dimmed">e.g., MC</span> to prof. The demo is part of module grading and <mark>absence without a valid reason</mark> will cause you to lose marks.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </modal>
+            <p>
+              <panel src="/website/admin/project-deliverables._include_.html#project-deliverables-demo" header="Admin <md>:glyphicon-log-in:</md> Project → v1.4 Demo (extract)  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="project-deliverables-demo"></panel>
+            </p>
+          </div>
           <h4 id="other-things-to-note"><span class="badge badge-pill badge-dark p-2"><big><big>+</big></big></span> <span><span aria-hidden="true" class="fas fa-users"></span></span> Other things to note<a class="fa fa-anchor" href="#other-things-to-note"></a></h4>
           <ul>
             <li>
@@ -603,7 +626,7 @@ method 2 ...
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 02 Nov 2019 14:21:32 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 03 Nov 2019 09:15:44 GMT</small></div>
     </footer>
   </div>
 </body>
