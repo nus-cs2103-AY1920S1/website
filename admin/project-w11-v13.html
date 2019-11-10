@@ -290,57 +290,59 @@
                     <modal large title="Admin <md>:glyphicon-log-in:</md> Project → Deliverables → Practical Exam" id="modal:projectDeliverablesPeDryRun-pe" class="algolia-no-index">
                         <div>
                         <h4 id="pe-overview"><span class="badge badge-success">PE</span> <span class="text-success">Overview</span><a class="fa fa-anchor" href="#pe-overview"></a></h4>
-                        <p><strong>Objectives:</strong></p>
-                        <ul>
-                          <li>The primary objective of the PE is to <mark>increase the rigor of project grading</mark>. Assessing most aspects of the project involves an element subjectivity. As the project counts for 45% of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</li>
-                          <li>PE is also <mark>used to evaluate your manual testing skills, product evaluation skills, effort estimation skills</mark> etc.</li>
-                          <li>Note that significant project components are <mark>not graded solely based on peer ratings</mark>. Rather, PE data are mostly used to cross-validate tutors' grades and identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutor evaluations with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</li>
-                          <li>Note that the PE is <mark>not a means of <em>pitting you against each other</em></mark>. Developers and testers play for the same side; they need to push each other to improve the quality of their work -- not bring down each other.</li>
-                        </ul>
-                        <p><strong>Grading</strong>:</p>
-                        <ul>
-                          <li>Your performance in the practical exam will affect your final grade and your peers', as explained in <a href="/website/admin/project-grading.html"><em>Admin: Project Grading</em></a> section.</li>
-                          <li>As such, we have put in measures to identify and <mark>penalize insincere/random evaluations</mark>.</li>
-                          <li>Also see:</li>
-                        </ul>
-                        <div class="indented-level2">
-                          <div class="flat">
-                            <div>
-                              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectDeliverables-peGradingNotes">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Notes on grading PE product testing</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                        <span id="pe-overview">
+                          <p><strong>Objectives:</strong></p>
+                          <ul>
+                            <li>The primary objective of the PE is to <mark>increase the rigor of project grading</mark>. Assessing most aspects of the project involves an element subjectivity. As the project counts for 45% of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</li>
+                            <li>PE is also <mark>used to evaluate your manual testing skills, product evaluation skills, effort estimation skills</mark> etc.</li>
+                            <li>Note that significant project components are <mark>not graded solely based on peer ratings</mark>. Rather, PE data are mostly used to cross-validate tutors' grades and identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutor evaluations with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</li>
+                            <li>Note that the PE is <mark>not a means of <em>pitting you against each other</em></mark>. Developers and testers play for the same side; they need to push each other to improve the quality of their work -- not bring down each other.</li>
+                          </ul>
+                          <p><strong>Grading</strong>:</p>
+                          <ul>
+                            <li>Your performance in the practical exam will affect your final grade and your peers', as explained in <a href="/website/admin/project-grading.html"><em>Admin: Project Grading</em></a> section.</li>
+                            <li>As such, we have put in measures to identify and <mark>penalize insincere/random evaluations</mark>.</li>
+                            <li>Also see:</li>
+                          </ul>
+                          <div class="indented-level2">
+                            <div class="flat">
+                              <div>
+                                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectDeliverables-peGradingNotes">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Notes on grading PE product testing</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                              </div>
                             </div>
+                            <modal large title="Admin <md>:glyphicon-log-in:</md> tP Grading → Notes on grading PE product testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectDeliverables-peGradingNotes" class="algolia-no-index">
+                                <div>
+                                <h5 id="notes-on-how-marks-are-calculated-based-on-pe-product-testing">Notes on how marks are calculated based on PE product testing<a class="fa fa-anchor" href="#notes-on-how-marks-are-calculated-based-on-pe-product-testing"></a></h5>
+                                <ul>
+                                  <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not be affect marks of the tester or the developer.</li>
+                                  <li>The penalty/credit for a bug varies based on,
+                                    <ul>
+                                      <li>The severity of the bug: <code>severity.High</code> &gt; <code>severity.Medium</code> &gt; <code>severity.Low</code></li>
+                                      <li>The type of the bug: <code>type.FunctionalityBug</code> &gt; <code>type.DocumentationBug</code> &gt; <code>type.FeatureFlaw</code> &gt; <code>type.DocTypo</code></li>
+                                    </ul>
+                                  </li>
+                                  <li>The penalty for a bug is divided equally among assignees.</li>
+                                  <li>The developers are not penalized for the duplicate bug reports they received but the testers earn credit for the duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
+                                  <li>
+                                    <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn less credit for the tester and slightly more penalty for the developer.
+                                  </li>
+                                  <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
+                                  <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
+                                    <ul>
+                                      <li><code>n</code> bugs found in your feature; it is a difficult feature consisting of lot of code → 4/5 marks</li>
+                                      <li><code>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li>
+                                    </ul>
+                                  </li>
+                                  <li>You don't need to find all bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
+                                  <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">duplicate-flagging</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
+                                </ul>
+                              </div>
+                            </modal>
+                            <p>
+                              <panel src="/website/admin/project-grading._include_.html#pe-grading-notes" header="Admin <md>:glyphicon-log-in:</md> tP Grading → Notes on grading PE product testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="pe-grading-notes"></panel>
+                            </p>
                           </div>
-                          <modal large title="Admin <md>:glyphicon-log-in:</md> tP Grading → Notes on grading PE product testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectDeliverables-peGradingNotes" class="algolia-no-index">
-                              <div>
-                              <h5 id="notes-on-how-marks-are-calculated-based-on-pe-product-testing">Notes on how marks are calculated based on PE product testing<a class="fa fa-anchor" href="#notes-on-how-marks-are-calculated-based-on-pe-product-testing"></a></h5>
-                              <ul>
-                                <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not be affect marks of the tester or the developer.</li>
-                                <li>The penalty/credit for a bug varies based on,
-                                  <ul>
-                                    <li>The severity of the bug: <code>severity.High</code> &gt; <code>severity.Medium</code> &gt; <code>severity.Low</code></li>
-                                    <li>The type of the bug: <code>type.FunctionalityBug</code> &gt; <code>type.DocumentationBug</code> &gt; <code>type.FeatureFlaw</code> &gt; <code>type.DocTypo</code></li>
-                                  </ul>
-                                </li>
-                                <li>The penalty for a bug is divided equally among assignees.</li>
-                                <li>The developers are not penalized for the duplicate bug reports they received but the testers earn credit for the duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
-                                <li>
-                                  <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn less credit for the tester and slightly more penalty for the developer.
-                                </li>
-                                <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
-                                <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
-                                  <ul>
-                                    <li><code>n</code> bugs found in your feature; it is a difficult feature consisting of lot of code → 4/5 marks</li>
-                                    <li><code>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li>
-                                  </ul>
-                                </li>
-                                <li>You don't need to find all bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-                                <li>Excessive incorrect downgrading/rejecting/<tooltip content="marking as duplicates">duplicate-flagging</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
-                              </ul>
-                            </div>
-                          </modal>
-                          <p>
-                            <panel src="/website/admin/project-grading._include_.html#pe-grading-notes" header="Admin <md>:glyphicon-log-in:</md> tP Grading → Notes on grading PE product testing  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="pe-grading-notes"></panel>
-                          </p>
-                        </div>
+                        </span>
                         <h4 id="pe-preparation"><span class="badge badge-success">PE</span> <span class="text-success">Preparation</span><a class="fa fa-anchor" href="#pe-preparation"></a></h4>
                         <ul>
                           <li>It's similar to,</li>
@@ -366,6 +368,10 @@
                                 <tab header="Not using CATcher" class="algolia-no-index">
 
                                   <div class="indented-less">
+                                    <box type="warning">
+                                      <p>Issues created for PED and PE need to be in a precise format for our grading scripts to work. Incorrectly-formatted responses will have to discarded. Therefore, you are strongly recommended to use CATcher for PED and PE activities. If you want to give your response via GitHub instead, <strong><span class="text-danger">please get our permission first</span></strong>.
+                                      </p>
+                                    </box>
                                     <div>
                                       <ul>
                                         <li>Create a public repo in your GitHub account with the following name:
@@ -726,7 +732,7 @@
                               <div class="indented-less">
                                 <div>
                                   <box type="warning">
-                                    <p>The dev responses need to be in a precise format for our grading scripts to work. Incorrectly-formatted responses will have to discarded. Therefore, you are strongly recommended to use CATcher for this phase. If you want to give your response via GitHub instead, <strong><span class="text-danger">please get our permission first</span></strong>.
+                                    <p>Issues created for PE-D and PE need to be in a precise format for our grading scripts to work. Incorrectly-formatted responses will have to discarded. Therefore, you are strongly recommended to use CATcher for PE-D and PE activities. If you want to give your response via GitHub instead, <strong><span class="text-danger">please get our permission first</span></strong>.
                                     </p>
                                   </box>
                                   <ul>
@@ -884,6 +890,10 @@ Duplicate of #67
                         <tab header="Not using CATcher" class="algolia-no-index">
 
                           <div class="indented-less">
+                            <box type="warning">
+                              <p>Issues created for PED and PE need to be in a precise format for our grading scripts to work. Incorrectly-formatted responses will have to discarded. Therefore, you are strongly recommended to use CATcher for PED and PE activities. If you want to give your response via GitHub instead, <strong><span class="text-danger">please get our permission first</span></strong>.
+                              </p>
+                            </box>
                             <div>
                               <ul>
                                 <li>Create a public repo in your GitHub account with the following name:
@@ -1229,7 +1239,7 @@ Duplicate of #67
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 09 Nov 2019 15:23:40 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sun, 10 Nov 2019 05:52:54 GMT</small></div>
     </footer>
   </div>
 </body>
