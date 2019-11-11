@@ -1,0 +1,67 @@
+2019-11-04T03:15:24.544Z - info: Website generation started at 11:15:18 AM
+2019-11-04T03:15:28.123Z - info: Building assets...
+2019-11-04T03:15:30.692Z - info: Assets built
+2019-11-04T03:15:30.693Z - info: Generating pages...
+2019-11-04T03:17:24.733Z - info: Pages built
+2019-11-04T03:17:47.846Z - info: Website generation complete! Total build time: 149.542s
+2019-11-04T03:17:47.846Z - info: Build success!
+2019-11-04T03:17:47.862Z - info: Site data built
+2019-11-04T03:18:52.921Z - info: Deployed!
+2019-11-04T03:33:29.648Z - info: Website generation started at 11:33:23 AM
+2019-11-04T03:33:33.332Z - info: Building assets...
+2019-11-04T03:33:36.192Z - info: Assets built
+2019-11-04T03:33:36.193Z - info: Generating pages...
+2019-11-04T03:35:28.483Z - info: Pages built
+2019-11-04T03:35:49.691Z - info: Website generation complete! Total build time: 146.416s
+2019-11-04T03:35:50.051Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-04T03:35:50.051Z - info: Press CTRL+C to stop ...
+2019-11-04T03:35:50.081Z - info: Site data built
+2019-11-04T03:57:53.732Z - info: [11:57:53 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T03:57:54.743Z - info: Rebuilding affected source files
+2019-11-04T03:57:54.750Z - info: Rebuilding 26 pages
+2019-11-04T03:58:04.289Z - info: Pages rebuilt
+2019-11-04T03:58:04.306Z - info: Site data built
+2019-11-04T03:59:09.894Z - info: [11:59:09 AM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T03:59:10.898Z - info: Rebuilding affected source files
+2019-11-04T03:59:10.905Z - info: Rebuilding 26 pages
+2019-11-04T03:59:20.658Z - info: Pages rebuilt
+2019-11-04T03:59:20.671Z - info: Site data built
+2019-11-04T04:01:00.663Z - info: [12:01:00 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T04:01:01.666Z - info: Rebuilding affected source files
+2019-11-04T04:01:01.671Z - info: Rebuilding 26 pages
+2019-11-04T04:01:11.669Z - info: Pages rebuilt
+2019-11-04T04:01:11.697Z - info: Site data built
+2019-11-04T04:04:27.326Z - info: [12:04:27 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T04:04:28.328Z - info: Rebuilding affected source files
+2019-11-04T04:04:28.336Z - info: Rebuilding 26 pages
+2019-11-04T04:04:37.984Z - info: Pages rebuilt
+2019-11-04T04:04:38.008Z - info: Site data built
+2019-11-04T04:07:17.414Z - info: [12:07:17 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T04:07:18.424Z - info: Rebuilding affected source files
+2019-11-04T04:07:18.428Z - info: Rebuilding 26 pages
+2019-11-04T04:07:27.978Z - info: Pages rebuilt
+2019-11-04T04:07:28.004Z - info: Site data built
+2019-11-04T04:09:45.542Z - info: [12:09:45 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T04:09:46.543Z - info: Rebuilding affected source files
+2019-11-04T04:09:46.548Z - info: Rebuilding 26 pages
+2019-11-04T04:09:56.612Z - info: Pages rebuilt
+2019-11-04T04:09:56.626Z - info: Site data built
+2019-11-04T04:13:41.762Z - info: [12:13:41 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T04:13:42.764Z - info: Rebuilding affected source files
+2019-11-04T04:13:42.772Z - info: Rebuilding 26 pages
+2019-11-04T04:13:53.641Z - info: Pages rebuilt
+2019-11-04T04:13:53.772Z - info: Site data built
+2019-11-04T04:14:09.156Z - info: [12:14:09 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-deliverables.md
+2019-11-04T04:14:10.158Z - info: Rebuilding affected source files
+2019-11-04T04:14:10.164Z - info: Rebuilding 26 pages
+2019-11-04T04:14:20.800Z - info: Pages rebuilt
+2019-11-04T04:14:20.817Z - info: Site data built
+2019-11-04T04:16:23.507Z - info: Website generation started at 12:16:16 PM
+2019-11-04T04:16:27.417Z - info: Building assets...
+2019-11-04T04:16:30.718Z - info: Assets built
+2019-11-04T04:16:30.718Z - info: Generating pages...
+2019-11-04T04:18:29.604Z - info: Pages built
+2019-11-04T04:18:52.704Z - info: Website generation complete! Total build time: 156.069s
+2019-11-04T04:18:52.704Z - info: Build success!
+2019-11-04T04:18:52.721Z - info: Site data built
+2019-11-04T04:19:55.476Z - info: Deployed!

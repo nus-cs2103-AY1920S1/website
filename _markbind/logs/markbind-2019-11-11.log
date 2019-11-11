@@ -1,0 +1,31 @@
+2019-11-11T08:48:25.315Z - info: Website generation started at 4:48:16 PM
+2019-11-11T08:48:29.711Z - info: Building assets...
+2019-11-11T08:48:33.007Z - info: Assets built
+2019-11-11T08:48:33.008Z - info: Generating pages...
+2019-11-11T08:50:37.086Z - info: Pages built
+2019-11-11T08:51:00.034Z - info: Website generation complete! Total build time: 163.329s
+2019-11-11T08:51:00.437Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-11T08:51:00.437Z - info: Press CTRL+C to stop ...
+2019-11-11T08:51:00.473Z - info: Site data built
+2019-11-11T08:51:01.029Z - info: [4:51:01 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-11T08:51:02.356Z - info: Rebuilding affected source files
+2019-11-11T08:51:02.359Z - info: Rebuilding 7 pages
+2019-11-11T08:51:17.980Z - info: Pages rebuilt
+2019-11-11T08:51:18.504Z - info: Site data built
+2019-11-11T08:51:38.518Z - info: [4:51:38 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-11T08:51:39.520Z - info: Rebuilding affected source files
+2019-11-11T08:51:39.525Z - info: Rebuilding 7 pages
+2019-11-11T08:51:45.971Z - info: Pages rebuilt
+2019-11-11T08:51:45.986Z - info: Site data built
+2019-11-11T08:52:37.217Z - info: [4:52:37 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-11T08:52:38.229Z - info: Rebuilding affected source files
+2019-11-11T08:52:38.231Z - info: Rebuilding 7 pages
+2019-11-11T08:52:43.791Z - info: Pages rebuilt
+2019-11-11T08:52:43.809Z - info: Site data built
+2019-11-11T08:55:09.623Z - info: [4:55:09 PM] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-11T08:55:10.626Z - info: Rebuilding affected source files
+2019-11-11T08:55:10.628Z - info: Rebuilding 7 pages
+2019-11-11T08:55:17.236Z - info: Pages rebuilt
+2019-11-11T08:55:17.278Z - info: Site data built
+2019-11-11T08:57:36.198Z - info: Website generation started at 4:57:26 PM
+2019-11-11T08:57:41.460Z - info: Building assets...
