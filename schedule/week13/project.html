@@ -1167,11 +1167,22 @@
                   </ul>
                   <tabs>
                     <tab header="Using CATcher">
-                      <ul>
-                        <li>Launch CATcher, and login to the profile <code>CS2103/T PE</code></li>
-                        <li>Respond to the bug reports shown.
-                        </li>
-                      </ul>
+                      <box type="info" icon=":fas-hard-hat:">
+                        <ul>
+                          <li>CATcher does not come with a UG, but the UI is fairly intuitive (there are tool tips too). Do post in the forum or ask in slack if you need any guidance with its usage.</li>
+                          <li>Also note that CATcher hasn't been battle-tested for this phase, in particular, w.r.t. multiple team members editing the same issue concurrently. It is ideal if the team members get together and worth through the issues together. If you think others might be editing the same issues at the same time, use the <code>Sync</code> button at the top to force-sync your view with the latest data from GitHub.
+                          </li>
+                        </ul>
+                      </box>
+                      <li>Launch CATcher, and login to the profile <code>CS2103/T PE</code>. It will show all the bugs assigned to your team, divided into three sections:
+                        <ol>
+                          <li><code>Issues Pending Responses</code> - Issues that your team has not processed yet.</li>
+                          <li><code>Issues Responded</code> - Your job is to get all issues to the second category.</li>
+                          <li><code>Faulty Issues</code> - e.g., Bugs marked as duplicates of each other, or causing circular <em>duplicate</em> relationships. Fix the problem given so that no issues remain in this category.</li>
+                        </ol>
+                      </li>
+                      <li>Respond to the bug reports shown.
+                      </li>
                     </tab>
                     <tab header="Not using CATcher" class="algolia-no-index">
 
@@ -1201,7 +1212,8 @@ Duplicate of #67
                               <p></p>
                             </li>
                             <li>Do not close the bug report after you are done processing it.</li>
-                            <li>Use the exact <code>Duplicate of #123</code> format to indicate duplicates.
+                            <li>Use the exact <code>Duplicate of #123</code> format to indicate duplicates.</li>
+                            <li>There should be exactly one comment per issue. If there are multiple comments, the last one will be taken for processing.
                             </li>
                           </ul>
                         </div>
@@ -1212,10 +1224,10 @@ Duplicate of #67
                     <li><strong>If a bug seems to be for a different product</strong> (i.e. wrongly assigned to your team), let us know ASAP.</li>
                     <li><strong>If the bug is reported multiple times</strong>,
                       <ul>
-                        <li>Mark all copies EXCEPT one as duplicates using the <code>duplicate</code> tag</li>
-                        <li>If the duplicates have different severity levels, you should <mark>keep the one with the highest severity</mark>.</li>
-                        <li>For each group of duplicates, all duplicates should point to one <em>parent</em> i.e., no multiple levels of duplicates, and no cyclical duplication relationships</li>
-                        <li>If the duplication status is eventually accepted, all duplicates will be assumed to have inherited the <code>type.*</code> and <code>severity.*</code> from the parent.</li>
+                        <li>Mark <span class="text-danger">all copies <mark>EXCEPT one</mark></span> as duplicates of the one left out (let's call that one the <em>original</em>) using the <code>duplicate</code> tag.</li>
+                        <li>If the duplicates have different severity levels, you should <mark>keep the one with the highest severity</mark> as the <em>original</em>. But you can downgrade the severity of the original or the duplicates.</li>
+                        <li>For each group of duplicates, all duplicates should point to one <em>original</em> i.e., no multiple levels of duplicates, and no cyclical duplication relationships.</li>
+                        <li>If the duplication status is eventually accepted, all duplicates will be assumed to have inherited the <code>type.*</code> and <code>severity.*</code> from the <em>original</em>.</li>
                       </ul>
                     </li>
                   </ul>
@@ -1329,7 +1341,7 @@ Duplicate of #67
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Fri, 15 Nov 2019 13:06:42 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 16 Nov 2019 09:42:06 GMT</small></div>
     </footer>
   </div>
 </body>
