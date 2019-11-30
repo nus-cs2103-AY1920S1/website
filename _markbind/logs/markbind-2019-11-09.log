@@ -1,0 +1,332 @@
+2019-11-09T06:54:38.365Z - info: Website generation started at 14:54:32
+2019-11-09T06:54:41.889Z - info: Building assets...
+2019-11-09T06:54:44.412Z - info: Assets built
+2019-11-09T06:54:44.412Z - info: Generating pages...
+2019-11-09T06:57:12.695Z - info: Pages built
+2019-11-09T06:57:40.555Z - info: Website generation complete! Total build time: 188.423s
+2019-11-09T06:57:40.879Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-09T06:57:40.879Z - info: Press CTRL+C to stop ...
+2019-11-09T06:57:40.903Z - info: Site data built
+2019-11-09T07:06:39.434Z - info: [15:06:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-09T07:06:40.458Z - info: Rebuilding affected source files
+2019-11-09T07:06:40.489Z - info: Rebuilding 4 pages
+2019-11-09T07:06:49.580Z - info: Pages rebuilt
+2019-11-09T07:06:49.676Z - info: Site data built
+2019-11-09T07:07:02.929Z - info: [15:07:02] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-09T07:07:03.939Z - info: Rebuilding affected source files
+2019-11-09T07:07:03.943Z - info: Rebuilding 4 pages
+2019-11-09T07:07:11.175Z - info: Pages rebuilt
+2019-11-09T07:07:11.219Z - info: Site data built
+2019-11-09T07:10:49.786Z - info: [15:10:49] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\exams.md
+2019-11-09T07:10:50.793Z - info: Rebuilding affected source files
+2019-11-09T07:10:50.796Z - info: Rebuilding 4 pages
+2019-11-09T07:10:54.409Z - info: Pages rebuilt
+2019-11-09T07:10:54.425Z - info: Site data built
+2019-11-09T07:14:24.523Z - info: Website generation started at 15:14:18
+2019-11-09T07:14:28.108Z - info: Building assets...
+2019-11-09T07:14:31.637Z - info: Assets built
+2019-11-09T07:14:31.637Z - info: Generating pages...
+2019-11-09T07:17:30.192Z - info: Pages built
+2019-11-09T07:17:59.911Z - info: Website generation complete! Total build time: 221.091s
+2019-11-09T07:17:59.911Z - info: Build success!
+2019-11-09T07:17:59.927Z - info: Site data built
+2019-11-09T07:18:48.161Z - info: Deployed!
+2019-11-09T07:24:01.788Z - info: Website generation started at 15:23:55
+2019-11-09T07:24:04.706Z - info: Building assets...
+2019-11-09T07:24:07.196Z - info: Assets built
+2019-11-09T07:24:07.196Z - info: Generating pages...
+2019-11-09T07:26:55.218Z - info: Pages built
+2019-11-09T07:27:23.459Z - info: Website generation complete! Total build time: 207.985s
+2019-11-09T07:27:23.475Z - info: Build success!
+2019-11-09T07:27:23.490Z - info: Site data built
+2019-11-09T07:28:01.711Z - info: Deployed!
+2019-11-09T11:15:55.776Z - info: Website generation started at 19:15:47
+2019-11-09T11:15:59.010Z - info: Building assets...
+2019-11-09T11:16:01.834Z - info: Assets built
+2019-11-09T11:16:01.835Z - info: Generating pages...
+2019-11-09T11:18:17.633Z - info: Pages built
+2019-11-09T11:18:43.951Z - info: Website generation complete! Total build time: 176.675s
+2019-11-09T11:18:44.307Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-09T11:18:44.307Z - info: Press CTRL+C to stop ...
+2019-11-09T11:18:44.464Z - info: Site data built
+2019-11-09T11:21:04.755Z - info: [19:21:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:21:05.759Z - info: Rebuilding affected source files
+2019-11-09T11:21:05.764Z - info: Rebuilding 5 pages
+2019-11-09T11:21:10.267Z - info: Pages rebuilt
+2019-11-09T11:21:10.288Z - info: Site data built
+2019-11-09T11:26:23.342Z - info: [19:26:23] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:26:24.348Z - info: Rebuilding affected source files
+2019-11-09T11:26:24.356Z - info: Rebuilding 5 pages
+2019-11-09T11:26:28.726Z - info: Pages rebuilt
+2019-11-09T11:26:28.741Z - info: Site data built
+2019-11-09T11:27:39.516Z - info: [19:27:39] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:27:40.524Z - info: Rebuilding affected source files
+2019-11-09T11:27:40.527Z - info: Rebuilding 5 pages
+2019-11-09T11:27:44.950Z - info: Pages rebuilt
+2019-11-09T11:27:44.966Z - info: Site data built
+2019-11-09T11:28:07.361Z - info: [19:28:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:28:08.436Z - info: Rebuilding affected source files
+2019-11-09T11:28:08.438Z - info: Rebuilding 5 pages
+2019-11-09T11:28:12.707Z - info: Pages rebuilt
+2019-11-09T11:28:12.715Z - info: Site data built
+2019-11-09T11:29:04.069Z - info: [19:29:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:29:05.070Z - info: Rebuilding affected source files
+2019-11-09T11:29:05.075Z - info: Rebuilding 5 pages
+2019-11-09T11:29:09.590Z - info: Pages rebuilt
+2019-11-09T11:29:09.605Z - info: Site data built
+2019-11-09T11:29:37.217Z - info: [19:29:37] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:29:38.218Z - info: Rebuilding affected source files
+2019-11-09T11:29:38.222Z - info: Rebuilding 5 pages
+2019-11-09T11:29:42.412Z - info: Pages rebuilt
+2019-11-09T11:29:42.425Z - info: Site data built
+2019-11-09T11:30:09.917Z - info: [19:30:09] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:30:10.918Z - info: Rebuilding affected source files
+2019-11-09T11:30:10.921Z - info: Rebuilding 5 pages
+2019-11-09T11:30:15.024Z - info: Pages rebuilt
+2019-11-09T11:30:15.033Z - info: Site data built
+2019-11-09T11:30:26.399Z - info: [19:30:26] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:30:27.401Z - info: Rebuilding affected source files
+2019-11-09T11:30:27.402Z - info: Rebuilding 5 pages
+2019-11-09T11:30:31.137Z - info: Pages rebuilt
+2019-11-09T11:30:31.144Z - info: Site data built
+2019-11-09T11:30:46.516Z - info: [19:30:46] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:30:47.517Z - info: Rebuilding affected source files
+2019-11-09T11:30:47.522Z - info: Rebuilding 5 pages
+2019-11-09T11:30:51.206Z - info: Pages rebuilt
+2019-11-09T11:30:51.221Z - info: Site data built
+2019-11-09T11:31:07.723Z - info: [19:31:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:31:08.724Z - info: Rebuilding affected source files
+2019-11-09T11:31:08.725Z - info: Rebuilding 5 pages
+2019-11-09T11:31:12.666Z - info: Pages rebuilt
+2019-11-09T11:31:12.677Z - info: Site data built
+2019-11-09T11:32:09.897Z - info: [19:32:09] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:32:10.901Z - info: Rebuilding affected source files
+2019-11-09T11:32:10.905Z - info: Rebuilding 5 pages
+2019-11-09T11:32:15.421Z - info: Pages rebuilt
+2019-11-09T11:32:15.431Z - info: Site data built
+2019-11-09T11:32:37.934Z - info: [19:32:37] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:32:38.941Z - info: Rebuilding affected source files
+2019-11-09T11:32:38.943Z - info: Rebuilding 5 pages
+2019-11-09T11:32:43.343Z - info: Pages rebuilt
+2019-11-09T11:32:43.355Z - info: Site data built
+2019-11-09T11:34:23.545Z - info: [19:34:23] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T11:34:24.546Z - info: Rebuilding affected source files
+2019-11-09T11:34:24.551Z - info: Rebuilding 5 pages
+2019-11-09T11:34:29.961Z - info: Pages rebuilt
+2019-11-09T11:34:29.975Z - info: Site data built
+2019-11-09T11:40:50.761Z - info: [19:40:50] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:40:51.763Z - info: Rebuilding affected source files
+2019-11-09T11:40:51.768Z - info: Rebuilding 13 pages
+2019-11-09T11:41:03.119Z - info: Pages rebuilt
+2019-11-09T11:41:03.141Z - info: Site data built
+2019-11-09T11:42:15.045Z - info: [19:42:15] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:42:16.048Z - info: Rebuilding affected source files
+2019-11-09T11:42:16.063Z - info: Rebuilding 12 pages
+2019-11-09T11:42:27.012Z - info: Pages rebuilt
+2019-11-09T11:42:27.033Z - info: Site data built
+2019-11-09T11:42:36.745Z - info: [19:42:36] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:42:37.749Z - info: Rebuilding affected source files
+2019-11-09T11:42:37.754Z - info: Rebuilding 12 pages
+2019-11-09T11:42:50.978Z - info: Pages rebuilt
+2019-11-09T11:42:50.995Z - info: Site data built
+2019-11-09T11:42:53.919Z - info: [19:42:53] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:42:54.920Z - info: Rebuilding affected source files
+2019-11-09T11:42:54.924Z - info: Rebuilding 12 pages
+2019-11-09T11:43:05.184Z - info: Pages rebuilt
+2019-11-09T11:43:05.217Z - info: Site data built
+2019-11-09T11:43:52.826Z - info: [19:43:52] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:43:53.828Z - info: Rebuilding affected source files
+2019-11-09T11:43:53.832Z - info: Rebuilding 12 pages
+2019-11-09T11:44:05.158Z - info: Pages rebuilt
+2019-11-09T11:44:05.255Z - info: Site data built
+2019-11-09T11:45:40.373Z - info: [19:45:40] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:45:41.376Z - info: Rebuilding affected source files
+2019-11-09T11:45:41.379Z - info: Rebuilding 12 pages
+2019-11-09T11:46:01.297Z - info: Pages rebuilt
+2019-11-09T11:46:01.330Z - info: Site data built
+2019-11-09T11:46:10.794Z - info: [19:46:10] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:46:11.795Z - info: Rebuilding affected source files
+2019-11-09T11:46:11.801Z - info: Rebuilding 12 pages
+2019-11-09T11:46:25.706Z - info: Pages rebuilt
+2019-11-09T11:46:25.718Z - info: Site data built
+2019-11-09T11:50:04.345Z - info: [19:50:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:50:05.345Z - info: Rebuilding affected source files
+2019-11-09T11:50:05.349Z - info: Rebuilding 12 pages
+2019-11-09T11:50:19.183Z - info: Pages rebuilt
+2019-11-09T11:50:19.197Z - info: Site data built
+2019-11-09T11:50:27.983Z - info: [19:50:27] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:50:28.986Z - info: Rebuilding affected source files
+2019-11-09T11:50:28.989Z - info: Rebuilding 12 pages
+2019-11-09T11:50:42.426Z - info: Pages rebuilt
+2019-11-09T11:50:42.444Z - info: Site data built
+2019-11-09T11:51:29.444Z - info: [19:51:29] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:51:30.446Z - info: Rebuilding affected source files
+2019-11-09T11:51:30.454Z - info: Rebuilding 12 pages
+2019-11-09T11:51:45.534Z - info: Pages rebuilt
+2019-11-09T11:51:45.583Z - info: Site data built
+2019-11-09T11:57:27.067Z - info: [19:57:27] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:57:28.071Z - info: Rebuilding affected source files
+2019-11-09T11:57:28.075Z - info: Rebuilding 12 pages
+2019-11-09T11:57:41.650Z - info: Pages rebuilt
+2019-11-09T11:57:41.664Z - info: Site data built
+2019-11-09T11:58:15.110Z - info: [19:58:15] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:58:16.111Z - info: Rebuilding affected source files
+2019-11-09T11:58:16.114Z - info: Rebuilding 12 pages
+2019-11-09T11:58:29.675Z - info: Pages rebuilt
+2019-11-09T11:58:29.698Z - info: Site data built
+2019-11-09T11:59:17.123Z - info: [19:59:17] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T11:59:18.124Z - info: Rebuilding affected source files
+2019-11-09T11:59:18.132Z - info: Rebuilding 12 pages
+2019-11-09T11:59:32.149Z - info: Pages rebuilt
+2019-11-09T11:59:32.171Z - info: Site data built
+2019-11-09T12:02:29.334Z - info: [20:02:29] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T12:02:29.339Z - info: [20:02:29] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T12:02:30.336Z - info: Rebuilding affected source files
+2019-11-09T12:02:30.343Z - info: Rebuilding 16 pages
+2019-11-09T12:02:49.943Z - info: Pages rebuilt
+2019-11-09T12:02:49.981Z - info: Site data built
+2019-11-09T12:05:25.369Z - info: [20:05:25] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T12:05:26.370Z - info: Rebuilding affected source files
+2019-11-09T12:05:26.377Z - info: Rebuilding 12 pages
+2019-11-09T12:05:41.753Z - info: Pages rebuilt
+2019-11-09T12:05:41.769Z - info: Site data built
+2019-11-09T12:06:02.151Z - info: [20:06:02] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T12:06:03.153Z - info: Rebuilding affected source files
+2019-11-09T12:06:03.159Z - info: Rebuilding 12 pages
+2019-11-09T12:06:19.067Z - info: Pages rebuilt
+2019-11-09T12:06:19.095Z - info: Site data built
+2019-11-09T12:06:20.771Z - info: [20:06:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T12:06:21.773Z - info: Rebuilding affected source files
+2019-11-09T12:06:21.779Z - info: Rebuilding 12 pages
+2019-11-09T12:06:36.374Z - info: Pages rebuilt
+2019-11-09T12:06:36.389Z - info: Site data built
+2019-11-09T12:10:13.815Z - info: [20:10:13] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T12:10:14.817Z - info: Rebuilding affected source files
+2019-11-09T12:10:14.820Z - info: Rebuilding 12 pages
+2019-11-09T12:10:28.877Z - info: Pages rebuilt
+2019-11-09T12:10:28.903Z - info: Site data built
+2019-11-09T12:12:07.144Z - info: [20:12:07] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T12:12:08.151Z - info: Rebuilding affected source files
+2019-11-09T12:12:08.154Z - info: Rebuilding 12 pages
+2019-11-09T12:12:21.793Z - info: Pages rebuilt
+2019-11-09T12:12:21.814Z - info: Site data built
+2019-11-09T12:13:29.774Z - info: [20:13:29] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-09T12:13:30.780Z - info: Rebuilding affected source files
+2019-11-09T12:13:30.783Z - info: Rebuilding 6 pages
+2019-11-09T12:13:40.881Z - info: Pages rebuilt
+2019-11-09T12:13:40.899Z - info: Site data built
+2019-11-09T12:14:13.879Z - info: [20:14:13] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-09T12:14:14.884Z - info: Rebuilding affected source files
+2019-11-09T12:14:14.886Z - info: Rebuilding 6 pages
+2019-11-09T12:14:25.446Z - info: Pages rebuilt
+2019-11-09T12:14:25.456Z - info: Site data built
+2019-11-09T12:15:27.882Z - info: [20:15:27] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-w13-v14.md
+2019-11-09T12:15:28.887Z - info: Rebuilding affected source files
+2019-11-09T12:15:28.889Z - info: Rebuilding 6 pages
+2019-11-09T12:15:38.719Z - info: Pages rebuilt
+2019-11-09T12:15:38.731Z - info: Site data built
+2019-11-09T12:22:50.294Z - info: Website generation started at 20:22:45
+2019-11-09T12:22:52.623Z - info: Building assets...
+2019-11-09T12:22:54.841Z - info: Assets built
+2019-11-09T12:22:54.842Z - info: Generating pages...
+2019-11-09T12:25:09.314Z - info: Pages built
+2019-11-09T12:25:35.791Z - info: Website generation complete! Total build time: 170.512s
+2019-11-09T12:25:35.791Z - info: Build success!
+2019-11-09T12:25:35.822Z - info: Site data built
+2019-11-09T12:26:09.290Z - info: Deployed!
+2019-11-09T12:35:04.393Z - info: Website generation started at 20:34:59
+2019-11-09T12:35:06.715Z - info: Building assets...
+2019-11-09T12:35:09.055Z - info: Assets built
+2019-11-09T12:35:09.056Z - info: Generating pages...
+2019-11-09T12:37:29.099Z - info: Pages built
+2019-11-09T12:37:54.543Z - info: Website generation complete! Total build time: 175.044s
+2019-11-09T12:37:54.912Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-09T12:37:54.912Z - info: Press CTRL+C to stop ...
+2019-11-09T12:37:54.984Z - info: Site data built
+2019-11-09T12:39:15.216Z - info: [20:39:15] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T12:39:16.227Z - info: Rebuilding affected source files
+2019-11-09T12:39:16.233Z - info: Rebuilding 5 pages
+2019-11-09T12:39:21.320Z - info: Pages rebuilt
+2019-11-09T12:39:21.341Z - info: Site data built
+2019-11-09T12:41:04.048Z - info: [20:41:04] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T12:41:05.069Z - info: Rebuilding affected source files
+2019-11-09T12:41:05.069Z - info: Rebuilding 13 pages
+2019-11-09T12:41:15.004Z - info: Pages rebuilt
+2019-11-09T12:41:15.074Z - info: Site data built
+2019-11-09T12:42:27.938Z - info: [20:42:27] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T12:42:28.953Z - info: Rebuilding affected source files
+2019-11-09T12:42:28.957Z - info: Rebuilding 5 pages
+2019-11-09T12:42:33.778Z - info: Pages rebuilt
+2019-11-09T12:42:33.793Z - info: Site data built
+2019-11-09T12:43:02.991Z - info: [20:43:02] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T12:43:04.009Z - info: Rebuilding affected source files
+2019-11-09T12:43:04.013Z - info: Rebuilding 5 pages
+2019-11-09T12:43:08.691Z - info: Pages rebuilt
+2019-11-09T12:43:08.704Z - info: Site data built
+2019-11-09T12:44:59.623Z - info: [20:44:59] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T12:45:00.626Z - info: Rebuilding affected source files
+2019-11-09T12:45:00.626Z - info: Rebuilding 5 pages
+2019-11-09T12:45:05.236Z - info: Pages rebuilt
+2019-11-09T12:45:05.245Z - info: Site data built
+2019-11-09T12:45:20.068Z - info: [20:45:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\schedule\week13\admin.md
+2019-11-09T12:45:21.069Z - info: Rebuilding affected source files
+2019-11-09T12:45:21.070Z - info: Rebuilding 5 pages
+2019-11-09T12:45:25.207Z - info: Pages rebuilt
+2019-11-09T12:45:25.228Z - info: Site data built
+2019-11-09T12:47:14.602Z - info: Website generation started at 20:47:09
+2019-11-09T12:47:17.110Z - info: Building assets...
+2019-11-09T12:47:19.656Z - info: Assets built
+2019-11-09T12:47:19.658Z - info: Generating pages...
+2019-11-09T12:49:38.322Z - info: Pages built
+2019-11-09T12:50:04.252Z - info: Website generation complete! Total build time: 174.874s
+2019-11-09T12:50:04.252Z - info: Build success!
+2019-11-09T12:50:04.332Z - info: Site data built
+2019-11-09T12:50:35.152Z - info: Deployed!
+2019-11-09T14:50:41.569Z - info: Website generation started at 22:50:33
+2019-11-09T14:50:45.717Z - info: Building assets...
+2019-11-09T14:50:49.532Z - info: Assets built
+2019-11-09T14:50:49.533Z - info: Generating pages...
+2019-11-09T14:53:37.949Z - info: Pages built
+2019-11-09T14:54:08.052Z - info: Website generation complete! Total build time: 214.086s
+2019-11-09T14:54:08.364Z - info: Serving "C:\repos\nus-cs2103-AY1920S1\cs2103-website\_site" at http://127.0.0.1:8080
+2019-11-09T14:54:08.364Z - info: Press CTRL+C to stop ...
+2019-11-09T14:54:08.396Z - info: Site data built
+2019-11-09T15:09:26.898Z - info: [23:09:26] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectGrading.md
+2019-11-09T15:09:27.980Z - info: Rebuilding affected source files
+2019-11-09T15:09:28.012Z - info: Rebuilding 1 pages
+2019-11-09T15:09:32.052Z - info: Pages rebuilt
+2019-11-09T15:09:32.064Z - info: Site data built
+2019-11-09T15:11:56.395Z - info: [23:11:56] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectGrading.md
+2019-11-09T15:11:57.433Z - info: Rebuilding affected source files
+2019-11-09T15:11:57.433Z - info: Rebuilding 1 pages
+2019-11-09T15:12:00.748Z - info: Pages rebuilt
+2019-11-09T15:12:00.760Z - info: Site data built
+2019-11-09T15:13:20.802Z - info: [23:13:20] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectGrading.md
+2019-11-09T15:13:21.813Z - info: Rebuilding affected source files
+2019-11-09T15:13:21.813Z - info: Rebuilding 1 pages
+2019-11-09T15:13:25.662Z - info: Pages rebuilt
+2019-11-09T15:13:25.680Z - info: Site data built
+2019-11-09T15:14:46.728Z - info: [23:14:46] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading.md
+2019-11-09T15:14:47.760Z - info: Rebuilding affected source files
+2019-11-09T15:14:47.760Z - info: Rebuilding 13 pages
+2019-11-09T15:15:00.398Z - info: Pages rebuilt
+2019-11-09T15:15:00.418Z - info: Site data built
+2019-11-09T15:15:45.844Z - info: [23:15:45] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectGrading.md
+2019-11-09T15:15:46.860Z - info: Rebuilding affected source files
+2019-11-09T15:15:46.864Z - info: Rebuilding 1 pages
+2019-11-09T15:15:51.035Z - info: Pages rebuilt
+2019-11-09T15:15:51.042Z - info: Site data built
+2019-11-09T15:19:26.494Z - info: [23:19:26] Reload for file change: C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\projectGrading.md
+2019-11-09T15:19:27.508Z - info: Rebuilding affected source files
+2019-11-09T15:19:27.508Z - info: Rebuilding 1 pages
+2019-11-09T15:19:31.940Z - info: Pages rebuilt
+2019-11-09T15:19:31.956Z - info: Site data built
+2019-11-09T15:23:34.573Z - info: Website generation started at 23:23:28
+2019-11-09T15:23:37.304Z - info: Building assets...
+2019-11-09T15:23:40.206Z - info: Assets built
+2019-11-09T15:23:40.206Z - info: Generating pages...
+2019-11-09T15:26:32.581Z - info: Pages built
+2019-11-09T15:27:09.637Z - info: Website generation complete! Total build time: 221.068s
+2019-11-09T15:27:09.641Z - info: Build success!
+2019-11-09T15:27:09.741Z - info: Site data built
+2019-11-09T15:27:49.214Z - info: Deployed!
