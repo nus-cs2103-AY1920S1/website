@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 6 - Admin Info</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -110,7 +101,9 @@
         <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple;">
           <ol>
             <li>Submit post-lecture quiz</li>
-            <li>[optional] Submit mid-term feedback for the teaching team <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Sunday</span></span></li>
+            <li>[optional] Submit mid-term feedback for the teaching team <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Sunday</span>
+              </span>
+            </li>
           </ol>
         </div>
         <div id="additional">
@@ -118,7 +111,8 @@
           <ul>
             <li>As per usual.</li>
           </ul>
-          <h4 id="2-optional-submit-mid-term-feedback-for-the-teaching-team-by-sunday"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> [optional] Submit mid-term feedback for the teaching team <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Sunday</span></span><a class="fa fa-anchor" href="#2-optional-submit-mid-term-feedback-for-the-teaching-team-by-sunday"></a></h4>
+          <h4 id="2-optional-submit-mid-term-feedback-for-the-teaching-team-by-sunday"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> [optional] Submit mid-term feedback for the teaching team <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span>            by Sunday</span>
+            </span><a class="fa fa-anchor" href="#2-optional-submit-mid-term-feedback-for-the-teaching-team-by-sunday"></a></h4>
           <ul>
             <li><strong>An anonymous survey to submit feedback about the teaching team</strong> will open on LumiNUS around Monday. You will receive an email when it opens. Please take a few minutes to give feedback to your tutors.</li>
           </ul>
@@ -126,7 +120,11 @@
         <h4 id="other-admin-info-you-may-want-to-read-this-week"><span class="badge badge-pill badge-dark p-2"><big><big>+</big></big></span> Other admin info you may want to read this week:<a class="fa fa-anchor" href="#other-admin-info-you-may-want-to-read-this-week"></a></h4>
         <div class="indented">
           <panel type="default" no-close expandable="true" class="algolia-no-index">
-            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Exams <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Exams <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            </span>
+            </span>
+            </span>
             <div>
               <p>There is no midterm.</p>
               <p>The final exam has two parts:</p>
@@ -134,11 +132,13 @@
                 <li>Part 1: MCQ questions (1 hour, 20 marks)</li>
                 <li>Part 2: Essay questions (1 hour, 20 marks)</li>
               </ul>
-              <p>Both papers will be given to you at the start but you need to <strong>answer Part 1 first</strong> (i.e. MCQ paper). It will be <strong>collected 1 hour after the exam start time</strong> (even if arrived late for the exam). You are free to start part 2 early if you finish Part 1 early.</p>
+              <p>Both papers will be given to you at the start but you need to <strong>answer Part 1 first</strong> (i.e. MCQ paper). It will be <strong>collected 1 hour after the exam start time</strong> (even if arrived late for the exam). You are free
+                to start part 2 early if you finish Part 1 early.</p>
               <box type="important">
-                <p>Given the fast pace required by the paper, the large class size, and the need to collect part 1 answer scripts in the middle of the exam, to be fair to all students, <strong>invigilators will not answer queries about the questions in the exam paper</strong> (but <em>will</em> answer queries related to exam administration).</p>
+                <p>Given the fast pace required by the paper, the large class size, and the need to collect part 1 answer scripts in the middle of the exam, to be fair to all students, <strong>invigilators will not answer queries about the questions in the exam paper</strong>                  (but <em>will</em> answer queries related to exam administration).</p>
                 <ul>
-                  <li>If you have a doubt/query about a question ,or would like to make an assumption about a question, or would like to report a potential error in the exam paper, write down your doubt/query/assumption in the space provided for it at the end of the exam paper.</li>
+                  <li>If you have a doubt/query about a question ,or would like to make an assumption about a question, or would like to report a potential error in the exam paper, write down your doubt/query/assumption in the space provided for it at the
+                    end of the exam paper.</li>
                   <li>Those doubts/queries/assumptions (if justified) will be taken into account when grading.
                   </li>
                 </ul>
@@ -180,17 +180,25 @@
                 <blockquote>
                   <p>Technique ABC <mark>can</mark> be used to generate more test cases.</p>
                 </blockquote>
-                <p>The word <mark>can</mark> is highlighted because the decision you need to make is whether the ABC <em>can or cannot</em> be used to generate more test cases; the decision is not whether ABC can be used to generate <em>more or better</em> test cases.</p>
+                <p>The word <mark>can</mark> is highlighted because the decision you need to make is whether the ABC <em>can or cannot</em> be used to generate more test cases; the decision is not whether ABC can be used to generate <em>more or better</em>                  test cases.
+                </p>
               </box>
-              <p>Markers such as the one given below appears at left margin of the paper to <strong>indicate where the question corresponds to a new column in the OCR form</strong>. E.g. questions 11, 21, 31, etc. (a column has 10 questions). Such markers can help you to detect if you missed a question in the previous 10 questions. You can safely ignore those markers if you are not interested in making use of that additional hint.</p>
+              <p>Markers such as the one given below appears at left margin of the paper to <strong>indicate where the question corresponds to a new column in the OCR form</strong>. E.g. questions 11, 21, 31, etc. (a column has 10 questions). Such markers
+                can help you to detect if you missed a question in the previous 10 questions. You can safely ignore those markers if you are not interested in making use of that additional hint.</p>
               <p><img src="/website/admin/images/columnMarker.png"><br></p>
-              <p>Some questions have tags e.g., the question below has a tag <strong><code>JAVA</code></strong>. These <strong>tags provide additional context about the question</strong>. In the example below, the tag indicates that the code given in the question is Java code.</p>
+              <p>Some questions have tags e.g., the question below has a tag <strong><code>JAVA</code></strong>. These <strong>tags provide additional context about the question</strong>. In the example below, the tag indicates that the code given in the
+                question is Java code.</p>
               <p><img src="/website/admin/images/contextTag.png"><br></p>
-              <p><strong>The exam paper is open-book</strong>: you may bring any printed or written materials to the exam in hard copy format.
-                However, given the fast pace required by Part 1, you will not have time left to refer notes during that part of the exam.</p>
-              <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Mark the OCR form as you go</strong>, rather than planning to transfer your answers to the OCR form near the end. <span class="dimmed">Reason: Given there are 100 questions, it will be hard to estimate how much time you need to mass-transfer all answers to OCR forms.</span></p>
+              <p><strong>The exam paper is open-book</strong>: you may bring any printed or written materials to the exam in hard copy format. However, given the fast pace required by Part 1, you will not have time left to refer notes during that part of
+                the exam.
+              </p>
+              <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Mark the OCR form as you go</strong>, rather than planning to transfer your answers to the OCR form near the end.
+                <span
+                  class="dimmed">Reason: Given there are 100 questions, it will be hard to estimate how much time you need to mass-transfer all answers to OCR forms.</span>
+              </p>
               <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Write the answer in the exam paper as well</strong> when marking it in the OCR form. <span class="dimmed">Reason: It will reduce the chance of missing a question. Furthermore, in case you missed a question, it will help you correct the OCR form quickly.</span></p>
-              <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> We have tried to <strong>avoid deliberately misleading/tricky questions</strong>. If a question seems to take a very long time to figure out, you are probably over-thinking it.</p>
+              <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> We have tried to <strong>avoid deliberately misleading/tricky questions</strong>. If a question seems to take a very long time
+                to figure out, you are probably over-thinking it.</p>
               <box type="success">
                 <p>You will be given a practice exam paper to familiarize yourself with this slightly unusual exam format.
                 </p>
@@ -201,30 +209,39 @@
           </panel>
           <p></p>
           <panel type="default" no-close expandable="true" class="algolia-no-index">
-            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> F: Handling teamwork issues <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> F: Handling teamwork issues <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </span>
             <div>
               <p>If your team is facing difficulties due to differences in skill/motivation /availability among team members,</p>
               <ul>
                 <li>
-                  <p><strong>First, do not expect everyone to have the same skill/motivation level as you.</strong> It is fine if someone wants to do less and have low expectations from the module. That doesn't mean that person is a bad person. Everyone is entitled to have their own priorities.</p>
+                  <p><strong>First, do not expect everyone to have the same skill/motivation level as you.</strong> It is fine if someone wants to do less and have low expectations from the module. That doesn't mean that person is a bad person. Everyone
+                    is entitled to have their own priorities.</p>
                 </li>
                 <li>
                   <p><strong>Second, don't give up.</strong> It is unfortunate that your team ended up in this situation, but you can turn it into a good learning opportunity. You don't get an opportunity to save a sinking team every day 😃</p>
                 </li>
                 <li>
-                  <p><strong>Third, if you care about your grade and willing to work for it, you need to take initiative</strong> to turn the situation around or else the whole team is going to suffer. Don't hesitate to take charge if the situation calls for it. By doing so, you'll be doing a favor for your team. Be professional, kind, and courteous to the team members, but also be firm and assertive. It is your grade that is at stake. Don't worry about making a bad situation worse. You won't know until you try.</p>
+                  <p><strong>Third, if you care about your grade and willing to work for it, you need to take initiative</strong> to turn the situation around or else the whole team is going to suffer. Don't hesitate to take charge if the situation calls
+                    for it. By doing so, you'll be doing a favor for your team. Be professional, kind, and courteous to the team members, but also be firm and assertive. It is your grade that is at stake. Don't worry about making a bad situation worse.
+                    You won't know until you try.</p>
                 </li>
                 <li>
-                  <p><strong>Finally, don't feel angry or 'wronged'.</strong> Teamwork problems are not uncommon in this module and we know how to grade so that you will not be penalized for others' low contribution. We can use Git to find exactly what others did. It's not your responsibility to get others to contribute.</p>
+                  <p><strong>Finally, don't feel angry or 'wronged'.</strong> Teamwork problems are not uncommon in this module and we know how to grade so that you will not be penalized for others' low contribution. We can use Git to find exactly what others
+                    did. It's not your responsibility to get others to contribute.</p>
                 </li>
               </ul>
-              <p>Given below are some suggestions you can adopt if the project work is not going smooth due to team issues. Note that the below measures can result in some team members doing more work than others and earning better project grades than others. It is still better than sinking the whole team together.</p>
+              <p>Given below are some suggestions you can adopt if the project work is not going smooth due to team issues. Note that the below measures can result in some team members doing more work than others and earning better project grades than others.
+                It is still better than sinking the whole team together.</p>
               <ul>
                 <li>
                   <p><strong>Redistribute the work</strong>: Stronger programmers in the team should take over the critical parts of the code.</p>
                 </li>
                 <li>
-                  <p><strong>Enforce stricter integration workflow</strong>: Appoint an integrator (typically, the strongest programmer). His/her job is to maintain the integrated version of the code. He/she should not accept any code that breaks the existing product or is not up to the acceptable quality standard. It is up to others to submit acceptable code to the integrator. Note that if the integrator rejected your code unreasonably, you can still earn marks for that code. You are allowed to submit such 'rejected' code for grading. They can earn marks based on the quality of the code.</p>
+                  <p><strong>Enforce stricter integration workflow</strong>: Appoint an integrator (typically, the strongest programmer). His/her job is to maintain the integrated version of the code. He/she should not accept any code that breaks the existing
+                    product or is not up to the acceptable quality standard. It is up to others to submit acceptable code to the integrator. Note that if the integrator rejected your code unreasonably, you can still earn marks for that code. You are allowed
+                    to submit such 'rejected' code for grading. They can earn marks based on the quality of the code.</p>
                 </li>
               </ul>
               <p><strong>If you have very unreliable or totally disengaged team members</strong> :</p>
@@ -232,33 +249,44 @@
                 <li>Re-allocate to others any mission-critical work allocated to that person so that such team members cannot bring down the entire team.</li>
                 <li>However, do not leave out such team members from project communications. Always keep them in the loop so that they can contribute any time they wish to.</li>
                 <li>Furthermore, evaluate them sincerely and fairly during peer evaluations so that they do get the grade their work deserves, no more, no less.</li>
-                <li>Be courteous to such team members too. Some folks have genuine problems that prevent them from contributing more although they may not be able tell you the reasons. Just do your best for the project and assume everyone else is doing their best too, although their best may be lower than yours.</li>
+                <li>Be courteous to such team members too. Some folks have genuine problems that prevent them from contributing more although they may not be able tell you the reasons. Just do your best for the project and assume everyone else is doing their
+                  best too, although their best may be lower than yours.</li>
               </ul>
             </div>
           </panel>
           <p></p>
           <panel type="default" no-close expandable="true" class="algolia-no-index">
-            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why so many submissions? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why so many submissions? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </span>
             <div>
-              <h3 id="why-so-many-submissions">Why so many submissions? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-so-many-submissions"></a></h3>
+              <h3 id="why-so-many-submissions">Why so many submissions? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small>
+                <a class="fa fa-anchor" href="#why-so-many-submissions"></a>
+              </h3>
               <div class="indented">
                 <div>
                   <img src="/website/admin/images/frequent submissions.png" width="759" height="359">
-                  <p>The high number of submissions is not meant to increase workload but to spread it across the semester. Learning theory and applying them should be done in parallel to maximize the learning effect. That can happen only if we spread theory and 'application of theory' (i.e., project work) evenly across the semester.</p>
+                  <p>The high number of submissions is not meant to increase workload but to spread it across the semester. Learning theory and applying them should be done in parallel to maximize the learning effect. That can happen only if we spread theory
+                    and 'application of theory' (i.e., project work) evenly across the semester.</p>
                 </div>
               </div>
             </div>
           </panel>
           <p></p>
           <panel type="default" no-close expandable="true" class="algolia-no-index">
-            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why submission requirements differ between CS2103/T and CS2101? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span>
+            <span slot="header" class="card-title"> Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix C (FAQs) → Why submission requirements differ between CS2103/T and CS2101? <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </span>
             <div>
-              <h3 id="why-submission-requirements-differ-between-cs2103-t-and-cs2101">Why submission requirements differ between CS2103/T and CS2101? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small><a class="fa fa-anchor" href="#why-submission-requirements-differ-between-cs2103-t-and-cs2101"></a></h3>
+              <h3 id="why-submission-requirements-differ-between-cs2103-t-and-cs2101">Why submission requirements differ between CS2103/T and CS2101? <small><small><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></small></small>
+                <a class="fa fa-anchor" href="#why-submission-requirements-differ-between-cs2103-t-and-cs2101"></a>
+              </h3>
               <div class="indented">
                 <div>
                   <img src="/website/admin/images/Submission requirements differ.png" width="300">
                   <p>They do, and they should.</p>
-                  <p>CS2103T communication requirements are limited to a very narrow scope (i.e., communicate about the product to users and developers). CS2101 aims to teach you technical communication in a much wider context. While you may be able to reuse some of the stuff across the two modules, submissions are not intended to be exactly the same.</p>
+                  <p>CS2103T communication requirements are limited to a very narrow scope (i.e., communicate about the product to users and developers). CS2101 aims to teach you technical communication in a much wider context. While you may be able to reuse
+                    some of the stuff across the two modules, submissions are not intended to be exactly the same.</p>
                 </div>
               </div>
             </div>
@@ -273,7 +301,8 @@
             <a class="nav-link py-1" href="#week-6-sep-16-admin-info">Week 6 [Sep 16] - Admin Info&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#1-submit-post-lecture-quiz">1 Submit post-lecture quiz&#x200E;</a>
-              <a class="nav-link py-1" href="#2-optional-submit-mid-term-feedback-for-the-teaching-team-by-sunday">2 [optional] Submit mid-term feedback for the teaching team by Sunday&#x200E;</a>
+              <a class="nav-link py-1" href="#2-optional-submit-mid-term-feedback-for-the-teaching-team-by-sunday">2 [optional] Submit mid-term feedback for the teaching team       by Sunday
+      &#x200E;</a>
               <a class="nav-link py-1" href="#other-admin-info-you-may-want-to-read-this-week">+ Other admin info you may want to read this week:&#x200E;</a>
             </nav>
 
@@ -283,7 +312,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -311,6 +340,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

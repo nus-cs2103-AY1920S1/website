@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 8 - Admin Info</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -110,7 +101,9 @@
         <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple;">
           <ol>
             <li>Submit post-lecture quiz</li>
-            <li>Submit peer evaluations on TEAMMATES <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Saturday</span></span></li>
+            <li>Submit peer evaluations on TEAMMATES <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Saturday</span>
+              </span>
+            </li>
           </ol>
         </div>
         <div id="additional">
@@ -118,7 +111,8 @@
           <ul>
             <li>As per usual.</li>
           </ul>
-          <h4 id="2-submit-peer-evaluations-on-teammates-by-saturday"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Submit peer evaluations on TEAMMATES <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Saturday</span></span><a class="fa fa-anchor" href="#2-submit-peer-evaluations-on-teammates-by-saturday"></a></h4>
+          <h4 id="2-submit-peer-evaluations-on-teammates-by-saturday"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Submit peer evaluations on TEAMMATES <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Saturday</span>
+            </span><a class="fa fa-anchor" href="#2-submit-peer-evaluations-on-teammates-by-saturday"></a></h4>
           <ul>
             <li><strong>Peer Evaluation Round 1</strong> will open on TEAMMATES. You will receive the submission link soon. <strong>If you do not submit feedback responses, you will forfeit participation marks that you earned based on feedback ratings received from others</strong>.</li>
           </ul>
@@ -131,7 +125,8 @@
             <a class="nav-link py-1" href="#week-8-oct-7-admin-info">Week 8 [Oct 7] - Admin Info&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#1-submit-post-lecture-quiz">1 Submit post-lecture quiz&#x200E;</a>
-              <a class="nav-link py-1" href="#2-submit-peer-evaluations-on-teammates-by-saturday">2 Submit peer evaluations on TEAMMATES by Saturday&#x200E;</a>
+              <a class="nav-link py-1" href="#2-submit-peer-evaluations-on-teammates-by-saturday">2 Submit peer evaluations on TEAMMATES  by Saturday
+      &#x200E;</a>
             </nav>
 
           </nav>
@@ -140,7 +135,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -168,6 +163,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

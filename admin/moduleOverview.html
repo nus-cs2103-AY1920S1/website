@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Admin: CS2103/T Software Engineering</title>
   <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -94,12 +85,18 @@
       <nav id="site-nav" class="navbar navbar-light bg-transparent">
         <div class="border-right-grey nav-inner position-sticky slim-scroll">
           <ul class="px-0 site-nav-list">
-            <li class="mt-2"><a href="/website/admin/moduleOverview.html" class="site-nav__a">CS2103/T Software Engineering</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/usingThisWebsite.html" class="site-nav__a"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/moduleExpectations.html" class="site-nav__a">Module Expectations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Module Structure
-                <i class="dropdown-btn-icon rotate-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+            <li class="mt-2"><a href="/website/admin/moduleOverview.html" class="site-nav__a">CS2103/T Software Engineering</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/usingThisWebsite.html" class="site-nav__a"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/moduleExpectations.html" class="site-nav__a">Module Expectations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Module Structure 
+ <i class="dropdown-btn-icon rotate-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container dropdown-container-open">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/weeklySchedule.html" class="site-nav__a">Weekly Schedule</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -108,12 +105,18 @@
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
             <li class="mt-2"><button class="dropdown-btn">Individual Project (iP)
-                <i class="dropdown-btn-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+ <i class="dropdown-btn-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/ip-overview.html" class="site-nav__a">iP (Individual Project): Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -129,8 +132,8 @@
               </div>
             </li>
             <li class="mt-2"><button class="dropdown-btn">Team Project (tP)
-                <i class="dropdown-btn-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+ <i class="dropdown-btn-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/project-overview.html" class="site-nav__a">tP (Team Project): Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -155,14 +158,24 @@
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><a href="/website/admin/peerEvaluations.html" class="site-nav__a">Peer Evaluations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/tools.html" class="site-nav__a">Tools</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/gradeBreakdown.html" class="site-nav__a">Grade Breakdown</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/exams.html" class="site-nav__a">Exams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/participation.html" class="site-nav__a">Participation Marks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Appendices
-                <i class="dropdown-btn-icon rotate-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+            <li class="mt-2"><a href="/website/admin/peerEvaluations.html" class="site-nav__a">Peer Evaluations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/tools.html" class="site-nav__a">Tools</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/gradeBreakdown.html" class="site-nav__a">Grade Breakdown</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/exams.html" class="site-nav__a">Exams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/participation.html" class="site-nav__a">Participation Marks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Appendices 
+ <i class="dropdown-btn-icon rotate-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container dropdown-container-open">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/appendixA-principles.html" class="site-nav__a">A: Module Principles</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -179,19 +192,21 @@
       </nav>
       <div id="content-wrapper">
         <div class="website-content">
-          <p><span class="float-right">
-              <b-btn variant="light" href="usingThisWebsite.html"><span>Using this Website <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
-            </span></p>
+          <p><span class="float-right"><b-btn variant="light" href="usingThisWebsite.html"><span>Using this Website <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span>
+            </b-btn>
+            </span>
+          </p>
           <br>
           <p>
             <div>
-              <h1 id="cs2103-t-software-engineering">CS2103/T Software Engineering <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span><a class="fa fa-anchor" href="#cs2103-t-software-engineering"></a></h1>
+              <h1 id="cs2103-t-software-engineering">CS2103/T Software Engineering <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+                  aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                </span><a class="fa fa-anchor" href="#cs2103-t-software-engineering"></a></h1>
             </div>
           </p>
           <div id="main">
-            <p><big>
-                <p class="lead text-secondary">A balanced, iterative, and brown-field introduction to Software Engineering...</p>
-              </big></p>
+            <p><big><p class="lead text-secondary">A balanced, iterative, and brown-field introduction to Software Engineering...</p></big></p>
             <img src="/website/images/growingPlant.png" width="700">
             <p class="lead"><span>CS2103/T is an introductory Software Engineering module. It has <strong>a 50-50 balance of basic SE theory knowledge and practical skills</strong> that you need to gain before industry internships or <tooltip content="e.g., CS3203, CS3216/7, CS3281&2, etc.">higher-level project modules</tooltip>. The module follows an <tooltip content="going through SE topics several times while increasing depth, as opposed to going through topics sequentially"><strong>iterative approach</strong></tooltip> to covering topics. It is also one of the rare SE modules that includes a <tooltip content="i.e., an existing project"><strong>brown-field</strong> project</tooltip>, in addition to a <tooltip content="i.e., a project that is started from scratch"><strong>green-field</strong> project</tooltip>.</span></p>
             <ul>
@@ -199,7 +214,9 @@
                 <p><strong>On the theory side,</strong> this module is supported by a customized online textbook <a href="/website/se-book-adapted/index.html"><em>Software Engineering for Self-Directed Learners</em></a>, integrated into this module website.</p>
               </li>
               <li>
-                <p><strong>The practice side,</strong> you will first ramp up your technical skills by doing a small individual project (green-field) in which you will develop a personal assistant chatbot called <a href="/website/se-book-adapted/projectDuke/index.html">Duke</a>. Then, you will move to a team project (brown-field) in which you will take over an existing project <a href="https://se-edu.github.io/addressbook-level3/">AddressBook-Level3 (AB3)</a> -- a relatively small yet non-trivial (6 KLoC) generic product -- and enhance it into a better product or evolve it into a different product.</p>
+                <p><strong>The practice side,</strong> you will first ramp up your technical skills by doing a small individual project (green-field) in which you will develop a personal assistant chatbot called <a href="/website/se-book-adapted/projectDuke/index.html">Duke</a>.
+                  Then, you will move to a team project (brown-field) in which you will take over an existing project <a href="https://se-edu.github.io/addressbook-level3/">AddressBook-Level3 (AB3)</a> -- a relatively small yet non-trivial (6 KLoC) generic
+                  product -- and enhance it into a better product or evolve it into a different product.</p>
               </li>
             </ul>
             <p>Given below is a summary of what the module covers and does not cover.</p>
@@ -208,8 +225,10 @@
                 <thead>
                   <tr>
                     <th>Topic</th>
-                    <th><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> Covered</th>
-                    <th><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> Not covered</th>
+                    <th><span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span>
+                      </span> Covered</th>
+                    <th><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span>
+                      </span> Not covered</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -220,7 +239,8 @@
                   </tr>
                   <tr>
                     <td>OOP</td>
-                    <td>Used in a non-trivial project, <tooltip content="e.g., Single Responsibility Principle, Open-Closed Principle">intermediate OOP principles</tooltip>
+                    <td>Used in a non-trivial project,
+                      <tooltip content="e.g., Single Responsibility Principle, Open-Closed Principle">intermediate OOP principles</tooltip>
                     </td>
                     <td>basics <span class="dimmed">(reason: expected prerequisite knowledge)</span></td>
                   </tr>
@@ -234,16 +254,15 @@
                   <tr>
                     <td>Modeling</td>
                     <td>
-                      <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, such as seen in <a href="https://se-edu.github.io/addressbook-level3/DeveloperGuide.html#design">this Developer Guide of AB3</a>)
-                    </td>
-                    <td>intensive <tooltip content="creating detailed UML models before strating to code">upfront design modeling</tooltip>
+                      <tooltip content="e.g., class diagrams, sequence diagrams, activity diagrams">Some UML notations</tooltip> (sufficient to be able to describe SE artifacts using models, such as seen in <a href="https://se-edu.github.io/addressbook-level3/DeveloperGuide.html#design">this Developer Guide of AB3</a>)</td>
+                    <td>intensive
+                      <tooltip content="creating detailed UML models before strating to code">upfront design modeling</tooltip>
                     </td>
                   </tr>
                   <tr>
                     <td>Requirements</td>
                     <td>
-                      <tooltip content="e.g., user stories, use cases">Some lightweight techniques</tooltip> to gather and document project requirements
-                    </td>
+                      <tooltip content="e.g., user stories, use cases">Some lightweight techniques</tooltip> to gather and document project requirements</td>
                     <td>rapid prototyping, heavy UI design, designing a product from scratch</td>
                   </tr>
                   <tr>
@@ -259,7 +278,8 @@
                   <tr>
                     <td>Testing</td>
                     <td>
-                      <tooltip content="e.g., automated unit/integration/system testing">basic developer testing</tooltip> and <tooltip content="e.g., acceptance testing">user testing</tooltip>
+                      <tooltip content="e.g., automated unit/integration/system testing">basic developer testing</tooltip> and
+                      <tooltip content="e.g., acceptance testing">user testing</tooltip>
                     </td>
                     <td>
                       <tooltip content="e.g., security testing, performance testing, usability testing">testing for non-functional aspects</tooltip>
@@ -278,16 +298,19 @@
             </p>
           </div>
           <br>
-          <p><span class="float-right">
-              <b-btn variant="light" href="usingThisWebsite.html"><span>Using this Website <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
-            </span></p>
+          <p><span class="float-right"><b-btn variant="light" href="usingThisWebsite.html"><span>Using this Website <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span>
+            </b-btn>
+            </span>
+          </p>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#cs2103-t-software-engineering">CS2103/T Software Engineering &#x200E;</a>
+            <a class="nav-link py-1" href="#cs2103-t-software-engineering">CS2103/T Software Engineering 
+          
+          &#x200E;</a>
 
           </nav>
         </div>
@@ -295,7 +318,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -323,6 +346,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../markbind/layouts/default/scripts.js"></script>
 

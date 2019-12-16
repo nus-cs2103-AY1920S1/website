@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Error Handling: Logging: How</title>
   <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -29,21 +29,28 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use logging</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use logging</span>
+              </span>
+              </span>
+              </span>
+            </p>
             <p></p>
             <p></p>
             <div>
               <div></div>
               <p></p>
               <p><span class="dimmed"><strong><span>Implementation → Error Handling → Logging →
-                    </span></strong></span></p>
+</span></strong>
+                </span>
+              </p>
               <div id="title-and-body">
                 <div>
                   <h4 id="how"><span>How</span><a class="fa fa-anchor" href="#how"></a></h4>
                 </div>
                 <div id="main">
                   <div>
-                    <p><strong>Most programming environments come with logging systems that allow sophisticated forms of logging.</strong> They have features such as the ability to enable and disable logging easily or to change the logging <tooltip content="how much information to record">intensity</tooltip>.</p>
+                    <p><strong>Most programming environments come with logging systems that allow sophisticated forms of logging.</strong> They have features such as the ability to enable and disable logging easily or to change the logging
+                      <tooltip content="how much information to record">intensity</tooltip>.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This sample Java code uses Java’s default logging mechanism.</p>
                       <p>First, import the relevant Java package:</p>
@@ -52,7 +59,9 @@
                       <p>Next, create a <code>Logger</code>:</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> Logger logger = Logger.getLogger(<span class="hljs-string">"Foo"</span>);
 </code></pre>
-                      <p>Now, you can use the <code>Logger</code> object to log information. Note the use of <popover content="`INFO`, `WARNING` etc.">logging level</popover> for each message. When running the code, the logging level can be set to <code>WARNING</code> so that log messages specified as <code>INFO</code> level (which is a lower level than <code>WARNING</code>) will not be written to the log file at all.</p>
+                      <p>Now, you can use the <code>Logger</code> object to log information. Note the use of
+                        <popover content="`INFO`, `WARNING` etc.">logging level</popover> for each message. When running the code, the logging level can be set to <code>WARNING</code> so that log messages specified as <code>INFO</code> level (which is a lower level than <code>WARNING</code>)
+                        will not be written to the log file at all.</p>
                       <pre><code class="hljs java"><span class="hljs-comment">// log a message at INFO level</span>
 logger.log(Level.INFO, <span class="hljs-string">"going to start processing"</span>);
 <span class="hljs-comment">//...</span>
@@ -121,6 +130,19 @@ logger.log(Level.INFO, <span class="hljs-string">"end of processing"</span>);
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 

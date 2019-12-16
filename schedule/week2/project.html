@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 2 - Project</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -113,7 +104,10 @@
             <ol>
               <li>Set up prerequisites</li>
               <li>Set up the project in your computer</li>
-              <li>Implement increments while committing code frequently: <code>Level-1</code>, <code>Level-2</code>, <code>Level-3</code>, <code>Level-4</code>, <code>A-TextUiTesting</code>, <code>Level-5</code>, <code>Level-6</code>, <code>A-Enums</code> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Thursday 2359</span></span></li>
+              <li>Implement increments while committing code frequently: <code>Level-1</code>, <code>Level-2</code>, <code>Level-3</code>, <code>Level-4</code>, <code>A-TextUiTesting</code>, <code>Level-5</code>, <code>Level-6</code>, <code>A-Enums</code>
+                <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Thursday 2359</span>
+                </span>
+              </li>
             </ol>
           </div>
         </div>
@@ -123,11 +117,13 @@
         <div class="indented">
           <div class="flat">
             <div>
-              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW02-overview">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>iP - Overview</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW02-overview">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>iP - Overview</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+              </p>
             </div>
           </div>
           <modal large title="Admin <md>:glyphicon-log-in:</md> **iP - Overview**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:ipW02-overview" class="algolia-no-index">
-              <div>
+
+            <div>
               <div id="title"></div>
               <div id="body">
                 <p>The objectives of the individual project (iP):</p>
@@ -142,17 +138,20 @@
                     <div class="indented border">
                       <panel type="seamless" class="algolia-no-index">
                         <div></div>
-                        <div slot="header"><span><span class="dimmed"><strong>Duke - Overview</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                        <div slot="header"><span><span class="dimmed"><strong>Duke - Overview</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                        </div>
                         <div></div>
                         <div>
                           <h1 id="project-duke">Project Duke<a class="fa fa-anchor" href="#project-duke"></a></h1>
                           <div class="lead">
                             <pic add-class="float-left border mr-2 mt-2 p1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
-                              <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
+                              <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small>
+                              </p>
                             </pic>
-                            <p><strong>Project Duke is a educational software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying as many Java and SE techniques as possible along the way.</p>
+                            <p><strong>Project Duke is a educational software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying as many Java and SE techniques as possible along the
+                              way.</p>
                           </div>
-                          <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> <strong>You may give it any other name or personality you wish.</strong></p>
+                          <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span>                            <strong>You may give it any other name or personality you wish.</strong></p>
                           <p>Here is a sample interaction with Duke:</p>
                           <pre><code class="hljs">    ____________________________________________________________
       ____        _        
@@ -209,7 +208,8 @@ bye
                           <div id="increments_summary">
                             <p>The project consists of the following <em>increments</em>:</p>
                             <ul>
-                              <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
+                              <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make
+                                the product progressively &quot;level up&quot;.</li>
                               <li><strong>Extensions:</strong>
                                 <ul>
                                   <li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
@@ -229,7 +229,8 @@ bye
                 <p>The project is to be <strong>done over weeks 2-6</strong>.</p>
                 <box type="warning">
                   <ul>
-                    <li><strong>Volatile requirements ahead!</strong>: Some requirements will only be released later (or could be changed along the way), to simulate how requirements of a project may not be available at the start or stay the same during the project.</li>
+                    <li><strong>Volatile requirements ahead!</strong>: Some requirements will only be released later (or could be changed along the way), to simulate how requirements of a project may not be available at the start or stay the same during the
+                      project.</li>
                     <li><strong>Requirements may differ between students!</strong>: Note that some requirements that are to be released later could be different from one student to another.
                     </li>
                   </ul>
@@ -242,17 +243,20 @@ bye
           </p>
           <div class="flat">
             <div>
-              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW02-overview">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>iP - Grading</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW02-overview">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>iP - Grading</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+              </p>
             </div>
           </div>
           <modal large title="Admin <md>:glyphicon-log-in:</md> **iP - Grading**  <md>:glyphicon-star:</md>" id="modal:ipW02-overview" class="algolia-no-index">
-              <div>
+
+            <div>
               <div id="title"></div>
               <div id="body">
                 <p>To get full marks, you should achieve <strong>at least some iP deliverables in most weeks</strong> (i.e., at least in 4 out of weeks 1-7) and achieve <strong>more than 80% of all deliverables</strong> by the end.</p>
                 <ul>
                   <li>Requirements marked as <span class="badge badge-pill badge-secondary">optional</span> or <span class="badge badge-pill badge-secondary">if-applicable</span> are not counted when calculating the percentage of deliverables.</li>
-                  <li>When a requirement specifies a <code>minimal</code> version of it, simply reaching that minimal version of the requirement is enough for it to be counted for grading -- however, we recommend you to go beyond the minimal; the farther you go, the more practice you get.</li>
+                  <li>When a requirement specifies a <code>minimal</code> version of it, simply reaching that minimal version of the requirement is enough for it to be counted for grading -- however, we recommend you to go beyond the minimal; the farther
+                    you go, the more practice you get.</li>
                 </ul>
               </div>
             </div>
@@ -263,7 +267,7 @@ bye
         </div>
         <div>
           <box type="info">
-            <p>iP is a new addition to the module. And we have done some major changes to tP too. As such, it is possible that there will be some teething issues. If you encounter any problem while doing iP/tP, please post in the <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">forum</a> so that we can take necessary actions.
+            <p>iP is a new addition to the module. And we have done some major changes to tP too. As such, it is possible that there will be some teething issues. If you encounter any problem while doing iP/tP, please post in the <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">forum</a>              so that we can take necessary actions.
             </p>
           </box>
           <h4 id="1-set-up-prerequisites"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Set up prerequisites<a class="fa fa-anchor" href="#1-set-up-prerequisites"></a></h4>
@@ -277,32 +281,35 @@ bye
             </ul>
             <div class="flat">
               <div>
-                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW02-tools">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:ipW02-tools">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+                </p>
               </div>
             </div>
             <modal large title="Admin <md>:glyphicon-log-in:</md> **Tools**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:ipW02-tools" class="algolia-no-index">
-                <div>
+
+              <div>
                 <p><img src="/website/admin/images/toolsList.png" style="width: 700px"><br></p>
                 <h4 id="tools-used-learning-management-system">
-                  <div class="text-white bg-dark p-1">Tools Used: Learning Management System</div><a class="fa fa-anchor" href="#tools-used-learning-management-system"></a>
-                </h4>
+                  <div class="text-white bg-dark p-1">Tools Used: Learning Management System</div><a class="fa fa-anchor" href="#tools-used-learning-management-system"></a></h4>
                 <p>This module website is the main source of information for the module. In addition, we use LumiNUS for some things <span class="dimmed">(e.g., webcasts, announcements, file submissions, grade book, ...)</span>.</p>
 
                 <div id="github">
                   <h4 id="tool-used-github-for-code-hosting">
-                    <div class="text-white bg-dark p-1">Tool Used: GitHub (for Code Hosting)</div><a class="fa fa-anchor" href="#tool-used-github-for-code-hosting"></a>
-                  </h4>
+                    <div class="text-white bg-dark p-1">Tool Used: GitHub (for Code Hosting)</div><a class="fa fa-anchor" href="#tool-used-github-for-code-hosting"></a></h4>
                   <p>You are <mark><em>required to</em> use GitHub</mark> as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.).</p>
                   <box>
-                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation</strong>:</span></p>
+                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation</strong>:</span>
+                    </p>
                     <p>Create a GitHub account (if you don't have one yet), as explained in the panel below.</p>
                     <div class="flat">
                       <div>
-                        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                        <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+                        </p>
                       </div>
                     </div>
                     <modal large title="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-                        <div>
+
+                      <div>
                         <p>Create a personal GitHub account if you don't have one yet.</p>
                         <ol>
                           <li>
@@ -312,25 +319,31 @@ bye
                             <p>Strongly recommended: Complete your GitHub profile. In particular,</p>
                             <ul>
                               <li>Specify your full name.</li>
-                              <li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
+                              <li>Upload a profile photo that matches
+                                <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li>
                             </ul>
                             <panel type="seamless" header="%%Why am I being encouraged to complete my GitHub profile?%%" class="algolia-no-index">
-                              <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p>
+                              <p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate
+                                GitHub account just for the module.</p>
                             </panel>
                           </li>
                           <li>
-                            <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p>
+                            <p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during
+                              that period, please let us know immediately.</p>
                           </li>
                         </ol>
                         <modal large title="Our requirements for the profile photo" id="modal:creatingGitHubAccount-photoCriteria" class="algolia-no-index">
-                            <div>
+
+                          <div>
                             <ul>
                               <li>
-                                <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
+                                <p>The purpose of the profile photo is for the teaching team to identify you. Therefore, choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo. Some examples
+                                  can be seen in the 'Teaching team' page. Given below are some examples of good and bad profile photos.<br>
                                   <img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
                               </li>
                               <li>
-                                <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you may use <a href="https://en.wikipedia.org/wiki/File:Portrait_placeholder.png">a placeholder image</a> in place of the photo in module-related documents that are publicly visible.</p>
+                                <p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy,
+                                  you may use <a href="https://en.wikipedia.org/wiki/File:Portrait_placeholder.png">a placeholder image</a> in place of the photo in module-related documents that are publicly visible.</p>
                               </li>
                             </ul>
                           </div>
@@ -338,27 +351,29 @@ bye
                       </div>
                     </modal>
                     <p>
-                      <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="githubAccount"></panel>
+                      <panel src="/website/admin/appendixE-gitHub._include_.html#githubAccount" header="Admin <md>:glyphicon-log-in:</md> **Appendix E - GitHub: Creating an Account**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized
+                        fragment="githubAccount"></panel>
                     </p>
                   </box>
                   <p><strong>More info</strong>: See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a>.</p>
                 </div>
                 <div id="rcs">
                   <h4 id="tool-used-git-for-revision-control">
-                    <div class="text-white bg-dark p-1">Tool Used: Git (for Revision Control)</div><a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a>
-                  </h4>
+                    <div class="text-white bg-dark p-1">Tool Used: Git (for Revision Control)</div><a class="fa fa-anchor" href="#tool-used-git-for-revision-control"></a></h4>
                   <p>You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed. The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a>, but you may use any other, or none.</p>
                   <box>
-                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
+                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong>
+                      </span>
+                    </p>
                     <p><strong>Install Git and a Git GUI client</strong> on your computer.<br>
                       <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes with bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot.</p>
                     <div id="git-username">
-                      <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark> to a sensible string that uniquely identifies you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our tools might miss some of your work and as a result you might not get credit for some of your work.</p>
+                      <p><strong>Set Git <code>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code>user.name</code> in all computers you use</mark>                        to a sensible string that uniquely identifies you. For example, <mark>you can to GitHub username or your full name as your Git username</mark>. If this user name is not set properly or if you use multiple user names for Git, our
+                        tools might miss some of your work and as a result you might not get credit for some of your work.</p>
                       <p>After installing Git in a computer, you can set the Git username as follows:</p>
                       <ol>
                         <li>Open a command window that can run Git commands (e.g., Git bash window)</li>
-                        <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code> (omit the <code>--global</code> flag to limit the setting to the current repo repo)<br>
-                          e.g., <code>git config --global user.name JohnDoe</code></li>
+                        <li>Run the command <code>git config --global user.name YOUR_GITHUB_USERNAME</code> (omit the <code>--global</code> flag to limit the setting to the current repo repo)<br> e.g., <code>git config --global user.name JohnDoe</code></li>
                       </ol>
                       <p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p>
                     </div>
@@ -366,8 +381,7 @@ bye
                 </div>
                 <div id="communication">
                   <h4 id="tools-used-for-communication">
-                    <div class="text-white bg-dark p-1">Tools Used: for Communication</div><a class="fa fa-anchor" href="#tools-used-for-communication"></a>
-                  </h4>
+                    <div class="text-white bg-dark p-1">Tools Used: for Communication</div><a class="fa fa-anchor" href="#tools-used-for-communication"></a></h4>
                   <ul>
                     <li><strong>The preferred channels for module-related communications are</strong>:
                       <ul>
@@ -379,21 +393,26 @@ bye
                     <li>You are encouraged to help others in the forum (e.g., share tips, help with technical problems). <mark>We consider such sharing when giving out <code>A+</code> grades and when recruiting tutors.</mark></li>
                   </ul>
                   <box>
-                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
+                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong>
+                      </span>
+                    </p>
                     <p>We encourage you all to,</p>
                     <ul>
                       <li><mark>join the slack channel</mark> (you'll need to use an email address ending in <code>@nus.edu.sg</code>, <code>@comp.nus.edu.sg</code>, <code>@u.nus.edu.sg</code> or <code>@u.nus.edu</code> to join this channel).</li>
-                      <li><mark><em>watch</em> <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">the forum</a></mark> to get alerts when new issues/comments are posted <a href="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" target="_self"><img src="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" alt class="img-fluid"></a></li>
+                      <li><mark><em>watch</em> <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">the forum</a></mark> to get alerts when new issues/comments are posted <a href="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png"
+                          target="_self"><img src="https://user-images.githubusercontent.com/1673303/44647915-0c761a80-aa12-11e8-98ac-2deb50532643.png" alt class="img-fluid"></a></li>
                     </ul>
                   </box>
                 </div>
                 <div id="ide">
                   <h4 id="tool-used-intellij-ide">
-                    <div class="text-white bg-dark p-1">Tool Used: Intellij IDE</div><a class="fa fa-anchor" href="#tool-used-intellij-ide"></a>
-                  </h4>
-                  <p>You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk.</p>
+                    <div class="text-white bg-dark p-1">Tool Used: Intellij IDE</div><a class="fa fa-anchor" href="#tool-used-intellij-ide"></a></h4>
+                  <p>You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other
+                    IDEs at your own risk.</p>
                   <box>
-                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
+                    <p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong>
+                      </span>
+                    </p>
                     <ul>
                       <li>Install the IDE in your computer. You may use the Intellij community edition (free) or the ultimate edition (free for students).</li>
                       <li>If you have an older version of the IDE, we recommend updating to the latest version (i.e., 2019 edition).
@@ -403,15 +422,16 @@ bye
                 </div>
                 <div id="reposense">
                   <h4 id="tool-used-reposense-for-analyzing-code-authorship">
-                    <div class="text-white bg-dark p-1">Tool Used: RepoSense (for Analyzing Code Authorship)</div><a class="fa fa-anchor" href="#tool-used-reposense-for-analyzing-code-authorship"></a>
-                  </h4>
+                    <div class="text-white bg-dark p-1">Tool Used: RepoSense (for Analyzing Code Authorship)</div><a class="fa fa-anchor" href="#tool-used-reposense-for-analyzing-code-authorship"></a></h4>
                   <div>
                     <p>We will be using a tool called <a href="http://reposense.org">RepoSense</a> to make it <strong>easier for you to see (and learn from) code written by others</strong>, and to help us see who wrote which part of the code.</p>
                     <pic src="https://github.com/reposense/RepoSense/raw/release/docs/images/report-features.png" alt="RepoSense report screenshot">
                       <sub>Figure: RepoSense Report Features</sub></pic>
                     <p><strong>Viewing the current status of code authorship data:</strong></p>
                     <ul>
-                      <li><strong>The report generated by the tool will be made available at <a href="https://nus-cs2103-ay1920s1.github.io/tp-dashboard">tP Code Dashboard</a></strong> at some point in the semester. The feature that is most relevant to you is the <em>Code Panel</em> (shown on the right side of the screenshot above). It shows the code attributed to a given author.</li>
+                      <li><strong>The report generated by the tool will be made available at <a href="https://nus-cs2103-ay1920s1.github.io/tp-dashboard">tP Code Dashboard</a></strong> at some point in the semester. The feature that is most relevant to you
+                        is the
+                        <em>Code Panel</em> (shown on the right side of the screenshot above). It shows the code attributed to a given author.</li>
                       <li>Click on your name to load the code attributed to you (based on Git blame/log data) onto the code panel on the right.</li>
                       <li>If the code shown roughly matches the code you wrote, all is fine and there is nothing for you to do.</li>
                     </ul>
@@ -430,7 +450,8 @@ bye
                     </ul>
                     <div class="indented-level2">
                       <box>
-                        <p><strong>For simple cases</strong> such as the following, you can create a PR to update our config files <a href="https://github.com/nus-cs2103-AY1920S1/tp-dashboard/tree/master/configs">here</a>. The meaning of the config files are given in the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#customize-using-csv-config-files">RepoSense user guide</a>.</p>
+                        <p><strong>For simple cases</strong> such as the following, you can create a PR to update our config files <a href="https://github.com/nus-cs2103-AY1920S1/tp-dashboard/tree/master/configs">here</a>. The meaning of the config files
+                          are given in the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#customize-using-csv-config-files">RepoSense user guide</a>.</p>
                         <ul>
                           <li>missing some commits due to using multiple git <code>user.name</code>s</li>
                           <li>some commits/files need to be omitted from the analysis</li>
@@ -441,13 +462,11 @@ bye
                     </div>
                     <ul>
                       <li>Install RepoSense (see the <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#getting-started">Getting Started</a> section of the RepoSense User Guide)</li>
-                      <li>Use the two methods described in the RepoSense User Guide section <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#configuring-a-repo-to-provide-additional-data-to-reposense">Configuring a Repo to Provide Additional Data to RepoSense</a> to provide additional data to the authorship analysis to make it more accurate.</li>
+                      <li>Use the two methods described in the RepoSense User Guide section <a href="https://github.com/reposense/RepoSense/blob/release/docs/UserGuide.md#configuring-a-repo-to-provide-additional-data-to-reposense">Configuring a Repo to Provide Additional Data to RepoSense</a>                        to provide additional data to the authorship analysis to make it more accurate.</li>
                       <li>If you add a <code>config.json</code> file to your repo (as specified by one of the two methods),
                         <ul>
-                          <li><strong>Please use the exact partial name from <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuJ9gGqFSvZci_uqivCoBipX5AOjJa7DgxRIDQ60xFnH-KEqPyEINmo4M0BJYENj7sS4dcMgRcnnMN/pubhtml?gid=0&amp;single=true">here</a></strong> as the display name.<br>
-                            e.g., <code>&quot;displayName&quot;: &quot;ABDUL ... JAVID&quot;,</code></li>
-                          <li>If your commits have multiple author names, specify all of them<br>
-                            e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;The Gary&quot;]</code></li>
+                          <li><strong>Please use the exact partial name from <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuJ9gGqFSvZci_uqivCoBipX5AOjJa7DgxRIDQ60xFnH-KEqPyEINmo4M0BJYENj7sS4dcMgRcnnMN/pubhtml?gid=0&amp;single=true">here</a></strong>                            as the display name.<br> e.g., <code>&quot;displayName&quot;: &quot;ABDUL ... JAVID&quot;,</code></li>
+                          <li>If your commits have multiple author names, specify all of them<br> e.g., <code>&quot;authorNames&quot;: [&quot;theMyth&quot;, &quot;theLegend&quot;, &quot;The Gary&quot;]</code></li>
                           <li>Update the line <code>config.json</code> in the <code>.gitignore</code> file of your repo as <code>/config.json</code> so that it ignores the <code>config.json</code> produced by the app but not the <code>_reposense/config.json</code>.</li>
                         </ul>
                       </li>
@@ -459,9 +478,7 @@ bye
                           <h4 id="adding-author-tags-indicate-authorship">Adding <code>@@author</code> tags indicate authorship<a class="fa fa-anchor" href="#adding-author-tags-indicate-authorship"></a></h4>
                           <ul>
                             <li>
-                              <p>Mark your code with a <code>//@@author {yourGithubUsername}</code>. Note the double <code>@</code>.<br>
-                                The <code>//@@author</code> tag should indicates the beginning of the code you wrote. The code up to the next <code>//@@author</code> tag or the end of the file (whichever comes first) will be considered as was written by that author.
-                                Here is a sample code file:</p>
+                              <p>Mark your code with a <code>//@@author {yourGithubUsername}</code>. Note the double <code>@</code>.<br> The <code>//@@author</code> tag should indicates the beginning of the code you wrote. The code up to the next <code>//@@author</code>                                tag or the end of the file (whichever comes first) will be considered as was written by that author. Here is a sample code file:</p>
                               <pre><code class="hljs">//@@author johndoe
 method 1 ...
 method 2 ...
@@ -472,8 +489,8 @@ method 4 ...
 </code></pre>
                             </li>
                             <li>
-                              <p><strong>If you don't know who wrote the code segment below yours</strong>, you may put an empty <code>//@@author</code> (i.e. no GitHub username) to indicate the end of the code segment you wrote. The author of code below yours can add the GitHub username to the empty tag later.
-                                Here is a sample code with an empty <code>author</code> tag:</p>
+                              <p><strong>If you don't know who wrote the code segment below yours</strong>, you may put an empty <code>//@@author</code> (i.e. no GitHub username) to indicate the end of the code segment you wrote. The author of code below
+                                yours can add the GitHub username to the empty tag later. Here is a sample code with an empty <code>author</code> tag:</p>
                               <pre><code class="hljs">method 0 ...
 //@@author johndoe
 method 1 ...
@@ -484,8 +501,7 @@ method 4 ...
 </code></pre>
                             </li>
                             <li>
-                              <p><strong>The author tag syntax varies based on file type</strong> e.g. for java, css, fxml. Use the corresponding comment syntax for non-Java files.<br>
-                                Here is an example code from an xml/fxml file.</p>
+                              <p><strong>The author tag syntax varies based on file type</strong> e.g. for java, css, fxml. Use the corresponding comment syntax for non-Java files.<br> Here is an example code from an xml/fxml file.</p>
                               <pre><code class="hljs">&lt;!-- @@author sereneWong --&gt;
 &lt;textbox&gt;
   &lt;label&gt;...&lt;/label&gt;
@@ -495,14 +511,16 @@ method 4 ...
 </code></pre>
                             </li>
                             <li>
-                              <p><strong>Do not put the <code>//@@author</code> inside java header comments</strong>.<br>
-                                👎<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                              <p><strong>Do not put the <code>//@@author</code> inside java header comments</strong>.<br> 👎
+                                <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </p>
                               <pre><code class="hljs">/**
   * Returns true if ...
   * @@author johndoe
   */
 </code></pre>
-                              <p>👍<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                              <p>👍<span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </p>
                               <pre><code class="hljs">//@@author johndoe
 /**
   * Returns true if ...
@@ -516,26 +534,27 @@ method 4 ...
                               <p><strong>Annotate both functional and test code</strong> There is no need to annotate documentation files.</p>
                             </li>
                             <li>
-                              <p><strong>Annotate only significant size code blocks that can be reviewed on its own</strong> <span class="dimmed">e.g., a class, a sequence of methods, a method.</span> <br> <strong>Claiming credit for code blocks smaller than a method is discouraged</strong> but allowed. If you do, do it sparingly and only claim meaningful blocks of code such as a block of statements, a loop, or an if-else statement.</p>
+                              <p><strong>Annotate only significant size code blocks that can be reviewed on its own</strong> <span class="dimmed">e.g., a class, a sequence of methods, a  method.</span> <br> <strong>Claiming credit for code blocks smaller than a method is discouraged</strong>                                but allowed. If you do, do it sparingly and only claim meaningful blocks of code such as a block of statements, a loop, or an if-else statement.</p>
                               <ul>
                                 <li>If an enhancement required you to do tiny changes in many places, there is no need to annotate all those tiny changes; you can describe those changes in the Project Portfolio page instead.</li>
                                 <li>If a code block was touched by more than one person, either let the person who wrote most of it (e.g. more than 80%) take credit for the entire block, or leave it as 'unclaimed' (i.e., no author tags).</li>
-                                <li>Related to the above point, <mark>if you claim a code block as your own, more than 80% of the code in that block should have been written by yourself</mark>. For example, no more than 20% of it can be code you reused from somewhere.</li>
-                                <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> GitHub has a <a href="https://help.github.com/articles/tracing-changes-in-a-file/"><em>blame</em> feature and a <em>history</em></a> feature that can help you determine who wrote a piece of code.</li>
+                                <li>Related to the above point, <mark>if you claim a code block as your own, more than 80% of the code in that block should have been written by yourself</mark>. For example, no more than 20% of it can be code you reused from
+                                  somewhere.</li>
+                                <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> GitHub has a <a href="https://help.github.com/articles/tracing-changes-in-a-file/"><em>blame</em> feature and a <em>history</em></a>                                  feature that can help you determine who wrote a piece of code.</li>
                               </ul>
                             </li>
                             <li>
-                              <p><strong>Do not try to boost the quantity of your contribution using unethical means</strong> such as duplicating the same code in multiple places. In particular, do not copy-paste test cases to create redundant tests. Even repetitive code blocks within test methods should be extracted out as utility methods to reduce code duplication.
-                                Individual members are responsible for making sure code attributed to them are correct.
-                                If you notice a team member claiming credit for code that he/she did not write or use other questionable tactics, you can email us (after the final submission) to let us know.</p>
+                              <p><strong>Do not try to boost the quantity of your contribution using unethical means</strong> such as duplicating the same code in multiple places. In particular, do not copy-paste test cases to create redundant tests. Even
+                                repetitive code blocks within test methods should be extracted out as utility methods to reduce code duplication. Individual members are responsible for making sure code attributed to them are correct. If you notice a team
+                                member claiming credit for code that he/she did not write or use other questionable tactics, you can email us (after the final submission) to let us know.</p>
                             </li>
                             <li>
                               <p><strong>If you wrote a significant amount of code that was not used in the final product</strong>,</p>
                               <ul>
                                 <li>Create a folder called <code>{project root}/unused</code></li>
                                 <li>Move unused files (or copies of files containing unused code) to that folder</li>
-                                <li>use <code>//@@author {yourGithubUsername}-unused</code> to mark unused code in those files (note the suffix <code>unused</code>)
-                                  e.g.</li>
+                                <li>use <code>//@@author {yourGithubUsername}-unused</code> to mark unused code in those files (note the suffix <code>unused</code>) e.g.
+                                </li>
                               </ul>
                               <pre><code class="hljs">//@@author johndoe-unused
 method 1 ...
@@ -544,8 +563,8 @@ method 2 ...
                               <p>Please put a comment in the code to explain why it was not used.</p>
                             </li>
                             <li>
-                              <p><strong>If you reused code from elsewhere,</strong> mark such code as <code>//@@author {yourGithubUsername}-reused</code> (note the suffix <code>reused</code>)
-                                e.g.</p>
+                              <p><strong>If you reused code from elsewhere,</strong> mark such code as <code>//@@author {yourGithubUsername}-reused</code> (note the suffix <code>reused</code>) e.g.
+                              </p>
                               <pre><code class="hljs">//@@author johndoe-reused
 method 1 ...
 method 2 ...
@@ -558,7 +577,9 @@ method 2 ...
                                   <p><strong>Code generated by the IDE/framework,</strong> should not be annotated as your own.</p>
                                 </li>
                                 <li>
-                                  <p><strong>Code you modified in minor ways</strong> e.g. adding a parameter. These should not be claimed as yours but you can mention these additional contributions in the Project Portfolio page if you want to claim credit for them.</p>
+                                  <p><strong>Code you modified in minor ways</strong> e.g. adding a parameter. These should not be claimed as yours but you can mention these additional contributions in the Project Portfolio page if you want to claim credit
+                                    for them.
+                                  </p>
                                 </li>
                               </ul>
                             </li>
@@ -567,7 +588,8 @@ method 2 ...
                       </panel>
                     </div>
                     <ul>
-                      <li>After you are satisfied with the new results (i.e., results produced by running RepoSense locally), push the <code>config.json</code> file you added and/or the annotated code to your repo. We'll use that information the next time we run RepoSense (we run it at least once a week).</li>
+                      <li>After you are satisfied with the new results (i.e., results produced by running RepoSense locally), push the <code>config.json</code> file you added and/or the annotated code to your repo. We'll use that information the next time
+                        we run RepoSense (we run it at least once a week).</li>
                       <li>If you choose to annotate code, minimize annotating code chunks smaller than a method. We do not grade code snippets too small to be read meaningfully.</li>
                       <li>If you encounter any problem when doing the above or if you have questions, please post in the <a href="https://github.com/nus-cs2103-AY1920S1/forum/issues">forum</a>.</li>
                     </ul>
@@ -585,13 +607,16 @@ method 2 ...
           <ol>
             <li>Fork <a href="https://github.com/nus-cs2103-AY1920S1/duke">https://github.com/nus-cs2103-AY1920S1/duke</a>.</li>
             <li><mark>Enable the issue tracker of your fork</mark> (Go to <code>Settings</code> of your fork, scroll to the <code>Features</code> section, and tick the <code>Issues</code> checkbox). <span class="dimmed">Reason: our bots will be posting your weekly progress reports on the issue tracker of your fork.</span><br>
-              <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the issue tracker is enabled, you should be able to visit the following URL <code>https://github.com/{your_user_name}/duke/issues</code> e.g., <code>https://github.com/johnDoe/duke/issues</code></li>
+              <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the issue tracker is enabled, you should be able to visit the following URL <code>https://github.com/{your_user_name}/duke/issues</code>              e.g., <code>https://github.com/johnDoe/duke/issues</code></li>
             <li>Clone the fork onto your computer.</li>
             <li>Set up the project in your IDE as explained in <a href="https://github.com/nus-cs2103-AY1920S1/duke/blob/master/README.md">the README file</a>.<br>
-              <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are somewhat familiar with build tools such as Gradle, you are free to go ahead and start using Gradle from the beginning by following <a href="https://github.com/nus-cs2103-AY1920S1/duke/blob/master/tutorials/gradleTutorial.md">the Gradle tutorial</a>.</li>
+              <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are somewhat familiar with build tools such as Gradle, you are free to go ahead and start using Gradle from the beginning
+              by following
+              <a href="https://github.com/nus-cs2103-AY1920S1/duke/blob/master/tutorials/gradleTutorial.md">the Gradle tutorial</a>.</li>
           </ol>
           <h4 id="3-implement-increments-while-committing-code-frequently"><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Implement increments while committing code frequently<a class="fa fa-anchor" href="#3-implement-increments-while-committing-code-frequently"></a></h4>
-          <p>Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> <mark>in the given order</mark>.</p>
+          <p>Implement the following
+            <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> <mark>in the given order</mark>.</p>
           <ul>
             <li>Commit code at important points. <mark>Minimally, commit after completing each increment</mark>.</li>
             <li>After completing each increment,
@@ -603,10 +628,11 @@ method 2 ...
           </ul>
           <box>
             <p>
-              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> We discourage you from doing project tasks allocated to future weeks. Reasons:
-            </p>
+              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> We discourage you from doing project tasks allocated to future weeks. Reasons:</p>
             <ol>
-              <li>In order to help you gain <tooltip content="the ability to apply knowledge or do tasks effortlessly as if you have been doing them for a long time"><em>fluency</em></tooltip> (and also to better simulate real projects), <strong>we want the project work to be <tooltip content="done at multiple times with time gaps in between"><em>spaced</em></tooltip> and spread over a longer period</strong>, rather than to be done as a short burst. Reminder: as per iP grading criteria, <em>some</em> increments need to to be done in each week for you to get full marks.</li>
+              <li>In order to help you gain
+                <tooltip content="the ability to apply knowledge or do tasks effortlessly as if you have been doing them for a long time"><em>fluency</em></tooltip> (and also to better simulate real projects), <strong>we want the project work to be <tooltip content="done at multiple times with time gaps in between"><em>spaced</em></tooltip> and spread over a longer period</strong>,
+                rather than to be done as a short burst. Reminder: as per iP grading criteria, <em>some</em> increments need to to be done in each week for you to get full marks.</li>
               <li>As a further incentive to not jump ahead, we have left some future project requirements unspecified, and we might change some requirements along the way too.
               </li>
             </ol>
@@ -617,16 +643,17 @@ method 2 ...
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-1</code>: Greet, Echo, Exit</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-1</code>: Greet, Echo, Exit</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                  </div>
                   <div></div>
                   <div>
-                    <p><span>
-                        <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
-                      </span></p>
+                    <p><span><thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
+                      </span>
+                    </p>
                     <h3 id="level-1-greet-echo-exit">Level 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#level-1-greet-echo-exit"></a></h3>
                     <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
-                      <br>
-                      Example:</p>
+                      <br> Example:
+                    </p>
                     <pre><code class="hljs">    ____________________________________________________________
      Hello! I'm Duke
      What can I do for you?
@@ -661,12 +688,13 @@ bye
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-2</code>: Add, List</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-2</code>: Add, List</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                  </div>
                   <div></div>
                   <div>
-                    <p><span>
-                        <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
-                      </span></p>
+                    <p><span><thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
+                      </span>
+                    </p>
                     <h3 id="level-2-add-list">Level 2. Add, List<a class="fa fa-anchor" href="#level-2-add-list"></a></h3>
                     <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
                     <p>Example:</p>
@@ -710,12 +738,13 @@ bye
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-3</code>: Mark as Done</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-3</code>: Mark as Done</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                  </div>
                   <div></div>
                   <div>
-                    <p><span>
-                        <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
-                      </span></p>
+                    <p><span><thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
+                      </span>
+                    </p>
                     <h3 id="level-3-mark-as-done">Level 3. Mark as Done<a class="fa fa-anchor" href="#level-3-mark-as-done"></a></h3>
                     <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
                     <pre><code class="hljs">list
@@ -733,7 +762,8 @@ done 2
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                        <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                       <panel header="**Extension: `A-Classes`**" class="algolia-no-index">
                         <div>
                           <div>
@@ -741,7 +771,8 @@ done 2
                             <h3 id="a-classes"><span class="badge badge-pill badge-primary">A-Classes</span><a class="fa fa-anchor" href="#a-classes"></a></h3>
                             <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
                           </div>
-                          <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
+                          <p>While it is possible to represent a task list as a multi-dimensional array containing
+                            <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
                           <panel type="seamless" header="Partial solution" minimized class="algolia-no-index">
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
@@ -776,12 +807,13 @@ t.markAsDone()
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-4</code>: ToDo, Event, Deadline</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-4</code>: ToDo, Event, Deadline</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                  </div>
                   <div></div>
                   <div>
-                    <p><span>
-                        <thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
-                      </span></p>
+                    <p><span><thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
+                      </span>
+                    </p>
                     <h3 id="level-4-todos-events-deadlines">Level 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#level-4-todos-events-deadlines"></a></h3>
                     <p>Add support for tracking three types of tasks:
                       <br>
@@ -834,7 +866,8 @@ deadline do homework /by no idea :-p
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                        <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                       <panel header="**Extension: `A-Inheritance`**" class="algolia-no-index">
                         <div>
                           <div>
@@ -877,7 +910,8 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-TextUiTesting</code>: Text UI Testing</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>A-TextUiTesting</code>: Text UI Testing</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span>
+                  </div>
                   <div></div>
                   <div>
                     <div>
@@ -897,12 +931,13 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-5</code>: Handle Errors</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-5</code>: Handle Errors</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                  </div>
                   <div></div>
                   <div>
-                    <p><span>
-                        <thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
-                      </span></p>
+                    <p><span><thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
+                      </span>
+                    </p>
                     <h3 id="level-5-handle-errors">Level 5. Handle Errors<a class="fa fa-anchor" href="#level-5-handle-errors"></a></h3>
                     <p>Teach Duke to deal with errors such as incorrect inputs entered by the user.
                       <br>
@@ -919,7 +954,8 @@ blah
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                        <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                       <panel header="**Extension: `A-Exceptions`**" class="algolia-no-index">
                         <div>
                           <div>
@@ -945,12 +981,13 @@ blah
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>Level-6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>Level-6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                  </div>
                   <div></div>
                   <div>
-                    <p><span>
-                        <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
-                      </span></p>
+                    <p><span><thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
+                      </span>
+                    </p>
                     <h3 id="level-6-delete">Level 6. Delete<a class="fa fa-anchor" href="#level-6-delete"></a></h3>
                     <p>Add support for deleting tasks from the list.
                       <br>
@@ -974,7 +1011,8 @@ delete 3
     ____________________________________________________________
 </code></pre>
                     <div>
-                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                      <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                        <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                       <panel header="**Extension: `A-Collections`**" class="algolia-no-index">
                         <div>
                           <div>
@@ -996,7 +1034,8 @@ delete 3
               <div class="indented border">
                 <panel type="seamless" class="algolia-no-index">
                   <div></div>
-                  <div slot="header"><span><span class="dimmed"><strong><code>A-Enums</code>: Enums</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span></div>
+                  <div slot="header"><span><span class="dimmed"><strong><code>A-Enums</code>: Enums</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span>
+                  </div>
                   <div></div>
                   <div>
                     <div>
@@ -1031,7 +1070,7 @@ delete 3
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -1059,6 +1098,19 @@ delete 3
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

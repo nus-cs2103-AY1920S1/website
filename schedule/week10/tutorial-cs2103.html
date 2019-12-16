@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 10 - Tutorial</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -110,7 +101,11 @@
         <h4 id="0-smoke-test-catcher"><span class="badge badge-pill badge-dark p-2"><big><big>0</big></big></span> Smoke-test CATcher<a class="fa fa-anchor" href="#0-smoke-test-catcher"></a></h4>
         <div class="indented-level2">
           <box dismissible>
-            <p><span class="dimmed"><strong><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Some background:</strong> As you know, our <tooltip content="i.e., Practical Exam">PE</tooltip> includes peer-testing tP products under exam conditions. In the past, we used GitHub as the platform for that -- which was not optimal (e.g., it was hard to ensure the compulsory labels have been applied). As a remedy, some ex-students have been developing an app called <tooltip content="CAT stands for Crowd-sourced Anonymous Testing">CATcher</tooltip> that we would like to use for the PE this semester.</span></p>
+            <p><span class="dimmed"><strong><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Some background:</strong> As you know, our
+              <tooltip content="i.e., Practical Exam">PE</tooltip> includes peer-testing tP products under exam conditions. In the past, we used GitHub as the platform for that -- which was not optimal (e.g., it was hard to ensure the compulsory labels have been applied). As a remedy, some
+              ex-students have been developing an app called
+              <tooltip content="CAT stands for Crowd-sourced Anonymous Testing">CATcher</tooltip> that we would like to use for the PE this semester.</span>
+            </p>
           </box>
           <p>In this tutorial, we would like to smoke-test the CATcher app <strong>to ensure it can run in your computer</strong>.</p>
           <p></p>
@@ -118,9 +113,11 @@
             <ol>
               <li><strong>Download the latest version</strong> of the CATcher executable from <a href="https://github.com/CATcher-org/CATcher/releases">https://github.com/CATcher-org/CATcher/releases</a>.</li>
               <li><strong>Launch the app.</strong> Allow the app to run if there are security warnings <span class="dimmed">(e.g., for Win 10, click the <code>More Info</code> link in the security warning and choose <code>Run anyway</code>)</span>.<br>
-                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the app is blocked by your virus scanner, put it in a new folder and add the folder to the <em>exclusions</em> list of the virus scanner.</li>
+                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the app is blocked by your virus scanner, put it in a new folder and add the folder to the <em>exclusions</em> list of the
+                virus scanner.
+              </li>
               <li><strong>Login</strong>: Choose the profile <code>CS2103/T Alpha Test</code>, enter your GitHub credentials, and submit.<br>
-                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you have 2FA enabled for GitHub, you can <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">create a personal access token with <code>repo</code> permissions</a> and use that as the password.<br>
+                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you have 2FA enabled for GitHub, you can <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">create a personal access token with <code>repo</code> permissions</a>                and use that as the password.<br>
                 <img src="/website/admin/images/catcherLogin.png"></li>
               <li><strong>Let CATcher create a repo named <code>alpha</code></strong> in your GitHub account, when it asks for permission. That repo will be used to hold the bug reports you will create in this testing session.</li>
               <li><strong>Use the app to create 1-2 dummy bug reports</strong>, similar to how you would enter bug reports in the GitHub issue tracker. e.g., you can copy-paste screenshots into the bug description and use Markdown syntax.<br>
@@ -130,10 +127,10 @@
           </panel>
           <p></p>
           <p>
-            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Being able to run CATcher is important for the PE</strong> -- if you are unable to run it, please follow up via the <a href="https://github.com/CATcher-org/CATcher/issues">CATcher issue tracker</a> until you resolve the issue ASAP.
-          </p>
+            <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Being able to run CATcher is important for the PE</strong> -- if you are unable to run it, please follow up via the <a href="https://github.com/CATcher-org/CATcher/issues">CATcher issue tracker</a>            until you resolve the issue ASAP.</p>
         </div>
-        <h4 id="1-review-the-dg-of-a-peer-team"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Review the <tooltip content="Developer Guide">DG</tooltip> of a Peer Team<a class="fa fa-anchor" href="#1-review-the-dg-of-a-peer-team"></a></h4>
+        <h4 id="1-review-the-dg-of-a-peer-team"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Review the
+          <tooltip content="Developer Guide">DG</tooltip> of a Peer Team<a class="fa fa-anchor" href="#1-review-the-dg-of-a-peer-team"></a></h4>
         <ul>
           <li><strong>Divide into two sub-teams</strong>, ensuring that each team has at least one member who is good with UML.</li>
           <li><strong>Find the team your sub-team have been allocated to discuss</strong> in the panel below and click on the link to locate their team PR.</li>
@@ -512,7 +509,7 @@
               <li>Phrase your comments as question/doubts (e.g., <code>Is this format correct? Should it be ... instead?</code>) rather than directives (e.g., <code>Change this to ...</code>).</li>
               <li>Where possible, use screenshots from their DG in your comments, preferably with annotations. This is particularly useful when commenting on diagrams.</li>
               <li>Do not finalize the review at this stage. Just keep adding comments.</li>
-              <li><span class="text-success"><strong>The understanding you gain from this exercise can indirectly determine how well you do in your own project.</strong></span> <mark>If you have even the slightest doubt about your observations in this exercise, please discuss it with the tutor</mark> to ensure you have the right understanding of the criteria used.
+              <li><span class="text-success"><strong>The understanding you gain from this exercise can indirectly determine how well you do in your own project.</strong></span> <mark>If you have even the slightest doubt about your observations in this exercise, please discuss it with the tutor</mark>                to ensure you have the right understanding of the criteria used.
               </li>
             </ul>
           </box>
@@ -520,19 +517,20 @@
           <box border-left-color="green">
             <h5 id="dg-expectations"><span class="text-success">DG Expectations</span><a class="fa fa-anchor" href="#dg-expectations"></a></h5>
             <p>
-              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Pay attention to these as they are same as the final evaluation criteria of the DG.<br>
-            </p>
+              <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Pay attention to these as they are same as the final evaluation criteria of the DG.<br></p>
             <p>Also see:</p>
             <div class="flat">
               <div>
-                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:t10-dgTips">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: mid-v1.3 → DG Tips</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:t10-dgTips">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP: mid-v1.3 → DG Tips</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+                </p>
               </div>
             </div>
             <modal large title="Admin <md>:glyphicon-log-in:</md> tP: mid-v1.3 → DG Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:t10-dgTips" class="algolia-no-index">
-                <div>
+
+              <div>
                 <ul>
-                  <li><strong>Aim to showcase your documentation skills.</strong> The stated objective of the DG is to explain the implementation to a future developer, but a secondary objective is to show evidence that you can document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).<br>
-                    For an example, see <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level3/DeveloperGuide.html#proposed-undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level3 developer guide</a>.</li>
+                  <li><strong>Aim to showcase your documentation skills.</strong> The stated objective of the DG is to explain the implementation to a future developer, but a secondary objective is to show evidence that you can document deeply-technical content
+                    using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).<br> For an example, see <a href="https://nus-cs2103-ay1920s1.github.io/addressbook-level3/DeveloperGuide.html#proposed-undo-redo-feature">the description of the undo/redo feature implementation in the AddressBook-Level3 developer guide</a>.</li>
                   <li><strong>Use multiple UML diagram types.</strong> Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
                   <li><strong>Keep diagrams simple.</strong> The aim is to make diagrams <mark><em>comprehensible</em>, not necessarily <em>comprehensive</em></mark>. Ways to simplify diagrams:
                     <ul>
@@ -542,39 +540,43 @@
                           <li>a sequence diagram can omit less important interactions, self-calls.</li>
                         </ul>
                       </li>
-                      <li><strong>Omit repetitive details</strong> e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete <code>*Command</code> classes).</li>
-                      <li><strong>Limit the scope of a diagram.</strong> Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it. In particular, avoid showing lower-level details of multiple components in the same diagram unless strictly necessary e.g., note how the <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the model component.</li>
+                      <li><strong>Omit repetitive details</strong> e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the
+                        <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete <code>*Command</code> classes).</li>
+                      <li><strong>Limit the scope of a diagram.</strong> Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it. In particular, avoid showing lower-level details of multiple components in
+                        the same diagram unless strictly necessary e.g., note how the
+                        <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the model component.</li>
                       <li><strong>Break diagrams into smaller fragments</strong> when possible.
                         <ul>
-                          <li>If a component has a lot of classes, consider further dividing into sub-components (e.g., a Parser sub-component inside the Logic component). After that, sub-components can be shown as black-boxes in the main diagram and their details can be shown as separate diagrams.</li>
+                          <li>If a component has a lot of classes, consider further dividing into sub-components (e.g., a Parser sub-component inside the Logic component). After that, sub-components can be shown as black-boxes in the main diagram and their
+                            details can be shown as separate diagrams.</li>
                           <li>You can use <code>ref</code> frames to break sequence diagrams to multiple diagrams. Similarly, <code>rake</code>s can be used to divide activity diagrams.</li>
                         </ul>
                       </li>
-                      <li><strong>Stay at the highest level of abstraction</strong> possible e.g., note how <trigger trigger="click" for="modal:ipWeek10-archiSd">this sequence diagram</trigger> shows only the interactions between architectural components, abstracting away the interactions that happen inside each component.</li>
-                      <li>For some more examples, see <trigger trigger="click" for="modal:ipWeek10-umlExamples">here</trigger>.</li>
+                      <li><strong>Stay at the highest level of abstraction</strong> possible e.g., note how
+                        <trigger trigger="click" for="modal:ipWeek10-archiSd">this sequence diagram</trigger> shows only the interactions between architectural components, abstracting away the interactions that happen inside each component.</li>
+                      <li>For some more examples, see
+                        <trigger trigger="click" for="modal:ipWeek10-umlExamples">here</trigger>.</li>
                     </ul>
                   </li>
                   <li><strong>Integrate diagrams into the description.</strong> Place the diagram close it where it is being described.</li>
-                  <li><strong>Use code snippets sparingly.</strong> The more you use code snippets in the DG, and longer the code snippet, the higher the risk of it getting outdated quickly. Instead, use code snippets only when necessary and cite only the strictly relevant parts only.</li>
-                  <li><strong>Resize diagrams</strong> so that the text size in the diagram matches the the text size of the main text of the diagram. See <trigger trigger="click" for="modal:ipWeek10-diagramSizeNegative">example</trigger>.</li>
+                  <li><strong>Use code snippets sparingly.</strong> The more you use code snippets in the DG, and longer the code snippet, the higher the risk of it getting outdated quickly. Instead, use code snippets only when necessary and cite only the
+                    strictly relevant parts only.</li>
+                  <li><strong>Resize diagrams</strong> so that the text size in the diagram matches the the text size of the main text of the diagram. See
+                    <trigger trigger="click" for="modal:ipWeek10-diagramSizeNegative">example</trigger>.</li>
                 </ul>
                 <modal large title="UML Diagrams: Negative Examples " id="modal:ipWeek10-umlExamples" class="algolia-no-index">
                   <p>These class diagrams seem to have lot of member details, which can get outdated pretty quickly:<br>
                     <img src="https://cs2103-ay1819s1-w10-3.github.io/main/images/PollClassDiagram.png" width="750"><br>
                     <img src="https://cs2103-ay1819s1-w10-4.github.io/main/images/healthPlanClassDiagram.png" width="750"></p>
-                  <hr>
-                  This class diagram seems to have too many classes:
+                  <hr> This class diagram seems to have too many classes:
                   <img src="https://cs2103-ay1819s1-f10-1.github.io/main/images/ModelClassDiagram.png" width="750">
-                  <hr>
-                  These sequence diagrams are bordering on 'too complicated':
+                  <hr> These sequence diagrams are bordering on 'too complicated':
                   <img src="https://cs2103-ay1819s1-w13-1.github.io/main/images/TagCommandSequenceDiagram.png" width="750">
                   <p></p>
-                  <img src="https://cs2103-ay1819s1-f10-1.github.io/main/images/modifyPermissionSequenceDiagram.png" width="750">
-                </modal>
+                  <img src="https://cs2103-ay1819s1-f10-1.github.io/main/images/modifyPermissionSequenceDiagram.png" width="750"></modal>
                 <modal large title="Diagram resizing: a negative example" id="modal:ipWeek10-diagramSizeNegative" class="algolia-no-index">
                   <p>In this negative example, the text size in the diagram is much bigger than the text size used by the document:<br>
-                    <img src="/website/admin/images/diagramSizeNegativeExample.png" width="200"><br>
-                    It will look more 'polished' if the two text sizes match.
+                    <img src="/website/admin/images/diagramSizeNegativeExample.png" width="200"><br> It will look more 'polished' if the two text sizes match.
                   </p>
                 </modal>
                 <modal large title="AB3 - Class Diagram of the Logic Component" id="modal:ipWeek10-logicClassDiagram" class="algolia-no-index">
@@ -586,19 +588,21 @@
               </div>
             </modal>
             <p>
-              <panel src="/website/admin/project-w10-mid-v13._include_.html#dgTips" header="Admin <md>:glyphicon-log-in:</md> tP: mid-v1.3 → DG Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="dgTips"></panel>
+              <panel src="/website/admin/project-w10-mid-v13._include_.html#dgTips" header="Admin <md>:glyphicon-log-in:</md> tP: mid-v1.3 → DG Tips  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized
+                fragment="dgTips"></panel>
             </p>
             <p><strong>Architecture</strong></p>
             <ul class="task-list">
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> The Architecture diagram uses intuitive symbols.</li>
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> No indiscriminate use of double-headed arrows.</li>
-              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Any <tooltip content="e.g., the sequence diagram showing interactions between main components"><em>architecture-level</em></tooltip> diagrams do not contain lower-level details.</li>
+              <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Any
+                <tooltip content="e.g., the sequence diagram showing interactions between main components"><em>architecture-level</em></tooltip> diagrams do not contain lower-level details.</li>
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> The description given is understandable and sufficiently high-level.</li>
             </ul>
             <p><strong>Diagrams</strong></p>
             <ul class="task-list">
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Uses the correct UML notation.<br>
-                  <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you notice UML notation errors, please point them out.</li>
+                <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you notice UML notation errors, please point them out.</li>
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Not cluttered with too much unnecessary details.</li>
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Each diagrams is relatively simple and easy to understand.</li>
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Uses multiple types of diagrams (ideal: uses Class Diagrams, Object Diagrams, Sequence Diagrams, Activity Diagrams)</li>
@@ -613,7 +617,7 @@
             <p><strong>Overall</strong></p>
             <ul class="task-list">
               <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> Polished: The document looks neat, well-formatted, and professional.<br>
-                  <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> e.g., Are the diagrams resized to match the text size of the main document?</li>
+                <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> e.g., Are the diagrams resized to match the text size of the main document?</li>
             </ul>
           </box>
         </div>
@@ -629,7 +633,8 @@
             <a class="nav-link py-1" href="#week-10-oct-21-tutorial">Week 10 [Oct 21] - Tutorial&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#0-smoke-test-catcher">0 Smoke-test CATcher&#x200E;</a>
-              <a class="nav-link py-1" href="#1-review-the-dg-of-a-peer-team">1 Review the DG of a Peer Team&#x200E;</a>
+              <a class="nav-link py-1" href="#1-review-the-dg-of-a-peer-team">1 Review the
+    DG of a Peer Team&#x200E;</a>
             </nav>
 
           </nav>
@@ -638,7 +643,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -666,6 +671,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

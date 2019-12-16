@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Admin: iP: Week 3</title>
   <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -94,12 +85,18 @@
       <nav id="site-nav" class="navbar navbar-light bg-transparent">
         <div class="border-right-grey nav-inner position-sticky slim-scroll">
           <ul class="px-0 site-nav-list">
-            <li class="mt-2"><a href="/website/admin/moduleOverview.html" class="site-nav__a">CS2103/T Software Engineering</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/usingThisWebsite.html" class="site-nav__a"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/moduleExpectations.html" class="site-nav__a">Module Expectations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Module Structure
-                <i class="dropdown-btn-icon rotate-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+            <li class="mt-2"><a href="/website/admin/moduleOverview.html" class="site-nav__a">CS2103/T Software Engineering</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/usingThisWebsite.html" class="site-nav__a"><mark>Using this Website</mark></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/moduleExpectations.html" class="site-nav__a">Module Expectations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Module Structure 
+ <i class="dropdown-btn-icon rotate-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container dropdown-container-open">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/weeklySchedule.html" class="site-nav__a">Weekly Schedule</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -108,12 +105,18 @@
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
+            <li class="mt-2"><a href="/website/admin/instructors.html" class="site-nav__a">Instructors</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/textbooks.html" class="site-nav__a">Textbooks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/programmingLanguages.html" class="site-nav__a">Programming Language</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
             <li class="mt-2"><button class="dropdown-btn">Individual Project (iP)
-                <i class="dropdown-btn-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+ <i class="dropdown-btn-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/ip-overview.html" class="site-nav__a">iP (Individual Project): Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -129,8 +132,8 @@
               </div>
             </li>
             <li class="mt-2"><button class="dropdown-btn">Team Project (tP)
-                <i class="dropdown-btn-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+ <i class="dropdown-btn-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/project-overview.html" class="site-nav__a">tP (Team Project): Overview</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -155,14 +158,24 @@
                 </ul>
               </div>
             </li>
-            <li class="mt-2"><a href="/website/admin/peerEvaluations.html" class="site-nav__a">Peer Evaluations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/tools.html" class="site-nav__a">Tools</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/gradeBreakdown.html" class="site-nav__a">Grade Breakdown</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/exams.html" class="site-nav__a">Exams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><a href="/website/admin/participation.html" class="site-nav__a">Participation Marks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></li>
-            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Appendices
-                <i class="dropdown-btn-icon rotate-icon">
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
+            <li class="mt-2"><a href="/website/admin/peerEvaluations.html" class="site-nav__a">Peer Evaluations</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/tools.html" class="site-nav__a">Tools</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-info">3<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/gradeBreakdown.html" class="site-nav__a">Grade Breakdown</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/exams.html" class="site-nav__a">Exams</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><a href="/website/admin/participation.html" class="site-nav__a">Participation Marks</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span>
+              </span>
+            </li>
+            <li class="mt-2"><button class="dropdown-btn dropdown-btn-open">Appendices 
+ <i class="dropdown-btn-icon rotate-icon">
+<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></button>
               <div class="dropdown-container dropdown-container-open">
                 <ul class="pl-3 site-nav-list">
                   <li class="mt-2"><small><a href="/website/admin/appendixA-principles.html" class="site-nav__a">A: Module Principles</a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-success">4<span aria-hidden="true" class="fas fa-star"></span></span></span></small></li>
@@ -179,15 +192,19 @@
       </nav>
       <div id="content-wrapper">
         <div class="website-content">
-          <p><span class="float-left">
-              <b-btn variant="light" href="ip-w02.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> iP: Week 2</span></b-btn>
-            </span><span class="float-right">
-              <b-btn variant="light" href="ip-w04.html"><span>iP: Week 4 <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
-            </span></p>
+          <p><span class="float-left"><b-btn variant="light" href="ip-w02.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> iP: Week 2</span>
+            </b-btn>
+            </span><span class="float-right"><b-btn variant="light" href="ip-w04.html"><span>iP: Week 4 <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span>
+            </b-btn>
+            </span>
+          </p>
           <br>
           <p>
             <div>
-              <h2 id="ip-week-3">iP: Week 3 <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span><a class="fa fa-anchor" href="#ip-week-3"></a></h2>
+              <h2 id="ip-week-3">iP: Week 3 <span style="font-size:15px" class="text-muted text-light"><span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+                  aria-hidden="true"></span></span>
+                </span>
+                </span><a class="fa fa-anchor" href="#ip-week-3"></a></h2>
             </div>
           </p>
           <div id="main">
@@ -211,22 +228,22 @@
                 <li>PR name: <code>[{Your name}] Duke Increments</code> e.g., <code>[John Doe] Duke Increments</code> <span class="dimmed">If you are reluctant to give full name, you may give the first half of your name only</span></li>
               </ul>
               <h4 id="2-do-as-parallel-branches-level-7-and-level-8"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Do as parallel branches: <code>Level-7</code> and <code>Level-8</code><a class="fa fa-anchor" href="#2-do-as-parallel-branches-level-7-and-level-8"></a></h4>
-              <p>Do Level 7 in a branch named <code>branch-Level-7</code>. Without merging that branch, go back to the <code>master</code> branch and implement Level 8 in a separate branch named <code>branch-Level-8</code>. Now, go back to the <code>master</code> branch and merge the two branches one after the other. As before, tag the commit (in the <code>master</code> branch, after merging) that achieves the respective deliverable, and push to your fork.<br>
+              <p>Do Level 7 in a branch named <code>branch-Level-7</code>. Without merging that branch, go back to the <code>master</code> branch and implement Level 8 in a separate branch named <code>branch-Level-8</code>. Now, go back to the <code>master</code>                branch and merge the two branches one after the other. As before, tag the commit (in the <code>master</code> branch, after merging) that achieves the respective deliverable, and push to your fork.<br>
                 <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Remember to push the branches to your fork so that the bot can detect them.<br>
                 <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Advanced git users: do not delete the branch after merging.<br>
-                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Merge without a <em>fast-forward</em> so that git creates a separate commit for the merge.
-              </p>
+                <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Merge without a <em>fast-forward</em> so that git creates a separate commit for the merge.</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>Level-7</code>: Save</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-7</code>: Save</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
-                        <p><span>
-                            <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
-                          </span></p>
+                        <p><span><thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
+                          </span>
+                        </p>
                         <h3 id="level-7-save">Level 7. Save<a class="fa fa-anchor" href="#level-7-save"></a></h3>
                         <p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk whe Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
                         <p>The format of the file is up to you. Example:</p>
@@ -245,16 +262,19 @@ T | 1 | join sports club
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>Level-8</code>: Dates and Times</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-8</code>: Dates and Times</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
-                        <p><span>
-                            <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
-                          </span></p>
+                        <p><span><thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
+                          </span>
+                        </p>
                         <h3 id="level-8-dates-and-times">Level 8. Dates and Times<a class="fa fa-anchor" href="#level-8-dates-and-times"></a></h3>
-                        <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
+                        <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing
+                          it simply as a String.</p>
                         <ul>
-                          <li><strong>Minimal</strong>: Store deadline dates as a <code>java.time.LocalDate</code> in your task objects. Accept dates in a format such as <code>yyyy-mm-dd</code> format (e.g., <code>2019-10-15</code>) and print in a different format such as <code>MMM d yyyy</code> e.g., (<code>Oct 15 2019</code>).</li>
+                          <li><strong>Minimal</strong>: Store deadline dates as a <code>java.time.LocalDate</code> in your task objects. Accept dates in a format such as <code>yyyy-mm-dd</code> format (e.g., <code>2019-10-15</code>) and print in a different
+                            format such as <code>MMM d yyyy</code> e.g., (<code>Oct 15 2019</code>).</li>
                           <li><strong>Stretch goal</strong>: Use dates and times in more meaningful ways. e.g., add a command to print deadlines/events occurring on a specific date.</li>
                         </ul>
                         <panel header="Using dates/times in Java" minimized class="algolia-no-index">
@@ -304,7 +324,8 @@ T | 1 | join sports club
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-MoreOOP</code>: More OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-MoreOOP</code>: More OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
                         <div>
@@ -353,7 +374,7 @@ T | 1 | join sports club
 </code></pre>
                         </div>
                         <ul>
-                          <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
+                          <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code>                            class, so that you can write the main logic of the App as follows:
                             <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
     ui.showWelcome();
     <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
@@ -372,7 +393,7 @@ T | 1 | join sports club
     }
 }
 </code></pre>
-                            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can get some inspiration from how the code of the <a href="https://github.com/se-edu/addressbook-level2">addressbook-level2</a> is organized.</li>
+                            <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can get some inspiration from how the code of the <a href="https://github.com/se-edu/addressbook-level2">addressbook-level2</a>                            is organized.</li>
                         </ul>
                       </div>
                     </panel>
@@ -384,7 +405,8 @@ T | 1 | join sports club
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-Packages</code>: Java Packages</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-Packages</code>: Java Packages</strong></span> <span class="badge badge-pill badge-secondary">optional</span></span>
+                      </div>
                       <div></div>
                       <div>
                         <div>
@@ -403,7 +425,8 @@ T | 1 | join sports club
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-JUnit</code>: JUnit Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-JUnit</code>: JUnit Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
                         <div>
@@ -440,9 +463,9 @@ T | 1 | join sports club
                                   <li>Keep clicking <code>Next</code> until the process is complete</li>
                                 </ol>
                               </li>
-                              <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code> (that will make the folder turn to green color).</li>
+                              <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code>                                (that will make the folder turn to green color).</li>
                               <li>Now, create a class inside the <code>java</code> folder and type <code>@Test</code> inside it. A code example given below.<br>
-                                <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Note: If you are using packages, create this class in a matching package (to test <code>duke.Duke</code> class, create a <code>duke.DukeTest</code> i.e., in <code>src\test\java\duke\DukeTest.java</code>).
+                                <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Note: If you are using packages, create this class in a matching package (to test <code>duke.Duke</code> class, create a <code>duke.DukeTest</code>                                i.e., in <code>src\test\java\duke\DukeTest.java</code>).
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
     <span class="hljs-meta">@Test</span>
 }
@@ -470,7 +493,7 @@ T | 1 | join sports club
                               </li>
                               <li>To be able to refer to <code>Duke</code> from <code>DukeTest</code> class, you need to add <code>main</code> module as a dependency of the <code>test</code> module you just created.
                                 <ul>
-                                  <li>Option 1: When you add a reference to the <code>Duke</code> inside the <code>DukeTest</code>, Intellij will flag it as an error and will give you an option (i.e., in the bulb icon that pops up) to add the <code>main</code> module as a dependency.</li>
+                                  <li>Option 1: When you add a reference to the <code>Duke</code> inside the <code>DukeTest</code>, Intellij will flag it as an error and will give you an option (i.e., in the bulb icon that pops up) to add the <code>main</code>                                    module as a dependency.</li>
                                   <li>Option 2: Follow the info <a href="https://www.jetbrains.com/help/idea/working-with-module-dependencies.html">here</a> to add the dependency yourself.
                                   </li>
                                 </ul>
@@ -509,7 +532,8 @@ T | 1 | join sports club
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-Jar</code>: JAR file</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-Jar</code>: JAR file</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
                         <div>
@@ -528,7 +552,8 @@ T | 1 | join sports club
                             </ul>
                           </li>
                         </ul>
-                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to create a jar file using Gradle.</p>
+                        <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from)
+                          to find how to create a jar file using Gradle.</p>
                         <panel header="**Extension `A-Gradle`**" class="algolia-no-index">
                           <div>
                             <div>
@@ -551,13 +576,15 @@ T | 1 | join sports club
               </div>
               <p></p>
               <h4 id="4-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9"><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> Do as parallel branches: <code>A-JavaDoc</code>, <code>A-CodingStandard</code>, <code>Level-9</code><a class="fa fa-anchor" href="#4-do-as-parallel-branches-a-javadoc-a-codingstandard-level-9"></a></h4>
-              <p>As in the step 1 above, implement these three increments as three parallel branches first (branch names: <code>branch-A-JavaDoc</code>, <code>branch-A-CodingStandard</code>, <code>branch-Level-9</code>), and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.</p>
+              <p>As in the step 1 above, implement these three increments as three parallel branches first (branch names: <code>branch-A-JavaDoc</code>, <code>branch-A-CodingStandard</code>, <code>branch-Level-9</code>), and then merge them one-by-one. Hopefully,
+                you will encounter some merge conflicts so that you get to practice de-conflicting branches.</p>
               <div>
                 <div class="indented">
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-JavaDoc</code>: JavaDoc</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-JavaDoc</code>: JavaDoc</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
                         <div>
@@ -580,7 +607,8 @@ T | 1 | join sports club
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>A-CodingStandard</code>: Coding Standard</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>A-CodingStandard</code>: Coding Standard</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
                         <div>
@@ -599,12 +627,13 @@ T | 1 | join sports club
                   <div class="indented border">
                     <panel type="seamless" class="algolia-no-index">
                       <div></div>
-                      <div slot="header"><span><span class="dimmed"><strong><code>Level-9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+                      <div slot="header"><span><span class="dimmed"><strong><code>Level-9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span>
+                      </div>
                       <div></div>
                       <div>
-                        <p><span>
-                            <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
-                          </span></p>
+                        <p><span><thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
+                          </span>
+                        </p>
                         <h3 id="level-9-find">Level 9. Find<a class="fa fa-anchor" href="#level-9-find"></a></h3>
                         <p>Give users a way to find a task by searching for a keyword.
                           <br>
@@ -623,22 +652,24 @@ T | 1 | join sports club
                 </div>
               </div>
               <p></p>
-              <br>
-            </div>
+              <br></div>
           </div>
           <br>
-          <p><span class="float-left">
-              <b-btn variant="light" href="ip-w02.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> iP: Week 2</span></b-btn>
-            </span><span class="float-right">
-              <b-btn variant="light" href="ip-w04.html"><span>iP: Week 4 <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></b-btn>
-            </span></p>
+          <p><span class="float-left"><b-btn variant="light" href="ip-w02.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> iP: Week 2</span>
+            </b-btn>
+            </span><span class="float-right"><b-btn variant="light" href="ip-w04.html"><span>iP: Week 4 <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span>
+            </b-btn>
+            </span>
+          </p>
         </div>
       </div>
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#ip-week-3">iP: Week 3 &#x200E;</a>
+            <a class="nav-link py-1" href="#ip-week-3">iP: Week 3 
+          
+          &#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#0-do-any-leftover-ip-increments-from-the-previous-week">0 Do any leftover iP increments from the previous week&#x200E;</a>
               <a class="nav-link py-1" href="#1-create-a-pr-to-the-upstream-repo">1 Create a PR to the upstream repo&#x200E;</a>
@@ -653,7 +684,7 @@ T | 1 | join sports club
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -681,6 +712,19 @@ T | 1 | join sports club
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../markbind/layouts/default/scripts.js"></script>
 

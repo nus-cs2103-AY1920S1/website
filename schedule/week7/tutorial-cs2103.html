@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 7 - Tutorial</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -110,35 +101,37 @@
         <h4 id="1-exercise-on-requirements-pr-tracker"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Exercise on Requirements: PR Tracker<a class="fa fa-anchor" href="#1-exercise-on-requirements-pr-tracker"></a></h4>
         <ul>
           <li><strong>Divide the team into sub-team</strong> A and sub-team B, 2-3 members each.</li>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Write the answers to the following questions</strong> on the white-board.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span>
+            </span> <strong>Write the answers to the following questions</strong> on the white-board.</li>
         </ul>
         <div class="indented-level2">
           <box>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Question adapted from a past exam paper.</span></p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Question adapted from a past exam paper.</span>
+            </p>
             <p><span class="text-monospace">Pull Request Tracker (PRT) is a desktop application meant to help CS2103 tutors deal with GitHub PRs more efficiently (compared to the GitHub Web interface). For example, it will help tutors find and review PRs from their <em>mentees</em> easily. It will help the <em>managers</em> of the module (e.g., professor, head TA) to easily keep track of how tutors are dealing with mentee PRs. PRT will communicate with GitHub using the GitHub API.</span></p>
             <p><strong>Sub-team A:</strong></p>
             <ul>
               <li>Write 1 must-have and 1 nice-to-have user stories, covering user types <code>tutor</code> and <code>manager</code>.</li>
-              <li>Write at least 1 <tooltip content="Non-Functional Requirements">NFRs</tooltip>, related to performance/scalability and/or usability.</li>
+              <li>Write at least 1
+                <tooltip content="Non-Functional Requirements">NFRs</tooltip>, related to performance/scalability and/or usability.</li>
               <li>Give at least 1 terms worth recording in the glossary.</li>
             </ul>
             <p><strong>Sub-team B:</strong></p>
             <ul>
-              <li>Complete the following use case. Give at least one extension. Note that the tutor should give comments in the order of PR size (i.e., give comments to smaller PRs first). Assume the following use cases exists already: <code>U1. Sort PRs by a criterion</code>, <code>U2. Add comments to a PR</code></li>
+              <li>Complete the following use case. Give at least one extension. Note that the tutor should give comments in the order of PR size (i.e., give comments to smaller PRs first). Assume the following use cases exists already: <code>U1. Sort PRs by a criterion</code>,
+                <code>U2. Add comments to a PR</code></li>
             </ul>
             <div class="indented-level2 text-monospace">
               <blockquote>
-                <p>System: PRT<br>
-                  Use Case: U3. Add comments to mentee PRs<br>
-                  Actor: ...<br>
-                  Precondition: ...<br></p>
+                <p>System: PRT<br> Use Case: U3. Add comments to mentee PRs<br> Actor: ...<br> Precondition: ...<br></p>
                 <p>...</p>
               </blockquote>
             </div>
           </box>
         </div>
         <ul>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Discuss the answers</strong> with the whole team and the tutor</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span>
+            </span> <strong>Discuss the answers</strong> with the whole team and the tutor</li>
         </ul>
         <h4 id="2-review-requirements-of-a-peer-team"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Review Requirements of a Peer Team<a class="fa fa-anchor" href="#2-review-requirements-of-a-peer-team"></a></h4>
         <ul>
@@ -505,7 +498,8 @@
           <li><strong>Go to the PR</strong>.</li>
           <li><strong>Go the to the preview of the Developer Guide</strong> via the Netlify preview link.
             <img src="/website/admin/images/prNetlifyPreview.png"></li>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Read the following sections and add review comments</strong> of areas to improve and doubts.<br>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span>
+            </span> <strong>Read the following sections and add review comments</strong> of areas to improve and doubts.<br>
             <span class="dimmed"><strong>If the DG does not have enough content for you to review</strong>, you can review the <em>backup</em> team (see the third column in the allocation panel). If even the backup team is not suitable, choose any random teams having tutorials in the same day and not in the same tutorial as you.</span></li>
         </ul>
         <div class="indented-level2">
@@ -564,8 +558,10 @@
           </ul>
         </div>
         <ul>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span></span> <strong>Discuss your comments/observations/doubts with the tutor</strong> and other team members to confirm the comments you entered are correct.</li>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5 minutes</span></span> <strong>Update your review comments if necessary</strong>, based on the discussion you just had. After that, you can submit the review.<br>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 7-8 minutes</span>
+            </span> <strong>Discuss your comments/observations/doubts with the tutor</strong> and other team members to confirm the comments you entered are correct.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5 minutes</span>
+            </span> <strong>Update your review comments if necessary</strong>, based on the discussion you just had. After that, you can submit the review.<br>
             <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> After adding comments, you may want to unsubscribe from the PR to avoid getting GitHub alerts from that PR in the future.</li>
         </ul>
       </div>
@@ -585,7 +581,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -613,6 +609,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

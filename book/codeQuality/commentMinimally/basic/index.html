@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Code Quality: [Guideline] Comment Minimally, but Sufficiently: Basic</title>
   <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -30,7 +30,9 @@
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content" id="all">
             <p><span class="dimmed"><strong><span>Implementation → Code Quality → Comments →
-                  </span></strong></span></p>
+</span></strong>
+              </span>
+            </p>
             <div id="title">
               <h1 id="basic"><span>Basic</span><a class="fa fa-anchor" href="#basic"></a></h1>
             </div>
@@ -38,111 +40,126 @@
               <div>
                 <div>
                   <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
-                      <div>
-                        <h4 id="do-not-repeat-the-obvious"><span>Do Not Repeat the Obvious</span><a class="fa fa-anchor" href="#do-not-repeat-the-obvious"></a></h4>
-                      </div>
+                    <span slot="header" class="card-title"><div><h4 id="do-not-repeat-the-obvious"><span>Do Not Repeat the Obvious</span><a class="fa fa-anchor" href="#do-not-repeat-the-obvious"></a></h4>
+                </div>
+                </span>
+                <div class="indented">
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: do not repeat the obvious </span>
                     </span>
-                    <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: do not repeat the obvious </span></span></span></span></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <div>
-                        <p>If the code is self-explanatory, refrain from repeating the description in a comment just for the sake of 'good documentation'.</p>
-                        <div class="alt-java">
-                          <p>
-                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
-                          </p>
-                          <pre><code class="hljs java"><span class="hljs-comment">// increment x</span>
+                    </span>
+                    </span>
+                  </p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p>If the code is self-explanatory, refrain from repeating the description in a comment just for the sake of 'good documentation'.</p>
+                    <div class="alt-java">
+                      <p>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                          </span>
+                        </font>
+                      </p>
+                      <pre><code class="hljs java"><span class="hljs-comment">// increment x</span>
 x++;
 
 <span class="hljs-comment">//trim the input</span>
 trimInput();
 </code></pre>
-                        </div>
-                        <div class="alt-python">
-                          <p>
-                            <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
-                          </p>
-                          <pre><code class="hljs python">// increment x
+                    </div>
+                    <div class="alt-python">
+                      <p>
+                        <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                          </span>
+                        </font>
+                      </p>
+                      <pre><code class="hljs python">// increment x
 x = x + <span class="hljs-number">1</span>
 
 //trim the input
 trim_input()
 </code></pre>
-                        </div>
-                      </div>
-                      <div></div>
                     </div>
-                  </panel>
+                  </div>
+                  <div></div>
                 </div>
+                </panel>
+              </div>
+              <div>
+                <panel type="seamless" expanded>
+                  <span slot="header" class="card-title"><div><h4 id="write-to-the-reader"><span>Write to the Reader</span><a class="fa fa-anchor" href="#write-to-the-reader"></a></h4>
+              </div>
+              </span>
+              <div class="indented">
+                <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: write to the reader </span>
+                  </span>
+                  </span>
+                  </span>
+                </p>
+                <p></p>
+                <p></p>
+                <p></p>
                 <div>
-                  <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
+                  <p>Do not write comments as if they are private notes to yourself. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for
+                    a class or an operation to explain its purpose.</p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
+                    <div class="alt-java">
                       <div>
-                        <h4 id="write-to-the-reader"><span>Write to the Reader</span><a class="fa fa-anchor" href="#write-to-the-reader"></a></h4>
+                        <p>
+                          <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                            </span>
+                          </font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span></p>
+                        <pre><code class="hljs java"><span class="hljs-comment">// a quick trim function used to fix bug I detected overnight</span>
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
+    ....
+}
+</code></pre>
+                        <p>
+                          <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                            </span>
+                          </font>
+                        </p>
+                        <pre><code class="hljs java"><span class="hljs-comment">/** Trims the input of leading and trailing spaces */</span>
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
+    ....
+}
+</code></pre>
                       </div>
-                    </span>
-                    <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: write to the reader </span></span></span></span></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
+                    </div>
+                    <div class="alt-python">
                       <div>
-                        <p>Do not write comments as if they are private notes to yourself. Instead, write them well enough to be understood by another programmer. One type of comments that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
-                        <box>
-                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples:</p>
-                          <div class="alt-java">
-                            <div>
-                              <p>
-                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
-                              </p>
-                              <pre><code class="hljs java"><span class="hljs-comment">// a quick trim function used to fix bug I detected overnight</span>
-<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
-    ....
-}
-</code></pre>
-                              <p>
-                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
-                              </p>
-                              <pre><code class="hljs java"><span class="hljs-comment">/** Trims the input of leading and trailing spaces */</span>
-<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">trimInput</span><span class="hljs-params">()</span></span>{
-    ....
-}
-</code></pre>
-                            </div>
-                          </div>
-                          <div class="alt-python">
-                            <div>
-                              <p>
-                                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span>
-                              </p>
-                              <pre><code class="hljs python"><span class="hljs-comment"># a quick trim function used to fix bug I detected overnight</span>
+                        <p>
+                          <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                            </span>
+                          </font> <span class="dimmed">Reason: this comment will only make sense to the person who wrote it</span></p>
+                        <pre><code class="hljs python"><span class="hljs-comment"># a quick trim function used to fix bug I detected overnight</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trim_input</span><span class="hljs-params">()</span>:</span>
     ...
 </code></pre>
-                              <p>
-                                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
-                              </p>
-                              <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trim_input</span><span class="hljs-params">()</span>:</span>
+                        <p>
+                          <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                            </span>
+                          </font>
+                        </p>
+                        <pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trim_input</span><span class="hljs-params">()</span>:</span>
 <span class="hljs-string">"""Trim the input of leading and trailing spaces"""</span>
     ...
 </code></pre>
-                            </div>
-                          </div>
-                        </box>
                       </div>
-                      <div></div>
                     </div>
-                  </panel>
+                  </box>
                 </div>
+                <div></div>
               </div>
+              </panel>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  </div>
   </div>
 </body>
 <script src="../../../../markbind/js/vue.min.js"></script>
@@ -169,6 +186,19 @@ trim_input()
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 

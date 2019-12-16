@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - C++ to Java: Inheritance: Interfaces</title>
   <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -29,14 +29,20 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use interfaces in Java</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use interfaces in Java</span>
+              </span>
+              </span>
+              </span>
+            </p>
             <p></p>
             <p></p>
             <div>
               <div></div>
               <p></p>
               <p><span class="dimmed"><strong><span>C++ to Java → Inheritance →
-                    </span></strong></span></p>
+</span></strong>
+                </span>
+              </p>
               <div id="title-and-body">
                 <div>
                   <h4 id="interfaces"><span>Interfaces</span><a class="fa fa-anchor" href="#interfaces"></a></h4>
@@ -44,7 +50,7 @@
                 <div id="main">
                   <div>
                     <p>The text given in this section borrows some explanations and code examples from the <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small>.</p>
-                    <p>In Java, <strong>an <em>interface</em> is a reference type, similar to a class, mainly containing method signatures.</strong> Defining an interface is similar to creating a new class except it uses the keyword <code>interface</code> in place of <code>class</code>.</p>
+                    <p>In Java, <strong>an <em>interface</em> is a reference type, similar to a class, mainly containing method signatures.</strong> Defining an interface is similar to creating a new class except it uses the keyword <code>interface</code>                      in place of <code>class</code>.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an interface named <code>DrivableVehicle</code> that defines methods needed to drive a vehicle.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">DrivableVehicle</span> </span>{
@@ -57,7 +63,8 @@
                       <p>Note that the method signatures have no braces (<code>{ }</code>) and are terminated with a semicolon.
                       </p>
                     </box>
-                    <p><strong>Interfaces cannot be instantiated—they can only be <em>implemented</em> by classes</strong>. When an instantiable class implements an interface, indicated by the keyword <code>implements</code>, it provides a method body for each of the methods declared in the interface.</p>
+                    <p><strong>Interfaces cannot be instantiated—they can only be <em>implemented</em> by classes</strong>. When an instantiable class implements an interface, indicated by the keyword <code>implements</code>, it provides a method body for
+                      each of the methods declared in the interface.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is how a class <code>CarModelX</code> can implement the <code>DrivableVehicle</code> interface.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CarModelX</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">DrivableVehicle</span> </span>{
@@ -82,7 +89,8 @@
                       <p>Note that the method signatures have no braces and are terminated with a semicolon.
                       </p>
                     </box>
-                    <p>Furthermore, <strong>Java allows multiple inheritance among interfaces.</strong> A Java interface can inherit multiple other interfaces. <strong>A Java class can <em>implement</em> multiple interfaces</strong> (and inherit from one class).</p>
+                    <p>Furthermore, <strong>Java allows multiple inheritance among interfaces.</strong> A Java interface can inherit multiple other interfaces. <strong>A Java class can <em>implement</em> multiple interfaces</strong> (and inherit from one
+                      class).</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The design below is allowed by Java. <span class="dimmed">In case you are not familiar with UML notation used: solid lines indicate normal inheritance; dashed lines indicate interface inheritance; the triangle points to the parent.</span></p>
                       <img src="/website/book/oop/inheritance/interfaces/images/studentStaff.png" height="250">
@@ -100,14 +108,17 @@
                         <div></div>
                         <p></p>
                         <p><span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                              </span></strong></span></p>
+</span></strong>
+                          </span>
+                        </p>
                         <div id="title-and-body">
                           <div>
                             <h4 id="constants"><span>Constants</span><a class="fa fa-anchor" href="#constants"></a></h4>
                           </div>
                           <div id="main">
                             <div>
-                              <p>Java does not directly support constants. The convention is to use a <code>static</code> <code>final</code> variable where a constant is needed. The <code>static</code> modifier causes the variable to be available without instantiating an object. The <code>final</code> modifier causes the variable to be unchangeable. Java constants are normally declared in ALL CAPS separated by underscores.</p>
+                              <p>Java does not directly support constants. The convention is to use a <code>static</code> <code>final</code> variable where a constant is needed. The <code>static</code> modifier causes the variable to be available without
+                                instantiating an object. The <code>final</code> modifier causes the variable to be unchangeable. Java constants are normally declared in ALL CAPS separated by underscores.</p>
                               <box>
                                 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example of a constant named <code>MAX_BALANCE</code> which can be accessed as <code>Account.MAX_BALANCE</code>.</p>
                                 <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span></span>{
@@ -141,7 +152,8 @@
 }
 </code></pre>
                     </box>
-                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Interfaces can contain <a href="https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html"><em>default</em> method implementations</a> and <em>nested types</em>. They are not covered here.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Interfaces can contain <a href="https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html"><em>default</em> method implementations</a> and <em>nested types</em>.
+                      They are not covered here.</p>
                   </div>
                   <div>
                     <div>
@@ -169,7 +181,8 @@
     }
 }
 </code></pre>
-                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                                </p>
                                 <pre><code class="hljs">Circle of area 78
 Rectangle of area 12
 Person of name James Cook
@@ -273,6 +286,19 @@ Person of name James Cook
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 

@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Git and Github: Checkout</title>
   <link rel="stylesheet" href="../../../markbind/css/bootstrap.min.css">
@@ -29,7 +29,11 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can load a specific version of a Git repo</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can load a specific version of a Git repo</span>
+              </span>
+              </span>
+              </span>
+            </p>
             <p></p>
             <p></p>
             <div>
@@ -40,7 +44,9 @@
               </div>
               <p></p>
               <p><span class="dimmed"><strong><span>Tools → Git and GitHub →
-                    </span></strong></span></p>
+</span></strong>
+                </span>
+              </p>
               <div id="title-and-body">
                 <div>
                   <h4 id="checkout"><span>Checkout</span><a class="fa fa-anchor" href="#checkout"></a></h4>
@@ -63,7 +69,8 @@
                           <p>Example:</p>
                           <pre><code class="hljs">git show 251b4cf
 </code></pre>
-                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                          </p>
                           <pre><code class="hljs diff">commit 5bc0e30635a754908dbdd3d2d833756cc4b52ef3
 Author: … &lt; … &gt;
 Date:   Sat Jul 8 16:50:27 2017 +0800
@@ -112,20 +119,24 @@ index 15b57f7..17f4528 100644
                         </div>
                       </tab>
                     </tabs>
-                    <p>Git can load a specific version of the history to the working directory. Note that if you have uncommitted changes in the working directory, you need to <trigger trigger="click" for="modal:checkout-stash">stash</trigger> them first to prevent them from being overwritten.</p>
+                    <p>Git can load a specific version of the history to the working directory. Note that if you have uncommitted changes in the working directory, you need to
+                      <trigger trigger="click" for="modal:checkout-stash">stash</trigger> them first to prevent them from being overwritten.</p>
                     <modal large title="%%Extract%%" id="modal:checkout-stash" class="algolia-no-index">
                       <div>
                         <div></div>
                         <p></p>
                         <p><span class="dimmed"><strong><span>Tools → Git and GitHub →
-                              </span></strong></span></p>
+</span></strong>
+                          </span>
+                        </p>
                         <div id="title-and-body">
                           <div>
                             <h4 id="stash"><span>Stash</span><a class="fa fa-anchor" href="#stash"></a></h4>
                           </div>
                           <div id="main">
                             <div>
-                              <p><strong>You can use the git's <mark><em>stash</em></mark> feature to temporarily shelve (or stash) changes you've made to your working copy</strong> so that you can work on something else, and then come back and re-apply the stashed changes later on. <sub>-- adapted from <a href="https://www.atlassian.com/git/tutorials/git-stash">this</a></sub></p>
+                              <p><strong>You can use the git's <mark><em>stash</em></mark> feature to temporarily shelve (or stash) changes you've made to your working copy</strong> so that you can work on something else, and then come back and re-apply
+                                the stashed changes later on. <sub>-- adapted from <a href="https://www.atlassian.com/git/tutorials/git-stash">this</a></sub></p>
                               <tabs>
                                 <tab header="Source Tree">
                                   <p>Follow <a href="https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html">this article from SourceTree creators</a>. <span class="dimmed">Note the GUI shown in the article is slightly outdated but you should be able to map it to the current GUI.</span></p>
@@ -150,7 +161,8 @@ index 15b57f7..17f4528 100644
                           <p>The specified version is now loaded to the working folder, as indicated by the <code>HEAD</code> label. <code>HEAD</code> is a reference to the currently checked out commit.</p>
                           <img src="/website/book/gitAndGithub/checkout/images/sourcetree_4.png" height="100">
                           <p></p>
-                          <p>If you checkout a commit that come before the commit in which you added the <code>.gitignore</code> file, Git will now show ignored fiels as ‘unstaged modifications’ because at that stage Git hasn’t been told to ignore those files.</p>
+                          <p>If you checkout a commit that come before the commit in which you added the <code>.gitignore</code> file, Git will now show ignored fiels as ‘unstaged modifications’ because at that stage Git hasn’t been told to ignore those
+                            files.</p>
                           <img src="/website/book/gitAndGithub/checkout/images/sourcetree_5.png" height="260">
                           <p></p>
                           <p>To go back to the latest commit, double-click it.</p>
@@ -207,6 +219,19 @@ index 15b57f7..17f4528 100644
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 

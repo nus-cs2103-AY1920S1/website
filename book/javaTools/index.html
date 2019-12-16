@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Java</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,7 +29,9 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content" id="all">
-            <p><span class="dimmed"><strong><span></span></strong></span></p>
+            <p><span class="dimmed"><strong><span></span></strong>
+              </span>
+            </p>
             <div id="title">
               <h1 id="java"><span>Java</span><a class="fa fa-anchor" href="#java"></a></h1>
             </div>
@@ -37,50 +39,54 @@
               <div>
                 <div>
                   <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
-                      <div>
-                        <h4 id="collections"><span>Collections</span><a class="fa fa-anchor" href="#collections"></a></h4>
-                      </div>
-                    </span>
-                    <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java Collections</span></span></span></span></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <div>
-                        <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
-                        <ul>
-                          <li><a href="http://www.javatpoint.com/ArrayList-in-collection-framework">ArrayList class tutorial (from javaTpoint.com)</a></li>
-                          <li><a href="http://beginnersbook.com/2013/12/hashmap-in-java-with-example/">HashMap tutorial (from beginnersbook.com)</a></li>
-                        </ul>
-                      </div>
-                      <div></div>
-                    </div>
-                  </panel>
+                    <span slot="header" class="card-title"><div><h4 id="collections"><span>Collections</span><a class="fa fa-anchor" href="#collections"></a></h4>
                 </div>
-                <div>
-                  <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
-                      <div>
-                        <h4 id="enumerations"><span>Enumerations</span><a class="fa fa-anchor" href="#enumerations"></a></h4>
-                      </div>
+                </span>
+                <div class="indented">
+                  <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java Collections</span>
                     </span>
-                    <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java enumerations</span></span></span></span></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <div>
-                        <p><strong>You can define an enum type by using the <code>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code>FLAG_SUCCESS</code>.</p>
-                        <box>
-                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Defining an enumeration to represent days of a week (code to be put in the <code>Day.java</code> file):</p>
-                          <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Day {
+                    </span>
+                    </span>
+                  </p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <div>
+                    <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
+                    <ul>
+                      <li><a href="http://www.javatpoint.com/ArrayList-in-collection-framework">ArrayList class tutorial (from javaTpoint.com)</a></li>
+                      <li><a href="http://beginnersbook.com/2013/12/hashmap-in-java-with-example/">HashMap tutorial (from beginnersbook.com)</a></li>
+                    </ul>
+                  </div>
+                  <div></div>
+                </div>
+                </panel>
+              </div>
+              <div>
+                <panel type="seamless" expanded>
+                  <span slot="header" class="card-title"><div><h4 id="enumerations"><span>Enumerations</span><a class="fa fa-anchor" href="#enumerations"></a></h4>
+              </div>
+              </span>
+              <div class="indented">
+                <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java enumerations</span>
+                  </span>
+                  </span>
+                  </span>
+                </p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <div>
+                  <p><strong>You can define an enum type by using the <code>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code>FLAG_SUCCESS</code>.</p>
+                  <box>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Defining an enumeration to represent days of a week (code to be put in the <code>Day.java</code> file):</p>
+                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Day {
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
     THURSDAY, FRIDAY, SATURDAY
 }
 </code></pre>
-                          <p>Some examples of using the <code>Day</code> enumeration defined above:</p>
-                          <pre><code class="hljs java">Day today = Day.MONDAY;
+                    <p>Some examples of using the <code>Day</code> enumeration defined above:</p>
+                    <pre><code class="hljs java">Day today = Day.MONDAY;
 Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.SUNDAY};
 
 <span class="hljs-keyword">switch</span> (today) {
@@ -92,18 +98,18 @@ Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.S
     System.out.println(<span class="hljs-string">"It's a week day"</span>);
 }
 </code></pre>
-                        </box>
-                        <p>Note that while enumerations are usually a simple set of fixed values, <strong>Java enumerations can have behaviors too</strong>, as explained in <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html">this tutorial from <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small></a></p>
-                      </div>
+                  </box>
+                  <p>Note that while enumerations are usually a simple set of fixed values, <strong>Java enumerations can have behaviors too</strong>, as explained in <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html">this tutorial from <small><span style="opacity: 0.5"><span class="badge badge-secondary">-- Java Tutorial</span></span></small></a></p>
+                </div>
+                <div>
+                  <div>
+                    <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
                       <div>
                         <div>
-                          <panel header="<md>:fas-dumbbell:</md> Exercises" expanded>
-                            <div>
-                              <div>
-                                <panel header="<md>:glyphicon-question-sign:</md> show priority color" class="algolia-no-index">
-                                  <question>
-                                    <p>Define an enumeration named <code>Priority</code>. Add the missing <code>describe</code> method to the code below so that it produces the output given.</p>
-                                    <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
+                          <panel header="<md>:glyphicon-question-sign:</md> show priority color" class="algolia-no-index">
+                            <question>
+                              <p>Define an enumeration named <code>Priority</code>. Add the missing <code>describe</code> method to the code below so that it produces the output given.</p>
+                              <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{
 
     <span class="hljs-comment">// Add your method here</span>
 
@@ -115,15 +121,16 @@ Day[] holidays = <span class="hljs-keyword">new</span> Day[]{Day.SATURDAY, Day.S
     }
 }
 </code></pre>
-                                    <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
-                                    <pre><code class="hljs">Red indicates high priority
+                              <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </p>
+                              <pre><code class="hljs">Red indicates high priority
 Orange indicates medium priority
 Blue indicates medium priority
 Green indicates low priority
 </code></pre>
-                                    <div slot="hint" class="algolia-no-index">
-                                      <p>Use a <code>switch</code> statement to select between possible values for <code>Priority</code>.</p>
-                                      <pre><code class="hljs java">    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">describe</span><span class="hljs-params">(String color, Priority p)</span> </span>{
+                              <div slot="hint" class="algolia-no-index">
+                                <p>Use a <code>switch</code> statement to select between possible values for <code>Priority</code>.</p>
+                                <pre><code class="hljs java">    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">describe</span><span class="hljs-params">(String color, Priority p)</span> </span>{
         <span class="hljs-keyword">switch</span> (p) {
             <span class="hljs-keyword">case</span> LOW:
                 System.out.println(color + <span class="hljs-string">" indicates low priority"</span>);
@@ -132,125 +139,134 @@ Green indicates low priority
         }
     }
 </code></pre>
-                                      <p>Code for the enumeration is given below:</p>
-                                      <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Priority {
+                                <p>Code for the enumeration is given below:</p>
+                                <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">enum</span> Priority {
     HIGH, MEDIUM, LOW
 }
 </code></pre>
-                                    </div>
-                                  </question>
-                                </panel>
                               </div>
-                            </div>
+                            </question>
                           </panel>
                         </div>
                       </div>
-                    </div>
-                  </panel>
+                    </panel>
+                  </div>
                 </div>
-                <div>
-                  <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
-                      <div>
-                        <h4 id="varargs"><span>Varargs</span><a class="fa fa-anchor" href="#varargs"></a></h4>
-                      </div>
-                    </span>
-                    <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java varargs feature</span></span></span></span></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <div>
-                        <p>Variable Arguments (Varargs) is a <em>syntactic sugar</em> type feature that allows writing a methods that can take a variable number of arguments.</p>
-                        <box>
-                          <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>search</code> method below can be called as <code>search()</code>, <code>search(&quot;book&quot;)</code>, <code>search(&quot;book&quot;, &quot;paper&quot;)</code>, etc.</p>
-                          <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">search</span><span class="hljs-params">(String ... keywords)</span></span>{
+              </div>
+              </panel>
+            </div>
+            <div>
+              <panel type="seamless" expanded>
+                <span slot="header" class="card-title"><div><h4 id="varargs"><span>Varargs</span><a class="fa fa-anchor" href="#varargs"></a></h4>
+            </div>
+            </span>
+            <div class="indented">
+              <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java varargs feature</span>
+                </span>
+                </span>
+                </span>
+              </p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <div>
+                <p>Variable Arguments (Varargs) is a <em>syntactic sugar</em> type feature that allows writing a methods that can take a variable number of arguments.</p>
+                <box>
+                  <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>search</code> method below can be called as <code>search()</code>, <code>search(&quot;book&quot;)</code>, <code>search(&quot;book&quot;, &quot;paper&quot;)</code>,
+                    etc.
+                  </p>
+                  <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">search</span><span class="hljs-params">(String ... keywords)</span></span>{
    <span class="hljs-comment">// method body</span>
 }
 </code></pre>
-                        </box>
-                        <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
-                        <ul>
-                          <li><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/language/varargs.html">Java Varargs feature (from Oracle.com)</a></li>
-                          <li><a href="https://www.javatpoint.com/varargs">Java Varargs tutorial (for javaTpoint.com)</a></li>
-                        </ul>
-                      </div>
-                      <div></div>
-                    </div>
-                  </panel>
-                </div>
-                <div>
-                  <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
-                      <div>
-                        <h4 id="javafx"><span>JavaFX</span><a class="fa fa-anchor" href="#javafx"></a></h4>
-                      </div>
-                    </span>
-                    <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use JavaFX to build a simple GUI</span></span></span></span></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <div>
-                        <p>JavaFX is a technology for building Java-based GUIs. Previously it was a part Java itself, but has become a third-party dependency since then. It is now being maintained by <a href="https://wiki.openjdk.java.net/display/OpenJFX">OpenJDK</a>.</p>
-                      </div>
-                      <div></div>
-                    </div>
-                  </panel>
-                </div>
-                <div>
-                  <panel type="seamless" expanded>
-                    <span slot="header" class="card-title">
-                      <div>
-                        <h4 id="streams-basic"><span>Streams: Basic</span><a class="fa fa-anchor" href="#streams-basic"></a></h4>
-                      </div>
-                    </span>
-                    <div class="indented">
-                      <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java8 streams</span></span></span></span></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <div>
-                        <p><strong>Java 8 introduced a number of new features (e.g. Lambdas, Streams)</strong> that are not trivial to learn but also extremely useful to know.</p>
-                        <p><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/">Here</a> is an overview of new Java 8 features .<span class="dimmed">(written by Benjamin Winterberg)</span></p>
-                      </div>
-                      <div>
-                        <div>
-                          <panel header="<md>:fas-paperclip:</md> Resources" expanded>
-                            <p><strong>Tutorials</strong>:</p>
-                            <tabs>
-                              <tab header="<md>:far-file-alt:</md>">
-                                <ul>
-                                  <li>
-                                    <p><a href="https://www.tutorialspoint.com/java8/"><strong>Java 8 Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a>. <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Also provides a way to try out code online</p>
-                                  </li>
-                                  <li>
-                                    <p><strong>Tutorials from Oracle</strong>: [<a href="http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html">Lambdas</a>][<a href="http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html">Streams</a>]</p>
-                                  </li>
-                                </ul>
-                              </tab>
-                              <tab header="<md>:glyphicon-facetime-video:</md>" class="algolia-no-index">
-
-
-                                <p>A video tutorial by well-known Java coach Venkat Subramaniam</p>
-                                <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Ee5t_EGjv0A" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                                <panel type="seamless" header="A a more detailed version covering similar grounds" class="algolia-no-index">
-                                  <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/1OpAgZvYXLQ" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                                </panel>
-                              </tab>
-                            </tabs>
-                          </panel>
-                        </div>
-                      </div>
-                    </div>
-                  </panel>
-                </div>
+                </box>
+                <p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
+                <ul>
+                  <li><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/language/varargs.html">Java Varargs feature (from Oracle.com)</a></li>
+                  <li><a href="https://www.javatpoint.com/varargs">Java Varargs tutorial (for javaTpoint.com)</a></li>
+                </ul>
               </div>
+              <div></div>
+            </div>
+            </panel>
+          </div>
+          <div>
+            <panel type="seamless" expanded>
+              <span slot="header" class="card-title"><div><h4 id="javafx"><span>JavaFX</span><a class="fa fa-anchor" href="#javafx"></a></h4>
+          </div>
+          </span>
+          <div class="indented">
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use JavaFX to build a simple GUI</span>
+              </span>
+              </span>
+              </span>
+            </p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div>
+              <p>JavaFX is a technology for building Java-based GUIs. Previously it was a part Java itself, but has become a third-party dependency since then. It is now being maintained by <a href="https://wiki.openjdk.java.net/display/OpenJFX">OpenJDK</a>.</p>
+            </div>
+            <div></div>
+          </div>
+          </panel>
+        </div>
+        <div>
+          <panel type="seamless" expanded>
+            <span slot="header" class="card-title"><div><h4 id="streams-basic"><span>Streams: Basic</span><a class="fa fa-anchor" href="#streams-basic"></a></h4>
+        </div>
+        </span>
+        <div class="indented">
+          <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java8 streams</span>
+            </span>
+            </span>
+            </span>
+          </p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <div>
+            <p><strong>Java 8 introduced a number of new features (e.g. Lambdas, Streams)</strong> that are not trivial to learn but also extremely useful to know.</p>
+            <p><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/">Here</a> is an overview of new Java 8 features .<span class="dimmed">(written by Benjamin Winterberg)</span></p>
+          </div>
+          <div>
+            <div>
+              <panel header="<md>:fas-paperclip:</md> Resources" expanded>
+                <p><strong>Tutorials</strong>:</p>
+                <tabs>
+                  <tab header="<md>:far-file-alt:</md>">
+                    <ul>
+                      <li>
+                        <p><a href="https://www.tutorialspoint.com/java8/"><strong>Java 8 Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a>. <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span>
+                          Also provides a way to try out code online</p>
+                      </li>
+                      <li>
+                        <p><strong>Tutorials from Oracle</strong>: [<a href="http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html">Lambdas</a>][<a href="http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html">Streams</a>]</p>
+                      </li>
+                    </ul>
+                  </tab>
+                  <tab header="<md>:glyphicon-facetime-video:</md>" class="algolia-no-index">
+
+
+                    <p>A video tutorial by well-known Java coach Venkat Subramaniam</p>
+                    <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Ee5t_EGjv0A" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    <panel type="seamless" header="A a more detailed version covering similar grounds" class="algolia-no-index">
+                      <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/1OpAgZvYXLQ" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    </panel>
+                  </tab>
+                </tabs>
+              </panel>
             </div>
           </div>
         </div>
+        </panel>
       </div>
     </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
   </div>
 </body>
 <script src="../../markbind/js/vue.min.js"></script>
@@ -277,6 +293,19 @@ Green indicates low priority
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

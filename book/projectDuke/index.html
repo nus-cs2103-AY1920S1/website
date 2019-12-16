@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Project Duke</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -29,7 +29,9 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content" id="all">
-            <p><span class="dimmed"><strong><span></span></strong></span></p>
+            <p><span class="dimmed"><strong><span></span></strong>
+              </span>
+            </p>
             <div id="title">
               <h1 id="project-duke"><span>Project Duke</span><a class="fa fa-anchor" href="#project-duke"></a></h1>
             </div>
@@ -39,11 +41,12 @@
                   <h1 id="project-duke-2">Project Duke<a class="fa fa-anchor" href="#project-duke-2"></a></h1>
                   <div class="lead">
                     <pic add-class="float-left border mr-2 mt-2 p1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
-                      <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p>
+                      <p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small>
+                      </p>
                     </pic>
                     <p><strong>Project Duke is a educational software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying as many Java and SE techniques as possible along the way.</p>
                   </div>
-                  <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> <strong>You may give it any other name or personality you wish.</strong></p>
+                  <p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span>                    <strong>You may give it any other name or personality you wish.</strong></p>
                   <p>Here is a sample interaction with Duke:</p>
                   <pre><code class="hljs">    ____________________________________________________________
       ____        _        
@@ -100,7 +103,8 @@ bye
                   <div id="increments_summary">
                     <p>The project consists of the following <em>increments</em>:</p>
                     <ul>
-                      <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make the product progressively &quot;level up&quot;.</li>
+                      <li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code>Level 1</code> to <code>Level 10</code> to indicate how the features make the
+                        product progressively &quot;level up&quot;.</li>
                       <li><strong>Extensions:</strong>
                         <ul>
                           <li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
@@ -113,16 +117,15 @@ bye
                   </div>
                 </div>
                 <h2 id="levels">
-                  <div class="text-white bg-dark p-1">Levels</div><a class="fa fa-anchor" href="#levels"></a>
-                </h2>
+                  <div class="text-white bg-dark p-1">Levels</div><a class="fa fa-anchor" href="#levels"></a></h2>
                 <div id="level1">
-                  <p><span>
-                      <thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-comments:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-1-greet-echo-exit">Level 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#level-1-greet-echo-exit"></a></h3>
                   <p>In this initial <em>skeletal</em> version of Duke, it starts by greeting the user, simply echos commands entered by the user, and exits when the user types <code>bye</code>.
-                    <br>
-                    Example:</p>
+                    <br> Example:
+                  </p>
                   <pre><code class="hljs">    ____________________________________________________________
      Hello! I'm Duke
      What can I do for you?
@@ -150,9 +153,9 @@ bye
                 </div>
                 <hr>
                 <div id="level2">
-                  <p><span>
-                      <thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-list:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-2-add-list">Level 2. Add, List<a class="fa fa-anchor" href="#level-2-add-list"></a></h3>
                   <p>Add the ability to store whatever text entered by the user and display them back to the user when requested.</p>
                   <p>Example:</p>
@@ -189,9 +192,9 @@ bye
                 </div>
                 <hr>
                 <div id="level3">
-                  <p><span>
-                      <thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-check:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-3-mark-as-done">Level 3. Mark as Done<a class="fa fa-anchor" href="#level-3-mark-as-done"></a></h3>
                   <p>Add the ability to mark tasks as <em>done</em>.<br><br></p>
                   <pre><code class="hljs">list
@@ -209,7 +212,8 @@ done 2
     ____________________________________________________________
 </code></pre>
                   <div>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                      <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                     <panel header="**Extension: `A-Classes`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -217,7 +221,8 @@ done 2
                           <h3 id="a-classes"><span class="badge badge-pill badge-primary">A-Classes</span><a class="fa fa-anchor" href="#a-classes"></a></h3>
                           <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
                         </div>
-                        <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
+                        <p>While it is possible to represent a task list as a multi-dimensional array containing
+                          <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
                         <panel type="seamless" header="Partial solution" minimized class="algolia-no-index">
                           <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
@@ -245,9 +250,9 @@ t.markAsDone()
                 </div>
                 <hr>
                 <div id="level4">
-                  <p><span>
-                      <thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-business-time:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-4-todos-events-deadlines">Level 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#level-4-todos-events-deadlines"></a></h3>
                   <p>Add support for tracking three types of tasks:
                     <br>
@@ -300,7 +305,8 @@ deadline do homework /by no idea :-p
     ____________________________________________________________
 </code></pre>
                   <div>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                      <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                     <panel header="**Extension: `A-Inheritance`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -336,9 +342,9 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                 </div>
                 <hr>
                 <div id="level5">
-                  <p><span>
-                      <thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-exclamation-triangle:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-5-handle-errors">Level 5. Handle Errors<a class="fa fa-anchor" href="#level-5-handle-errors"></a></h3>
                   <p>Teach Duke to deal with errors such as incorrect inputs entered by the user.
                     <br>
@@ -355,7 +361,8 @@ blah
     ____________________________________________________________
 </code></pre>
                   <div>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                      <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                     <panel header="**Extension: `A-Exceptions`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -374,9 +381,9 @@ blah
                 </div>
                 <hr>
                 <div id="level6">
-                  <p><span>
-                      <thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-trash-alt:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-6-delete">Level 6. Delete<a class="fa fa-anchor" href="#level-6-delete"></a></h3>
                   <p>Add support for deleting tasks from the list.
                     <br>
@@ -400,7 +407,8 @@ delete 3
     ____________________________________________________________
 </code></pre>
                   <div>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                      <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                     <panel header="**Extension: `A-Collections`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -415,9 +423,9 @@ delete 3
                 </div>
                 <hr>
                 <div id="level7">
-                  <p><span>
-                      <thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-save:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-7-save">Level 7. Save<a class="fa fa-anchor" href="#level-7-save"></a></h3>
                   <p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk whe Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code>[project_root]/data/duke.txt</code></span></p>
                   <p>The format of the file is up to you. Example:</p>
@@ -429,13 +437,15 @@ T | 1 | join sports club
                 </div>
                 <hr>
                 <div id="level8">
-                  <p><span>
-                      <thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-clock:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-clock"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-8-dates-and-times">Level 8. Dates and Times<a class="fa fa-anchor" href="#level-8-dates-and-times"></a></h3>
-                  <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it simply as a String.</p>
+                  <p>Teach Duke to understand dates and times. For example, if the command is <code>deadline return book /by 2/12/2019 1800</code>, Duke understands <code>2/12/2019 1800</code> as <em>2nd of December 2019, 6pm</em>, instead of storing it
+                    simply as a String.</p>
                   <ul>
-                    <li><strong>Minimal</strong>: Store deadline dates as a <code>java.time.LocalDate</code> in your task objects. Accept dates in a format such as <code>yyyy-mm-dd</code> format (e.g., <code>2019-10-15</code>) and print in a different format such as <code>MMM d yyyy</code> e.g., (<code>Oct 15 2019</code>).</li>
+                    <li><strong>Minimal</strong>: Store deadline dates as a <code>java.time.LocalDate</code> in your task objects. Accept dates in a format such as <code>yyyy-mm-dd</code> format (e.g., <code>2019-10-15</code>) and print in a different format
+                      such as <code>MMM d yyyy</code> e.g., (<code>Oct 15 2019</code>).</li>
                     <li><strong>Stretch goal</strong>: Use dates and times in more meaningful ways. e.g., add a command to print deadlines/events occurring on a specific date.</li>
                   </ul>
                   <panel header="Using dates/times in Java" minimized class="algolia-no-index">
@@ -475,9 +485,9 @@ T | 1 | join sports club
                 </div>
                 <hr>
                 <div id="level9">
-                  <p><span>
-                      <thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-search:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-9-find">Level 9. Find<a class="fa fa-anchor" href="#level-9-find"></a></h3>
                   <p>Give users a way to find a task by searching for a keyword.
                     <br>
@@ -493,15 +503,16 @@ T | 1 | join sports club
                 </div>
                 <hr>
                 <div id="level10">
-                  <p><span>
-                      <thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
-                    </span></p>
+                  <p><span><thumbnail text=":fas-window-maximize:" font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-window-maximize"></span></thumbnail>
+                    </span>
+                  </p>
                   <h3 id="level-10-gui">Level 10. GUI<a class="fa fa-anchor" href="#level-10-gui"></a></h3>
                   <p>Add a GUI to Duke.
                     <br>
                     <br></p>
                   <div>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g., <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension as collections classes (e.g.,
+                      <code>ArrayList</code>) have methods to easily delete an item at a specified location:</p>
                     <panel header="**Extension: `A-JavaFx`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -517,15 +528,15 @@ T | 1 | join sports club
                 <p></p>
                 <div>
                   <h2 id="extensions-category-a">
-                    <div class="text-white bg-primary p-1">Extensions: Category A</div><a class="fa fa-anchor" href="#extensions-category-a"></a>
-                  </h2>
+                    <div class="text-white bg-primary p-1">Extensions: Category A</div><a class="fa fa-anchor" href="#extensions-category-a"></a></h2>
                   <div id="A-Classes">
                     <div>
                       <div></div>
                       <h3 id="a-classes-2"><span class="badge badge-pill badge-primary">A-Classes</span><a class="fa fa-anchor" href="#a-classes-2"></a></h3>
                       <p>     <big>↳</big> <strong>Use a class to represent tasks</strong></p>
                     </div>
-                    <p>While it is possible to represent a task list as a multi-dimensional array containing <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
+                    <p>While it is possible to represent a task list as a multi-dimensional array containing
+                      <tooltip content="`String`, `int`, `boolean` etc.">primitive values</tooltip>, the more natural approach is to use a <code>Task</code> class to represent tasks.</p>
                     <panel type="seamless" header="Partial solution" minimized class="algolia-no-index">
                       <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
     <span class="hljs-keyword">protected</span> String description;
@@ -654,7 +665,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
 </code></pre>
                     </div>
                     <ul>
-                      <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code> class, so that you can write the main logic of the App as follows:
+                      <li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code>*Command</code> classes (i.e., <code>AddCommand</code>, <code>DeleteCommand</code>, <code>ExitCommand</code> etc.) that inherits from an abstract <code>Command</code>                        class, so that you can write the main logic of the App as follows:
                         <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
     ui.showWelcome();
     <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
@@ -673,7 +684,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
     }
 }
 </code></pre>
-                        <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can get some inspiration from how the code of the <a href="https://github.com/se-edu/addressbook-level2">addressbook-level2</a> is organized.</li>
+                        <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can get some inspiration from how the code of the <a href="https://github.com/se-edu/addressbook-level2">addressbook-level2</a>                        is organized.</li>
                     </ul>
                   </div>
                   <hr>
@@ -712,9 +723,11 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                               <li>Keep clicking <code>Next</code> until the process is complete</li>
                             </ol>
                           </li>
-                          <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code> (that will make the folder turn to green color).</li>
+                          <li>In the <code>Project</code> panel of Intellij, expand the newly-created <code>test</code> module, right-click on the <code>java</code> folder inside it, and choose <code>Mark Directory as</code> → <code>Test Source Root</code>                            (that will make the folder turn to green color).</li>
                           <li>Now, create a class inside the <code>java</code> folder and type <code>@Test</code> inside it. A code example given below.<br>
-                            <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Note: If you are using packages, create this class in a matching package (to test <code>duke.Duke</code> class, create a <code>duke.DukeTest</code> i.e., in <code>src\test\java\duke\DukeTest.java</code>).
+                            <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Note: If you are using packages, create this class in a matching package (to test <code>duke.Duke</code> class, create a <code>duke.DukeTest</code> i.e.,
+                            in
+                            <code>src\test\java\duke\DukeTest.java</code>).
                             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DukeTest</span> </span>{
     <span class="hljs-meta">@Test</span>
 }
@@ -742,7 +755,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                           </li>
                           <li>To be able to refer to <code>Duke</code> from <code>DukeTest</code> class, you need to add <code>main</code> module as a dependency of the <code>test</code> module you just created.
                             <ul>
-                              <li>Option 1: When you add a reference to the <code>Duke</code> inside the <code>DukeTest</code>, Intellij will flag it as an error and will give you an option (i.e., in the bulb icon that pops up) to add the <code>main</code> module as a dependency.</li>
+                              <li>Option 1: When you add a reference to the <code>Duke</code> inside the <code>DukeTest</code>, Intellij will flag it as an error and will give you an option (i.e., in the bulb icon that pops up) to add the <code>main</code>                                module as a dependency.</li>
                               <li>Option 2: Follow the info <a href="https://www.jetbrains.com/help/idea/working-with-module-dependencies.html">here</a> to add the dependency yourself.
                               </li>
                             </ul>
@@ -811,7 +824,8 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                       <p>     <big>↳</big> <strong>Use CheckStyle</strong></p>
                     </div>
                     <p>Use checkStyle to detect coding style violations.</p>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to use CheckStyle via Gradle. Alternatively, you can try the CheckStyle plugin for Intellij.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from)
+                      to find how to use CheckStyle via Gradle. Alternatively, you can try the CheckStyle plugin for Intellij.</p>
                     <panel header="**Extension `A-Gradle`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -865,7 +879,8 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                         </ul>
                       </li>
                     </ul>
-                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from) to find how to create a jar file using Gradle.</p>
+                    <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you are using Gradle for your project, refer to the Gradle tutorial at the Duke repo (i.e., the repo you forked from)
+                      to find how to create a jar file using Gradle.</p>
                     <panel header="**Extension `A-Gradle`**" class="algolia-no-index">
                       <div>
                         <div>
@@ -993,8 +1008,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                   </div>
 
                   <h2 id="extensions-category-b">
-                    <div class="text-white bg-info p-1">Extensions: Category B</div><a class="fa fa-anchor" href="#extensions-category-b"></a>
-                  </h2>
+                    <div class="text-white bg-info p-1">Extensions: Category B</div><a class="fa fa-anchor" href="#extensions-category-b"></a></h2>
                   <div id="B-TentativeScheduling">
                     <div>
                       <div></div>
@@ -1085,8 +1099,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                     <p>Deal with schedule anomalies <span class="dimmed">e.g., detect if a task being added clashes with another task in the list</span>.</p>
                   </div>
                   <h2 id="extensions-category-c">
-                    <div class="text-white bg-success p-1">Extensions: Category C</div><a class="fa fa-anchor" href="#extensions-category-c"></a>
-                  </h2>
+                    <div class="text-white bg-success p-1">Extensions: Category C</div><a class="fa fa-anchor" href="#extensions-category-c"></a></h2>
                   <div id="C-DetectDuplicates">
                     <div>
                       <div></div>
@@ -1219,8 +1232,7 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
                     </ul>
                   </div>
                   <h2 id="extensions-category-d">
-                    <div class="text-white bg-danger p-1">Extensions: Category D</div><a class="fa fa-anchor" href="#extensions-category-d"></a>
-                  </h2>
+                    <div class="text-white bg-danger p-1">Extensions: Category D</div><a class="fa fa-anchor" href="#extensions-category-d"></a></h2>
                   <div id="D-Contacts">
                     <div>
                       <div></div>
@@ -1318,6 +1330,19 @@ task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span>
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

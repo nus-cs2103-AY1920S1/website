@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - C++ to Java: Miscellaneous Topics: Casting</title>
   <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -29,14 +29,20 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java casting</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java casting</span>
+              </span>
+              </span>
+              </span>
+            </p>
             <p></p>
             <p></p>
             <div>
               <div></div>
               <p></p>
               <p><span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                    </span></strong></span></p>
+</span></strong>
+                </span>
+              </p>
               <div id="title-and-body">
                 <div>
                   <h4 id="casting"><span>Casting</span><a class="fa fa-anchor" href="#casting"></a></h4>
@@ -54,7 +60,8 @@ System.out.println(<span class="hljs-string">"After casting to an int: "</span> 
 d = (<span class="hljs-keyword">double</span>)i; <span class="hljs-comment">// cast i back to a double</span>
 System.out.println(<span class="hljs-string">"After casting back a double: "</span> + d);
 </code></pre>
-                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                      </p>
                       <pre><code class="hljs">Before casting to an int: 5.3
 After casting to an int: 5
 After casting back a double: 5.0
@@ -104,7 +111,8 @@ Animal a2 = c; <span class="hljs-comment">//upcasting is implicit</span>
                     </box>
                     <p>Note that due to polymorphism, the behavior of the object will reflect the actual type of the object irrespective of the type of the variable holding a reference to it.</p>
                     <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The call to the <code>speak()</code> method in the code below always executes the <code>speak()</code> method of the <code>DomesticCat</code> class because the actual type of the object remains <code>DomesticCat</code> although the reference to it is being downcast/upcast to various other types.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The call to the <code>speak()</code> method in the code below always executes the <code>speak()</code> method of the <code>DomesticCat</code> class because the actual
+                        type of the object remains <code>DomesticCat</code> although the reference to it is being downcast/upcast to various other types.</p>
                       <pre><code class="hljs java">Animal a = <span class="hljs-keyword">new</span> DomesticCat(); <span class="hljs-comment">//implicit upcast</span>
 a.speak();
 Cat c = (Cat)a; <span class="hljs-comment">//downcast</span>
@@ -112,7 +120,8 @@ c.speak();
 DomesticCat dc = (DomesticCat)a; <span class="hljs-comment">//downcast</span>
 dc.speak();
 </code></pre>
-                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                      </p>
                       <pre><code class="hljs">I'm a DomesticCat
 I'm a DomesticCat
 I'm a DomesticCat
@@ -124,7 +133,8 @@ I'm a DomesticCat
                       <pre><code class="hljs java">Object o = <span class="hljs-keyword">new</span> Animal();
 Integer x = (Integer)o;
 </code></pre>
-                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                      </p>
                       <pre><code class="hljs">Exception in thread &quot;main&quot; java.lang.ClassCastException: misc.casting.Animal cannot be cast to java.lang.Integer
 	at misc.casting.CastingExamples.main(CastingExamples.java:14)
 </code></pre>
@@ -173,6 +183,19 @@ Integer x = (Integer)o;
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 

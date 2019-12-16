@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Git and Github: Branch</title>
   <link rel="stylesheet" href="../../../markbind/css/bootstrap.min.css">
@@ -29,7 +29,11 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Git branching</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Git branching</span>
+              </span>
+              </span>
+              </span>
+            </p>
             <p></p>
             <p></p>
             <div>
@@ -40,7 +44,9 @@
               </div>
               <p></p>
               <p><span class="dimmed"><strong><span>Tools → Git and GitHub →
-                    </span></strong></span></p>
+</span></strong>
+                </span>
+              </p>
               <div id="title-and-body">
                 <div>
                   <h4 id="branch"><span>Branch</span><a class="fa fa-anchor" href="#branch"></a></h4>
@@ -59,7 +65,8 @@
                         <div>
                           <pre><code class="hljs">git status
 </code></pre>
-                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                          <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                          </p>
                           <pre><code class="hljs">on branch master
 </code></pre>
                         </div>
@@ -144,13 +151,15 @@ git checkout feature1
                     <p><strong>10. Create a new branch called <code>add-countries</code>, switch to it, and add some commits to it</strong> <span class="dimmed">(similar to steps 1-2 above)</span>. You should have something like this now:</p>
                     <img src="/website/book/gitAndGithub/branch/images/addCountriesBranchBeforeMerging.png" height="80">
                     <p></p>
-                    <p><strong>11. Go back to the <code>master</code> branch and merge the <code>add-countries</code> branch onto the <code>master</code> branch</strong> <span class="dimmed">(similar to steps 8-9 above)</span>. While you might expect to see something like the below,</p>
+                    <p><strong>11. Go back to the <code>master</code> branch and merge the <code>add-countries</code> branch onto the <code>master</code> branch</strong> <span class="dimmed">(similar to steps 8-9 above)</span>. While you might expect to
+                      see something like the below,</p>
                     <img src="/website/book/gitAndGithub/branch/images/addCountriesBranchNoFastForward.png" height="100">
                     <p></p>
                     <p>... you are likely to see something like this instead:</p>
                     <img src="/website/book/gitAndGithub/branch/images/addCountriesBranchAfterMerging.png" height="80">
                     <p></p>
-                    <p>That is because <strong>Git does a <mark><em>fast forward</em> merge</mark> if possible</strong>. Seeing that the <code>master</code> branch has not changed since you started the <code>add-countries</code> branch, Git has decided it is simpler to just put the commits of the <code>add-countries</code> branch in front of the <code>master</code> branch, without going into the trouble of creating an extra merge commit.</p>
+                    <p>That is because <strong>Git does a <mark><em>fast forward</em> merge</mark> if possible</strong>. Seeing that the <code>master</code> branch has not changed since you started the <code>add-countries</code> branch, Git has decided it
+                      is simpler to just put the commits of the <code>add-countries</code> branch in front of the <code>master</code> branch, without going into the trouble of creating an extra merge commit.</p>
                     <p><strong>It is possible to force Git to create a merge commit even if fast forwarding is possible.</strong></p>
                     <tabs>
                       <tab header="SourceTree">
@@ -203,6 +212,19 @@ git checkout feature1
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../markbind/layouts/default/scripts.js"></script>
 

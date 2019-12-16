@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Java Coding Standard</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -40,18 +30,17 @@
         <h1 id="java-coding-standard-basic-intermediate">Java Coding Standard (Basic + Intermediate)<a class="fa fa-anchor" href="#java-coding-standard-basic-intermediate"></a></h1>
         <div>
           <p><sub>Versions: [<a href="/website/coding-standards/java/basic.html">Basic Rules</a>] [<a href="/website/coding-standards/java/intermediate.html">Basic + Intermediate Rules</a>] [<a href="/website/coding-standards/java/index.html">All Rules</a>]</sub></p>
-          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use the <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a> for any topics not covered in this document.</p>
+          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use the <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a> for any topics not covered in this
+            document.</p>
           <span tags="level--intermediate">
-            <box>
-              <p><strong>Basic Rules</strong>: Marked with ⭐️<br>
-                <strong>Intermediate Rules</strong>: Marked with ⭐️⭐️<br>
-              </p>
-            </box>
-          </span>
+<box>
+<p><strong>Basic Rules</strong>: Marked with ⭐️<br>
+<strong>Intermediate Rules</strong>: Marked with ⭐️⭐️<br>
+</p></box></span>
           <ul>
             <li><a href="#naming"><strong>Naming</strong></a></li>
             <li><a href="#layout"><strong>Layout</strong></a></li>
-            <li><a href="#statements"><strong>Statements</strong></a>: <a href="#package-and-import-statements">Package/Import</a> | <a href="#types">Types</a> | <span tags="level--intermediate"> <a href="#variables">Variables</a> | </span><a href="#loops">Loops</a> | <a href="#conditionals">Conditionals</a></li>
+            <li><a href="#statements"><strong>Statements</strong></a>: <a href="#package-and-import-statements">Package/Import</a> | <a href="#types">Types</a> | <span tags="level--intermediate"> <a href="#variables">Variables</a> | </span><a href="#loops">Loops</a>              | <a href="#conditionals">Conditionals</a></li>
             <li><a href="#comments"><strong>Comments</strong></a></li>
             <li><a href="#references">References</a></li>
             <li><a href="#contributors">Contributors</a></li>
@@ -60,9 +49,11 @@
           <p><strong>⭐️ Names representing packages should be in all lower case.</strong></p>
           <pre><code class="hljs java">com.company.application.ui
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <a href="https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html">More on package naming</a></span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <a href="https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html">More on package naming</a></span>
+          </p>
           <p>For school projects, the root name of the package should be your group name or project name followed by logical group names.<code>e.g. todobuddy.ui, todobuddy.file etc</code>.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Your code is not officially ‘<em>produced by NUS</em>’, therefore do not use <code>edu.nus.comp.*</code> or anything similar.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Your code is not officially ‘<em>produced by NUS</em>’, therefore do not use <code>edu.nus.comp.*</code> or anything similar.</span>
+          </p>
           <p><strong>⭐️ Class/enum names must be nouns and written in PascalCase.</strong></p>
           <pre><code class="hljs java">Line, AudioSystem
 </code></pre>
@@ -77,15 +68,16 @@
 </code></pre>
           <p>Underscores may be used in test method names using the following three part format <strong><code>featureUnderTest_testScenario_expectedBehavior()</code></strong></p>
           <p>e.g. <code>sortList_emptyList_exceptionThrown()</code> <code>getMember_memberNotFount_nullReturned</code></p>
-          <p>Third part or both second and third parts can be omitted depending on what's covered in the test.
-            For example, the test method <code>sortList_emptyList()</code> will test <code>sortList()</code> method for all variations of the 'empty list'
+          <p>Third part or both second and third parts can be omitted depending on what's covered in the test. For example, the test method <code>sortList_emptyList()</code> will test <code>sortList()</code> method for all variations of the 'empty list'
             scenario and the test method <code>sortList()</code> will test the <code>sortList()</code> method for all scenarios.</p>
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ Abbreviations and acronyms should not be uppercase when used as a part of a name.</strong></p>
             <div class="row">
               <div class="col">
                 <p>
-                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                    </span>
+                  </font>
                 </p>
                 <pre><code class="hljs java">exportHtmlSource();
 openDvdPlayer();
@@ -93,7 +85,9 @@ openDvdPlayer();
               </div>
               <div class="col">
                 <p>
-                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                    </span>
+                  </font>
                 </p>
                 <pre><code class="hljs java">exportHTMLSource();
 openDVDPlayer();
@@ -105,11 +99,13 @@ openDVDPlayer();
             <p style="page-break-after: always;">&nbsp;</p>
           </div>
           <p><strong>⭐️ All names should be written in English.</strong></p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span>
+          </p>
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ Variables with a large scope should have long names, variables with a small scope can have short names.</strong></p>
-            <p>Scratch variables used for temporary storage or indices can be kept short. A programmer reading such variables should be able to assume that its value is not used outside a few lines of code. Common scratch variables for integers are <code>i, j, k, m, n</code> and for characters <code>c</code> and <code>d</code>.</p>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: When the scope is small, the reader does not have to remember it for long.</span></p>
+            <p>Scratch variables used for temporary storage or indices can be kept short. A programmer reading such variables should be able to assume that its value is not used outside a few lines of code. Common scratch variables for integers are <code>i, j, k, m, n</code>              and for characters <code>c</code> and <code>d</code>.</p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: When the scope is small, the reader does not have to remember it for long.</span>
+            </p>
           </div>
           <p><strong>⭐️ Boolean variables/methods should be named to sound like booleans</strong></p>
           <pre><code class="hljs java"><span class="hljs-comment">//variables</span>
@@ -124,13 +120,15 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <p>Setter methods for boolean variables must be of the form:</p>
           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setFound</span><span class="hljs-params">(<span class="hljs-keyword">boolean</span> isFound)</span></span>;
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is the naming convention for boolean methods and variables used by Java core packages. It also makes the code read like</span> normal English e.g. <code>if(isOpen) ...</code></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is the naming convention for boolean methods and variables used by Java core packages. It also makes the code read like</span> normal
+            English e.g. <code>if(isOpen) ...</code></p>
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ Plural form should be used on names representing a collection of objects.</strong></p>
             <pre><code class="hljs java">Collection&lt;Point&gt; points;
 <span class="hljs-keyword">int</span>[] values;
 </code></pre>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Enhances readability since the name gives the user an immediate clue of the type of the variable and the operations that can be</span> performed on its elements. One space character after the variable type is enough to obtain clarity.</p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Enhances readability since the name gives the user an immediate clue of the type of the variable and the operations that can be</span>
+              performed on its elements. One space character after the variable type is enough to obtain clarity.</p>
           </div>
           <p><strong>⭐️ Iterator variables can be called <em>i</em>, <em>j</em>, <em>k</em> etc.</strong></p>
           <p>Variables named <em>j</em>, <em>k</em> etc. should be used for nested loops only.</p>
@@ -142,14 +140,16 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
     ...
 }
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The notation is taken from mathematics where it is an established convention for indicating iterators.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The notation is taken from mathematics where it is an established convention for indicating iterators.</span>
+          </p>
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ Associated constants (final variables) should be prefixed by a common type name.</strong></p>
             <pre><code class="hljs java"><span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> COLOR_RED   = <span class="hljs-number">1</span>;
 <span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> COLOR_GREEN = <span class="hljs-number">2</span>;
 <span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> COLOR_BLUE  = <span class="hljs-number">3</span>;
 </code></pre>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This indicates that the constants belong together, and make them appear together when sorted alphabetically.</span></p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This indicates that the constants belong together, and make them appear together when sorted alphabetically.</span>
+            </p>
           </div>
           <h2 id="layout"><strong>Layout</strong><a class="fa fa-anchor" href="#layout"></a></h2>
           <p><strong>⭐️ Basic indentation should be 4 spaces (not tabs).</strong></p>
@@ -157,7 +157,8 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
     a[i] = <span class="hljs-number">0</span>;
 }
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span>
+          </p>
           <p><strong>⭐️ Line length should be no longer than 120 chars.</strong></p>
           <p>Try to keep line length shorter than 110 characters (soft limit). But it is OK to exceed the limit slightly (hard limit: 120 chars). If the line exceeds the limit, use line wrapping at appropriate places of the line.</p>
           <p><strong>Indentation for wrapped lines should be 8 spaces</strong> (i.e. twice the normal indentation of 4 spaces) more than the parent line.</p>
@@ -177,7 +178,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
                 <p>Break after a comma.</p>
               </li>
               <li>
-                <p>Break before an operator. This also applies to the following &quot;<em>operator-like</em>&quot; symbols: the dot separator <code>.</code>, the ampersand in type bounds <code>&lt;T extends Foo &amp; Bar&gt;</code>, and the pipe in catch blocks <code>catch (FooException | BarException e)</code></p>
+                <p>Break before an operator. This also applies to the following &quot;<em>operator-like</em>&quot; symbols: the dot separator <code>.</code>, the ampersand in type bounds <code>&lt;T extends Foo &amp; Bar&gt;</code>, and the pipe in catch
+                  blocks
+                  <code>catch (FooException | BarException e)</code></p>
               </li>
             </ul>
             <div class="indented-level2">
@@ -197,7 +200,9 @@ method(param1,
             <div class="row indented-level2">
               <div class="col-1">
                 <p>
-                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                    </span>
+                  </font>
                 </p>
               </div>
               <div class="col">
@@ -209,7 +214,9 @@ method(param1,
             <div class="row indented-level2">
               <div class="col-1">
                 <p>
-                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                    </span>
+                  </font>
                 </p>
               </div>
               <div class="col">
@@ -224,7 +231,9 @@ method(param1,
             <div class="row indented-level2">
               <div class="col-1">
                 <p>
-                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                    </span>
+                  </font>
                 </p>
               </div>
               <div class="col">
@@ -236,7 +245,9 @@ method(param1,
             <div class="row indented-level2">
               <div class="col-1">
                 <p>
-                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                    </span>
+                  </font>
                 </p>
               </div>
               <div class="col">
@@ -263,7 +274,9 @@ alpha = (aLongBooleanExpression)
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!done) {
     doSomething();
@@ -274,7 +287,9 @@ alpha = (aLongBooleanExpression)
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!done)
 {
@@ -284,7 +299,8 @@ alpha = (aLongBooleanExpression)
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it. <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it. <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span>
+          </p>
           <p><strong>⭐️ Method definitions should have the following form:</strong></p>
           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">someMethod</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> SomeException </span>{
     ...
@@ -362,7 +378,8 @@ alpha = (aLongBooleanExpression)
 }
 </code></pre>
           <p>The explicit <code>//Fallthrough</code> comment should be included whenever there is a <code>case</code> statement without a break statement.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Leaving out the <code>break</code> is a common error, and it must be made clear that it is intentional when it is not there.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Leaving out the <code>break</code> is a common error, and it must be made clear that it is intentional when it is not there.</span>
+          </p>
           <div tags="level--intermediate-only">
             <p style="page-break-after: always;">&nbsp;</p>
           </div>
@@ -398,10 +415,14 @@ alpha = (aLongBooleanExpression)
                   <tr>
                     <th>Rule</th>
                     <th>
-                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                      <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                        </span>
+                      </font>
                     </th>
                     <th>
-                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                      <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                        </span>
+                      </font>
                     </th>
                   </tr>
                 </thead>
@@ -429,7 +450,8 @@ alpha = (aLongBooleanExpression)
                 </tbody>
               </table>
             </div>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Makes the individual components of the statements stand out and enhances readability.</span></p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Makes the individual components of the statements stand out and enhances readability.</span>
+            </p>
           </div>
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ Logical units within a block should be separated by one blank line.</strong></p>
@@ -449,18 +471,23 @@ matrix.setElement(<span class="hljs-number">2</span>, <span class="hljs-number">
 <span class="hljs-comment">// Apply rotation</span>
 transformation.multiply(matrix);
 </code></pre>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Enhances readability by introducing white space between logical units. Each block is often introduced by a comment as indicated in the example above.</span></p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Enhances readability by introducing white space between logical units. Each block is often introduced by a comment as indicated in the
+              example above.
+              </span>
+            </p>
           </div>
 
           <h2 id="statements"><strong>Statements</strong><a class="fa fa-anchor" href="#statements"></a></h2>
           <h3 id="package-and-import-statements"><strong>Package and Import Statements</strong><a class="fa fa-anchor" href="#package-and-import-statements"></a></h3>
           <p><strong>⭐️ Put every class in a package.</strong></p>
           <p>Every class should be part of some package.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: It will help you and other developers easily understand the code base when all the classes have been grouped in packages.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: It will help you and other developers easily understand the code base when all the classes have been grouped in packages.</span>
+          </p>
 
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ The ordering of import statements must be consistent.</strong></p>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: A consistent ordering of import statements makes it easier to browse the list and determine the dependencies when there are many</span> imports.</p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: A consistent ordering of import statements makes it easier to browse the list and determine the dependencies when there are many</span>
+              imports.</p>
             <div tags="level--intermediate-only">
               <p style="page-break-after: always;">&nbsp;</p>
             </div>
@@ -483,13 +510,16 @@ transformation.multiply(matrix);
 <span class="hljs-keyword">import</span> javafx.geometry.Point2D;
 <span class="hljs-keyword">import</span> junit.framework.AssertionFailedError;
 </code></pre>
-            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> IDEs have support for auto-ordering import statements. However, note that the default orderings of different IDEs are not always the same. It is recommended that you and your team use the same IDE and stick to a consistent ordering.</p>
+            <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> IDEs have support for auto-ordering import statements. However, note that the default orderings of different IDEs are not always
+              the same. It is recommended that you and your team use the same IDE and stick to a consistent ordering.</p>
           </div>
           <p><strong>⭐️ Imported classes should always be listed explicitly.</strong></p>
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.List;
 <span class="hljs-keyword">import</span> java.util.ArrayList;
@@ -498,7 +528,9 @@ transformation.multiply(matrix);
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
 
@@ -506,7 +538,9 @@ transformation.multiply(matrix);
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Importing classes explicitly gives an excellent documentation value for the class at hand and makes the class easier to comprehend and maintain. Appropriate tools should be used in order to always keep the import list minimal and up to date. IDE's can be configured to do this easily.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Importing classes explicitly gives an excellent documentation value for the class at hand and makes the class easier to comprehend and maintain.
+            Appropriate tools should be used in order to always keep the import list minimal and up to date. IDE's can be configured to do this easily.</span>
+          </p>
 
 
 
@@ -516,20 +550,25 @@ transformation.multiply(matrix);
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">20</span>];
 </code></pre>
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">int</span> a[] = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">20</span>];
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The <em>arrayness</em> is a feature of the base type, not the variable. Java allows both forms however.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The <em>arrayness</em> is a feature of the base type, not the variable. Java allows both forms however.</span>
+          </p>
           <div tags="level--intermediate">
             <h3 id="variables"><strong>Variables</strong><a class="fa fa-anchor" href="#variables"></a></h3>
           </div>
@@ -538,7 +577,9 @@ transformation.multiply(matrix);
             <div class="row">
               <div class="col">
                 <p>
-                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                  <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                    </span>
+                  </font>
                 </p>
                 <pre><code class="hljs java"><span class="hljs-keyword">int</span> sum = <span class="hljs-number">0</span>;
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10</span>; i++) {
@@ -551,7 +592,9 @@ transformation.multiply(matrix);
               </div>
               <div class="col">
                 <p>
-                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                  <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                    </span>
+                  </font>
                 </p>
                 <pre><code class="hljs java"><span class="hljs-keyword">int</span> i, j, sum;
 sum = <span class="hljs-number">0</span>;
@@ -563,7 +606,9 @@ sum = <span class="hljs-number">0</span>;
 </code></pre>
               </div>
             </div>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This ensures that variables are valid at any time. Sometimes it is impossible to initialize a variable to a valid value where it is declared. In these cases it should be left uninitialized rather than initialized to some phony value.</span></p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This ensures that variables are valid at any time. Sometimes it is impossible to initialize a variable to a valid value where it is declared.
+              In these cases it should be left uninitialized rather than initialized to some phony value.</span>
+            </p>
           </div>
           <div tags="level--intermediate-only">
             <p style="page-break-after: always;">&nbsp;</p>
@@ -571,7 +616,9 @@ sum = <span class="hljs-number">0</span>;
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ Class variables should never be declared public.</strong></p>
             <p>
-              <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+              <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                </span>
+              </font>
             </p>
             <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span></span>{
 
@@ -579,7 +626,9 @@ sum = <span class="hljs-number">0</span>;
 
 }
 </code></pre>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The concept of Java information hiding and encapsulation is violated by public variables. Use private variables and access functions instead. One exception to this rule is when the class is essentially a data structure, with no behavior. In this case it is appropriate to make the class' instance variables public.</span></p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The concept of Java information hiding and encapsulation is violated by public variables. Use private variables and access functions instead.
+              One exception to this rule is when the class is essentially a data structure, with no behavior. In this case it is appropriate to make the class' instance variables public.</span>
+            </p>
           </div>
 
           <h3 id="loops"><strong>Loops</strong><a class="fa fa-anchor" href="#loops"></a></h3>
@@ -587,7 +636,9 @@ sum = <span class="hljs-number">0</span>;
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">100</span>; i++) {
     sum += value[i];
@@ -596,7 +647,9 @@ sum = <span class="hljs-number">0</span>;
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>, sum = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">100</span>; i++)
     sum += value[i];
@@ -604,13 +657,17 @@ sum = <span class="hljs-number">0</span>;
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: When there is only one statement in the loop body, Java allows it to be written without wrapping it between <code>{ }</code>. However that is error prone and <em>very</em> strongly discouraged from using.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: When there is only one statement in the loop body, Java allows it to be written without wrapping it between <code>{ }</code>. However that
+            is error prone and <em>very</em> strongly discouraged from using.</span>
+          </p>
           <h3 id="conditionals"><strong>Conditionals</strong><a class="fa fa-anchor" href="#conditionals"></a></h3>
           <p><strong>⭐️ The conditional should be put on a separate line.</strong></p>
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isDone) {
     doCleanup();
@@ -619,7 +676,9 @@ sum = <span class="hljs-number">0</span>;
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isDone) doCleanup();
 
@@ -627,13 +686,17 @@ sum = <span class="hljs-number">0</span>;
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This helps when debugging using an IDE debugger. When writing on a single line, it is not apparent whether the condition is really true or not.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This helps when debugging using an IDE debugger. When writing on a single line, it is not apparent whether the condition is really true
+            or not.</span>
+          </p>
 
           <p><strong>⭐️ Single statement conditionals should still be wrapped by curly brackets.</strong></p>
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java">InputStream stream = File.open(fileName, <span class="hljs-string">"w"</span>);
 <span class="hljs-keyword">if</span> (stream != <span class="hljs-keyword">null</span>) {
@@ -643,7 +706,9 @@ sum = <span class="hljs-number">0</span>;
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java">InputStream stream = File.open(fileName, <span class="hljs-string">"w"</span>);
 <span class="hljs-keyword">if</span> (stream != <span class="hljs-keyword">null</span>))
@@ -653,15 +718,19 @@ sum = <span class="hljs-number">0</span>;
             </div>
           </div>
           <p>The body of the conditional should be wrapped by curly brackets irrespective of how many statements.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Omitting braces can lead to subtle bugs.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Omitting braces can lead to subtle bugs.</span>
+          </p>
           <h2 id="comments"><strong>Comments</strong><a class="fa fa-anchor" href="#comments"></a></h2>
           <p><strong>⭐️ All comments should be written in English.</strong></p>
           <p>Furthermore, use American spelling and avoid local slang.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span>
+          </p>
           <div tags="level--intermediate">
             <p><strong>⭐️⭐️ Write descriptive header comments for all public classes/methods.</strong></p>
             <p>You MUST write header comments for all classes, public methods.</p>
-            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: <code>public</code> method are meant to be used by others and the users should not be forced to read the code of the method to understand its exact behavior. The code, even if it is self-explanatory, can only tell the reader HOW the code works, not WHAT the code is supposed to do.</span></p>
+            <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: <code>public</code> method are meant to be used by others and the users should not be forced to read the code of the method to understand
+              its exact behavior. The code, even if it is self-explanatory, can only tell the reader HOW the code works, not WHAT the code is supposed to do.</span>
+            </p>
           </div>
 
           <div tags="level--intermediate-only">
@@ -695,8 +764,7 @@ sum = <span class="hljs-number">0</span>;
               <li>Subsequent <code>*</code> is aligned with the first one</li>
               <li>Space after each <code>*</code></li>
               <li>Empty line between description and parameter section</li>
-              <li>Punctuation behind each parameter description
-                -No blank line between the documentation block and the method/class</li>
+              <li>Punctuation behind each parameter description -No blank line between the documentation block and the method/class</li>
             </ul>
             <p>Javadoc of class members can be specified on a single line as follows:</p>
             <pre><code class="hljs java"><span class="hljs-comment">/** Number of connections to this database */</span>
@@ -707,7 +775,9 @@ sum = <span class="hljs-number">0</span>;
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) {
     <span class="hljs-comment">// Do something</span>
@@ -717,7 +787,9 @@ sum = <span class="hljs-number">0</span>;
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) {
         <span class="hljs-comment">// Do something</span>
@@ -727,7 +799,9 @@ sum = <span class="hljs-number">0</span>;
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) {
 <span class="hljs-comment">// Do something</span>
@@ -736,7 +810,8 @@ sum = <span class="hljs-number">0</span>;
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is to avoid the comments from breaking the logical structure of the program.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is to avoid the comments from breaking the logical structure of the program.</span>
+          </p>
           <h2 id="references">References<a class="fa fa-anchor" href="#references"></a></h2>
           <ol>
             <li><a href="http://geosoft.no/development/javastyle.html">http://geosoft.no/development/javastyle.html</a></li>
@@ -757,7 +832,7 @@ sum = <span class="hljs-number">0</span>;
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -785,6 +860,19 @@ sum = <span class="hljs-number">0</span>;
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

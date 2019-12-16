@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 8 - Tutorial</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -110,7 +101,8 @@
         <h4 id="1-exercise-draw-a-class-diagram-and-an-object-diagram"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Exercise: draw a class diagram and an object diagram<a class="fa fa-anchor" href="#1-exercise-draw-a-class-diagram-and-an-object-diagram"></a></h4>
         <ul>
           <li><strong>Divide into two sub-teams</strong> as you did in the previous week.</li>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10 minutes</span></span> <strong>Each sub-team do the part (a)</strong> of the following exercise, by drawing the answer on the whiteboard. Use the following layout:<br>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10 minutes</span>
+            </span> <strong>Each sub-team do the part (a)</strong> of the following exercise, by drawing the answer on the whiteboard. Use the following layout:<br>
             <img src="/website/schedule/week8/images/classLayout.png" width="600"></li>
         </ul>
         <div class="indented-level2">
@@ -185,21 +177,24 @@
 </code></pre>
                   </div>
                 </div>
-                <p>(a) Draw a class diagram to represent the code. Show all attributes, methods, associations, navigabilities, visibilities, known multiplicities, and association roles. Show associations as lines.<br>
-                  (b) Draw an object diagram to represent the situation where the inventory has one item with a name <code>spanner</code> and a review of <code>POOR</code> rating.</p>
+                <p>(a) Draw a class diagram to represent the code. Show all attributes, methods, associations, navigabilities, visibilities, known multiplicities, and association roles. Show associations as lines.<br> (b) Draw an object diagram to represent
+                  the situation where the inventory has one item with a name <code>spanner</code> and a review of <code>POOR</code> rating.</p>
               </question>
             </panel>
           </div>
         </div>
         <p></p>
         <ul>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5 minutes</span></span> <strong>Compare answers with those from other sub-teams</strong>. With the tutor's guidance, self-evaluate the answers.</li>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5+5=10 minutes</span></span> <strong>Do part (b)</strong> in the same manner.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5 minutes</span>
+            </span> <strong>Compare answers with those from other sub-teams</strong>. With the tutor's guidance, self-evaluate the answers.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 5+5=10 minutes</span>
+            </span> <strong>Do part (b)</strong> in the same manner.</li>
         </ul>
         <h4 id="2-exercise-draw-a-sequence-diagram"><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Exercise: draw a sequence diagram<a class="fa fa-anchor" href="#2-exercise-draw-a-sequence-diagram"></a></h4>
         <ul>
           <li><strong>Re-form sub-teams</strong> with different members. You may mix with members of the other team (if any).</li>
-          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10+5=15 minutes</span></span> <strong>Do the following exercise</strong> similar to the previous one.</li>
+          <li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10+5=15 minutes</span>
+            </span> <strong>Do the following exercise</strong> similar to the previous one.</li>
         </ul>
         <div class="indented-level2">
           <div>
@@ -277,7 +272,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -305,6 +300,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

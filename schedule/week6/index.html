@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 6 - Summary</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -109,190 +100,198 @@
           <p></p>
           <h1 id="week-6-sep-16-summary">Week 6 <small><small><span class="dimmed">[Sep 16]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-6-sep-16-summary"></a></h1>
           <span id="summary">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm border-right border-bottom">
-                  <ul>
-                    <li>
-                      <p>[<a href="/website/schedule/week6/topics.html#W6-1">W6.1</a>] <strong>Modeling: Sequence Diagrams</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                    </li>
-                    <li>
-                      <p>[<a href="/website/schedule/week6/topics.html#W6-2">W6.2</a>] <strong>Architecture Diagrams</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                    </li>
-                  </ul>
-                  <p></p>
-                  <ul>
-                    <li>
-                      <p>[<a href="/website/schedule/week6/topics.html#W6-3">W6.3</a>] <strong>IDEs: Basic Features</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                    </li>
-                    <li>
-                      <p>[<a href="/website/schedule/week6/topics.html#W6-4">W6.4</a>] <strong>Logging</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                    </li>
-                  </ul>
-                  <p></p>
-                  <ul>
-                    <li>[<a href="/website/schedule/week6/topics.html#W6-5">W6.5</a>] <strong>Documentation Tools</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                  </ul>
-                  <p></p>
-                  <panel type="seamless" header="%%Full ToC%%" class="algolia-no-index">
-                    <div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week6/topics.html#W6-1">W6.1</a>] <strong>Modeling: Sequence Diagrams</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1a">W6.1a</a>] <span>Design → Modelling → Modelling Behaviors
-                                  </span></span> <span>Sequence Diagrams - Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1b">W6.1b</a>] <span>Design → Modelling → Modelling Behaviors
-                                  </span></span> <span>Sequence Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1c">W6.1c</a>] <span>Tools → UML → Sequence Diagrams →
-                                  </span></span> <span>Reference Frames</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1d">W6.1d</a>] <span>Tools → UML → Sequence Diagrams →
-                                  </span></span> <span>Parallel Paths</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week6/topics.html#W6-2">W6.2</a>] <strong>Architecture Diagrams</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2a">W6.2a</a>] <span>Design → Architecture → Introduction →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2b">W6.2b</a>] <span>Design → Architecture → Architecture Diagrams →
-                                  </span></span> <span>Reading</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2c">W6.2c</a>] <span>Design → Introduction →
-                                  </span></span> <span>Multi-Level Design</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <p></p>
-                      <ul>
-                        <li>[<a href="/website/schedule/week6/topics.html#W6-3">W6.3</a>] <strong>IDEs: Basic Features</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3a">W6.3a</a>] <span>Implementation → IDEs → Debugging →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3b">W6.3b</a>] <span>Tools → Intellij IDEA →
-                                  </span></span> <span>Debugging: Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3c">W6.3c</a>] <span>Tools → Intellij IDEA →
-                                  </span></span> <span>Code Navigation</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week6/topics.html#W6-4">W6.4</a>] <strong>Logging</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-4a">W6.4a</a>] <span>Implementation → Error Handling → Logging →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-4b">W6.4b</a>] <span>Implementation → Error Handling → Logging →
-                                  </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <p></p>
-                      <ul>
-                        <li>[<a href="/website/schedule/week6/topics.html#W6-5">W6.5</a>] <strong>Documentation Tools</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <p>   <strong>Markdown</strong></p>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5a">W6.5a</a>] <span>Implementation → Documentation → Tools → Markdown →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5b">W6.5b</a>] <span>Implementation → Documentation → Tools → Markdown →
-                                  </span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                          <p>   <strong>AsciiDoc</strong></p>
-                          <ul>
-                            <li><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5c">W6.5c</a>] <span>Implementation → Documentation → Tools → AsciiDoc →
-                                </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                          </ul>
-                        </small></div>
-                      <p></p>
-                    </div>
-                  </panel>
-                </div>
-                <div class="col-sm border-bottom">
-                  <p><strong>Admin:</strong></p>
-                  <div>
-                    <ol>
-                      <li>Submit post-lecture quiz</li>
-                      <li>[optional] Submit mid-term feedback for the teaching team <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Sunday</span></span></li>
-                    </ol>
-                  </div>
-                  <div>
-                    <p><strong>iP:</strong></p>
-                    <div>
-                      <ol>
-                        <li>Finalize the features</li>
-                        <li>Set up the product website</li>
-                        <li>Release the product</li>
-                      </ol>
-                    </div>
-                    <p><strong>tP:</strong></p>
-                    <div>
-                      <ol>
-                        <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Set up the project repo</li>
-                        <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Get familiar with the code base</li>
-                        <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Conceptualize v2.0</li>
-                        <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Draft the UG</li>
-                        <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Refine the product design</li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div class="container">
+  <div class="row">
+  <div class="col-sm border-right border-bottom">
+<ul>
+<li>
+<p>[<a href="/website/schedule/week6/topics.html#W6-1">W6.1</a>] <strong>Modeling: Sequence Diagrams</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           </span>
-          <br>
+          </span>
+          </p>
+          </li>
+          <li>
+            <p>[<a href="/website/schedule/week6/topics.html#W6-2">W6.2</a>] <strong>Architecture Diagrams</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </p>
+          </li>
+          </ul>
+          <p></p>
+          <ul>
+            <li>
+              <p>[<a href="/website/schedule/week6/topics.html#W6-3">W6.3</a>] <strong>IDEs: Basic Features</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                </span>
+                </span>
+              </p>
+            </li>
+            <li>
+              <p>[<a href="/website/schedule/week6/topics.html#W6-4">W6.4</a>] <strong>Logging</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+                  aria-hidden="true"></span></span>
+                </span>
+              </p>
+            </li>
+          </ul>
+          <p></p>
+          <ul>
+            <li>[<a href="/website/schedule/week6/topics.html#W6-5">W6.5</a>] <strong>Documentation Tools</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              </span>
+              </span>
+            </li>
+          </ul>
+          <p></p>
+          <panel type="seamless" header="%%Full ToC%%" class="algolia-no-index">
+            <div>
+              <ul>
+                <li>[<a href="/website/schedule/week6/topics.html#W6-1">W6.1</a>] <strong>Modeling: Sequence Diagrams</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  </span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1a">W6.1a</a>] <span>Design → Modelling → Modelling Behaviors
+</span></span> <span>Sequence Diagrams - Basic</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1b">W6.1b</a>] <span>Design → Modelling → Modelling Behaviors
+</span></span> <span>Sequence Diagrams - Intermediate</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1c">W6.1c</a>] <span>Tools → UML → Sequence Diagrams →
+</span></span> <span>Reference Frames</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-1d">W6.1d</a>] <span>Tools → UML → Sequence Diagrams →
+</span></span> <span>Parallel Paths</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul></small></div>
+              <ul>
+                <li>[<a href="/website/schedule/week6/topics.html#W6-2">W6.2</a>] <strong>Architecture Diagrams</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2a">W6.2a</a>] <span>Design → Architecture → Introduction →
+</span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2b">W6.2b</a>] <span>Design → Architecture → Architecture Diagrams →
+</span></span> <span>Reading</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-2c">W6.2c</a>] <span>Design → Introduction →
+</span></span> <span>Multi-Level Design</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li></ul></small></div>
+              <p></p>
+              <ul>
+                <li>[<a href="/website/schedule/week6/topics.html#W6-3">W6.3</a>] <strong>IDEs: Basic Features</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  </span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3a">W6.3a</a>] <span>Implementation → IDEs → Debugging →
+</span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3b">W6.3b</a>] <span>Tools → Intellij IDEA →
+</span></span> <span>Debugging: Basic</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-3c">W6.3c</a>] <span>Tools → Intellij IDEA →
+</span></span> <span>Code Navigation</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li></ul></small></div>
+              <ul>
+                <li>[<a href="/website/schedule/week6/topics.html#W6-4">W6.4</a>] <strong>Logging</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+                    aria-hidden="true"></span></span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-4a">W6.4a</a>] <span>Implementation → Error Handling → Logging →
+</span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-4b">W6.4b</a>] <span>Implementation → Error Handling → Logging →
+</span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul></small></div>
+              <p></p>
+              <ul>
+                <li>[<a href="/website/schedule/week6/topics.html#W6-5">W6.5</a>] <strong>Documentation Tools</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  </span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<p>   <strong>Markdown</strong></p>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5a">W6.5a</a>] <span>Implementation → Documentation → Tools → Markdown →
+</span></span> <span>What</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5b">W6.5b</a>] <span>Implementation → Documentation → Tools → Markdown →
+</span></span> <span>How</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul>
+<p>   <strong>AsciiDoc</strong></p>
+<ul>
+<li><span class="dimmed">[<a href="/website/schedule/week6/topics.html#W6-5c">W6.5c</a>] <span>Implementation → Documentation → Tools → AsciiDoc →
+</span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li></ul></small></div>
+              <p></p>
+            </div>
+          </panel>
+        </div>
+        <div class="col-sm border-bottom">
+          <p><strong>Admin:</strong></p>
+          <div>
+            <ol>
+              <li>Submit post-lecture quiz</li>
+              <li>[optional] Submit mid-term feedback for the teaching team <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Sunday</span>
+                </span>
+              </li>
+            </ol>
+          </div>
+          <div>
+            <p><strong>iP:</strong></p>
+            <div>
+              <ol>
+                <li>Finalize the features</li>
+                <li>Set up the product website</li>
+                <li>Release the product</li>
+              </ol>
+            </div>
+            <p><strong>tP:</strong></p>
+            <div>
+              <ol>
+                <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Set up the project repo</li>
+                <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Get familiar with the code base</li>
+                <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Conceptualize v2.0</li>
+                <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Draft the UG</li>
+                <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Refine the product design</li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
-      <nav id="page-nav" class="navbar navbar-light bg-transparent">
-        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+    </div>
+    </span>
+    <br></div>
+  </div>
+  <nav id="page-nav" class="navbar navbar-light bg-transparent">
+    <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
-          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-6-sep-16-summary">Week 6 [Sep 16] - Summary&#x200E;</a>
+      <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+        <a class="nav-link py-1" href="#week-6-sep-16-summary">Week 6 [Sep 16] - Summary&#x200E;</a>
 
-          </nav>
-        </div>
       </nav>
     </div>
-    <footer>
-      <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
-    </footer>
+  </nav>
+  </div>
+  <footer>
+    <div class="text-center">
+      <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
+  </footer>
   </div>
 </body>
 <script src="../../markbind/js/vue.min.js"></script>
@@ -319,6 +318,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

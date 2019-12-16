@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 3 - Tutorial</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -114,18 +105,21 @@
         <div class="indented-level2">
           <div class="flat">
             <div>
-              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Teams → Team Forming Constraints</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Teams → Team Forming Constraints</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+              </p>
             </div>
           </div>
           <modal large title="Admin <md>:glyphicon-log-in:</md> **Teams → Team Forming Constraints**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-              <div>
+
+            <div>
               <p><img src="/website/admin/images/team.png" width="300px"><br>
                 <small><span class="dimmed">[Picture: The team that was at the top of early Google]</span></small></p>
               <p></p>
               <p><strong>When to form teams</strong>:</p>
               <ul>
                 <li>CS2103T: Your team will be formed by the CS2101 side.</li>
-                <li>CS2103: Your team will be formed at the <em>start</em> of the week 3 tutorial. Please try to arrive on time for that tutorial; if you are not there at the team forming time and others in the class are unaware which team you wanted to be in, we'll have to put you into a team randomly.</li>
+                <li>CS2103: Your team will be formed at the <em>start</em> of the week 3 tutorial. Please try to arrive on time for that tutorial; if you are not there at the team forming time and others in the class are unaware which team you wanted to be
+                  in, we'll have to put you into a team randomly.</li>
               </ul>
               <p><strong>Team size</strong>: The default <mark>team size is five</mark>.</p>
               <p><strong>Team composition</strong></p>
@@ -153,30 +147,37 @@
             <panel src="/website/admin/project-teams._include_.html#main" header="Admin <md>:glyphicon-log-in:</md> **Teams → Team Forming Constraints**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="main"></panel>
           </p>
         </div>
-        <h4 id="1-register-the-team-before-leaving-the-tutorial"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <strong>Register the team</strong> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before leaving the tutorial</span></span><a class="fa fa-anchor" href="#1-register-the-team-before-leaving-the-tutorial"></a></h4>
+        <h4 id="1-register-the-team-before-leaving-the-tutorial"><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <strong>Register the team</strong> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before leaving the
+          tutorial</span>
+          </span><a class="fa fa-anchor" href="#1-register-the-team-before-leaving-the-tutorial"></a></h4>
         <ul>
           <li>Get your team ID from the tutor. <mark>Each student must submit your team ID</mark> via the LumiNUS <code>Class Groups</code> page -- for us to know which team you joined. Note the team ID follows a specific format.</li>
         </ul>
         <div class="indented-level2">
           <div class="flat">
             <div>
-              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Teams → Team ID Format</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Teams → Team ID Format</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+              </p>
             </div>
           </div>
           <modal large title="Admin <md>:glyphicon-log-in:</md> **Teams → Team ID Format**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-              <div>
-              <p><strong>Team ID</strong>: This will be given to you after forming teams. It has the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>CS2103-W14-2</code> means you are in tutorial <code>CS2103-W14</code> (i.e., in module <code>CS2103</code>, on <code>Wednesday</code>, at <code>1400-1500</code>), team <code>2</code>.</p>
+
+            <div>
+              <p><strong>Team ID</strong>: This will be given to you after forming teams. It has the form <code>TUTORIAL_ID-TEAM_NUMBER</code> e.g, <code>CS2103-W14-2</code> means you are in tutorial <code>CS2103-W14</code> (i.e., in module <code>CS2103</code>,
+                on <code>Wednesday</code>, at <code>1400-1500</code>), team <code>2</code>.</p>
               <div class="flat">
                 <div>
-                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectTeams-tutorialIDs">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tutorials → Tutorial IDs</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+                  <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:projectTeams-tutorialIDs">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tutorials → Tutorial IDs</trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+                  </p>
                 </div>
               </div>
               <modal large title="Admin <md>:glyphicon-log-in:</md> Tutorials → Tutorial IDs  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:projectTeams-tutorialIDs" class="algolia-no-index">
-                  <div>
+
+                <div>
                   <box>
                     <p>
-                      <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Our tutorial IDs are different from LumiNUS. Format: <code>CS2103T-W09</code> means a tutorial of <code>CS2103T</code> module, held on <code>Wednesday</code> at <code>0900</code>, and so on.
-                    </p>
+                      <font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Our tutorial IDs are different from LumiNUS. Format: <code>CS2103T-W09</code> means a tutorial of <code>CS2103T</code> module, held on
+                      <code>Wednesday</code> at <code>0900</code>, and so on.</p>
                   </box>
                   <div></div>
                   <div></div>
@@ -359,7 +360,8 @@
                 </div>
               </modal>
               <p>
-                <panel src="/website/admin/tutorials._include_.html#tutorialTimetable" header="Admin <md>:glyphicon-log-in:</md> Tutorials → Tutorial IDs  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="tutorialTimetable"></panel>
+                <panel src="/website/admin/tutorials._include_.html#tutorialTimetable" header="Admin <md>:glyphicon-log-in:</md> Tutorials → Tutorial IDs  <md>:glyphicon-star:</md><md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index"
+                  minimized fragment="tutorialTimetable"></panel>
               </p>
             </div>
           </modal>
@@ -378,18 +380,24 @@
         <div class="indented-level2">
           <div class="flat">
             <div>
-              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Teams → Communication</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span></p>
+              <p><span class="dimmed">Relevant: [<trigger trigger="click" for="modal:-">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Teams → Communication</strong></trigger> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span>]</span>
+              </p>
             </div>
           </div>
           <modal large title="Admin <md>:glyphicon-log-in:</md> **Teams → Communication**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" id="modal:-" class="algolia-no-index">
-              <div>
+
+            <div>
               <ul>
                 <li>
-                  <p><strong>We recommend at least one 1-2 hour <mark>face-to-face</mark> project meeting per week</strong>, in addition to any online meetings. <span class="dimmed">Reason: you need to know how to run both types of project meetings</span>. The project meeting time can be used to discuss project related things, but also, can be used as a time for team members to work on the project tasks individually (having all members in the same place will facilitate easier collaboration and more peer-learning).</p>
+                  <p><strong>We recommend at least one 1-2 hour <mark>face-to-face</mark> project meeting per week</strong>, in addition to any online meetings. <span class="dimmed">Reason: you need to know how to run both types of project meetings</span>.
+                    The project meeting time can be used to discuss project related things, but also, can be used as a time for team members to work on the project tasks individually (having all members in the same place will facilitate easier collaboration
+                    and more peer-learning).</p>
                 </li>
                 <li>
-                  <p>After the team has been finalized (latest by week 3 tutorial), decide on a 1-2 hour time slot and a venue that all commit to. <strong>All members are expected to honor this commitment</strong> (not doing so could lower the peer evaluation ratings you receive, which in turn will be factored into your grade).<br>
-                    <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> The best time to have the weekly project meeting is, after the previous week's lecture but before the deadline for weekly tasks.</p>
+                  <p>After the team has been finalized (latest by week 3 tutorial), decide on a 1-2 hour time slot and a venue that all commit to. <strong>All members are expected to honor this commitment</strong> (not doing so could lower the peer evaluation
+                    ratings you receive, which in turn will be factored into your grade).<br>
+                    <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> The best time to have the weekly project meeting is, after the previous week's lecture but before the deadline for weekly
+                    tasks.</p>
                 </li>
                 <li>
                   <p>You can also create private slack channels within the <a href="https://nus-cs2103-ay1920s1.slack.com">module's slack team</a>. These channels will not be visible to others (even instructors).</p>
@@ -401,7 +409,8 @@
             <panel src="/website/admin/project-teams._include_.html#teamCommunication" header="Admin <md>:glyphicon-log-in:</md> **Teams → Communication**  <md>:glyphicon-star:</md><md>:glyphicon-star:</md>" class="embedding algolia-no-index" minimized fragment="teamCommunication"></panel>
           </p>
         </div>
-        <h4 id="4-find-coding-standard-violations-extra"><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <strong>Find coding standard violations</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span></span><a class="fa fa-anchor" href="#4-find-coding-standard-violations-extra"></a></h4>
+        <h4 id="4-find-coding-standard-violations-extra"><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <strong>Find coding standard violations</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="fas fa-plus"></span> extra</span>
+          </span><a class="fa fa-anchor" href="#4-find-coding-standard-violations-extra"></a></h4>
         <ul>
           <li>Do the following exercise, if you have time.</li>
         </ul>
@@ -457,10 +466,12 @@
             <a class="nav-link py-1" href="#week-3-aug-26-tutorial">Week 3 [Aug 26] - Tutorial&#x200E;</a>
             <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
               <a class="nav-link py-1" href="#0-cs2103-students-only-form-teams">0 [CS2103 students only] Form teams&#x200E;</a>
-              <a class="nav-link py-1" href="#1-register-the-team-before-leaving-the-tutorial">1 Register the team before leaving the tutorial&#x200E;</a>
+              <a class="nav-link py-1" href="#1-register-the-team-before-leaving-the-tutorial">1 Register the team  before leaving the tutorial
+    &#x200E;</a>
               <a class="nav-link py-1" href="#2-introduce-yourselves">2 Introduce yourselves&#x200E;</a>
               <a class="nav-link py-1" href="#3-fix-a-weekly-project-meeting-time">3 Fix a weekly project meeting time&#x200E;</a>
-              <a class="nav-link py-1" href="#4-find-coding-standard-violations-extra">4 Find coding standard violations extra&#x200E;</a>
+              <a class="nav-link py-1" href="#4-find-coding-standard-violations-extra">4 Find coding standard violations  extra
+    &#x200E;</a>
             </nav>
 
           </nav>
@@ -469,7 +480,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -497,6 +508,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

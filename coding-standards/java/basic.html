@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Java Coding Standard</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -40,7 +30,8 @@
         <h1 id="java-coding-standard-basic">Java Coding Standard (Basic)<a class="fa fa-anchor" href="#java-coding-standard-basic"></a></h1>
         <div>
           <p><sub>Versions: [<a href="/website/coding-standards/java/basic.html">Basic Rules</a>] [<a href="/website/coding-standards/java/intermediate.html">Basic + Intermediate Rules</a>] [<a href="/website/coding-standards/java/index.html">All Rules</a>]</sub></p>
-          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use the <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a> for any topics not covered in this document.</p>
+          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Use the <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a> for any topics not covered in this
+            document.</p>
 
           <ul>
             <li><a href="#naming"><strong>Naming</strong></a></li>
@@ -54,9 +45,11 @@
           <p><strong>⭐️ Names representing packages should be in all lower case.</strong></p>
           <pre><code class="hljs java">com.company.application.ui
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <a href="https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html">More on package naming</a></span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <a href="https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html">More on package naming</a></span>
+          </p>
           <p>For school projects, the root name of the package should be your group name or project name followed by logical group names.<code>e.g. todobuddy.ui, todobuddy.file etc</code>.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Your code is not officially ‘<em>produced by NUS</em>’, therefore do not use <code>edu.nus.comp.*</code> or anything similar.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Your code is not officially ‘<em>produced by NUS</em>’, therefore do not use <code>edu.nus.comp.*</code> or anything similar.</span>
+          </p>
           <p><strong>⭐️ Class/enum names must be nouns and written in PascalCase.</strong></p>
           <pre><code class="hljs java">Line, AudioSystem
 </code></pre>
@@ -71,13 +64,13 @@
 </code></pre>
           <p>Underscores may be used in test method names using the following three part format <strong><code>featureUnderTest_testScenario_expectedBehavior()</code></strong></p>
           <p>e.g. <code>sortList_emptyList_exceptionThrown()</code> <code>getMember_memberNotFount_nullReturned</code></p>
-          <p>Third part or both second and third parts can be omitted depending on what's covered in the test.
-            For example, the test method <code>sortList_emptyList()</code> will test <code>sortList()</code> method for all variations of the 'empty list'
+          <p>Third part or both second and third parts can be omitted depending on what's covered in the test. For example, the test method <code>sortList_emptyList()</code> will test <code>sortList()</code> method for all variations of the 'empty list'
             scenario and the test method <code>sortList()</code> will test the <code>sortList()</code> method for all scenarios.</p>
 
 
           <p><strong>⭐️ All names should be written in English.</strong></p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span>
+          </p>
 
           <p><strong>⭐️ Boolean variables/methods should be named to sound like booleans</strong></p>
           <pre><code class="hljs java"><span class="hljs-comment">//variables</span>
@@ -94,7 +87,8 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <p>Setter methods for boolean variables must be of the form:</p>
           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setFound</span><span class="hljs-params">(<span class="hljs-keyword">boolean</span> isFound)</span></span>;
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is the naming convention for boolean methods and variables used by Java core packages. It also makes the code read like</span> normal English e.g. <code>if(isOpen) ...</code></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is the naming convention for boolean methods and variables used by Java core packages. It also makes the code read like</span> normal
+            English e.g. <code>if(isOpen) ...</code></p>
 
           <p><strong>⭐️ Iterator variables can be called <em>i</em>, <em>j</em>, <em>k</em> etc.</strong></p>
           <p>Variables named <em>j</em>, <em>k</em> etc. should be used for nested loops only.</p>
@@ -106,7 +100,8 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
     ...
 }
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The notation is taken from mathematics where it is an established convention for indicating iterators.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The notation is taken from mathematics where it is an established convention for indicating iterators.</span>
+          </p>
 
           <h2 id="layout"><strong>Layout</strong><a class="fa fa-anchor" href="#layout"></a></h2>
           <p><strong>⭐️ Basic indentation should be 4 spaces (not tabs).</strong></p>
@@ -114,7 +109,8 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
     a[i] = <span class="hljs-number">0</span>;
 }
 </code></pre>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span>
+          </p>
           <p><strong>⭐️ Line length should be no longer than 120 chars.</strong></p>
           <p>Try to keep line length shorter than 110 characters (soft limit). But it is OK to exceed the limit slightly (hard limit: 120 chars). If the line exceeds the limit, use line wrapping at appropriate places of the line.</p>
           <p><strong>Indentation for wrapped lines should be 8 spaces</strong> (i.e. twice the normal indentation of 4 spaces) more than the parent line.</p>
@@ -131,7 +127,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!done) {
     doSomething();
@@ -142,7 +140,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (!done)
 {
@@ -152,7 +152,8 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it. <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Just follow it. <span aria-hidden="true" class="far fa-grin-tongue-squint"></span></span>
+          </p>
           <p><strong>⭐️ Method definitions should have the following form:</strong></p>
           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">someMethod</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> SomeException </span>{
     ...
@@ -232,7 +233,8 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
 }
 </code></pre>
           <p>The explicit <code>//Fallthrough</code> comment should be included whenever there is a <code>case</code> statement without a break statement.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Leaving out the <code>break</code> is a common error, and it must be made clear that it is intentional when it is not there.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Leaving out the <code>break</code> is a common error, and it must be made clear that it is intentional when it is not there.</span>
+          </p>
 
           <p><strong>⭐️ A <em>try-catch</em> statement should have the following form:</strong></p>
           <div class="row">
@@ -266,14 +268,17 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <h3 id="package-and-import-statements"><strong>Package and Import Statements</strong><a class="fa fa-anchor" href="#package-and-import-statements"></a></h3>
           <p><strong>⭐️ Put every class in a package.</strong></p>
           <p>Every class should be part of some package.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: It will help you and other developers easily understand the code base when all the classes have been grouped in packages.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: It will help you and other developers easily understand the code base when all the classes have been grouped in packages.</span>
+          </p>
 
 
           <p><strong>⭐️ Imported classes should always be listed explicitly.</strong></p>
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.List;
 <span class="hljs-keyword">import</span> java.util.ArrayList;
@@ -282,7 +287,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.util.*;
 
@@ -290,7 +297,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Importing classes explicitly gives an excellent documentation value for the class at hand and makes the class easier to comprehend and maintain. Appropriate tools should be used in order to always keep the import list minimal and up to date. IDE's can be configured to do this easily.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Importing classes explicitly gives an excellent documentation value for the class at hand and makes the class easier to comprehend and maintain.
+            Appropriate tools should be used in order to always keep the import list minimal and up to date. IDE's can be configured to do this easily.</span>
+          </p>
 
 
 
@@ -300,20 +309,25 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">20</span>];
 </code></pre>
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">int</span> a[] = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">20</span>];
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The <em>arrayness</em> is a feature of the base type, not the variable. Java allows both forms however.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The <em>arrayness</em> is a feature of the base type, not the variable. Java allows both forms however.</span>
+          </p>
 
 
 
@@ -324,7 +338,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">100</span>; i++) {
     sum += value[i];
@@ -333,7 +349,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>, sum = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">100</span>; i++)
     sum += value[i];
@@ -341,13 +359,17 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: When there is only one statement in the loop body, Java allows it to be written without wrapping it between <code>{ }</code>. However that is error prone and <em>very</em> strongly discouraged from using.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: When there is only one statement in the loop body, Java allows it to be written without wrapping it between <code>{ }</code>. However that
+            is error prone and <em>very</em> strongly discouraged from using.</span>
+          </p>
           <h3 id="conditionals"><strong>Conditionals</strong><a class="fa fa-anchor" href="#conditionals"></a></h3>
           <p><strong>⭐️ The conditional should be put on a separate line.</strong></p>
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isDone) {
     doCleanup();
@@ -356,7 +378,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">if</span> (isDone) doCleanup();
 
@@ -364,7 +388,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This helps when debugging using an IDE debugger. When writing on a single line, it is not apparent whether the condition is really true or not.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This helps when debugging using an IDE debugger. When writing on a single line, it is not apparent whether the condition is really true
+            or not.</span>
+          </p>
           <div tags="level--basic-only">
             <p style="page-break-after: always;">&nbsp;</p>
           </div>
@@ -372,7 +398,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java">InputStream stream = File.open(fileName, <span class="hljs-string">"w"</span>);
 <span class="hljs-keyword">if</span> (stream != <span class="hljs-keyword">null</span>) {
@@ -382,7 +410,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java">InputStream stream = File.open(fileName, <span class="hljs-string">"w"</span>);
 <span class="hljs-keyword">if</span> (stream != <span class="hljs-keyword">null</span>))
@@ -392,11 +422,13 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
           </div>
           <p>The body of the conditional should be wrapped by curly brackets irrespective of how many statements.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Omitting braces can lead to subtle bugs.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: Omitting braces can lead to subtle bugs.</span>
+          </p>
           <h2 id="comments"><strong>Comments</strong><a class="fa fa-anchor" href="#comments"></a></h2>
           <p><strong>⭐️ All comments should be written in English.</strong></p>
           <p>Furthermore, use American spelling and avoid local slang.</p>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: The code is meant for an international audience.</span>
+          </p>
 
 
 
@@ -405,7 +437,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
           <div class="row">
             <div class="col">
               <p>
-                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong></span></font>
+                <font color="green"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-up"></span></span> Good</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) {
     <span class="hljs-comment">// Do something</span>
@@ -415,7 +449,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) {
         <span class="hljs-comment">// Do something</span>
@@ -425,7 +461,9 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
             </div>
             <div class="col">
               <p>
-                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong></span></font>
+                <font color="red"><span><strong><span><span aria-hidden="true" class="fas fa-thumbs-down"></span></span> Bad</strong>
+                  </span>
+                </font>
               </p>
               <pre><code class="hljs java"><span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) {
 <span class="hljs-comment">// Do something</span>
@@ -434,7 +472,8 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
 </code></pre>
             </div>
           </div>
-          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is to avoid the comments from breaking the logical structure of the program.</span></p>
+          <p><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Rationale: This is to avoid the comments from breaking the logical structure of the program.</span>
+          </p>
           <h2 id="references">References<a class="fa fa-anchor" href="#references"></a></h2>
           <ol>
             <li><a href="http://geosoft.no/development/javastyle.html">http://geosoft.no/development/javastyle.html</a></li>
@@ -455,7 +494,7 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -483,6 +522,19 @@ isSet, isVisible, isFinished, isFound, isOpen, hasData, wasOpen
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Textbook Chapter [Printable] : Integration</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -44,9 +44,12 @@
           </p>
           <div class="indented-less">
             <div class="indented-less">
-              <h4 id="what">What <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#what"></a></h4>
+              <h4 id="what">What <span class="badge badge-light"><small><small><font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true"
+                  class="glyphicon glyphicon-star-empty"></span>
+                <span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                </small>
+                </small>
+                </span><a class="fa fa-anchor" href="#what"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong>Combining parts of a software product to form a whole is called <em>integration</em></strong>. It is also one of the most troublesome tasks and it rarely goes smoothly.</p>
@@ -61,9 +64,10 @@
           </p>
           <div class="indented-less">
             <div class="indented-less">
-              <h4 id="late-and-one-time-vs-early-and-frequent">'Late and One Time' vs 'Early and Frequent' <span class="badge badge-light"><small><small>
-                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#late-and-one-time-vs-early-and-frequent"></a></h4>
+              <h4 id="late-and-one-time-vs-early-and-frequent">'Late and One Time' vs 'Early and Frequent' <span class="badge badge-light"><small><small><font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font>
+                <span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small>
+                </small>
+                </span><a class="fa fa-anchor" href="#late-and-one-time-vs-early-and-frequent"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong>In terms of timing and frequency, there are two general approaches to integration: <em>late and one-time</em>, <em>early and frequent</em>.</strong></p>
@@ -73,21 +77,23 @@
                   </box>
                   <p><strong><em>Early and frequent</em>: integrate early and evolve each part in parallel, in small steps, re-integrating frequently.</strong></p>
                   <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <em>
-                        <tooltip content="it has all the main components in their minimal form, compiles, and runs but does not produce any useful output">walking skeleton</tooltip>
-                      </em> can be written first. This can be done by one developer, possibly the one in charge of integration. After that, all developers can flesh out the skeleton in parallel, adding one feature at a time. After each feature is done, simply integrate the new code to the main system.</p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <em><tooltip content="it has all the main components in their minimal form, compiles, and runs but does not produce any useful output">walking skeleton</tooltip></em>                      can be written first. This can be done by one developer, possibly the one in charge of integration. After that, all developers can flesh out the skeleton in parallel, adding one feature at a time. After each feature is done, simply
+                      integrate the new code to the main system.</p>
                   </box>
                   <div v-closeable alt="slideshow: comparison" class="non-printable">
                     <p>Here is an animation that compares the two approaches:</p>
-                    <div class="block-embed block-embed-service-powerpoint"><iframe type="text/html" src="https://onedrive.live.com/embed?cid=A5AF047C4CAD67AB&resid=A5AF047C4CAD67AB%212312&authkey=AHtrsZMwQmNcyAE&em=2&action=embedview&wdAr=1.3333333333333333" frameborder="0" width="610" height="481" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    <div class="block-embed block-embed-service-powerpoint"><iframe type="text/html" src="https://onedrive.live.com/embed?cid=A5AF047C4CAD67AB&resid=A5AF047C4CAD67AB%212312&authkey=AHtrsZMwQmNcyAE&em=2&action=embedview&wdAr=1.3333333333333333" frameborder="0" width="610" height="481" webkitallowfullscreen
+                        mozallowfullscreen allowfullscreen></iframe></div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="indented-less">
-              <h4 id="big-bang-vs-incremental-integration">Big-Bang vs Incremental Integration <span class="badge badge-light"><small><small>
-                      <font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#big-bang-vs-incremental-integration"></a></h4>
+              <h4 id="big-bang-vs-incremental-integration">Big-Bang vs Incremental Integration <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span>
+                <span aria-hidden="true" class="glyphicon glyphicon-star"></span>
+                </font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small>
+                </small>
+                </span><a class="fa fa-anchor" href="#big-bang-vs-incremental-integration"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong><em>Big-bang integration</em>: integrate all components at the same time.</strong></p>
@@ -97,7 +103,8 @@
                   <p><strong><em>Incremental integration</em>: integrate few components at a time.</strong> This approach is better than the big-bang integration because it surfaces integration problems in a more manageable way.</p>
                   <div v-closeable alt="slideshow: comparison" class="non-printable">
                     <p>Here is an animation that compares the two approaches:</p>
-                    <div class="block-embed block-embed-service-powerpoint"><iframe type="text/html" src="https://onedrive.live.com/embed?cid=A5AF047C4CAD67AB&resid=A5AF047C4CAD67AB%212315&authkey=AG4cur5IrM7vr7M&em=2&action=embedview&wdAr=1.3333333333333333" frameborder="0" width="610" height="481" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    <div class="block-embed block-embed-service-powerpoint"><iframe type="text/html" src="https://onedrive.live.com/embed?cid=A5AF047C4CAD67AB&resid=A5AF047C4CAD67AB%212315&authkey=AG4cur5IrM7vr7M&em=2&action=embedview&wdAr=1.3333333333333333" frameborder="0" width="610" height="481" webkitallowfullscreen
+                        mozallowfullscreen allowfullscreen></iframe></div>
                   </div>
                 </div>
               </div>
@@ -110,9 +117,12 @@
           </p>
           <div class="indented-less">
             <div class="indented-less">
-              <h4 id="what-2">What <span class="badge badge-light"><small><small>
-                      <font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#what-2"></a></h4>
+              <h4 id="what-2">What <span class="badge badge-light"><small><small><font color="Crimson"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true"
+                  class="glyphicon glyphicon-star-empty"></span>
+                <span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
+                </small>
+                </small>
+                </span><a class="fa fa-anchor" href="#what-2"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong>Build automation tools automate the steps of the build process, usually by means of build scripts.</strong></p>
@@ -120,10 +130,12 @@
                   <p>Some of these build steps such as to compile, link and package are already automated in most modern IDEs. <span class="dimmed">For example, several steps happen automatically when the ‘build’ button of the IDE is clicked. Some IDEs even allow customization to this build process to some extent.</span></p>
                   <p>However, most big projects use specialized build tools to automate complex build processes.</p>
                   <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some popular build tools relevant to Java developers: <a href="https://gradle.org/">Gradle</a>, <a href="http://maven.apache.org/">Maven</a>, <a href="http://ant.apache.org/">Apache Ant</a>, <a href="http://www.gnu.org/software/make/">GNU Make</a></p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some popular build tools relevant to Java developers: <a href="https://gradle.org/">Gradle</a>, <a href="http://maven.apache.org/">Maven</a>, <a href="http://ant.apache.org/">Apache Ant</a>,
+                      <a href="http://www.gnu.org/software/make/">GNU Make</a></p>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <span class="dimmed">Some other build tools : Grunt (JavaScript), Rake (Ruby)</span></p>
                   </box>
-                  <p><strong>Some build tools also serve as <em>dependency management tools</em></strong>. Modern software projects often depend on third party libraries that evolve constantly. That means developers need to download the correct version of the required libraries and update them regularly. Therefore, dependency management is an important part of build automation. Dependency Management tools can automate that aspect of a project.</p>
+                  <p><strong>Some build tools also serve as <em>dependency management tools</em></strong>. Modern software projects often depend on third party libraries that evolve constantly. That means developers need to download the correct version of
+                    the required libraries and update them regularly. Therefore, dependency management is an important part of build automation. Dependency Management tools can automate that aspect of a project.</p>
                   <box>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Maven and Gradle, in addition to managing the build process, can play the role of dependency management tools too.</p>
                   </box>
@@ -131,15 +143,18 @@
               </div>
             </div>
             <div class="indented-less">
-              <h4 id="continuous-integration-and-continuous-deployment">Continuous Integration and Continuous Deployment <span class="badge badge-light"><small><small>
-                      <font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span>
-                    </small></small></span><a class="fa fa-anchor" href="#continuous-integration-and-continuous-deployment"></a></h4>
+              <h4 id="continuous-integration-and-continuous-deployment">Continuous Integration and Continuous Deployment <span class="badge badge-light"><small><small><font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font>
+                <span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small>
+                </small>
+                </span><a class="fa fa-anchor" href="#continuous-integration-and-continuous-deployment"></a></h4>
               <div class="indented-less">
                 <div>
                   <p><strong>An extreme application of build automation is called <em>continuous integration (CI)</em> in which integration, building, and testing happens automatically after each code change.</strong></p>
                   <p><strong>A natural extension of CI is <em>Continuous Deployment (CD)</em> where the changes are not only integrated continuously, but also deployed to end-users at the same time.</strong></p>
                   <box>
-                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of CI/CD tools: <a href="https://travis-ci.org/">Travis</a>, <a href="http://jenkins-ci.org">Jenkins</a>, <a href="https://www.appveyor.com">Appveyor</a>, <a href="https://circleci.com">CircleCI</a></p>
+                    <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Some examples of CI/CD tools: <a href="https://travis-ci.org/">Travis</a>, <a href="http://jenkins-ci.org">Jenkins</a>, <a href="https://www.appveyor.com">Appveyor</a>,
+                      <a href="https://circleci.com">CircleCI</a>
+                    </p>
                   </box>
                 </div>
               </div>
@@ -150,7 +165,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
+        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
     </footer>
   </div>
 </body>
@@ -178,6 +193,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

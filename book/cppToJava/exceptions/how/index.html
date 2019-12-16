@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - C++ to Java: Exceptions: How to use</title>
   <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -29,14 +29,20 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java Exceptions</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Java Exceptions</span>
+              </span>
+              </span>
+              </span>
+            </p>
             <p></p>
             <p></p>
             <div>
               <div></div>
               <p></p>
               <p><span class="dimmed"><strong><span>C++ to Java → Exceptions →
-                    </span></strong></span></p>
+</span></strong>
+                </span>
+              </p>
               <div id="title-and-body">
                 <div>
                   <h4 id="how-to-use-exceptions"><span>How to Use Exceptions</span><a class="fa fa-anchor" href="#how-to-use-exceptions"></a></h4>
@@ -50,7 +56,8 @@
                       <li>The <code>catch</code> block identifies a block of code, known as an exception handler, that can handle a particular type of exception.</li>
                     </ul>
                     <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>writeList()</code> method below calls a method <code>process()</code> that can cause two type of exceptions. It uses a try-catch construct to deal with each exception.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>writeList()</code> method below calls a method <code>process()</code> that can cause two type of exceptions. It uses a try-catch construct to deal with each
+                        exception.</p>
                       <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">writeList</span><span class="hljs-params">()</span> </span>{
     print(<span class="hljs-string">"starting method"</span>);
     <span class="hljs-keyword">try</span> {
@@ -73,9 +80,12 @@
                         <table class="markbind-table table table-bordered table-striped">
                           <thead>
                             <tr>
-                              <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
-                              <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
-                              <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                              <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </th>
+                              <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </th>
+                              <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </th>
                             </tr>
                           </thead>
                           <tbody>
@@ -88,7 +98,8 @@
                         </table>
                       </div>
                     </box>
-                    <p>You can <strong>use a <code>finally</code> block to specify code that is guaranteed to execute with or without the exception.</strong> This is the right place to close files, recover resources, and otherwise clean up after the code enclosed in the <code>try</code> block.</p>
+                    <p>You can <strong>use a <code>finally</code> block to specify code that is guaranteed to execute with or without the exception.</strong> This is the right place to close files, recover resources, and otherwise clean up after the code
+                      enclosed in the <code>try</code> block.</p>
                     <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code>writeList()</code> method below has a <code>finally</code> block:</p>
                     <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">writeList</span><span class="hljs-params">()</span> </span>{
     print(<span class="hljs-string">"starting method"</span>);
@@ -115,9 +126,12 @@
                       <table class="markbind-table table table-bordered table-striped">
                         <thead>
                           <tr>
-                            <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
-                            <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
-                            <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                            <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                            </th>
+                            <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                            </th>
+                            <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                            </th>
                           </tr>
                         </thead>
                         <tbody>
@@ -137,7 +151,8 @@
                         <p>The class of the exception object indicates the type of exception thrown. The exception object can contain further information about the error, including an error message.</p>
                       </li>
                     </ul>
-                    <p><strong>You can use the <code>throw</code> statement to throw an exception.</strong> The throw statement requires a <tooltip content="Throwable objects are instances of any subclass of the `Throwable` class.">throwable</tooltip> object as the argument.</p>
+                    <p><strong>You can use the <code>throw</code> statement to throw an exception.</strong> The throw statement requires a
+                      <tooltip content="Throwable objects are instances of any subclass of the `Throwable` class.">throwable</tooltip> object as the argument.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's an example of a <code>throw</code> statement.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">if</span> (size == <span class="hljs-number">0</span>) {
@@ -165,9 +180,12 @@
                         <table class="markbind-table table table-bordered table-striped">
                           <thead>
                             <tr>
-                              <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
-                              <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
-                              <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></th>
+                              <th>No exceptions <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </th>
+                              <th><code>IOException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </th>
+                              <th><code>IndexOutOfBoundsException</code> <span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                              </th>
                             </tr>
                           </thead>
                           <tbody>
@@ -209,21 +227,25 @@
     }
 }
 </code></pre>
-                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                                </p>
                                 <pre><code class="hljs">3x4=12
 5x5=25
 </code></pre>
                                 <ol>
                                   <li>
                                     <p>Update the code of <code>printArea</code> to print an error message if <code>WIDTH</code> and/or <code>HEIGHT</code> are not numbers <span class="dimmed">e.g., <code>&quot;Ax4&quot;</code></span><br>
-                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the code tries to parse a non-number to an integer.</p>
+                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>NumberFormatException</code> if the
+                                      code tries to parse a non-number to an integer.</p>
                                   </li>
                                   <li>
                                     <p>Update the code of <code>printArea</code> to print an error message if the descriptor is missing <code>WIDTH</code> and/or <code>HEIGHT</code> <span class="dimmed">e.g., <code>&quot;x4&quot;</code></span><br>
-                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if one or both dimensions are missing.</p>
+                                      <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code>calculateArea</code> will throw the unchecked exception <code>IndexOutOfBoundsException</code> if
+                                      one or both dimensions are missing.</p>
                                   </li>
                                   <li>
-                                    <p>Update the code of <code>calculateArea</code> to throw the checked exception <code>IllegalShapeException</code> if there are more than 2 dimensions <span class="dimmed">e.g., <code>&quot;5x4x3&quot;</code></span> and update the <code>printArea</code> to print an error message for those cases. Here is the code for the <code>IllegalShapeException.java</code></p>
+                                    <p>Update the code of <code>calculateArea</code> to throw the checked exception <code>IllegalShapeException</code> if there are more than 2 dimensions <span class="dimmed">e.g., <code>&quot;5x4x3&quot;</code></span> and
+                                      update the <code>printArea</code> to print an error message for those cases. Here is the code for the <code>IllegalShapeException.java</code></p>
                                   </li>
                                 </ol>
                                 <div class="indented-level2">
@@ -246,7 +268,8 @@
     }
 }
 </code></pre>
-                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                                <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                                </p>
                                 <pre><code class="hljs">3x4=12
 WIDTH or HEIGHT is not a number: 3xy
 WIDTH or HEIGHT is missing: 3x
@@ -316,6 +339,19 @@ Too many dimensions: 3x4x5
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 

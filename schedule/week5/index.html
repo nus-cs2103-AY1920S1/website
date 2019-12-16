@@ -2,20 +2,10 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-122519234-1');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - Week 5 - Summary</title>
   <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -36,6 +26,7 @@
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <header>
+      <div class="w-100 p-1 bg-warning text-center"><span><strong>This site is outdated! The new version is <a href="http://www.comp.nus.edu.sg/~cs2103">here</a>.</strong></span></div>
       <navbar placement="top" type="dark" class="temp-navbar">
         <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T <small>2019 Aug-Dec</small></a>
         <div class="nav-link temp-dropdown-placeholder">Schedule</div>
@@ -53,7 +44,7 @@
           <li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Oct 21] </span></a></li>
           <li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Oct 28] </span></a></li>
           <li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Nov 4] </span></a></li>
-          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11] <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
+          <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Nov 11]  <span aria-hidden="true" class="fas fa-arrow-circle-left"></span></span></a></li>
         </dropdown>
         <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
         <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
@@ -109,410 +100,373 @@
           <p></p>
           <h1 id="week-5-sep-9-summary">Week 5 <small><small><span class="dimmed">[Sep 9]</span> - Summary</small></small><a class="fa fa-anchor" href="#week-5-sep-9-summary"></a></h1>
           <span id="summary">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm border-right border-bottom">
-                  <ul>
-                    <li>
-                      <p>[<a href="/website/schedule/week5/topics.html#W5-1">W5.1</a>] <strong>Requirements: Intro</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                    </li>
-                    <li>
-                      <p>[<a href="/website/schedule/week5/topics.html#W5-2">W5.2</a>] <strong>Requirements: Gathering</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                    </li>
-                    <li>
-                      <p>[<a href="/website/schedule/week5/topics.html#W5-3">W5.3</a>] <strong>Requirements: Specifying</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                    </li>
-                  </ul>
-                  <p></p>
-                  <ul>
-                    <li>
-                      <p>[<a href="/website/schedule/week5/topics.html#W5-4">W5.4</a>] <strong>Code Quality</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                    </li>
-                    <li>
-                      <p>[<a href="/website/schedule/week5/topics.html#W5-5">W5.5</a>] <strong>Refactoring</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                    </li>
-                    <li>
-                      <p>[<a href="/website/schedule/week5/topics.html#W5-6">W5.6</a>] <strong>Assertions</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
-                    </li>
-                    <li>
-                      <p>[<a href="/website/schedule/week5/topics.html#W5-7">W5.7</a>] <strong>Java: streams</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></p>
-                    </li>
-                  </ul>
-                  <p></p>
-                  <ul>
-                    <li>[<a href="/website/schedule/week5/topics.html#W5-8">W5.8</a>] <strong>Continuous Integration/Deployment</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                  </ul>
-                  <p></p>
-                  <panel type="seamless" header="%%Full ToC%%" class="algolia-no-index">
-                    <div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-1">W5.1</a>] <strong>Requirements: Intro</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1a">W5.1a</a>] <span>Requirements → Requirements →
-                                  </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1b">W5.1b</a>] <span>Requirements → Requirements →
-                                  </span></span> <span>Non-Functional Requirements</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1c">W5.1c</a>] <span>Requirements → Requirements →
-                                  </span></span> <span>Quality of Requirements</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1d">W5.1d</a>] <span>Requirements → Requirements →
-                                  </span></span> <span>Prioritizing Requirements</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-2">W5.2</a>] <strong>Requirements: Gathering</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2a">W5.2a</a>] <span>Requirements → Gathering Requirements →
-                                  </span></span> <span>Brainstorming</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2b">W5.2b</a>] <span>Requirements → Gathering Requirements →
-                                  </span></span> <span>Product Surveys</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2c">W5.2c</a>] <span>Requirements → Gathering Requirements →
-                                  </span></span> <span>Observation</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2d">W5.2d</a>] <span>Requirements → Gathering Requirements →
-                                  </span></span> <span>User Surveys</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2e">W5.2e</a>] <span>Requirements → Gathering Requirements →
-                                  </span></span> <span>Interviews</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2f">W5.2f</a>] <span>Requirements → Gathering Requirements →
-                                  </span></span> <span>Focus Groups</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2g">W5.2g</a>] <span>Requirements → Gathering Requirements →
-                                  </span></span> <span>Prototyping</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-3">W5.3</a>] <strong>Requirements: Specifying</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <p>   <strong>Prose</strong></p>
-                          <ul>
-                            <li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3a">W5.3a</a>] <span>Requirements → Specifying Requirements → Prose →
-                                </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                          </ul>
-                          <p>   <strong>Feature Lists</strong></p>
-                          <ul>
-                            <li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3b">W5.3b</a>] <span>Requirements → Specifying Requirements → Feature Lists →
-                                </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                          </ul>
-                          <p>   <strong>User Stories</strong></p>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3c">W5.3c</a>] <span>Requirements → Specifying Requirements → User Stories →
-                                  </span></span> <span>Introduction</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3d">W5.3d</a>] <span>Requirements → Specifying Requirements → User Stories →
-                                  </span></span> <span>Details</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3e">W5.3e</a>] <span>Requirements → Specifying Requirements → User Stories →
-                                  </span></span> <span>Usage</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                          </ul>
-                          <p>   <strong>Glossary</strong></p>
-                          <ul>
-                            <li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3f">W5.3f</a>] <span>Requirements → Specifying Requirements → Glossary →
-                                </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                          </ul>
-                          <p>   <strong>Supplementary Requirements</strong></p>
-                          <ul>
-                            <li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3g">W5.3g</a>] <span>Requirements → Specifying Requirements → Supplementary Requirements →
-                                </span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                          </ul>
-                        </small></div>
-                      <p></p>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-4">W5.4</a>] <strong>Code Quality</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <p>   <strong>Readability</strong></p>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4a">W5.4a</a>] <span>Implementation → Code Quality → Readability →
-                                  </span></span> <span>Introduction</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4b">W5.4b</a>] <span>Implementation → Code Quality → Readability → Basic →
-                                  </span></span> <span>Avoid Long Methods</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4c">W5.4c</a>] <span>Implementation → Code Quality → Readability → Basic →
-                                  </span></span> <span>Avoid Deep Nesting</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4d">W5.4d</a>] <span>Implementation → Code Quality → Readability → Basic →
-                                  </span></span> <span>Avoid Complicated Expressions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4e">W5.4e</a>] <span>Implementation → Code Quality → Readability → Basic →
-                                  </span></span> <span>Avoid Magic Numbers</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4f">W5.4f</a>] <span>Implementation → Code Quality → Readability → Basic →
-                                  </span></span> <span>Make the Code Obvious</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4g">W5.4g</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                                  </span></span> <span>Structure Code Logically</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4h">W5.4h</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                                  </span></span> <span>Do Not 'Trip Up' Reader</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4i">W5.4i</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                                  </span></span> <span>Practice KISSing</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4j">W5.4j</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                                  </span></span> <span>Avoid Premature Optimizations</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4k">W5.4k</a>] <span>Implementation → Code Quality → Readability → Intermediate →
-                                  </span></span> <span>SLAP Hard</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4l">W5.4l</a>] <span>Implementation → Code Quality → Readability → Advanced →
-                                  </span></span> <span>Make the Happy Path Prominent</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                          <p>   <strong>Naming</strong></p>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4m">W5.4m</a>] <span>Implementation → Code Quality → Naming →
-                                  </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4n">W5.4n</a>] <span>Implementation → Code Quality → Naming → Basic →
-                                  </span></span> <span>Use Nouns for Things and Verbs for Actions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4o">W5.4o</a>] <span>Implementation → Code Quality → Naming → Basic →
-                                  </span></span> <span>Use Standard Words</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4p">W5.4p</a>] <span>Implementation → Code Quality → Naming → Intermediate →
-                                  </span></span> <span>Use Name to Explain</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4q">W5.4q</a>] <span>Implementation → Code Quality → Naming → Intermediate →
-                                  </span></span> <span>Not Too Long, Not Too Short</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4r">W5.4r</a>] <span>Implementation → Code Quality → Naming → Intermediate →
-                                  </span></span> <span>Avoid Misleading Names</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                          <p>   <strong>Unsafe Practices</strong></p>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4s">W5.4s</a>] <span>Implementation → Code Quality → Error-Prone Practices →
-                                  </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4t">W5.4t</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
-                                  </span></span> <span>Use the Default Branch</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4u">W5.4u</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
-                                  </span></span> <span>Don't Recycle Variables or Parameters</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4v">W5.4v</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
-                                  </span></span> <span>Avoid Empty Catch Blocks</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4w">W5.4w</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
-                                  </span></span> <span>Delete Dead Code</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4x">W5.4x</a>] <span>Implementation → Code Quality → Error-Prone Practices → Intermediate →
-                                  </span></span> <span>Minimize Scope of Variables</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4y">W5.4y</a>] <span>Implementation → Code Quality → Error-Prone Practices → Intermediate →
-                                  </span></span> <span>Minimize Code Duplication</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                          <p>   <strong>Code Comments</strong></p>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4z">W5.4z</a>] <span>Implementation → Code Quality → Comments →
-                                  </span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4A">W5.4A</a>] <span>Implementation → Code Quality → Comments → Basic →
-                                  </span></span> <span>Do Not Repeat the Obvious</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4B">W5.4B</a>] <span>Implementation → Code Quality → Comments → Basic →
-                                  </span></span> <span>Write to the Reader</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4C">W5.4C</a>] <span>Implementation → Code Quality → Comments → Intermediate →
-                                  </span></span> <span>Explain WHAT and WHY, not HOW</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-5">W5.5</a>] <strong>Refactoring</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5a">W5.5a</a>] <span>Implementation → Refactoring →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5b">W5.5b</a>] <span>Tools → Intellij IDEA →
-                                  </span></span> <span>Refactoring</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5c">W5.5c</a>] <span>Implementation → Refactoring →
-                                  </span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5d">W5.5d</a>] <span>Implementation → Refactoring →
-                                  </span></span> <span>When</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-6">W5.6</a>] <strong>Assertions</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-6a">W5.6a</a>] <span>Implementation → Error Handling → Assertions →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-6b">W5.6b</a>] <span>Implementation → Error Handling → Assertions →
-                                  </span></span> <span>How</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-6c">W5.6c</a>] <span>Implementation → Error Handling → Assertions →
-                                  </span></span> <span>When</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-7">W5.7</a>] <strong>Java: streams</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-7a">W5.7a</a>] <span>Tools → Java →
-                                </span></span> <span>Streams: Basic</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                          </ul>
-                        </small></div>
-                      <p></p>
-                      <ul>
-                        <li>[<a href="/website/schedule/week5/topics.html#W5-8">W5.8</a>] <strong>Continuous Integration/Deployment</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li>
-                      </ul>
-                      <div class="indented-level2">
-                        <small>
-                          <ul>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-8a">W5.8a</a>] <span>Implementation → Integration → Introduction →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-8b">W5.8b</a>] <span>Implementation → Integration → Build Automation →
-                                  </span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p>
-                            </li>
-                            <li>
-                              <p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-8c">W5.8c</a>] <span>Implementation → Integration → Build Automation →
-                                  </span></span> <span>Continuous Integration and Continuous Deployment</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p>
-                            </li>
-                          </ul>
-                        </small></div>
-                      <p></p>
-                    </div>
-                  </panel>
-                </div>
-                <div class="col-sm border-bottom">
-                  <p><strong>Admin:</strong></p>
-                  <div>
-                    <ol>
-                      <li>Submit post-lecture quiz</li>
-                      <li>Practice peer evaluation on TEAMMATES <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Saturday</span></span></li>
-                    </ol>
-                  </div>
-                  <div>
-                    <p><strong>iP:</strong></p>
-                    <div>
-                      <ol>
-                        <li>Add increments as PRs: <code>A-Assertions</code>, <code>A-CodeQuality</code>, <code>A-Lambdas</code>, <code>A-Streams</code></li>
-                        <li>Set up CI</li>
-                        <li>Add an extension</li>
-                      </ol>
-                    </div>
-                    <p><strong>tP:</strong></p>
-                    <div>
-                      <ol>
-                        <li>Brainstorm user stories <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the tutorial</span></span></li>
-                        <li>Prioritize user stories <span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before or during the tutorial</span></span></li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div class="container">
+  <div class="row">
+  <div class="col-sm border-right border-bottom">
+<ul>
+<li>
+<p>[<a href="/website/schedule/week5/topics.html#W5-1">W5.1</a>] <strong>Requirements: Intro</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
           </span>
-          <br>
-          <box type="tip" dismissible>
-            <ul>
-              <li><strong>One part of this week's lecture is not covered in the textbook</strong> and is relevant for your team project. You are encouraged to attend this week's lecture even if you don't normally come to lectures.</li>
-              <li><strong>The UML Reference Sheet will be useful during this week's lecture</strong>. If you don't have the hard copy, you can use the softcopy in the LumiNUS/files.
+          </span>
+          </p>
+          </li>
+          <li>
+            <p>[<a href="/website/schedule/week5/topics.html#W5-2">W5.2</a>] <strong>Requirements: Gathering</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+                aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </p>
+          </li>
+          <li>
+            <p>[<a href="/website/schedule/week5/topics.html#W5-3">W5.3</a>] <strong>Requirements: Specifying</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </p>
+          </li>
+          </ul>
+          <p></p>
+          <ul>
+            <li>
+              <p>[<a href="/website/schedule/week5/topics.html#W5-4">W5.4</a>] <strong>Code Quality</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+              </p>
+            </li>
+            <li>
+              <p>[<a href="/website/schedule/week5/topics.html#W5-5">W5.5</a>] <strong>Refactoring</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+                  aria-hidden="true"></span></span>
+                </span>
+              </p>
+            </li>
+            <li>
+              <p>[<a href="/website/schedule/week5/topics.html#W5-6">W5.6</a>] <strong>Assertions</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span>
+                </span>
+              </p>
+            </li>
+            <li>
+              <p>[<a href="/website/schedule/week5/topics.html#W5-7">W5.7</a>] <strong>Java: streams</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span>
+                </span>
+              </p>
+            </li>
+          </ul>
+          <p></p>
+          <ul>
+            <li>[<a href="/website/schedule/week5/topics.html#W5-8">W5.8</a>] <strong>Continuous Integration/Deployment</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+            </li>
+          </ul>
+          <p></p>
+          <panel type="seamless" header="%%Full ToC%%" class="algolia-no-index">
+            <div>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-1">W5.1</a>] <strong>Requirements: Intro</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  </span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1a">W5.1a</a>] <span>Requirements → Requirements →
+</span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1b">W5.1b</a>] <span>Requirements → Requirements →
+</span></span> <span>Non-Functional Requirements</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1c">W5.1c</a>] <span>Requirements → Requirements →
+</span></span> <span>Quality of Requirements</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-1d">W5.1d</a>] <span>Requirements → Requirements →
+</span></span> <span>Prioritizing Requirements</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul></small></div>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-2">W5.2</a>] <strong>Requirements: Gathering</strong> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star"
+                    aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2a">W5.2a</a>] <span>Requirements → Gathering Requirements →
+</span></span> <span>Brainstorming</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2b">W5.2b</a>] <span>Requirements → Gathering Requirements →
+</span></span> <span>Product Surveys</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2c">W5.2c</a>] <span>Requirements → Gathering Requirements →
+</span></span> <span>Observation</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2d">W5.2d</a>] <span>Requirements → Gathering Requirements →
+</span></span> <span>User Surveys</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2e">W5.2e</a>] <span>Requirements → Gathering Requirements →
+</span></span> <span>Interviews</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2f">W5.2f</a>] <span>Requirements → Gathering Requirements →
+</span></span> <span>Focus Groups</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-2g">W5.2g</a>] <span>Requirements → Gathering Requirements →
+</span></span> <span>Prototyping</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul></small></div>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-3">W5.3</a>] <strong>Requirements: Specifying</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<p>   <strong>Prose</strong></p>
+<ul>
+<li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3a">W5.3a</a>] <span>Requirements → Specifying Requirements → Prose →
+</span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li></ul>
+<p>   <strong>Feature Lists</strong></p>
+<ul>
+<li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3b">W5.3b</a>] <span>Requirements → Specifying Requirements → Feature Lists →
+</span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></li></ul>
+<p>   <strong>User Stories</strong></p>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3c">W5.3c</a>] <span>Requirements → Specifying Requirements → User Stories →
+</span></span> <span>Introduction</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3d">W5.3d</a>] <span>Requirements → Specifying Requirements → User Stories →
+</span></span> <span>Details</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3e">W5.3e</a>] <span>Requirements → Specifying Requirements → User Stories →
+</span></span> <span>Usage</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li></ul>
+<p>   <strong>Glossary</strong></p>
+<ul>
+<li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3f">W5.3f</a>] <span>Requirements → Specifying Requirements → Glossary →
+</span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li></ul>
+<p>   <strong>Supplementary Requirements</strong></p>
+<ul>
+<li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-3g">W5.3g</a>] <span>Requirements → Specifying Requirements → Supplementary Requirements →
+</span></span> <span>What</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li></ul></small></div>
+              <p></p>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-4">W5.4</a>] <strong>Code Quality</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<p>   <strong>Readability</strong></p>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4a">W5.4a</a>] <span>Implementation → Code Quality → Readability →
+</span></span> <span>Introduction</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4b">W5.4b</a>] <span>Implementation → Code Quality → Readability → Basic →
+</span></span> <span>Avoid Long Methods</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4c">W5.4c</a>] <span>Implementation → Code Quality → Readability → Basic →
+</span></span> <span>Avoid Deep Nesting</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4d">W5.4d</a>] <span>Implementation → Code Quality → Readability → Basic →
+</span></span> <span>Avoid Complicated Expressions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4e">W5.4e</a>] <span>Implementation → Code Quality → Readability → Basic →
+</span></span> <span>Avoid Magic Numbers</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4f">W5.4f</a>] <span>Implementation → Code Quality → Readability → Basic →
+</span></span> <span>Make the Code Obvious</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4g">W5.4g</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+</span></span> <span>Structure Code Logically</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4h">W5.4h</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+</span></span> <span>Do Not 'Trip Up' Reader</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4i">W5.4i</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+</span></span> <span>Practice KISSing</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4j">W5.4j</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+</span></span> <span>Avoid Premature Optimizations</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4k">W5.4k</a>] <span>Implementation → Code Quality → Readability → Intermediate →
+</span></span> <span>SLAP Hard</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4l">W5.4l</a>] <span>Implementation → Code Quality → Readability → Advanced →
+</span></span> <span>Make the Happy Path Prominent</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul>
+<p>   <strong>Naming</strong></p>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4m">W5.4m</a>] <span>Implementation → Code Quality → Naming →
+</span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4n">W5.4n</a>] <span>Implementation → Code Quality → Naming → Basic →
+</span></span> <span>Use Nouns for Things and Verbs for Actions</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4o">W5.4o</a>] <span>Implementation → Code Quality → Naming → Basic →
+</span></span> <span>Use Standard Words</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4p">W5.4p</a>] <span>Implementation → Code Quality → Naming → Intermediate →
+</span></span> <span>Use Name to Explain</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4q">W5.4q</a>] <span>Implementation → Code Quality → Naming → Intermediate →
+</span></span> <span>Not Too Long, Not Too Short</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4r">W5.4r</a>] <span>Implementation → Code Quality → Naming → Intermediate →
+</span></span> <span>Avoid Misleading Names</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul>
+<p>   <strong>Unsafe Practices</strong></p>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4s">W5.4s</a>] <span>Implementation → Code Quality → Error-Prone Practices →
+</span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4t">W5.4t</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
+</span></span> <span>Use the Default Branch</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4u">W5.4u</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
+</span></span> <span>Don't Recycle Variables or Parameters</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4v">W5.4v</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
+</span></span> <span>Avoid Empty Catch Blocks</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4w">W5.4w</a>] <span>Implementation → Code Quality → Error-Prone Practices → Basic →
+</span></span> <span>Delete Dead Code</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4x">W5.4x</a>] <span>Implementation → Code Quality → Error-Prone Practices → Intermediate →
+</span></span> <span>Minimize Scope of Variables</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4y">W5.4y</a>] <span>Implementation → Code Quality → Error-Prone Practices → Intermediate →
+</span></span> <span>Minimize Code Duplication</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul>
+<p>   <strong>Code Comments</strong></p>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4z">W5.4z</a>] <span>Implementation → Code Quality → Comments →
+</span></span> <span>Introduction</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4A">W5.4A</a>] <span>Implementation → Code Quality → Comments → Basic →
+</span></span> <span>Do Not Repeat the Obvious</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4B">W5.4B</a>] <span>Implementation → Code Quality → Comments → Basic →
+</span></span> <span>Write to the Reader</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-4C">W5.4C</a>] <span>Implementation → Code Quality → Comments → Intermediate →
+</span></span> <span>Explain WHAT and WHY, not HOW</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul></small></div>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-5">W5.5</a>] <strong>Refactoring</strong> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                  </span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5a">W5.5a</a>] <span>Implementation → Refactoring →
+</span></span> <span>What</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5b">W5.5b</a>] <span>Tools → Intellij IDEA →
+</span></span> <span>Refactoring</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5c">W5.5c</a>] <span>Implementation → Refactoring →
+</span></span> <span>How</span> <span class="badge badge-pill badge-info"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-5d">W5.5d</a>] <span>Implementation → Refactoring →
+</span></span> <span>When</span> <span class="badge badge-pill badge-success"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul></small></div>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-6">W5.6</a>] <strong>Assertions</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-6a">W5.6a</a>] <span>Implementation → Error Handling → Assertions →
+</span></span> <span>What</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-6b">W5.6b</a>] <span>Implementation → Error Handling → Assertions →
+</span></span> <span>How</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-6c">W5.6c</a>] <span>Implementation → Error Handling → Assertions →
+</span></span> <span>When</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li></ul></small></div>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-7">W5.7</a>] <strong>Java: streams</strong> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span>
+                  </span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-7a">W5.7a</a>] <span>Tools → Java →
+</span></span> <span>Streams: Basic</span> <span class="badge badge-pill badge-secondary"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> : <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></li></ul></small></div>
+              <p></p>
+              <ul>
+                <li>[<a href="/website/schedule/week5/topics.html#W5-8">W5.8</a>] <strong>Continuous Integration/Deployment</strong> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span>
+                </li>
+              </ul>
+              <div class="indented-level2">
+                <small>
+<ul>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-8a">W5.8a</a>] <span>Implementation → Integration → Introduction →
+</span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-8b">W5.8b</a>] <span>Implementation → Integration → Build Automation →
+</span></span> <span>What</span> <span class="badge badge-pill badge-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></p></li>
+<li>
+<p><span class="dimmed">[<a href="/website/schedule/week5/topics.html#W5-8c">W5.8c</a>] <span>Implementation → Integration → Build Automation →
+</span></span> <span>Continuous Integration and Continuous Deployment</span> <span class="badge badge-pill badge-warning"><span style="color:white"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></p></li></ul></small></div>
+              <p></p>
+            </div>
+          </panel>
+        </div>
+        <div class="col-sm border-bottom">
+          <p><strong>Admin:</strong></p>
+          <div>
+            <ol>
+              <li>Submit post-lecture quiz</li>
+              <li>Practice peer evaluation on TEAMMATES <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> by Saturday</span>
+                </span>
               </li>
-            </ul>
-          </box>
+            </ol>
+          </div>
+          <div>
+            <p><strong>iP:</strong></p>
+            <div>
+              <ol>
+                <li>Add increments as PRs: <code>A-Assertions</code>, <code>A-CodeQuality</code>, <code>A-Lambdas</code>, <code>A-Streams</code></li>
+                <li>Set up CI</li>
+                <li>Add an extension</li>
+              </ol>
+            </div>
+            <p><strong>tP:</strong></p>
+            <div>
+              <ol>
+                <li>Brainstorm user stories <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the tutorial</span>
+                  </span>
+                </li>
+                <li>Prioritize user stories <span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before or during the tutorial</span>
+                  </span>
+                </li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
-      <nav id="page-nav" class="navbar navbar-light bg-transparent">
-        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+    </div>
+    </span>
+    <br>
+    <box type="tip" dismissible>
+      <ul>
+        <li><strong>One part of this week's lecture is not covered in the textbook</strong> and is relevant for your team project. You are encouraged to attend this week's lecture even if you don't normally come to lectures.</li>
+        <li><strong>The UML Reference Sheet will be useful during this week's lecture</strong>. If you don't have the hard copy, you can use the softcopy in the LumiNUS/files.
+        </li>
+      </ul>
+    </box>
+  </div>
+  </div>
+  <nav id="page-nav" class="navbar navbar-light bg-transparent">
+    <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
-          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#week-5-sep-9-summary">Week 5 [Sep 9] - Summary&#x200E;</a>
+      <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+        <a class="nav-link py-1" href="#week-5-sep-9-summary">Week 5 [Sep 9] - Summary&#x200E;</a>
 
-          </nav>
-        </div>
       </nav>
     </div>
-    <footer>
-      <div class="text-center">
-        <small>This site was built with <a href="https://markbind.org/">MarkBind 2.5.3</a> at Sat, 30 Nov 2019 02:50:43 GMT</small></div>
-    </footer>
+  </nav>
+  </div>
+  <footer>
+    <div class="text-center">
+      <small>This site was built with <a href="https://markbind.org/">MarkBind 2.7.0</a> at Mon, 16 Dec 2019 06:14:50 GMT</small></div>
+  </footer>
   </div>
 </body>
 <script src="../../markbind/js/vue.min.js"></script>
@@ -539,6 +493,19 @@
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../markbind/layouts/default/scripts.js"></script>
 

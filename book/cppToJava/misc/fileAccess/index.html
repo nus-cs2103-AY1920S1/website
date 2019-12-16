@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.5.3">
+  <meta name="generator" content="MarkBind 2.7.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CS2103/T Website - C++ to Java: Miscellaneous Topics: Constants</title>
   <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -29,14 +29,20 @@
         <div>
           <link rel="stylesheet" href="/website/book/css/textbook.css">
           <div class="website-content">
-            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can read/write text files using Java</span></span></span></span></p>
+            <p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can read/write text files using Java</span>
+              </span>
+              </span>
+              </span>
+            </p>
             <p></p>
             <p></p>
             <div>
               <div></div>
               <p></p>
               <p><span class="dimmed"><strong><span>C++ to Java → Miscellaneous Topics →
-                    </span></strong></span></p>
+</span></strong>
+                </span>
+              </p>
               <div id="title-and-body">
                 <div>
                   <h4 id="file-access"><span>File Access</span><a class="fa fa-anchor" href="#file-access"></a></h4>
@@ -45,7 +51,7 @@
                   <div>
                     <p><strong>You can use the <a href="https://docs.oracle.com/javase/9/docs/api/java/io/File.html"><code>java.io.File</code></a> class to represent a file object</strong>. It can be used to access properties of the file object.</p>
                     <box>
-                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code creates a <code>File</code> object to represent a file <code>fruits.txt</code> that exists in the <code>data</code> directory <mark>relative to the current working directory</mark> and uses that object to print some properties of the file.</p>
+                      <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code creates a <code>File</code> object to represent a file <code>fruits.txt</code> that exists in the <code>data</code> directory <mark>relative to the current working directory</mark>                        and uses that object to print some properties of the file.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.File;
 
 <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">FileClassDemo</span> </span>{
@@ -59,13 +65,18 @@
 
 }
 </code></pre>
-                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
+                      <p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span>
+                      </p>
                       <pre><code class="hljs">full path: C:\sample-code\data\fruits.txt
 file exists?: true
 is Directory?: false
 </code></pre>
                     </box>
-                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you use backslash to specify the file path in a Windows computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
+                    <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you use backslash to specify the file path in a Windows computer, you need to use an additional backslash as an escape character because the backslash by itself
+                      has a special meaning. e.g., use <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span>
+                      </span><code>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span>
+                      </span> <code>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span>
+                      </span> <code>&quot;data/fruits.txt&quot;</code> (even on Windows).</p>
                     <p><strong>You can read from a file using a <code>Scanner</code> object that uses a <code>File</code> object as the <em>source</em> of data.</strong></p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This code uses a <code>Scanner</code> object to read (and print) contents of a text file line-by-line:</p>
@@ -140,7 +151,7 @@ second line
 }
 </code></pre>
                     </box>
-                    <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class that provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a> file to generate <code>Path</code> objects that represent file paths.</p>
+                    <p><strong>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html"><code>java.nio.file.Files</code></a> is a utility class that provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html"><code>java.nio.file.Paths</code></a>                      file to generate <code>Path</code> objects that represent file paths.</p>
                     <box>
                       <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> This example uses the <code>Files</code> class to copy a file and delete a file.</p>
                       <pre><code class="hljs java"><span class="hljs-keyword">import</span> java.io.IOException;
@@ -193,6 +204,19 @@ second line
     });
   }
   MarkBind.afterSetup(initAlgolia);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122519234-1');
 </script>
 <script src="../../../../markbind/layouts/default/scripts.js"></script>
 
