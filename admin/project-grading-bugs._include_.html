@@ -1,0 +1,72 @@
+<div id="featureFlaws">
+  <p>These will be considered <em>feature flaws</em>:<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The feature does not solve the stated problem of the intended user i.e., the feature is 'incomplete'<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Hard-to-test features<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Features that don't fit well with the product<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Features that are not optimized enough for fast-typists or target users</p>
+</div>
+<div id="functionalityBugs">
+  <p>These are considered <em>functionality bugs</em>:<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Behavior differs from the User Guide<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> A legitimate user behavior is not handled <span class="dimmed">e.g. incorrect commands, extra parameters</span><br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Behavior is not specified and differs from normal expectations <span class="dimmed">e.g. error message does not match the error</span><br></p>
+</div>
+<div id="ugBugs">
+  <p>These are considered UG bugs (if they hinder the reader):<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Not enough visuals e.g., screenshots/diagrams<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The visuals are not well integrated to the explanation.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The visuals are unnecessarily repetitive e.g., same visual repeated with minor changes.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Not enough examples e.g., sample inputs/outputs.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The explanation is too brief or unnecessarily long.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The information is hard to understand for the target audience. e.g., using terms the reader might not know<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The document looks messy, or not well-formatted.<br></p>
+</div>
+<div id="dgBugs">
+  <p>These are considered DG bugs (if they hinder the reader):</p>
+  <panel type="seamless" header="Those given as possible UG bugs ...">
+    <div>
+      <div data-included-from="C:\repos\nus-cs2103-AY1920S1\cs2103-website\admin\project-grading-bugs.md">
+        <p>These are considered UG bugs (if they hinder the reader):<br>
+          <span aria-hidden="true" class="fas fa-bug"></span> Not enough visuals e.g., screenshots/diagrams<br>
+          <span aria-hidden="true" class="fas fa-bug"></span> The visuals are not well integrated to the explanation.<br>
+          <span aria-hidden="true" class="fas fa-bug"></span> The visuals are unnecessarily repetitive e.g., same visual repeated with minor changes.<br>
+          <span aria-hidden="true" class="fas fa-bug"></span> Not enough examples e.g., sample inputs/outputs.<br>
+          <span aria-hidden="true" class="fas fa-bug"></span> The explanation is too brief or unnecessarily long.<br>
+          <span aria-hidden="true" class="fas fa-bug"></span> The information is hard to understand for the target audience. e.g., using terms the reader might not know<br>
+          <span aria-hidden="true" class="fas fa-bug"></span> The document looks messy, or not well-formatted.<br></p>
+      </div>
+    </div>
+  </panel>
+  <p><span aria-hidden="true" class="fas fa-bug"></span> UML notation incorrect or not compliant with the notation covered in the module.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Some other type of diagram used when a UML diagram would have worked just as well.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The diagram used is not suitable for the purpose it is used.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> The diagram is too complicated.<br>
+    <span aria-hidden="true" class="fas fa-bug"></span> Excessive use of code e.g., a large chunk of code is cited when a smaller extract of would have sufficed.<br></p>
+</div>
+<div id="bugCalculationNotes">
+  <h5 id="notes-on-how-marks-are-calculated-based-on-pe-product-testing">Notes on how marks are calculated based on PE product testing</h5>
+  <ul>
+    <li><mark>Of 3A and 3B above, the one you do better will be given a 70% weight and the other a 30% weight</mark> so that your total score is driven by your strengths rather than weaknesses.</li>
+    <li>Bugs rejected by the dev team, if the rejection is approved by the teaching team, will not be affect marks of the tester or the developer.</li>
+    <li>The penalty/credit for a bug varies based on,
+      <ul>
+        <li>The severity of the bug: <code>severity.High</code> &gt; <code>severity.Medium</code> &gt; <code>severity.Low</code> &gt; <code>severity.VeryLow</code></li>
+        <li>The type of the bug: <code>type.FunctionalityBug</code> &gt; <code>type.DocumentationBug</code> &gt; <code>type.FeatureFlaw</code></li>
+      </ul>
+    </li>
+    <li>The penalty for a bug is divided equally among assignees.</li>
+    <li>The developers are not penalized for the duplicate bug reports they received but the testers earn credit for the duplicate bug reports they submitted as long as the duplicates are not submitted by the same tester.</li>
+    <li>
+      <tooltip content="i.e., the same bug reported by many testers"><em>Obvious</em> bugs</tooltip> earn less credit for the tester and slightly more penalty for the developer.</li>
+    <li>If the team you tested has a low bug count i.e., total bugs found by all testers is low, we will fall back on other means <span class="dimmed">(e.g., performance in PE dry run)</span> to calculate your marks for system/acceptance testing.</li>
+    <li>Your marks for developer testing depends on the <em>bug density</em> rather than total bug count. Here's an example:
+      <ul>
+        <li><code>n</code> bugs found in your feature; it is a difficult feature consisting of lot of code → 4/5 marks</li>
+        <li><code>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li>
+      </ul>
+    </li>
+    <li>You don't need to find all bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
+    <li>Excessive incorrect downgrading/rejecting/
+      <tooltip content="marking as duplicates">duplicate-flagging</tooltip>, if deemed an unethical attempt to <em>game the system</em>, may be penalized.</li>
+  </ul>
+</div>

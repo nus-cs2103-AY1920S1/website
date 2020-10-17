@@ -904,11 +904,11 @@
     },
     {
       "headings": {
-        "ip-week-6": "iP: Week 6 \n                \n                ",
+        "ip-week-7": "iP: Week 7 \n                ",
         "1-do-any-final-clean-ups": "1 Do any final clean-ups",
         "2-submit-the-final-version-by-monday-2359": "2 Submit the final version  by Monday 2359\n                "
       },
-      "title": "Admin: iP: Week 6",
+      "title": "Admin: iP: Week 7",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -919,10 +919,10 @@
     },
     {
       "headings": {
-        "ip-week-6": "iP: Week 6 \n                \n                ",
+        "ip-week-8": "iP: Week 8 \n                ",
         "1-evaluate-two-peer-ips-by-saturday-2359": "1 Evaluate two peer iPs  by Saturday 2359\n                "
       },
-      "title": "Admin: iP: Week 6",
+      "title": "Admin: iP: Week 8",
       "header": "header.md",
       "footer": "footer.md",
       "siteNav": "adminSiteNav.md",
@@ -1029,37 +1029,126 @@
     },
     {
       "headings": {
+        "demo-duration": "Demo Duration",
+        "demo-target-audience": "Demo Target audience",
+        "demo-scope": "Demo Scope",
+        "demo-structure": "Demo Structure",
+        "demo-tips": "Demo Tips",
+        "demo-special-circumstances": "Demo Special circumstances"
+      },
+      "src": "admin/project-deliverables-demo.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {},
+      "src": "admin/project-deliverables-dg.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {},
+      "src": "admin/project-deliverables-executable.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "pe-overview": "PE Overview",
+        "pe-preparation": "PE Preparation",
+        "pe-phase-1-bug-reporting": "PE Phase 1: Bug Reporting",
+        "pe-phase-1-part-i-product-testing-60-minutes": "PE Phase 1 - Part I Product Testing [60 minutes]",
+        "testing-instructions-for-pe-and-pe-d": "\n          Testing instructions for PE and PE-D",
+        "pe-phase-1-part-ii-evaluating-documents-20-minutes": "PE Phase 1 - Part II Evaluating Documents [20 minutes]",
+        "pe-phase-1-part-iii-overall-evaluation-10-minutes": "PE Phase 1 - Part III Overall Evaluation [10 minutes]",
+        "pe-phase-2-developer-response": "PE Phase 2: Developer Response",
+        "pe-phase-3-tester-response": "PE Phase 3: Tester Response",
+        "pe-phase-4-tutor-moderation": "PE Phase 4: Tutor Moderation"
+      },
+      "src": "admin/project-deliverables-pe.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "pe-d-overview": "PE-D Overview",
+        "pe-d-preparation": "PE-D Preparation",
+        "pe-d-during-the-session": "PE-D During the session",
+        "testing-instructions-for-pe-and-pe-d-2": "\n        Testing instructions for PE and PE-D",
+        "pe-d-after-the-session": "PE-D After the session"
+      },
+      "src": "admin/project-deliverables-ped.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "ppp-objectives": "PPP Objectives",
+        "ppp-sections-to-include": "PPP Sections to include",
+        "ppp-format": "PPP Format",
+        "ppp-page-limit": "PPP Page Limit"
+      },
+      "src": "admin/project-deliverables-ppp.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {},
+      "src": "admin/project-deliverables-sourcecode.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {},
+      "src": "admin/project-deliverables-ug.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "website-readme": "Website README",
+        "website-aboutus-page": "Website AboutUs Page"
+      },
+      "src": "admin/project-deliverables-website.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {
         "tp-deliverables": "tP: Deliverables \n                \n                ",
         "deliverable-executable": "\n              Deliverable: Executable",
         "deliverable-source-code": "\n              Deliverable: Source code",
         "deliverable-user-guide-ug": "\n              Deliverable: User Guide (UG)",
         "deliverable-developer-guide-dg": "\n              Deliverable: Developer Guide (DG)",
-        "deliverable-product-website": "\n              Deliverable: Product Website",
-        "deliverable-project-portfolio-page-ppp": "\n            Deliverable: Project Portfolio Page (PPP)",
+        "deliverable-product-website": "\n            Deliverable: Product Website",
+        "website-readme": "Website README",
+        "website-aboutus-page": "Website AboutUs Page",
+        "deliverable-project-portfolio-page-ppp": "\n          Deliverable: Project Portfolio Page (PPP)",
         "ppp-objectives": "PPP Objectives",
         "ppp-sections-to-include": "PPP Sections to include",
         "ppp-format": "PPP Format",
         "ppp-page-limit": "PPP Page Limit",
-        "deliverable-demo": "\n            Deliverable: Demo",
+        "deliverable-demo": "\n        Deliverable: Demo",
         "demo-duration": "Demo Duration",
         "demo-target-audience": "Demo Target audience",
         "demo-scope": "Demo Scope",
         "demo-structure": "Demo Structure",
         "demo-tips": "Demo Tips",
         "demo-special-circumstances": "Demo Special circumstances",
-        "deliverable-practical-exam-dry-run-pe-d": "\n            Deliverable: Practical Exam Dry Run (PE-D)",
+        "deliverable-practical-exam-dry-run-pe-d": "\n      Deliverable: Practical Exam Dry Run (PE-D)",
         "pe-d-overview": "PE-D Overview",
         "pe-d-preparation": "PE-D Preparation",
         "pe-d-during-the-session": "PE-D During the session",
-        "testing-instructions-for-pe-and-pe-d-2": "\n          Testing instructions for PE and PE-D",
+        "testing-instructions-for-pe-and-pe-d-2": "\n        Testing instructions for PE and PE-D",
         "pe-d-after-the-session": "PE-D After the session",
-        "deliverable-practical-exam-pe": "\n      Deliverable: Practical Exam (PE)",
+        "deliverable-practical-exam-pe": "\n    Deliverable: Practical Exam (PE)",
         "pe-overview-2": "PE Overview",
         "pe-preparation-2": "PE Preparation",
         "pe-phase-1-bug-reporting-2": "PE Phase 1: Bug Reporting",
-        "pe-phase-1-part-i-testing-60-minutes-2": "PE Phase 1 - Part I Testing [60 minutes]",
+        "pe-phase-1-part-i-product-testing-60-minutes-2": "PE Phase 1 - Part I Product Testing [60 minutes]",
         "testing-instructions-for-pe-and-pe-d-3": "\n          Testing instructions for PE and PE-D",
-        "pe-phase-1-part-ii-product-evaluation-2": "PE Phase 1 - Part II Product Evaluation",
+        "pe-phase-1-part-ii-evaluating-documents-20-minutes-2": "PE Phase 1 - Part II Evaluating Documents [20 minutes]",
+        "pe-phase-1-part-iii-overall-evaluation-10-minutes-2": "PE Phase 1 - Part III Overall Evaluation [10 minutes]",
         "pe-phase-2-developer-response-2": "PE Phase 2: Developer Response",
         "pe-phase-3-tester-response-2": "PE Phase 3: Tester Response",
         "pe-phase-4-tutor-moderation-2": "PE Phase 4: Tutor Moderation"
@@ -1075,8 +1164,16 @@
     },
     {
       "headings": {
+        "notes-on-how-marks-are-calculated-based-on-pe-product-testing": "Notes on how marks are calculated based on PE product testing"
+      },
+      "src": "admin/project-grading-bugs.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {
         "tp-grading": "tP: Grading \n                \n                ",
-        "1-project-grading-product-design-5-marks": "1. Project Grading: Product Design [ 5 marks]",
+        "1-project-grading-product-design-5-marks": "1. Project Grading: Product Design [/ 5 marks]",
         "2-project-grading-implementation-10-marks": "2. Project Grading: Implementation [ 10 marks]",
         "3-project-grading-qa-10-marks": "3. Project Grading: QA [ 10 marks]",
         "notes-on-how-marks-are-calculated-based-on-pe-product-testing": "Notes on how marks are calculated based on PE product testing",
@@ -1123,8 +1220,7 @@
         "tp-scope": "tP: Scope \n                \n                 | project expectations",
         "project-direction": "Project Direction",
         "individual-expectations": " Individual Expectations",
-        "individual-expectations-on-features": "[Individual] Expectations on Features",
-        "individual-expectations-on-code": "[Individual] Expectations on Code",
+        "individual-expectations-on-enhancements": "[Individual] Expectations on Enhancements",
         "individual-expectations-on-documentation": "[Individual] Expectations on Documentation",
         "individual-expectations-on-testing": "[Individual] Expectations on Testing",
         "individual-expectations-on-teamwork": "[Individual] Expectations on Teamwork",
@@ -1154,7 +1250,12 @@
     },
     {
       "headings": {
-        "tp-forming-teams": "tP: Forming Teams \n                \n                "
+        "tp-forming-teams": "tP: Forming Teams \n                \n                ",
+        "when-to-form-teams": "When to form teams",
+        "team-size": "Team size",
+        "team-composition": "Team composition",
+        "team-id": "Team ID",
+        "team-communications": "Team Communications"
       },
       "title": "Admin: tP: Forming Teams",
       "header": "header.md",
@@ -1979,7 +2080,7 @@
     },
     {
       "headings": {
-        "software-engineering-for-self-directed-learners-cs2103-t-edition-2019-aug-dec": "Software Engineering for Self-Directed Learners CS2103/T edition - 2019 Aug-Dec\n            "
+        "software-engineering-for-self-directed-learners-cs2103-t-edition-2020-jan-apr": "Software Engineering for Self-Directed Learners CS2103/T edition - 2020 Jan-Apr\n            "
       },
       "title": "Textbook",
       "header": "header.md",

@@ -77,71 +77,58 @@
     </div>
     <h4 id="individual-expectations"><span><span aria-hidden="true" class="fas fa-user"></span></span> Individual Expectations</h4>
     <div id="individualExpectations">
-      <h5 id="individual-expectations-on-features">[Individual] Expectations on Features</h5>
+      <h5 id="individual-expectations-on-enhancements">[Individual] Expectations on Enhancements</h5>
       <ul>
-        <li>You are expected to add at least one feature to the product.</li>
+        <li><strong>You are expected to enhance the product in some way(s).</strong> User-visible enhancements are preferred, but it is not a strict requirement. Some examples:</li>
       </ul>
-      <div class="indented-level2" id="featureDefinition">
+      <div class="indented-level2">
+        <panel type="seamless" header="Example enhancements" minimized>
+          * Add a new feature %%e.g. add the ability to view statistics%% * Enhance an existing features in a major way %%e.g. make the command syntax more user friendly and closer to natural language%% * A redesign of the GUI %%e.g. make it work like a chat application
+          (note: chat is a form of CLI)%% * A redesign of the code %%e.g. Improve the design to improve the code quality.%%
+          <p></p>
+        </panel>
+        <p></p>
+      </div>
+      <ul>
+        <li><strong>The enhancement(s) should fit with the rest of the software</strong> (and the target user profile) and should have the consent of the team members. <span class="dimmed">You will lose marks if you go 'rogue' and add things that don't fit with the product.</span></li>
+      </ul>
+      <div class="indented">
         <box>
-          <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> <strong>What is considered a <em>feature</em>?</strong> As long as you can convince the evaluators (some of whom are your peers) that the work you did belongs under a
-            <tooltip
-              content="i.e., it can be separately identified, tested, and evaluated">distinct</tooltip> &quot;feature X&quot;, it can be considered as a feature. e.g., <code>adding support for reminders</code>, <code>improving the GUI design</code>, <code>making the command user-friendly</code>.
+          <p><strong>Tips:</strong></p>
+          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Contribute to all aspects of the project</strong> e.g. write backend code, frontend code, test code, user documentation, and
+            developer documentation. <span class="dimmed">Reason: If you limit yourself to certain aspects only, you could lose marks allocated for the aspects you did not do. In addition, the final exam assumes that you are familiar with all aspects of the project.</span></p>
+          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Do <em>all</em> the work related to your enhancement yourself.</strong> <span class="dimmed">Reason:If there is no clear division of who did which enhancement, it will be difficult to divide project credit (or assign responsibility for bugs detected by testers) later.</span></p>
+          <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Divide the components of the product among team members</strong>. Notwithstanding the above, you are still expected to divide
+            the components of the product among team members so that each team member is <em>in charge</em> of one or more components. While others will be modifying those components as necessary for the features they are implementing, your role as the
+            <em>in charge</em> of a component is to guide others modifying that component <span class="dimmed">(reason: you are supposed to be the most knowledgeable about that component)</span> and protect that component from degrading <span class="dimmed">e.g., you can review others' changes to your component and suggest possible changes</span>.
           </p>
         </box>
       </div>
       <ul>
-        <li><mark>One big feature can earn you more marks than multiple small features.</mark> <span class="dimmed">Reason: When grading your work for depth and completeness, only your biggest feature you will be considered.</span></li>
-        <li>At least one feature (preferably, the biggest feature) should be end-user visible and end-user testable. <span class="dimmed">Reason: If your feature cannot be identified and tested by the testers, we will not be able to give marks for the quality assurance of that feature.</span></li>
-        <li>The features should fit with the rest of the software (and the target user profile) and should have the consent of the team members.. <span class="dimmed">You will lose marks if you go 'rogue' and add features that don't fit with the product.</span></li>
-      </ul>
-      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of suitable enhancements%%">
-        <ol>
-          <li>Add a new feature</li>
-          <li>Enhance an existing features in a major way <span class="dimmed">e.g. make the command syntax more user friendly and closer to natural language</span></li>
-          <li>A major redesign of the GUI <span class="dimmed">e.g. make it work like a chat application (note: chat is a form of CLI)</span></li>
-          <li>Integrate with online services <span class="dimmed">e.g. Google contacts, Facebook, GitHub, etc.</span></li>
-        </ol>
-      </panel>
-      <panel type="seamless" header="%%<md>:fas-cube:</md> Enhancement vs Grade: Examples%%">
-        <p>Here are some examples of different enhancements and the grade the student is likely to earn for the relevant parts of the project grade.</p>
-        <ul>
-          <li>Example 1 (Expected grade: <code>A</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/610/files">Add support for undo/redo</a></li>
-          <li>Example 2 (Expected grade: <code>B</code>) : <a href="https://github.com/se-edu/addressbook-level4/pull/440/files">Add support for viewing history</a></li>
-        </ul>
-        <p></p>
-      </panel>
-      <p></p>
-      <ul>
-        <li>Although we prefer one big feature over multiple small features, it is fine to do small features at first to build up confidence before you start a big feature.</li>
-      </ul>
-      <panel type="seamless" header="%%<md>:fas-cube:</md> Examples of minor enhancements%%">
-        <p>Here is a non-exhaustive list of minor enhancements:</p>
-        <ol>
-          <li>Support different themes for the Look &amp; Feel <span class="dimmed">dark, light, etc.</span></li>
-          <li>Support more fields <span class="dimmed">e.g. Birthday</span></li>
-          <li>Load a different page instead of the default Google search page <span class="dimmed">e.g. Google Maps page or Twitter page</span></li>
-          <li>Sort items</li>
-          <li>Multiple panels <span class="dimmed">e.g. an additional panel to show recently accessed items</span></li>
-          <li>Marking some items as favorites</li>
-          <li>Ability to search by labels</li>
-          <li>Ability to specify colors for labels</li>
-        </ol>
-        <p></p>
-      </panel>
-      <p></p>
-      <p>We strongly recommend that you contribute to multiple (preferably, all) aspects of the project e.g. write backend code, frontend code, test code, user documentation, and developer documentation. If you limit yourself to certain aspects only, you
-        could lose marks allocated for the aspects you did not do.</p>
-      <p>In particular, <mark>you are required to divide work based on features rather than components</mark>:</p>
-      <ul>
-        <li>By the
-          <tooltip content="i.e. by `v1.4`">end of this project</tooltip> each team member is expected to have implemented at least one feature end-to-end, doing required changes in <em>almost all</em> components. <span class="dimmed">Reason: to encourage you to learn all components of the software, instead of limiting yourself to just one/few components</span>.</li>
-        <li>Nevertheless, you are <mark>still expected to divide the components of the product among team members</mark> so that each team member is <em>in charge</em> of one or more components. While others will be modifying those components as necessary
-          for the features they are implementing, your role as the <em>in charge</em> of a component is to guide others modifying that component <span class="dimmed">(reason: you are supposed to be the most knowledgeable about that component)</span> and
-          protect that component from degrading <span class="dimmed">e.g., you can review others' changes to your component and suggest possible changes</span>.</li>
-      </ul>
-      <h5 id="individual-expectations-on-code">[Individual] Expectations on Code</h5>
-      <ul>
-        <li>Based on past experience, <mark>it is possible for a feature consisting of <strong>~300-500 LoC of functional code</strong> to earn full marks</mark> provided the feature do well in all grading criteria.</li>
+        <li><strong>How much code to write?</strong> The project grade depends on the value you added, as perceived by evaluators (i.e., team members, peer evaluators, and tutors) as well as other factors such as the quality of the code. As such, there is
+          no strong correlation between the LoC and the grade. For instance, in a recent semester, a student who wrote 500 LoC of functional code (i.e., excluding test code and documentation) was able to reach top 20% (in terms of project marks), another
+          who wrote 900 LoC reached the top 10%, while another who wrote more than 5000 LoC ended up in the bottom 10%. Also see the the percentiles of functional LoC written by that batch of students, given below:
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Percentile</th>
+                  <th>25</th>
+                  <th>50</th>
+                  <th>75</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>LoC</td>
+                  <td>~1000</td>
+                  <td>~1500</td>
+                  <td>~2500</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
       </ul>
       <h5 id="individual-expectations-on-documentation">[Individual] Expectations on Documentation</h5>
       <ul>
@@ -154,8 +141,8 @@
           </ul>
         </li>
         <li>You are expected to <mark>showcase your ability to use the various UML diagrams (at least 2 types)</mark>. As mentioned in the previous point, if the documentation of your features doesn't give you enough opportunities to do so <span class="dimmed">e.g., your features only required minor updates to existing diagrams</span>,
-          you are expected to create those opportunities yourself by documenting proposed features or alternative designs. Evaluators will not be able to give you marks unless there is sufficient evidence of your documentation skills.</li>
-        <li>You are recommended to, but not required to, update all existing AB3 documentation to match your product. However, all diagrams that are included in the part of documentation claimed as done by you should be updated to match the current product.</li>
+          you are expected to create those opportunities yourself by documenting <em>proposed</em> features or <em>alternative</em> designs. Evaluators will not be able to give you marks unless there is sufficient evidence of your documentation skills.</li>
+        <li>You are required to update the entire UG and DG to match your product. However, there is no need to update other documents such as tutorials that are AB3 specific.</li>
       </ul>
       <h5 id="individual-expectations-on-testing">[Individual] Expectations on Testing</h5>
       <div id="testing-expectations">
